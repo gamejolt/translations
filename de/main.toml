@@ -1,81 +1,81 @@
 [nav]
-	discover = "Discover"
-	search = "Search"
-	library = "My Library"
+	discover = "Entdecken"
+	search = "Suchen"
+	library = "Meine Bibliothek"
 	community = "Community"
 	dashboard = "Dashboard"
-	developers = "Developers"
+	developers = "Entwickler"
 
-	login = "Log In"
-	join = "Sign Up!"
+	login = "Anmelden"
+	join = "Account erstellen"
 
 [leveling]
-	exp = "EXP"
+	exp = "EP"
 
 [options]
-	more = "More"
-	options = "Options"
+	more = "Mehr"
+	options = "Optionen"
 
 [notifications]
-	all_label = "All"
-	game_news_label = "News Updates"
+	all_label = "Alle"
+	game_news_label = "News-Updates"
 	shouts_label = "Shouts"
-	comment_replies_label = "Comment Replies"
-	forum_posts_label = "Forum Posts"
-	new_friends_label = "New Friends"
-	new_comments_label = "New Comments"
-	game_ratings_label = "Game Ratings"
-	game_follows_label = "Game Follows"
+	comment_replies_label = "Kommentar-Antworten"
+	forum_posts_label = "Forum-Posts"
+	new_friends_label = "Neue Freunde"
+	new_comments_label = "Neue Kommentare"
+	game_ratings_label = "Spiele-Bewertungen"
+	game_follows_label = "Spiele-Follows"
 
 	# Only style using inline tags.
 	# These ones start with the username before this text.
-	new_comment_title_html = "commented on <strong>{{ object }}</strong>."
-	comment_reply_title_html = "replied to your comment on <strong>{{ object }}</strong>."
-	friendship_request_title_html = "sent you a friend request."
-	friendship_accepted_title_html = "accepted your friend request."
-	shout_title_html = "left a shout on your profile."
-	forum_post_title_html = "posted a new reply to <strong>{{ object }}</strong>."
-	game_follow_title_html = "followed <strong>{{ object }}</strong>."
+	new_comment_title_html = "hat <strong>{{ object }}</strong> kommentiert."
+	comment_reply_title_html = "hat auf dein Kommentar bei <strong>{{ object }}</strong> geantwortet."
+	friendship_request_title_html = "hat Dir eine Freundschaftsanfrage geschickt."
+	friendship_accepted_title_html = "hat deine Freundschaftsanfrage akzeptiert."
+	shout_title_html = "hat einen Shout auf deinem Profil hinterlassen."
+	forum_post_title_html = "hat einen neue Antwort auf <strong>{{ object }}</strong> hinterlassen."
+	game_follow_title_html = "folgt nun <strong>{{ object }}</strong>."
 
 	# These ones start with the game name before this text.
-	game_news_title_html = "posted a news update."
-	game_news_title_popover_html = "posted <strong>{{ title }}</strong>"
-	rating_title_html = "received a new rating."
-	rating_title_popover_html = "received a rating of <strong>{{ rating }}</strong>."
+	game_news_title_html = "hat ein News-Update gepostet."
+	game_news_title_popover_html = "hat <strong>{{ title }}</strong> gepostet"
+	rating_title_html = "hat eine neue Bewertung erhalten."
+	rating_title_popover_html = "hat einen Bewertung von <strong>{{ rating }}</strong> erhalten."
 	rating_details_html = """
-	<p>And the value of the rating thou shalt receive is <strong>{{ rating }}</strong>. No more, no less.</p>
+    <p>Und die Bewertung, die Du erhalten sollst, ist <strong>{{ rating }}</strong>. Nicht mehr, und nicht weniger.</p>
 	"""
-	rating_details_title = "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+	rating_details_title = "{{ rating }} soll die Nummer sein, die du erhälst, und die Nummer des Erhaltens soll {{ rating }} sein."
 
-	clear_all_confirmation = "Are you sure you want to mark all notifications as read?"
-	clear_all_of_type_confirmation = "Are you sure you want to mark the filtered notifications as read?"
+	clear_all_confirmation = "Bist Du sicher, dass du alle Benachrichtigungen als gelesen markieren willst?"
+	clear_all_of_type_confirmation = "Bist Du sicher, dass du alle gefilterten Benachrichtigungen als gelesen markieren willst?"
 
-	unread_tooltip = "{{ count | number }} unread"
+	unread_tooltip = "{{ count | number }} ungelesen"
 
 [notifications.popover]
-	dismiss_all = "dismiss all"
-	view_all_button = "View All Activity"
-	more_notifications_one_button = "+1 more notification"
-	more_notifications_other_button = "+{{ count | number }} more notifications"
-	no_notifications = "No unread notifications at this time."
+	dismiss_all = "Alle verwefen"
+	view_all_button = "Alle Aktivitäten anzeigen"
+	more_notifications_one_button = "+1 weitere Benachrichtigung"
+	more_notifications_other_button = "+{{ count | number }} weitere Benachrichtigungen"
+	no_notifications = "Keine ungelesenen Benachrichtigungen zurzeit."
 
 [discover.nav]
 	home = "Home"
 
-	games = "Browse Games"
-	featured = "Featured"
-	best = "Top-Rated"
+	games = "Spiele durchsuchen"
+	featured = "Empfohlen"
+	best = "Beste Bewertungen"
 	fresh = "Fresh"
 	hot = "Hot"
-	new = "Newly Added"
+	new = "Neu hinzugefügt"
 
-	news = "Game News"
-	news_main = "Latest News"
-	news_followed = "Followed Games"
-	news_wip = "Games in Development"
-	news_released = "Released Games"
+	news = "Spiele-News"
+	news_main = "Neueste News"
+	news_followed = "Gefolgte Spiele"
+	news_wip = "Spiele in Entwicklung"
+	news_released = "Veröffentlichte Spiele"
 
-	featured_playlists = "Featured Playlists"
+	featured_playlists = "Empfohlene Playlists"
 
 [discover.categories]
 	all = "All"
