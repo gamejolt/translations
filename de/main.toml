@@ -20,11 +20,11 @@
 	all_label = "Alle"
 	game_news_label = "News-Updates"
 	shouts_label = "Shouts"
-	comment_replies_label = "Kommentar-Antworten"
-	forum_posts_label = "Forum-Posts"
+	comment_replies_label = "Kommentarantworten"
+	forum_posts_label = "Forumposts"
 	new_friends_label = "Neue Freunde"
 	new_comments_label = "Neue Kommentare"
-	game_ratings_label = "Spiele-Bewertungen"
+	game_ratings_label = "Spielebewertungen"
 	game_follows_label = "Spiele-Follows"
 
 	# Only style using inline tags.
@@ -141,9 +141,9 @@
 # Game listings in Discover tab.
 [games.list]
 	section_featured = "Empfohlen"
-	section_best = "Die Besten"
+	section_best = "Am besten"
 	section_new = "Neu hinzugefügt"
-	section_fresh = "Frisch"
+	section_fresh = "Fresh"
 	section_hot = "Hot"
 
 	# {{ category }} will include a spaces for page title.
@@ -212,7 +212,7 @@
 	browser_applet = "Java Applikation"
 	browser_silverlight = "Silverlight"
 
-	maturity = "Reife"
+	maturity = "Altersfreigabe"
 	maturity_everyone = "Jedes Alter"
 	maturity_teen = "Teenager"
 	maturity_adult = "Erwachsene"
@@ -223,279 +223,279 @@
 	status_canceled = "Abgebrochen"
 
 [games.view]
-	overview_tab = "Overview"
+	overview_tab = "Übersicht"
 	news_tab = "News"
-	scores_tab = "Scores"
-	trophies_tab = "Trophies"
+	scores_tab = "Bewertungen"
+	trophies_tab = "Trophäe"
 
-	manage_game_button = "Manage Game"
-	moderate_game_button = "Moderate Game"
-	more_options_button = "More"  # This only shows on mobile currently.
+	manage_game_button = "Spiel verwalten"
+	moderate_game_button = "Spiel moderieren"
+	more_options_button = "Mehr"  # This only shows on mobile currently.
 
 	# This shows when a game you're following has unread notifications.
-	notifications_heading = "Notifications"
-	notifications_news = "{{ count | number }} news articles"
+	notifications_heading = "Benachrichtigungen"
+	notifications_news = "{{ count | number }} Newsartikel"
 
 [games.view.media]
-	close = "Close"
+	close = "Schließen"
 
 	# This shows when they try viewing an image or video through a link and it can't be found on the page.
-	invalid_image_growl = "Couldn't find that image. Maybe it was removed."
-	invalid_video_growl = "Couldn't find that video. Maybe it was removed."
+	invalid_image_growl = "Dieses Bild konnte nicht gefunden werden. Vielleicht wurde es entfernt."
+	invalid_video_growl = "Dieses Video konnte nicht gefunden werden. Vielleicht wurde es entfernt."
 
 [games.view.stats]
-	views_label = "Views"
-	downloads_plays_label = "Plays"
-	ratings_label = "Ratings"
+	views_label = "Aufrufe"
+	downloads_plays_label = "Downloads"
+	ratings_label = "Bewertungen"
 
 	# Show when there are no "plays" because there aren't any builds.
 	na = "N/A"
-	no_builds_tooltip = "This game has no playable builds yet."
-	had_builds_tooltip = "This game used to have playable builds but they have been removed."
+	no_builds_tooltip = "Dieses Spiel hat noch keine spielbaren Builds"
+	had_builds_tooltip = "Dieses Spiel hatte bereits spielbare Builds, aber sie wurden entfernt."
 
-	rating_breakdown_tooltip = "Ratings breakdown."
+	rating_breakdown_tooltip = "Bewertungen im Detail."
 
 # The modal that opens up when you click to play a browser game.
 [game.play_modal]
-	minimize_button = "Minimize"
-	close_button = "Close"
+	minimize_button = "Minimieren"
+	close_button = "Schließen"
 
 	# Shown when you try to play another browser game while one is minimized.
-	already_open_growl_title = "Oh No!"
-	already_open_growl = "You already have a browser game open. You can only have one running at a time."
+	already_open_growl_title = "Oh nein!"
+	already_open_growl = "Du hast bereits ein Browser-Spiel offen. Du kannst nur eines gleichzeitig geöffnet haben."
 
 # Shows after you close a browser game play modal and you haven't rated the game yet.
 # It's a growl that shows to prompt you to rate it.
 [game.rating_growl]
-	title = "Rate" # Shows the game title after this.
-	message = "Game ratings allow us to show you better stuff. Help curate the site!"
+	title = "Bewerte!" # Shows the game title after this.
+	message = "Spielebewertungen helfen uns, Dir bessere Dinge zu zeigen. Hilf uns, die Seite zu verbessern!"
 
 [game.download.game]
-	page_title = "Downloading {{ game }}"
+	page_title = "Herunterladen von {{ game }}"
 
-	downloading_label = "Downloading {{ game }}..."
-	downloading_wait_message = "Your download should begin in just a moment..."
+	downloading_label = "{{ game }} wird heruntergeladen..."
+	downloading_wait_message = "Dein Download sollte jeden Moment beginnen..."
 
-	share_heading = "Liked it? Share it!"
+	share_heading = "Du magst es? teil es!"
 
 	rate_html = """
-	<p><strong>What did you think?</strong> Game ratings allow us to show you better stuff. Help curate the site!</p>
+	<p><strong>Was denkst du über das Spiel?</strong>Spielebewertungen helfen uns, Dir bessere Dinge zu zeigen. Hilf uns, die Seite zu verbessern!</p>
 	"""
 
-	developer_games_heading = "Other Games"
-	developer_games_heading_small = "by this developer"
+	developer_games_heading = "Andere Spiele"
+	developer_games_heading_small = "von diesem Entwickler"
 
-	recommended_heading = "You May Also Like"
+	recommended_heading = "Dies könnte dir auch gefallen..."
 
 [game.download.soundtrack]
-	page_title = "Downloading soundtrack for {{ game }}"
+	page_title = "Soundtrack für {{ game }} wird heruntergeladen"
 
-	downloading_label = "Downloading soundtrack..."
-	downloading_wait_message = "Your download should begin in just a moment..."
+	downloading_label = "Soundtrack wird heruntergeladen..."
+	downloading_wait_message = "Dein Download sollte jeden Moment beginnen..."
 
 # Generic scores stuff.
 [scores]
-	guest = "guest"
+	guest = "Gast"
 
 # The full scores list for games.
 [game.scores]
-	page_title = "Scores for {{ game }}"
+	page_title = "Scores für {{ game }}"
 
-	best_tab = "All Scores"
-	user_tab = "Your Scores"
+	best_tab = "Alle Scores"
+	user_tab = "Deine Scores"
 
-	no_scores_html = "There are no scores on this scoreboard yet."
-	no_user_scores_html = "You don't have any scores here yet!"
+	no_scores_html = "Es sind bis jetzt keine Scores auf diesem Scoreboard."
+	no_user_scores_html = "Du hast bis jetzt keine Scores!"
 
 # Shown on the game page as a sort of overview widget.
 [scores.overview]
 	heading = "Scoreboards"
 
-	user_best_heading = "Your Best Score"
-	user_best_none_heading = "You Haven't Scored Yet!"
-	user_best_none_body_html = "What'cha waitin' for? Get gaming!"
-	user_best_exp_tooltip = "{{ experience | number }} EXP gained from this score!"
+	user_best_heading = "Deine beste Score"
+	user_best_none_heading = "Du hast bis jetzt keine Score erreicht!"
+	user_best_none_body_html = "Worauf wartest du? Fang an zu spielen!"
+	user_best_exp_tooltip = "{{ experience | number }} EP von dieser Score erhalten!"
 
-	top_scores_heading = "Best Scores"
-	no_scores_html = "There are no scores on this scoreboard yet."
-	view_more_button = "View Full Scoreboard"
+	top_scores_heading = "Beste Scores"
+	no_scores_html = "Es sind bis jetzt keine Scores auf diesem Scoreboard."
+	view_more_button = "Komplettes Scoreboard anzeigen"
 
-	latest_scores_heading = "Latest Scores"
+	latest_scores_heading = "Neueste Scores"
 
 # When changing scoreboards as a popover.
 [scores.scoreboard_popover]
-	heading = "Change Scoreboard"
+	heading = "Scoreboard ändern"
 
 # Generic trophies stuff
 [trophies]
-	exp_gained_tooltip = "The amount of EXP gained from this trophy."
-	achieved_tag = "Achieved!"
-	invisible_trophies_message = "Some trophies may be invisible to players. You're seeing them because you're the developer."
+	exp_gained_tooltip = "Die EP von dieser Trophäe."
+	achieved_tag = "Geschafft!"
+	invisible_trophies_message = "Einige Trophäen können für den Spieler unsichtbar sein. Du siehst sie, weil Du der Entwickler bist."
 
 	bronze = "Bronze"
-	silver = "Silver"
+	silver = "Silber"
 	gold = "Gold"
-	platinum = "Platinum"
+	platinum = "Platin"
 
 # The full trophy list for games.
 [game.trophies]
-	page_title = "Trophies for {{ game }}"
-	heading = "Trophies"
+	page_title = "Trophäen für {{ game }}"
+	heading = "Trophäen"
 
-	all_tab = "All"
-	achieved_tab = "Achieved"
-	unachieved_tab = "Not Achieved"
+	all_tab = "Alle"
+	achieved_tab = "Erhalten"
+	unachieved_tab = "Nicht erhalten"
 
-	no_trophies_html = "There are no trophies for this game yet. Bug the developer about adding some!"
+	no_trophies_html = "Es gibt bis jetzt keine Trophäen für diese Spiel. Nerv' den Entwickler, dass er/sie welche hinzufügt!"
 
 # Shown on the game page as a sort of overview widget.
 [trophies.overview]
-	heading = "Trophies"
+	heading = "Trophäen"
 
-	more_link = "+{{ extraCount | number }} more"
-	view_more_button = "View All Trophies"
+	more_link = "+{{ extraCount | number }} mehr"
+	view_more_button = "Alle Trophäen anzeigen"
 
 # The widget that shows their completion as a progress bar.
 [trophies.completion]
 	lead_html = """
-	You've achieved <b>{{ achieved | number }}</b> trophies out of a possible <b>{{ total | number }}</b>.
+	Du hast <b>{{ achieved | number }}</b> von <b>{{ total | number }}</b> Trophäen erhalten.
 	"""
 
-	completion_label = "Completion"
-	exp_gained_label = "EXP Gained"
+	completion_label = "Komplettierung"
+	exp_gained_label = "EP erhalten"
 
-	none_achieved_html = "You haven't achieved any trophies for this game yet!"
+	none_achieved_html = "Du hast bis jetzt keine Trophäen für dieses Spiel erhalten!"
 
 [profile]
-	overview_tab = "Profile"
-	library_tab = "Library"
+	overview_tab = "Profil"
+	library_tab = "Bibliothek"
 
-	verified_tooltip = "Verified Account"
+	verified_tooltip = "Verifizierter Account"
 
-	friend_tag = "Friend"
-	friend_tooltip = "You are friends! Awwww!"
+	friend_tag = "Freund"
+	friend_tooltip = "Ihr seid Frunde! Awwww!"
 	offline_tag = "Offline"
-	offline_tooltip = "This user is currently offline."
+	offline_tooltip = "Dieser Nutzer ist im Moment offline."
 	online_tag = "Online"
-	online_tooltip = "This user is currently online."
+	online_tooltip = "Dieser Nutzer ist im Moment online."
 	in_game_tag = "In-Game"
-	in_game_tooltip = "This user is currently playing a game."
+	in_game_tooltip = "Dieser Nutzer spielt im Moment ein Spiel."
 
-	website_tooltip = "Visit Developer's Web Site"
+	website_tooltip = "Besuche die Website dieses Entwicklers"
 
 	# We show dates after these.
-	joined = "Joined"
-	last_seen = "Last seen"
+	joined = "Beigetreten am"
+	last_seen = "Zuletzt gesehen am"
 
-	friend_request_button = "Send Friend Request"
-	remove_friend_button = "Remove Friend"
-	moderate_user_button = "Moderate User"
+	friend_request_button = "Freundschaftsanfrage senden"
+	remove_friend_button = "Als Freund entfernen"
+	moderate_user_button = "Benutzer moderieren"
 
 	# This only shows on a user's profile if they're playing a game through the Game API.
 	# We show the game info below it.
-	playing_heading = "Currently Playing"
+	playing_heading = "Spielt im Moment ein Spiel"
 
-	friend_request_sent_pending = "Friend request to {{ user }} pending acceptance."
-	friend_request_cancel = "Cancel Request"
-	friend_request_received_pending = "{{ user }} would like to be your friend."
-	friend_request_accept = "Add Friend"
-	friend_request_decline = "Dismiss"
-	friend_request_decline_tooltip = "The sender will not be notified."
+	friend_request_sent_pending = "Freundschaftsanfrage an {{ user }} erwartet deren Antwort."
+	friend_request_cancel = "Anfrage abbrechen"
+	friend_request_received_pending = "{{ user }} würde gerne dein Freund sein."
+	friend_request_accept = "Freund hinzufügen"
+	friend_request_decline = "Abbrechen"
+	friend_request_decline_tooltip = "Der Sender wird nicht benachrichtigt."
 
-	developer_games_teaser_heading = "Latest Games"
-	developer_games_teaser_heading_small = "by this developer"
-	developer_games_teaser_button = "View All ({{ gamesCount | number }})"
+	developer_games_teaser_heading = "Neueste Spiele"
+	developer_games_teaser_heading_small = "dieses Entwicklers"
+	developer_games_teaser_button = "Zeige alle ({{ gamesCount | number }})"
 
 	no_bio_html = """
-	<p><em>This person doesn't have a bio yet, so use your imagination!</em></p>
+	<p><em>Diese Person hat bis jetzt keine Biographie, nutz' deine Fantasie!</em></p>
 	"""
 
 	no_developer_games_html = """
-	This developer hasn't published any games yet. Tell them to get a move on!
+	Dieser Entwickler hat bis jetzt keine Spiele veröffentlicht. Sag ihnen, sie sollen sich beeilen!
 	"""
 
 	banned_message_html = """
-	This account is banned.
+	Dieser Account ist gesperrt.
 	"""
 
 [news.list]
-	all_heading = "Latest Game News"
-	followed_heading = "Followed Game News"
-	wip_heading = "Development News"
-	released_heading = "Released Game News"
+	all_heading = "Neuest Spiele-News"
+	followed_heading = "Gefolgte Spiele-News"
+	wip_heading = "Entwicklungs-News"
+	released_heading = "Veröffentliche Spiele-News"
 
-	all_page_title = "Latest Game News"
-	followed_page_title = "Followed Game News"
-	wip_page_title = "Development News"
-	released_page_title = "Released Game News"
+	all_page_title = "Neuest Spiele-News"
+	followed_page_title = "Gefolgte Spiele-News"
+	wip_page_title = "Entwicklungs-News"
+	released_page_title = "Veröffentliche Spiele-News"
 
-	all_descriptive_html = "Fresh indie game news directly from the developers!"
-	followed_descriptive_html = "News about games you're following."
-	wip_descriptive_html = "News about work-in-progress games that have playable builds."
-	released_descriptive_html = "News about playable games that are considered complete by their developers."
+	all_descriptive_html = "Frische Indie Spiele-News direkt von den Entwicklern!"
+	followed_descriptive_html = "News über Spiele, denen Du folgst."
+	wip_descriptive_html = "News über Spiele in Arbeit, die spielbare Builds haben."
+	released_descriptive_html = "News über spielbare Spiele, die vom Entwickler als fertig angesehen werden."
 
-	all_tab = "All Games"
-	followed_tab = "Followed Games"
-	wip_tab = "In Development"
-	released_tab = "Released Games"
+	all_tab = "Alle Spiele"
+	followed_tab = "Gefolgte Spiele"
+	wip_tab = "In Entwicklung"
+	released_tab = "Veröffentlichte Spiele"
 
-	followed_tooltip = "News about games you're following."
-	wip_tooltip = "News about work-in-progress games that are playable."
-	released_tooltip = "News about games that are marked as complete."
+	followed_tooltip = "News über Spiele, denen Du folgst."
+	wip_tooltip = "News über Spiele in Arbeit, die spielbar sind."
+	released_tooltip = "News über Spiele, die als fertig markiert sind."
 
 	followed_help_html = """
-	<p>News updates about the games you're following show up here.</p>
-	<p>Follow games to customize this feed with the news you care about!</p>
+	<p>News-Updates von Spiele, denen du folgst, werden hier angezeigt.</p>
+	<p>Folge Spielen, um diese Seite mit den News zu füllen, die dich interessieren!</p>
 	"""
 
 	# We show current page number before the articles count.
 	# But we only show it if there are multiple pages.
-	page = "Page {{ page | number }} of"
+	page = "Seite {{ page | number }} von"
 
-	posts_count_none = "No articles."
-	posts_count_one = "1 article."
-	posts_count_other = "{{ count | number }} articles."
+	posts_count_none = "Keine Artikel."
+	posts_count_one = "1 Artikel."
+	posts_count_other = "{{ count | number }} Artikel."
 
 	# They are links. So we show "comment" when there's none as a call to action to comment on the post.
-	post_comments_none = "comment"
-	post_comments_one = "1 comment"
-	post_comments_other = "{{ count | number }} comments"
+	post_comments_none = "Kommentar"
+	post_comments_one = "1 Kommentar"
+	post_comments_other = "{{ count | number }} Kommentare"
 
-	no_posts_html = "No news updates to show yet."
-	no_posts_followed_html = "No updates to show yet! Follow more games to customize this news feed."
+	no_posts_html = "Keine News-Updates zum Anzeigen."
+	no_posts_followed_html = "Keine Updates zum Anzeigen! Folge mehr Spielen, um diese Seite zu füllen."
 
 [library]
-	page_title = "Your Library of Games"
-	heading = "Game Library"
+	page_title = "Deine Bibiolthek an Spielen"
+	heading = "Spiele-Bibliothek"
 	description_html = """
-	<p>This is your personalized library of games. Here dwell the games you've followed and any playlists or bundles that you've made or followed.</p>
+	<p>Dies ist deine persönliche Bibliothek an Spiele. Hier findest Du alle Spiele denen du folgst und alle Playlists oder Pakete die du erstellt hast oder denen du gefolgt bist.</p>
 	"""
 
 	# We need to show "by User" in some places in the library.
-	by = "by"
+	by = "von"
 
 [library.nav]
-	library = "Game Library"
-	followed = "Followed Games"
-	developer = "Your Games"
-	bundles = "Bundles"
+	library = "Spiele-Bibliothek"
+	followed = "Gefolgte Spiele"
+	developer = "Deine Spiele"
+	bundles = "Pakete"
 	playlists = "Playlists"
 
-	new_playlist_button = "New Playlist"
-	filter_playlists_placeholder = "Filter playlists..."
+	new_playlist_button = "Neue Playlist"
+	filter_playlists_placeholder = "Playlists filtern..."
 
 	no_playlists_html = """
-	<p>Create playlists to organize and share the games in your library.</p>
-	<p>Follow other people's playlists to discover more games!</p>
+	<p>Erstelle Playlists, um die Spiele in deiner Bibilothek zu organisieren und mit Anderen zu teilen.</p>
+	<p>Folge den Playlists Anderer um mehr Spiele zu entdecken!</p>
 	"""
 
 [library.collection]
 
 	# Followed Games
-	followed_owner_page_title = "Your Followed Games"
-	followed_owner_heading = "Your Followed Games"
+	followed_owner_page_title = "Deine gefolgten Spiele"
+	followed_owner_heading = "Deine gefolgten Spiele"
 	followed_owner_descriptive_html = """
-	When you follow a game, it shows up here.<br>You'll receive notifications when developers post news about any games you're following.
+	Wenn du einem Spiel folgst, taucht es hier auf.<br>Du erhälst Benachrichtigungen wenn Entwickler News über Spiele postet, denen du folgst.
 	"""
 
 	followed_page_title = "Games Followed by {{ user }}"
