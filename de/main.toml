@@ -60,7 +60,7 @@
 	no_notifications = "Keine ungelesenen Benachrichtigungen zurzeit."
 
 [discover.nav]
-	home = "Home"
+	home = "Start"
 
 	games = "Spiele durchsuchen"
 	featured = "Empfohlen"
@@ -78,149 +78,149 @@
 	featured_playlists = "Empfohlene Playlists"
 
 [discover.categories]
-	all = "All"
+	all = "Alle"
 	arcade = "Arcade"
 	action = "Action"
 	adventure = "Adventure"
 	platformer = "Platformer"
 	puzzle = "Puzzle"
-	rpg = "RPG"
+	rpg = "Rollenspiele"
 	shooter = "Shooter"
-	sports = "Sports"
-	strategy_sim = "Strategy/Sim"
-	other = "Other"
+	sports = "Sport"
+	strategy_sim = "Strategy/Simulator"
+	other = "Andere"
 
 [sorting]
-	sort = "Sort by"
-	new = "Newest"
-	best = "Highest Rated"
+	sort = "Sortieren nach"
+	new = "Neuest"
+	best = "Beste Bewertung"
 	hot = "Hottest"
 
 [games]
 	platform_windows = "Windows"
 	platform_mac = "Mac"
 	platform_linux = "Linux"
-	platform_other = "Other"
+	platform_other = "Andere"
 
 	browser_html = "HTML"
 	browser_flash = "Flash"
 	browser_unity = "Unity"
-	browser_applet = "Java Applet"
+	browser_applet = "Java Applikation"
 	browser_silverlight = "Silverlight"
 
 [games.thumbnail]
-	ratings = "{{ count | number }} rating(s)"
+	ratings = "{{ count | number }} Bewertung(en)"
 
 [discover.home]
-	social_label = "Play along with us!"
+	social_label = "Spiele mit uns!"
 
-	week_best_heading = "This Week's Best Games"
-	week_best_help = "The highest rated games published in the past 7 days."
+	week_best_heading = "Die besten Spiele dieser Woche"
+	week_best_help = "Die am besten bewerteten Spiele, die in den letzten 7 Tagen veröffentlicht wurden."
 
 	hot_heading = "Hot Games"
-	hot_help = "Popular indie games, sorted by Hotness."
+	hot_help = "Beliebte Indie-Spiele, nach 'Hotness' sortiert."
 
-	best_heading = "All-Time Best Games"
-	best_help = "A sampling of the highest rated games of all time."
+	best_heading = "Beste Spiele aller Zeiten"
+	best_help = "Ein Teil der am besten bewerteten Spiele aller Zeiten."
 
 	hot_news_tab = "Hot News"
-	followed_news_tab = "Followed"
+	followed_news_tab = "Gefolgt"
 
 	hot_news_heading = "Hot Game News"
-	hot_news_help = "The hottest indie game news directly from the developers."
+	hot_news_help = "Die größten Indie-Game News direkt von den Entwicklern."
 
-	followed_news_heading = "Followed Game News"
-	followed_news_help = "The latest news from games you're following."
+	followed_news_heading = "News von gefolgten Spielen"
+	followed_news_help = "Die neuesten News von gefolgten Spielen."
 
-	more_news = "More News"
+	more_news = "Mehr News"
 
 	# Shows the Fireside logo right after this.
-	fireside_heading = "Latest from the"
-	fireside_help = "Indie game news, reviews, and opinions by people."
+	fireside_heading = "Neustes vom"
+	fireside_help = "Indie-Spiel News, Reviews und Meinungen von Leuten."
 
 # Game listings in Discover tab.
 [games.list]
-	section_featured = "Featured"
-	section_best = "The Best"
-	section_new = "Newly Added"
-	section_fresh = "Fresh"
+	section_featured = "Empfohlen"
+	section_best = "Die Besten"
+	section_new = "Neu hinzugefügt"
+	section_fresh = "Frisch"
 	section_hot = "Hot"
 
 	# {{ category }} will include a spaces for page title.
-	page_title = "{{ section }} Indie{{ category }}Games"
-	page_title_rpg = "{{ section }} Indie RPGs"
-	page_title_other = "{{ section }} Alternative Indie Games"
+	page_title = "{{ section }} Indie{{ category }}Spiele"
+	page_title_rpg = "{{ section }} Indie Rollenspiele"
+	page_title_other = "{{ section }} Alternative Indie-Spiele"
 
-	date_page_title = "Games Published on {{ date }}"
-	date_heading = "Games Published"
-	date_heading_small = "on {{ date }}"
+	date_page_title = "Spiele am {{ date }} veröffentlicht"
+	date_heading = "Veröffentlichte Spiele"
+	date_heading_small = "am {{ date }}"
 
-	date_range_page_title = "Games Published Between {{ dateStart }} and {{ dateEnd }}"
-	date_range_heading = "Games Published"
-	date_range_heading_small = "between {{ dateStart }} and {{ dateEnd }}"
+	date_range_page_title = "Spiele, die zwischen {{ dateStart }} und {{ dateEnd }} veröffentlicht wurden"
+	date_range_heading = "Veröffentlichte Spiele"
+	date_range_heading_small = "zwischen {{ dateStart }} und {{ dateEnd }}"
 
-	descriptive_category = "{{ category | lowercase }} games"
-	descriptive_category_rpg = "role-playing games"
-	descriptive_category_other = "alt games and other weirdness"
+	descriptive_category = "{{ category | lowercase }} Spiele"
+	descriptive_category_rpg = "Rollenspiele"
+	descriptive_category_other = "alternative Spiele und andere Seltsamkeiten"
 
 	# Categories here are pulled from descriptive_category
-	featured_descriptive_html = "Indie {{ category }} that we've featured on the homepage, sorted by feature date."
-	best_descriptive_html = "Indie {{ category }} sorted by Voltage."
-	fresh_descriptive_html = "Indie {{ category }} sorted by Freshness."
-	hot_descriptive_html = "Indie {{ category }} sorted by Hotness."
-	new_descriptive_html = "Indie {{ category }} sorted by publication date."
-	date_descriptive_html = "Games that were published on {{ date }}, sorted by Voltage, with the best scores at the top."
-	date_range_descriptive_html = "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
+	featured_descriptive_html = "Indie {{ category }} die wir auf der Startseite vorgestellt haben, nach Vorstelldatum sortiert."
+	best_descriptive_html = "Indie {{ category }} nach Voltage sortiert."
+	fresh_descriptive_html = "Indie {{ category }} nach 'Freshness' sortiert."
+	hot_descriptive_html = "Indie {{ category }} nach 'Hotness' sortiert."
+	new_descriptive_html = "Indie {{ category }} nach Veröffentlichungsdatum sortiert."
+	date_descriptive_html = "Spiele, die am {{ date }} veröffentlicht wurden, nach Voltage sortiert, mit den besten Wertungen am höchsten."
+	date_range_descriptive_html = "Spiele die zwischen {{ dateStart }} und {{ dateEnd }} veröffentlicht wurden, nach Voltage sortiert, mit den besten Wertungen am höchsten."
 
-	voltage_tooltip = "Voltage is our weighted rating system. All games start with an average score and the community drags it up or down."
-	freshness_tooltip = "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
-	hotness_tooltip = "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
+	voltage_tooltip = "Voltage ist unser gewichtetes Bewertungssystem. Alle Spiele starten mit einer durchschnittlichen Bewertung und die Community zieht diese hoch oder runter."
+	freshness_tooltip = "'Freshness' zeigt das Interesse der Community an neueren Spielen an. Zu Beginn ist die 'Freshness' eines Spiels hoch und sie sinkt mit der Zeit. Community-Aktivitäten verlangsamen das Sinken."
+	hotness_tooltip = "'Hotness' zeigt das Interesse der Community an neueren Spielen an. Zu Beginn ist die 'Hotness' eines Spiels hoch und sie sinkt mit der Zeit. Community-Aktivitäten verlangsamen das Sinken."
 
-	new_games_warning_html = "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
+	new_games_warning_html = "Neue Spiele werden nicht moderiert, kuratiert oder von der Community geprüft. Du kannst eine Goldmine mit unbekannten Talent, oder auch die gruseligste Scheiße deines Lebens finden."
 
 	sections_selector_hot = "Hot"
-	sections_selector_featured = "Featured"
-	sections_selector_best = "Best"
-	sections_selector_new = "New"
+	sections_selector_featured = "Empfohlen"
+	sections_selector_best = "Beste"
+	sections_selector_new = "Neues"
 
-	games_count_none = "No games."
-	games_count_one = "1 game."
-	games_count_other = "Page {{ page | number }} of {{ count | number }} games."
+	games_count_none = "Keine Spiele."
+	games_count_one = "1 Spiel."
+	games_count_other = "Seite {{ page | number }} von {{ count | number }} Spielen."
 
-	no_games_html = "No games match your filters. <b>Zoinks!</b>"
+	no_games_html = "Keine Spiele passen zum Filter. <b>Zoinks!</b>"
 
 [games.filtering]
-	input_placeholder = "Filter results..."
+	input_placeholder = "Ergebnisse filtern..."
 
 	genre_label = "Genre"
 
-	os_label = "Operating Systems"
-	browser_label = "Browser Games"
-	maturity_label = "Maturity Rating"
+	os_label = "Betriebsystem"
+	browser_label = "Browser-Spiele"
+	maturity_label = "Spiele für Erwachsene"
 	status_label = "Status"
 
 	os = "OS"
 	os_windows = "Windows"
 	os_mac = "Mac"
 	os_linux = "Linux"
-	os_other = "Other"
+	os_other = "Andere"
 
 	browser = "Browser"
 	browser_html = "HTML"
 	browser_flash = "Flash"
 	browser_unity = "Unity"
-	browser_applet = "Java Applet"
+	browser_applet = "Java Applikation"
 	browser_silverlight = "Silverlight"
 
-	maturity = "Maturity"
-	maturity_everyone = "All Ages"
-	maturity_teen = "Teen Content"
-	maturity_adult = "Adult Content"
+	maturity = "Reife"
+	maturity_everyone = "Jedes Alter"
+	maturity_teen = "Teenager"
+	maturity_adult = "Erwachsene"
 
 	status = "Status"
-	status_complete = "Complete"
-	status_wip = "Work in Progress"
-	status_canceled = "Canceled"
+	status_complete = "Vollendet"
+	status_wip = "In Arbeit"
+	status_canceled = "Abgebrochen"
 
 [games.view]
 	overview_tab = "Overview"
