@@ -3,7 +3,7 @@
 	or = "sau"
 	join_link = "Înregistrează-te!"
 	login_link = "Logează-te!"
-	forgot_link = "Forgot Username or Password"
+	forgot_link = "Am uitat Porecla sau Parola"
 
 # /login
 [auth.login]
