@@ -1,117 +1,117 @@
 [auth]
 	# This is for the links a the bottom of login/join auth pages.
-	or = "or"
-	join_link = "Sign Up!"
+	or = "of"
+	join_link = "Registreren!"
 	login_link = "Log In"
-	forgot_link = "Forgot Username or Password"
+	forgot_link = "Inloggegevens opvragen"
 
 # /login
 [auth.login]
-	page_title = "Log in to Game Jolt"
+	page_title = "Log in op Game Jolt"
 
-	twitter_button = "Log In With Twitter"
-	facebook_button = "Log In With Facebook"
+	twitter_button = "Log In Met Twitter"
+	facebook_button = "Log In Met Facebook"
 
-	username_label = "Username"
-	password_label = "Password"
+	username_label = "Gebruikersnaam"
+	password_label = "Wachtwoord"
 	submit_button = "Log In"
 
 	# Shows up if you enter an invalid user/password combination.
-	invalid_login_error_html = "Incorrect username or password."
+	invalid_login_error_html = "Gebruikersnaam of wachtwoord onbekend."
 
 	# Login takes a while, so we show this for the loading text.
 	# Can be quirky and fun! =]
 	loading_message_count = "4"
-	loading_message_1 = "Connecting to mainframe..."
-	loading_message_2 = "Calculating exact value of π..."
-	loading_message_3 = "Deploying amusement modules..."
-	loading_message_4 = "Projecting hoopla matrix..."
+	loading_message_1 = "Verbinden met mainframe..."
+	loading_message_2 = "Berekenen exacte waarde van π..."
+	loading_message_3 = "Uitrollen van amusumentsmodules..."
+	loading_message_4 = "Projecteren hoopla matrix..."
 
 # /join
 [auth.join]
-	page_title = "Join Game Jolt - The Largest Collection of Indie Games by People"
+	page_title = "Neem deel aan Gamejolt - De grootste collectie Indie Games ter wereld"
 
-	twitter_button = "Sign Up With Twitter"
-	facebook_button = "Sign Up With Facebook"
+	twitter_button = "Registreer met Twitter"
+	facebook_button = "Registreer met Facebook"
 
 	# The lead text of the page.
 	# Quirky and fun as it's the text to get them excited about signing up.
 	# Let's try to keep it at 3 lines or less on the page.
 	join_message_html_count = "2"
-	join_message_html_1 = "Join us. Mwuahaha.<br>We have games.<br><strong><em>Mwuahahaha!</em></strong>"
-	join_message_html_2 = "Join us for a rocketship ride into the heart of supernova made of games."
+	join_message_html_1 = "Schrijf je in. Mwuahaha.<br>We hebben games.<br><strong><em>Mwuahahaha!</em></strong>"
+	join_message_html_2 = "Schrijf je in voor een raketrit naar het hart van de supernova van Games."
 
-	email_label = "Email Address"
-	username_label = "Username"
-	password_label = "Password"
+	email_label = "Email Addres"
+	username_label = "Gebruikersnaam"
+	password_label = "Wachtwoord"
 
-	submit_button = "Sign Up"
+	submit_button = "Registreren"
 
 # /join/almost
 # After a successful sign up they land here.
 # They still have to authorize their account.
 [auth.join.almost]
-	page_title = "Almost there!"
+	page_title = "Bijna klaar!"
 	heading = "@:auth.join.almost.page_title"
 	body_html = """
-	<p>Before you can log in to Game Jolt, you need to verify the email address on your account.</p>
-	<p>We've sent you an email with instructions on how to authorize your account.</p>
+	<p>Voordat je kunt inloggen moet je e-mail adres geverifieerd worden.</p>
+	<p>We hebben je een email gestuurd om de authorisatie te voltooien.</p>
 	"""
-	spam = "If you don't see an email within 10 minutes, please check your spam folder. It might have gobbled it up."
-	urgency = "Note that you have a week to authorize your account. After that, it will be deleted and you'll have to sign up again."
+	spam = "Heb je de mail niet binnen 10 minuten ontvangen, check dan je SPAM map, deze heeft de mail waarschijnlijk opgegeten."
+	urgency = "De verificatie mail is een week geldig, activeer binnen een week of de account wordt verwijderd."
 
 # You need to actually sign up to get a valid URL for this page.
 # We only show a Growl on successful authorization and funnel off to the main site.
 [auth.authorize]
-	success_growl_title = "Account Authorized"
-	success_growl = "We're redirecting you to your Game Jolt dashboard now."
+	success_growl_title = "Account Geautoriseerd"
+	success_growl = "We verwijzen je door naar je Gamejolt Dashboard."
 
 # /authorize/169219/62b17036174c87ee503fe0ef2902c79d/2
 # The page that shows when their authorization fails.
 # They shouldn't get here unless they clicked the link again after authorizing. Or if they are trying to cheat something.
 [auth.authorize.invalid]
-	page_title = "Invalid Authorization Code"
-	heading = "Invalid Authorization"
+	page_title = "Authorisatiecode ongeldig"
+	heading = "Authorisatie error"
 	body_html = """
-	<p>Your authorization code is invalid.</p>
-	<p>Please make sure to copy and paste the full URL that we emailed you.</p>
+	<p>De authorisatie code is niet juist.</p>
+	<p>Controleer of je de juiste URL gebruikt hebt.</p>
 	"""
 
 # /forgot
 [auth.forgot]
-	page_title = "Retrieve Login Credentials"
+	page_title = "Log In gegevens ophalen"
 	heading = "@:auth.forgot.page_title"
 
-	email_help = "Enter the email address on your account and we'll email your login credentials to you."
-	email_label = "Email Address"
-	submit_button = "Retrieve Credentials"
+	email_help = "Voor het mailadres in waarmee je geregistreerd hebt, dan sturen we de inloggegevens daar naar toe."
+	email_label = "Email Addres"
+	submit_button = "Gegevens Verzenden"
 
 	# If the email address they enter isn't a registered user, this shows up as an error message.
 	invalid_email_error_html = """
-	<p>Hmm, that email address is not in our system. Maybe you didn't <a href="/join">sign up yet</a>?</p>
+	<p>Hmmm, dat mailadres is ons niet bekend, ben je al <a href="/join">geregistreerd</a>?</p>
 	"""
 
 # /forgot/sent
 # For after they fill out the "forgot" form.
 [auth.forgot.sent]
-	page_title = "Credentials Sent"
+	page_title = "Log In gegevens verzonden"
 	heading = "@:auth.forgot.sent.page_title"
-	body_html = "<p>We've sent your login credentials to the email address you entered.</p>"
-	spam = "If you don't see our email within 10 minutes, please check your spam folder. It might have been gobbled up!"
+	body_html = "<p>Je inloggegevens zijn verzonden naar het opgegeven mailadres.</p>"
+	spam = "Heb je de mail niet binnen 10 minuten ontvangen, check dan je SPAM map, deze heeft de mail waarschijnlijk opgegeten!"
 
 # The URL for this gets sent in an email when they fill out the forgot login credentials page.
 [auth.reset_password]
-	page_title = "Reset Password"
+	page_title = "Wachtwoord resetten"
 	heading = "@:auth.reset_password.page_title"
 
-	password_help = "If you'd like to reset your password, enter a new one below."
-	password_label = "New Password"
-	submit_button = "Reset Password"
+	password_help = "Als je jouw wachtwoord wilt veranderen, voer hier onder dan een nieuw wachtwoord in."
+	password_label = "Nieuwe Wachtwoord"
+	submit_button = "Wachtwoord Resetten"
 
 	# For when they successfully reset.
 	# Will send them back to the login page after showing this Growl.
-	success_growl_title = "Password Changed"
-	success_growl = "Your password has been reset. Now you can log in with your new one."
+	success_growl_title = "Wachtwoord Gewijzigd"
+	success_growl = "Je wachtwoord is gewijzigd, je kunt nu inloggen met het nieuwe wachtwoord."
 
 
 #####################
@@ -121,55 +121,55 @@
 
 	# When they get returned back to GJ from FB/Twitter, etc. we do some processing of the login/sign up.
 	# This is a generic loading message while we're doing our work.
-	loading_message = "Processing. Please wait..."
+	loading_message = "Verwerken, een momentje geduld..."
 
 [auth.linked_account.facebook]
 
 	# Generic failed message.
-	failed_growl = "Unable to log in with Facebook."
-	failed_growl_title = "Login Failed"
+	failed_growl = "Kan niet inloggen met Facebook."
+	failed_growl_title = "Inloggen mislukt"
 
 	# For the rare case when FB doesn't give us an email address. This would be very rare if it did ever happen.
-	no_email_growl = "Your Facebook account did not return an email address. Make sure you have verified it with Facebook."
-	no_email_growl_title = "Oh no!"
+	no_email_growl = "Je Facebook account stuurt ons geen mailadres door. Controleer of je mailadres bij Facebook bekend is."
+	no_email_growl_title = "Oh nee!"
 
 	# When someone tries to sign up with an FB account with an email address that exists on an existing GJ account.
 	# In most cases this will probably be an accident where they signed up in the past
 	# and then try signing up again with FB later on, but their email address is
 	# registered on their old account.
-	duplicate_email_growl = "The email address on this Facebook account is already in use. Perhaps you already have an account?"
-	duplicate_email_growl_title = "Oh no!"
+	duplicate_email_growl = "Het email adres van de opgegeven Facebook account is al bij ons bekend, ben je al geregistreerd?"
+	duplicate_email_growl_title = "Oh nee!"
 
 	# After a successful FB sign up.
-	created_growl = "Your account has been created. It's smooth sailing from here on out!"
-	created_growl_title = "Account Created"
+	created_growl = "Je account is aangemaakt, vanaf hier staat de wind in je zeilen!"
+	created_growl_title = "Account Aangemaakt"
 
 [auth.linked_account.twitter]
 
 	# Generic failed message.
-	failed_growl = "Unable to log in with Twitter."
-	failed_growl_title = "Login Failed"
+	failed_growl = "Kan niet inloggen met Twitter."
+	failed_growl_title = "Inloggen mislukt"
 
 	# When they submit the form and their account is set up with Twitter.
-	created_growl = "Your account has been created. It's smooth sailing from here on out!"
-	created_growl_title = "Account Created"
+	created_growl = "Je account is aangemaakt, vanaf hier staat de wind in je zeilen!"
+	created_growl_title = "Account Aangemaakt"
 
 # /login/finalize-twitter
 # They get directed here when they sign up with a new twitter account and we require their email address.
 [auth.linked_account.twitter.finalize]
-	page_title = "Email Required"
+	page_title = "Email Vereist"
 	heading = "@:auth.linked_account.twitter.finalize.page_title"
 
-	email_help = "To finish logging in with Twitter, please enter a valid email address."
-	email_label = "Email Address"
-	submit_button = "Complete Sign Up"
+	email_help = "Om het inloggen met Twitter af te ronden hebben we je email adres nodig."
+	email_label = "Email Addres"
+	submit_button = "Registratie Afronden"
 
 	# If they entered an email address that exists on another account.
 	# In most cases this will probably be an accident where they signed up in the past
 	# and then try signing up again with twitter later on, but their email address is
 	# registered on their old account.
 	duplicate_email_error_html = """
-	<p>The email address you entered is already in use.</p>
-	<p>If you already have a Game Jolt account you can <a href="/login">log in here</a>.</p>
-	<p>If you've forgotten your login information, you can <a href="/forgot">retrieve it here</a>.</p>
+	<p>Het opgegeven email adres is reeds bij ons bekend.</p>
+	<p>Als je al een Gamejolt account hebt, kun je hier <a href="/login">inloggen</a>.</p>
+	<p>Als je de inloggegevens vergeten bent kun je ze <a href="/forgot">hier opvragen</a>.</p>
 	"""
