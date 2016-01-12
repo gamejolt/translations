@@ -29,8 +29,8 @@
 
 	# Only style using inline tags.
 	# These ones start with the username before this text.
-	new_comment_title_html = "reactie op <strong>{{ object }}</strong>."
-	comment_reply_title_html = "reactie op jouw commentaar bij <strong>{{ object }}</strong>."
+	new_comment_title_html = "heeft gereageerd op <strong>{{ object }}</strong>."
+	comment_reply_title_html = "heeft gereageerd op jouw commentaar bij <strong>{{ object }}</strong>."
 	friendship_request_title_html = "heeft je een vriendschapsverzoek gestuurd."
 	friendship_accepted_title_html = "heeft je vriendschapsverzoek geaccepteerd."
 	shout_title_html = "heeft een reactie op je profiel geplaatst."
@@ -45,7 +45,7 @@
 	rating_details_html = """
 	<p>En de beoordeling is <strong>{{ rating }}</strong>. Niets meer, niets minder.</p>
 	"""
-	rating_details_title = "{{ rating }} is de beoordeling die je ontvangt, en de beoordeling zal zijn {{ rating }}."
+	rating_details_title = "{{ rating }} is de beoordeling die gij ontvangt, en de beoordeling zal zijn {{ rating }}."
 
 	clear_all_confirmation = "Weet je zeker dat je alle notificaties als gelezen wilt markeren?"
 	clear_all_of_type_confirmation = "Weet je zeker dat je de geselecteerde notificaties als gelezen wilt markeren?"
@@ -187,7 +187,7 @@
 	games_count_one = "1 game."
 	games_count_other = "Pagina {{ page | number }} van {{ count | number }} games."
 
-	no_games_html = "Geen games voldoen aan je criteria. <b>Zoinks!</b>"
+	no_games_html = "Geen games gevonden die voldoen aan je criteria. <b>Zoinks!</b>"
 
 [games.filtering]
 	input_placeholder = "Filter resultaten..."
@@ -226,7 +226,7 @@
 	overview_tab = "Overzicht"
 	news_tab = "Nieuws"
 	scores_tab = "Scores"
-	trophies_tab = "Trofee&eacute;n"
+	trophies_tab = "Trofee&euml;n"
 
 	manage_game_button = "Game Beheren"
 	moderate_game_button = "Game Modereren"
@@ -330,7 +330,7 @@
 [trophies]
 	exp_gained_tooltip = "De hoeveelheid XP behaald met deze trofee."
 	achieved_tag = "Vrijgespeeld!"
-	invisible_trophies_message = "Sommige trofee&eacute; zijn ontzichtbaar voor spelers, jij ziet ze omdat je de ontwikkelaar bent."
+	invisible_trophies_message = "Sommige trofee&eauml; zijn ontzichtbaar voor spelers, jij ziet ze omdat je de ontwikkelaar bent."
 
 	bronze = "Brons"
 	silver = "Zilver"
@@ -339,32 +339,32 @@
 
 # The full trophy list for games.
 [game.trophies]
-	page_title = "Trofee&eacute;n voor {{ game }}"
-	heading = "Trofee&eacute;n"
+	page_title = "Trofee&euml;n voor {{ game }}"
+	heading = "Trofee&euml;n"
 
 	all_tab = "Alles"
 	achieved_tab = "Vrijgespeeld"
 	unachieved_tab = "Niet behaald"
 
-	no_trophies_html = "Er zijn nog geen Trofee&eacute;n beschikbaar voor deze game! Val de ontwikkelaar lastig!"
+	no_trophies_html = "Er zijn nog geen Trofee&euml;n beschikbaar voor deze game! Ga daar eens over zeuren bij de ontwikkelaar!"
 
 # Shown on the game page as a sort of overview widget.
 [trophies.overview]
-	heading = "Trofee&eacute;n"
+	heading = "Trofee&euml;n"
 
 	more_link = "+{{ extraCount | number }} more"
-	view_more_button = "Bekijk Alle Trofee&eacute;n"
+	view_more_button = "Bekijk Alle Trofee&euml;n"
 
 # The widget that shows their completion as a progress bar.
 [trophies.completion]
 	lead_html = """
-	Je hebt <b>{{ achieved | number }}</b> van de <b>{{ total | number }} Trofee&eacute;n vrijgespeeld</b>.
+	Je hebt <b>{{ achieved | number }}</b> van de <b>{{ total | number }} Trofee&euml;n vrijgespeeld</b>.
 	"""
 
 	completion_label = "Voltooid"
 	exp_gained_label = "XP Behaald"
 
-	none_achieved_html = "Je hebt nog geen Trofee&eacute;n voor deze game vrijgespeeld!"
+	none_achieved_html = "Je hebt nog geen Trofee&euml;n voor deze game vrijgespeeld!"
 
 [profile]
 	overview_tab = "Profiel"
@@ -400,7 +400,7 @@
 	friend_request_received_pending = "{{ user }} wil graag vrienden met je worden."
 	friend_request_accept = "Vriend Toevoegen"
 	friend_request_decline = "Afwijzen"
-	friend_request_decline_tooltip = "De gebruiker word niet geinformeerd."
+	friend_request_decline_tooltip = "De gebruiker wordt niet geinformeerd."
 
 	developer_games_teaser_heading = "Laatste Games"
 	developer_games_teaser_heading_small = "van deze ontwikkelaar"
@@ -411,7 +411,7 @@
 	"""
 
 	no_developer_games_html = """
-	Deze gebruiker heeft nog geen games geplaatst! Geef een schop onder zijn/haar hol!
+	Deze gebruiker heeft nog geen games geplaatst! Geef hem/haar eens een schop onder zijn/haar hol!
 	"""
 
 	banned_message_html = """
@@ -457,9 +457,9 @@
 	posts_count_other = "{{ count | number }} artikelen."
 
 	# They are links. So we show "comment" when there's none as a call to action to comment on the post.
-	post_comments_none = "commentaar"
-	post_comments_one = "1 commentaar"
-	post_comments_other = "{{ count | number }} commentaren"
+	post_comments_none = "plaats opmerking"
+	post_comments_one = "1 opmerking"
+	post_comments_other = "{{ count | number }} opmerkingen"
 
 	no_posts_html = "Er zijn nog geen nieuwsupdates om weer te geven."
 	no_posts_followed_html = "Er is nog geen nieuws in de door jou gevolgde games, volg er meer."
@@ -567,14 +567,14 @@
 	add_game_success_growl = "Je volgt nu {{ game }}. Zolang de game in je bibliotheek staat zul je notificaties van deze game ontvangen."
 
 	# Generic failure message.
-	add_game_error_growl = "Uh-oh, iets weerhoud je er van deze game te volgen."
+	add_game_error_growl = "Uh-oh, iets weerhoudt je er van deze game te volgen."
 
 	remove_game_confirmation = "Weet je zeker dat je {{ game }} niet meer wilt volgen?"
-	remove_game_success_growl_title = "Game Niet Meer Gevolgd"
+	remove_game_success_growl_title = "Deze Game Wordt Niet Meer Gevolgd"
 	remove_game_success_growl = "Je volgt {{ game }} niet meer en zult geen notificaties meer ontvangen."
 
 	# Generic failure message.
-	remove_game_error_growl = "Uh-oh, iets weerhoud je er van deze game niet meer te volgen."
+	remove_game_error_growl = "Uh-oh, iets weerhoudt je er van deze game niet meer te volgen."
 
 [library.playlists]
 
@@ -603,7 +603,7 @@
 	subscription_developer_description = "Games gemaakt door {{ user }}."
 
 	remove_playlist_confirmation = "Weet je zeker dat je deze playlist niet meer wilt volgen?"
-	remove_playlist_success_growl_title = "Playlist niet langer gevolgd"
+	remove_playlist_success_growl_title = "Playlist wordt niet langer gevolgd"
 	remove_playlist_success_growl = "Je volgt {{ playlist }} niet langer."
 	remove_playlist_error_growl = "Error! Error! Kan niet stoppen met volgen van de playlist."
 
@@ -697,7 +697,7 @@
 	thumbnail_filetype_help_html = """
 	Je afbeelding moet een van de volgende bestandstypes zijn: PNG, JPG, or GIF.<br>
 	Animated GIFs geven de speler een impressie van de game in actie. <br>
-	For stilstaande afbeeldingen is PNG aangeraden, omdat dat een formaat zonder kwaliteitsverlies is.
+	Voor stilstaande afbeeldingen is PNG aangeraden, omdat dat een formaat zonder kwaliteitsverlies is.
 	"""
 
 	yes = "Ja"
@@ -711,7 +711,7 @@
 	activity = "Activiteit"
 	profile = "Bewerk Profiel"
 	linked_accounts = "Gekoppelde Accounts"
-	email_prefs = "Email Voorkeuren"
+	email_prefs = "E-mail Voorkeuren"
 	change_pass = "Wijzig Wachtwoord"
 
 	games = "Jouw Games"
@@ -765,7 +765,7 @@
 	exp_help_heading = "Verzamel XP en verhoog je level!"
 	exp_help_body_html = """
 	<p>Om XP te halen speel je games, vergeet niet ze te <em>beoordelen</em> en een <em>reactie</em> achter te laten op de games die je volgt.</p>
-	<p>De snelste manier om XP te halen is door <strong>trofee&eacute;n</strong> vrij te spelen en je scores te plaatsen op <strong>scoreborden</strong>!</p>
+	<p>De snelste manier om XP te halen is door <strong>trofee&euml;n</strong> vrij te spelen en je scores te plaatsen op <strong>scoreborden</strong>!</p>
 	"""
 
 [dash.activity]
@@ -847,22 +847,22 @@
 	notify_forum_posts_help = "Ontvang emails van forumposts die je gemaakt hebt of waar je op gereageerd hebt."
 
 	notify_followed_game_updates_label = "Updates van Games die je volgt"
-	notify_followed_game_updates_help = "Ontvang emails wanneer er updates zijn bij de games die je volgt."
+	notify_followed_game_updates_help = "Ontvang e-mails wanneer er updates zijn bij de games die je volgt."
 
 	notify_friendships_label = "Vriendschapsverzoeken"
-	notify_friendships_label_help = "Get emails about incoming and accepted friend requests."
+	notify_friendships_label_help = "Ontvang e-mails van binnengekomen vriendschapsverzoeken en geaccepteerde vriendschapsverzoeken."
 
 	notify_private_messages_label = "Chat Berichten"
 	notify_private_messages_help = "Ontvang emails als je vrienden je priveberichten sturen wanneer je offline bent."
 
 	notify_comments_label = "Nieuwe Reacties"
-	notify_comments_help = "Ontvang emails wanneer er nieuwe reacties geplaatst worden op je games."
+	notify_comments_help = "Ontvang e-mails wanneer er nieuwe reacties geplaatst worden op je games."
 
 	notify_ratings_label = "Game Beoordelingen"
-	notify_ratings_help = "Ontvang emails wanneer er beoordelingen geplaatst worden op je games."
+	notify_ratings_help = "Ontvang e-mails wanneer er beoordelingen geplaatst worden op je games."
 
 	notify_game_follows_label = "Game Volgers"
-	notify_game_follows_help = "Ontvang email wanneer iemand je game volgt."
+	notify_game_follows_help = "Ontvang e-mail wanneer iemand je game volgt."
 
 	submit_button = "Voorkeuren Opslaan"
 
@@ -896,8 +896,8 @@
 	Controleer de gegevens goed voordat je ze verstuurt, je kunt deze later niet meer wijzigen.
 	"""
 
-	email_label = "PayPal Email Addres"
-	email_help = "Dit moet een valide mailadres gekoppeld aan een PayPal account zijn."
+	email_label = "PayPal E-mail Adres"
+	email_help = "Dit moet een geldig mailadres gekoppeld aan een PayPal account zijn."
 
 	amount_label = "Uit te betalen hoeveelheid"
 	amount_help = "De minimale opname hoeveelheid is momenteel {{ amount | currency:'$' }}."
@@ -916,7 +916,7 @@
 	<p>Je moet akkoord gaan met de volgende regels voordat je een game plaatst:</p>
 	<ul>
 		<li>Game Jolt accepteert momenteel alleen gratis games. De game moet speelbaar zijn zonder noodzakelijke betalingen.</li>
-		<li>Upload geen games die je niet gemaakt hebt. Als je niet de ontwikkelaar bent, voeg de game dan niet toe aan de site. Als je een fan bent, vraag dan de ontwikkelaar de game te plaatsen.</li>
+		<li>Upload geen games die je niet zelf gemaakt hebt. Als je niet de ontwikkelaar bent, voeg de game dan niet toe aan de site. Als je een fan bent, vraag dan de ontwikkelaar de game te plaatsen.</li>
 		<li>Uitgevers kunnen geen games plaatsen. Onthoud: Dit is Indie!</li>
 		<li>Ons naam is "Game Jolt". Daarom mogen alleen <em>games</em> op de site worden geupload. Geen applicaties, software, of tools zijn op dit moment toegestaan.</li>
 		<li>Demo of lite versies van games zijn niet toegestaan. Je mag alleen volledig gratis games toevoegen in de meest volledige versie die online beschikbaar is.</li>
@@ -932,7 +932,7 @@
 	add_growl_title = "Game Toegevoegd"
 
 	fnaf_autotag_message_html = """
-	<strong>Het lijkt er op dat je game een Five Nights at Freddy's fan game is.</strong> We hebben de tag <code>#fnaf</code> toegevoegd aan de omschrijving. Deze is verplicht voor alle afleidingen uit de  Five Nights at Freddy's serie.
+	<strong>Het lijkt er op dat je game een Five Nights at Freddy's fan game is.</strong> We hebben de tag <code>#fnaf</code> toegevoegd aan de omschrijving. Deze is verplicht voor alle games die gebaseerd zijn op de Five Nights at Freddy's serie.
 	"""
 
 	fnaf_autotag_accept = "Ok"
@@ -1045,7 +1045,7 @@
 	stats_plays = "Spelers/Downloads"
 	stats_rating = "Gem. Waardering"
 	stats_ratings = "Aantal Waarderingen"
-	stats_comments = "Commentaren"
+	stats_comments = "Opmerkingen"
 	stats_followers = "Volgers"
 	stats_na = "N/A"														// Waiting for feedback
 
@@ -1266,9 +1266,9 @@
 	drugs_1_description = "Verwijzingen of afbeeldingen van drugs."
 	drugs_2_description = "Gebruik van drugs."
 
-	tobacco_label = "Sigaretten"
-	tobacco_1_description = "Verwijzingen of afbeeldingen van sigaretten."
-	tobacco_2_description = "Gebruik van sigaretten."
+	tobacco_label = "Tabak"
+	tobacco_1_description = "Verwijzingen of afbeeldingen van tabakswaar."
+	tobacco_2_description = "Gebruik van tabakswaar."
 
 	sex_nudity_legend = "Seks/Naakt"
 
@@ -1580,7 +1580,7 @@
 	"""
 
 [dash.games.builds.form]
-	downloadable_tab = "Downloadable"
+	downloadable_tab = "Downloadbaar"
 	browser_tab = "Browser"
 
 	windows_tag = "Windows"
@@ -1659,7 +1659,7 @@
 	file_selector_tooltip = "Bladeren door bestanden."
 	file_error_label = "pad naar uitvoerbaar bestand"
 
-	submit_button = "Stel Opties Voor Lanceren In"
+	submit_button = "Stel Opstartopties In"
 
 [dash.games.releases.builds.launch_options.file_selector]
 	heading = "Selecteer Uitvoerbaar Bestand"
@@ -1793,7 +1793,7 @@
 	heading = "Game API Overzicht"
 
 	page_help_html = """
-	<p>De Game API geeft je de mogelijkheid om trofee&eacuten, cloud data opslag en nog veel meer toe te voegen aan je game pagina.</p>
+	<p>De Game API geeft je de mogelijkheid om trofee&euml;n, cloud data opslag en nog veel meer toe te voegen aan je game pagina.</p>
 	<p>Je kunt onderstaande links bekijken om te zien of iemand al een API library of plugin heeft gemaakt voor de programmeertaal of de tool die je gebruikt. Je kunt er natuurlijk ook een zelf schrijven en delen op het forum!
 	"""
 
@@ -1812,17 +1812,17 @@
 	sessions_avg_label = "Gemiddelde Duur"
 	sessions_users_label = "Gebruikers met Sessies"
 
-	trophies_heading = "Trofee&eacutem"
-	trophies_label = "Trofee&eacuten"
+	trophies_heading = "Trofee&euml;n"
+	trophies_label = "Trofee&euml;n"
 	trophies_exp_label = "Trofee XP"
 	trophies_exp_tooltip = "De totale hoeveelheid XP behaalbaar in je game."
 	trophies_achieved_label = "Trofee&eacuten Vrijgespeeld"
-	trophies_users_label = "Gebruikers met Trofee&eacuten"
+	trophies_users_label = "Gebruikers met Trofee&euml;n"
 
 	scores_heading = "Scores"
 	scores_label = "Aantal Scores"
 	scores_tooltip = "Het totale aantal geplaatste scores, inclusief gast scores."
-	scores_users_label = "Gebruikers met Scores"
+	scores_users_label = "Gebruikers met scores"
 	scores_users_tooltip = "Het aantal gebruikers dat een score heeft geplaatst op het scorebord, gasten tellen niet mee."
 
 	data_heading = "Data Opslag"
@@ -1834,12 +1834,12 @@
 	heading = "Game API Instellingen"
 
 	page_alert_html = """
-	<p><strong>Geef de prive sleutel nooit aan iemand!</strong> De sleutel wordt gebruik om de scores verstuurd uit je game te valideren. Als iemand met kwaad in de zin deze sleutel te pakken krijgen kunnen ze valse scores plaatsten bij je game. Niet cool!</p>
+	<p><strong>Geef de priv&eacute; sleutel nooit aan iemand!</strong> De sleutel wordt gebruik om de scores verstuurd uit je game te valideren. Als iemand met kwaad in de zin deze sleutel te pakken krijgen kunnen ze valse scores plaatsten bij je game. Niet cool!</p>
 	"""
 
 	game_id_label = "Game ID"
 
-	key_label = "Prive Sleutel"
+	key_label = "Priv&eacute; Sleutel"
 	key_show_link = "(toon sleutel)"
 	key_generate_button = "Nieuwe Sleutel Genereren"
 
@@ -1849,7 +1849,7 @@
 	generate_growl = "De nieuwe sleutel voor je game is aangemaakt. Vergeet niet om je game te updaten met deze gegevens."
 
 [dash.games.trophies]
-	page_title = "Beheer Trofee&eacuten voor{{ game }}"
+	page_title = "Beheer Trofee&euml;en voor{{ game }}"
 	heading = "Game Trofee&eacuten"
 
 	page_help_html = """
@@ -1860,17 +1860,17 @@
 	# Shows when there are hidden trophies for their game.
 	# Just a warning to make sure they unhide them when they're ready.
 	has_hidden_html = """
-	<p><strong>Je hebt verborgen trofee&eacuten!</strong> Vergeet niet ze zichtbaar te maken als je wilt dat spelers ze kunnen vrijspelen.</p>
+	<p><strong>Je hebt verborgen trofee&euml;n!</strong> Vergeet niet ze zichtbaar te maken als je wilt dat spelers ze kunnen vrijspelen.</p>
 	"""
 
 	# Difficulty is the "level": Bronze, Silver, etc.
 	section_heading = "{{ difficulty }} Trofee&eacuten"
-	no_trophies = "Nog geen {{ difficulty | lowercase }} trofee&eacuten toegevoegd."
+	no_trophies = "Nog geen {{ difficulty | lowercase }} trofee&euml;n toegevoegd."
 
 	trophy_id_label = "Trofee ID"
 
 	hidden_tag = "Verborgen"
-	hidden_tooltip = "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&eacuten."
+	hidden_tooltip = "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&euml;n."
 
 	secret_tag = "Geheim"
 	secret_tooltip = "Een geheime trofee laat alleen de naam van de trofee zien, tot deze wordt vrijgespeeld."
@@ -1901,7 +1901,7 @@
 	secret_help = "Een geheime trofee laat alleen de naam van de trofee zien, tot deze wordt vrijgespeeld."
 
 	hidden_label = "Verborgen"
-	hidden_help = "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&eacuten."
+	hidden_help = "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&euml;n."
 
 	save_button = "Trofee Opslaan"
 
