@@ -1,0 +1,2050 @@
+[nav]
+	discover = "Ontdekken"
+	search = "Zoeken"
+	library = "Mijn Bibliotheek"
+	community = "Community"
+	dashboard = "Dashboard"
+	developers = "Ontwikkelaars"
+
+	login = "Log In"
+	join = "Registreren!"
+
+[leveling]
+	exp = "XP"
+
+[options]
+	more = "Meer"
+	options = "Opties"
+
+[notifications]
+	all_label = "Alles"
+	game_news_label = "Nieuws Updates"
+	shouts_label = "Shouts"
+	comment_replies_label = "Reacties op jouw commentaar"
+	forum_posts_label = "Forum Posts"
+	new_friends_label = "Nieuwe Vrienden"
+	new_comments_label = "Nieuwe Reacties"
+	game_ratings_label = "Game Ratings"
+	game_follows_label = "Game Volgers"
+
+	# Only style using inline tags.
+	# These ones start with the username before this text.
+	new_comment_title_html = "reactie op <strong>{{ object }}</strong>."
+	comment_reply_title_html = "reactie op jouw commentaar bij <strong>{{ object }}</strong>."
+	friendship_request_title_html = "heeft je een vriendschapsverzoek gestuurd."
+	friendship_accepted_title_html = "heeft je vriendschapsverzoek geaccepteerd."
+	shout_title_html = "heeft een reactie op je profiel geplaatst."
+	forum_post_title_html = "heeft een nieuwe reactie geplaatst op <strong>{{ object }}</strong>."
+	game_follow_title_html = "volgt <strong>{{ object }}</strong>."
+
+	# These ones start with the game name before this text.
+	game_news_title_html = "heeft een nieuwsupdate gepost."
+	game_news_title_popover_html = "plaatste <strong>{{ title }}</strong>"
+	rating_title_html = "heeft een nieuwe beoordeling ontvangen."
+	rating_title_popover_html = "heeft een nieuwe beoordeling ontvangen van <strong>{{ rating }}</strong>."
+	rating_details_html = """
+	<p>En de beoordeling is <strong>{{ rating }}</strong>. Niets meer, niets minder.</p>
+	"""
+	rating_details_title = "{{ rating }} is de beoordeling die je ontvangt, en de beoordeling zal zijn {{ rating }}."
+
+	clear_all_confirmation = "Weet je zeker dat je alle notificaties als gelezen wilt markeren?"
+	clear_all_of_type_confirmation = "Weet je zeker dat je de geselecteerde notificaties als gelezen wilt markeren?"
+
+	unread_tooltip = "{{ count | number }} ongelezen"
+
+[notifications.popover]
+	dismiss_all = "alles afwijzen"
+	view_all_button = "Bekijk alle activiteit"
+	more_notifications_one_button = "+1 notificatie"
+	more_notifications_other_button = "+{{ count | number }} extra notificaties"
+	no_notifications = "Geen ongelezen notificaties op dit moment."
+
+[discover.nav]
+	home = "Home"
+
+	games = "Bladeren in Games"
+	featured = "Uitgelicht"
+	best = "Best Beoordeeld"
+	fresh = "Fris"
+	hot = "Populair"
+	new = "Nieuw Toegevoegd"
+
+	news = "Game Nieuws"
+	news_main = "Laatste Nieuws"
+	news_followed = "Games die ik volg"
+	news_wip = "Games in Ontwikkeling"
+	news_released = "Uitgebrachte Games"
+
+	featured_playlists = "Uitgelichte playlists"
+
+[discover.categories]
+	all = "Alles"
+	arcade = "Arcade"
+	action = "Actie"
+	adventure = "Avontuur"
+	platformer = "Platformer"
+	puzzle = "Puzzel"
+	rpg = "RPG"
+	shooter = "Shooter"
+	sports = "Sport"
+	strategy_sim = "Strategie/Sim"
+	other = "Overig"
+
+[sorting]
+	sort = "Sorteren op"
+	new = "Nieuwste"
+	best = "Best Beoordeeld"
+	hot = "Populairste"
+
+[games]
+	platform_windows = "Windows"
+	platform_mac = "Mac"
+	platform_linux = "Linux"
+	platform_other = "Overig"
+
+	browser_html = "HTML"
+	browser_flash = "Flash"
+	browser_unity = "Unity"
+	browser_applet = "Java"
+	browser_silverlight = "Silverlight"
+
+[games.thumbnail]
+	ratings = "{{ count | number }} beoordeling(en)"
+
+[discover.home]
+	social_label = "Speel met ons mee!"
+
+	week_best_heading = "Beste Games deze week"
+	week_best_help = "De best beoordeelde games in de afgelopen 7 dagen."
+
+	hot_heading = "Populairste Games"
+	hot_help = "Hoog gewaarderde Indie Games, gesorteerd op populariteit."
+
+	best_heading = "Beste Games Aller Tijden "
+	best_help = "Een overzicht van de beste games ooit op Gamejolt."
+
+	hot_news_tab = "Populair Nieuws"
+	followed_news_tab = "Volgend"
+
+	hot_news_heading = "Populaire Games Nieuws"
+	hot_news_help = "Nieuw van populaire games, direct van de ontwikkelaar."
+
+	followed_news_heading = "Nieuws Gevolgde Games"
+	followed_news_help = "Het laatste nieuws van de Games die je volgt."
+
+	more_news = "Meer Nieuws"
+
+	# Shows the Fireside logo right after this.
+	fireside_heading = "Latest from the"
+	fireside_help = "Indie game news, reviews, and opinions by people."
+
+# Game listings in Discover tab.
+[games.list]
+	section_featured = "Uitgelicht"
+	section_best = "Beste"
+	section_new = "Nieuw"
+	section_fresh = "Fris"
+	section_hot = "Populair"
+
+	# {{ category }} will include a spaces for page title.
+	page_title = "{{ section }} Indie{{ category }}Games"
+	page_title_rpg = "{{ section }} Indie RPGs"
+	page_title_other = "{{ section }} Alternatieve Indie Games"
+
+	date_page_title = "Games Gepubliceerd op {{ date }}"
+	date_heading = "Games Gepubliceerd"
+	date_heading_small = "op {{ date }}"
+
+	date_range_page_title = "Games Gepubliceerd Tussen {{ dateStart }} en {{ dateEnd }}"
+	date_range_heading = "Games Gepubliceerd"
+	date_range_heading_small = "tussen {{ dateStart }} en {{ dateEnd }}"
+
+	descriptive_category = "{{ category | lowercase }} games"
+	descriptive_category_rpg = "role-playing games"
+	descriptive_category_other = "alternatieve games en andere wazigheden"
+
+	# Categories here are pulled from descriptive_category
+	featured_descriptive_html = "Indie {{ category }} die we hebben uitgelicht, gesorteerd op datum van uitlichting."
+	best_descriptive_html = "Indie {{ category }} gesorteerd op Voltage."
+	fresh_descriptive_html = "Indie {{ category }} gesorteerd op Frisheid."
+	hot_descriptive_html = "Indie {{ category }} gesorteerd op Populariteit."
+	new_descriptive_html = "Indie {{ category }} gesorteerd op Publicatiedatum."
+	date_descriptive_html = "Games gepubliceerd op {{ date }}, gesorteerd op Voltage, met de beste scores bovenaan."
+	date_range_descriptive_html = "Games gepubliceerd tussen {{ dateStart }} en {{ dateEnd }}, gesorteerd op Voltage, met de beste scores bovenaan."
+
+	voltage_tooltip = "Voltage is ons evenwichtige rating systeem. Alle games starten met een gemiddelde score en de gemeenschap bepaalt de rest."
+	freshness_tooltip = "Frisheid geeft de interesse van de gemeenschap weer. Frisheid begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
+	hotness_tooltip = "Populariteit geeft de interesse van de gemeenschap weer op recent gepubliceerde games. Populariteit begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
+
+	new_games_warning_html = "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vindt hier een combinatie van onontdekte juweeltjes, maar ook de meest vreemde shit die je ooit gezien hebt!"
+
+	sections_selector_hot = "Populair"
+	sections_selector_featured = "Uitgelicht"
+	sections_selector_best = "Beste"
+	sections_selector_new = "Nieuw"
+
+	games_count_none = "Geen games."
+	games_count_one = "1 game."
+	games_count_other = "Pagina {{ page | number }} van {{ count | number }} games."
+
+	no_games_html = "Geen games voldoen aan je criteria. <b>Zoinks!</b>"
+
+[games.filtering]
+	input_placeholder = "Filter resultaten..."
+
+	genre_label = "Genre"
+
+	os_label = "Besturingssysteem"
+	browser_label = "Browser Games"
+	maturity_label = "Leeftijds Classificatie"
+	status_label = "Status"
+
+	os = "OS"
+	os_windows = "Windows"
+	os_mac = "Mac"
+	os_linux = "Linux"
+	os_other = "Anders"
+
+	browser = "Browser"
+	browser_html = "HTML"
+	browser_flash = "Flash"
+	browser_unity = "Unity"
+	browser_applet = "Java"
+	browser_silverlight = "Silverlight"
+
+	maturity = "Leeftijd"
+	maturity_everyone = "Alle Leeftijden"
+	maturity_teen = "Tieners"
+	maturity_adult = "Volwassenen ( 18+ )"
+
+	status = "Status"
+	status_complete = "Voltooid"
+	status_wip = "In ontwikkeling"
+	status_canceled = "Geannuleerd"
+
+[games.view]
+	overview_tab = "Overzicht"
+	news_tab = "Nieuws"
+	scores_tab = "Scores"
+	trophies_tab = "Trofee&eacute;n"
+
+	manage_game_button = "Game Beheren"
+	moderate_game_button = "Game Modereren"
+	more_options_button = "Meer"  # Dit wordt momenteel alleen weergegeven op mobieltjes.
+
+	# This shows when a game you're following has unread notifications.
+	notifications_heading = "Notificaties"
+	notifications_news = "{{ count | number }} nieuws artikelen"
+
+[games.view.media]
+	close = "Sluiten"
+
+	# This shows when they try viewing an image or video through a link and it can't be found on the page.
+	invalid_image_growl = "Kan de afbeelding niet vinden, misschien is deze verwijderd."
+	invalid_video_growl = "Kan de video niet vinden, misschien is deze verwijderd."
+
+[games.view.stats]
+	views_label = "Bezoeken"
+	downloads_plays_label = "Aantal spelers"
+	ratings_label = "Beoordeling"
+
+	# Show when there are no "plays" because there aren't any builds.
+	na = "Niet Beschikbaar"
+	no_builds_tooltip = "Deze game heeft nog geen speelbare versies."
+	had_builds_tooltip = "Deze game had speelbare versies, maar nu niet meer."
+
+	rating_breakdown_tooltip = "Beoordelingen Overzicht."
+
+# The modal that opens up when you click to play a browser game.
+[game.play_modal]
+	minimize_button = "Minimaliseren"
+	close_button = "Sluiten"
+
+	# Shown when you try to play another browser game while one is minimized.
+	already_open_growl_title = "Oh Nee!"
+	already_open_growl = "Je hebt al een browser game open, je kunt er slechts 1 tegelijk spelen."
+
+# Shows after you close a browser game play modal and you haven't rated the game yet.
+# It's a growl that shows to prompt you to rate it.
+[game.rating_growl]
+	title = "Beoordeel" # Shows the game title after this.
+	message = "Beoordelingen helpen ons de beste selectie te maken, je stem telt mee!"
+
+[game.download.game]
+	page_title = "Downloaden {{ game }}"
+
+	downloading_label = "Downloaden {{ game }}..."
+	downloading_wait_message = "Je download wordt voorbereid..."
+
+	share_heading = "Plezier gehad? Deel het!"
+
+	rate_html = """
+	<p><strong>Wat vond je er van?</strong> Game beoordelingen helpen ons de beste selectie te maken, je stem telt mee!</p>
+	"""
+
+	developer_games_heading = "Andere Games"
+	developer_games_heading_small = "van deze ontwikkelaar"
+
+	recommended_heading = "Deze vind je misschien ook leuk"
+
+[game.download.soundtrack]
+	page_title = "Soundtrack van {{ game }} downloaden"
+
+	downloading_label = "Downloaden soundtrack..."
+	downloading_wait_message = "Je download wordt voorbereid..."
+
+# Generic scores stuff.
+[scores]
+	guest = "gast"
+
+# The full scores list for games.
+[game.scores]
+	page_title = "Scores voor {{ game }}"
+
+	best_tab = "Alle Scores"
+	user_tab = "Jouw Scores"
+
+	no_scores_html = "Er zijn hier nog geen scores geplaatst."
+	no_user_scores_html = "Je hebt hier nog geen score geplaatst!"
+
+# Shown on the game page as a sort of overview widget.
+[scores.overview]
+	heading = "Scorebord"
+
+	user_best_heading = "Jouw beste score"
+	user_best_none_heading = "Je hebt nog niet gescoord!"
+	user_best_none_body_html = "Waar wacht je op? Speel!"
+	user_best_exp_tooltip = "{{ experience | number }} XP behaald met deze score!"
+
+	top_scores_heading = "Beste Scores"
+	no_scores_html = "Er zijn hier nog geen scores geplaatst."
+	view_more_button = "Bekijk volledig Scoreboard"
+
+	latest_scores_heading = "Laatste Scores"
+
+# When changing scoreboards as a popover.
+[scores.scoreboard_popover]
+	heading = "Wijzig Scoreboard"
+
+# Generic trophies stuff
+[trophies]
+	exp_gained_tooltip = "De hoeveelheid XP behaald met deze trofee."
+	achieved_tag = "Vrijgespeeld!"
+	invisible_trophies_message = "Sommige trofee&eacute; zijn ontzichtbaar voor spelers, jij ziet ze omdat je de ontwikkelaar bent."
+
+	bronze = "Brons"
+	silver = "Zilver"
+	gold = "Goud"
+	platinum = "Platina"
+
+# The full trophy list for games.
+[game.trophies]
+	page_title = "Trofee&eacute;n voor {{ game }}"
+	heading = "Trofee&eacute;n"
+
+	all_tab = "Alles"
+	achieved_tab = "Vrijgespeeld"
+	unachieved_tab = "Niet behaald"
+
+	no_trophies_html = "Er zijn nog geen Trofee&eacute;n beschikbaar voor deze game! Val de ontwikkelaar lastig!"
+
+# Shown on the game page as a sort of overview widget.
+[trophies.overview]
+	heading = "Trofee&eacute;n"
+
+	more_link = "+{{ extraCount | number }} more"
+	view_more_button = "Bekijk Alle Trofee&eacute;n"
+
+# The widget that shows their completion as a progress bar.
+[trophies.completion]
+	lead_html = """
+	Je hebt <b>{{ achieved | number }}</b> van de <b>{{ total | number }} Trofee&eacute;n vrijgespeeld</b>.
+	"""
+
+	completion_label = "Voltooid"
+	exp_gained_label = "XP Behaald"
+
+	none_achieved_html = "Je hebt nog geen Trofee&eacute;n voor deze game vrijgespeeld!"
+
+[profile]
+	overview_tab = "Profiel"
+	library_tab = "Bibliotheek"
+
+	verified_tooltip = "Geverifieerde Account"
+
+	friend_tag = "Vriend"
+	friend_tooltip = "Jullie zijn vrienden! Awwww!"
+	offline_tag = "Offline"
+	offline_tooltip = "Deze gebruiker is offline."
+	online_tag = "Online"
+	online_tooltip = "Deze gebruiker is online."
+	in_game_tag = "In-Game"
+	in_game_tooltip = "Deze gebruiker is een game aan het spelen."
+
+	website_tooltip = "Bezoek de website van de ontwikkelaar"
+
+	# We show dates after these.
+	joined = "Ingeschreven"
+	last_seen = "Voor het laatst gezien"
+
+	friend_request_button = "Stuur vriendschapsverzoek"
+	remove_friend_button = "Vriend verwijderen"
+	moderate_user_button = "Gebruiker Modereren"
+
+	# This only shows on a user's profile if they're playing a game through the Game API.
+	# We show the game info below it.
+	playing_heading = "Speelt momenteel"
+
+	friend_request_sent_pending = "Vriendschapsverzoek naar {{ user }} wacht op goedkeuring."
+	friend_request_cancel = "Verzoek Annuleren"
+	friend_request_received_pending = "{{ user }} wil graag vrienden met je worden."
+	friend_request_accept = "Vriend Toevoegen"
+	friend_request_decline = "Afwijzen"
+	friend_request_decline_tooltip = "De gebruiker word niet geinformeerd."
+
+	developer_games_teaser_heading = "Laatste Games"
+	developer_games_teaser_heading_small = "van deze ontwikkelaar"
+	developer_games_teaser_button = "Bekijk alles ({{ gamesCount | number }})"
+
+	no_bio_html = """
+	<p><em>Deze gebruiker heeft nog geen omschrijving! Gebruik je fantasie!</em></p>
+	"""
+
+	no_developer_games_html = """
+	Deze gebruiker heeft nog geen games geplaatst! Geef een schop onder zijn/haar hol!
+	"""
+
+	banned_message_html = """
+	Dit account is verbannen.
+	"""
+
+[news.list]
+	all_heading = "Laatste Game Nieuws"
+	followed_heading = "Gevolgde Games Nieuws"
+	wip_heading = "Ontwikkeling Games Nieuws"
+	released_heading = "Uitgebrachte Games Nieuws"
+
+	all_page_title = "Laatste Game Nieuws"
+	followed_page_title = "Gevolgde Games Nieuws"
+	wip_page_title = "Ontwikkeling Games Nieuws"
+	released_page_title = "Uitgebrachte Games Nieuws"
+
+	all_descriptive_html = "Fris Indie game nieuws! Direct van de ontwikkelaar"
+	followed_descriptive_html = "Nieuws van games die je volgt."
+	wip_descriptive_html = "Nieuws van games in ontwikkeling met speelbare versies."
+	released_descriptive_html = "Nieuws over games die de ontwikkelaar heeft gemarkeerd als uitgebracht."
+
+	all_tab = "Alle Games"
+	followed_tab = "Gevolgde Games"
+	wip_tab = "In Ontwikkeling"
+	released_tab = "Uitgebrachte Games"
+
+	followed_tooltip = "Nieuws over games die je volgt."
+	wip_tooltip = "Nieuws van games in ontwikkeling met speelbare versies."
+	released_tooltip = "Nieuws over games die de ontwikkelaar heeft gemarkeerd als uitgebracht."
+
+	followed_help_html = """
+	<p>Nieuws updates van de games die je volgt worden hier weergegeven.</p>
+	<p>Volg games om een persoonlijk nieuws-overzicht te krijgen!</p>
+	"""
+
+	# We show current page number before the articles count.
+	# But we only show it if there are multiple pages.
+	page = "Pagina {{ page | number }} van"
+
+	posts_count_none = "Geen artikelen."
+	posts_count_one = "1 artikel."
+	posts_count_other = "{{ count | number }} artikelen."
+
+	# They are links. So we show "comment" when there's none as a call to action to comment on the post.
+	post_comments_none = "commentaar"
+	post_comments_one = "1 commentaar"
+	post_comments_other = "{{ count | number }} commentaren"
+
+	no_posts_html = "Er zijn nog geen nieuwsupdates om weer te geven."
+	no_posts_followed_html = "Er is nog geen nieuws in de door jou gevolgde games, volg er meer."
+
+[library]
+	page_title = "Jouw Games Bibliotheek"
+	heading = "Games Bibliotheek"
+	description_html = """
+	<p>Dit is je gepersonaliseerde bibliotheek van games. Hier dwalen de games die je volgt rond en de playlists die je hebt samengesteld.</p>
+	"""
+
+	# We need to show "by User" in some places in the library.
+	by = "door"
+
+[library.nav]
+	library = "Game Bibliotheek"
+	followed = "Gevolgde Games"
+	developer = "Jouw Games"
+	bundles = "Bundels"
+	playlists = "Playlists"
+
+	new_playlist_button = "Nieuwe Playlist"
+	filter_playlists_placeholder = "Sorteer playlists..."
+
+	no_playlists_html = """
+	<p>Maak playlists om de games in je bibliotheek te organiseren.</p>
+	<p>Volg de playlists van anderen om meer games te ontdekken!</p>
+	"""
+
+[library.collection]
+
+	# Followed Games
+	followed_owner_page_title = "Door jou gevolgde Games"
+	followed_owner_heading = "Jouw gevolgde Games"
+	followed_owner_descriptive_html = """
+	Wanneer je een game volgt, komt hij hier terecht.<br>Je ontvangt notificaties van al het nieuws van de games die je volgt.
+	"""
+
+	followed_page_title = "Games Gevolgd door {{ user }}"
+	followed_heading = "Games Gevolgd" # "door gebruiker"
+	followed_descriptive_html = """
+	Deze games worden door {{ user }} gevolgd.
+	"""
+
+	# Developer's Games
+	developer_owner_page_title = "Jouw Games"
+	developer_owner_heading = "Jouw Games"
+	developer_owner_descriptive_html = """
+	Dit zijn de games die jij gemaakt hebt. Wees trots!<br>Deel deze pagina met anderen om je games te promoten.
+	"""
+
+	developer_page_title = "Games door {{ user }}"
+	developer_heading = "Games" # "door gebruiker"
+	developer_descriptive_html = """
+	Dit zijn de games gemaakt door {{ user }}.
+	"""
+
+	# Playlist
+	playlist_owner_page_title = "{{ playlist }}"
+	playlist_page_title = "{{ playlist }} door {{ user }}"
+	playlist_heading = "{{ playlist }}" # "van gebruiker"
+
+	# Bundle
+	# No such thing as a bundle "owner".
+	bundle_page_title = "{{ bundle }}"
+	bundle_heading = "{{ bundle }}"
+
+	# Tag
+	tag_page_title = "#{{ tag }}"
+	tag_heading_before = "Games met tag"
+	tag_heading = "#{{ tag }}"
+
+	manage_games_button = "Beheer Jouw Games"
+	follow_button = "Volgen"
+	follow_button_tooltip = "Volg deze playlist om hem toe te voegen aan je bibliotheek en notificaties van updates te ontvangen."
+	unfollow_button = "Volgend"
+	unfollow_button_tooltip = "Stop me volgen om de playlist uit je bibliotheek te verwijderen en notificaties te stoppen."
+	edit_playlist_button = "Playlist Bewerken"
+	remove_playlist_button = "Playlist Verwijderen"
+
+	followers_label = "Volgers"
+	games_label = "Games"
+
+	# Tooltips that show when hovering over the button that goes on top of game thumbnails in the library.
+	thumbnail_control_playlist_tooltip = "Verwijderen uit Playlist."
+	thumbnail_control_unfollow_tooltip = "Stop met volgen."
+
+	# When there's no games to show because of the filters they have set.
+	no_games_html = "@:games.list.no_games_html"
+
+	# When there's no games at all in the collection.
+	no_games_playlist_html = "Er zijn nog geen games in deze playlist geplaatst, helaas."
+	no_games_developer_html = "Deze ontwikkelaar heeft nog geen games toegevoegd."
+	no_games_followed_html = "Er worden nog geen games gevolgd."
+	no_games_bundle_html = "Er zitten nog geen games in deze bundel."
+	no_games_tag_html = "Er zijn nog geen games met deze tag."
+
+[library.followed]
+	follow_game_button = "Volg Game"
+	follow_game_button_tooltip = "Volg deze game om hem toe te voegen aan je bibliotheek en notificaties te ontvangen."
+	unfollow_game_button = "Volgend"
+	unfollow_game_button_tooltip = "Stop met volgen van deze game om hem te verwijderen uit je bibliotheek."
+
+	add_game_success_growl_title = "Game Gevolgd"
+	add_game_success_growl = "Je volgt nu {{ game }}. Zolang de game in je bibliotheek staat zul je notificaties van deze game ontvangen."
+
+	# Generic failure message.
+	add_game_error_growl = "Uh-oh, iets weerhoud je er van deze game te volgen."
+
+	remove_game_confirmation = "Weet je zeker dat je {{ game }} niet meer wilt volgen?"
+	remove_game_success_growl_title = "Game Niet Meer Gevolgd"
+	remove_game_success_growl = "Je volgt {{ game }} niet meer en zult geen notificaties meer ontvangen."
+
+	# Generic failure message.
+	remove_game_error_growl = "Uh-oh, iets weerhoud je er van deze game niet meer te volgen."
+
+[library.playlists]
+
+	# These are the tags that show above the playlist thumbnail.
+	developer_tag = "Ontwikkelaar's Games"
+	followed_tag = "Gevolgde Games"
+	playlist_tag = "Playlist"
+	bundle_tag = "Bundel"
+	tag_tag = "Tag"
+
+	# These are the titles/descriptions of playlists in the libraries on profile pages.
+	# Subscription ones are when they are following a playlist that is someone elses.
+	# In that the title is always proceeded by "by user".
+	followed_title = "Gevolgde Games"
+	subscription_followed_title = "Games Gevolgd" # "door gebruiker"
+	owner_followed_title = "Games die je volgt"
+
+	developer_title = "Ontwikkelaar's Games"
+	subscription_developer_title = "Games Gemaakt" # "door gebruiker"
+	owner_developer_title = "Jouw Games"
+
+	followed_description = "Dit zijn de games die deze gebruiker volgt."
+	subscription_followed_description = "Games gevolgd door {{ user }}."
+
+	developer_description = "Dit zijn de games ontwikkeld door deze gebruiker."
+	subscription_developer_description = "Games gemaakt door {{ user }}."
+
+	remove_playlist_confirmation = "Weet je zeker dat je deze playlist niet meer wilt volgen?"
+	remove_playlist_success_growl_title = "Playlist niet langer gevolgd"
+	remove_playlist_success_growl = "Je volgt {{ playlist }} niet langer."
+	remove_playlist_error_growl = "Error! Error! Kan niet stoppen met volgen van de playlist."
+
+	add_game_success_growl_title = "Game Toegevoegd"
+	add_game_success_growl = "Je hebt {{ game }} aan de playlist {{ playlist }} toegevoegd. Nice!"
+	add_game_error_growl = "Error! Error! De game kan niet worden toegevoegd aan je playlist."
+
+	remove_game_confirmation = "Weet je zeker dat je deze game uit de playlist wilt verwijderen?"
+	remove_game_success_growl_title = "Game Verwijderd"
+	remove_game_success_growl = "Je hebt {{ game }} uit de playlist {{ playlist }} verwijderd."
+	remove_game_error_growl = "Error! Error! De game kon niet verwijderd worden uit de playlist."
+
+[library.playlists.save_modal]
+	add_heading = "Playlist Toevoegen"
+	edit_heading = "Playlist Bewerken"
+	close = "Annuleren"
+
+[library.playlists.form]
+	name_label = "Naam"
+	add_submit_button = "Playlist Toevoegen"
+	edit_submit_button = "Playlist Bewerken"
+
+# The add to playlist component.
+[library.playlists.add_to]
+	button = "Toevoegen aan Playlist"
+	new_playlist_button = "Nieuwe Playlist"
+	filter_placeholder = "Sorteer playlists..."
+
+[search]
+	page_title = "Zoek op Game Jolt"
+	showing_label = "Resultaten voor"
+	results_placeholder = "Voer je zoekopdracht hier boven in."
+
+[search.results]
+	page_title = "Zoekresultaten voor \"{{ query }}\""
+
+	overview_tab = "Alles"
+	users_tab = "Gebruikers"
+	games_tab = "Games"
+
+	view_all_link = "Bekijk alle"
+	users_heading = "Gebruikers"
+	games_heading = "Games"
+
+	no_results = "Geen resultaten voor je zoekopdracht."
+
+[search.input]
+	placeholder = "Zoeken"
+
+[search.autocomplete]
+	show_all = "Geef alle resultaten weer..."
+	games_heading = "Games"
+	users_heading = "Gebruikers"
+	installed_heading = "Geinstalleerde Games"
+	no_commands = "Geen overeenkomsten."
+
+[search.recent]
+	popover_heading = "Recente Zoekopdrachten"
+	none = "Nog geen zoekopdrachten."
+	clear_button = "Verwijder recente zoekopdrachten"
+
+[commands]
+	discover_description = "Ga naar de voorpagina."
+	games_description = "Bladeren in games."
+	news_description = "Bladeren in game nieuws."
+	dashboard_description = "Bekijk dashboard."
+	library_description = "Bekijk je bibliotheek."
+	installed_description = "Bekijk je geinstalleerde games."
+	account_description = "Bewerk je account informatie."
+	activity_description = "Bekijk je activiteit."
+
+[rating]
+	clear = "Rating verwijderen"
+	one = "Belabberd"
+	two = "Wel Aardig"
+	three = "Goed"
+	four = "Erg Goed"
+	five = "Perfect!"
+
+[legal]
+	terms = "Voorwaarden"
+	privacy = "Privacy"
+
+# Common generic help text for forms.
+[dash.forms]
+	image_filetype_help_html = """
+	Je afbeelding moet een van de volgende bestandstypes zijn: PNG, JPG, of GIF. <br>
+	<strong>PNG is aangeraden, omdat dat een formaat zonder kwaliteitsverlies is.</strong>
+	"""
+
+	thumbnail_filetype_help_html = """
+	Je afbeelding moet een van de volgende bestandstypes zijn: PNG, JPG, or GIF.<br>
+	Animated GIFs geven de speler een impressie van de game in actie. <br>
+	For stilstaande afbeeldingen is PNG aangeraden, omdat dat een formaat zonder kwaliteitsverlies is.
+	"""
+
+	yes = "Ja"
+	no = "Nee"
+
+	on = "Aan"
+	off = "Uit"
+
+[dash.nav]
+	home = "Dashboard Home"
+	activity = "Activiteit"
+	profile = "Bewerk Profiel"
+	linked_accounts = "Gekoppelde Accounts"
+	email_prefs = "Email Voorkeuren"
+	change_pass = "Wijzig Wachtwoord"
+
+	games = "Jouw Games"
+	add_game_button = "Game Toevoegen"
+	filter_games_placeholder = "Sorteer games..."
+
+[dash.overview]
+	page_title = "Jouw Dashboard"
+	heading = "Dashboard"
+
+	view_profile_button = "Bekijk je profiel"
+
+	broadcast_view_all = "Bekijk alle wijzigingen"
+
+	revenue_heading = "Opbrengst"
+	revenue_tooltip = "Game Jolt deelt een percentage van de advertentie inkomsten met je!."
+	revenue_total = "Totaal Verdiend"
+	revenue_withdrawn = "Totaal Opgenomen"
+	revenue_balance = "Huidige Balans"
+	revenue_withdraw_button = "Opbrengst Opnemen"
+	revenue_pending_message_html = """
+	Je hebt momenteel <strong>{{ amount | currency:'$' }}</strong> wachtend op uitbetaling.
+	"""
+
+	activity_heading = "Recente Activiteit"
+	activity_view_all_button = "Bekijk alle Activiteit"
+	activity_no_activity_html = """
+	<p>Nog geen activiteiten.</p>
+	"""
+
+	developer_games_heading = "Jouw Games"
+	developer_games_add_button = "Game Toevoegen"
+	developer_games_no_games_html = """
+	Nog geen games? Wat?? Echt? Je bent een developer, dussss... <a href="/dashboard/developer/games/add">Voeg een Game toe</a>!
+	"""
+
+[dash.integrate]
+	heading = "Integreren"
+	lead = "Hier een to-do list met dingen die je kunt doen op de site:"
+
+	done = "Klaar"
+
+	played_game_html = """Speel een game."""
+	rated_game_html = """Beoordel en plaats een reactie bij een game."""
+	got_trophy_html = """Behaal je eerste Trofee in een game."""
+	got_score_html = """Plaats een score op een scorebord."""
+	has_friend_html = """Voeg je eerste vriend toe."""
+	has_facebook_html = """<a href="/dashboard/linked-accounts">Link je Facebook account</a>."""
+	has_twitter_html = """<a href="/dashboard/linked-accounts">Link je Twitter account</a>."""
+
+	exp_help_heading = "Verzamel XP en verhoog je level!"
+	exp_help_body_html = """
+	<p>Om XP te halen speel je games, vergeet niet ze te <em>beoordelen</em> en een <em>reactie</em> achter te laten op de games die je volgt.</p>
+	<p>De snelste manier om XP te halen is door <strong>trofee&eacute;n</strong> vrij te spelen en je scores te plaatsen op <strong>scoreborden</strong>!</p>
+	"""
+
+[dash.activity]
+	page_title = "Activiteit"
+	heading = "Activiteit"
+
+	all_tab = "Alle Activiteit"
+	unread_tab = "Ongelezen"
+
+	filter_button = "Sorteren"
+	dismiss_all_button = "Alles als gelezen markeren"
+
+	current_filter = "Weergave {{ filter }}"
+	pages = "Pagina {{ page | number }} van {{ total | number }} notificatie(s)."
+
+	no_activity = "Geen notificaties hier. Je bent of een hele snelle lezer, of je moet meer games volgen!"
+
+[dash.profile]
+	user_info_tab = "Gebruikers Informatie"
+	avatar_tab = "Avatar"
+
+[dash.profile.edit]
+	page_title = "Bewerk gebruikers informatie"
+	heading = "Bewerk je informatie"
+
+	username_label = "Gebruikersnaam"
+	username_time_left_html = """
+	Je kunt je gebruikersnaam maar eens per 7 dagen wijzigen. <br>
+	Je moet nog {{ duration }} dagen wachten voor je weer kunt wijzigen.
+	"""
+
+	# Only for devs currently.
+	display_name_label = "Weergave naam"
+	display_name_help = "Als je een weergave naam invoert, zal deze gebruikt worden op je profiel. In tegenstelling tot je gebruikersnaam kan de weergave naam spaties en speciale tekens bevatten."
+	display_name_time_left_html = """
+	Je kunt je weergave naam maar eens per 7 dagen wijzigen. <br>
+	Je moet nog {{ duration }} dagen wachten voor je weer kunt wijzigen.
+	"""
+
+	website_label = "Website"
+
+	description_label = "Profiel Biografie"
+	description_help_html = "Vertel wat over jezelf!"
+
+	submit_button = "Profiel Opslaan"
+
+[dash.avatar]
+	page_title = "Jouw Avatar"
+	heading = "Een avatar verkrijgen"
+	body_html = """
+	<p>We gebruiken momenteel <a href="http://gravatar.com">Gravatar</a> (Globally Recognized Avatars) om avatars weer te geven op Game Jolt.</p>
+	<p>Als je nog geen Gravatar account hebt, kun je op de knop hier onder drukken om <a href="http://gravatar.com">gravatar.com</a> te openen en een gravatar te verkrijgen. Je kunt hier inloggen met je Wordpress account. Heb je nog geen Wordpress account?! No worries! Je kunt ze beide tegelijk aanmaken.</p>
+	<p>Heb je al een Gravatar account? Goed. Log in en upload de avatar naar keus, associeer dan de avatar met het email addres dat je gebruikt voor Game Jolt. Je avatar zal automatisch overal op de site verschijnen.</p>
+	<p><em>Er zit een kleine vertraging tussen het uploaden van je gravatar en de weergave op de site. Mocht de avatar na ruime tijd nog niet zichtbaar zijn, leeg dan je browser cache.</em></p>
+	"""
+	get_avatar_button = "Verkrijg Gravatar Account"
+
+	current_label = "Huidige Avatar"
+	current_alt = "Jouw Avatar"
+
+[dash.email_prefs]
+	page_title = "Email Voorkeuren"
+	heading = "Jouw Email Voorkeuren"
+
+	email_address_label = "Email Addres"
+
+	newsletter_label = "Nieuwsbrief ontvangen?"
+	newsletter_help = "Wil je een nieuwsbrief ontvangen met al het laatste Game Jolt gerelateerde nieuws?"
+
+	notifications_heading = "Notificaties"
+	notifications_description = "Laat ons weten waar je wel en niet voor gemaild wilt worden."
+
+	# _help ones are optional in all of these.
+	# If you leave them out, they won't show on the page.
+	notify_comment_replies_label = "Reacties op commentaar"
+	notify_comment_replies_help = "Ontvang emails van reacties op je commentaren."
+
+	notify_forum_posts_label = "Forum Posts"
+	notify_forum_posts_help = "Ontvang emails van forumposts die je gemaakt hebt of waar je op gereageerd hebt."
+
+	notify_followed_game_updates_label = "Updates van Games die je volgt"
+	notify_followed_game_updates_help = "Ontvang emails wanneer er updates zijn bij de games die je volgt."
+
+	notify_friendships_label = "Vriendschapsverzoeken"
+	notify_friendships_label_help = "Get emails about incoming and accepted friend requests."
+
+	notify_private_messages_label = "Chat Berichten"
+	notify_private_messages_help = "Ontvang emails als je vrienden je priveberichten sturen wanneer je offline bent."
+
+	notify_comments_label = "Nieuwe Reacties"
+	notify_comments_help = "Ontvang emails wanneer er nieuwe reacties geplaatst worden op je games."
+
+	notify_ratings_label = "Game Beoordelingen"
+	notify_ratings_help = "Ontvang emails wanneer er beoordelingen geplaatst worden op je games."
+
+	notify_game_follows_label = "Game Volgers"
+	notify_game_follows_help = "Ontvang email wanneer iemand je game volgt."
+
+	submit_button = "Voorkeuren Opslaan"
+
+[dash.change_pass]
+	page_title = "Wijzig Wachtwoord"
+	heading = "Verander het wachtwoord van de account"
+
+	old_password_label = "Oude Wachtwoord"
+	password_label = "Nieuwe Wachtwoord"
+	confirm_password_label = "Bevesting nieuwe wachtwoord"
+
+	invalid_old_password_error = "Het ingevoerde wachtwoord is niet juist."
+	no_match_error = "De wachtwoorden komen niet overeen, typ ze opnieuw en wees er zeker van dat je geen spelfouten maakt."
+
+	submit_button = "Verander Account Wachtwoord"
+
+[dash.funds.withdraw]
+	page_title = "Opbrengst Opnemen"
+	heading = "Opbrengst Opnemen"
+
+	page_help_html = """
+	<p>Uitbetalingen kunnen 3 dagen op zich laten wachten. Op dit moment worden alle uitbetalingen gedaan via <a href="https://www.paypal.com" target="_blank">PayPal</a>.</p>
+
+	<p>Als je geen PayPal account hebt kun je niet laten uitbetalen. Maak een <a href="https://www.paypal.com" target="_blank">PayPal account aan </a> <em>voordat</em> je probeert uit te betalen.</p>
+	"""
+
+	revenue_pending = "Opname in behandeling"
+	revenue_withdrawable = "Hoevelheid betaalbaar"
+
+	form_help_html = """
+	Controleer de gegevens goed voordat je ze verstuurt, je kunt deze later niet meer wijzigen.
+	"""
+
+	email_label = "PayPal Email Addres"
+	email_help = "Dit moet een valide mailadres gekoppeld aan een PayPal account zijn."
+
+	amount_label = "Uit te betalen hoeveelheid"
+	amount_help = "De minimale opname hoeveelheid is momenteel {{ amount | currency:'$' }}."
+
+	submit_button = "Verzoek Uitbetaling"
+
+	success_growl_title = "Verzoek Verzonden"
+	success_growl = "Je verzoek is verzonden en wordt binnen 3 dagen doorgevoerd. Zodra de betaling doorgevoerd is zal het saldo respectievelijk aangepast worden."
+
+[dash.games.add]
+	page_title = "Game Toevoegen"
+	heading = "Voeg een Game toe"
+
+	rules_heading = "Regels"
+	rules_html = """
+	<p>Je moet akkoord gaan met de volgende regels voordat je een game plaatst:</p>
+	<ul>
+		<li>Game Jolt accepteert momenteel alleen gratis games. De game moet speelbaar zijn zonder noodzakelijke betalingen.</li>
+		<li>Upload geen games die je niet gemaakt hebt. Als je niet de ontwikkelaar bent, voeg de game dan niet toe aan de site. Als je een fan bent, vraag dan de ontwikkelaar de game te plaatsen.</li>
+		<li>Uitgevers kunnen geen games plaatsen. Onthoud: Dit is Indie!</li>
+		<li>Ons naam is "Game Jolt". Daarom mogen alleen <em>games</em> op de site worden geupload. Geen applicaties, software, of tools zijn op dit moment toegestaan.</li>
+		<li>Demo of lite versies van games zijn niet toegestaan. Je mag alleen volledig gratis games toevoegen in de meest volledige versie die online beschikbaar is.</li>
+		<li>Het is toegestaan games in ontwikkeling te plaatsen, wanneer ze gemarkeerd zijn als "In Ontwikkeling". Games in ontwikkeling moeten speelbaar zijn voordat je ze zichtbaar maakt op de site.</li>
+		<li>Plaats geen links naar je game op andere websites als de game niet geupload is op Game Jolt. De game pagina mag niet gebruikt worden voor reclame doeleinden verwijzend naar een externe site.</li>
+		<li>Voor browser games zijn pre-loader advertenties niet toegestaan op Game Jolt. Verwijder deze alvorens je de game upload.</li>
+
+	<p>Als je vragen en/of opmerkingen hebt over de regels kun je contact opnemen via: <a href="mailto:contact@gamejolt.com">contact@gamejolt.com</a></p>
+	"""
+	rules_accept_button = "Regels Accepteren"
+
+	add_growl = "Je game is toegevoegd en kan nu bekenen worden op je Dashboard."
+	add_growl_title = "Game Toegevoegd"
+
+	fnaf_autotag_message_html = """
+	<strong>Het lijkt er op dat je game een Five Nights at Freddy's fan game is.</strong> We hebben de tag <code>#fnaf</code> toegevoegd aan de omschrijving. Deze is verplicht voor alle afleidingen uit de  Five Nights at Freddy's serie.
+	"""
+
+	fnaf_autotag_accept = "Ok"
+	fnaf_autotag_reject = "Niet Taggen"
+
+[dash.games.edit]
+	page_title = "Bewerk details voor {{ game }}"
+	heading = "Bewerk Details"
+
+	save_growl = "Je game details zijn opgeslagen."
+	save_growl_title = "Game Details Opgeslagen"
+
+[dash.games]
+	hidden_tag = "Verborgen"
+	published_tag = "Gepubliceerd"
+
+	view_page_button = "Bekijk Game Pagina"
+	remove_game_button = "Verwijder Game"
+
+	hidden_message = "Deze game is verborgen voor publiek."
+
+	# This part of the hidden message only shows if they've never published before.
+	# It won't show if they publish and then hide it again.
+	hidden_message_unpublished = "We adviseren de game verborgen te houden tot je alle details hebt toegevoegd. Vergeet de game niet te publiceren wanneer je klaar bent!"
+
+	overview_tab = "Overzicht"
+	media_tab = "Media"
+	media_tooltip = "Beheer schermafbeeldingen, afbeeldingen en videos voor je game."
+	packages_tab = "Versies & Bestanden"
+	packages_tooltip = "Upload bestanden en beheer de versies van je game."
+	news_tab = "Nieuws"
+	news_tooltip = "Beheer nieuwsupdates van je game."
+	music_tab = "Muziek"
+	music_tooltip = "Upload de soundtrack van je game."
+	api_tab = "Game API"
+	api_tooltip = "Beheer de API integratie van je game (trofee&eacute;n, scoreborden, data opslag, etc.)"
+
+	remove_confirmation = "Weet je zeker dat je de game voorgoed wilt verwijderen?"
+	removed_growl_title = "Game Verwijderd"
+	removed_growl = "Je game is verwijderd van de website, misschien groeit er ooit een bloemetje op zijn plaats."
+
+[dash.games.overview]
+	page_title = "Beheer {{ game }}"
+
+	todo_heading = "Opzet"
+	todo_lead_html = """
+	Je game pagina is <strong>{{ completion }}%</strong> compleet.
+	"""
+
+	# This shows at the top after they publish if they still have todo items left.
+	# It's basically to say "looking good, but keep going".
+	todo_additional_html = """
+	<p><strong>Je game pagina ziet er goed uit!</strong> Om het meeste uit Game Jolt te halen raden we je de volgende stappen aan.</p>
+	"""
+
+	todo_done = "Klaar"
+	todo_required = "Vereist"
+	todo_recommended = "Aangeraden"
+	todo_highly_recommended = "Zeer aan te raden"
+
+	todo_thumbnail_title = "Voeg een thumbnail toe."
+	todo_thumbnail_progress = "Thumbnail Afbeelding"
+
+	todo_header_title = "Voeg een header afbeelding toe."
+	todo_header_progress = "Pagina Header"
+
+	todo_media_title = "Voeg afbeeldingen en video's toe."
+	todo_media_progress = "Game Media"
+
+	todo_maturity_title = "Set the leeftijdsindicatie."
+	todo_maturity_progress = "Leeftijdsindicatie"
+
+	todo_builds_title = "Upload game versies/bestanden."
+	todo_builds_extra_wip = "Upload je game wanneer het in een speelbare staat is."
+	todo_builds_progress = "Versies/Bestanden"
+
+	todo_songs_title = "Voeg de soundtrack toe."
+	todo_songs_progress = "Soundtrack"
+
+	todo_news_title = "Post je eerste nieuwsupdate (als je iets te melden hebt, natuurlijk)."
+	todo_news_progress = "Nieuws Update"
+
+	todo_api_title = "Integreer je game met de Game Jolt API."
+	todo_api_progress = "API Integratie"
+
+	todo_info_html = """
+	Voordat je game gepubliceerd kan worden moet je een <a href="{{ thumbnailUrl }}">thumbnail image</a> uploaden, een <a href="{{ maturityUrl }}">leeftijdsindicatie</a> instellen en de <a href="{{ buildsUrl }}">versies/bestanden</a> uploaden.
+	"""
+
+	todo_info_wip_html = """
+	Voordat je game gepubliceerd kan worden moet er minstens een <a href="{{ thumbnailUrl }}">thumbnail afbeelding</a> toegevoegd worden. Ook is het instellen van de <a href="{{ maturityUrl }}">leeftijdsindicatie</a> verplicht.
+	"""
+
+	todo_info_ready_html = """
+	<strong>De pagina van je game is klaar om te worden gepubliceerd!</strong>
+	"""
+
+	# This shows up when the game is ready to publish, but they have some builds that are still
+	# being processed.
+	todo_info_builds_processing_html = """
+	<strong>Er worden momenteel nog versies verwerkt.</strong>
+	De builds worden pas zichtbaar op de pagina van je game wanneer dit is voltooid.
+	"""
+
+	todo_info_publish_button = "Game Publiceren"
+	todo_info_publish_button_tooltip = "Ohhhh, yeah!"
+
+	stats_heading = "Statistieken"
+	stats_views = "Weergaven"
+	stats_plays = "Spelers/Downloads"
+	stats_rating = "Gem. Waardering"
+	stats_ratings = "Aantal Waarderingen"
+	stats_comments = "Commentaren"
+	stats_followers = "Volgers"
+	stats_na = "N/A"														// Waiting for feedback
+
+	activity_heading = "Laatste Activiteit"
+	activity_none_html = """
+	Nog geen activiteit. Wanneer gebruikers je game spelen of de pagina bekijken zal de activiteit hier worden weergegeven.
+	"""
+
+	# This shows in a modal when you click publish on the game overview page, but it also shows as a little
+	# bit of informational text that slides open on the edit details form when you click the status to "published".
+	publish_confirmation = "Publiceren maakt je game zichtbaar op de site voor iedereen, zorg dat je game pagina er strak uit ziet!"
+
+	# This shows when you publish on the game overview page and also when you set the status to "published"
+	# in the game edit form.
+	published_growl_title = "Game Gepubliceerd"
+	published_growl = "Je game is nu zichtbaar op de website! Huzzah! Vergeet het niet aan iedereen te vertellen..."
+
+[dash.games.form]
+	title_label = "Titel"
+	website_label = "Website"
+
+	category_label = "Categorie"
+	category_placeholder = "Select een categorie..."
+
+	engine_label = "Engine/Programmeertaal/Tool"
+	engine_placeholder = "Selecteer een engine/programmeertaal/tool..."
+	engine_other_label = "Andere Engine/Programmeertaal/Tool"
+	engine_other_help = "Welke engine, programmeertaal of tool?"
+	engine_other_why = "Waarom?"
+	engine_other_why_tooltip = "Dit helpt ons betere opties voor sorteren te maken met betrekking tot tools."
+
+	dev_status_label = "Status van Ontwikkeling"
+	dev_status_not_completable_info_html = """
+	Je kunt de game pas als voltooid of geannuleerd markeren als er een versie geupload is.
+	"""
+	dev_status_finished = "Volledige Versie/Stabiel"
+	dev_status_finished_help = "Kies deze optie als je game af is. Het is een stabiele staat en je plant alleen nog bugfixes en patches uit te voeren."
+	dev_status_wip = "In Ontwikkeling/Onstabiel"
+	dev_status_wip_help = "Kies deze optie als je game nog niet voltooid is, maar wel actief ontwikkeld wordt. De speelbare versie is nog volop in ontwikkeling of er is nog geen speelbare versie. Overweeg te wachten met het publiceren van je build totdat je iets hebt om te laten zien: afbeeldingen, video's, een uitgebreide omschrijving en misschien zelfs een speelbare versie."
+	dev_status_canceled = "Geannuleerd"
+	dev_status_canceled_help = "Kies deze optie als je game speelbaar is, maar niet in ontwikkeling. Deze optie kun je alleen kiezen als er een speelbare versie van je game is."
+
+	status_label = "Zichtbaarheid"
+	status_not_publishable_info_html = """
+	De game kan niet gepubliceerd worden voordat je de belangrijke stappen voor publiceren hebt uitgevoerd. Je vindt deze in het game overzicht.
+	"""
+	status_hidden = "Verborgen"
+	status_hidden_help = "Je game wordt niet weergegeven in de publieke lijsten of de zoekresultaten. De game is nog wel zichtbaar voor iedereen met een directe link naar de game pagina."
+	status_published = "Gepubliceerd"
+	status_published_help = "Jouw game pagina wordt weergegeven in de publieke lijsten en zoekresultaten. De game is zichtbaar voor iedereen."
+
+	description_label = "Omschrijving"
+	description_help_html = """
+	Je kunt de beschrijving op elk moment bewerken of bijwerken met nieuwe informatie. Dit is de plek om mensen over te halen om je game te spelen! Een goede omschrijving bevat meestal dingen zoals gameplay samenvatting, besturings overzicht, verhaal, en credits.
+	"""
+
+	add_button = "Game Toevoegen"
+	edit_button = "Game Opslaan"
+
+[dash.games.settings]
+	page_title = "Instellingen voor {{ game }}"
+	heading = "Instellingen"
+
+	ga_tracking_id_label = "Google Analytics Tracking ID"
+	ga_tracking_id_placeholder = "Voorbeeld: UA-1234567-1"
+	ga_tracking_id_error_label = "tracking ID"
+	ga_tracking_id_help_html = """
+	<p>
+		Gebruik <a href="http://google.com/analytics" target="_blank">Google Analytics</a> om gedetaileerde gebruikersstatistieken bij te houden. Voer hier je tracking ID in en we beginnen meteen met het verzenden van data.
+	</p>
+
+	<p><strong>Snelle uitleg Google Analytics:</strong></p>
+
+	<ul>
+		<li>Maak een nieuwe (of log in bij een bestaande) <a href="http://www.google.com/analytics" target="_blank">Google Analytics</a> account.</li>
+		<li>Maak een nieuwe account aan (klik op de <em>Beheerder</em> tab and selecteer <em>Nieuwe Account Aanmaken</em> uit het dropdown menu onder <em>Account</em>).</li>
+		<li>Selecteer <em>Website</em> en voer <strong>gamejolt.com</strong> in als de website URL.</li>
+		<li>Selecteer een Branchecategorie en een tijdzone voor rapportage.</li>
+		<li>Klik op <em>Tracking-ID ophalen</em>.</li>
+		<li>Kom terug naar Game Jolt en voer je tracking ID in.</li>
+		<li>Dat was het!</li>
+	</ul>
+	"""
+
+	ads_label = "Advertenties weergeven?"
+	ads_help_html = """
+	<p><strong>Als je dit uitzet zullen er geen advertenties bij je game worden weergegeven.</strong></p>
+	<p>Doe dit alleen als je niets wilt verdienen aan je game, of wanneer je dit niet mag vanwege overtredingen van een licentie.</p>
+	"""
+
+	comments_label = "Commentaar toestaan?"
+	comments_help_html = """
+	<p><strong>Als je dit uitzet kunnen er geen commentaren bij je game geplaatst worden en worden de huidige verborgen.</strong></p>
+	<p>De gemeenschap kan je geen feedback meer geven op je game, maar je kunt hier de voorkeur aangeven als je game gevoelige onderwerpen bevat.</p>
+	<p>De commentaren zullen nooit verwijderd worden. Als je in de toekomst de commentaren weer inschakeld, zullen degene uit het verleden ook weergegeven worden.</p>
+	"""
+
+	ratings_label = "Beoordelingen toestaan?"
+	ratings_help_html = """
+	<p><strong>Als je dit uitzet kunnen gebruikers je game niet beoordelen en word de huidige beoordeling verborgen.</strong></p>
+	<p> Het voltage van je game wordt weergegeven alsof er nooit ratings geplaatst zijn. Als je in de toekomst de commentaren weer inschakeld, zullen degene uit het verleden weer meetellen en wordt het voltage opnieuw bepaald.</p>
+	"""
+
+	save_button = "Instellingen Opslaan"
+
+	save_growl = "De instellingen zijn opgeslagen."
+	save_growl_title = "Instellingen Opgeslagen"
+
+[dash.games.thumbnail]
+	page_title = "Thumbnail bewerken voor {{ game }}"
+	heading = "Thumbnail Bewerken"
+
+	page_help_html = """
+	<p>Een thumbnail is een rechthoekige afbeelding waarmee je game wordt weergegeven in overzichten op de site. Mensen kunnen hier op klikken in de publieke lijsten of zoekresultaten.</p>
+	<p>Gebruik geen afbeeldingen met naakt, scheldwoorden, of volwassen afbeeldingen.</p>
+	"""
+	page_help_link = "Wat zijn de vereisten en regels voor Thumbnails?"
+
+	upload_label = "Nieuwe Thumbnail Uploaden"
+	upload_error_label = "thumbnail afbeelding"
+
+	crop_label = "Huidige Thumbnail Bijsnijden"
+	crop_error_label = "bijsnijden"
+	nocrop_label = "Huidige Thumbnail"  # For when the thumb is too small to crop, we just show it.
+
+	upload_button = "Upload Thumbnail"
+	save_button = "Thumbnail Opslaan"
+
+	saved_growl_title = "Thumbnail Opgeslagen"
+	saved_growl = "De thumbnail van je game is bijgewerkt."
+
+[dash.games.header]
+	page_title = "Header bewerken voor {{ game }}"
+	heading = "Header Bewerken"
+
+	clear_button = "Header Verwijderen"
+
+	page_help_html = """
+	<p>Headers zijn de grote afbeeldingen boven aan je game pagina. Om je header het beste naar voren te laten komen op mobieltjes raden we je aan al het belangrijke in het midden van de banner weer te geven.</p>
+	"""
+	page_help_link = "Wat zijn de voorwaarden en regels voor headers?"
+
+	upload_label = "Nieuwe header uploaden"
+	upload_error_label = "header afbeelding"
+
+	save_button = "Header Uploaden"
+
+	saved_growl_title = "Header Opgeslagen"
+	saved_growl = "De header van je game pagina is opgeslagen."
+
+[dash.games.maturity]
+	page_title = "Bewerk leeftijdsindicatie voor {{ game }}"
+	heading = "Bewerk Leeftijdsindicatie Details"
+
+	page_help_html = """
+	<p>Elke game op Game Jolt, ook degene in ontwikkeling, hebben een leeftijdsindicatie nodig om de inhoud te voorspellen. Uitgebreide ratings helpen de spelers een geinformeerde keuze te maken bij welke games ze willen spelen. Je kunt altijd later terugkomen om de indicatie te wijzigen.</p>
+	"""
+	page_help_link = "What is een leeftijdsindicatie?"
+
+	# Shown when the game is a WIP.
+	wip_help = "Als je niet weet wat de uiteindelijke inhoud van je game zal zijn maak dan een verstandige inschatting. Je kunt altijd later wijzigingen doorvoeren."
+
+	# For selecting none for any of the rating options.
+	none_option = "Geen"
+
+	age_label = "Leeftijd"
+	age_everyone_option = "Alle Leeftijden"
+	age_teen_option = "Tieners"
+	age_mature_option = "Volwassenen"
+
+	# Severity options.
+	mild_option = "Mild"
+	moderate_option = "Gemiddeld"
+	intense_option = "Intens"
+	strong_option = "Extreem"
+	reference_option = "Verwijzingen"
+	use_option = "Gebruik"
+	simulated_option = "Gesimuleerd"
+	real_gambling_option = "Echt Gokken"
+	suggestive_option = "Suggestief"
+	graphic_option = "Visueel"
+	shenanigans_option = "Komische Verwijzingen"
+	brief_nudity_option = "Mild Naakt"
+	full_nudity_option = "Naakt"
+
+	violence_legend = "Geweld"
+
+	cartoon_violence_label = "Tekenfilm Geweld"
+	cartoon_violence_1_description = "Weergave van tekenfilmfiguren in enge situaties."
+	cartoon_violence_2_description = "Weergave van tekenfilm figuren in extreme omgevingen."
+	cartoon_violence_3_description = "Grafische weergave van tekenfilmfiguren in aggressieve of bloederige situaties."
+
+	fantasy_violence_label = "Fantasie Geweld"
+	fantasy_violence_1_description = "Weergaven van karakters in enge situaties makkelijk te onderscheiden van echte situaties."
+	fantasy_violence_2_description = "Weergave van karakters figuren in extreme omgevingen makkelijk te onderscheiden van echte situaties."
+	fantasy_violence_3_description = "Grafische weergave van karakters in aggressieve situaties makkelijk te onderscheiden van echte situaties"
+
+	realistic_violence_label = "Realistisch Geweld"
+	realistic_violence_1_description = "Milde weergave van geweld in situaties met realistische karakters."
+	realistic_violence_2_description = "Weergave van realistische karakters in aggressieve conflicten."
+	realistic_violence_3_description = "Grafische weergave van realistische karakters in relistische aggressieve situaties."
+
+	bloodshed_label = "Bloed"
+	bloodshed_1_description = "Onrealistische weergave van bloed."
+	bloodshed_2_description = "Realistische weergave van bloed."
+	bloodshed_3_description = "Realistische weergave van bloed en verminking van lichaamsdelen."
+
+	sexual_violence_label = "Sexueel Geweld"
+	sexual_violence_description = "Weergave of verwijzingen naar situaties van sexueel geweld of verkrachting."
+
+	substances_legend = "Verheffende Middelen"
+
+	alcohol_label = "Alcohol"
+	alcohol_1_description = "Verwijzingen of afbeeldingen van alcoholische dranken."
+	alcohol_2_description = "Gebruik van alcoholische dranken."
+
+	drugs_label = "Drugs"
+	drugs_1_description = "Verwijzingen of afbeeldingen van drugs."
+	drugs_2_description = "Gebruik van drugs."
+
+	tobacco_label = "Sigaretten"
+	tobacco_1_description = "Verwijzingen of afbeeldingen van sigaretten."
+	tobacco_2_description = "Gebruik van sigaretten."
+
+	sex_nudity_legend = "Seks/Naakt"
+
+	nudity_label = "Naakt"
+	nudity_1_description = "Korte weergaven van naakt."
+	nudity_2_description = "Uitgebreide weergave van naakt."
+
+	sexual_themes_label = "Sexuele Thema's"
+	sexual_themes_1_description = "Provocerende referenties of gedrag."
+	sexual_themes_2_description = "Seksuele referenties of weergave van seksueel gedrag."
+	sexual_themes_3_description = "Grafische weergave van seksuele interacties."
+
+	misc_legend = "Overig"
+
+	language_label = "Taalgebruik"
+	language_1_description = "Mild gebruik van scheldwoorden."
+	language_2_description = "Gemiddeld gebruik van vloeken."
+	language_3_description = "Regelmatig en sterk aanwezig vloeken."
+
+	humor_label = "Humor"
+	humor_1_description = "Weergaven of dialoog met slapstick humor."
+	humor_2_description = "Weergaven of dialoog met vulgaire humor,  Poep en pies grappen."
+	humor_3_description = "Weergaven of dialoog met volwassen humor; seksuele humor."
+
+	gambling_label = "Gokken"
+	gambling_1_description = """Spelers kunnen gokken met nep geld."""
+	gambling_2_description = "Spelers kunnen gokken met echt geld."
+
+	save_button = "Leeftijdsindicatie Opslaan"
+
+	saved_growl_title = "Leeftijdsindicatie Opgeslagen"
+	saved_growl = "De leeftijdsindicatie voor je game is opgeslagen."
+
+[dash.games.media]
+	page_title = "Media beheren voor {{ game }}"
+	heading = "Game Media"
+
+	page_help_html = """
+	<p>Wil je dat je game gespeeld wordt door mensen? Voeg afbeeldingen en video's toe aan je pagina. We adviseren zo veel afbeeldingen en video's toe te voegen als je kunt, ook als je game alleen uit tekst bestaat!</p>
+	"""
+
+	add_button_html = """
+	Toevoegen <br>
+	<strong>Afbeelding</strong> of <strong>Video</strong>
+	"""
+
+	add_button_mobile = "Afbeelding/Video Toevoegen"
+
+	image_label = "Afbeelding"
+	video_label = "Video"
+
+	edit_image_button = "Bewerk Afbeelding"
+	edit_video_button = "Bewerk Video"
+
+	remove_image_button = "Verwijder Afbeelding"
+	remove_video_button = "Verwijder Video"
+	remove_confirmation = "Weet je zeker dat je deze {{ type }} wilt verwijderen?"
+
+[dash.games.media.add]
+	heading = "Media Toevoegen"
+
+[dash.games.media.add.image]
+	page_title = "Voeg afbeelding toe voor {{ game }}"
+
+	page_help_html = """
+		<p>Voeg schermafbeeldingen, concept tekeningen, foto's van klei modellen, neppe cd hoesjes of elk denkbaar stukje kunst gemaakt voor je game toe. Ja, zelfs als het een tekst game is!</p>
+	"""
+	page_help_link = "Leer meer over schermafbeeldingen/afbeeldingen..."
+
+[dash.games.media.add.video]
+	page_title = "Voeg video toe voor {{ game }}"
+
+	page_help_html = """
+	<p>Voeg video's toe die je gemaakt hebt, zoals trailers, gameplay, tutorials enz.</p>
+	<p>Voeg geen reviews of Let's Play video's toe, deze kan de maker plaatsen bij je commentaren.</p>
+	"""
+	page_help_link = "Leer meer over videos..."
+
+[dash.games.media.image]
+	page_title = "Afbeeldingsdetails - {{ game }}"
+	heading = "Afbeelding Details"
+
+	edit_heading = "Bewerk Afbeelding"
+
+	embed_help = "Je kunt deze afbeelding insluiten met onderstaande code."
+	direct_link_help = "Je kunt een directe link maken naar deze afbeelding op je game pagina met onderstaande URL."
+
+	remove_button = "Afbeelding Verwijderen"
+	remove_confirmation = "Weet je zeker dat je deze afbeelding wilt verwijderen?"
+
+	removed_growl_title = "Afbeelding Verwijderen"
+	removed_growl = "De afbeelding is verwijderd."
+
+[dash.games.media.video]
+	page_title = "Video Details - {{ game }}"
+	heading = "Video Details"
+
+	edit_heading = "Bewerk Video"
+
+	direct_link_help = "Je kunt een directe link maken naar deze video op je game pagina met onderstaande URL."
+
+	remove_button = "Verwijder Video"
+	remove_confirmation = "Weet je zeker dat je deze video wilt verwijderen?"
+
+	removed_growl_title = "Video Verwijderd"
+	removed_growl = "De video is verwijderd."
+
+[dash.games.media.image.form]
+	image_label = "Afbeeldings Bestand"
+	image_error_label = "afbeelding"
+
+	caption_label = "Ondertitel"
+	caption_help = "Deze ondertitel wordt weergegeven als de afbeelding op volledig scherm wordt weergegeven."
+
+	submit_button = "Afbeelding Opslaan"
+
+[dash.games.media.video.form]
+	url_label = "Video URL"
+	url_error_label = "video URL"
+
+	url_help_html = """
+	Op dit moment ondersteunen we alleen videos van Vimeo of YouTube. <br>
+	De URL ziet er ongeveer uit als volgt: <br>
+	<strong>YouTube:</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>
+	<strong>Vimeo:</strong> http://www.vimeo.com/2619976
+	"""
+
+	title_label = "Titel"
+	description_label = "Omschrijving"
+
+	submit_button = "Video Opslaan"
+
+[dash.games.packages]
+	page_title = "Beheer pakketten voor {{ game }}"
+	heading = "Game Pakketten"
+
+	# Shows up on this page as well as the "add package" page.
+	page_help_html = """
+	<p>Pakketten zijn de manier om je versies en bestanden te organiseren.</p>
+	<p>Je hoofdpakket bevat de versie waarvan je wilt dat mensen hem als eerste downloaden. Je kunt nieuwe pakketten aanmaken voor zaken zoals: level editors, texture packs, uitbreidingen of andere DLC.</p>
+	"""
+	page_help_link = "Leer meer over pakketten..."
+
+	no_packages_html = "<p>Je hebt nog geen pakketten toegevoegd.</p>"
+	add_package_button = "Pakket Toevoegen"
+
+	# Shows up on the left if you have at least one package.
+	nav_heading = "Pakketten"
+
+[dash.games.packages.add]
+	page_title = "Pakket toevoegen voor {{ game }}"
+	heading = "Pakket Toevoegen"
+
+[dash.games.packages.edit]
+	page_title = "Pakket Bewerken {{ package }} - {{ game }}"
+	heading = "Pakket Bewerken"
+
+	saved_growl_title = "Pakket Opgeslagen"
+	saved_growl = "Je pakket is bijgewerkt."
+
+[dash.games.packages.form]
+	title_label = "Pakket Naam
+	title_help_html = "Dit is de tekst die wordt weergegeven bij de download/speel knop op je game pagina, gebruik voor het pakket met je game de naam van de game."
+	title_change_button = "Naam Wijzigen"
+
+	description_label = "Pakket Omschrijving"
+	description_help_html = "Dit hoeft alleen ingevuld te worden <em>als het nodig is</em>, bijvoorbeeld als de naam alleen niet genoeg is om het pakket van anderen te onderscheiden."
+	description_change_button = "Voer Omschrijving In"
+
+	add_package_button = "Pakket Toevoegen"
+	save_package_button = "Pakket Opslaan"
+
+[dash.games.packages.manage]
+	heading = "Beheer Pakket"
+	remove_package_button = "Verwijder Pakket"
+
+	releases_tab = "Uitgaven"
+	edit_package_tab = "Bewerk Pakket"
+
+	remove_confirmation = "Weet je zeker dat je dit pakket wilt verwijderen? Alle uitgaven en versies in dit pakket zullen ook verwijderd worden."
+	removed_growl_title = "Pakket Verwijderd"
+	removed_growl = "Het game pakket is verwijderd."
+
+[dash.games.packages.manage.releases]
+	page_title = "Uitgaven in {{ package }} - {{ game }}"
+	heading = "Uitgaven"
+
+	page_help_html = """
+	<p>Uitgaven geven nieuwe versies van je game weer. Als je een pakket bijwerkt zul je een uitgave moeten toevoegen. Je kunt alle nieuwe versies bundelen in een nieuwe uitgave.</p>
+	"""
+	page_help_link = "Leer meer over uitgaven..."
+
+	no_releases_html = "<p>Er zijn nog geen uitgaven aan dit pakket toegevoegd.</p>"
+	add_release_button = "Nieuwe Uitgave Toevoegen"
+
+	hidden_tag = "Verborgen"
+	hidden_tooltip = "Deze uitgave is verborgen en wordt pas weergegeven op je game pagina na publicatie."
+
+	published_tag = "Gepubliceerd"
+	published_tooltip = "Deze uitgave is gepubliceerd en beschikbaar voor download op je game pagina."
+
+	release_title = "Uitgave {{ version }}"
+	builds_count_none = "Nog geen versies."
+	builds_count_one = "1 versie"
+	builds_count_other = "{{ count | number }} versies"
+
+[dash.games.releases.manage]
+	breadcrumb_package = "Pakket"
+	breadcrumb_release = "Uitgave"
+
+	heading = "Beheer Uitgave"
+
+	unpublish_release_button = "Verberg Uitgave"
+	remove_release_button = "Verwijder Uitgave"
+
+	switch_release_heading = "Wissel Uitgave"
+	add_release_button = "Nieuwe Uitgave Toevoegen"
+
+	publish_release_button = "Publiceer Uitgave"
+	publish_release_tooltip = "Publiceer deze uitgave om hem weer te geven op je game pagina!"
+
+	builds_tab = "Versies"
+	stats_tab = "Statistieken"
+	edit_release_tab = "Bewerk Uitgave"
+
+	publish_release_confirmation = "Weet je zeker dat je deze uitgave wilt publiceren? Alle versies worden actief op je game pagina."
+	publish_release_growl_title = "Uitgave Gepubliceerd!"
+	publish_release_growl = "Deze uitgave is nu beschikbaar op je game pagina."
+
+	unpublish_release_confirmation = "Weet je zeker dat je deze uitgave wilt verbergen? Alle versies zijn niet meer zichtbaar op je game pagina."
+	unpublish_release_growl_title = "Uitgave Verborgen"
+	unpublish_release_growl = "Deze uitgave is niet langer gepubliceerd op je game pagina."
+
+	remove_release_confirmation = "Weet je zeker dat je deze uitgave wilt verwijderen? Alle versies in deze uitgave worden ook verwijderd."
+	remove_release_growl_title = "Uitgave Verwijderd"
+	remove_release_growl = "De uitgave en bijbehorende versies zijn verwijderd."
+
+[dash.games.releases.form]
+	version_number_label = "Versie Nummer"
+	version_number_help_html = """
+	<p>
+		Versie nummers zijn de manier om je versies te organiseren.<br>
+		Nummering gaat als volgt <code>GROOT.KLEIN.PATCH</code>.
+	</p>
+	"""
+	version_number_help_link = "Leer meer over het kiezen van juiste versienummers..."
+
+	add_release_button = "Uitgave Toevoegen"
+	save_release_button = "Uigtave Opslaan"
+
+[dash.games.releases.edit]
+	page_title = "Bewerk uitgave {{ release }} - {{ package }} - {{ game }}"
+	heading = "Bewerk Uitgave"
+
+	saved_growl_title = "Uitgave Opgeslagen"
+	saved_growl = "Deze uitgave is opgeslagen."
+
+[dash.games.releases.stats]
+	page_title = "Statistieken voor {{ release }} - {{ package }} - {{ game }}"
+	heading = "Statistieken"
+
+[dash.games.releases.builds]
+	page_title = "Versies in {{ release }} - {{ package }} - {{ game }}"
+	heading = "Versies"
+
+	page_help_link = "Leer meer over versies en bestanden..."
+
+	no_builds_html = "<p>Er zijn nog geen versies aan deze uitgave toegevoegd.</p>"
+
+	downloads_label = "Downloads"
+
+	# A downloadable tagged as "Overige".
+	other_downloadable_tag = "Overige Downloads"
+
+	# Shown when the build is not yet fully set up because it doesn't have launch options.
+	incomplete_tag = "Actie Vereist"
+	incomplete_tag_tooltip = "We kunnen niet detecteren hoe we je versie moeten uitvoeren. Voer deze details in."
+
+	standalone_tag = "Uitvoerbaar Bestand"
+
+	windows_tag = "Win"
+	windows_64_tag = "Win x64"
+	mac_tag = "Mac"
+	mac_64_tag = "Mac x64"
+	linux_tag = "Linux"
+	linux_64_tag = "Linux x64"
+	other_tag = "Anders"
+
+	# For Java Applets
+	params_heading = "Params"
+	extra_files_heading = "Extra Bestanden"
+
+	edit_tab = "Bewerken"
+	launch_options_tab = "Opties Lanceren"
+	params_tab = "Params"
+	extra_files_tab = "Extra Bestanden"
+
+	add_build_button = "Voeg Nieuwe Versie Toe"
+	remove_build_button = "Versie Verwijderen"
+
+	remove_build_confirmation = "Weet je zeker dat je deze versie wilt verwijderen?"
+	remove_build_growl_title = "Versie Verwijderd"
+	remove_build_growl = "De versie is verwijderd uit de uitgave."
+
+	remove_extra_file_confirmation = "Weet je zeker dat je dit extra bestand wilt verwijderen?"
+
+	processing_message_html = """
+	<strong>Versie verwerken.</strong> De versie wordt beschikbaar in deze uitgave wanneer het verwerken voltooid is.
+	"""
+
+[dash.games.builds.form]
+	downloadable_tab = "Downloadable"
+	browser_tab = "Browser"
+
+	windows_tag = "Windows"
+	windows_64_tag = "Windows 64-bit"
+	mac_tag = "Mac"
+	mac_64_tag = "Mac 64-bit"
+	linux_tag = "Linux"
+	linux_64_tag = "Linux 64-bit"
+	other_tag = "Overig"
+
+	browser_label = "Browser Type"
+	html_help = "Een .zip archief met alle bestanden die je game nodig heeft om te starten, inclusief een index.html in de hoofdmap. Moet speelbaar zijn in elke browser zonder plugins."
+	unity_help = "Een .unity3d bestand. Speelbaar in alle browsers die de Unity Web Player ondersteunen. Als je jouw game hebt geexporteerd als WebGL, kies dan HTML in plaats van Unity."
+	flash_help = "Een .swf bestand. Speelbaar in browsers die Flash ondersteunen."
+	silverlight_help = "Een .xap bestand. Speelbaar in browsers die Silverlight ondersteunen."
+	applet_help = "Een .jar bestand. Speelbaar in browsers die Java nog ondersteunen. Overweeg om de .jar als downloadbare versie toe te voegen."
+
+	file_label = "Upload Bestand"
+	file_error_label = "bestand"
+	file_help_html = """
+	Je account is momenteel gelimiteerd tot {{ maxFilesize | number }} MB per bestand. Als je meer nodig hebt, neem dan contact met ons op via: <a href="mailto:contact@gamejolt.com">contact@gamejolt.com</a>
+	"""
+
+	# When html type of file is chosen.
+	file_html_help_html = """
+	<strong>Voor een HTML game: Upload een .zip archief met alle bestanden die je game nodig heeft om te starten, inclusief een index.html in de hoofdmap.</strong>
+	"""
+
+	platforms_label = "Platforms"
+	platforms_help_html = """
+	Selecteer "Overig" als deze versie voor een platform is dat niet wordt weergegeven in de lijst, of als het een niet uitvoerbaar bestand zoals PDF is.
+	"""
+	no_platforms_error = """
+	Je moet minimaal 1 platform voor je versie kiezen (of "Overig").
+	"""
+
+	dimensions_help_html = """
+	In deze resolutie wordt je browser versie weergegeven.
+	"""
+	width_label = "Breedte"
+	height_label = "Hoogte"
+
+	# For java applet.
+	class_name_label = "Class Naam"
+
+	# For unity.
+	disable_right_click_label = "Rechter muisknop uitschakelen?"
+	disable_right_click_help = "Dit geeft je de mogelijkheid de rechter muistoets uit te schakelen, gebruik dit wanneer je de knop nodig hebt in je game."
+
+	# For browser games to message not to put ads in their games.
+	browser_ads_alert = "Wees er zeker van dat je alle advertenties van je game uitzet, we tonen zelf advertenties op de website en delen de inkomsten met je. Blokkeer deze URL's bij je advertentie leverancier:"
+
+	upload_build_button = "Upload Versie"
+	save_build_button = "Versie Opslaan"
+
+[dash.games.releases.builds.launch_options]
+	incomplete_alert_html = """
+	<p>We kunnen niet detecteren hoe we deze versie moeten uitvoeren! Je moet ons vertellen hoe we dit moeten doen voordat we de versie kunnen weergeven op je pagina.</p>
+	"""
+
+	# When the build was detected to be an archive (zip, rar, etc).
+	archive_info_html = """
+	<p><strong>We hebben gedetecteerd dat je versie een archief is.</strong></p>
+	<p>Vertel ons wat de uitvoerbare bestanden zijn voor elk platform, zodat we de game goed kunnen aanleveren.</p>
+ 	"""
+
+	# When it's a standalone executable such as an exe.
+	standalone_info_html = """
+	<p><strong>We hebben gedetecteerd dat de versie een uitvoerbaar bestand is.</strong></p>
+	<p>De versie kan automatisch gelanceerd worden.</p>
+	"""
+
+	page_help_link = "Leer meer over opties bij lanceren..."
+
+[dash.games.releases.builds.launch_options.form]
+	file_selector_tooltip = "Bladeren door bestanden."
+	file_error_label = "pad naar uitvoerbaar bestand"
+
+	submit_button = "Stel Opties Voor Lanceren In"
+
+[dash.games.releases.builds.launch_options.file_selector]
+	heading = "Selecteer Uitvoerbaar Bestand"
+	filter_placeholder = "Bestanden filteren..."
+
+	no_files_html = """
+	<p>Oh nee! We kunnen geen uitvoerbaar bestand vinden voor dit platform.</p>
+	"""
+
+	cancel_button = "Annuleren"
+
+# Only shows for java.
+[dash.games.releases.builds.params]
+	info_html = """
+	<p>Als je applet opties in de embed nodig heeft, kun je die hier instellen.</p>
+	"""
+
+[dash.games.releases.builds.params.form]
+	parameter_label = "Parameter"
+	value_label = "Waarde"
+	add_parameter_button = "Parameter Toevoegen"
+
+# Only shows for java.
+[dash.games.releases.builds.extra_files]
+	info_html = """
+	<p>Je kunt de extra bestanden die je applicatie nodig heeft hier uploaden.</p>
+	"""
+
+	include_archive_label = "Toevoegen aan archief?"
+
+[dash.games.releases.builds.extra_files.form]
+	file_label = "Upload Bestand"
+	file_error_label = "bestand"
+
+	include_archive_label = "Toevoegen aan string archief?"
+	include_archive_help = "Als je niet weet wat dit betekent, kun je de optie het beste aanlaten."
+
+	submit_button = "Upload Bestand"
+
+[dash.games.news]
+	page_title = "Beheer Nieuws voor {{ game }}"
+	heading = "Game Nieuws"
+
+	page_help = "Plaats nieuws om je volgers te laten weten dat er iets interessants gebeurt."
+
+	add_button = "Nieuws Update Toevoegen"
+
+	no_news_html = """
+	<p>Je hebt nog geen nieuws voor deze game gepubliceerd. Nieuws updates houden je volgers geinformeerd en trekken nieuwe volgers aan!</p>
+	"""
+
+	posted_on = "Geplaatst op: {{ date | date:'medium' }}"
+	views = "Bezoekers:"
+	comments = "Commentaren:"
+
+[dash.games.news.add]
+	page_title = "Voeg Nieuws Toe"
+	heading = "Nieuws Toevoegen"
+
+	page_help = "Met nieuws updates houd je volgers dichtbij! Plaats niet zo veel nieuws dat de notificaties SPAM worden. Plaats nieuwsupdates wanneer er iets structureels te melden is."
+	page_help_link = "Leer meer over nieuwsupdates..."
+
+	added_growl_title = "Nieuws Geplaatst"
+	added_growl = "Je nieuws is geplaatst, goed bezig! Al je volgers zijn op de hoogte gebracht."
+
+[dash.games.news.article]
+	heading = "Beheer Update"
+
+	remove_option = "Verwijder Nieuws Update"
+
+	stats_tab = "Statistieken"
+	edit_tab = "Bewerken"
+	view_tab = "Bekijken"
+
+	remove_confirmation = "Weet je zeker dat je deze nieuwsupdate wilt verwijderen?"
+	remove_growl_title = "Nieuws Update Verwijderd"
+	remove_growl = "De nieuwsupdate is verwijderd van de website."
+
+[dash.games.news.article.stats]
+	page_title = "Statistieken voor {{ article }}"
+
+[dash.games.news.article.edit]
+	page_title = "Bewerk {{ article }}"
+
+	save_growl_title = "Update Opgeslagen"
+	save_growl = "Je nieuws update is opgeslagen."
+
+# Is the content help necessary with the add news help above?
+[dash.games.news.form]
+	title_label = "Titel"
+
+	content_label = "Inhoud"
+	content_help = "Markdown zorgt er voor dat je de nieuwsupdate visueel aantrekkelijker kunt maken met koptekst, rich tekst, lijsten, links, afbeeldingen, tabellen en meer."
+
+	add_follower_message = "Al je volgers worden op de hoogte gebracht, lees de update nog een keer goed door."
+
+	add_button = "Nieuws Update Toevoegen"
+	edit_button = "Nieuws Update Bewerken"
+
+[dash.games.music]
+	page_title = "Beheer Muziek voor {{ game }}"
+	heading = "Game Muziek"
+
+	page_help_html = """
+	<p>Laat mensen genieten van de muziek in je game wanneer ze willen! Upload MP3's of muziek van je game zodat spelers deze kunnen luisteren of downloaden. Upload geen materiaal met copyright zonder toestemming!</p>
+	"""
+
+	no_music_html = """
+	<p>Je hebt nog geen muziek toegevoegd. Upload wat muziek uit je game! De muziekspeler is het waard!</p>
+	"""
+
+	direct_link_help = "Link naar een downloadbare ZIP van de soundtrack van je game."
+
+	remove_button = "Verwijder Nummer"
+	add_button = "Nummer Toevoegen"
+
+	remove_confirmation = "Weet je zeker dat je dit nummer wilt verwijderen?"
+
+[dash.games.music.form]
+	title_label = "Titel Nummer"
+
+	add_file_label = "Nummer Bestand"
+	change_file_label = "Bewerk Bestand"
+	file_error_label = "nummer"
+	file_help_block = "Muziek uploads zijn momenteel beperkt tot {{ maxFilesize | number }}MB per bestand. Momenteel worden alleen MP3's ondersteund."
+
+	submit_button = "Nummer Opslaan"
+
+[dash.games.api.overview]
+	page_title = "Game API voor {{ game }}"
+	heading = "Game API Overzicht"
+
+	page_help_html = """
+	<p>De Game API geeft je de mogelijkheid om trofee&eacuten, cloud data opslag en nog veel meer toe te voegen aan je game pagina.</p>
+	<p>Je kunt onderstaande links bekijken om te zien of iemand al een API library of plugin heeft gemaakt voor de programmeertaal of de tool die je gebruikt. Je kunt er natuurlijk ook een zelf schrijven en delen op het forum!
+	"""
+
+	page_help_link = "Leer meer over de Game API..."
+	page_forum_link = "Vind hulp op het API forum..."
+
+	# When the stat isn't applicable yet, we show this instead of the number.
+	na = "-"
+
+	# Make sure the labels doesn't get longer than they are.
+	# There's not much space to fit.
+	sessions_heading = "Sessies"
+	sessions_help = "Sessies laten je zien wie je game speelt en hoe lang."
+	sessions_active_label = "Actieve Sessies"
+	sessions_time_label = "Totale Tijd"
+	sessions_avg_label = "Gemiddelde Duur"
+	sessions_users_label = "Gebruikers met Sessies"
+
+	trophies_heading = "Trofee&eacutem"
+	trophies_label = "Trofee&eacuten"
+	trophies_exp_label = "Trofee XP"
+	trophies_exp_tooltip = "De totale hoeveelheid XP behaalbaar in je game."
+	trophies_achieved_label = "Trofee&eacuten Vrijgespeeld"
+	trophies_users_label = "Gebruikers met Trofee&eacuten"
+
+	scores_heading = "Scores"
+	scores_label = "Aantal Scores"
+	scores_tooltip = "Het totale aantal geplaatste scores, inclusief gast scores."
+	scores_users_label = "Gebruikers met Scores"
+	scores_users_tooltip = "Het aantal gebruikers dat een score heeft geplaatst op het scorebord, gasten tellen niet mee."
+
+	data_heading = "Data Opslag"
+	data_items_label = "Globale Items"
+	data_items_tooltip = "Het totale aantal opgeslagen data items in de opslag."
+
+[dash.games.api.settings]
+	page_title = "Game API Instellingen voor {{ game }}"
+	heading = "Game API Instellingen"
+
+	page_alert_html = """
+	<p><strong>Geef de prive sleutel nooit aan iemand!</strong> De sleutel wordt gebruik om de scores verstuurd uit je game te valideren. Als iemand met kwaad in de zin deze sleutel te pakken krijgen kunnen ze valse scores plaatsten bij je game. Niet cool!</p>
+	"""
+
+	game_id_label = "Game ID"
+
+	key_label = "Prive Sleutel"
+	key_show_link = "(toon sleutel)"
+	key_generate_button = "Nieuwe Sleutel Genereren"
+
+	generate_confirmation = "Weet je zeker dat je een nieuwe sleutel wilt genereren? Versies die deze sleutel gebruiken kunnen niet langer communiceren met de API."
+
+	generate_growl_title = "Nieuwe Sleutel Aangemaakt"
+	generate_growl = "De nieuwe sleutel voor je game is aangemaakt. Vergeet niet om je game te updaten met deze gegevens."
+
+[dash.games.trophies]
+	page_title = "Beheer Trofee&eacuten voor{{ game }}"
+	heading = "Game Trofee&eacuten"
+
+	page_help_html = """
+	<p>De API geeft je de mogelijkheid meerdere unieke trofee&eacuten toe te voegen aan je game, trofee&eacuten komen in verschillende materialen om de moeilijkheidsgraag aan te geven: brons (makkelijk), zilver, goud, of platina (moeilijk).</p>
+	"""
+	page_help_link = "Leer meer over trofee&eacuten..."
+
+	# Shows when there are hidden trophies for their game.
+	# Just a warning to make sure they unhide them when they're ready.
+	has_hidden_html = """
+	<p><strong>Je hebt verborgen trofee&eacuten!</strong> Vergeet niet ze zichtbaar te maken als je wilt dat spelers ze kunnen vrijspelen.</p>
+	"""
+
+	# Difficulty is the "level": Bronze, Silver, etc.
+	section_heading = "{{ difficulty }} Trofee&eacuten"
+	no_trophies = "Nog geen {{ difficulty | lowercase }} trofee&eacuten toegevoegd."
+
+	trophy_id_label = "Trofee ID"
+
+	hidden_tag = "Verborgen"
+	hidden_tooltip = "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&eacuten."
+
+	secret_tag = "Geheim"
+	secret_tooltip = "Een geheime trofee laat alleen de naam van de trofee zien, tot deze wordt vrijgespeeld."
+
+	remove_button = "Verwijder Trofee"
+	remove_confirmation = "Weet je zeker dat je deze trofee wilt verwijderen?"
+
+	add_button = "Voeg {{ difficulty }} Trofee Toe"
+
+[dash.games.trophies.form]
+	difficulty_label = "Moeilijkheidsgraad"
+
+	upload_label = "Trofee Afbeelding"
+	change_image_label = "Verander Trofee Afbeelding"
+	image_error_label = "trofee afbeelding"
+	image_help_link = "Leer meer over trofee afbeeldingen..."
+
+	current_image_label = "Huidige Trofee Afbeelding"
+	clear_image_button = "Wis Afbeelding"
+
+	clear_image_confirmation = "Weet je zeker dat je de afbeelding van deze trofee wilt wissen?"
+
+	title_label = "Titel"
+
+	description_label = "Beschrijving"
+
+	secret_label = "Geheim"
+	secret_help = "Een geheime trofee laat alleen de naam van de trofee zien, tot deze wordt vrijgespeeld."
+
+	hidden_label = "Verborgen"
+	hidden_help = "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&eacuten."
+
+	save_button = "Trofee Opslaan"
+
+# Some generic things.
+[dash.games.scores]
+	guest_tag = "Gast"
+
+	# This is for the more options [...] button for users in scores listing and stuff.
+	view_user_scores = "Bekijk alle scores van gebruiker"
+	view_user_scores_table = "in {{ table }}"
+	goto_user_profile = "Ga naar Profiel"
+
+[dash.games.scoreboards]
+	page_title = "Beheer scorebord voor {{ game }}"
+	heading = "Scoreborden"
+
+	page_help_html = """
+	<p>De API geeft je de mogelijkheid meerdere aangepaste scoreborden toe te voegen, je krijgt opties om de scores te sorteren, verwijderen en extra verborgen data toe te voegen aan de scores.</p>
+	<p>Het primaire scorebord is degene die wordt weergegeven op je game pagina. Stel een nieuw primair scorebord in door deze naar de eerste plek te verslepen.</p>
+	"""
+	page_help_link = "Leer meer over scoreborden..."
+
+	table_id_label = "Tabel ID"
+
+	primary_tag = "Primair Scoreboard"
+	primary_tooltip = "Het primaire scorebord is degene die wordt weergegeven op je game pagina. Ondersteunt de API library van jouw tool het gebruik van meerdere scoreborden niet, dan wordt het primaire scorebord gebruikt."
+
+	guest_tag = "Gast Scores"
+	guest_tooltip = "Gasten toestaan scores te plaatsen."
+
+	unique_tag = "Unieke Scores"
+	unique_tooltip = "Geeft alleen de beste score van een gebruiker weer."
+
+	asc_tag = "Oplopend"
+	asc_tooltip = "Scores met lagere waardes worden hoger gewaardeerd."
+
+	desc_tag = "Aflopend"
+	desc_tooltip = "Scores met hogere waardes worden hoger gewaardeerd."
+
+	scores_button = "Bekijk Scores"
+
+	add_button = "Voeg Scorebord Toe"
+
+	remove_button = "Verwijder Scorebord"
+	remove_confirmation = "Weet je zeker dat je dit scorebord wilt verwijderen?"
+
+[dash.games.scoreboard.form]
+	name_label = "Naam"
+	description_label = "Beschrijving"
+
+	guest_label = "Gast Scores"
+	guest_help = "Gasten toestaan scores te plaatsen?"
+
+	unique_label = "Unieke Scores"
+	unique_help = "Alleen de beste score van een gebruiker weergeven?"
+
+	direction_label = "Sorteren op"
+	desc_label = "Aflopend"
+	desc_help = "Scores met hogere waardes worden hoger gewaardeerd."
+	asc_label = "Oplopend"
+	asc_help = "Scores met lagere waardes worden hoger gewaardeerd"
+
+	save_button = "Scorebord Opslaan"
+
+# They view the scores for a particular scoreboard.
+[dash.games.scores.list]
+	page_title = "Bekijk scores voor {{ table }} - {{ game }}"
+	heading = "Bekijk Scores"
+
+	page_help_html = """
+	<p>Dit zijn alle scores die door spelers zijn geplaatst op dit scorebord, ook gasten worden hier weergegeven (indien toegestaan).</p>
+	"""
+
+	no_scores_html = """
+	<p>Deze tabel heeft nog geen scores, helaas.</p>
+	"""
+
+	rank_label = "Positie"
+	user_label = "Speler"
+	sort_label = "Sorteren Op"
+	date_label = "Datum"
+
+	remove_button = "Verwijder Score"
+
+# Shows all scores for a user on a particular scoreboard.
+[dash.games.scores.user.list]
+	page_title = "Bekijk scores van {{ user }} in {{ table }} - {{ game }}"
+	heading = "Bekijk Scores"
+	heading_for = "voor"
+	heading_on = "in"
+
+	remove_all_button = "Verwijder Alles"
+	remove_confirmation = "Weet je zeker dat je alle scores uit deze tabel wilt verwijderen?"
+
+	remove_growl_title = "Scores Verwijderd"
+	remove_growl = "Alle scores zijn verwijderd uit deze tabel."
+
+	no_scores_html = """
+	<p>Deze speler heeft geen scores op dit scorebord.</p>
+	"""
+
+[dash.games.scores.view]
+	page_title = "Score Details - {{ game }}"
+	heading = "Score Details"
+
+	user_label = "Speler"
+	table_label = "Tabel"
+	string_label = "Score Tekst"
+	sort_label = "Sorteren op"
+	date_label = "Gescoord op"
+	data_label = "Extra Data"
+	data_none_help = "Geen extra data voor deze score. Gebruik extra data om extra informatie mee te sturen met de score om bijvoorbeeld valsspelers te herkennen."
+
+	remove_button = "Verwijder Score"
+	remove_confirmation = "Weet je zeker dat je deze score wilt verwijderen?"
+
+[dash.games.data_store.items]
+	page_title = "Beheer Data Opslag voor {{ game }}"
+	heading = "Data Opslag Items"
+
+	page_help_html = """
+	<p>Je kunt de API gebruiken om data op te slaan... <em>in de cloud!</em> Alle opgelsagen data items worden hier weergegeven.</p>
+	<p>Op het moment kun je alleen globaal opgeslagen data hier bekijken. Opgeslagen speler data is momenteel niet zichtbaar.</p>
+	"""
+
+	page_help_link = "Leer meer over data opslag..."
+
+	key_label = "Sleutel"
+	preview_label = "Data Voorbeeld"
+	date_label = "Opegeslagen Op"
+
+	remove_button = "Verwijder Item"
+	remove_confirmation = "Weet je zeker dat je dit item wilt verwijderen?"
+
+[dash.games.data_store.items.view]
+	page_title = "Item Details - {{ game }}"
+	heading = "Item Details"
+
+	key_label = "Sleutel"
+	date_label = "Opgeslagen Op"
+	data_label = "Item Data"
+
+[chat]
+	no_friends_message_html = """
+	<p>Maak vrienden op de site om te zien wat ze spelen, met ze te chatten of om samen een game te spelen!</p>
+	"""
