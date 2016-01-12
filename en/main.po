@@ -1,0 +1,2960 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Game Jolt\n"
+"Language: en\n"
+
+#: app/components/notifications/descriptive-action/descriptive-action.html:12
+msgid "{{ ::translationKey }}"
+msgstr ""
+
+#: auth/views/auth/join/join.html:2
+msgid "{{ joinCtrl.joinMessage }}"
+msgstr ""
+
+#: auth/views/auth/authorize/authorize.html:4
+msgid "auth.authorize.invalid.body_html"
+msgstr ""
+
+#: auth/views/auth/authorize/authorize.html:2
+msgid "auth.authorize.invalid.heading"
+msgstr ""
+
+#. The title for the page when their authorization fails.
+#: auth/app.js:133
+msgid "auth.authorize.invalid.page_title"
+msgstr ""
+
+#. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
+#: auth/app.js:148
+msgid "auth.authorize.success_growl"
+msgstr ""
+
+#: auth/views/auth/login/login.html:39
+msgid "auth.forgot_link"
+msgstr ""
+
+#: auth/components/forms/retrieve-login/retrieve-login.html:5
+msgid "auth.forgot.email_help"
+msgstr ""
+
+#: auth/components/forms/retrieve-login/retrieve-login.html:10
+#: auth/components/forms/retrieve-login/retrieve-login.html:4
+msgid "auth.forgot.email_label"
+msgstr ""
+
+#: auth/views/auth/forgot/forgot.html:1
+msgid "auth.forgot.heading"
+msgstr ""
+
+#: auth/components/forms/retrieve-login/retrieve-login.html:16
+msgid "auth.forgot.invalid_email_error_html"
+msgstr ""
+
+#: auth/views/auth/forgot/sent/sent.html:4
+msgid "auth.forgot.sent.body_html"
+msgstr ""
+
+#: auth/views/auth/forgot/sent/sent.html:2
+msgid "auth.forgot.sent.heading"
+msgstr ""
+
+#: auth/views/auth/forgot/sent/sent.html:5
+msgid "auth.forgot.sent.spam"
+msgstr ""
+
+#: auth/components/forms/retrieve-login/retrieve-login.html:21
+msgid "auth.forgot.submit_button"
+msgstr ""
+
+#: auth/views/auth/login/login.html:33
+msgid "auth.join_link"
+msgstr ""
+
+#: auth/views/auth/join/almost/almost.html:4
+msgid "auth.join.almost.body_html"
+msgstr ""
+
+#: auth/views/auth/join/almost/almost.html:2
+msgid "auth.join.almost.heading"
+msgstr ""
+
+#: auth/views/auth/join/almost/almost.html:5
+msgid "auth.join.almost.spam"
+msgstr ""
+
+#: auth/views/auth/join/almost/almost.html:6
+msgid "auth.join.almost.urgency"
+msgstr ""
+
+#: auth/components/forms/join/join.html:4
+#: auth/components/forms/join/join.html:8
+msgid "auth.join.email_label"
+msgstr ""
+
+#: auth/views/auth/join/join.html:11
+msgid "auth.join.facebook_button"
+msgstr ""
+
+#: auth/components/forms/join/join.html:25
+#: auth/components/forms/join/join.html:30
+msgid "auth.join.password_label"
+msgstr ""
+
+#: auth/components/forms/join/join.html:39
+msgid "auth.join.submit_button"
+msgstr ""
+
+#: auth/views/auth/join/join.html:19
+msgid "auth.join.twitter_button"
+msgstr ""
+
+#: auth/components/forms/join/join.html:13
+#: auth/components/forms/join/join.html:20
+msgid "auth.join.username_label"
+msgstr ""
+
+#: auth/views/auth/linked-account/_processing.html:1
+msgid "auth.linked_account.loading_message"
+msgstr ""
+
+#: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
+msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
+msgstr ""
+
+#: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
+msgid "auth.linked_account.twitter.finalize.email_help"
+msgstr ""
+
+#: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
+#: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
+msgid "auth.linked_account.twitter.finalize.email_label"
+msgstr ""
+
+#: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
+msgid "auth.linked_account.twitter.finalize.heading"
+msgstr ""
+
+#: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
+msgid "auth.linked_account.twitter.finalize.submit_button"
+msgstr ""
+
+#: auth/views/auth/join/join.html:33
+msgid "auth.login_link"
+msgstr ""
+
+#: auth/views/auth/login/login.html:12
+msgid "auth.login.facebook_button"
+msgstr ""
+
+#: auth/components/forms/login/login.html:28
+msgid "auth.login.invalid_login_error_html"
+msgstr ""
+
+#: auth/components/forms/login/login.html:30
+msgid "auth.login.loading_message"
+msgstr ""
+
+#: auth/components/forms/login/login.html:18
+#: auth/components/forms/login/login.html:22
+msgid "auth.login.password_label"
+msgstr ""
+
+#: auth/components/forms/login/login.html:35
+msgid "auth.login.submit_button"
+msgstr ""
+
+#: auth/views/auth/login/login.html:20
+msgid "auth.login.twitter_button"
+msgstr ""
+
+#: auth/components/forms/login/login.html:13
+#: auth/components/forms/login/login.html:8
+msgid "auth.login.username_label"
+msgstr ""
+
+#: auth/views/auth/join/join.html:24
+#: auth/views/auth/join/join.html:31
+#: auth/views/auth/login/login.html:25
+#: auth/views/auth/login/login.html:31
+msgid "auth.or"
+msgstr ""
+
+#: auth/views/auth/reset-password/reset-password.html:1
+msgid "auth.reset_password.heading"
+msgstr ""
+
+#: auth/components/forms/reset-password/reset-password.html:5
+msgid "auth.reset_password.password_help"
+msgstr ""
+
+#: auth/components/forms/reset-password/reset-password.html:11
+#: auth/components/forms/reset-password/reset-password.html:4
+msgid "auth.reset_password.password_label"
+msgstr ""
+
+#: auth/components/forms/reset-password/reset-password.html:20
+msgid "auth.reset_password.submit_button"
+msgstr ""
+
+#: app/components/chat/sidebar/sidebar.html:89
+msgid "chat.no_friends_message_html"
+msgstr ""
+
+#: app/views/dashboard/activity/list/list.html:17
+msgid "dash.activity.all_tab"
+msgstr ""
+
+#: app/views/dashboard/activity/list/list.html:70
+msgid "dash.activity.dismiss_all_button"
+msgstr ""
+
+#: app/views/dashboard/activity/list/list.html:53
+msgid "dash.activity.filter_button"
+msgstr ""
+
+#: app/views/dashboard/activity/list/list.html:7
+msgid "dash.activity.heading"
+msgstr ""
+
+#: app/views/dashboard/activity/list/list.html:85
+msgid "dash.activity.no_activity"
+msgstr ""
+
+#: app/views/dashboard/activity/list/list.html:25
+msgid "dash.activity.unread_tab"
+msgstr ""
+
+#: app/views/dashboard/account/avatar/avatar.html:14
+msgid "dash.avatar.body_html"
+msgstr ""
+
+#: app/views/dashboard/account/avatar/avatar.html:7
+msgid "dash.avatar.current_alt"
+msgstr ""
+
+#: app/views/dashboard/account/avatar/avatar.html:6
+msgid "dash.avatar.current_label"
+msgstr ""
+
+#: app/views/dashboard/account/avatar/avatar.html:19
+msgid "dash.avatar.get_avatar_button"
+msgstr ""
+
+#: app/components/forms/dashboard/change-password/change-password.html:23
+msgid "dash.change_pass.confirm_password_label"
+msgstr ""
+
+#: app/components/forms/dashboard/change-password/change-password.html:10
+msgid "dash.change_pass.invalid_old_password_error"
+msgstr ""
+
+#: app/components/forms/dashboard/change-password/change-password.html:31
+msgid "dash.change_pass.no_match_error"
+msgstr ""
+
+#: app/components/forms/dashboard/change-password/change-password.html:3
+msgid "dash.change_pass.old_password_label"
+msgstr ""
+
+#: app/components/forms/dashboard/change-password/change-password.html:14
+msgid "dash.change_pass.password_label"
+msgstr ""
+
+#: app/components/forms/dashboard/change-password/change-password.html:37
+msgid "dash.change_pass.submit_button"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:13
+msgid "dash.email_prefs.newsletter_help"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:12
+msgid "dash.email_prefs.newsletter_label"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:20
+msgid "dash.email_prefs.notifications_description"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:18
+msgid "dash.email_prefs.notifications_heading"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:34
+msgid "dash.email_prefs.submit_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/header/header.html:11
+#: app/components/forms/dashboard/game/image/image.html:11
+#: app/components/forms/dashboard/game/trophy/trophy.html:40
+msgid "dash.forms.image_filetype_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:163
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
+#: app/components/forms/dashboard/game/score-table/score-table.html:15
+#: app/components/forms/dashboard/game/score-table/score-table.html:20
+#: app/components/forms/dashboard/game/trophy/trophy.html:71
+#: app/components/forms/dashboard/game/trophy/trophy.html:76
+msgid "dash.forms.no"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:21
+#: app/components/forms/dashboard/game/settings/settings.html:32
+#: app/components/forms/dashboard/game/settings/settings.html:43
+msgid "dash.forms.off"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:20
+#: app/components/forms/dashboard/game/settings/settings.html:31
+#: app/components/forms/dashboard/game/settings/settings.html:42
+msgid "dash.forms.on"
+msgstr ""
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
+msgid "dash.forms.thumbnail_filetype_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:162
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
+#: app/components/forms/dashboard/game/score-table/score-table.html:15
+#: app/components/forms/dashboard/game/score-table/score-table.html:20
+#: app/components/forms/dashboard/game/trophy/trophy.html:71
+#: app/components/forms/dashboard/game/trophy/trophy.html:76
+msgid "dash.forms.yes"
+msgstr ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
+msgid "dash.funds.withdraw.amount_label"
+msgstr ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
+msgid "dash.funds.withdraw.email_help"
+msgstr ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
+msgid "dash.funds.withdraw.email_label"
+msgstr ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
+msgid "dash.funds.withdraw.form_help_html"
+msgstr ""
+
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
+msgid "dash.funds.withdraw.heading"
+msgstr ""
+
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "dash.funds.withdraw.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
+msgid "dash.funds.withdraw.revenue_pending"
+msgstr ""
+
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
+msgid "dash.funds.withdraw.revenue_withdrawable"
+msgstr ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
+msgid "dash.funds.withdraw.submit_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:156
+msgid "dash.games.add.fnaf_autotag_accept"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:151
+msgid "dash.games.add.fnaf_autotag_message_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:161
+msgid "dash.games.add.fnaf_autotag_reject"
+msgstr ""
+
+#: app/views/dashboard/developer/games/add/add.html:5
+msgid "dash.games.add.heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:18
+msgid "dash.games.add.rules_accept_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:10
+msgid "dash.games.add.rules_heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:12
+msgid "dash.games.add.rules_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:51
+msgid "dash.games.api_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
+msgid "dash.games.api.overview.data_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
+msgid "dash.games.api.overview.data_items_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
+msgid "dash.games.api.overview.data_items_tooltip"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
+msgid "dash.games.api.overview.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
+msgid "dash.games.api.overview.na"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
+msgid "dash.games.api.overview.page_forum_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
+msgid "dash.games.api.overview.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
+msgid "dash.games.api.overview.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
+msgid "dash.games.api.overview.scores_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:136
+msgid "dash.games.api.overview.scores_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
+msgid "dash.games.api.overview.scores_tooltip"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
+msgid "dash.games.api.overview.scores_users_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
+msgid "dash.games.api.overview.scores_users_tooltip"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
+msgid "dash.games.api.overview.sessions_active_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
+msgid "dash.games.api.overview.sessions_avg_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
+msgid "dash.games.api.overview.sessions_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
+msgid "dash.games.api.overview.sessions_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
+msgid "dash.games.api.overview.sessions_time_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
+msgid "dash.games.api.overview.sessions_users_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
+msgid "dash.games.api.overview.trophies_achieved_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
+msgid "dash.games.api.overview.trophies_exp_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
+msgid "dash.games.api.overview.trophies_exp_tooltip"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
+msgid "dash.games.api.overview.trophies_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:78
+msgid "dash.games.api.overview.trophies_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
+msgid "dash.games.api.overview.trophies_users_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
+msgid "dash.games.api.settings.game_id_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
+msgid "dash.games.api.settings.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
+msgid "dash.games.api.settings.key_generate_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/settings/settings.html:19
+msgid "dash.games.api.settings.key_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/settings/settings.html:26
+msgid "dash.games.api.settings.key_show_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
+msgid "dash.games.api.settings.page_alert_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:183
+msgid "dash.games.builds.form.' + (method == 'add' ? 'upload' : 'save') + '_build_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:63
+msgid "dash.games.builds.form.applet_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:171
+msgid "dash.games.builds.form.browser_ads_alert"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:30
+msgid "dash.games.builds.form.browser_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:23
+msgid "dash.games.builds.form.browser_tab"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:148
+msgid "dash.games.builds.form.class_name_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:126
+msgid "dash.games.builds.form.dimensions_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:159
+msgid "dash.games.builds.form.disable_right_click_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:158
+msgid "dash.games.builds.form.disable_right_click_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:18
+msgid "dash.games.builds.form.downloadable_tab"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:88
+msgid "dash.games.builds.form.file_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:77
+msgid "dash.games.builds.form.file_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:79
+msgid "dash.games.builds.form.file_html_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:75
+msgid "dash.games.builds.form.file_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:49
+msgid "dash.games.builds.form.flash_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:136
+msgid "dash.games.builds.form.height_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:35
+msgid "dash.games.builds.form.html_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:116
+msgid "dash.games.builds.form.no_platforms_error"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:97
+msgid "dash.games.builds.form.platforms_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:95
+msgid "dash.games.builds.form.platforms_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:56
+msgid "dash.games.builds.form.silverlight_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:42
+msgid "dash.games.builds.form.unity_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/build.html:130
+msgid "dash.games.builds.form.width_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:22
+msgid "dash.games.data_store.items.date_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:2
+msgid "dash.games.data_store.items.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
+msgid "dash.games.data_store.items.key_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
+msgid "dash.games.data_store.items.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:8
+msgid "dash.games.data_store.items.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:21
+msgid "dash.games.data_store.items.preview_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:47
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
+msgid "dash.games.data_store.items.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
+msgid "dash.games.data_store.items.view.data_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
+msgid "dash.games.data_store.items.view.date_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
+msgid "dash.games.data_store.items.view.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:27
+msgid "dash.games.data_store.items.view.key_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/edit/edit.html:4
+msgid "dash.games.edit.heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:38
+msgid "dash.games.form.category_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:40
+msgid "dash.games.form.category_placeholder"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:97
+msgid "dash.games.form.description_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:95
+msgid "dash.games.form.description_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:86
+msgid "dash.games.form.dev_status_canceled"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:87
+msgid "dash.games.form.dev_status_canceled_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:72
+msgid "dash.games.form.dev_status_finished"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:73
+msgid "dash.games.form.dev_status_finished_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:66
+msgid "dash.games.form.dev_status_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:67
+msgid "dash.games.form.dev_status_not_completable_info_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:79
+msgid "dash.games.form.dev_status_wip"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:80
+msgid "dash.games.form.dev_status_wip_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:45
+msgid "dash.games.form.engine_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:58
+msgid "dash.games.form.engine_other_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:53
+msgid "dash.games.form.engine_other_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:60
+msgid "dash.games.form.engine_other_why"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:59
+msgid "dash.games.form.engine_other_why_tooltip"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:47
+msgid "dash.games.form.engine_placeholder"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:125
+msgid "dash.games.form.status_hidden"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:126
+msgid "dash.games.form.status_hidden_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:112
+msgid "dash.games.form.status_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:113
+msgid "dash.games.form.status_not_publishable_info_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:118
+msgid "dash.games.form.status_published"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:119
+msgid "dash.games.form.status_published_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:28
+msgid "dash.games.form.title_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:33
+msgid "dash.games.form.website_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/header/header.html:18
+msgid "dash.games.header.clear_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/header/header.html:11
+msgid "dash.games.header.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/header/header.html:24
+msgid "dash.games.header.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/header/header.html:26
+msgid "dash.games.header.page_help_link"
+msgstr ""
+
+#: app/components/forms/dashboard/game/header/header.html:30
+msgid "dash.games.header.save_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/header/header.html:24
+msgid "dash.games.header.upload_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/header/header.html:9
+msgid "dash.games.header.upload_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/game.html:5
+msgid "dash.games.hidden_message"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/game.html:6
+msgid "dash.games.hidden_message_unpublished"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:6
+msgid "dash.games.hidden_tag"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:3
+msgid "dash.games.maturity.age_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:82
+msgid "dash.games.maturity.alcohol_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:56
+msgid "dash.games.maturity.bloodshed_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:23
+msgid "dash.games.maturity.cartoon_violence_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:93
+msgid "dash.games.maturity.drugs_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:34
+msgid "dash.games.maturity.fantasy_violence_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:167
+msgid "dash.games.maturity.gambling_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
+msgid "dash.games.maturity.heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:156
+msgid "dash.games.maturity.humor_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:145
+msgid "dash.games.maturity.language_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:143
+msgid "dash.games.maturity.misc_legend"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:119
+msgid "dash.games.maturity.nudity_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
+msgid "dash.games.maturity.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
+msgid "dash.games.maturity.page_help_link"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:45
+msgid "dash.games.maturity.realistic_violence_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:183
+msgid "dash.games.maturity.save_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:117
+msgid "dash.games.maturity.sex_nudity_legend"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:130
+msgid "dash.games.maturity.sexual_themes_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:67
+msgid "dash.games.maturity.sexual_violence_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:80
+msgid "dash.games.maturity.substances_legend"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:104
+msgid "dash.games.maturity.tobacco_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:21
+msgid "dash.games.maturity.violence_legend"
+msgstr ""
+
+#: app/components/forms/dashboard/game/maturity/maturity.html:5
+msgid "dash.games.maturity.wip_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:31
+msgid "dash.games.media_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/list/list.html:45
+msgid "dash.games.media.' + item.media_type + '_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/list/list.html:22
+msgid "dash.games.media.add_button_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/list/list.html:30
+msgid "dash.games.media.add_button_mobile"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/add.html:7
+msgid "dash.games.media.add.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
+msgid "dash.games.media.add.image.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
+msgid "dash.games.media.add.image.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
+msgid "dash.games.media.add.video.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
+msgid "dash.games.media.add.video.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/list/list.html:4
+msgid "dash.games.media.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/add.html:14
+msgid "dash.games.media.image_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/image/image.html:33
+msgid "dash.games.media.image.direct_link_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/image/image.html:48
+msgid "dash.games.media.image.edit_heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/image/image.html:29
+msgid "dash.games.media.image.form.caption_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/image/image.html:26
+msgid "dash.games.media.image.form.caption_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/image/image.html:22
+msgid "dash.games.media.image.form.image_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/image/image.html:9
+msgid "dash.games.media.image.form.image_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/image/image.html:34
+msgid "dash.games.media.image.form.submit_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/image/image.html:14
+msgid "dash.games.media.image.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/image/image.html:21
+msgid "dash.games.media.image.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/list/list.html:6
+msgid "dash.games.media.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/add/add.html:20
+msgid "dash.games.media.video_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/video/video.html:33
+msgid "dash.games.media.video.direct_link_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/video/video.html:44
+msgid "dash.games.media.video.edit_heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/video/video.html:14
+msgid "dash.games.media.video.form.description_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/video/video.html:21
+msgid "dash.games.media.video.form.submit_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/video/video.html:9
+msgid "dash.games.media.video.form.title_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/video/video.html:5
+msgid "dash.games.media.video.form.url_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/video/video.html:6
+msgid "dash.games.media.video.form.url_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/video/video.html:3
+msgid "dash.games.media.video.form.url_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/video/video.html:14
+msgid "dash.games.media.video.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/media/video/video.html:21
+msgid "dash.games.media.video.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:46
+msgid "dash.games.music_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/music/music.html:61
+msgid "dash.games.music.add_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/music/music.html:12
+msgid "dash.games.music.direct_link_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/song/song.html:14
+msgid "dash.games.music.form.' + (method == 'add' ? 'add' : 'change') + '_file_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/song/song.html:24
+msgid "dash.games.music.form.file_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/song/song.html:29
+msgid "dash.games.music.form.submit_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/song/song.html:9
+msgid "dash.games.music.form.title_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/music/music.html:4
+msgid "dash.games.music.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/music/music.html:21
+msgid "dash.games.music.no_music_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/music/music.html:6
+msgid "dash.games.music.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/music/music.html:46
+msgid "dash.games.music.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:41
+msgid "dash.games.news_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:18
+msgid "dash.games.news.add_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/add/add.html:4
+msgid "dash.games.news.add.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/add/add.html:7
+msgid "dash.games.news.add.page_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/add/add.html:9
+msgid "dash.games.news.add.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/article/article.html:50
+msgid "dash.games.news.article.edit_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/article/article.html:14
+msgid "dash.games.news.article.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/article/article.html:21
+msgid "dash.games.news.article.remove_option"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/article/article.html:44
+msgid "dash.games.news.article.stats_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/article/article.html:62
+msgid "dash.games.news.article.view_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:42
+msgid "dash.games.news.comments"
+msgstr ""
+
+#: app/components/forms/dashboard/game/news-article/news-article.html:29
+msgid "dash.games.news.form.add_follower_message"
+msgstr ""
+
+#: app/components/forms/dashboard/game/news-article/news-article.html:13
+msgid "dash.games.news.form.content_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
+msgid "dash.games.news.form.content_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/news-article/news-article.html:3
+msgid "dash.games.news.form.title_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:4
+msgid "dash.games.news.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:13
+msgid "dash.games.news.no_news_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:7
+msgid "dash.games.news.page_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:37
+msgid "dash.games.news.views"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:26
+msgid "dash.games.overview_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:59
+msgid "dash.games.overview.{{ manageCtrl.game.development_status == Game.DEVELOPMENT_STATUS_WIP ? 'todo_info_wip_html' : 'todo_info_html' }}"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:178
+msgid "dash.games.overview.activity_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:181
+msgid "dash.games.overview.activity_none_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/game.html:135
+msgid "dash.games.overview.publish_confirmation"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:155
+msgid "dash.games.overview.stats_comments"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:165
+msgid "dash.games.overview.stats_followers"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:95
+msgid "dash.games.overview.stats_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:137
+msgid "dash.games.overview.stats_na"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:120
+msgid "dash.games.overview.stats_plays"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:130
+msgid "dash.games.overview.stats_rating"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:145
+msgid "dash.games.overview.stats_ratings"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:110
+msgid "dash.games.overview.stats_views"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:20
+msgid "dash.games.overview.todo_additional_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:34
+msgid "dash.games.overview.todo_done"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:3
+msgid "dash.games.overview.todo_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:39
+msgid "dash.games.overview.todo_highly_recommended"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:82
+msgid "dash.games.overview.todo_info_builds_processing_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
+msgid "dash.games.overview.todo_info_publish_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:69
+msgid "dash.games.overview.todo_info_ready_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:5
+msgid "dash.games.overview.todo_lead_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:38
+msgid "dash.games.overview.todo_recommended"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:37
+msgid "dash.games.overview.todo_required"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:36
+msgid "dash.games.packages_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/packages.html:45
+#: app/views/dashboard/developer/games/manage/packages/packages.html:76
+msgid "dash.games.packages.add_package_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:2
+msgid "dash.games.packages.add.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/edit/edit.html:2
+msgid "dash.games.packages.edit.heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:51
+msgid "dash.games.packages.form.' + (method == 'add' ? 'add' : 'save') + '_package_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:39
+msgid "dash.games.packages.form.description_change_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:34
+msgid "dash.games.packages.form.description_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:33
+msgid "dash.games.packages.form.description_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:18
+msgid "dash.games.packages.form.title_change_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:9
+msgid "dash.games.packages.form.title_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:8
+msgid "dash.games.packages.form.title_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/packages.html:60
+msgid "dash.games.packages.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/package.html:34
+msgid "dash.games.packages.manage.edit_package_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/package.html:7
+msgid "dash.games.packages.manage.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/package.html:28
+msgid "dash.games.packages.manage.releases_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:16
+msgid "dash.games.packages.manage.releases.add_release_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
+msgid "dash.games.packages.manage.releases.builds_count_none"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:22
+msgid "dash.games.packages.manage.releases.builds_count_one"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:23
+msgid "dash.games.packages.manage.releases.builds_count_other"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
+msgid "dash.games.packages.manage.releases.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
+msgid "dash.games.packages.manage.releases.hidden_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
+msgid "dash.games.packages.manage.releases.hidden_tooltip"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
+msgid "dash.games.packages.manage.releases.no_releases_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
+msgid "dash.games.packages.manage.releases.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:6
+msgid "dash.games.packages.manage.releases.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
+msgid "dash.games.packages.manage.releases.published_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
+msgid "dash.games.packages.manage.releases.published_tooltip"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/package/package.html:18
+msgid "dash.games.packages.manage.remove_package_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/packages.html:9
+msgid "dash.games.packages.nav_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/packages.html:71
+msgid "dash.games.packages.no_packages_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:6
+#: app/views/dashboard/developer/games/manage/packages/packages.html:64
+msgid "dash.games.packages.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:8
+#: app/views/dashboard/developer/games/manage/packages/packages.html:66
+msgid "dash.games.packages.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:9
+msgid "dash.games.published_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:237
+msgid "dash.games.releases.builds.add_build_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:26
+msgid "dash.games.releases.builds.downloads_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:179
+msgid "dash.games.releases.builds.edit_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:152
+msgid "dash.games.releases.builds.extra_files_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:195
+msgid "dash.games.releases.builds.extra_files_tab"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:11
+msgid "dash.games.releases.builds.extra_files.form.file_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:4
+msgid "dash.games.releases.builds.extra_files.form.file_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:15
+msgid "dash.games.releases.builds.extra_files.form.include_archive_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:14
+msgid "dash.games.releases.builds.extra_files.form.include_archive_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:25
+msgid "dash.games.releases.builds.extra_files.form.submit_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:14
+msgid "dash.games.releases.builds.extra_files.include_archive_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:3
+msgid "dash.games.releases.builds.extra_files.info_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
+msgid "dash.games.releases.builds.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:66
+msgid "dash.games.releases.builds.incomplete_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:185
+msgid "dash.games.releases.builds.launch_options_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
+msgid "dash.games.releases.builds.launch_options.archive_info_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
+msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:8
+msgid "dash.games.releases.builds.launch_options.file_selector.filter_placeholder"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:2
+msgid "dash.games.releases.builds.launch_options.file_selector.heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
+msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
+msgid "dash.games.releases.builds.launch_options.form.file_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/launch-options/launch-options.html:26
+msgid "dash.games.releases.builds.launch_options.form.submit_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:1
+msgid "dash.games.releases.builds.launch_options.incomplete_alert_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
+msgid "dash.games.releases.builds.launch_options.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:28
+msgid "dash.games.releases.builds.launch_options.standalone_info_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:12
+msgid "dash.games.releases.builds.no_builds_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:56
+msgid "dash.games.releases.builds.other_downloadable_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:9
+msgid "dash.games.releases.builds.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:148
+msgid "dash.games.releases.builds.params_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:190
+msgid "dash.games.releases.builds.params_tab"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/param/param.html:18
+msgid "dash.games.releases.builds.params.form.add_parameter_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/param/param.html:3
+msgid "dash.games.releases.builds.params.form.parameter_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/param/param.html:11
+msgid "dash.games.releases.builds.params.form.value_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/params/_params.html:3
+msgid "dash.games.releases.builds.params.info_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:168
+msgid "dash.games.releases.builds.processing_message_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:211
+msgid "dash.games.releases.builds.remove_build_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:84
+msgid "dash.games.releases.builds.standalone_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit.html:1
+msgid "dash.games.releases.edit.heading"
+msgstr ""
+
+#: app/components/forms/dashboard/game/release/release.html:28
+msgid "dash.games.releases.form.' + (method == 'add' ? 'add' : 'save') + '_release_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/release/release.html:11
+msgid "dash.games.releases.form.version_number_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/release/release.html:13
+msgid "dash.games.releases.form.version_number_help_link"
+msgstr ""
+
+#: app/components/forms/dashboard/game/release/release.html:8
+msgid "dash.games.releases.form.version_number_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:78
+msgid "dash.games.releases.manage.add_release_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:5
+msgid "dash.games.releases.manage.breadcrumb_package"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:12
+msgid "dash.games.releases.manage.breadcrumb_release"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:103
+msgid "dash.games.releases.manage.builds_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:120
+msgid "dash.games.releases.manage.edit_release_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:26
+msgid "dash.games.releases.manage.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:92
+msgid "dash.games.releases.manage.publish_release_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:40
+msgid "dash.games.releases.manage.remove_release_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:112
+msgid "dash.games.releases.manage.stats_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:65
+msgid "dash.games.releases.manage.switch_release_heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/release.html:36
+msgid "dash.games.releases.manage.unpublish_release_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/stats/stats.html:1
+msgid "dash.games.releases.stats.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:67
+msgid "dash.games.remove_game_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:35
+msgid "dash.games.scoreboard.form.asc_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:34
+msgid "dash.games.scoreboard.form.asc_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:28
+msgid "dash.games.scoreboard.form.desc_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:27
+msgid "dash.games.scoreboard.form.desc_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:8
+msgid "dash.games.scoreboard.form.description_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:23
+msgid "dash.games.scoreboard.form.direction_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:14
+msgid "dash.games.scoreboard.form.guest_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:13
+msgid "dash.games.scoreboard.form.guest_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:3
+msgid "dash.games.scoreboard.form.name_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:42
+msgid "dash.games.scoreboard.form.save_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:19
+msgid "dash.games.scoreboard.form.unique_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/score-table/score-table.html:18
+msgid "dash.games.scoreboard.form.unique_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:83
+msgid "dash.games.scoreboards.add_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:47
+msgid "dash.games.scoreboards.asc_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:48
+msgid "dash.games.scoreboards.desc_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:45
+msgid "dash.games.scoreboards.guest_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:1
+msgid "dash.games.scoreboards.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:4
+msgid "dash.games.scoreboards.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:6
+msgid "dash.games.scoreboards.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:44
+msgid "dash.games.scoreboards.primary_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:67
+msgid "dash.games.scoreboards.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:54
+msgid "dash.games.scoreboards.scores_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:35
+msgid "dash.games.scoreboards.table_id_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:46
+msgid "dash.games.scoreboards.unique_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:15
+msgid "dash.games.scores.goto_user_profile"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:34
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:45
+msgid "dash.games.scores.guest_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:8
+msgid "dash.games.scores.list.date_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:1
+msgid "dash.games.scores.list.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:16
+msgid "dash.games.scores.list.no_scores_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
+msgid "dash.games.scores.list.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:5
+msgid "dash.games.scores.list.rank_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:52
+msgid "dash.games.scores.list.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:7
+msgid "dash.games.scores.list.sort_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:6
+msgid "dash.games.scores.list.user_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:8
+msgid "dash.games.scores.user.list.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:10
+msgid "dash.games.scores.user.list.heading_for"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:12
+msgid "dash.games.scores.user.list.heading_on"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:27
+msgid "dash.games.scores.user.list.no_scores_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:21
+msgid "dash.games.scores.user.list.remove_all_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:10
+msgid "dash.games.scores.view_user_scores"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:72
+msgid "dash.games.scores.view.data_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:75
+msgid "dash.games.scores.view.data_none_help"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:66
+msgid "dash.games.scores.view.date_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:8
+msgid "dash.games.scores.view.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:15
+msgid "dash.games.scores.view.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:62
+msgid "dash.games.scores.view.sort_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:58
+msgid "dash.games.scores.view.string_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:50
+msgid "dash.games.scores.view.table_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/scores/view/view.html:27
+msgid "dash.games.scores.view.user_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:16
+msgid "dash.games.settings.ads_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:15
+msgid "dash.games.settings.ads_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:27
+msgid "dash.games.settings.comments_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:26
+msgid "dash.games.settings.comments_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:10
+msgid "dash.games.settings.ga_tracking_id_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:12
+msgid "dash.games.settings.ga_tracking_id_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:3
+msgid "dash.games.settings.ga_tracking_id_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:7
+msgid "dash.games.settings.ga_tracking_id_placeholder"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:38
+msgid "dash.games.settings.ratings_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:37
+msgid "dash.games.settings.ratings_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/settings/settings.html:50
+msgid "dash.games.settings.save_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail.html:45
+msgid "dash.games.thumbnail.crop_error_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:4
+msgid "dash.games.thumbnail.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:7
+msgid "dash.games.thumbnail.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:9
+msgid "dash.games.thumbnail.page_help_link"
+msgstr ""
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail.html:30
+msgid "dash.games.thumbnail.upload_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail.html:15
+msgid "dash.games.thumbnail.upload_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:64
+msgid "dash.games.trophies.form.description_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:31
+msgid "dash.games.trophies.form.difficulty_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:75
+msgid "dash.games.trophies.form.hidden_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:74
+msgid "dash.games.trophies.form.hidden_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:55
+msgid "dash.games.trophies.form.image_error_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:43
+msgid "dash.games.trophies.form.image_help_link"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:81
+msgid "dash.games.trophies.form.save_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:70
+msgid "dash.games.trophies.form.secret_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:69
+msgid "dash.games.trophies.form.secret_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/trophy/trophy.html:59
+msgid "dash.games.trophies.form.title_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:13
+msgid "dash.games.trophies.has_hidden_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:4
+msgid "dash.games.trophies.heading"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
+msgid "dash.games.trophies.hidden_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:7
+msgid "dash.games.trophies.page_help_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:9
+msgid "dash.games.trophies.page_help_link"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:76
+msgid "dash.games.trophies.remove_button"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:66
+msgid "dash.games.trophies.secret_tag"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:55
+msgid "dash.games.trophies.trophy_id_label"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:18
+msgid "dash.games.view_page_button"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:112
+msgid "dash.integrate.{{ ::key }}_html"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:110
+msgid "dash.integrate.done"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:123
+msgid "dash.integrate.exp_help_body_html"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:122
+msgid "dash.integrate.exp_help_heading"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:86
+msgid "dash.integrate.heading"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:89
+msgid "dash.integrate.lead"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:130
+msgid "dash.overview.activity_heading"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:139
+msgid "dash.overview.activity_no_activity_html"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:143
+msgid "dash.overview.activity_view_all_button"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:38
+msgid "dash.overview.broadcast_view_all"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:161
+msgid "dash.overview.developer_games_add_button"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:154
+msgid "dash.overview.developer_games_heading"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:177
+msgid "dash.overview.developer_games_no_games_html"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:4
+msgid "dash.overview.heading"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:61
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:19
+msgid "dash.overview.revenue_balance"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:47
+msgid "dash.overview.revenue_heading"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:48
+msgid "dash.overview.revenue_tooltip"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:53
+msgid "dash.overview.revenue_total"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:73
+msgid "dash.overview.revenue_withdraw_button"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:57
+msgid "dash.overview.revenue_withdrawn"
+msgstr ""
+
+#: app/views/dashboard/overview/overview.html:14
+msgid "dash.overview.view_profile_button"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:52
+msgid "dash.profile.edit.description_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:50
+msgid "dash.profile.edit.description_label"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:33
+msgid "dash.profile.edit.display_name_help"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:27
+#: app/components/forms/dashboard/profile/profile.html:37
+msgid "dash.profile.edit.display_name_label"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:39
+msgid "dash.profile.edit.display_name_time_left_html"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:69
+msgid "dash.profile.edit.submit_button"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:10
+#: app/components/forms/dashboard/profile/profile.html:21
+msgid "dash.profile.edit.username_label"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:23
+msgid "dash.profile.edit.username_time_left_html"
+msgstr ""
+
+#: app/components/forms/dashboard/profile/profile.html:43
+msgid "dash.profile.edit.website_label"
+msgstr ""
+
+#: app/views/discover/home/home.html:74
+msgid "discover.home.best_heading"
+msgstr ""
+
+#: app/views/discover/home/home.html:81
+msgid "discover.home.best_help"
+msgstr ""
+
+#: app/views/discover/home/home.html:261
+msgid "discover.home.fireside_heading"
+msgstr ""
+
+#: app/views/discover/home/home.html:269
+msgid "discover.home.fireside_help"
+msgstr ""
+
+#: app/views/discover/home/home.html:226
+msgid "discover.home.followed_news_heading"
+msgstr ""
+
+#: app/views/discover/home/home.html:233
+msgid "discover.home.followed_news_help"
+msgstr ""
+
+#: app/views/discover/home/home.html:205
+msgid "discover.home.followed_news_tab"
+msgstr ""
+
+#: app/views/discover/home/home.html:152
+msgid "discover.home.hot_heading"
+msgstr ""
+
+#: app/views/discover/home/home.html:159
+msgid "discover.home.hot_help"
+msgstr ""
+
+#: app/views/discover/home/home.html:218
+msgid "discover.home.hot_news_heading"
+msgstr ""
+
+#: app/views/discover/home/home.html:232
+msgid "discover.home.hot_news_help"
+msgstr ""
+
+#: app/views/discover/home/home.html:200
+msgid "discover.home.hot_news_tab"
+msgstr ""
+
+#: app/views/discover/home/home.html:245
+#: app/views/discover/home/home.html:249
+msgid "discover.home.more_news"
+msgstr ""
+
+#: app/views/discover/home/home.html:52
+msgid "discover.home.social_label"
+msgstr ""
+
+#: app/views/discover/home/home.html:114
+msgid "discover.home.week_best_heading"
+msgstr ""
+
+#: app/views/discover/home/home.html:120
+msgid "discover.home.week_best_help"
+msgstr ""
+
+#: app/components/shell/menu-popover/menu-popover.html:70
+msgid "discover.nav.featured_playlists"
+msgstr ""
+
+#: app/views/discover/games/view/download/build/build.html:55
+msgid "game.download.game.developer_games_heading"
+msgstr ""
+
+#: app/views/discover/games/view/download/build/build.html:57
+msgid "game.download.game.developer_games_heading_small"
+msgstr ""
+
+#: app/views/discover/games/view/download/build/build.html:14
+msgid "game.download.game.downloading_wait_message"
+msgstr ""
+
+#: app/views/discover/games/view/download/build/build.html:38
+msgid "game.download.game.rate_html"
+msgstr ""
+
+#: app/views/discover/games/view/download/build/build.html:76
+msgid "game.download.game.recommended_heading"
+msgstr ""
+
+#: app/views/discover/games/view/download/build/build.html:20
+msgid "game.download.game.share_heading"
+msgstr ""
+
+#: app/views/discover/games/view/download/soundtrack/soundtrack.html:14
+msgid "game.download.soundtrack.downloading_wait_message"
+msgstr ""
+
+#: app/components/game/rating-growl/rating-growl.html:12
+msgid "game.rating_growl.message"
+msgstr ""
+
+#: app/components/game/rating-growl/rating-growl.html:1
+msgid "game.rating_growl.title"
+msgstr ""
+
+#: app/views/discover/games/view/scores/list/list.html:36
+msgid "game.scores.best_tab"
+msgstr ""
+
+#: app/views/discover/games/view/scores/list/list.html:73
+msgid "game.scores.no_scores_html"
+msgstr ""
+
+#: app/views/discover/games/view/scores/list/list.html:74
+msgid "game.scores.no_user_scores_html"
+msgstr ""
+
+#: app/views/discover/games/view/scores/list/list.html:39
+msgid "game.scores.user_tab"
+msgstr ""
+
+#: app/views/discover/games/view/trophies/list/list.html:26
+msgid "game.trophies.achieved_tab"
+msgstr ""
+
+#: app/views/discover/games/view/trophies/list/list.html:20
+msgid "game.trophies.all_tab"
+msgstr ""
+
+#: app/views/discover/games/view/trophies/list/list.html:7
+msgid "game.trophies.heading"
+msgstr ""
+
+#: app/views/discover/games/view/trophies/list/list.html:55
+msgid "game.trophies.no_trophies_html"
+msgstr ""
+
+#: app/views/discover/games/view/trophies/list/list.html:32
+msgid "game.trophies.unachieved_tab"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:138
+msgid "games.browser_applet"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:123
+msgid "games.browser_flash"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:118
+msgid "games.browser_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:133
+msgid "games.browser_silverlight"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:128
+msgid "games.browser_unity"
+msgstr ""
+
+#: app/components/game/filtering/widget.html:12
+msgid "games.filtering.browser_label"
+msgstr ""
+
+#: app/components/game/filtering/tags.html:5
+msgid "games.filtering.genre_label"
+msgstr ""
+
+#: app/components/game/filtering/input.html:14
+msgid "games.filtering.input_placeholder"
+msgstr ""
+
+#: app/components/game/filtering/widget.html:19
+msgid "games.filtering.maturity_label"
+msgstr ""
+
+#: app/components/game/filtering/widget.html:5
+msgid "games.filtering.os_label"
+msgstr ""
+
+#: app/components/game/filtering/widget.html:26
+msgid "games.filtering.status_label"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:42
+msgid "games.list.best_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:61
+msgid "games.list.date_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:26
+msgid "games.list.date_heading"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:62
+msgid "games.list.date_range_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:30
+msgid "games.list.date_range_heading"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:38
+msgid "games.list.featured_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:47
+msgid "games.list.fresh_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:48
+msgid "games.list.freshness_tooltip"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:164
+msgid "games.list.games_count_none"
+msgstr ""
+
+#: app/components/game/grid/grid.html:9
+#: app/views/discover/games/list/list.html:165
+#: app/views/library/collection/collection.html:79
+msgid "games.list.games_count_one"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:52
+msgid "games.list.hot_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:53
+#: app/views/discover/home/home.html:160
+msgid "games.list.hotness_tooltip"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:57
+msgid "games.list.new_descriptive_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:81
+msgid "games.list.new_games_warning_html"
+msgstr ""
+
+#: app/views/discover/games/list/category/category.html:2
+msgid "games.list.no_games_html"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:147
+msgid "games.list.sections_selector_best"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:127
+msgid "games.list.sections_selector_featured"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:137
+msgid "games.list.sections_selector_hot"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:157
+msgid "games.list.sections_selector_new"
+msgstr ""
+
+#: app/views/discover/games/list/list.html:43
+#: app/views/discover/games/list/list.html:63
+msgid "games.list.voltage_tooltip"
+msgstr ""
+
+#: app/views/discover/games/view/_header/nav.html:48
+msgid "games.view.manage_game_button"
+msgstr ""
+
+#: app/components/game/media-bar/lightbox/lightbox.html:14
+msgid "games.view.media.close"
+msgstr ""
+
+#: app/views/discover/games/view/_header/nav.html:56
+msgid "games.view.moderate_game_button"
+msgstr ""
+
+#: app/views/discover/games/view/_header/nav.html:11
+msgid "games.view.news_tab"
+msgstr ""
+
+#: app/views/discover/games/view/view.html:16
+msgid "games.view.notifications_heading"
+msgstr ""
+
+#: app/views/discover/games/view/_header/nav.html:6
+msgid "games.view.overview_tab"
+msgstr ""
+
+#: app/views/discover/games/view/_header/nav.html:18
+msgid "games.view.scores_tab"
+msgstr ""
+
+#: app/views/discover/games/view/overview/_details.html:43
+msgid "games.view.stats.downloads_plays_label"
+msgstr ""
+
+#: app/views/discover/games/view/overview/_details.html:47
+msgid "games.view.stats.na"
+msgstr ""
+
+#: app/views/discover/games/view/overview/_details.html:53
+msgid "games.view.stats.ratings_label"
+msgstr ""
+
+#: app/views/discover/games/view/overview/_details.html:38
+msgid "games.view.stats.views_label"
+msgstr ""
+
+#: app/views/discover/games/view/_header/nav.html:23
+msgid "games.view.trophies_tab"
+msgstr ""
+
+#: app/components/shell/footer/footer.html:19
+#: auth/views/auth/auth.html:36
+msgid "legal.privacy"
+msgstr ""
+
+#: app/components/shell/footer/footer.html:17
+#: auth/views/auth/auth.html:33
+msgid "legal.terms"
+msgstr ""
+
+#: app/components/score/overview/overview.html:96
+#: app/components/trophy/list/list.html:27
+#: app/views/dashboard/developer/games/manage/api/overview/overview.html:97
+#: app/views/dashboard/overview/overview.html:104
+msgid "leveling.exp"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:26
+#: app/components/game/collection/list/list.html:22
+#: app/views/library/collection/_header-default.html:39
+#: app/views/library/collection/_header-default.html:59
+#: app/views/library/collection/_header-default.html:75
+#: app/views/library/library.html:95
+msgid "library.by"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:64
+msgid "library.collection.developer_descriptive_html"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:56
+msgid "library.collection.developer_heading"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:52
+msgid "library.collection.developer_owner_descriptive_html"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:51
+msgid "library.collection.developer_owner_heading"
+msgstr ""
+
+#: app/views/library/collection/_header/controls.html:21
+msgid "library.collection.edit_playlist_button"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:44
+msgid "library.collection.followed_descriptive_html"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:36
+msgid "library.collection.followed_heading"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:32
+msgid "library.collection.followed_owner_descriptive_html"
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:31
+msgid "library.collection.followed_owner_heading"
+msgstr ""
+
+#: app/views/library/collection/_header/stats.html:3
+msgid "library.collection.followers_label"
+msgstr ""
+
+#: app/views/library/collection/_header/stats.html:7
+msgid "library.collection.games_label"
+msgstr ""
+
+#: app/views/library/collection/collection.html:122
+msgid "library.collection.no_games_bundle_html"
+msgstr ""
+
+#: app/views/library/collection/collection.html:120
+msgid "library.collection.no_games_developer_html"
+msgstr ""
+
+#: app/views/library/collection/collection.html:121
+msgid "library.collection.no_games_followed_html"
+msgstr ""
+
+#: app/views/library/collection/collection.html:113
+msgid "library.collection.no_games_html"
+msgstr ""
+
+#: app/views/library/collection/collection.html:119
+msgid "library.collection.no_games_playlist_html"
+msgstr ""
+
+#: app/views/library/collection/collection.html:123
+msgid "library.collection.no_games_tag_html"
+msgstr ""
+
+#: app/views/library/collection/collection.html:37
+msgid "library.collection.remove_playlist_button"
+msgstr ""
+
+#: app/views/library/collection/_header-tag.html:10
+msgid "library.collection.tag_heading_before"
+msgstr ""
+
+#: app/views/library/overview/overview.html:5
+msgid "library.description_html"
+msgstr ""
+
+#: app/views/library/overview/overview.html:4
+msgid "library.heading"
+msgstr ""
+
+#: app/views/library/library.html:31
+msgid "library.nav.bundles"
+msgstr ""
+
+#: app/views/library/library.html:23
+msgid "library.nav.developer"
+msgstr ""
+
+#: app/views/library/library.html:59
+msgid "library.nav.filter_playlists_placeholder"
+msgstr ""
+
+#: app/views/library/library.html:17
+msgid "library.nav.followed"
+msgstr ""
+
+#: app/views/library/library.html:52
+msgid "library.nav.new_playlist_button"
+msgstr ""
+
+#: app/views/library/library.html:65
+msgid "library.nav.no_playlists_html"
+msgstr ""
+
+#: app/views/library/library.html:45
+msgid "library.nav.playlists"
+msgstr ""
+
+#: app/views/discover/games/view/_header/controls.html:24
+msgid "library.playlists.add_to.button"
+msgstr ""
+
+#: app/components/game-playlist/add-to-popover/add-to-popover.html:22
+msgid "library.playlists.add_to.filter_placeholder"
+msgstr ""
+
+#: app/components/game-playlist/add-to-popover/add-to-popover.html:16
+msgid "library.playlists.add_to.new_playlist_button"
+msgstr ""
+
+#: app/components/game/collection/thumbnail/thumbnail.html:6
+msgid "library.playlists.bundle_tag"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:40
+msgid "library.playlists.developer_description"
+msgstr ""
+
+#: app/components/game/collection/thumbnail/thumbnail.html:3
+msgid "library.playlists.developer_tag"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:14
+msgid "library.playlists.developer_title"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:36
+msgid "library.playlists.followed_description"
+msgstr ""
+
+#: app/components/game/collection/thumbnail/thumbnail.html:4
+msgid "library.playlists.followed_tag"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:20
+msgid "library.playlists.followed_title"
+msgstr ""
+
+#: app/components/forms/playlist/playlist.html:10
+msgid "library.playlists.form.add_submit_button"
+msgstr ""
+
+#: app/components/forms/playlist/playlist.html:11
+msgid "library.playlists.form.edit_submit_button"
+msgstr ""
+
+#: app/components/forms/playlist/playlist.html:3
+msgid "library.playlists.form.name_label"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:13
+msgid "library.playlists.owner_developer_title"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:19
+msgid "library.playlists.owner_followed_title"
+msgstr ""
+
+#: app/components/game/collection/thumbnail/thumbnail.html:5
+msgid "library.playlists.playlist_tag"
+msgstr ""
+
+#: app/components/game-playlist/save-modal/save-modal.html:2
+msgid "library.playlists.save_modal.add_heading"
+msgstr ""
+
+#: app/components/game-playlist/save-modal/save-modal.html:15
+msgid "library.playlists.save_modal.close"
+msgstr ""
+
+#: app/components/game-playlist/save-modal/save-modal.html:3
+msgid "library.playlists.save_modal.edit_heading"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:12
+msgid "library.playlists.subscription_developer_title"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:18
+msgid "library.playlists.subscription_followed_title"
+msgstr ""
+
+#: app/components/game/collection/thumbnail/thumbnail.html:7
+msgid "library.playlists.tag_tag"
+msgstr ""
+
+#: app/components/shell/top-nav/top-nav.html:110
+msgid "nav.join"
+msgstr ""
+
+#: app/components/shell/top-nav/top-nav.html:104
+msgid "nav.login"
+msgstr ""
+
+#: app/views/discover/news/news.html:18
+msgid "news.list.all_descriptive_html"
+msgstr ""
+
+#: app/views/discover/news/news.html:4
+msgid "news.list.all_heading"
+msgstr ""
+
+#: app/views/discover/news/news.html:28
+msgid "news.list.all_tab"
+msgstr ""
+
+#: app/views/discover/news/news.html:19
+msgid "news.list.followed_descriptive_html"
+msgstr ""
+
+#: app/views/discover/news/news.html:5
+msgid "news.list.followed_heading"
+msgstr ""
+
+#: app/views/discover/news/news.html:71
+msgid "news.list.followed_help_html"
+msgstr ""
+
+#: app/views/discover/news/news.html:36
+msgid "news.list.followed_tab"
+msgstr ""
+
+#: app/views/discover/news/news.html:110
+msgid "news.list.no_posts_followed_html"
+msgstr ""
+
+#: app/views/discover/news/news.html:109
+msgid "news.list.no_posts_html"
+msgstr ""
+
+#: app/components/post/grid/grid.html:32
+#: app/components/post/list/list.html:29
+#: app/views/discover/games/view/news/list/list.html:42
+#: app/views/discover/games/view/news/view/view.html:15
+msgid "news.list.post_comments_none"
+msgstr ""
+
+#: app/components/post/grid/grid.html:33
+#: app/components/post/list/list.html:30
+#: app/views/discover/games/view/news/list/list.html:43
+#: app/views/discover/games/view/news/view/view.html:16
+msgid "news.list.post_comments_one"
+msgstr ""
+
+#: app/views/discover/news/news.html:84
+msgid "news.list.posts_count_none"
+msgstr ""
+
+#: app/views/discover/news/news.html:85
+msgid "news.list.posts_count_one"
+msgstr ""
+
+#: app/views/discover/news/news.html:21
+msgid "news.list.released_descriptive_html"
+msgstr ""
+
+#: app/views/discover/news/news.html:7
+msgid "news.list.released_heading"
+msgstr ""
+
+#: app/views/discover/news/news.html:52
+msgid "news.list.released_tab"
+msgstr ""
+
+#: app/views/discover/news/news.html:20
+msgid "news.list.wip_descriptive_html"
+msgstr ""
+
+#: app/views/discover/news/news.html:6
+msgid "news.list.wip_heading"
+msgstr ""
+
+#: app/views/discover/news/news.html:44
+msgid "news.list.wip_tab"
+msgstr ""
+
+#: app/components/notifications/popover/popover.html:33
+msgid "notifications.popover.dismiss_all"
+msgstr ""
+
+#: app/components/notifications/popover/popover.html:83
+msgid "notifications.popover.more_notifications_one_button"
+msgstr ""
+
+#: app/components/notifications/popover/popover.html:26
+msgid "notifications.popover.no_notifications"
+msgstr ""
+
+#: app/components/notifications/popover/popover.html:15
+msgid "notifications.popover.view_all_button"
+msgstr ""
+
+#: app/components/activity/feed/feed.html:49
+msgid "notifications.rating_details_html"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:57
+#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
+#: app/views/discover/games/view/_header/nav.html:35
+#: app/views/library/collection/_header/controls.html:29
+#: app/views/profile/profile.html:148
+msgid "options.more"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:41
+#: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:46
+msgid "options.options"
+msgstr ""
+
+#: app/views/profile/overview/_banned.html:3
+msgid "profile.banned_message_html"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:110
+msgid "profile.developer_games_teaser_heading"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:112
+msgid "profile.developer_games_teaser_heading_small"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:62
+msgid "profile.friend_request_accept"
+msgstr ""
+
+#: app/views/profile/profile.html:115
+#: app/views/profile/profile.html:127
+msgid "profile.friend_request_button"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:52
+msgid "profile.friend_request_cancel"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:66
+msgid "profile.friend_request_decline"
+msgstr ""
+
+#: app/views/profile/profile.html:39
+msgid "profile.friend_tag"
+msgstr ""
+
+#: app/views/profile/profile.html:54
+msgid "profile.in_game_tag"
+msgstr ""
+
+#: app/views/profile/profile.html:94
+msgid "profile.joined"
+msgstr ""
+
+#: app/views/profile/profile.html:99
+msgid "profile.last_seen"
+msgstr ""
+
+#: app/views/profile/profile.html:142
+msgid "profile.library_tab"
+msgstr ""
+
+#: app/views/profile/profile.html:171
+msgid "profile.moderate_user_button"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:83
+msgid "profile.no_bio_html"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:105
+msgid "profile.no_developer_games_html"
+msgstr ""
+
+#: app/views/profile/profile.html:45
+msgid "profile.offline_tag"
+msgstr ""
+
+#: app/views/profile/profile.html:49
+msgid "profile.online_tag"
+msgstr ""
+
+#: app/views/profile/profile.html:137
+msgid "profile.overview_tab"
+msgstr ""
+
+#: app/views/profile/overview/overview.html:19
+msgid "profile.playing_heading"
+msgstr ""
+
+#: app/views/profile/profile.html:163
+msgid "profile.remove_friend_button"
+msgstr ""
+
+#: app/views/profile/profile.html:90
+msgid "profile.verified_tooltip"
+msgstr ""
+
+#: app/components/score/list/list.html:17
+msgid "scores.guest"
+msgstr ""
+
+#: app/components/score/overview/overview.html:11
+msgid "scores.overview.heading"
+msgstr ""
+
+#: app/components/score/overview/overview.html:154
+msgid "scores.overview.no_scores_html"
+msgstr ""
+
+#: app/components/score/overview/overview.html:116
+msgid "scores.overview.top_scores_heading"
+msgstr ""
+
+#: app/components/score/overview/overview.html:62
+msgid "scores.overview.user_best_heading"
+msgstr ""
+
+#: app/components/score/overview/overview.html:75
+msgid "scores.overview.user_best_none_body_html"
+msgstr ""
+
+#: app/components/score/overview/overview.html:74
+msgid "scores.overview.user_best_none_heading"
+msgstr ""
+
+#: app/components/score/overview/overview.html:150
+msgid "scores.overview.view_more_button"
+msgstr ""
+
+#: app/components/score/scoreboard-popover/scoreboard-popover.html:2
+msgid "scores.scoreboard_popover.heading"
+msgstr ""
+
+#: app/components/search/autocomplete/autocomplete.html:48
+msgid "search.autocomplete.games_heading"
+msgstr ""
+
+#: app/components/search/autocomplete/autocomplete.html:22
+msgid "search.autocomplete.installed_heading"
+msgstr ""
+
+#: app/components/search/autocomplete/autocomplete.html:106
+msgid "search.autocomplete.no_commands"
+msgstr ""
+
+#: app/components/search/autocomplete/autocomplete.html:15
+msgid "search.autocomplete.show_all"
+msgstr ""
+
+#: app/components/search/autocomplete/autocomplete.html:78
+msgid "search.autocomplete.users_heading"
+msgstr ""
+
+#: app/components/search/search.html:12
+#: app/components/search/search.html:6
+msgid "search.input.placeholder"
+msgstr ""
+
+#: app/components/search/history/history.html:41
+msgid "search.recent.clear_button"
+msgstr ""
+
+#: app/components/search/history/history.html:20
+msgid "search.recent.none"
+msgstr ""
+
+#: app/components/search/history/history.html:17
+msgid "search.recent.popover_heading"
+msgstr ""
+
+#: app/views/search/results/results.html:5
+msgid "search.results_placeholder"
+msgstr ""
+
+#: app/views/search/results/results.html:47
+msgid "search.results.games_heading"
+msgstr ""
+
+#: app/views/search/search.html:36
+msgid "search.results.games_tab"
+msgstr ""
+
+#: app/views/search/search.html:49
+msgid "search.results.no_results"
+msgstr ""
+
+#: app/views/search/search.html:25
+msgid "search.results.overview_tab"
+msgstr ""
+
+#: app/views/search/results/results.html:22
+msgid "search.results.users_heading"
+msgstr ""
+
+#: app/views/search/search.html:30
+msgid "search.results.users_tab"
+msgstr ""
+
+#: app/views/search/results/results.html:19
+#: app/views/search/results/results.html:44
+msgid "search.results.view_all_link"
+msgstr ""
+
+#: app/views/search/search.html:15
+msgid "search.showing_label"
+msgstr ""
+
+#: app/components/sorting/sorting.html:2
+msgid "sorting.sort"
+msgstr ""
+
+#: app/components/trophy/list/list.html:34
+msgid "trophies.achieved_tag"
+msgstr ""
+
+#: app/components/trophy/completion/completion.html:14
+msgid "trophies.completion.completion_label"
+msgstr ""
+
+#: app/components/trophy/completion/completion.html:23
+msgid "trophies.completion.exp_gained_label"
+msgstr ""
+
+#: app/components/trophy/completion/completion.html:4
+msgid "trophies.completion.lead_html"
+msgstr ""
+
+#: app/components/trophy/completion/completion.html:29
+msgid "trophies.completion.none_achieved_html"
+msgstr ""
+
+#: app/components/trophy/list/list.html:24
+msgid "trophies.exp_gained_tooltip"
+msgstr ""
+
+#: app/components/trophy/overview/overview.html:60
+#: app/views/discover/games/view/trophies/list/list.html:40
+msgid "trophies.invisible_trophies_message"
+msgstr ""
+
+#: app/components/trophy/overview/overview.html:6
+msgid "trophies.overview.heading"
+msgstr ""
+
+#: app/components/trophy/overview/overview.html:66
+msgid "trophies.overview.view_more_button"
+msgstr ""
+
