@@ -1,8 +1,11 @@
 msgid ""
 msgstr ""
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: \n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Game Jolt\n"
+"Language: en\n"
 
 #: app/components/notifications/descriptive-action/descriptive-action.html:12
 msgid "{{ ::translationKey }}"
@@ -2954,3 +2957,4 @@ msgstr ""
 #: app/components/trophy/overview/overview.html:66
 msgid "trophies.overview.view_more_button"
 msgstr ""
+
