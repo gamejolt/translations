@@ -1430,7 +1430,7 @@
 	saved_growl = "Je pakket is bijgewerkt."
 
 [dash.games.packages.form]
-	title_label = "Pakket Naam
+	title_label = "Pakket Naam"
 	title_help_html = "Dit is de tekst die wordt weergegeven bij de download/speel knop op je game pagina, gebruik voor het pakket met je game de naam van de game."
 	title_change_button = "Naam Wijzigen"
 
