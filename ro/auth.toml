@@ -39,7 +39,7 @@
 	# Let's try to keep it at 3 lines or less on the page.
 	join_message_html_count = "2"
 	join_message_html_1 = "Alăturăte nouă. Mwuahaha.<br>Noi avem jocuri.<br><strong><em>Mwuahahaha!</em></strong>"
-	join_message_html_2 = "Alătură-te nouă pentru o călatorie in inima unei supernove făcute din jocuri."
+	join_message_html_2 = "Alătură-te nouă pentru o călatorie în inima unei supernove făcute din jocuri."
 
 	email_label = "Adresa de E-Mail"
 	username_label = "Nume de Utilizator"
@@ -82,9 +82,9 @@
 	page_title = "Recuperarea datelor de autentificare "
 	heading = "@:auth.forgot.page_title"
 
-	email_help = "Lipiț adresa de E-Mail de pe contul vostru și vă vom trimite datele de autentificare prin E-Mail."
+	email_help = "Lipiți adresa de E-Mail de pe contul vostru și vă vom trimite datele de autentificare prin E-Mail."
 	email_label = "Adresa de E-Mail"
-	submit_button = "Recuperaraea Datelor"
+	submit_button = "Recuperarea Datelor"
 
 	# If the email address they enter isn't a registered user, this shows up as an error message.
 	invalid_email_error_html = """
@@ -169,7 +169,7 @@
 	# and then try signing up again with twitter later on, but their email address is
 	# registered on their old account.
 	duplicate_email_error_html = """
-	<p>Adresa de e-mail introdusă este deja în folosința.</p>
-	<p>Dacă ai deja un cont pe Game Jolt poti să te conectezi aici<a href="/login">conectezi aici</a>.</p>
+	<p>Adresa de e-mail introdusă este deja în folosință.</p>
+	<p>Dacă ai deja un cont pe Game Jolt poti să te <a href="/login">conectezi aici</a>.</p>
 	<p>Dacă v-ați uitat datele de conectare, puteți să le <a href="/forgot">recuperați aici</a>.</p>
 	"""
