@@ -465,7 +465,7 @@
 	no_posts_followed_html = "Keine Updates zum Anzeigen! Folge mehr Spielen, um diese Seite zu füllen."
 
 [library]
-	page_title = "Deine Bibiolthek an Spielen"
+	page_title = "Deine Bibliothek an Spielen"
 	heading = "Spiele-Bibliothek"
 	description_html = """
 	<p>Dies ist deine persönliche Bibliothek an Spiele. Hier findest Du alle Spiele denen du folgst und alle Playlists oder Pakete die du erstellt hast oder denen du gefolgt bist.</p>
@@ -485,7 +485,7 @@
 	filter_playlists_placeholder = "Playlists filtern..."
 
 	no_playlists_html = """
-	<p>Erstelle Playlists, um die Spiele in deiner Bibilothek zu organisieren und mit Anderen zu teilen.</p>
+	<p>Erstelle Playlists, um die Spiele in deiner Bibliothek zu organisieren und mit Anderen zu teilen.</p>
 	<p>Folge den Playlists Anderer um mehr Spiele zu entdecken!</p>
 	"""
 
@@ -498,29 +498,29 @@
 	Wenn du einem Spiel folgst, taucht es hier auf.<br>Du erhälst Benachrichtigungen wenn Entwickler News über Spiele postet, denen du folgst.
 	"""
 
-	followed_page_title = "Games Followed by {{ user }}"
-	followed_heading = "Games Followed" # "by user"
+	followed_page_title = "Spiele gefolgt von {{ user }}"
+	followed_heading = "Spiele gefolgt" # "von Nutzer"
 	followed_descriptive_html = """
-	These are the games that {{ user }} is following.
+	Dies sind die Spiele denen {{ user }} folgt.
 	"""
 
 	# Developer's Games
-	developer_owner_page_title = "Your Games"
-	developer_owner_heading = "Your Games"
+	developer_owner_page_title = "Deine Spiele"
+	developer_owner_heading = "Deine Spiele"
 	developer_owner_descriptive_html = """
-	These are the games that you've made. Be proud!<br>Feel free to share this page with others to show off your games.
+    Dies sind die Spiele die Du erstellt hast. Sei stolz!<br>Fühl dich frei, diese Seite mit anderen zu teilen um deine Spiele zu zeigen.
 	"""
 
-	developer_page_title = "Games by {{ user }}"
-	developer_heading = "Games" # "by user"
+	developer_page_title = "Spiele von {{ user }}"
+	developer_heading = "Spiele" # "von Nutzer"
 	developer_descriptive_html = """
-	These are the games made by {{ user }}.
+    Dies sind die Spiele, welche {{ user }} erstellt hat.
 	"""
 
 	# Playlist
 	playlist_owner_page_title = "{{ playlist }}"
-	playlist_page_title = "{{ playlist }} by {{ user }}"
-	playlist_heading = "{{ playlist }}" # "by user"
+	playlist_page_title = "{{ playlist }} von {{ user }}"
+	playlist_heading = "{{ playlist }}" # "von Nutzer"
 
 	# Bundle
 	# No such thing as a bundle "owner".
@@ -529,58 +529,58 @@
 
 	# Tag
 	tag_page_title = "#{{ tag }}"
-	tag_heading_before = "Games tagged with"
+	tag_heading_before = "Spiele getaggt mit"
 	tag_heading = "#{{ tag }}"
 
-	manage_games_button = "Manage Your Games"
-	follow_button = "Follow"
-	follow_button_tooltip = "Follow this playlist to add it to your library and be notified when new games are added."
-	unfollow_button = "Following"
-	unfollow_button_tooltip = "Unfollow this playlist to remove it from your library and stop receiving notifications."
-	edit_playlist_button = "Edit Playlist"
-	remove_playlist_button = "Remove Playlist"
+	manage_games_button = "Deine Spiele verwalten"
+	follow_button = "Folgen"
+	follow_button_tooltip = "Folge dieser Playlist um sie deiner Bibliothek hinzuzufügen. Du erhälst Benachrichtigungen wenn neue Spiele hinzugefügt werden."
+	unfollow_button = "Gefolgt"
+	unfollow_button_tooltip = "Höre auf, dieser Playlist zu folgen, um sie aus deiner Bibliothek zu entfernen und keine Benachrichtigungen mehr zu erhalten."
+	edit_playlist_button = "Playlist bearbeiten"
+	remove_playlist_button = "Playlist entfernen"
 
 	followers_label = "Followers"
-	games_label = "Games"
+	games_label = "Spiele"
 
 	# Tooltips that show when hovering over the button that goes on top of game thumbnails in the library.
-	thumbnail_control_playlist_tooltip = "Remove from playlist."
-	thumbnail_control_unfollow_tooltip = "Stop following."
+	thumbnail_control_playlist_tooltip = "Von Playlist entfernen."
+	thumbnail_control_unfollow_tooltip = "Nicht mehr folgen."
 
 	# When there's no games to show because of the filters they have set.
 	no_games_html = "@:games.list.no_games_html"
 
 	# When there's no games at all in the collection.
-	no_games_playlist_html = "There are no games in this playlist yet, alas."
-	no_games_developer_html = "This developer hasn't added any games yet."
-	no_games_followed_html = "No games are being followed yet."
-	no_games_bundle_html = "There are no games in this bundle yet."
-	no_games_tag_html = "There are no games with this tag yet."
+	no_games_playlist_html = "In dieser Playlist befinden sich noch keine Spiele."
+	no_games_developer_html = "Dieser Entwickler hat noch keine Spiele hinzugefügt."
+	no_games_followed_html = "Keinen Spielen wird bis jetzt gefolgt."
+	no_games_bundle_html = "In diesem Bundle befinden sich noch keine Spiele."
+	no_games_tag_html = "Es gibt noch keine Spiele mit diesem Tag."
 
 [library.followed]
-	follow_game_button = "Follow Game"
-	follow_game_button_tooltip = "Follow this game to add it to your library and be notified of news updates."
-	unfollow_game_button = "Following"
-	unfollow_game_button_tooltip = "Stop following this game to remove it from your library."
+	follow_game_button = "Spiel folgen"
+	follow_game_button_tooltip = "Folge diesem Spiel und füge es deiner Bibliothek hinzu, um bei News informiert zu werden."
+	unfollow_game_button = "Folgend"
+	unfollow_game_button_tooltip = "Diesem Spiel nicht mehr folgen und von der Bibliothek entfernen."
 
-	add_game_success_growl_title = "Game Followed"
-	add_game_success_growl = "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
-
-	# Generic failure message.
-	add_game_error_growl = "Uh-oh, something has prevented you from following this game."
-
-	remove_game_confirmation = "Are you sure you want to stop following {{ game }}?"
-	remove_game_success_growl_title = "Game Unfollowed"
-	remove_game_success_growl = "You have stopped following {{ game }} and will no longer receive notifications about it."
+	add_game_success_growl_title = "Spiel wird gefolgt"
+	add_game_success_growl = "Du folgst nun {{ game }}. Du wirst über News benachrichtigt, solange es in deiner Bibliothek ist."
 
 	# Generic failure message.
-	remove_game_error_growl = "Uh-oh, something has prevented you from unfollowing this game."
+	add_game_error_growl = "Oh oh, etwas hat verhindert, dass Du diesem Spiel folgen konntest."
+
+	remove_game_confirmation = "Bist Du sicher, dass du {{ game }} nicht mehr folgen willst?"
+	remove_game_success_growl_title = "Spiel wird nicht mehr gefolgt"
+	remove_game_success_growl = "Du folgst {{ game }} nicht mehr. Du erhälst ab jetzt keine Benachrichtigungen dazu mehr."
+
+	# Generic failure message.
+	remove_game_error_growl = "Oh oh, etwas hat verhindert, dass du aufhören konntest, diesem Spiel zu folgen."
 
 [library.playlists]
 
 	# These are the tags that show above the playlist thumbnail.
-	developer_tag = "Developer's Games"
-	followed_tag = "Followed Games"
+	developer_tag = "Spiele des Entwicklers"
+	followed_tag = "Gefolgte Spiele"
 	playlist_tag = "Playlist"
 	bundle_tag = "Bundle"
 	tag_tag = "Tag"
@@ -588,16 +588,16 @@
 	# These are the titles/descriptions of playlists in the libraries on profile pages.
 	# Subscription ones are when they are following a playlist that is someone elses.
 	# In that the title is always proceeded by "by user".
-	followed_title = "Followed Games"
-	subscription_followed_title = "Games Followed" # "by user"
-	owner_followed_title = "Your Followed Games"
+	followed_title = "Gefolget Spiele"
+	subscription_followed_title = "Spiele gefolgt" # "von Nutzer"
+	owner_followed_title = "Spiele, denen Du folgst"
 
-	developer_title = "Developer's Games"
-	subscription_developer_title = "Games Made" # "by user"
-	owner_developer_title = "Your Games"
+	developer_title = "Spiele des Entwicklers"
+	subscription_developer_title = "Spiele entwickelt" # "von Nutzer"
+	owner_developer_title = "Deine Spiele"
 
-	followed_description = "Here are the games this person is following."
-	subscription_followed_description = "Games followed by {{ user }}."
+	followed_description = "Dies sind die Spiele, denen diese Person folgt."
+	subscription_followed_description = "Spiele, welche von {{ user }} gefolgt werden."
 
 	developer_description = "Here are the games created by this developer."
 	subscription_developer_description = "Games made by {{ user }}."
