@@ -599,141 +599,141 @@
 	followed_description = "Dies sind die Spiele, denen diese Person folgt."
 	subscription_followed_description = "Spiele, welche von {{ user }} gefolgt werden."
 
-	developer_description = "Here are the games created by this developer."
-	subscription_developer_description = "Games made by {{ user }}."
+	developer_description = "Dies sind die Spiele, welche von diesem Entwickler erstellt wurden."
+	subscription_developer_description = "Spiele erstellt von {{ user }}"
 
-	remove_playlist_confirmation = "Are you sure you want to stop following this playlist?"
-	remove_playlist_success_growl_title = "Playlist Unfollowed"
-	remove_playlist_success_growl = "You have successfully unfollowed {{ playlist }}."
-	remove_playlist_error_growl = "Error! Error! Unable to unfollow this playlist."
+	remove_playlist_confirmation = "Bist Du sicher, dass du dieser Playerlist nicht mehr folgen willst?"
+	remove_playlist_success_growl_title = "Playlist wird nicht mehr gefolgt"
+	remove_playlist_success_growl = "Du folgst {{ playlist }} nun nicht mehr."
+	remove_playlist_error_growl = "Fehler! Fehler! Konnte nicht aufhören, der Playlist zu folgen."
 
-	add_game_success_growl_title = "Added Game"
-	add_game_success_growl = "You've added {{ game }} to {{ playlist }}. Nice!"
-	add_game_error_growl = "Error! Error! This game could not be added to the playlist."
+	add_game_success_growl_title = "Spiel hinzugefügt"
+	add_game_success_growl = "Du hast {{ game }} zu {{ playlist }} hinzugefügt. Cool!"
+	add_game_error_growl = "Fehler! Fehler! Dieses Spiel konnte nicht zur Playlist hinzugefügt werden."
 
-	remove_game_confirmation = "Are you sure you want to remove this game from the playlist?"
-	remove_game_success_growl_title = "Removed Game"
-	remove_game_success_growl = "You have successfully removed {{ game }} from {{ playlist }}."
-	remove_game_error_growl = "Error! Error! This game could not be removed from the playlist."
+	remove_game_confirmation = "Bist Du sicher, dass Du dieses Spiel von der Playlist entfernen willst?"
+	remove_game_success_growl_title = "Spiel entfernt"
+	remove_game_success_growl = "{{ game }} wurde erfolgreich von {{ playlist }} entfernt."
+	remove_game_error_growl = "Fehler! Fehler! Das Spiel konnte nicht von der Playlist entfernt werden."
 
 [library.playlists.save_modal]
-	add_heading = "Add Playlist"
-	edit_heading = "Edit Playlist"
-	close = "Cancel"
+	add_heading = "Playlist hinzufügen"
+	edit_heading = "Playlist bearbeiten"
+	close = "Abbrechen"
 
 [library.playlists.form]
 	name_label = "Name"
-	add_submit_button = "Add Playlist"
-	edit_submit_button = "Edit Playlist"
+	add_submit_button = "Playlist hinzufügen"
+	edit_submit_button = "Playlist bearbeiten"
 
 # The add to playlist component.
 [library.playlists.add_to]
-	button = "Add to Playlist"
-	new_playlist_button = "New Playlist"
-	filter_placeholder = "Filter playlists..."
+	button = "Zu Playlist hinzufügen"
+	new_playlist_button = "Neue Playlist"
+	filter_placeholder = "Playlists filtern..."
 
 [search]
-	page_title = "Search Game Jolt"
-	showing_label = "Showing results for"
-	results_placeholder = "Enter your search query above."
+	page_title = "Game Jolt durchsuchen"
+	showing_label = "Ergebnisse werden angezeigt für"
+	results_placeholder = "Gib oben eine Suchanfrage an"
 
 [search.results]
-	page_title = "Search results for \"{{ query }}\""
+	page_title = "Suchergebnisse für \"{{ query }}\""
 
-	overview_tab = "All"
-	users_tab = "Users"
-	games_tab = "Games"
+	overview_tab = "Alles"
+	users_tab = "Benutzer"
+	games_tab = "Spiele"
 
-	view_all_link = "See All"
-	users_heading = "Users"
-	games_heading = "Games"
+	view_all_link = "Alles anzeigen"
+	users_heading = "Benutzer"
+	games_heading = "Spiele"
 
-	no_results = "No results for that search query."
+	no_results = "Keine Ergebnisse für diese Suchanfrage."
 
 [search.input]
-	placeholder = "Search"
+	placeholder = "Suchen"
 
 [search.autocomplete]
-	show_all = "Show all results..."
-	games_heading = "Games"
-	users_heading = "Users"
-	installed_heading = "Installed Games"
-	no_commands = "No commands match."
+	show_all = "Alle Ergebnisse anzeigen..."
+	games_heading = "Spiele"
+	users_heading = "Benutzer"
+	installed_heading = "Installierte Spiele"
+	no_commands = "Keine Befehle gefunden."
 
 [search.recent]
-	popover_heading = "Recent Searches"
-	none = "No searches yet."
-	clear_button = "Clear Recent Searches"
+	popover_heading = "Letzte Suchen"
+	none = "Bis jetzt keine Suchen durchgeführt."
+	clear_button = "Letzte Suchanfragen leeren."
 
 [commands]
-	discover_description = "Go to main home page."
-	games_description = "Browse games."
-	news_description = "Browse game news."
-	dashboard_description = "View your dashboard."
-	library_description = "View your game library."
-	installed_description = "View your installed games."
-	account_description = "Edit your account information."
-	activity_description = "View your activity feed."
+	discover_description = "Zur Startseite gehen"
+	games_description = "Spiele durchsuchen."
+	news_description = "Spiel-News durchsuchen."
+	dashboard_description = "Dashboard ansehen."
+	library_description = "Deine Spiel-Bibliothek ansehen."
+	installed_description = "Deine installierten Spiele ansehen."
+	account_description = "Deine Account-Informationen ansehen und bearbeiten."
+	activity_description = "Dein Aktivitäten-Feed ansehen."
 
 [rating]
-	clear = "Clear Rating"
-	one = "Terrible"
-	two = "Meh"
-	three = "Good"
-	four = "Great"
-	five = "Perfecto!"
+	clear = "Bewertung widerrufen"
+	one = "Schlecht"
+	two = "Naja"
+	three = "Gut"
+	four = "Großartig"
+	five = "Perfekt!"
 
 [legal]
-	terms = "Terms"
-	privacy = "Privacy"
+	terms = "Geschäftsbedingungen"
+	privacy = "Datenschutz"
 
 # Common generic help text for forms.
 [dash.forms]
 	image_filetype_help_html = """
-	Your image must be a PNG, JPG, or GIF. <br>
-	<strong>PNGs are highly recommended as they produce a lossless image.</strong>
+    Dein Bild muss ein PNG, JPG oder GIF sein. <br>
+    <strong>PNGs sind empfohlen, da sie ein verlustfreies Bild produzieren.</strong>
 	"""
 
 	thumbnail_filetype_help_html = """
-	Your thumbnail image must be a PNG, JPG, or GIF.<br>
-	Animated GIFs allow gamers to get a glimpse of your game in action. <br>
-	For still images, PNGs are recommended because they produce lossless images.
+    Dein Vorschaubild muss ein PNG, JPG oder GIF sein.<br>
+    Animierte GIFs erlauben es Spielern, einen kleinen Eindruck deines Spiels in Action zu erhalten. <br>
+    Für Standbilder ist das PNG-Format empfohlen, da es ein verlustfreies Bild produziert.
 	"""
 
-	yes = "Yes"
-	no = "No"
+	yes = "Ja"
+	no = "Nein"
 
-	on = "On"
-	off = "Off"
+	on = "An"
+	off = "Aus"
 
 [dash.nav]
-	home = "Dashboard Home"
-	activity = "Activity Feed"
-	profile = "Edit Profile"
-	linked_accounts = "Linked Accounts"
-	email_prefs = "Email Preferences"
-	change_pass = "Change Password"
+	home = "Dashboard Startseite"
+	activity = "Aktivitäten-Feed"
+	profile = "Profil bearbeiten"
+	linked_accounts = "Verknüpfte Accounts"
+	email_prefs = "E-Mail Einstellungen"
+	change_pass = "Passwort ändern"
 
-	games = "Your Games"
-	add_game_button = "Add Game"
-	filter_games_placeholder = "Filter games..."
+	games = "Deine Spiele"
+	add_game_button = "Spiel hinzufügen"
+	filter_games_placeholder = "Spiele filtern..."
 
 [dash.overview]
-	page_title = "Your Dashboard"
-	heading = "Your Dashboard"
+	page_title = "Dein Dashboard"
+	heading = "Dein Dashboard"
 
-	view_profile_button = "View Your Profile"
+	view_profile_button = "Dein Profil anzeigen"
 
-	broadcast_view_all = "View All Changelog Broadcasts"
+	broadcast_view_all = "Alle Changelog-Broadcasts anzeigen"
 
-	revenue_heading = "Revenue"
-	revenue_tooltip = "Game Jolt gives you a percentage of the ad revenue we make from your games on the site."
-	revenue_total = "Total Earned"
-	revenue_withdrawn = "Total Withdrawn"
-	revenue_balance = "Current Balance"
-	revenue_withdraw_button = "Withdraw Revenue"
+	revenue_heading = "Einnahmen"
+	revenue_tooltip = "Game Jolt gibt Dir einen Teil der Werbeeinnahmen, die wir von Deinen Spielen auf dieser Seite erhalten."
+	revenue_total = "Gesamteinnahmen"
+	revenue_withdrawn = "Gesamt abgehoben"
+	revenue_balance = "Aktueller Stand"
+	revenue_withdraw_button = "Einnahmen abheben"
 	revenue_pending_message_html = """
-	You currently have <strong>{{ amount | currency:'$' }}</strong> pending withdrawal.
+    Du hast im Moment <strong>{{ amount | currency:'$' }}</strong> austehende Einnahmenabhebungen.
 	"""
 
 	activity_heading = "Latest Activity"
