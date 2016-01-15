@@ -1,0 +1,2050 @@
+[nav]
+	discover = "Entdecken"
+	search = "Suchen"
+	library = "Meine Bibliothek"
+	community = "Community"
+	dashboard = "Dashboard"
+	developers = "Entwickler"
+
+	login = "Anmelden"
+	join = "Account erstellen"
+
+[leveling]
+	exp = "EP"
+
+[options]
+	more = "Mehr"
+	options = "Optionen"
+
+[notifications]
+	all_label = "Alle"
+	game_news_label = "News-Updates"
+	shouts_label = "Shouts"
+	comment_replies_label = "Kommentarantworten"
+	forum_posts_label = "Forumposts"
+	new_friends_label = "Neue Freunde"
+	new_comments_label = "Neue Kommentare"
+	game_ratings_label = "Spielebewertungen"
+	game_follows_label = "Spiele-Follows"
+
+	# Only style using inline tags.
+	# These ones start with the username before this text.
+	new_comment_title_html = "hat <strong>{{ object }}</strong> kommentiert."
+	comment_reply_title_html = "hat auf dein Kommentar bei <strong>{{ object }}</strong> geantwortet."
+	friendship_request_title_html = "hat Dir eine Freundschaftsanfrage geschickt."
+	friendship_accepted_title_html = "hat deine Freundschaftsanfrage akzeptiert."
+	shout_title_html = "hat einen Shout auf deinem Profil hinterlassen."
+	forum_post_title_html = "hat einen neue Antwort auf <strong>{{ object }}</strong> hinterlassen."
+	game_follow_title_html = "folgt nun <strong>{{ object }}</strong>."
+
+	# These ones start with the game name before this text.
+	game_news_title_html = "hat ein News-Update gepostet."
+	game_news_title_popover_html = "hat <strong>{{ title }}</strong> gepostet"
+	rating_title_html = "hat eine neue Bewertung erhalten."
+	rating_title_popover_html = "hat einen Bewertung von <strong>{{ rating }}</strong> erhalten."
+	rating_details_html = """
+    <p>Und die Bewertung, die Du erhalten sollst, ist <strong>{{ rating }}</strong>. Nicht mehr, und nicht weniger.</p>
+	"""
+	rating_details_title = "{{ rating }} soll die Nummer sein, die du erhälst, und die Nummer des Erhaltens soll {{ rating }} sein."
+
+	clear_all_confirmation = "Bist Du sicher, dass du alle Benachrichtigungen als gelesen markieren willst?"
+	clear_all_of_type_confirmation = "Bist Du sicher, dass du alle gefilterten Benachrichtigungen als gelesen markieren willst?"
+
+	unread_tooltip = "{{ count | number }} ungelesen"
+
+[notifications.popover]
+	dismiss_all = "Alle verwefen"
+	view_all_button = "Alle Aktivitäten anzeigen"
+	more_notifications_one_button = "+1 weitere Benachrichtigung"
+	more_notifications_other_button = "+{{ count | number }} weitere Benachrichtigungen"
+	no_notifications = "Keine ungelesenen Benachrichtigungen zurzeit."
+
+[discover.nav]
+	home = "Start"
+
+	games = "Spiele durchsuchen"
+	featured = "Empfohlen"
+	best = "Beste Bewertungen"
+	fresh = "Fresh"
+	hot = "Hot"
+	new = "Neu hinzugefügt"
+
+	news = "Spiele-News"
+	news_main = "Neueste News"
+	news_followed = "Gefolgte Spiele"
+	news_wip = "Spiele in Entwicklung"
+	news_released = "Veröffentlichte Spiele"
+
+	featured_playlists = "Empfohlene Playlists"
+
+[discover.categories]
+	all = "Alle"
+	arcade = "Arcade"
+	action = "Action"
+	adventure = "Adventure"
+	platformer = "Platformer"
+	puzzle = "Puzzle"
+	rpg = "Rollenspiele"
+	shooter = "Shooter"
+	sports = "Sport"
+	strategy_sim = "Strategy/Simulator"
+	other = "Andere"
+
+[sorting]
+	sort = "Sortieren nach"
+	new = "Neuest"
+	best = "Beste Bewertung"
+	hot = "Hottest"
+
+[games]
+	platform_windows = "Windows"
+	platform_mac = "Mac"
+	platform_linux = "Linux"
+	platform_other = "Andere"
+
+	browser_html = "HTML"
+	browser_flash = "Flash"
+	browser_unity = "Unity"
+	browser_applet = "Java Applikation"
+	browser_silverlight = "Silverlight"
+
+[games.thumbnail]
+	ratings = "{{ count | number }} Bewertung(en)"
+
+[discover.home]
+	social_label = "Spiele mit uns!"
+
+	week_best_heading = "Die besten Spiele dieser Woche"
+	week_best_help = "Die am besten bewerteten Spiele, die in den letzten 7 Tagen veröffentlicht wurden."
+
+	hot_heading = "Hot Games"
+	hot_help = "Beliebte Indie-Spiele, nach 'Hotness' sortiert."
+
+	best_heading = "Beste Spiele aller Zeiten"
+	best_help = "Ein Teil der am besten bewerteten Spiele aller Zeiten."
+
+	hot_news_tab = "Hot News"
+	followed_news_tab = "Gefolgt"
+
+	hot_news_heading = "Hot Game News"
+	hot_news_help = "Die größten Indie-Game News direkt von den Entwicklern."
+
+	followed_news_heading = "News von gefolgten Spielen"
+	followed_news_help = "Die neuesten News von gefolgten Spielen."
+
+	more_news = "Mehr News"
+
+	# Shows the Fireside logo right after this.
+	fireside_heading = "Neustes vom"
+	fireside_help = "Indie-Spiel News, Reviews und Meinungen von Leuten."
+
+# Game listings in Discover tab.
+[games.list]
+	section_featured = "Empfohlen"
+	section_best = "Am besten"
+	section_new = "Neu hinzugefügt"
+	section_fresh = "Fresh"
+	section_hot = "Hot"
+
+	# {{ category }} will include a spaces for page title.
+	page_title = "{{ section }} Indie{{ category }}Spiele"
+	page_title_rpg = "{{ section }} Indie Rollenspiele"
+	page_title_other = "{{ section }} Alternative Indie-Spiele"
+
+	date_page_title = "Spiele am {{ date }} veröffentlicht"
+	date_heading = "Veröffentlichte Spiele"
+	date_heading_small = "am {{ date }}"
+
+	date_range_page_title = "Spiele, die zwischen {{ dateStart }} und {{ dateEnd }} veröffentlicht wurden"
+	date_range_heading = "Veröffentlichte Spiele"
+	date_range_heading_small = "zwischen {{ dateStart }} und {{ dateEnd }}"
+
+	descriptive_category = "{{ category | lowercase }} Spiele"
+	descriptive_category_rpg = "Rollenspiele"
+	descriptive_category_other = "alternative Spiele und andere Seltsamkeiten"
+
+	# Categories here are pulled from descriptive_category
+	featured_descriptive_html = "Indie {{ category }} die wir auf der Startseite vorgestellt haben, nach Vorstelldatum sortiert."
+	best_descriptive_html = "Indie {{ category }} nach Voltage sortiert."
+	fresh_descriptive_html = "Indie {{ category }} nach 'Freshness' sortiert."
+	hot_descriptive_html = "Indie {{ category }} nach 'Hotness' sortiert."
+	new_descriptive_html = "Indie {{ category }} nach Veröffentlichungsdatum sortiert."
+	date_descriptive_html = "Spiele, die am {{ date }} veröffentlicht wurden, nach Voltage sortiert, mit den besten Wertungen am höchsten."
+	date_range_descriptive_html = "Spiele die zwischen {{ dateStart }} und {{ dateEnd }} veröffentlicht wurden, nach Voltage sortiert, mit den besten Wertungen am höchsten."
+
+	voltage_tooltip = "Voltage ist unser gewichtetes Bewertungssystem. Alle Spiele starten mit einer durchschnittlichen Bewertung und die Community zieht diese hoch oder runter."
+	freshness_tooltip = "'Freshness' zeigt das Interesse der Community an neueren Spielen an. Zu Beginn ist die 'Freshness' eines Spiels hoch und sie sinkt mit der Zeit. Community-Aktivitäten verlangsamen das Sinken."
+	hotness_tooltip = "'Hotness' zeigt das Interesse der Community an neueren Spielen an. Zu Beginn ist die 'Hotness' eines Spiels hoch und sie sinkt mit der Zeit. Community-Aktivitäten verlangsamen das Sinken."
+
+	new_games_warning_html = "Neue Spiele werden nicht moderiert, kuratiert oder von der Community geprüft. Du kannst eine Goldmine mit unbekannten Talent, oder auch die gruseligste Scheiße deines Lebens finden."
+
+	sections_selector_hot = "Hot"
+	sections_selector_featured = "Empfohlen"
+	sections_selector_best = "Beste"
+	sections_selector_new = "Neues"
+
+	games_count_none = "Keine Spiele."
+	games_count_one = "1 Spiel."
+	games_count_other = "Seite {{ page | number }} von {{ count | number }} Spielen."
+
+	no_games_html = "Keine Spiele passen zum Filter. <b>Zoinks!</b>"
+
+[games.filtering]
+	input_placeholder = "Ergebnisse filtern..."
+
+	genre_label = "Genre"
+
+	os_label = "Betriebsystem"
+	browser_label = "Browser-Spiele"
+	maturity_label = "Spiele für Erwachsene"
+	status_label = "Status"
+
+	os = "OS"
+	os_windows = "Windows"
+	os_mac = "Mac"
+	os_linux = "Linux"
+	os_other = "Andere"
+
+	browser = "Browser"
+	browser_html = "HTML"
+	browser_flash = "Flash"
+	browser_unity = "Unity"
+	browser_applet = "Java Applikation"
+	browser_silverlight = "Silverlight"
+
+	maturity = "Altersfreigabe"
+	maturity_everyone = "Jedes Alter"
+	maturity_teen = "Teenager"
+	maturity_adult = "Erwachsene"
+
+	status = "Status"
+	status_complete = "Vollendet"
+	status_wip = "In Arbeit"
+	status_canceled = "Abgebrochen"
+
+[games.view]
+	overview_tab = "Übersicht"
+	news_tab = "News"
+	scores_tab = "Bewertungen"
+	trophies_tab = "Trophäe"
+
+	manage_game_button = "Spiel verwalten"
+	moderate_game_button = "Spiel moderieren"
+	more_options_button = "Mehr"  # This only shows on mobile currently.
+
+	# This shows when a game you're following has unread notifications.
+	notifications_heading = "Benachrichtigungen"
+	notifications_news = "{{ count | number }} Newsartikel"
+
+[games.view.media]
+	close = "Schließen"
+
+	# This shows when they try viewing an image or video through a link and it can't be found on the page.
+	invalid_image_growl = "Dieses Bild konnte nicht gefunden werden. Vielleicht wurde es entfernt."
+	invalid_video_growl = "Dieses Video konnte nicht gefunden werden. Vielleicht wurde es entfernt."
+
+[games.view.stats]
+	views_label = "Aufrufe"
+	downloads_plays_label = "Downloads"
+	ratings_label = "Bewertungen"
+
+	# Show when there are no "plays" because there aren't any builds.
+	na = "N/A"
+	no_builds_tooltip = "Dieses Spiel hat noch keine spielbaren Builds"
+	had_builds_tooltip = "Dieses Spiel hatte bereits spielbare Builds, aber sie wurden entfernt."
+
+	rating_breakdown_tooltip = "Bewertungen im Detail."
+
+# The modal that opens up when you click to play a browser game.
+[game.play_modal]
+	minimize_button = "Minimieren"
+	close_button = "Schließen"
+
+	# Shown when you try to play another browser game while one is minimized.
+	already_open_growl_title = "Oh nein!"
+	already_open_growl = "Du hast bereits ein Browser-Spiel offen. Du kannst nur eines gleichzeitig geöffnet haben."
+
+# Shows after you close a browser game play modal and you haven't rated the game yet.
+# It's a growl that shows to prompt you to rate it.
+[game.rating_growl]
+	title = "Bewerte!" # Shows the game title after this.
+	message = "Spielebewertungen helfen uns, Dir bessere Dinge zu zeigen. Hilf uns, die Seite zu verbessern!"
+
+[game.download.game]
+	page_title = "Herunterladen von {{ game }}"
+
+	downloading_label = "{{ game }} wird heruntergeladen..."
+	downloading_wait_message = "Dein Download sollte jeden Moment beginnen..."
+
+	share_heading = "Du magst es? teil es!"
+
+	rate_html = """
+	<p><strong>Was denkst du über das Spiel?</strong>Spielebewertungen helfen uns, Dir bessere Dinge zu zeigen. Hilf uns, die Seite zu verbessern!</p>
+	"""
+
+	developer_games_heading = "Andere Spiele"
+	developer_games_heading_small = "von diesem Entwickler"
+
+	recommended_heading = "Dies könnte dir auch gefallen..."
+
+[game.download.soundtrack]
+	page_title = "Soundtrack für {{ game }} wird heruntergeladen"
+
+	downloading_label = "Soundtrack wird heruntergeladen..."
+	downloading_wait_message = "Dein Download sollte jeden Moment beginnen..."
+
+# Generic scores stuff.
+[scores]
+	guest = "Gast"
+
+# The full scores list for games.
+[game.scores]
+	page_title = "Scores für {{ game }}"
+
+	best_tab = "Alle Scores"
+	user_tab = "Deine Scores"
+
+	no_scores_html = "Es sind bis jetzt keine Scores auf diesem Scoreboard."
+	no_user_scores_html = "Du hast bis jetzt keine Scores!"
+
+# Shown on the game page as a sort of overview widget.
+[scores.overview]
+	heading = "Scoreboards"
+
+	user_best_heading = "Deine beste Score"
+	user_best_none_heading = "Du hast bis jetzt keine Score erreicht!"
+	user_best_none_body_html = "Worauf wartest du? Fang an zu spielen!"
+	user_best_exp_tooltip = "{{ experience | number }} EP von dieser Score erhalten!"
+
+	top_scores_heading = "Beste Scores"
+	no_scores_html = "Es sind bis jetzt keine Scores auf diesem Scoreboard."
+	view_more_button = "Komplettes Scoreboard anzeigen"
+
+	latest_scores_heading = "Neueste Scores"
+
+# When changing scoreboards as a popover.
+[scores.scoreboard_popover]
+	heading = "Scoreboard ändern"
+
+# Generic trophies stuff
+[trophies]
+	exp_gained_tooltip = "Die EP von dieser Trophäe."
+	achieved_tag = "Geschafft!"
+	invisible_trophies_message = "Einige Trophäen können für den Spieler unsichtbar sein. Du siehst sie, weil Du der Entwickler bist."
+
+	bronze = "Bronze"
+	silver = "Silber"
+	gold = "Gold"
+	platinum = "Platin"
+
+# The full trophy list for games.
+[game.trophies]
+	page_title = "Trophäen für {{ game }}"
+	heading = "Trophäen"
+
+	all_tab = "Alle"
+	achieved_tab = "Erhalten"
+	unachieved_tab = "Nicht erhalten"
+
+	no_trophies_html = "Es gibt bis jetzt keine Trophäen für diese Spiel. Nerv' den Entwickler, dass er/sie welche hinzufügt!"
+
+# Shown on the game page as a sort of overview widget.
+[trophies.overview]
+	heading = "Trophäen"
+
+	more_link = "+{{ extraCount | number }} mehr"
+	view_more_button = "Alle Trophäen anzeigen"
+
+# The widget that shows their completion as a progress bar.
+[trophies.completion]
+	lead_html = """
+	Du hast <b>{{ achieved | number }}</b> von <b>{{ total | number }}</b> Trophäen erhalten.
+	"""
+
+	completion_label = "Komplettierung"
+	exp_gained_label = "EP erhalten"
+
+	none_achieved_html = "Du hast bis jetzt keine Trophäen für dieses Spiel erhalten!"
+
+[profile]
+	overview_tab = "Profil"
+	library_tab = "Bibliothek"
+
+	verified_tooltip = "Verifizierter Account"
+
+	friend_tag = "Freund"
+	friend_tooltip = "Ihr seid Frunde! Awwww!"
+	offline_tag = "Offline"
+	offline_tooltip = "Dieser Nutzer ist im Moment offline."
+	online_tag = "Online"
+	online_tooltip = "Dieser Nutzer ist im Moment online."
+	in_game_tag = "In-Game"
+	in_game_tooltip = "Dieser Nutzer spielt im Moment ein Spiel."
+
+	website_tooltip = "Besuche die Website dieses Entwicklers"
+
+	# We show dates after these.
+	joined = "Beigetreten am"
+	last_seen = "Zuletzt gesehen am"
+
+	friend_request_button = "Freundschaftsanfrage senden"
+	remove_friend_button = "Als Freund entfernen"
+	moderate_user_button = "Benutzer moderieren"
+
+	# This only shows on a user's profile if they're playing a game through the Game API.
+	# We show the game info below it.
+	playing_heading = "Spielt im Moment ein Spiel"
+
+	friend_request_sent_pending = "Freundschaftsanfrage an {{ user }} erwartet deren Antwort."
+	friend_request_cancel = "Anfrage abbrechen"
+	friend_request_received_pending = "{{ user }} würde gerne dein Freund sein."
+	friend_request_accept = "Freund hinzufügen"
+	friend_request_decline = "Abbrechen"
+	friend_request_decline_tooltip = "Der Sender wird nicht benachrichtigt."
+
+	developer_games_teaser_heading = "Neueste Spiele"
+	developer_games_teaser_heading_small = "dieses Entwicklers"
+	developer_games_teaser_button = "Zeige alle ({{ gamesCount | number }})"
+
+	no_bio_html = """
+	<p><em>Diese Person hat bis jetzt keine Biographie, nutz' deine Fantasie!</em></p>
+	"""
+
+	no_developer_games_html = """
+	Dieser Entwickler hat bis jetzt keine Spiele veröffentlicht. Sag ihnen, sie sollen sich beeilen!
+	"""
+
+	banned_message_html = """
+	Dieser Account ist gesperrt.
+	"""
+
+[news.list]
+	all_heading = "Neuest Spiele-News"
+	followed_heading = "Gefolgte Spiele-News"
+	wip_heading = "Entwicklungs-News"
+	released_heading = "Veröffentliche Spiele-News"
+
+	all_page_title = "Neuest Spiele-News"
+	followed_page_title = "Gefolgte Spiele-News"
+	wip_page_title = "Entwicklungs-News"
+	released_page_title = "Veröffentliche Spiele-News"
+
+	all_descriptive_html = "Frische Indie Spiele-News direkt von den Entwicklern!"
+	followed_descriptive_html = "News über Spiele, denen Du folgst."
+	wip_descriptive_html = "News über Spiele in Arbeit, die spielbare Builds haben."
+	released_descriptive_html = "News über spielbare Spiele, die vom Entwickler als fertig angesehen werden."
+
+	all_tab = "Alle Spiele"
+	followed_tab = "Gefolgte Spiele"
+	wip_tab = "In Entwicklung"
+	released_tab = "Veröffentlichte Spiele"
+
+	followed_tooltip = "News über Spiele, denen Du folgst."
+	wip_tooltip = "News über Spiele in Arbeit, die spielbar sind."
+	released_tooltip = "News über Spiele, die als fertig markiert sind."
+
+	followed_help_html = """
+	<p>News-Updates von Spiele, denen du folgst, werden hier angezeigt.</p>
+	<p>Folge Spielen, um diese Seite mit den News zu füllen, die dich interessieren!</p>
+	"""
+
+	# We show current page number before the articles count.
+	# But we only show it if there are multiple pages.
+	page = "Seite {{ page | number }} von"
+
+	posts_count_none = "Keine Artikel."
+	posts_count_one = "1 Artikel."
+	posts_count_other = "{{ count | number }} Artikel."
+
+	# They are links. So we show "comment" when there's none as a call to action to comment on the post.
+	post_comments_none = "Kommentar"
+	post_comments_one = "1 Kommentar"
+	post_comments_other = "{{ count | number }} Kommentare"
+
+	no_posts_html = "Keine News-Updates zum Anzeigen."
+	no_posts_followed_html = "Keine Updates zum Anzeigen! Folge mehr Spielen, um diese Seite zu füllen."
+
+[library]
+	page_title = "Deine Bibliothek an Spielen"
+	heading = "Spiele-Bibliothek"
+	description_html = """
+	<p>Dies ist deine persönliche Bibliothek an Spiele. Hier findest Du alle Spiele denen du folgst und alle Playlists oder Pakete die du erstellt hast oder denen du gefolgt bist.</p>
+	"""
+
+	# We need to show "by User" in some places in the library.
+	by = "von"
+
+[library.nav]
+	library = "Spiele-Bibliothek"
+	followed = "Gefolgte Spiele"
+	developer = "Deine Spiele"
+	bundles = "Pakete"
+	playlists = "Playlists"
+
+	new_playlist_button = "Neue Playlist"
+	filter_playlists_placeholder = "Playlists filtern..."
+
+	no_playlists_html = """
+	<p>Erstelle Playlists, um die Spiele in deiner Bibliothek zu organisieren und mit Anderen zu teilen.</p>
+	<p>Folge den Playlists Anderer um mehr Spiele zu entdecken!</p>
+	"""
+
+[library.collection]
+
+	# Followed Games
+	followed_owner_page_title = "Deine gefolgten Spiele"
+	followed_owner_heading = "Deine gefolgten Spiele"
+	followed_owner_descriptive_html = """
+	Wenn du einem Spiel folgst, taucht es hier auf.<br>Du erhälst Benachrichtigungen wenn Entwickler News über Spiele postet, denen du folgst.
+	"""
+
+	followed_page_title = "Spiele gefolgt von {{ user }}"
+	followed_heading = "Spiele gefolgt" # "von Nutzer"
+	followed_descriptive_html = """
+	Dies sind die Spiele denen {{ user }} folgt.
+	"""
+
+	# Developer's Games
+	developer_owner_page_title = "Deine Spiele"
+	developer_owner_heading = "Deine Spiele"
+	developer_owner_descriptive_html = """
+    Dies sind die Spiele die Du erstellt hast. Sei stolz!<br>Fühl dich frei, diese Seite mit anderen zu teilen um deine Spiele zu zeigen.
+	"""
+
+	developer_page_title = "Spiele von {{ user }}"
+	developer_heading = "Spiele" # "von Nutzer"
+	developer_descriptive_html = """
+    Dies sind die Spiele, welche {{ user }} erstellt hat.
+	"""
+
+	# Playlist
+	playlist_owner_page_title = "{{ playlist }}"
+	playlist_page_title = "{{ playlist }} von {{ user }}"
+	playlist_heading = "{{ playlist }}" # "von Nutzer"
+
+	# Bundle
+	# No such thing as a bundle "owner".
+	bundle_page_title = "{{ bundle }}"
+	bundle_heading = "{{ bundle }}"
+
+	# Tag
+	tag_page_title = "#{{ tag }}"
+	tag_heading_before = "Spiele getaggt mit"
+	tag_heading = "#{{ tag }}"
+
+	manage_games_button = "Deine Spiele verwalten"
+	follow_button = "Folgen"
+	follow_button_tooltip = "Folge dieser Playlist um sie deiner Bibliothek hinzuzufügen. Du erhälst Benachrichtigungen wenn neue Spiele hinzugefügt werden."
+	unfollow_button = "Gefolgt"
+	unfollow_button_tooltip = "Höre auf, dieser Playlist zu folgen, um sie aus deiner Bibliothek zu entfernen und keine Benachrichtigungen mehr zu erhalten."
+	edit_playlist_button = "Playlist bearbeiten"
+	remove_playlist_button = "Playlist entfernen"
+
+	followers_label = "Followers"
+	games_label = "Spiele"
+
+	# Tooltips that show when hovering over the button that goes on top of game thumbnails in the library.
+	thumbnail_control_playlist_tooltip = "Von Playlist entfernen."
+	thumbnail_control_unfollow_tooltip = "Nicht mehr folgen."
+
+	# When there's no games to show because of the filters they have set.
+	no_games_html = "@:games.list.no_games_html"
+
+	# When there's no games at all in the collection.
+	no_games_playlist_html = "In dieser Playlist befinden sich noch keine Spiele."
+	no_games_developer_html = "Dieser Entwickler hat noch keine Spiele hinzugefügt."
+	no_games_followed_html = "Keinen Spielen wird bis jetzt gefolgt."
+	no_games_bundle_html = "In diesem Bundle befinden sich noch keine Spiele."
+	no_games_tag_html = "Es gibt noch keine Spiele mit diesem Tag."
+
+[library.followed]
+	follow_game_button = "Spiel folgen"
+	follow_game_button_tooltip = "Folge diesem Spiel und füge es deiner Bibliothek hinzu, um bei News informiert zu werden."
+	unfollow_game_button = "Folgend"
+	unfollow_game_button_tooltip = "Diesem Spiel nicht mehr folgen und von der Bibliothek entfernen."
+
+	add_game_success_growl_title = "Spiel wird gefolgt"
+	add_game_success_growl = "Du folgst nun {{ game }}. Du wirst über News benachrichtigt, solange es in deiner Bibliothek ist."
+
+	# Generic failure message.
+	add_game_error_growl = "Oh oh, etwas hat verhindert, dass Du diesem Spiel folgen konntest."
+
+	remove_game_confirmation = "Bist Du sicher, dass du {{ game }} nicht mehr folgen willst?"
+	remove_game_success_growl_title = "Spiel wird nicht mehr gefolgt"
+	remove_game_success_growl = "Du folgst {{ game }} nicht mehr. Du erhälst ab jetzt keine Benachrichtigungen dazu mehr."
+
+	# Generic failure message.
+	remove_game_error_growl = "Oh oh, etwas hat verhindert, dass du aufhören konntest, diesem Spiel zu folgen."
+
+[library.playlists]
+
+	# These are the tags that show above the playlist thumbnail.
+	developer_tag = "Spiele des Entwicklers"
+	followed_tag = "Gefolgte Spiele"
+	playlist_tag = "Playlist"
+	bundle_tag = "Bundle"
+	tag_tag = "Tag"
+
+	# These are the titles/descriptions of playlists in the libraries on profile pages.
+	# Subscription ones are when they are following a playlist that is someone elses.
+	# In that the title is always proceeded by "by user".
+	followed_title = "Gefolget Spiele"
+	subscription_followed_title = "Spiele gefolgt" # "von Nutzer"
+	owner_followed_title = "Spiele, denen Du folgst"
+
+	developer_title = "Spiele des Entwicklers"
+	subscription_developer_title = "Spiele entwickelt" # "von Nutzer"
+	owner_developer_title = "Deine Spiele"
+
+	followed_description = "Dies sind die Spiele, denen diese Person folgt."
+	subscription_followed_description = "Spiele, welche von {{ user }} gefolgt werden."
+
+	developer_description = "Dies sind die Spiele, welche von diesem Entwickler erstellt wurden."
+	subscription_developer_description = "Spiele erstellt von {{ user }}"
+
+	remove_playlist_confirmation = "Bist Du sicher, dass du dieser Playerlist nicht mehr folgen willst?"
+	remove_playlist_success_growl_title = "Playlist wird nicht mehr gefolgt"
+	remove_playlist_success_growl = "Du folgst {{ playlist }} nun nicht mehr."
+	remove_playlist_error_growl = "Fehler! Fehler! Konnte nicht aufhören, der Playlist zu folgen."
+
+	add_game_success_growl_title = "Spiel hinzugefügt"
+	add_game_success_growl = "Du hast {{ game }} zu {{ playlist }} hinzugefügt. Cool!"
+	add_game_error_growl = "Fehler! Fehler! Dieses Spiel konnte nicht zur Playlist hinzugefügt werden."
+
+	remove_game_confirmation = "Bist Du sicher, dass Du dieses Spiel von der Playlist entfernen willst?"
+	remove_game_success_growl_title = "Spiel entfernt"
+	remove_game_success_growl = "{{ game }} wurde erfolgreich von {{ playlist }} entfernt."
+	remove_game_error_growl = "Fehler! Fehler! Das Spiel konnte nicht von der Playlist entfernt werden."
+
+[library.playlists.save_modal]
+	add_heading = "Playlist hinzufügen"
+	edit_heading = "Playlist bearbeiten"
+	close = "Abbrechen"
+
+[library.playlists.form]
+	name_label = "Name"
+	add_submit_button = "Playlist hinzufügen"
+	edit_submit_button = "Playlist bearbeiten"
+
+# The add to playlist component.
+[library.playlists.add_to]
+	button = "Zu Playlist hinzufügen"
+	new_playlist_button = "Neue Playlist"
+	filter_placeholder = "Playlists filtern..."
+
+[search]
+	page_title = "Game Jolt durchsuchen"
+	showing_label = "Ergebnisse werden angezeigt für"
+	results_placeholder = "Gib oben eine Suchanfrage an"
+
+[search.results]
+	page_title = "Suchergebnisse für \"{{ query }}\""
+
+	overview_tab = "Alles"
+	users_tab = "Benutzer"
+	games_tab = "Spiele"
+
+	view_all_link = "Alles anzeigen"
+	users_heading = "Benutzer"
+	games_heading = "Spiele"
+
+	no_results = "Keine Ergebnisse für diese Suchanfrage."
+
+[search.input]
+	placeholder = "Suchen"
+
+[search.autocomplete]
+	show_all = "Alle Ergebnisse anzeigen..."
+	games_heading = "Spiele"
+	users_heading = "Benutzer"
+	installed_heading = "Installierte Spiele"
+	no_commands = "Keine Befehle gefunden."
+
+[search.recent]
+	popover_heading = "Letzte Suchen"
+	none = "Bis jetzt keine Suchen durchgeführt."
+	clear_button = "Letzte Suchanfragen leeren."
+
+[commands]
+	discover_description = "Zur Startseite gehen"
+	games_description = "Spiele durchsuchen."
+	news_description = "Spiel-News durchsuchen."
+	dashboard_description = "Dashboard ansehen."
+	library_description = "Deine Spiel-Bibliothek ansehen."
+	installed_description = "Deine installierten Spiele ansehen."
+	account_description = "Deine Account-Informationen ansehen und bearbeiten."
+	activity_description = "Dein Aktivitäten-Feed ansehen."
+
+[rating]
+	clear = "Bewertung widerrufen"
+	one = "Schlecht"
+	two = "Naja"
+	three = "Gut"
+	four = "Großartig"
+	five = "Perfekt!"
+
+[legal]
+	terms = "Geschäftsbedingungen"
+	privacy = "Datenschutz"
+
+# Common generic help text for forms.
+[dash.forms]
+	image_filetype_help_html = """
+    Dein Bild muss ein PNG, JPG oder GIF sein. <br>
+    <strong>PNGs sind empfohlen, da sie ein verlustfreies Bild produzieren.</strong>
+	"""
+
+	thumbnail_filetype_help_html = """
+    Dein Vorschaubild muss ein PNG, JPG oder GIF sein.<br>
+    Animierte GIFs erlauben es Spielern, einen kleinen Eindruck deines Spiels in Action zu erhalten. <br>
+    Für Standbilder ist das PNG-Format empfohlen, da es ein verlustfreies Bild produziert.
+	"""
+
+	yes = "Ja"
+	no = "Nein"
+
+	on = "An"
+	off = "Aus"
+
+[dash.nav]
+	home = "Dashboard Startseite"
+	activity = "Aktivitäten-Feed"
+	profile = "Profil bearbeiten"
+	linked_accounts = "Verknüpfte Accounts"
+	email_prefs = "E-Mail Einstellungen"
+	change_pass = "Passwort ändern"
+
+	games = "Deine Spiele"
+	add_game_button = "Spiel hinzufügen"
+	filter_games_placeholder = "Spiele filtern..."
+
+[dash.overview]
+	page_title = "Dein Dashboard"
+	heading = "Dein Dashboard"
+
+	view_profile_button = "Dein Profil anzeigen"
+
+	broadcast_view_all = "Alle Changelog-Broadcasts anzeigen"
+
+	revenue_heading = "Einnahmen"
+	revenue_tooltip = "Game Jolt gibt Dir einen Teil der Werbeeinnahmen, die wir von Deinen Spielen auf dieser Seite erhalten."
+	revenue_total = "Gesamteinnahmen"
+	revenue_withdrawn = "Gesamt abgehoben"
+	revenue_balance = "Aktueller Stand"
+	revenue_withdraw_button = "Einnahmen abheben"
+	revenue_pending_message_html = """
+    Du hast im Moment <strong>{{ amount | currency:'$' }}</strong> austehende Einnahmenabhebungen.
+	"""
+
+	activity_heading = "Latest Activity"
+	activity_view_all_button = "View All Activity"
+	activity_no_activity_html = """
+	<p>No activity yet.</p>
+	"""
+
+	developer_games_heading = "Your Games"
+	developer_games_add_button = "Add Game"
+	developer_games_no_games_html = """
+	No games yet? Wait, really? You're a developer, so... <a href="/dashboard/developer/games/add">Add a game</a>!
+	"""
+
+[dash.integrate]
+	heading = "Integrate"
+	lead = "Here's a to-do list of things to get you started with the site:"
+
+	done = "Done"
+
+	played_game_html = """Play a game."""
+	rated_game_html = """Rate and comment on a game."""
+	got_trophy_html = """Achieve a trophy in a game."""
+	got_score_html = """Get on a game's scoreboard."""
+	has_friend_html = """Add your first friend."""
+	has_facebook_html = """<a href="/dashboard/linked-accounts">Link your Facebook account</a>."""
+	has_twitter_html = """<a href="/dashboard/linked-accounts">Link your Twitter account</a>."""
+
+	exp_help_heading = "Gain experience and level up!"
+	exp_help_body_html = """
+	<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>
+	<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>
+	"""
+
+[dash.activity]
+	page_title = "Activity Feed"
+	heading = "Activity Feed"
+
+	all_tab = "All Activity"
+	unread_tab = "Unread"
+
+	filter_button = "Filter"
+	dismiss_all_button = "Mark All as Read"
+
+	current_filter = "Showing {{ filter }}"
+	pages = "Page {{ page | number }} of {{ total | number }} notification(s)."
+
+	no_activity = "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
+
+[dash.profile]
+	user_info_tab = "User Information"
+	avatar_tab = "Avatar"
+
+[dash.profile.edit]
+	page_title = "Edit Your User Info"
+	heading = "Edit Your Information"
+
+	username_label = "Username"
+	username_time_left_html = """
+	You can only change your username once a week. <br>
+	You have {{ duration }} left until you can change it again.
+	"""
+
+	# Only for devs currently.
+	display_name_label = "Display Name"
+	display_name_help = "If you enter a display name, it'll show up on the site instead of your username. Unlike usernames, display names can contain spaces and special characters."
+	display_name_time_left_html = """
+	You can only change your display name once a week. <br>
+	You have {{ duration }} left until you can change your display name again.
+	"""
+
+	website_label = "Website"
+
+	description_label = "Profile Bio"
+	description_help_html = "Let people know about yourself!"
+
+	submit_button = "Save Profile"
+
+[dash.avatar]
+	page_title = "Your Avatar"
+	heading = "Getting an Avatar"
+	body_html = """
+	<p>We currently use <a href="http://gravatar.com">Gravatar</a> (Globally Recognized Avatars) to serve up the avatars on Game Jolt.</p>
+	<p>If you don't already have a Gravatar account, you can click the button below to open <a href="http://gravatar.com">gravatar.com</a> and sign up for one. Note that you'll need to sign up using your WordPress login. What's that, you don't have a WordPress account, either? No worries! You'll be able to create both accounts at the same time.</p>
+	<p>Have a Gravatar account? Good. Just log in and upload the avatar of your choice, then associate that avatar with the email address you use for Game Jolt. Your avatar will automatically appear throughout the site.</p>
+	<p><em>Note that there might be a short delay before your avatar shows up on the site. If you don't see it after what seems like long enough, try clearing your browser's cache.</em></p>
+	"""
+	get_avatar_button = "Get Gravatar Account"
+
+	current_label = "Current Avatar"
+	current_alt = "Your Avatar"
+
+[dash.email_prefs]
+	page_title = "Email Preferences"
+	heading = "Your Email Preferences"
+
+	email_address_label = "Email Address"
+
+	newsletter_label = "Receive Newsletter?"
+	newsletter_help = "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+
+	notifications_heading = "Notifications"
+	notifications_description = "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+
+	# _help ones are optional in all of these.
+	# If you leave them out, they won't show on the page.
+	notify_comment_replies_label = "Comment Replies"
+	notify_comment_replies_help = "Get emails about replies in comment threads you're watching or to which you've replied."
+
+	notify_forum_posts_label = "Forum Posts"
+	notify_forum_posts_help = "Get emails about forum posts in topics you're watching or which you created."
+
+	notify_followed_game_updates_label = "Updates to Followed Games"
+	notify_followed_game_updates_help = "Get emails about news updates on games you're following."
+
+	notify_friendships_label = "Friend Requests"
+	notify_friendships_label_help = "Get emails about incoming and accepted friend requests."
+
+	notify_private_messages_label = "Chat Messages"
+	notify_private_messages_help = "Get emails when friends private message you and you're offline."
+
+	notify_comments_label = "New Comments"
+	notify_comments_help = "Get emails about new comments on things you've posted, such as a game or news update."
+
+	notify_ratings_label = "Game Ratings"
+	notify_ratings_help = "Get emails when your games have been rated--and find out what ratings they were given."
+
+	notify_game_follows_label = "Game Follows"
+	notify_game_follows_help = "Get emails when people follow your games and find out who they are."
+
+	submit_button = "Save Preferences"
+
+[dash.change_pass]
+	page_title = "Change Password"
+	heading = "Change Account Password"
+
+	old_password_label = "Old Password"
+	password_label = "New Password"
+	confirm_password_label = "Confirm New Password"
+
+	invalid_old_password_error = "The password you entered is invalid."
+	no_match_error = "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+
+	submit_button = "Change Account Password"
+
+[dash.funds.withdraw]
+	page_title = "Withdraw Revenue"
+	heading = "Withdraw Revenue"
+
+	page_help_html = """
+	<p>Please allow 3 days for withdrawals to be processed. At this time all withdrawals are processed through <a href="https://www.paypal.com" target="_blank">PayPal</a>.</p>
+
+	<p>If you don't have a PayPal account, you will not be able to withdraw any money. Please be sure to <a href="https://www.paypal.com" target="_blank">sign up with a PayPal account</a> <em>before</em> trying to withdraw funds.</p>
+	"""
+
+	revenue_pending = "Pending Withdrawal"
+	revenue_withdrawable = "Withdrawable Amount"
+
+	form_help_html = """
+	Make sure that the information you enter below is correct. You will not get a chance to change it after you submit.
+	"""
+
+	email_label = "PayPal Email Address"
+	email_help = "This must be a valid email address attached to a PayPal account."
+
+	amount_label = "Amount to Withdraw"
+	amount_help = "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+
+	submit_button = "Send Withdrawal Request"
+
+	success_growl_title = "Request Sent"
+	success_growl = "Your request has been sent and will be processed within 3 days. At the time it's processed, your balance will be updated to reflect the changes."
+
+[dash.games.add]
+	page_title = "Add Game"
+	heading = "Add a Game"
+
+	rules_heading = "Rules"
+	rules_html = """
+	<p>You must agree to the following rules before adding a game:</p>
+	<ul>
+		<li>Game Jolt is currently only accepting free games. There must be no requirement to pay in order to play your game.</li>
+		<li>Don't upload games you didn't make. If you are not the game's developer, don't add the game to the site. If you're a fan, encourage the developer to add it themselves.</li>
+		<li>Publishers are not allowed to upload games; only developers are. Remember: This is Indie.</li>
+		<li>Our name is "Game Jolt". As such, only actual <em>games</em> may be uploaded to the site. No applications, software, or tools are allowed at this time. We may accept these in the future or on a case by case basis, but for now, let's just keep it to games.</li>
+		<li>No stripped-down demos or "lite" versions of commercial games are permitted. You must upload a totally free version of your game, and it must be as complete a version as is publicly available.</li>
+		<li>We welcome and encourage you to add games that are incomplete and still in development, as long as they are tagged as Works-in-Progress. However, you should keep your game hidden until you have something to show. Work-in-Progress games do not have to be playable, but they must be further along than the concept stage. Before you unhide the game, make sure you at least have some screenshots and an informative description.</li>
+		<li>Do not add links to download or play your game on other sites unless you have already uploaded it to Game Jolt. You can't use your game page as an advertisement for another site.</li>
+		<li>For browser-based games, we don't allow you to display ads in the preloader on Game Jolt. Remove any ads or block them from showing on the site.</li>
+
+	<p>If you have questions or concerns about the rules, get in touch: <a href="mailto:contact@gamejolt.com">contact@gamejolt.com</a></p>
+	"""
+	rules_accept_button = "Accept Rules"
+
+	add_growl = "Your game has been added and can now be managed from your dashboard."
+	add_growl_title = "Game Added"
+
+	fnaf_autotag_message_html = """
+	<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series.
+	"""
+
+	fnaf_autotag_accept = "Okay"
+	fnaf_autotag_reject = "Don't Tag"
+
+[dash.games.edit]
+	page_title = "Edit Details for {{ game }}"
+	heading = "Edit Details"
+
+	save_growl = "Your game details have been saved."
+	save_growl_title = "Game Details Saved"
+
+[dash.games]
+	hidden_tag = "Hidden"
+	published_tag = "Published"
+
+	view_page_button = "View Game Page"
+	remove_game_button = "Remove Game"
+
+	hidden_message = "This game is currently hidden from public view."
+
+	# This part of the hidden message only shows if they've never published before.
+	# It won't show if they publish and then hide it again.
+	hidden_message_unpublished = "We recommend keeping it hidden until you've finished filling out the details and added some media. Don't forget to unhide it when it's ready, or it won't show up in the game listings!"
+
+	overview_tab = "Overview"
+	media_tab = "Media"
+	media_tooltip = "Manage screenshots, images, and videos for your game."
+	packages_tab = "Builds & Files"
+	packages_tooltip = "Upload files and manage your game packages."
+	news_tab = "News"
+	news_tooltip = "Manage news updates for your game."
+	music_tab = "Music"
+	music_tooltip = "Upload your game's soundtrack."
+	api_tab = "Game API"
+	api_tooltip = "Manage your game's API integration (trophies, scoreboards, data storage, etc.)"
+
+	remove_confirmation = "Are you sure you want to permanently remove your game?"
+	removed_growl_title = "Game Removed"
+	removed_growl = "Your game has been removed from the site. Maybe a phoenix will rise in its place one day."
+
+[dash.games.overview]
+	page_title = "Manage {{ game }}"
+
+	todo_heading = "Set Up Steps"
+	todo_lead_html = """
+	Your game page is <strong>{{ completion }}%</strong> complete.
+	"""
+
+	# This shows at the top after they publish if they still have todo items left.
+	# It's basically to say "looking good, but keep going".
+	todo_additional_html = """
+	<p><strong>Your game page is lookin' hot!</strong> To get the most out of Game Jolt, consider taking these additional steps.</p>
+	"""
+
+	todo_done = "Done"
+	todo_required = "Required"
+	todo_recommended = "Recommended"
+	todo_highly_recommended = "Highly Recommended"
+
+	todo_thumbnail_title = "Add a thumbnail image."
+	todo_thumbnail_progress = "Thumbnail Image"
+
+	todo_header_title = "Add a page header image."
+	todo_header_progress = "Page Header"
+
+	todo_media_title = "Add images and videos."
+	todo_media_progress = "Game Media"
+
+	todo_maturity_title = "Set the maturity rating."
+	todo_maturity_progress = "Maturity Rating"
+
+	todo_builds_title = "Upload game builds/files."
+	todo_builds_extra_wip = "Upload your game when it's in a playable state."
+	todo_builds_progress = "Builds/Files"
+
+	todo_songs_title = "Add the soundtrack."
+	todo_songs_progress = "Soundtrack"
+
+	todo_news_title = "Post your first news update (when you have something newsworthy, of course)."
+	todo_news_progress = "News Update"
+
+	todo_api_title = "Integrate with Game Jolt through the Game API."
+	todo_api_progress = "API Integration"
+
+	todo_info_html = """
+	Before you can publish your game, you must at least add a <a href="{{ thumbnailUrl }}">thumbnail image</a>, set a <a href="{{ maturityUrl }}">maturity rating</a>, and upload your game's <a href="{{ buildsUrl }}">builds/files</a>.
+	"""
+
+	todo_info_wip_html = """
+	Before you can publish your game, you must at least add a <a href="{{ thumbnailUrl }}">thumbnail image</a> and set the <a href="{{ maturityUrl }}">maturity rating</a>.
+	"""
+
+	todo_info_ready_html = """
+	<strong>Your game page is ready to publish to the site for all to see!</strong>
+	"""
+
+	# This shows up when the game is ready to publish, but they have some builds that are still
+	# being processed.
+	todo_info_builds_processing_html = """
+	<strong>You still have builds that are being processed.</strong>
+	They won't show on your game page until they're finished processing.
+	"""
+
+	todo_info_publish_button = "Publish Game"
+	todo_info_publish_button_tooltip = "Ohhhh, yeah!"
+
+	stats_heading = "Quick Stats"
+	stats_views = "Views"
+	stats_plays = "Plays/Downloads"
+	stats_rating = "Avg. Rating"
+	stats_ratings = "Ratings"
+	stats_comments = "Comments"
+	stats_followers = "Followers"
+	stats_na = "N/A"
+
+	activity_heading = "Latest Activity"
+	activity_none_html = """
+	No activity yet. As people interact with your game, the latest activity will show up here.
+	"""
+
+	# This shows in a modal when you click publish on the game overview page, but it also shows as a little
+	# bit of informational text that slides open on the edit details form when you click the status to "published".
+	publish_confirmation = "Publishing your game makes it visible on the site, so make sure your game page is lookin' good!"
+
+	# This shows when you publish on the game overview page and also when you set the status to "published"
+	# in the game edit form.
+	published_growl_title = "Game Published"
+	published_growl = "You've published your game to the site! Huzzah! Remember to spread the word..."
+
+[dash.games.form]
+	title_label = "Title"
+	website_label = "Website"
+
+	category_label = "Category"
+	category_placeholder = "Select a category..."
+
+	engine_label = "Engine/Language/Creation Tool"
+	engine_placeholder = "Select an engine/language/tool..."
+	engine_other_label = "Other Engine/Language/Tool"
+	engine_other_help = "Which engine, language, or tool?"
+	engine_other_why = "Why?"
+	engine_other_why_tooltip = "This helps us create better filtering options around which tools people use."
+
+	dev_status_label = "Development Status"
+	dev_status_not_completable_info_html = """
+	You can't set your game as Finished or Canceled until you add builds.
+	"""
+	dev_status_finished = "Finished/Stable"
+	dev_status_finished_help = "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+	dev_status_wip = "Work in Progress/Unstable"
+	dev_status_wip_help = "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+	dev_status_canceled = "Canceled"
+	dev_status_canceled_help = "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+
+	status_label = "Visibility"
+	status_not_publishable_info_html = """
+	This game can't be published until the required set up steps are completed. Find them on the game overview.
+	"""
+	status_hidden = "Hidden"
+	status_hidden_help = "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
+	status_published = "Published"
+	status_published_help = "Your game page will show up in public listings and search results. It can be viewed by anyone."
+
+	description_label = "Description"
+	description_help_html = """
+	You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits.
+	"""
+
+	add_button = "Add Game"
+	edit_button = "Save Game"
+
+[dash.games.settings]
+	page_title = "Settings for {{ game }}"
+	heading = "Settings"
+
+	ga_tracking_id_label = "Google Analytics Tracking ID"
+	ga_tracking_id_placeholder = "Example: UA-1234567-1"
+	ga_tracking_id_error_label = "tracking ID"
+	ga_tracking_id_help_html = """
+	<p>
+		Use <a href="http://google.com/analytics" target="_blank">Google Analytics</a> to track a multitude of stats and get tons of information about your game page. Just enter your Google Analytics tracking ID here and we'll start sending data over there right away.
+	</p>
+
+	<p><strong>Here's how to set get started:</strong></p>
+
+	<ul>
+		<li>Create (or log into an existing) <a href="http://www.google.com/analytics" target="_blank">Google Analytics</a> account.</li>
+		<li>Set up a new Property (go to the <em>Admin</em> tab and select <em>Create new property</em> from the dropdown menu under <em>Property</em>).</li>
+		<li>Select <em>Website</em> and enter <strong>gamejolt.com</strong> as the URL.</li>
+		<li>Select an Industry Category and a Reporting Time Zone.</li>
+		<li>Click <em>Get Tracking ID</em>.</li>
+		<li>Come back here and enter your Tracking ID.</li>
+		<li>You're all set!</li>
+	</ul>
+	"""
+
+	ads_label = "Show ads?"
+	ads_help_html = """
+	<p><strong>Turning this off will remove all ads for this game.</strong></p>
+	<p>Only do this if you don't want to monetize your game, or if your game is subject to a license that doesn't allow monetization.</p>
+	"""
+
+	comments_label = "Allow comments?"
+	comments_help_html = """
+	<p><strong>Turning this off will disable comments for this game and hide any comments already on the page.</strong></p>
+	<p>The community will no longer be able to give you feedback via comments, but you may prefer this if your game contains sensitive or controversial material.</p>
+	<p>This will never remove comments from your game page&mdash;merely hide them. If you allow comments again in the future, all previously hidden comments will be restored.</p>
+	"""
+
+	ratings_label = "Allow ratings?"
+	ratings_help_html = """
+	<p><strong>Turning this off will disable ratings for this game and hide any ratings already on the page.</strong></p>
+	<p> Your game's voltage will be calculated as if it had received no ratings. If you allow ratings in the future, the old ratings will be reapplied and your voltage will be recalculated.</p>
+	"""
+
+	save_button = "Save Settings"
+
+	save_growl = "Your game settings have been saved."
+	save_growl_title = "Settings Saved"
+
+[dash.games.thumbnail]
+	page_title = "Edit Thumbnail for {{ game }}"
+	heading = "Edit Thumbnail"
+
+	page_help_html = """
+	<p>A thumbnail is the little rectangular image that represents your game throughout the site. People can click it in game listings and search results to get to your game page.</p>
+	<p>Please don't choose an image that contains nudity, swear words, or adult-oriented imagery.</p>
+	"""
+	page_help_link = "What are the thumbnail requirements and guidelines?"
+
+	upload_label = "Upload New Thumbnail"
+	upload_error_label = "thumbnail image"
+
+	crop_label = "Crop Current Thumbnail"
+	crop_error_label = "crop"
+	nocrop_label = "Current Thumbnail"  # For when the thumb is too small to crop, we just show it.
+
+	upload_button = "Upload Thumbnail"
+	save_button = "Save Thumbnail"
+
+	saved_growl_title = "Thumbnail Saved"
+	saved_growl = "Your game's thumbnail has been updated."
+
+[dash.games.header]
+	page_title = "Edit Header for {{ game }}"
+	heading = "Edit Header"
+
+	clear_button = "Clear Header"
+
+	page_help_html = """
+	<p>Headers are the big, banner-like images that adorn the tops of game pages. For your header to look its best on mobile devices in portrait mode, make sure anything important is located near the center of the image.</p>
+	"""
+	page_help_link = "What are the header requirements and guidelines?"
+
+	upload_label = "Upload New Header"
+	upload_error_label = "header image"
+
+	save_button = "Upload Header"
+
+	saved_growl_title = "Header Saved"
+	saved_growl = "Your game page's header has been updated."
+
+[dash.games.maturity]
+	page_title = "Edit Maturity Rating for {{ game }}"
+	heading = "Edit Rating Details"
+
+	page_help_html = """
+	<p>Every game on Game Jolt, even works-in-progress, needs a maturity rating to describe its content. Accurate ratings and details about content help gamers make informed decisions. Remember, you can always come back later and make changes.</p>
+	"""
+	page_help_link = "What is a maturity rating?"
+
+	# Shown when the game is a WIP.
+	wip_help = "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
+
+	# For selecting none for any of the rating options.
+	none_option = "None"
+
+	age_label = "Age Rating"
+	age_everyone_option = "All Ages"
+	age_teen_option = "Teen Content"
+	age_mature_option = "Mature Content"
+
+	# Severity options.
+	mild_option = "Mild"
+	moderate_option = "Moderate"
+	intense_option = "Intense"
+	strong_option = "Strong"
+	reference_option = "Reference"
+	use_option = "Use"
+	simulated_option = "Simulated"
+	real_gambling_option = "Real Gambling"
+	suggestive_option = "Suggestive"
+	graphic_option = "Graphic"
+	shenanigans_option = "Comic Shenanigans"
+	brief_nudity_option = "Brief Nudity"
+	full_nudity_option = "Nudity"
+
+	violence_legend = "Violence"
+
+	cartoon_violence_label = "Cartoon Violence"
+	cartoon_violence_1_description = "Depictions of cartoon-like characters in unsafe situations."
+	cartoon_violence_2_description = "Depictions of cartoon-like characters in aggressive conflict."
+	cartoon_violence_3_description = "Graphic depictions of violence involving cartoon-like characters."
+
+	fantasy_violence_label = "Fantasy Violence"
+	fantasy_violence_1_description = "Depictions of characters in unsafe situations easily distinguishable from real life."
+	fantasy_violence_2_description = "Depictions of characters in aggressive conflict easily distinguishable from real life."
+	fantasy_violence_3_description = "Graphic depictions of violence involving situations easily distinguishable from real life."
+
+	realistic_violence_label = "Realistic Violence"
+	realistic_violence_1_description = "Mild depictions of realistic characters in unsafe situations."
+	realistic_violence_2_description = "Depictions of realistic characters in aggressive conflict."
+	realistic_violence_3_description = "Graphic depictions of violence involving realistic characters."
+
+	bloodshed_label = "Bloodshed"
+	bloodshed_1_description = "Unrealistic depictions of bloodshed."
+	bloodshed_2_description = "Realistic depictions of bloodshed."
+	bloodshed_3_description = "Depictions of bloodshed and the mutilation of body parts."
+
+	sexual_violence_label = "Sexual Violence"
+	sexual_violence_description = "Depictions of or graphic references to rape or other violent sexual behavior."
+
+	substances_legend = "Substances"
+
+	alcohol_label = "Alcohol"
+	alcohol_1_description = "References to or images of alcoholic beverages."
+	alcohol_2_description = "Use of alcoholic beverages."
+
+	drugs_label = "Drugs"
+	drugs_1_description = "References to or images of illicit drugs."
+	drugs_2_description = "Use of illicit drugs."
+
+	tobacco_label = "Tobacco"
+	tobacco_1_description = "References to or images of tobacco products."
+	tobacco_2_description = "Use of tobacco products."
+
+	sex_nudity_legend = "Sex/Nudity"
+
+	nudity_label = "Nudity"
+	nudity_1_description = "Brief depictions of nudity or artistic nudity."
+	nudity_2_description = "Prolonged depictions of nudity."
+
+	sexual_themes_label = "Sexual Themes"
+	sexual_themes_1_description = "Provocative references or depictions of provocative behavior."
+	sexual_themes_2_description = "Sexual references or depictions of sexual behavior."
+	sexual_themes_3_description = "Graphic depictions of sexual behavior."
+
+	misc_legend = "Miscellaneous"
+
+	language_label = "Language"
+	language_1_description = "Mild or infrequent use of profanity."
+	language_2_description = "Moderate use of profanity."
+	language_3_description = "Strong or frequent use of profanity."
+
+	humor_label = "Humor"
+	humor_1_description = "Depictions of or dialog including slapstick humor."
+	humor_2_description = "Depictions of or dialog including vulgar humor; bathroom humor."
+	humor_3_description = "Depictions of or dialog including mature humor; sexual humor."
+
+	gambling_label = "Gambling"
+	gambling_1_description = """Players can gamble using "play" money."""
+	gambling_2_description = "Players can gamble using real money."
+
+	save_button = "Save Maturity Details"
+
+	saved_growl_title = "Maturity Rating Saved"
+	saved_growl = "Your game's maturity information has been updated."
+
+[dash.games.media]
+	page_title = "Manage Media for {{ game }}"
+	heading = "Game Media"
+
+	page_help_html = """
+	<p>Want people to play your game? Add some images and video to your page. We recommend adding as many images and videos as you can--even if your game is all text!</p>
+	"""
+
+	add_button_html = """
+	Add an <br>
+	<strong>Image</strong> or <strong>Video</strong>
+	"""
+
+	add_button_mobile = "Add an Image or Video"
+
+	image_label = "Image"
+	video_label = "Video"
+
+	edit_image_button = "Edit Image"
+	edit_video_button = "Edit Video"
+
+	remove_image_button = "Remove Image"
+	remove_video_button = "Remove Video"
+	remove_confirmation = "Are you sure you want to remove this {{ type }}?"
+
+[dash.games.media.add]
+	heading = "Add Media"
+
+[dash.games.media.add.image]
+	page_title = "Add Image for {{ game }}"
+
+	page_help_html = """
+		<p>Add screenshots, concept drawings, photos of little clay models, fake box covers, or any other original art created for the game. Yes, even if it's a text-based game!</p>
+	"""
+	page_help_link = "Learn more about screenshots/images..."
+
+[dash.games.media.add.video]
+	page_title = "Add Video for {{ game }}"
+
+	page_help_html = """
+	<p>Add videos you've created, such as trailers, gameplay footage, walkthroughs, etc.</p>
+	<p>Please don't add Let's Plays or reviews. Let the content owners do that themselves in the comments.</p>
+	"""
+	page_help_link = "Learn more about videos..."
+
+[dash.games.media.image]
+	page_title = "Image Details - {{ game }}"
+	heading = "Image Details"
+
+	edit_heading = "Edit Image"
+
+	embed_help = "You can embed this image using the code below."
+	direct_link_help = "You can directly link to this image on your game page with the URL below."
+
+	remove_button = "Remove Image"
+	remove_confirmation = "Are you sure you want to remove this image?"
+
+	removed_growl_title = "Image Removed"
+	removed_growl = "The image has been removed."
+
+[dash.games.media.video]
+	page_title = "Video Details - {{ game }}"
+	heading = "Video Details"
+
+	edit_heading = "Edit Video"
+
+	direct_link_help = "You can directly link to this video on your game page with the URL below."
+
+	remove_button = "Remove Video"
+	remove_confirmation = "Are you sure you want to remove this video?"
+
+	removed_growl_title = "Video Removed"
+	removed_growl = "The video has been removed."
+
+[dash.games.media.image.form]
+	image_label = "Image File"
+	image_error_label = "image"
+
+	caption_label = "Caption"
+	caption_help = "This caption will appear when your image is viewed in full screen."
+
+	submit_button = "Save Image"
+
+[dash.games.media.video.form]
+	url_label = "Video URL"
+	url_error_label = "video URL"
+
+	url_help_html = """
+	We currently only support videos from Vimeo or YouTube. <br>
+	The URL should look something like: <br>
+	<strong>YouTube:</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>
+	<strong>Vimeo:</strong> http://www.vimeo.com/2619976
+	"""
+
+	title_label = "Title"
+	description_label = "Description"
+
+	submit_button = "Save Video"
+
+[dash.games.packages]
+	page_title = "Manage Packages for {{ game }}"
+	heading = "Game Packages"
+
+	# Shows up on this page as well as the "add package" page.
+	page_help_html = """
+	<p>Packages are how you organize and distribute your game's builds and other files.</p>
+	<p>Your main package should contain the builds you want people to play. You can create new packages to contain additional files, such as level editors, art packs, expansions, and other DLC.</p>
+	"""
+	page_help_link = "Learn more about packages..."
+
+	no_packages_html = "<p>You haven't added any packages yet.</p>"
+	add_package_button = "Add Package"
+
+	# Shows up on the left if you have at least one package.
+	nav_heading = "Packages"
+
+[dash.games.packages.add]
+	page_title = "Add Package for {{ game }}"
+	heading = "Add Package"
+
+[dash.games.packages.edit]
+	page_title = "Edit Package {{ package }} - {{ game }}"
+	heading = "Edit Package"
+
+	saved_growl_title = "Package Saved"
+	saved_growl = "Your package has been updated."
+
+[dash.games.packages.form]
+	title_label = "Package Name"
+	title_help_html = "This is the name that shows up on your game page above the Download/Play button. For your main package, use the title of your game."
+	title_change_button = "Change Name"
+
+	description_label = "Package Description"
+	description_help_html = "This should be filled in <em>only if it's needed</em>, if the name alone isn't enough to distinguish this package from other packages."
+	description_change_button = "Enter Description"
+
+	add_package_button = "Add Package"
+	save_package_button = "Save Package"
+
+[dash.games.packages.manage]
+	heading = "Manage Package"
+	remove_package_button = "Remove Package"
+
+	releases_tab = "Releases"
+	edit_package_tab = "Edit Package"
+
+	remove_confirmation = "Are you sure you want to remove this package? All of the releases and builds it contains will be removed as well."
+	removed_growl_title = "Package Removed"
+	removed_growl = "The game package has been removed."
+
+[dash.games.packages.manage.releases]
+	page_title = "Releases in {{ package }} - {{ game }}"
+	heading = "Releases"
+
+	page_help_html = """
+	<p>Releases represent new versions of your package. If you update a package, you should add a release. You can group all of the new builds for different platforms into a single new release.</p>
+	"""
+	page_help_link = "Learn more about releases..."
+
+	no_releases_html = "<p>You haven't added any releases to this package yet.</p>"
+	add_release_button = "Add New Release"
+
+	hidden_tag = "Hidden"
+	hidden_tooltip = "This release is hidden and won't show up on your game page until published."
+
+	published_tag = "Published"
+	published_tooltip = "This release is published and can be accessed from your game page."
+
+	release_title = "Release {{ version }}"
+	builds_count_none = "No builds yet."
+	builds_count_one = "1 build"
+	builds_count_other = "{{ count | number }} builds"
+
+[dash.games.releases.manage]
+	breadcrumb_package = "Package"
+	breadcrumb_release = "Release"
+
+	heading = "Manage Release"
+
+	unpublish_release_button = "Hide Release"
+	remove_release_button = "Remove Release"
+
+	switch_release_heading = "Switch Release"
+	add_release_button = "Add New Release"
+
+	publish_release_button = "Publish Release"
+	publish_release_tooltip = "Publish this release for it to show up on your game page!"
+
+	builds_tab = "Builds"
+	stats_tab = "Stats"
+	edit_release_tab = "Edit Release"
+
+	publish_release_confirmation = "Are you sure you want to publish this release? All of its builds will become active on your game page."
+	publish_release_growl_title = "Release Published"
+	publish_release_growl = "The release is now active on your game page."
+
+	unpublish_release_confirmation = "Are you sure you want to hide this release? It will no longer be accessible from your game page."
+	unpublish_release_growl_title = "Release Hidden"
+	unpublish_release_growl = "The release has been unpublished and is now hidden."
+
+	remove_release_confirmation = "Are you sure you want to remove this release? All of its builds will be removed as well."
+	remove_release_growl_title = "Release Removed"
+	remove_release_growl = "The release and its builds have been removed from the package."
+
+[dash.games.releases.form]
+	version_number_label = "Version Number"
+	version_number_help_html = """
+	<p>
+		Version numbers are how you label releases.<br>
+		Numbering should follow the format <code>MAJOR.MINOR.PATCH</code>.
+	</p>
+	"""
+	version_number_help_link = "Learn more about choosing a good version number..."
+
+	add_release_button = "Add Release"
+	save_release_button = "Save Release"
+
+[dash.games.releases.edit]
+	page_title = "Edit Release {{ release }} - {{ package }} - {{ game }}"
+	heading = "Edit Release"
+
+	saved_growl_title = "Release Saved"
+	saved_growl = "The release has been updated."
+
+[dash.games.releases.stats]
+	page_title = "Stats for {{ release }} - {{ package }} - {{ game }}"
+	heading = "Stats"
+
+[dash.games.releases.builds]
+	page_title = "Builds in {{ release }} - {{ package }} - {{ game }}"
+	heading = "Builds"
+
+	page_help_link = "Learn more about builds and files..."
+
+	no_builds_html = "<p>You haven't added any builds to this release yet.</p>"
+
+	downloads_label = "Downloads"
+
+	# A downloadable tagged as "Other".
+	other_downloadable_tag = "Other Downloadable"
+
+	# Shown when the build is not yet fully set up because it doesn't have launch options.
+	incomplete_tag = "Action Required"
+	incomplete_tag_tooltip = "We don't know how to auto-run your build! Please set its launch options."
+
+	standalone_tag = "Standalone Executable"
+
+	windows_tag = "Win"
+	windows_64_tag = "Win x64"
+	mac_tag = "Mac"
+	mac_64_tag = "Mac x64"
+	linux_tag = "Linux"
+	linux_64_tag = "Linux x64"
+	other_tag = "Other"
+
+	# For Java Applets
+	params_heading = "Params"
+	extra_files_heading = "Supplemental Files"
+
+	edit_tab = "Edit"
+	launch_options_tab = "Launch Options"
+	params_tab = "Params"
+	extra_files_tab = "Supplemental Files"
+
+	add_build_button = "Add New Build"
+	remove_build_button = "Remove Build"
+
+	remove_build_confirmation = "Are you sure you want to remove this build?"
+	remove_build_growl_title = "Build Removed"
+	remove_build_growl = "The build has been removed from the release."
+
+	remove_extra_file_confirmation = "Are you sure you want to remove this supplemental file?"
+
+	processing_message_html = """
+	<strong>Processing build.</strong> It will become available in this release as soon as we're done.
+	"""
+
+[dash.games.builds.form]
+	downloadable_tab = "Downloadable"
+	browser_tab = "Browser"
+
+	windows_tag = "Windows"
+	windows_64_tag = "Windows 64-bit"
+	mac_tag = "Mac"
+	mac_64_tag = "Mac 64-bit"
+	linux_tag = "Linux"
+	linux_64_tag = "Linux 64-bit"
+	other_tag = "Other"
+
+	browser_label = "Browser Type"
+	html_help = "A .zip archive containing all of the files the game needs to run, including an index.html in the root. Should be playable in any modern browser without plugins."
+	unity_help = "A .unity3d file. Playable in browsers that support the Unity Web Player. If you exported your game to WebGL, choose HTML instead of Unity."
+	flash_help = "A .swf file. Playable in browsers that support Flash."
+	silverlight_help = "A .xap file. Playable in browsers that support Silverlight."
+	applet_help = "A .jar file. Playable in browsers that still support Java. Consider adding your .jar as a downloadable build, too."
+
+	file_label = "Upload File"
+	file_error_label = "file"
+	file_help_html = """
+	Your account is currently limited to {{ maxFilesize | number }} MB per file. If you need more, get in touch: <a href="mailto:contact@gamejolt.com">contact@gamejolt.com</a>
+	"""
+
+	# When html type of file is chosen.
+	file_html_help_html = """
+	<strong>For an HTML game, upload a .zip archive containing all of your game's files and assets. There must be an index.html in the root folder.</strong>
+	"""
+
+	platforms_label = "Platforms"
+	platforms_help_html = """
+	Select "Other" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF.
+	"""
+	no_platforms_error = """
+	You have to select at least one platform on which your build runs (or "Other").
+	"""
+
+	dimensions_help_html = """
+	These are the dimensions at which your browser build will be displayed.
+	"""
+	width_label = "Width"
+	height_label = "Height"
+
+	# For java applet.
+	class_name_label = "Class Name"
+
+	# For unity.
+	disable_right_click_label = "Disable right click?"
+	disable_right_click_help = "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+
+	# For browser games to message not to put ads in their games.
+	browser_ads_alert = "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+
+	upload_build_button = "Upload Build"
+	save_build_button = "Save Build"
+
+[dash.games.releases.builds.launch_options]
+	incomplete_alert_html = """
+	<p>We don't know how to auto-run this build! We need you to tell us how to launch it before it can show up on your game page.</p>
+	"""
+
+	# When the build was detected to be an archive (zip, rar, etc).
+	archive_info_html = """
+	<p><strong>We've detected that this build is an archive file.</strong></p>
+	<p>Tell us the path to the executable file for each platform you've chosen so we can launch it automatically.</p>
+ 	"""
+
+	# When it's a standalone executable such as an exe.
+	standalone_info_html = """
+	<p><strong>We've detected that this build is a standalone executable file.</strong></p>
+	<p>It can be launched automatically.</p>
+	"""
+
+	page_help_link = "Learn more about launch options..."
+
+[dash.games.releases.builds.launch_options.form]
+	file_selector_tooltip = "Browse file list."
+	file_error_label = "path to the executable file"
+
+	submit_button = "Set Launch Options"
+
+[dash.games.releases.builds.launch_options.file_selector]
+	heading = "Select Executable File"
+	filter_placeholder = "Filter files..."
+
+	no_files_html = """
+	<p>Oh no! We didn't find any executable files for this platform in the archive.</p>
+	"""
+
+	cancel_button = "Cancel"
+
+# Only shows for java.
+[dash.games.releases.builds.params]
+	info_html = """
+	<p>If your applet requires parameters to be set on its object embed tag, you can do that here.</p>
+	"""
+
+[dash.games.releases.builds.params.form]
+	parameter_label = "Parameter"
+	value_label = "Value"
+	add_parameter_button = "Add Parameter"
+
+# Only shows for java.
+[dash.games.releases.builds.extra_files]
+	info_html = """
+	<p>You can upload any additional files that your applet needs here.</p>
+	"""
+
+	include_archive_label = "Include in archive?"
+
+[dash.games.releases.builds.extra_files.form]
+	file_label = "Upload File"
+	file_error_label = "file"
+
+	include_archive_label = "Include in archive string?"
+	include_archive_help = "If you're not sure what this means, you should probably leave it on."
+
+	submit_button = "Upload File"
+
+[dash.games.news]
+	page_title = "Manage News for {{ game }}"
+	heading = "Game News"
+
+	page_help = "Post news to let people know when something interesting happens with your game. Your game's followers will be notified."
+
+	add_button = "Add News Update"
+
+	no_news_html = """
+	<p>You haven't posted any news for this game yet. Updates keep followers informed and attract new ones!</p>
+	"""
+
+	posted_on = "Posted on: {{ date | date:'medium' }}"
+	views = "Views:"
+	comments = "Comments:"
+
+[dash.games.news.add]
+	page_title = "Add News"
+	heading = "Add News"
+
+	page_help = "News updates keep followers in the loop! Don't post so many updates that the notifications turn into spam. Post an update when something genuinely newsworthy happens."
+	page_help_link = "Learn more about news updates..."
+
+	added_growl_title = "Update Posted"
+	added_growl = "You posted a news update. Good job! Your game's followers have been notified."
+
+[dash.games.news.article]
+	heading = "Manage Update"
+
+	remove_option = "Remove News Update"
+
+	stats_tab = "Stats"
+	edit_tab = "Edit"
+	view_tab = "View"
+
+	remove_confirmation = "Are you sure you want to remove this news update?"
+	remove_growl_title = "News Update Removed"
+	remove_growl = "The news update has been removed from the site."
+
+[dash.games.news.article.stats]
+	page_title = "Stats for {{ article }}"
+
+[dash.games.news.article.edit]
+	page_title = "Edit {{ article }}"
+
+	save_growl_title = "Update Saved"
+	save_growl = "Your news update has, itself, been updated."
+
+# Is the content help necessary with the add news help above?
+[dash.games.news.form]
+	title_label = "Title"
+
+	content_label = "Content"
+	content_help = "Markdown allows you to easily make your news updates more dynamic and visually appealing by adding elements like headings, styled text, lists, links, images, tables, and more."
+
+	add_follower_message = "All of your game's followers will be notified, so make sure to review your news post."
+
+	add_button = "Add News Update"
+	edit_button = "Save News Update"
+
+[dash.games.music]
+	page_title = "Manage Music for {{ game }}"
+	heading = "Game Music"
+
+	page_help_html = """
+	<p>Let people enjoy your game's soundtrack whenever they want! Upload MP3s of music from your game and the songs will appear on your game page in a nice little music player. Don't upload copyrighted songs without permission!</p>
+	"""
+
+	no_music_html = """
+	<p>You haven't added any music. Upload some songs from your game! The music player's worth it, trust us!</p>
+	"""
+
+	direct_link_help = "Link to a downloadable ZIP of your game's soundtrack."
+
+	remove_button = "Remove Song"
+	add_button = "Add Song"
+
+	remove_confirmation = "Are you sure you want to remove this song?"
+
+[dash.games.music.form]
+	title_label = "Song Title"
+
+	add_file_label = "Song File"
+	change_file_label = "Change Song File"
+	file_error_label = "song"
+	file_help_block = "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+
+	submit_button = "Save Song"
+
+[dash.games.api.overview]
+	page_title = "Game API for {{ game }}"
+	heading = "Game API Overview"
+
+	page_help_html = """
+	<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>
+	<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!
+	"""
+
+	page_help_link = "Learn more about the Game API..."
+	page_forum_link = "Find help in the API forums..."
+
+	# When the stat isn't applicable yet, we show this instead of the number.
+	na = "N/A"
+
+	# Make sure the labels doesn't get longer than they are.
+	# There's not much space to fit.
+	sessions_heading = "Sessions"
+	sessions_help = "Sessions show you who's playing your game and for how long."
+	sessions_active_label = "Active Sessions"
+	sessions_time_label = "Total Time"
+	sessions_avg_label = "Avg. Session Time"
+	sessions_users_label = "Users w/ Sessions"
+
+	trophies_heading = "Trophies"
+	trophies_label = "Trophies"
+	trophies_exp_label = "Trophy EXP"
+	trophies_exp_tooltip = "The total awardable EXP for trophies in your game."
+	trophies_achieved_label = "Trophies Achieved"
+	trophies_users_label = "Users w/ Trophies"
+
+	scores_heading = "Scores"
+	scores_label = "Total Scores"
+	scores_tooltip = "The total number of scores across all of the game's scoreboards, including guest scores."
+	scores_users_label = "Users w/ Scores"
+	scores_users_tooltip = "The number of users with scores on any of the game's scoreboards. Does not include guests."
+
+	data_heading = "Data Store"
+	data_items_label = "Global Items"
+	data_items_tooltip = "The total number of stored global data items."
+
+[dash.games.api.settings]
+	page_title = "Game API Settings for {{ game }}"
+	heading = "Game API Settings"
+
+	page_alert_html = """
+	<p><strong>Never give your private key to anyone!</strong> Your game's key is used to validate that API requests are coming from your game. If villains or knaves get ahold of it, they can send in fake requests pretending to be your game. Not good!</p>
+	"""
+
+	game_id_label = "Game ID"
+
+	key_label = "Private Key"
+	key_show_link = "(show key)"
+	key_generate_button = "Generate New Key"
+
+	generate_confirmation = "Are you sure you want to generate a new key? If you do, any builds of your game using the current key will stop working."
+
+	generate_growl_title = "New Key Generated"
+	generate_growl = "Generated a brand new private key for your game. You'll need to update your game's code with the new key."
+
+[dash.games.trophies]
+	page_title = "Manage Trophies for {{ game }}"
+	heading = "Game Trophies"
+
+	page_help_html = """
+	<p>The API lets you add multiple unique trophies, each forged from a material that indicates how difficult it is to achieve: bronze (easiest), silver, gold, or platinum (hardest).</p>
+	"""
+	page_help_link = "Learn more about trophies..."
+
+	# Shows when there are hidden trophies for their game.
+	# Just a warning to make sure they unhide them when they're ready.
+	has_hidden_html = """
+	<p><strong>You have hidden trophies!</strong> Be sure to unhide them when you're ready for players to achieve them.</p>
+	"""
+
+	# Difficulty is the "level": Bronze, Silver, etc.
+	section_heading = "{{ difficulty }} Trophies"
+	no_trophies = "No {{ difficulty | lowercase }} trophies added yet."
+
+	trophy_id_label = "Trophy ID"
+
+	hidden_tag = "Hidden"
+	hidden_tooltip = "Trophies that are hidden will only appear on the site for you, the developer, for testing purposes."
+
+	secret_tag = "Secret"
+	secret_tooltip = "Making a trophy secret hides everything but its name until it is achieved."
+
+	remove_button = "Remove Trophy"
+	remove_confirmation = "Are you sure you want to remove this trophy?"
+
+	add_button = "Add {{ difficulty }} Trophy"
+
+[dash.games.trophies.form]
+	difficulty_label = "Difficulty"
+
+	upload_label = "Trophy Image"
+	change_image_label = "Change Trophy Image"
+	image_error_label = "trophy image"
+	image_help_link = "Learn more about trophy images..."
+
+	current_image_label = "Current Trophy Image"
+	clear_image_button = "Clear Image"
+
+	clear_image_confirmation = "Are you sure you want to clear this trophy image?"
+
+	title_label = "Title"
+
+	description_label = "Description"
+
+	secret_label = "Secret"
+	secret_help = "Secret trophies hide everything but their titles from players until they are achieved."
+
+	hidden_label = "Hidden"
+	hidden_help = "Hidden trophies are invisible to everyone but the game's developer, for testing and other nefarious reasons."
+
+	save_button = "Save Trophy"
+
+# Some generic things.
+[dash.games.scores]
+	guest_tag = "Guest"
+
+	# This is for the more options [...] button for users in scores listing and stuff.
+	view_user_scores = "View All Scores For User"
+	view_user_scores_table = "on {{ table }}"
+	goto_user_profile = "Go to Profile"
+
+[dash.games.scoreboards]
+	page_title = "Manage Scoreboards for {{ game }}"
+	heading = "Scoreboards"
+
+	page_help_html = """
+	<p>The API allows you to add multiple customized scoreboards, with control over sorting options and guest scoring, and the ability to attach extra hidden data to scores.</p>
+	<p>The primary scoreboard is the one that will show by default on your game's page. Set a new primary by dragging a scoreboard into the first slot.</p>
+	"""
+	page_help_link = "Learn more about scoreboards..."
+
+	table_id_label = "Table ID"
+
+	primary_tag = "Primary Scoreboard"
+	primary_tooltip = "The primary scoreboard is displayed on your game page by default. If your game's API library doesn't support multiple scoreboards, all scores will be submitted to the primary scoreboard."
+
+	guest_tag = "Guest Scoring"
+	guest_tooltip = "Allows guests to save their scores."
+
+	unique_tag = "Unique Scores"
+	unique_tooltip = "Only displays a user's best score."
+
+	asc_tag = "Ascending"
+	asc_tooltip = "Scores with lower values are ranked better/higher."
+
+	desc_tag = "Descending"
+	desc_tooltip = "Scores with higher values are ranked better/higher."
+
+	scores_button = "View Scores"
+
+	add_button = "Add Scoreboard"
+
+	remove_button = "Remove Scoreboard"
+	remove_confirmation = "Are you sure you want to remove this scoreboard?"
+
+[dash.games.scoreboard.form]
+	name_label = "Name"
+	description_label = "Description"
+
+	guest_label = "Guest Scoring"
+	guest_help = "Allow guests to submit scores?"
+
+	unique_label = "Unique Scores"
+	unique_help = "Only show a user's best score?"
+
+	direction_label = "Sort Direction"
+	desc_label = "Descending"
+	desc_help = "Scores with higher values are ranked better."
+	asc_label = "Ascending"
+	asc_help = "Scores with lower values are ranked better."
+
+	save_button = "Save Scoreboard"
+
+# They view the scores for a particular scoreboard.
+[dash.games.scores.list]
+	page_title = "View Scores for {{ table }} - {{ game }}"
+	heading = "View Scores"
+
+	page_help_html = """
+	<p>These are all of the scores that have been submitted to this scoreboard by users and guests (if allowed).</p>
+	"""
+
+	no_scores_html = """
+	<p>This table lacks scores, alas.</p>
+	"""
+
+	rank_label = "Rank"
+	user_label = "User"
+	sort_label = "Sort Value"
+	date_label = "Date"
+
+	remove_button = "Remove Score"
+
+# Shows all scores for a user on a particular scoreboard.
+[dash.games.scores.user.list]
+	page_title = "View Scores for {{ user }} on {{ table }} - {{ game }}"
+	heading = "View Scores"
+	heading_for = "for"
+	heading_on = "on"
+
+	remove_all_button = "Remove All"
+	remove_confirmation = "Are you sure you want to remove all of the user's scores from this scoreboard?"
+
+	remove_growl_title = "Scores Removed"
+	remove_growl = "All of the user's scores have been removed from the scoreboard."
+
+	no_scores_html = """
+	<p>The user has no scores on this scoreboard.</p>
+	"""
+
+[dash.games.scores.view]
+	page_title = "Score Details - {{ game }}"
+	heading = "Score Details"
+
+	user_label = "User"
+	table_label = "Table"
+	string_label = "Score String"
+	sort_label = "Sort Value"
+	date_label = "Scored On"
+	data_label = "Extra Data"
+	data_none_help = "No extra data for this score. You can use the extra data field to store information to help you weed out cheaters and validate scores. It's never shown to users."
+
+	remove_button = "Remove Score"
+	remove_confirmation = "Are you sure you want to remove this score?"
+
+[dash.games.data_store.items]
+	page_title = "Manage Data Storage for {{ game }}"
+	heading = "Data Storage Items"
+
+	page_help_html = """
+	<p>You can use the API to store data... <em>in the cloud!</em> All stored data items will show up here.</p>
+	<p>Currently, you can only view (and remove) globally stored data items. Stored user data items are not viewable at this time.</p>
+	"""
+
+	page_help_link = "Learn more about data storage..."
+
+	key_label = "Key"
+	preview_label = "Data Preview"
+	date_label = "Stored On"
+
+	remove_button = "Remove Item"
+	remove_confirmation = "Are you sure you want to remove this item?"
+
+[dash.games.data_store.items.view]
+	page_title = "Item Details - {{ game }}"
+	heading = "Item Details"
+
+	key_label = "Key"
+	date_label = "Stored On"
+	data_label = "Item Data"
+
+[chat]
+	no_friends_message_html = """
+	<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>
+	"""
