@@ -1,0 +1,176 @@
+#Translation author: luckcolors.
+[auth]
+	# This is for the links a the bottom of login/join auth pages.
+	or = "o"
+	join_link = "Registrati!"
+	login_link = "Accedi"
+	forgot_link = "Hai dimenticato il Nome Utente o la Password?"
+
+# /login
+[auth.login]
+	page_title = "Accedi a Game Jolt"
+
+	twitter_button = "Accedi con Twitter"
+	facebook_button = "Accedi con Facebook"
+
+	username_label = "Nome Utente"
+	password_label = "Password"
+	submit_button = "Accedi"
+
+	# Shows up if you enter an invalid user/password combination.
+	invalid_login_error_html = "Nome utente o password errati."
+
+	# Login takes a while, so we show this for the loading text.
+	# Can be quirky and fun! =]
+	loading_message_count = "4"
+	loading_message_1 = "Connessione al mainframe..."
+	loading_message_2 = "Calcolazione del valore esatto di π..."
+	loading_message_3 = "Distribuzione dei moduli di divertimento..."
+	loading_message_4 = "Proiezione della matrice hoopla..."
+
+# /join
+[auth.join]
+	page_title = "Unisciti a Game Jolt - La Più Grande Collezione di Giochi Indie dalle Persone"
+
+	twitter_button = "Registrati con Twitter"
+	facebook_button = "Registrati con Facebook"
+
+	# The lead text of the page.
+	# Quirky and fun as it's the text to get them excited about signing up.
+	# Let's try to keep it at 3 lines or less on the page.
+	join_message_html_count = "2"
+	join_message_html_1 = "Unisciti a noi. Mwuahaha.<br>Noi abbiamo i giochi.<br><strong><em>Mwuahahaha!</em></strong>"
+	join_message_html_2 = "Uniscit a noi per un viaggio su una nave spaziale verso il cuore di una supernova fatta di giochi."
+
+	email_label = "Indirizzo Email"
+	username_label = "Nome Utente"
+	password_label = "Password"
+
+	submit_button = "Registrati"
+
+# /join/almost
+# After a successful sign up they land here.
+# They still have to authorize their account.
+[auth.join.almost]
+	page_title = "Ci siamo quasi!"
+	heading = "@:auth.join.almost.page_title"
+	body_html = """
+	<p>Prima che tu possa accedere a Game Jolt, devi verificare l'indirizzo email del tuo account.</p>
+	<p>Ti abbiamo inviato un email con le instruzioni su come autorizzare il tuo account.</p>
+	"""
+	spam = "Se non vedi l'email entro 10 minuti, per favore controlla la tua cartella dello spam. Potrebbe essere stata inghiottita li!"
+	urgency = "Nota che hai una settimana per autorizzare il tuo account. Dopo di che, sarà eliminato e dovrai registrarti di nuovo."
+
+# You need to actually sign up to get a valid URL for this page.
+# We only show a Growl on successful authorization and funnel off to the main site.
+[auth.authorize]
+	success_growl_title = "Account Autorizzato"
+	success_growl = "Adesso ti stiamo reindirizzando alla tua dashboard di Game Jolt."
+
+# /authorize/169219/62b17036174c87ee503fe0ef2902c79d/2
+# The page that shows when their authorization fails.
+# They shouldn't get here unless they clicked the link again after authorizing. Or if they are trying to cheat something.
+[auth.authorize.invalid]
+	page_title = "Codice di Autorizzazione Errato"
+	heading = "Autorizzazione invalida"
+	body_html = """
+	<p>Il tuo codice di autorizzazione è errato.</p>
+	<p>Per favore cerca di essere sicuro di aver copiato e incollato correttamente tutto l'URL che ti abbiamo inviato via email.</p>
+	"""
+
+# /forgot
+[auth.forgot]
+	page_title = "Recupera le Credenziali di Accesso"
+	heading = "@:auth.forgot.page_title"
+
+	email_help = "Inserisci l'indirizzo email del tuo account e ti invieremo via email le tue credenziali di accesso."
+	email_label = "Indirizzo Email"
+	submit_button = "Recupera Credenziali"
+
+	# If the email address they enter isn't a registered user, this shows up as an error message.
+	invalid_email_error_html = """
+	<p>Hmm, quel indirizzo email non è presente nel nostro sistema. Magari non ti sei <a href="/join">ancora registrato</a>?</p>
+	"""
+
+# /forgot/sent
+# For after they fill out the "forgot" form.
+[auth.forgot.sent]
+	page_title = "Credenziali Inviate"
+	heading = "@:auth.forgot.sent.page_title"
+	body_html = "<p>Ti abbiamo inviato le credenziali all'indirizzo email specificato.</p>"
+	spam = "Se non vedi l'email entro 10 minuti, per favore controlla la tua cartella dello spam. Potrebbe essere stata inghiottita li!"
+
+# The URL for this gets sent in an email when they fill out the forgot login credentials page.
+[auth.reset_password]
+	page_title = "Reset Password"
+	heading = "@:auth.reset_password.page_title"
+
+	password_help = "Se vuoi eseguire il reset della tua password, inseriscine una nuova qui sotto."
+	password_label = "Nuova Password"
+	submit_button = "Reset Password"
+
+	# For when they successfully reset.
+	# Will send them back to the login page after showing this Growl.
+	success_growl_title = "Password Cambiata"
+	success_growl = "La tua password è stata resettata. Adesso puoi accedere con quella nuova."
+
+
+#####################
+# Linked Account Auth
+
+[auth.linked_account]
+
+	# When they get returned back to GJ from FB/Twitter, etc. we do some processing of the login/sign up.
+	# This is a generic loading message while we're doing our work.
+	loading_message = "Elaborazione. Per favore attendi..."
+
+[auth.linked_account.facebook]
+
+	# Generic failed message.
+	failed_growl = "Impossibile accedere con Facebook."
+	failed_growl_title = "Accesso Fallito"
+
+	# For the rare case when FB doesn't give us an email address. This would be very rare if it did ever happen.
+	no_email_growl = "Il tuo account di Facebook non ha restituito un indirizzo email. Assicurati di averlo verificato con Facebook."
+	no_email_growl_title = "Oh no!"
+
+	# When someone tries to sign up with an FB account with an email address that exists on an existing GJ account.
+	# In most cases this will probably be an accident where they signed up in the past
+	# and then try signing up again with FB later on, but their email address is
+	# registered on their old account.
+	duplicate_email_growl = "L'indirizzo email di questo account Facebook è già in uso. Magari hai già un account?"
+	duplicate_email_growl_title = "Oh no!"
+
+	# After a successful FB sign up.
+	created_growl = "Il tuo account è stato creato. Sarà una navigazione tranquilla da ora in poi!"
+	created_growl_title = "Account Creato"
+
+[auth.linked_account.twitter]
+
+	# Generic failed message.
+	failed_growl = "Impossibile accedere con Twitter."
+	failed_growl_title = "Accesso Fallito"
+
+	# When they submit the form and their account is set up with Twitter.
+	created_growl = "Il tuo account è stato creato. Sarà una navigazione tranquilla da ora in poi!"
+	created_growl_title = "Account Creato"
+
+# /login/finalize-twitter
+# They get directed here when they sign up with a new twitter account and we require their email address.
+[auth.linked_account.twitter.finalize]
+	page_title = "Email Richiesta"
+	heading = "@:auth.linked_account.twitter.finalize.page_title"
+
+	email_help = "Per concludere l'accesso con Twitter, per favore inserisci un indirizzo email valido."
+	email_label = "Indirizzo Email"
+	submit_button = "Completa la Registrazione"
+
+	# If they entered an email address that exists on another account.
+	# In most cases this will probably be an accident where they signed up in the past
+	# and then try signing up again with twitter later on, but their email address is
+	# registered on their old account.
+	duplicate_email_error_html = """
+	<p>L'indirizzo email che hai inserito è già in uso.</p>
+	<p>Se già disponi di un account di Game Jolt puoi <a href="/login">eseguire l'accesso qui</a>.</p>
+	<p>Se ti sei dimenticato le tue informazioni di accesso le puoi <a href="/forgot">recuperare da qui</a>.</p>
+	"""
