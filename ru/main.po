@@ -42,11 +42,11 @@ msgstr "Адрес Email"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
-msgstr "@:auth.forgot.page_title"
+msgstr "Отправка данных профиля"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Хмм, данный Email не заррегистрирован у нас. Может быть вы ещё не <a href=\"/join\">зарегистрировались</a>?</p>"
+msgstr "<p>Хмм, данный Email не зарегистрирован у нас. Может быть вы ещё не <a href=\"/join\">зарегистрировались</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
@@ -54,7 +54,7 @@ msgstr "<p>Мы отправили вам инструкцию по электр
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
-msgstr "@:auth.forgot.sent.page_title"
+msgstr "Отправка учётных данных"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
@@ -75,15 +75,15 @@ msgstr "<p>Перед тем как войти в аккаунт Game Jolt.</p>\
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
-msgstr "@:auth.join.almost.page_title"
+msgstr "Почти готово!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "If you don't see an email within 10 minutes, please check your spam folder. It might have gobbled it up."
+msgstr "Если вы не увидите сообщение через 10 минут, проверьте папку со спамом. Возможно оно находится там!"
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Note that you have a week to authorize your account. After that, it will be deleted and you'll have to sign up again."
+msgstr "Помните, что на подтверждение даётся неделя. После этого ваш аккаунт будет удалён и вам придётся регистрироваться заново."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
@@ -124,7 +124,7 @@ msgstr "<p>Данный адрес электронной почты уже за
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "To finish logging in with Twitter, please enter a valid email address."
+msgstr "Чтобы закончить регистрацию через Twitter, пожалуйста введите ваш Email."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
@@ -133,7 +133,7 @@ msgstr "Адрес Email"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
 msgid "auth.linked_account.twitter.finalize.heading"
-msgstr "@:auth.linked_account.twitter.finalize.page_title"
+msgstr "Введите Email"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
 msgid "auth.linked_account.twitter.finalize.submit_button"
@@ -178,15 +178,15 @@ msgstr "Имя пользователя"
 #: auth/views/auth/login/login.html:26
 #: auth/views/auth/login/login.html:33
 msgid "auth.or"
-msgstr "or"
+msgstr "или"
 
 #: auth/views/auth/reset-password/reset-password.html:1
 msgid "auth.reset_password.heading"
-msgstr "@:auth.reset_password.page_title"
+msgstr "Сбросить пароль"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
-msgstr "If you'd like to reset your password, enter a new one below."
+msgstr "Если вы хотите изменить пароль, то введите его здесь."
 
 #: auth/components/forms/reset-password/reset-password.html:11
 #: auth/components/forms/reset-password/reset-password.html:4
@@ -2494,7 +2494,7 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "News"
 
-#: app/views/discover/games/view/view.html:16
+#: app/views/discover/games/view/view.html:15
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
@@ -3685,7 +3685,7 @@ msgstr "New Comments"
 msgid "notifications.new_friends_label"
 msgstr "New Friends"
 
-#: app/components/rating/widget/widget.html:20
+#: app/components/rating/widget/widget.html:21
 msgid "rating.clear"
 msgstr "Clear Rating"
 
@@ -4709,4 +4709,88 @@ msgstr "Translations are a community project."
 #: app/components/shell/footer/footer.html:23
 msgid "footer.translations_help"
 msgstr "Help translate!"
+
+#: app/components/game/filtering/filtering-service.js:17
+msgid "games.filtering.browser"
+msgstr "Browser"
+
+#: app/components/game/filtering/filtering-service.js:23
+msgid "games.filtering.browser_applet"
+msgstr "Java Applet"
+
+#: app/components/game/filtering/filtering-service.js:21
+msgid "games.filtering.browser_flash"
+msgstr "Flash"
+
+#: app/components/game/filtering/filtering-service.js:20
+msgid "games.filtering.browser_html"
+msgstr "HTML"
+
+#: app/components/game/filtering/filtering-service.js:24
+msgid "games.filtering.browser_silverlight"
+msgstr "Silverlight"
+
+#: app/components/game/filtering/filtering-service.js:22
+msgid "games.filtering.browser_unity"
+msgstr "Unity"
+
+#: app/components/game/filtering/filtering-service.js:28
+msgid "games.filtering.maturity"
+msgstr "Maturity"
+
+#: app/components/game/filtering/filtering-service.js:33
+msgid "games.filtering.maturity_adult"
+msgstr "Adult Content"
+
+#: app/components/game/filtering/filtering-service.js:31
+msgid "games.filtering.maturity_everyone"
+msgstr "All Ages"
+
+#: app/components/game/filtering/filtering-service.js:32
+msgid "games.filtering.maturity_teen"
+msgstr "Teen Content"
+
+#: app/components/game/filtering/filtering-service.js:7
+msgid "games.filtering.os"
+msgstr "OS"
+
+#: app/components/game/filtering/filtering-service.js:12
+msgid "games.filtering.os_linux"
+msgstr "Linux"
+
+#: app/components/game/filtering/filtering-service.js:11
+msgid "games.filtering.os_mac"
+msgstr "Mac"
+
+#: app/components/game/filtering/filtering-service.js:13
+msgid "games.filtering.os_other"
+msgstr "Other"
+
+#: app/components/game/filtering/filtering-service.js:10
+msgid "games.filtering.os_windows"
+msgstr "Windows"
+
+#: app/components/game/filtering/filtering-service.js:37
+msgid "games.filtering.status"
+msgstr "Status"
+
+#: app/components/game/filtering/filtering-service.js:42
+msgid "games.filtering.status_canceled"
+msgstr "Canceled"
+
+#: app/components/game/filtering/filtering-service.js:40
+msgid "games.filtering.status_complete"
+msgstr "Complete"
+
+#: app/components/game/filtering/filtering-service.js:41
+msgid "games.filtering.status_wip"
+msgstr "Work in Progress"
+
+#: app/views/discover/games/view/view.html:18
+msgid "games.view.notifications_news"
+msgid_plural "games.view.notifications_news"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
