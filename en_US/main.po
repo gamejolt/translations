@@ -197,11 +197,11 @@ msgstr "New Password"
 msgid "auth.reset_password.submit_button"
 msgstr "Reset Password"
 
-#: app/components/shell/footer/footer.html:19
+#: app/components/shell/footer/footer.html:32
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:17
+#: app/components/shell/footer/footer.html:30
 msgid "legal.terms"
 msgstr "Terms"
 
@@ -327,7 +327,7 @@ msgstr "Showing {{ filter }}"
 msgid "dash.activity.heading"
 msgstr "Activity Feed"
 
-#: app/views/dashboard/activity/list/list.html:93
+#: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
 msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
 
@@ -1444,14 +1444,6 @@ msgstr "Add New Release"
 msgid "dash.games.packages.manage.releases.builds_count_none"
 msgstr "No builds yet."
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:22
-msgid "dash.games.packages.manage.releases.builds_count_one"
-msgstr "1 build"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:23
-msgid "dash.games.packages.manage.releases.builds_count_other"
-msgstr "{{ count | number }} builds"
-
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
 msgstr "Releases"
@@ -2444,12 +2436,6 @@ msgstr "Freshness indicates community interest in recent games. A game's freshne
 msgid "games.list.games_count_none"
 msgstr "No games."
 
-#: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:179
-#: app/views/library/collection/collection.html:79
-msgid "games.list.games_count_one"
-msgstr "1 game."
-
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorted by Hotness."
@@ -2600,27 +2586,27 @@ msgstr "Followers"
 msgid "library.collection.games_label"
 msgstr "Games"
 
-#: app/views/library/collection/collection.html:122
+#: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
 msgstr "There are no games in this bundle yet."
 
-#: app/views/library/collection/collection.html:120
+#: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
 msgstr "This developer hasn't added any games yet."
 
-#: app/views/library/collection/collection.html:121
+#: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
 msgstr "No games are being followed yet."
 
-#: app/views/library/collection/collection.html:113
+#: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
 msgstr "@:games.list.no_games_html"
 
-#: app/views/library/collection/collection.html:119
+#: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
 msgstr "There are no games in this playlist yet, alas."
 
-#: app/views/library/collection/collection.html:123
+#: app/views/library/collection/collection.html:129
 msgid "library.collection.no_games_tag_html"
 msgstr "There are no games with this tag yet."
 
@@ -2794,35 +2780,24 @@ msgstr "<p>News updates about the games you're following show up here.</p>\n"
 msgid "news.list.followed_tab"
 msgstr "Followed Games"
 
-#: app/views/discover/news/news.html:110
+#: app/views/discover/news/news.html:116
 msgid "news.list.no_posts_followed_html"
 msgstr "No updates to show yet! Follow more games to customize this news feed."
 
-#: app/views/discover/news/news.html:109
+#: app/views/discover/news/news.html:115
 msgid "news.list.no_posts_html"
 msgstr "No news updates to show yet."
 
-#: app/components/post/grid/grid.html:32
-#: app/components/post/list/list.html:29
-#: app/views/discover/games/view/news/list/list.html:42
-#: app/views/discover/games/view/news/view/view.html:15
+#: app/components/post/grid/grid.html:31
+#: app/components/post/list/list.html:28
+#: app/views/discover/games/view/news/list/list.html:41
+#: app/views/discover/games/view/news/view/view.html:12
 msgid "news.list.post_comments_none"
 msgstr "comment"
 
-#: app/components/post/grid/grid.html:33
-#: app/components/post/list/list.html:30
-#: app/views/discover/games/view/news/list/list.html:43
-#: app/views/discover/games/view/news/view/view.html:16
-msgid "news.list.post_comments_one"
-msgstr "1 comment"
-
-#: app/views/discover/news/news.html:84
+#: app/views/discover/news/news.html:76
 msgid "news.list.posts_count_none"
 msgstr "No articles."
-
-#: app/views/discover/news/news.html:85
-msgid "news.list.posts_count_one"
-msgstr "1 article."
 
 #: app/views/discover/news/news.html:21
 msgid "news.list.released_descriptive_html"
@@ -2852,10 +2827,6 @@ msgstr "In Development"
 msgid "notifications.popover.dismiss_all"
 msgstr "dismiss all"
 
-#: app/components/notifications/popover/popover.html:83
-msgid "notifications.popover.more_notifications_one_button"
-msgstr "+1 more notification"
-
 #: app/components/notifications/popover/popover.html:26
 msgid "notifications.popover.no_notifications"
 msgstr "No unread notifications at this time."
@@ -2871,8 +2842,8 @@ msgstr "<p>And the value of the rating thou shalt receive is <strong>{{ rating }
 #: app/views/dashboard/activity/list/list-controller.js:95
 msgid "notifications.unread_tooltip"
 msgid_plural "notifications.unread_tooltip"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{{ $count | number }} unread"
+msgstr[1] "{{ $count | number }} unread"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
@@ -3168,8 +3139,8 @@ msgstr "Activity Feed"
 #: app/views/dashboard/activity/list/list.html:83
 msgid "dash.activity.pages"
 msgid_plural "dash.activity.pages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Page {{ page | number }} of {{ $count | number }} notification."
+msgstr[1] "Page {{ page | number }} of {{ $count | number }} notifications."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview-controller.js:5
 msgid "dash.games.api.overview.page_title"
@@ -4671,4 +4642,57 @@ msgstr "Hot"
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
 msgstr "Newly Added"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
+msgid "dash.games.packages.manage.releases.build_count"
+msgid_plural "dash.games.packages.manage.releases.build_count"
+msgstr[0] "1 build"
+msgstr[1] "{{ $count | number }} builds"
+
+#. {{ page }} expands to the current page of games
+#: app/components/game/grid/grid.html:9
+#: app/views/discover/games/list/list.html:180
+#: app/views/library/collection/collection.html:78
+msgid "games.list.games_count"
+msgid_plural "games.list.games_count"
+msgstr[0] "1 game."
+msgstr[1] "Page {{ page | number }} of {{ $count | number }} games."
+
+#: app/components/post/grid/grid.html:34
+#: app/components/post/list/list.html:31
+#: app/views/discover/games/view/news/list/list.html:44
+#: app/views/discover/games/view/news/view/view.html:15
+msgid "news.list.post_comments"
+msgid_plural "news.list.post_comments"
+msgstr[0] "1 comment"
+msgstr[1] "{{ $count | number }} comments"
+
+#. {{ page }} expands to the current page of articles
+#: app/views/discover/news/news.html:83
+msgid "news.list.posts_count"
+msgid_plural "news.list.posts_count"
+msgstr[0] "1 article."
+msgstr[1] "{{ $count | number }} articles."
+
+#: app/components/notifications/popover/popover.html:82
+msgid "notifications.popover.more_notifications_button"
+msgid_plural "notifications.popover.more_notifications_button"
+msgstr[0] "+1 more notification"
+msgstr[1] "+{{ $count | number }} more notifications"
+
+#: app/components/shell/footer/footer.html:34
+msgid "footer.contact"
+msgstr "Contact"
+
+#: app/components/shell/footer/footer.html:26
+msgid "footer.tagline"
+msgstr "Too many games... and counting!"
+
+#: app/components/shell/footer/footer.html:22
+msgid "footer.translations"
+msgstr "Translations are a community project."
+
+#: app/components/shell/footer/footer.html:23
+msgid "footer.translations_help"
+msgstr "Help translate!"
 
