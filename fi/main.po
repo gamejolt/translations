@@ -27,6 +27,7 @@ msgstr "Invalid Authorization Code"
 msgid "auth.authorize.success_growl"
 msgstr "We're redirecting you to your Game Jolt dashboard now."
 
+#: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
 msgstr "Unohditko käyttäjänimesi tai salasanan"
@@ -149,7 +150,7 @@ msgstr "Kirjaudu sisään Facebookilla"
 
 #: auth/components/forms/login/login.html:28
 msgid "auth.login.invalid_login_error_html"
-msgstr "Incorrect username or password."
+msgstr "Väärä nimi tai salasana"
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
@@ -182,7 +183,7 @@ msgstr "tai"
 
 #: auth/views/auth/reset-password/reset-password.html:1
 msgid "auth.reset_password.heading"
-msgstr "Reset Password"
+msgstr "Vaihda salasana"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
@@ -348,7 +349,7 @@ msgstr "Avatarisi"
 
 #: app/views/dashboard/account/avatar/avatar.html:6
 msgid "dash.avatar.current_label"
-msgstr "Current Avatar"
+msgstr "Nykyinen avatarisi."
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
@@ -408,7 +409,7 @@ msgstr "Let us know what kinds of email notifications you'd like to receive by t
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
-msgstr "Notifications"
+msgstr "Huomautukset"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
@@ -432,7 +433,7 @@ msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
 msgid "dash.forms.no"
-msgstr "No"
+msgstr "Ei"
 
 #: app/components/forms/dashboard/game/settings/settings.html:21
 #: app/components/forms/dashboard/game/settings/settings.html:32
@@ -459,7 +460,7 @@ msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
 msgid "dash.forms.yes"
-msgstr "Yes"
+msgstr "Kyllä"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
@@ -817,11 +818,11 @@ msgstr "You can edit your description whenever you want and add to it over time.
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
-msgstr "Description"
+msgstr "Kuvaus"
 
 #: app/components/forms/dashboard/game/game.html:86
 msgid "dash.games.form.dev_status_canceled"
-msgstr "Canceled"
+msgstr "Peruutettu"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
@@ -829,7 +830,7 @@ msgstr "Choose this if your game is playable, but development has been canceled 
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
-msgstr "Finished/Stable"
+msgstr "Valmis"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
@@ -865,7 +866,7 @@ msgstr "Other Engine/Language/Tool"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
-msgstr "Why?"
+msgstr "Miksi?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
@@ -877,7 +878,7 @@ msgstr "Select an engine/language/tool..."
 
 #: app/components/forms/dashboard/game/game.html:125
 msgid "dash.games.form.status_hidden"
-msgstr "Hidden"
+msgstr "Piilotettu"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
@@ -885,7 +886,7 @@ msgstr "Your game page won't show up in public listings or search results. It ca
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
-msgstr "Visibility"
+msgstr "Näkyvyys"
 
 #: app/components/forms/dashboard/game/game.html:113
 msgid "dash.games.form.status_not_publishable_info_html"
@@ -893,7 +894,7 @@ msgstr "This game can't be published until the required set up steps are complet
 
 #: app/components/forms/dashboard/game/game.html:118
 msgid "dash.games.form.status_published"
-msgstr "Published"
+msgstr "Julkaistu"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
@@ -905,7 +906,7 @@ msgstr "Title"
 
 #: app/components/forms/dashboard/game/game.html:33
 msgid "dash.games.form.website_label"
-msgstr "Website"
+msgstr "Sivusto"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
@@ -953,7 +954,7 @@ msgstr "Age Rating"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
-msgstr "Alcohol"
+msgstr "Alkoholi"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
@@ -981,11 +982,11 @@ msgstr "Edit Rating Details"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
-msgstr "Humor"
+msgstr "Huumori"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
-msgstr "Language"
+msgstr "Kieli"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
@@ -1034,7 +1035,7 @@ msgstr "Tobacco"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
-msgstr "Violence"
+msgstr "Väkivalta"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
@@ -1082,7 +1083,7 @@ msgstr "Game Media"
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
 #: app/views/dashboard/developer/games/manage/media/list/list.html:45
 msgid "dash.games.media.image_label"
-msgstr "Image"
+msgstr "Kuva"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
@@ -1090,7 +1091,7 @@ msgstr "You can directly link to this image on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
-msgstr "Edit Image"
+msgstr "Muokkaa kuvaa"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
@@ -1102,7 +1103,7 @@ msgstr "Caption"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
-msgstr "image"
+msgstr "Kuva"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
@@ -1110,7 +1111,7 @@ msgstr "Image File"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
-msgstr "Save Image"
+msgstr "Tallenna Kuva"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:14
 msgid "dash.games.media.image.heading"
@@ -1191,7 +1192,7 @@ msgstr "song"
 
 #: app/components/forms/dashboard/game/song/song.html:29
 msgid "dash.games.music.form.submit_button"
-msgstr "Save Song"
+msgstr "Tallenna musiikki"
 
 #: app/components/forms/dashboard/game/song/song.html:9
 msgid "dash.games.music.form.title_label"
@@ -2280,7 +2281,7 @@ msgstr "This Week's Best Games"
 msgid "discover.home.week_best_help"
 msgstr "The highest rated games published in the past 7 days."
 
-#: app/components/shell/menu-popover/menu-popover.html:70
+#: app/components/shell/menu-popover/menu-popover.html:69
 msgid "discover.nav.featured_playlists"
 msgstr "Featured Playlists"
 
@@ -2987,11 +2988,11 @@ msgstr "Games"
 msgid "search.autocomplete.installed_heading"
 msgstr "Installed Games"
 
-#: app/components/search/autocomplete/autocomplete.html:106
+#: app/components/search/autocomplete/autocomplete.html:105
 msgid "search.autocomplete.no_commands"
 msgstr "No commands match."
 
-#: app/components/search/autocomplete/autocomplete.html:15
+#: app/components/search/autocomplete/autocomplete.html:14
 msgid "search.autocomplete.show_all"
 msgstr "Show all results..."
 
@@ -3008,7 +3009,7 @@ msgstr "Search"
 msgid "search.recent.clear_button"
 msgstr "Clear Recent Searches"
 
-#: app/components/search/history/history.html:20
+#: app/components/search/history/history.html:19
 msgid "search.recent.none"
 msgstr "No searches yet."
 
@@ -4777,4 +4778,96 @@ msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
 msgstr[1] ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "dash.funds.withdraw.amount_help"
+msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+
+#: app/components/forms/dashboard/game/song/song.html:15
+msgid "dash.games.music.form.file_help_block"
+msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:34
+msgid "dash.games.news.posted_on"
+msgstr "Posted on: {{ date | date:'medium' }}"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
+msgid "dash.games.packages.manage.releases.release_title"
+msgstr "Release {{ version }}"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
+msgid "dash.games.trophies.add_button"
+msgstr "Add {{ difficulty }} Trophy"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
+msgid "dash.games.trophies.no_trophies"
+msgstr "No {{ difficulty | lowercase }} trophies added yet."
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
+msgid "dash.games.trophies.section_heading"
+msgstr "{{ difficulty }} Trophies"
+
+#: app/views/discover/games/view/download/build/build.html:13
+msgid "game.download.game.downloading_label"
+msgstr "Downloading {{ game }}..."
+
+#: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
+msgid "game.download.soundtrack.downloading_label"
+msgstr "Downloading soundtrack..."
+
+#: app/views/discover/games/list/list.html:27
+msgid "games.list.date_heading_small"
+msgstr "on {{ date }}"
+
+#: app/views/discover/games/list/list.html:31
+msgid "games.list.date_range_heading_small"
+msgstr "between {{ dateStart }} and {{ dateEnd }}"
+
+#: app/components/game/thumbnail/thumbnail.html:30
+msgid "games.thumbnail.ratings"
+msgstr "{{ count | number }} rating(s)"
+
+#: app/views/library/collection/_header-default.html:88
+msgid "library.collection.bundle_heading"
+msgstr "{{ bundle }}"
+
+#: app/views/library/collection/_header-default.html:76
+msgid "library.collection.playlist_heading"
+msgstr "{{ playlist }}"
+
+#: app/views/library/collection/_header-tag.html:12
+msgid "library.collection.tag_heading"
+msgstr "#{{ tag }}"
+
+#: app/components/game/collection/grid/grid.html:41
+msgid "library.playlists.subscription_developer_description"
+msgstr "Games made by {{ user }}."
+
+#: app/components/game/collection/grid/grid.html:37
+msgid "library.playlists.subscription_followed_description"
+msgstr "Games followed by {{ user }}."
+
+#: app/components/activity/feed/feed.html:50
+msgid "notifications.rating_details_title"
+msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+
+#: app/views/profile/overview/overview.html:127
+msgid "profile.developer_games_teaser_button"
+msgstr "View All ({{ gamesCount | number }})"
+
+#: app/views/profile/overview/overview.html:59
+msgid "profile.friend_request_received_pending"
+msgstr "{{ user }} would like to be your friend."
+
+#: app/views/profile/overview/overview.html:49
+msgid "profile.friend_request_sent_pending"
+msgstr "Friend request to {{ user }} pending acceptance."
+
+#: app/components/score/overview/overview.html:93
+msgid "scores.overview.user_best_exp_tooltip"
+msgstr "{{ experience | number }} EXP gained from this score!"
+
+#: app/components/trophy/overview/overview.html:55
+msgid "trophies.overview.more_link"
+msgstr "+{{ extraCount | number }} more"
 
