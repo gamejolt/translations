@@ -57,8 +57,8 @@
 	<p>Перед тем как войти в аккаунт Game Jolt.</p>
 	<p>Мы отправили вам инструкцию по активации.</p>
 	"""
-	spam = "If you don't see an email within 10 minutes, please check your spam folder. It might have gobbled it up."
-	urgency = "Note that you have a week to authorize your account. After that, it will be deleted and you'll have to sign up again."
+	spam = "Если вы не увидите сообщение через 10 минут, проверьте папку со спамом. Возможно оно находится там!"
+	urgency = "Помните, что на подтверждение даётся неделя. После этого ваш аккаунт будет удалён и вам придётся регистрироваться заново."
 
 # You need to actually sign up to get a valid URL for this page.
 # We only show a Growl on successful authorization and funnel off to the main site.
@@ -88,7 +88,7 @@
 
 	# If the email address they enter isn't a registered user, this shows up as an error message.
 	invalid_email_error_html = """
-	<p>Хмм, данный Email не заррегистрирован у нас. Может быть вы ещё не <a href="/join">зарегистрировались</a>?</p>
+	<p>Хмм, данный Email не зарегистрирован у нас. Может быть вы ещё не <a href="/join">зарегистрировались</a>?</p>
 	"""
 
 # /forgot/sent
@@ -104,7 +104,7 @@
 	page_title = "Сбросить пароль"
 	heading = "@:auth.reset_password.page_title"
 
-	password_help = "If you'd like to reset your password, enter a new one below."
+	password_help = "Если вы хотите изменить пароль, то введите его здесь."
 	password_label = "Новый пароль"
 	submit_button = "Сбросить пароль"
 
@@ -160,7 +160,7 @@
 	page_title = "Введите Email"
 	heading = "@:auth.linked_account.twitter.finalize.page_title"
 
-	email_help = "To finish logging in with Twitter, please enter a valid email address."
+	email_help = "Чтобы закончить регистрацию через Twitter, пожалуйста введите ваш Email."
 	email_label = "Адрес Email"
 	submit_button = "Завершите регистрацию"
 
