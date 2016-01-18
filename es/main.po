@@ -440,7 +440,7 @@ msgstr "No"
 #: app/components/forms/dashboard/game/settings/settings.html:32
 #: app/components/forms/dashboard/game/settings/settings.html:43
 msgid "dash.forms.off"
-msgstr "Off"
+msgstr "Desactivado"
 
 #: app/components/forms/dashboard/game/settings/settings.html:20
 #: app/components/forms/dashboard/game/settings/settings.html:31
@@ -868,7 +868,7 @@ msgstr "Cuál motor, lenguaje o herramienta?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
-msgstr "Other Engine/Language/Tool"
+msgstr "Otro Motor/Lenguaje/Herramienta"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
@@ -916,11 +916,11 @@ msgstr "Página Web"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "Limpiar Cabecera"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
-msgstr "Edit Header"
+msgstr "Editar Cabecera"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
@@ -932,15 +932,15 @@ msgstr "What are the header requirements and guidelines?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "Subir Cabecera"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "imagen de cabecera"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "Subir Nueva Cabecera"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
@@ -952,11 +952,11 @@ msgstr "Recomendamos mantenerlo en oculto hasta que hayas terminado de rellenar 
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
-msgstr "Hidden"
+msgstr "Oculto"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
-msgstr "Age Rating"
+msgstr "Clasificación de edad"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
@@ -964,7 +964,7 @@ msgstr "Alcohol"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Matanza"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
@@ -972,7 +972,7 @@ msgstr "Cartoon Violence"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Drogas"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
@@ -992,7 +992,7 @@ msgstr "Humor"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
-msgstr "Language"
+msgstr "Idioma"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
@@ -1000,7 +1000,7 @@ msgstr "Miscellaneous"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Desnudez"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
@@ -1012,7 +1012,7 @@ msgstr "What is a maturity rating?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
-msgstr "Realistic Violence"
+msgstr "Violencia Realista"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
@@ -1020,11 +1020,11 @@ msgstr "Save Maturity Details"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
-msgstr "Sex/Nudity"
+msgstr "Sexo/Desnudez"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
-msgstr "Sexual Themes"
+msgstr "Temas Sexuales"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:104
 #: app/components/forms/dashboard/game/maturity/maturity.html:67
@@ -1041,7 +1041,7 @@ msgstr "Tobacco"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
-msgstr "Violence"
+msgstr "Violencia"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
@@ -1109,7 +1109,7 @@ msgstr "Caption"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
-msgstr "image"
+msgstr "imagen"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
@@ -1117,7 +1117,7 @@ msgstr "Image File"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
-msgstr "Save Image"
+msgstr "Guardar Imagen"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:14
 msgid "dash.games.media.image.heading"
@@ -1125,7 +1125,7 @@ msgstr "Image Details"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:21
 msgid "dash.games.media.image.remove_button"
-msgstr "Remove Image"
+msgstr "Eliminar Imagen"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
@@ -1143,19 +1143,19 @@ msgstr "You can directly link to this video on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:44
 msgid "dash.games.media.video.edit_heading"
-msgstr "Edit Video"
+msgstr "Editar Video"
 
 #: app/components/forms/dashboard/game/video/video.html:14
 msgid "dash.games.media.video.form.description_label"
-msgstr "Description"
+msgstr "Descripción"
 
 #: app/components/forms/dashboard/game/video/video.html:21
 msgid "dash.games.media.video.form.submit_button"
-msgstr "Save Video"
+msgstr "Guardar Video"
 
 #: app/components/forms/dashboard/game/video/video.html:9
 msgid "dash.games.media.video.form.title_label"
-msgstr "Title"
+msgstr "Título"
 
 #: app/components/forms/dashboard/game/video/video.html:5
 msgid "dash.games.media.video.form.url_error_label"
@@ -1182,7 +1182,7 @@ msgstr "Remove Video"
 
 #: app/views/dashboard/developer/games/manage/manage.html:46
 msgid "dash.games.music_tab"
-msgstr "Music"
+msgstr "Musica"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
@@ -2501,7 +2501,7 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "News"
 
-#: app/views/discover/games/view/view.html:16
+#: app/views/discover/games/view/view.html:15
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
@@ -3688,7 +3688,7 @@ msgstr "New Comments"
 msgid "notifications.new_friends_label"
 msgstr "New Friends"
 
-#: app/components/rating/widget/widget.html:20
+#: app/components/rating/widget/widget.html:21
 msgid "rating.clear"
 msgstr "Clear Rating"
 
@@ -4702,4 +4702,86 @@ msgstr "Translations are a community project."
 #: app/components/shell/footer/footer.html:23
 msgid "footer.translations_help"
 msgstr "Help translate!"
+
+#: app/components/game/filtering/filtering-service.js:17
+msgid "games.filtering.browser"
+msgstr "Browser"
+
+#: app/components/game/filtering/filtering-service.js:23
+msgid "games.filtering.browser_applet"
+msgstr "Java Applet"
+
+#: app/components/game/filtering/filtering-service.js:21
+msgid "games.filtering.browser_flash"
+msgstr "Flash"
+
+#: app/components/game/filtering/filtering-service.js:20
+msgid "games.filtering.browser_html"
+msgstr "HTML"
+
+#: app/components/game/filtering/filtering-service.js:24
+msgid "games.filtering.browser_silverlight"
+msgstr "Silverlight"
+
+#: app/components/game/filtering/filtering-service.js:22
+msgid "games.filtering.browser_unity"
+msgstr "Unity"
+
+#: app/components/game/filtering/filtering-service.js:28
+msgid "games.filtering.maturity"
+msgstr "Maturity"
+
+#: app/components/game/filtering/filtering-service.js:33
+msgid "games.filtering.maturity_adult"
+msgstr "Adult Content"
+
+#: app/components/game/filtering/filtering-service.js:31
+msgid "games.filtering.maturity_everyone"
+msgstr "All Ages"
+
+#: app/components/game/filtering/filtering-service.js:32
+msgid "games.filtering.maturity_teen"
+msgstr "Teen Content"
+
+#: app/components/game/filtering/filtering-service.js:7
+msgid "games.filtering.os"
+msgstr "OS"
+
+#: app/components/game/filtering/filtering-service.js:12
+msgid "games.filtering.os_linux"
+msgstr "Linux"
+
+#: app/components/game/filtering/filtering-service.js:11
+msgid "games.filtering.os_mac"
+msgstr "Mac"
+
+#: app/components/game/filtering/filtering-service.js:13
+msgid "games.filtering.os_other"
+msgstr "Other"
+
+#: app/components/game/filtering/filtering-service.js:10
+msgid "games.filtering.os_windows"
+msgstr "Windows"
+
+#: app/components/game/filtering/filtering-service.js:37
+msgid "games.filtering.status"
+msgstr "Status"
+
+#: app/components/game/filtering/filtering-service.js:42
+msgid "games.filtering.status_canceled"
+msgstr "Canceled"
+
+#: app/components/game/filtering/filtering-service.js:40
+msgid "games.filtering.status_complete"
+msgstr "Complete"
+
+#: app/components/game/filtering/filtering-service.js:41
+msgid "games.filtering.status_wip"
+msgstr "Work in Progress"
+
+#: app/views/discover/games/view/view.html:18
+msgid "games.view.notifications_news"
+msgid_plural "games.view.notifications_news"
+msgstr[0] ""
+msgstr[1] ""
 
