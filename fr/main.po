@@ -27,6 +27,7 @@ msgstr "Code d'Activation Invalide"
 msgid "auth.authorize.success_growl"
 msgstr "Nous vous redirigeons vers vôtre Tableau de bord Gamejolt."
 
+#: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
 msgstr "Nom d'utilisateur ou Mot de passe oubliée ?"
@@ -2279,7 +2280,7 @@ msgstr "This Week's Best Games"
 msgid "discover.home.week_best_help"
 msgstr "The highest rated games published in the past 7 days."
 
-#: app/components/shell/menu-popover/menu-popover.html:70
+#: app/components/shell/menu-popover/menu-popover.html:69
 msgid "discover.nav.featured_playlists"
 msgstr "Featured Playlists"
 
@@ -2986,11 +2987,11 @@ msgstr "Games"
 msgid "search.autocomplete.installed_heading"
 msgstr "Installed Games"
 
-#: app/components/search/autocomplete/autocomplete.html:106
+#: app/components/search/autocomplete/autocomplete.html:105
 msgid "search.autocomplete.no_commands"
 msgstr "No commands match."
 
-#: app/components/search/autocomplete/autocomplete.html:15
+#: app/components/search/autocomplete/autocomplete.html:14
 msgid "search.autocomplete.show_all"
 msgstr "Show all results..."
 
@@ -3007,7 +3008,7 @@ msgstr "Search"
 msgid "search.recent.clear_button"
 msgstr "Clear Recent Searches"
 
-#: app/components/search/history/history.html:20
+#: app/components/search/history/history.html:19
 msgid "search.recent.none"
 msgstr "No searches yet."
 
@@ -4523,11 +4524,11 @@ msgstr "The sender will not be notified."
 
 #: app/views/profile/profile.html:38
 msgid "profile.friend_tooltip"
-msgstr "You are friends! Awwww!"
+msgstr "Vous êtes des amis! Awwww!"
 
 #: app/views/profile/profile.html:52
 msgid "profile.in_game_tooltip"
-msgstr "This user is currently playing a game."
+msgstr "Cet utilisateur au moment est"
 
 #: app/views/profile/profile.html:43
 msgid "profile.offline_tooltip"
@@ -4604,48 +4605,50 @@ msgstr "{{ section }} Indie RPGs"
 
 #: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
-msgstr "Couldn't find that image. Maybe it was removed."
+msgstr "Impossible de trouver cette image. Peut-être qu'il a été enlevé."
 
 #: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
-msgstr "Oh no!"
+msgstr "Oh non!"
 
 #: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
-msgstr "Couldn't find that video. Maybe it was removed."
+msgstr "Impossible de trouver cette vidéo. Peut-être qu'il a été enlevé.\n"
+""
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
-msgstr "Oh no!"
+msgstr "Oh non!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
-msgstr "All"
+msgstr "Tout"
 
 #: app/views/discover/games/list/category/category-controller.js:27
 msgid "games.list.section_best"
-msgstr "The Best"
+msgstr "Le Meilleur"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
-msgstr "Featured"
+msgstr "Sélection\n"
+""
 
 #: app/views/discover/games/list/category/category-controller.js:25
 msgid "games.list.section_fresh"
-msgstr "Fresh"
+msgstr "Frais"
 
 #: app/views/discover/games/list/category/category-controller.js:26
 msgid "games.list.section_hot"
-msgstr "Hot"
+msgstr "Chaud"
 
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
-msgstr "Newly Added"
+msgstr "Nouvelment ajouté"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] ""
+msgstr[0] "1 build"
 msgstr[1] ""
 
 #. {{ page }} expands to the current page of games
@@ -4654,7 +4657,7 @@ msgstr[1] ""
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] ""
+msgstr[0] "1 jeu"
 msgstr[1] ""
 
 #: app/components/post/grid/grid.html:34
@@ -4663,45 +4666,45 @@ msgstr[1] ""
 #: app/views/discover/games/view/news/view/view.html:15
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
-msgstr[0] ""
+msgstr[0] "1 commentaire"
 msgstr[1] ""
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
-msgstr[0] ""
+msgstr[0] "1 article"
 msgstr[1] ""
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
-msgstr[0] ""
+msgstr[0] "+1 plus notification"
 msgstr[1] ""
 
 #: app/components/shell/footer/footer.html:34
 msgid "footer.contact"
-msgstr "Contact"
+msgstr "Contactez"
 
 #: app/components/shell/footer/footer.html:26
 msgid "footer.tagline"
-msgstr "Too many games... and counting!"
+msgstr "Trop de jeux... et en comptant!"
 
 #: app/components/shell/footer/footer.html:22
 msgid "footer.translations"
-msgstr "Translations are a community project."
+msgstr "Les traductions sont un project de la communauté"
 
 #: app/components/shell/footer/footer.html:23
 msgid "footer.translations_help"
-msgstr "Help translate!"
+msgstr "Aidez-nous traduire!"
 
 #: app/components/game/filtering/filtering-service.js:17
 msgid "games.filtering.browser"
-msgstr "Browser"
+msgstr "Navigateur"
 
 #: app/components/game/filtering/filtering-service.js:23
 msgid "games.filtering.browser_applet"
-msgstr "Java Applet"
+msgstr "Un Applet de Java"
 
 #: app/components/game/filtering/filtering-service.js:21
 msgid "games.filtering.browser_flash"
@@ -4721,19 +4724,19 @@ msgstr "Unity"
 
 #: app/components/game/filtering/filtering-service.js:28
 msgid "games.filtering.maturity"
-msgstr "Maturity"
+msgstr "Maturité"
 
 #: app/components/game/filtering/filtering-service.js:33
 msgid "games.filtering.maturity_adult"
-msgstr "Adult Content"
+msgstr "Contenu adulte"
 
 #: app/components/game/filtering/filtering-service.js:31
 msgid "games.filtering.maturity_everyone"
-msgstr "All Ages"
+msgstr "Tous les ages"
 
 #: app/components/game/filtering/filtering-service.js:32
 msgid "games.filtering.maturity_teen"
-msgstr "Teen Content"
+msgstr "contenu de l'adolescence"
 
 #: app/components/game/filtering/filtering-service.js:7
 msgid "games.filtering.os"
@@ -4749,7 +4752,7 @@ msgstr "Mac"
 
 #: app/components/game/filtering/filtering-service.js:13
 msgid "games.filtering.os_other"
-msgstr "Other"
+msgstr "Autre"
 
 #: app/components/game/filtering/filtering-service.js:10
 msgid "games.filtering.os_windows"
@@ -4757,23 +4760,115 @@ msgstr "Windows"
 
 #: app/components/game/filtering/filtering-service.js:37
 msgid "games.filtering.status"
-msgstr "Status"
+msgstr "Statut"
 
 #: app/components/game/filtering/filtering-service.js:42
 msgid "games.filtering.status_canceled"
-msgstr "Canceled"
+msgstr "Annulé"
 
 #: app/components/game/filtering/filtering-service.js:40
 msgid "games.filtering.status_complete"
-msgstr "Complete"
+msgstr "Terminé"
 
 #: app/components/game/filtering/filtering-service.js:41
 msgid "games.filtering.status_wip"
-msgstr "Work in Progress"
+msgstr "Travaux en cours"
 
 #: app/views/discover/games/view/view.html:18
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
-msgstr[0] ""
+msgstr[0] "1 article de journal"
 msgstr[1] ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "dash.funds.withdraw.amount_help"
+msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+
+#: app/components/forms/dashboard/game/song/song.html:15
+msgid "dash.games.music.form.file_help_block"
+msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:34
+msgid "dash.games.news.posted_on"
+msgstr "Posted on: {{ date | date:'medium' }}"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
+msgid "dash.games.packages.manage.releases.release_title"
+msgstr "Release {{ version }}"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
+msgid "dash.games.trophies.add_button"
+msgstr "Add {{ difficulty }} Trophy"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
+msgid "dash.games.trophies.no_trophies"
+msgstr "No {{ difficulty | lowercase }} trophies added yet."
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
+msgid "dash.games.trophies.section_heading"
+msgstr "{{ difficulty }} Trophies"
+
+#: app/views/discover/games/view/download/build/build.html:13
+msgid "game.download.game.downloading_label"
+msgstr "Downloading {{ game }}..."
+
+#: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
+msgid "game.download.soundtrack.downloading_label"
+msgstr "Downloading soundtrack..."
+
+#: app/views/discover/games/list/list.html:27
+msgid "games.list.date_heading_small"
+msgstr "on {{ date }}"
+
+#: app/views/discover/games/list/list.html:31
+msgid "games.list.date_range_heading_small"
+msgstr "between {{ dateStart }} and {{ dateEnd }}"
+
+#: app/components/game/thumbnail/thumbnail.html:30
+msgid "games.thumbnail.ratings"
+msgstr "{{ count | number }} rating(s)"
+
+#: app/views/library/collection/_header-default.html:88
+msgid "library.collection.bundle_heading"
+msgstr "{{ bundle }}"
+
+#: app/views/library/collection/_header-default.html:76
+msgid "library.collection.playlist_heading"
+msgstr "{{ playlist }}"
+
+#: app/views/library/collection/_header-tag.html:12
+msgid "library.collection.tag_heading"
+msgstr "#{{ tag }}"
+
+#: app/components/game/collection/grid/grid.html:41
+msgid "library.playlists.subscription_developer_description"
+msgstr "Games made by {{ user }}."
+
+#: app/components/game/collection/grid/grid.html:37
+msgid "library.playlists.subscription_followed_description"
+msgstr "Games followed by {{ user }}."
+
+#: app/components/activity/feed/feed.html:50
+msgid "notifications.rating_details_title"
+msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+
+#: app/views/profile/overview/overview.html:127
+msgid "profile.developer_games_teaser_button"
+msgstr "View All ({{ gamesCount | number }})"
+
+#: app/views/profile/overview/overview.html:59
+msgid "profile.friend_request_received_pending"
+msgstr "{{ user }} would like to be your friend."
+
+#: app/views/profile/overview/overview.html:49
+msgid "profile.friend_request_sent_pending"
+msgstr "Friend request to {{ user }} pending acceptance."
+
+#: app/components/score/overview/overview.html:93
+msgid "scores.overview.user_best_exp_tooltip"
+msgstr "{{ experience | number }} EXP gained from this score!"
+
+#: app/components/trophy/overview/overview.html:55
+msgid "trophies.overview.more_link"
+msgstr "+{{ extraCount | number }} more"
 
