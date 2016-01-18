@@ -10,7 +10,8 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "Seu código de autorização é inválido.\n"
+msgstr "<p>Seu código de autorização é inválido.</p>\n"
+"<p> Por favor tenha certeza de copiar e colar o link inteiro que nós te enviamos. </p>\n"
 ""
 
 #: auth/views/auth/authorize/authorize.html:2
@@ -27,13 +28,14 @@ msgstr "Código de autorização inválido"
 msgid "auth.authorize.success_growl"
 msgstr "Estamos te redirecionando para o seu dashboard na Game Jolt."
 
+#: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
 msgstr "Esqueci meu nome de usuário ou senha"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Enter the email address on your account and we'll email your login credentials to you."
+msgstr "Insira seu endereço de email na sua conta e nós te enviaremos suas credenciais de login."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -42,15 +44,15 @@ msgstr "Endereço de email"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
-msgstr "Retrieve Login Credentials"
+msgstr "Recuperar credenciais de login"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, that email address is not in our system. Maybe you didn't <a href=\"/join\">sign up yet</a>?</p>"
+msgstr "<p>Hmm, esse endereço de email não está no nosso sistema. Talvez você não tenha <a href=\"/entre\">se cadastrado ainda</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>We've sent your login credentials to the email address you entered.</p>"
+msgstr "<p>Nós mandamos suas credenciais de login para o endereço de email que você inseriu.</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
@@ -58,20 +60,20 @@ msgstr "Credenciais enviadas"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "If you don't see our email within 10 minutes, please check your spam folder. It might have been gobbled up!"
+msgstr "Se você não ver nosso email em 10 minutos, por favor cheque sua pasta de spam. Ele deve ter sido colocado lá!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Retrieve Credentials"
+msgstr "Recupere as credenciais"
 
 #: auth/views/auth/login/login.html:35
 msgid "auth.join_link"
-msgstr "Entrar"
+msgstr "Cadastre-se!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Before you can log in to Game Jolt, you need to verify the email address on your account.</p>\n"
-"<p>We've sent you an email with instructions on how to authorize your account.</p>"
+msgstr "<p>Antes que você possa fazer login no Game Jolt, você precisa verificar o endereço de email na sua conta.</p>\n"
+"<p>Nós te mandamos um email com instruções sobre como autorizar sua conta.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -79,7 +81,7 @@ msgstr "Quase lá!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "Se você não recebeu um email em 10 minutos, verifique "
+msgstr "Se você não ver nosso email em 10 minutos, por favor cheque sua pasta de spam. Ele deve ter sido colocado lá!"
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
@@ -110,7 +112,7 @@ msgstr "Entre com o Twitter"
 #: auth/components/forms/join/join.html:13
 #: auth/components/forms/join/join.html:20
 msgid "auth.join.username_label"
-msgstr "Usuário"
+msgstr "Nome de usuário"
 
 #: auth/views/auth/linked-account/_processing.html:1
 msgid "auth.linked_account.loading_message"
@@ -118,13 +120,12 @@ msgstr "Processando. Por favor aguarde..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>The email address you entered is already in use.</p>\n"
-"<p>If you already have a Game Jolt account you can <a href=\"/login\">log in here</a>.</p>\n"
-"<p>If you've forgotten your login information, you can <a href=\"/forgot\">retrieve it here</a>.</p>"
+msgstr "<p>O endereço de email que você inseriu já está em uso. </p>\n"
+"<p>Se você já tem uma conta no Game Jolt você pode <a href=\"/entrar\"> entrar aqui</a>.</p>"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "To finish logging in with Twitter, please enter a valid email address."
+msgstr "Para terminar de entrar com o Twitter, por favor insira um endereço de email válido."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
@@ -133,11 +134,11 @@ msgstr "Email"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
 msgid "auth.linked_account.twitter.finalize.heading"
-msgstr "Email Required"
+msgstr "Email Requerido"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
 msgid "auth.linked_account.twitter.finalize.submit_button"
-msgstr "Complete Sign Up"
+msgstr "Complete o cadastramento"
 
 #: auth/views/auth/join/join.html:33
 msgid "auth.login_link"
@@ -186,20 +187,20 @@ msgstr "Redefinir senha"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
-msgstr "If you'd like to reset your password, enter a new one below."
+msgstr "Se você quer redefinir sua senha, insira uma senha nova abaixo."
 
 #: auth/components/forms/reset-password/reset-password.html:11
 #: auth/components/forms/reset-password/reset-password.html:4
 msgid "auth.reset_password.password_label"
-msgstr "New Password"
+msgstr "Nova Senha"
 
 #: auth/components/forms/reset-password/reset-password.html:20
 msgid "auth.reset_password.submit_button"
-msgstr "Reset Password"
+msgstr "Redefinir Senha"
 
 #: app/components/shell/footer/footer.html:32
 msgid "legal.privacy"
-msgstr "Privacy"
+msgstr "Privacidade"
 
 #: app/components/shell/footer/footer.html:30
 msgid "legal.terms"
@@ -208,15 +209,15 @@ msgstr "Termos"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:28
 msgid "auth.authorize.success_growl_title"
-msgstr "Conta autorizada"
+msgstr "Conta Autorizada"
 
 #: auth/views/auth/forgot/forgot-controller.js:3
 msgid "auth.forgot.page_title"
-msgstr "Retrieve Login Credentials"
+msgstr "Recuperar Credenciais de Login"
 
 #: auth/views/auth/forgot/sent/sent.js:10
 msgid "auth.forgot.sent.page_title"
-msgstr "Credentials Sent"
+msgstr "Credenciais Enviadas"
 
 #: auth/views/auth/join/almost/almost-controller.js:3
 msgid "auth.join.almost.page_title"
@@ -224,7 +225,7 @@ msgstr "Quase lá!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Join us. Mwuahaha.<br>We have games.<br>\n"
+msgstr "Junte-se a nós. Mwuahaha.<br>Nós temos jogos.<br>\n"
 "<strong><em>Mwuahahaha!</em></strong>"
 
 #: auth/views/auth/join/join-controller.js:5
@@ -233,7 +234,7 @@ msgstr "Junte-se ao Game Jolt - A Maior Coleção de Jogos Indies por Pessoas"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Sua conta foi criada. Daqui para frente vai ser tranquilo!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:36
 msgid "auth.linked_account.facebook.created_growl_title"
@@ -241,7 +242,7 @@ msgstr "Conta criada"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:17
 msgid "auth.linked_account.facebook.duplicate_email_growl"
-msgstr "The email address on this Facebook account is already in use. Perhaps you already have an account?"
+msgstr "O endereço de e-mail nesta conta de Facebook já está em uso. talvez você já tenha uma conta?"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
@@ -253,11 +254,11 @@ msgstr "Incapaz de conectar com o Facebook"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:25
 msgid "auth.linked_account.facebook.failed_growl_title"
-msgstr "Login Failed"
+msgstr "Falha no login"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:10
 msgid "auth.linked_account.facebook.no_email_growl"
-msgstr "Your Facebook account did not return an email address. Make sure you have verified it with Facebook."
+msgstr "Sua conta do Facebook não mostrou nenhum endereço de e-mail. Tenha certeza que você o verificou no facebook"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
@@ -277,7 +278,7 @@ msgstr "Não foi possível conectar com o Twitter."
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:16
 msgid "auth.linked_account.twitter.failed_growl_title"
-msgstr "Login Failed"
+msgstr "Falha no login"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:3
 msgid "auth.linked_account.twitter.finalize.page_title"
@@ -289,15 +290,15 @@ msgstr "Entre na Game Jolt"
 
 #: auth/views/auth/reset-password/reset-password-controller.js:3
 msgid "auth.reset_password.page_title"
-msgstr "Reset Password"
+msgstr "Trocar de senha"
 
 #: auth/views/auth/reset-password/reset-password-controller.js:11
 msgid "auth.reset_password.success_growl"
-msgstr "Your password has been reset. Now you can log in with your new one."
+msgstr "Sua senha foi trocada. agora você pode entrar com a nova."
 
 #: auth/views/auth/reset-password/reset-password-controller.js:12
 msgid "auth.reset_password.success_growl_title"
-msgstr "Password Changed"
+msgstr "Senha trocada."
 
 #: auth/views/auth/auth.html:35
 msgid "auth.legal.privacy"
@@ -309,7 +310,7 @@ msgstr "Termos"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
-msgstr "<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>"
+msgstr "<p>Faça amigos no site e converse com eles, veja oque estão jogando, e jogue com eles!</p> "
 
 #: app/views/dashboard/activity/list/list.html:11
 msgid "dash.activity.all_tab"
@@ -356,7 +357,7 @@ msgstr "Crie uma conta no Gravatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Conseguindo um ícone de avatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
@@ -376,7 +377,7 @@ msgstr "Esta senha é inválida."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+msgstr "As senhas não correspondem. Digite novamente e tenha certeza que são idênticas."
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
@@ -524,17 +525,17 @@ msgstr "Regras"
 
 #: app/components/forms/dashboard/game/game.html:12
 msgid "dash.games.add.rules_html"
-msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
+msgstr "<p>Você deve seguir as regras abaixo antes de adicionar o seu jogo</p>\n"
 "\t<ul>\n"
-"\t\t<li>Game Jolt is currently only accepting free games. There must be no requirement to pay in order to play your game.</li>\n"
-"\t\t<li>Don't upload games you didn't make. If you are not the game's developer, don't add the game to the site. If you're a fan, encourage the developer to add it themselves.</li>\n"
-"\t\t<li>Publishers are not allowed to upload games; only developers are. Remember: This is Indie.</li>\n"
+"\t\t<li>Game Jolt está aceitando atualmente apenas jogo grátis. Não deve haver nenhuma exigência para pagar pelo jogo</li>\n"
+"\t\t<li>Não adicione jogos que você não fez. Se você não é o desenvolvedor do jogo, não adicione o jogo nesse site. Se você é um fã, encoraje o desenvolvedor á adicionar o jogo por conta própria .</li>\n"
+"\t\t<li>Divulgadores não são permitidos; Apenas desenvolvedores. Lembre-se: Isto é indie.</li>\n"
 "\t\t<li>Our name is \"Game Jolt\". As such, only actual <em>games</em> may be uploaded to the site. No applications, software, or tools are allowed at this time. We may accept these in the future or on a case by case basis, but for now, let's just keep it to games.</li>\n"
 "\t\t<li>No stripped-down demos or \"lite\" versions of commercial games are permitted. You must upload a totally free version of your game, and it must be as complete a version as is publicly available.</li>\n"
 "\t\t<li>We welcome and encourage you to add games that are incomplete and still in development, as long as they are tagged as Works-in-Progress. However, you should keep your game hidden until you have something to show. Work-in-Progress games do not have to be playable, but they must be further along than the concept stage. Before you unhide the game, make sure you at least have some screenshots and an informative description.</li>\n"
 "\t\t<li>Do not add links to download or play your game on other sites unless you have already uploaded it to Game Jolt. You can't use your game page as an advertisement for another site.</li>\n"
 "\t\t<li>For browser-based games, we don't allow you to display ads in the preloader on Game Jolt. Remove any ads or block them from showing on the site.</li>\n"
-"\t<p>If you have questions or concerns about the rules, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p>"
+"\t<p>If you have questions or concerns about the rules, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p> "
 
 #: app/views/dashboard/developer/games/manage/manage.html:51
 msgid "dash.games.api_tab"
@@ -2280,7 +2281,7 @@ msgstr "This Week's Best Games"
 msgid "discover.home.week_best_help"
 msgstr "The highest rated games published in the past 7 days."
 
-#: app/components/shell/menu-popover/menu-popover.html:70
+#: app/components/shell/menu-popover/menu-popover.html:69
 msgid "discover.nav.featured_playlists"
 msgstr "Featured Playlists"
 
@@ -2987,11 +2988,11 @@ msgstr "Jogos"
 msgid "search.autocomplete.installed_heading"
 msgstr "Jogos Instalados"
 
-#: app/components/search/autocomplete/autocomplete.html:106
+#: app/components/search/autocomplete/autocomplete.html:105
 msgid "search.autocomplete.no_commands"
 msgstr "No commands match."
 
-#: app/components/search/autocomplete/autocomplete.html:15
+#: app/components/search/autocomplete/autocomplete.html:14
 msgid "search.autocomplete.show_all"
 msgstr "Show all results..."
 
@@ -3008,7 +3009,7 @@ msgstr "Search"
 msgid "search.recent.clear_button"
 msgstr "Clear Recent Searches"
 
-#: app/components/search/history/history.html:20
+#: app/components/search/history/history.html:19
 msgid "search.recent.none"
 msgstr "No searches yet."
 
@@ -4777,4 +4778,96 @@ msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
 msgstr[1] ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "dash.funds.withdraw.amount_help"
+msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+
+#: app/components/forms/dashboard/game/song/song.html:15
+msgid "dash.games.music.form.file_help_block"
+msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:34
+msgid "dash.games.news.posted_on"
+msgstr "Posted on: {{ date | date:'medium' }}"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
+msgid "dash.games.packages.manage.releases.release_title"
+msgstr "Release {{ version }}"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
+msgid "dash.games.trophies.add_button"
+msgstr "Add {{ difficulty }} Trophy"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
+msgid "dash.games.trophies.no_trophies"
+msgstr "No {{ difficulty | lowercase }} trophies added yet."
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
+msgid "dash.games.trophies.section_heading"
+msgstr "{{ difficulty }} Trophies"
+
+#: app/views/discover/games/view/download/build/build.html:13
+msgid "game.download.game.downloading_label"
+msgstr "Downloading {{ game }}..."
+
+#: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
+msgid "game.download.soundtrack.downloading_label"
+msgstr "Downloading soundtrack..."
+
+#: app/views/discover/games/list/list.html:27
+msgid "games.list.date_heading_small"
+msgstr "on {{ date }}"
+
+#: app/views/discover/games/list/list.html:31
+msgid "games.list.date_range_heading_small"
+msgstr "between {{ dateStart }} and {{ dateEnd }}"
+
+#: app/components/game/thumbnail/thumbnail.html:30
+msgid "games.thumbnail.ratings"
+msgstr "{{ count | number }} rating(s)"
+
+#: app/views/library/collection/_header-default.html:88
+msgid "library.collection.bundle_heading"
+msgstr "{{ bundle }}"
+
+#: app/views/library/collection/_header-default.html:76
+msgid "library.collection.playlist_heading"
+msgstr "{{ playlist }}"
+
+#: app/views/library/collection/_header-tag.html:12
+msgid "library.collection.tag_heading"
+msgstr "#{{ tag }}"
+
+#: app/components/game/collection/grid/grid.html:41
+msgid "library.playlists.subscription_developer_description"
+msgstr "Games made by {{ user }}."
+
+#: app/components/game/collection/grid/grid.html:37
+msgid "library.playlists.subscription_followed_description"
+msgstr "Games followed by {{ user }}."
+
+#: app/components/activity/feed/feed.html:50
+msgid "notifications.rating_details_title"
+msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+
+#: app/views/profile/overview/overview.html:127
+msgid "profile.developer_games_teaser_button"
+msgstr "View All ({{ gamesCount | number }})"
+
+#: app/views/profile/overview/overview.html:59
+msgid "profile.friend_request_received_pending"
+msgstr "{{ user }} would like to be your friend."
+
+#: app/views/profile/overview/overview.html:49
+msgid "profile.friend_request_sent_pending"
+msgstr "Friend request to {{ user }} pending acceptance."
+
+#: app/components/score/overview/overview.html:93
+msgid "scores.overview.user_best_exp_tooltip"
+msgstr "{{ experience | number }} EXP gained from this score!"
+
+#: app/components/trophy/overview/overview.html:55
+msgid "trophies.overview.more_link"
+msgstr "+{{ extraCount | number }} more"
 
