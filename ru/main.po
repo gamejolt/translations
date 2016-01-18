@@ -11,7 +11,7 @@ msgstr ""
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
 msgstr "<p>Ваш активационный код неверен.</p>\n"
-"\t<p>Пожаллуйста, удостоверьтесь что вы скопировали URL из нашего сообщения правильно.</p>"
+"\t<p>Пожалуйста, удостоверьтесь что вы скопировали URL из нашего сообщения правильно.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
@@ -38,7 +38,7 @@ msgstr "Введите вашу электронную почту и мы вам
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
 msgid "auth.forgot.email_label"
-msgstr "Адресс Email"
+msgstr "Адрес Email"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
@@ -62,7 +62,7 @@ msgstr "Если вы не увидите сообщение через 10 ми�
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Отправка данных профилля"
+msgstr "Отправка данных профиля"
 
 #: auth/views/auth/login/login.html:35
 msgid "auth.join_link"
@@ -88,7 +88,7 @@ msgstr "Note that you have a week to authorize your account. After that, it will
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
 msgid "auth.join.email_label"
-msgstr "Адресс эллектронной почты"
+msgstr "Адрес электронной почты"
 
 #: auth/views/auth/join/join.html:11
 msgid "auth.join.facebook_button"
@@ -197,11 +197,11 @@ msgstr "Новый пароль"
 msgid "auth.reset_password.submit_button"
 msgstr "Сбросить пароль"
 
-#: app/components/shell/footer/footer.html:19
+#: app/components/shell/footer/footer.html:32
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:17
+#: app/components/shell/footer/footer.html:30
 msgid "legal.terms"
 msgstr "Terms"
 
@@ -327,13 +327,13 @@ msgstr "Showing {{ filter }}"
 msgid "dash.activity.heading"
 msgstr "Activity Feed"
 
-#: app/views/dashboard/activity/list/list.html:93
+#: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
 msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
 
 #: app/views/dashboard/activity/list/list.html:24
 msgid "dash.activity.unread_tab"
-msgstr "Unread"
+msgstr "Непрочитанное"
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
@@ -344,15 +344,15 @@ msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Global
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
-msgstr "Your Avatar"
+msgstr "Ваш аватар"
 
 #: app/views/dashboard/account/avatar/avatar.html:6
 msgid "dash.avatar.current_label"
-msgstr "Current Avatar"
+msgstr "Текущий аватар"
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
-msgstr "Get Gravatar Account"
+msgstr "Получить аккаунт Gravatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
@@ -432,19 +432,19 @@ msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
 msgid "dash.forms.no"
-msgstr "No"
+msgstr "Нет"
 
 #: app/components/forms/dashboard/game/settings/settings.html:21
 #: app/components/forms/dashboard/game/settings/settings.html:32
 #: app/components/forms/dashboard/game/settings/settings.html:43
 msgid "dash.forms.off"
-msgstr "Off"
+msgstr "Выкл"
 
 #: app/components/forms/dashboard/game/settings/settings.html:20
 #: app/components/forms/dashboard/game/settings/settings.html:31
 #: app/components/forms/dashboard/game/settings/settings.html:42
 msgid "dash.forms.on"
-msgstr "On"
+msgstr "Вкл"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
@@ -459,7 +459,7 @@ msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
 msgid "dash.forms.yes"
-msgstr "Yes"
+msgstr "Да"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
@@ -500,7 +500,7 @@ msgstr "Send Withdrawal Request"
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
-msgstr "Okay"
+msgstr "Хорошо"
 
 #: app/components/forms/dashboard/game/game.html:156
 msgid "dash.games.add.fnaf_autotag_message_html"
@@ -512,15 +512,15 @@ msgstr "Don't Tag"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
-msgstr "Add a Game"
+msgstr "Добавить игру"
 
 #: app/components/forms/dashboard/game/game.html:18
 msgid "dash.games.add.rules_accept_button"
-msgstr "Accept Rules"
+msgstr "Принять правила"
 
 #: app/components/forms/dashboard/game/game.html:10
 msgid "dash.games.add.rules_heading"
-msgstr "Rules"
+msgstr "Правила"
 
 #: app/components/forms/dashboard/game/game.html:12
 msgid "dash.games.add.rules_html"
@@ -558,7 +558,7 @@ msgstr "Game API Overview"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
-msgstr "N/A"
+msgstr "Н/Д"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
@@ -603,7 +603,7 @@ msgstr "Avg. Session Time"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sessions"
+msgstr "Сессии"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
@@ -631,11 +631,11 @@ msgstr "The total awardable EXP for trophies in your game."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
-msgstr "Trophies"
+msgstr "Трофеи"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:78
 msgid "dash.games.api.overview.trophies_label"
-msgstr "Trophies"
+msgstr "Трофеи"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
@@ -643,7 +643,7 @@ msgstr "Users w/ Trophies"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
-msgstr "Game ID"
+msgstr "ID игры"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
@@ -659,7 +659,7 @@ msgstr "Private Key"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:26
 msgid "dash.games.api.settings.key_show_link"
-msgstr "(show key)"
+msgstr "(показать ключ)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
@@ -1444,14 +1444,6 @@ msgstr "Add New Release"
 msgid "dash.games.packages.manage.releases.builds_count_none"
 msgstr "No builds yet."
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:22
-msgid "dash.games.packages.manage.releases.builds_count_one"
-msgstr "1 build"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:23
-msgid "dash.games.packages.manage.releases.builds_count_other"
-msgstr "{{ count | number }} builds"
-
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
 msgstr "Releases"
@@ -1590,7 +1582,7 @@ msgstr "Select Executable File"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
 msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
-msgstr "<p>Oh no! We didn't find any executable files for this platform in the archive.</p>"
+msgstr "<p>О нет! Мы не можем найти любой исполняемый файл для этой платформы в архиве.</p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
 msgid "dash.games.releases.builds.launch_options.form.file_error_label"
@@ -2444,12 +2436,6 @@ msgstr "Freshness indicates community interest in recent games. A game's freshne
 msgid "games.list.games_count_none"
 msgstr "No games."
 
-#: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:179
-#: app/views/library/collection/collection.html:79
-msgid "games.list.games_count_one"
-msgstr "1 game."
-
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorted by Hotness."
@@ -2600,27 +2586,27 @@ msgstr "Followers"
 msgid "library.collection.games_label"
 msgstr "Games"
 
-#: app/views/library/collection/collection.html:122
+#: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
 msgstr "There are no games in this bundle yet."
 
-#: app/views/library/collection/collection.html:120
+#: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
 msgstr "This developer hasn't added any games yet."
 
-#: app/views/library/collection/collection.html:121
+#: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
 msgstr "No games are being followed yet."
 
-#: app/views/library/collection/collection.html:113
+#: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
 msgstr "@:games.list.no_games_html"
 
-#: app/views/library/collection/collection.html:119
+#: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
 msgstr "There are no games in this playlist yet, alas."
 
-#: app/views/library/collection/collection.html:123
+#: app/views/library/collection/collection.html:129
 msgid "library.collection.no_games_tag_html"
 msgstr "There are no games with this tag yet."
 
@@ -2794,35 +2780,24 @@ msgstr "<p>News updates about the games you're following show up here.</p>\n"
 msgid "news.list.followed_tab"
 msgstr "Followed Games"
 
-#: app/views/discover/news/news.html:110
+#: app/views/discover/news/news.html:116
 msgid "news.list.no_posts_followed_html"
 msgstr "No updates to show yet! Follow more games to customize this news feed."
 
-#: app/views/discover/news/news.html:109
+#: app/views/discover/news/news.html:115
 msgid "news.list.no_posts_html"
 msgstr "No news updates to show yet."
 
-#: app/components/post/grid/grid.html:32
-#: app/components/post/list/list.html:29
-#: app/views/discover/games/view/news/list/list.html:42
-#: app/views/discover/games/view/news/view/view.html:15
+#: app/components/post/grid/grid.html:31
+#: app/components/post/list/list.html:28
+#: app/views/discover/games/view/news/list/list.html:41
+#: app/views/discover/games/view/news/view/view.html:12
 msgid "news.list.post_comments_none"
 msgstr "comment"
 
-#: app/components/post/grid/grid.html:33
-#: app/components/post/list/list.html:30
-#: app/views/discover/games/view/news/list/list.html:43
-#: app/views/discover/games/view/news/view/view.html:16
-msgid "news.list.post_comments_one"
-msgstr "1 comment"
-
-#: app/views/discover/news/news.html:84
+#: app/views/discover/news/news.html:76
 msgid "news.list.posts_count_none"
 msgstr "No articles."
-
-#: app/views/discover/news/news.html:85
-msgid "news.list.posts_count_one"
-msgstr "1 article."
 
 #: app/views/discover/news/news.html:21
 msgid "news.list.released_descriptive_html"
@@ -2851,10 +2826,6 @@ msgstr "In Development"
 #: app/components/notifications/popover/popover.html:33
 msgid "notifications.popover.dismiss_all"
 msgstr "dismiss all"
-
-#: app/components/notifications/popover/popover.html:83
-msgid "notifications.popover.more_notifications_one_button"
-msgstr "+1 more notification"
 
 #: app/components/notifications/popover/popover.html:26
 msgid "notifications.popover.no_notifications"
@@ -3631,7 +3602,7 @@ msgstr "Error! Error! This game could not be added to the playlist."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:84
 msgid "library.playlists.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:74
 msgid "library.playlists.add_game_success_growl"
@@ -3649,7 +3620,7 @@ msgstr "Error! Error! This game could not be removed from the playlist."
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:104
 #: app/views/library/collection/listing/listing-controller.js:49
 msgid "library.playlists.remove_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:94
 #: app/views/library/collection/listing/listing-controller.js:40
@@ -4385,7 +4356,7 @@ msgstr "Games by {{ user }}"
 
 #: app/views/library/collection/_header/controls.html:10
 msgid "library.collection.follow_button"
-msgstr "Follow"
+msgstr "Подписаться"
 
 #: app/views/library/collection/_header/controls.html:6
 msgid "library.collection.follow_button_tooltip"
@@ -4409,11 +4380,11 @@ msgstr "Remove from playlist."
 
 #: app/views/library/collection/listing/listing-controller.js:24
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
-msgstr "Stop following."
+msgstr "Отписаться"
 
 #: app/views/library/collection/_header/controls.html:19
 msgid "library.collection.unfollow_button"
-msgstr "Following"
+msgstr "Подписан"
 
 #: app/views/library/collection/_header/controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
@@ -4425,7 +4396,7 @@ msgstr "Uh-oh, something has prevented you from following this game."
 
 #: app/views/discover/games/view/view-controller.js:83
 msgid "library.followed.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl"
@@ -4455,7 +4426,7 @@ msgstr "Uh-oh, something has prevented you from unfollowing this game."
 #: app/views/discover/games/view/view-controller.js:61
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/views/discover/games/view/view-controller.js:53
 #: app/views/library/collection/listing/listing-controller.js:66
@@ -4489,7 +4460,7 @@ msgstr "Error! Error! Unable to unfollow this playlist."
 
 #: app/views/library/collection/collection-controller.js:220
 msgid "library.playlists.remove_playlist_error_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/views/library/collection/collection-controller.js:212
 msgid "library.playlists.remove_playlist_success_growl"
@@ -4557,7 +4528,7 @@ msgstr "The sender will not be notified."
 
 #: app/views/profile/profile.html:38
 msgid "profile.friend_tooltip"
-msgstr "You are friends! Awwww!"
+msgstr "Вы друзья! Арррр!"
 
 #: app/views/profile/profile.html:52
 msgid "profile.in_game_tooltip"
@@ -4565,11 +4536,11 @@ msgstr "This user is currently playing a game."
 
 #: app/views/profile/profile.html:43
 msgid "profile.offline_tooltip"
-msgstr "This user is currently offline."
+msgstr "Данный пользователь не в сети."
 
 #: app/views/profile/profile.html:47
 msgid "profile.online_tooltip"
-msgstr "This user is currently online."
+msgstr "Данный пользователь в сети."
 
 #: app/views/profile/profile.html:83
 msgid "profile.website_tooltip"
@@ -4590,7 +4561,7 @@ msgstr "Adventure"
 
 #: app/views/discover/games/list/category/category-controller.js:7
 msgid "discover.categories.all"
-msgstr "All"
+msgstr "Все"
 
 #: app/views/discover/games/list/category/category-controller.js:8
 msgid "discover.categories.arcade"
@@ -4638,11 +4609,11 @@ msgstr "{{ section }} Indie RPGs"
 
 #: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
-msgstr "Couldn't find that image. Maybe it was removed."
+msgstr "Невозможно найти изображение. Возможно, оно удалено."
 
 #: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
@@ -4650,15 +4621,15 @@ msgstr "Couldn't find that video. Maybe it was removed."
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
-msgstr "Oh no!"
+msgstr "О нет!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
-msgstr "All"
+msgstr "Все"
 
 #: app/views/discover/games/list/category/category-controller.js:27
 msgid "games.list.section_best"
-msgstr "The Best"
+msgstr "Лучшее"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
@@ -4675,4 +4646,67 @@ msgstr "Hot"
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
 msgstr "Newly Added"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
+msgid "dash.games.packages.manage.releases.build_count"
+msgid_plural "dash.games.packages.manage.releases.build_count"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. {{ page }} expands to the current page of games
+#: app/components/game/grid/grid.html:9
+#: app/views/discover/games/list/list.html:180
+#: app/views/library/collection/collection.html:78
+msgid "games.list.games_count"
+msgid_plural "games.list.games_count"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: app/components/post/grid/grid.html:34
+#: app/components/post/list/list.html:31
+#: app/views/discover/games/view/news/list/list.html:44
+#: app/views/discover/games/view/news/view/view.html:15
+msgid "news.list.post_comments"
+msgid_plural "news.list.post_comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. {{ page }} expands to the current page of articles
+#: app/views/discover/news/news.html:83
+msgid "news.list.posts_count"
+msgid_plural "news.list.posts_count"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: app/components/notifications/popover/popover.html:82
+msgid "notifications.popover.more_notifications_button"
+msgid_plural "notifications.popover.more_notifications_button"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: app/components/shell/footer/footer.html:34
+msgid "footer.contact"
+msgstr "Contact"
+
+#: app/components/shell/footer/footer.html:26
+msgid "footer.tagline"
+msgstr "Too many games... and counting!"
+
+#: app/components/shell/footer/footer.html:22
+msgid "footer.translations"
+msgstr "Translations are a community project."
+
+#: app/components/shell/footer/footer.html:23
+msgid "footer.translations_help"
+msgstr "Help translate!"
 
