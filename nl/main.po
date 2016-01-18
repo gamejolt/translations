@@ -27,6 +27,7 @@ msgstr "Authorisatiecode ongeldig"
 msgid "auth.authorize.success_growl"
 msgstr "We verwijzen je door naar je Gamejolt Dashboard."
 
+#. Veel sites zeggen hier ook gewoon "Gebruikersnaam of wachtwoord vergeten" (en ik denk dat dat in dit geval nog duidelijker is ook. (Many sites just say "^^^quote above^^^, and I think that will be more clear too).
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
 msgstr "Inloggegevens opvragen"
@@ -197,11 +198,11 @@ msgstr "Nieuwe Wachtwoord"
 msgid "auth.reset_password.submit_button"
 msgstr "Wachtwoord Resetten"
 
-#: app/components/shell/footer/footer.html:19
+#: app/components/shell/footer/footer.html:32
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:17
+#: app/components/shell/footer/footer.html:30
 msgid "legal.terms"
 msgstr "Voorwaarden"
 
@@ -224,7 +225,7 @@ msgstr "Bijna klaar!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Join us. Mwuahaha.<br>We have games.<br>\n"
+msgstr "Schrijf je in! Mwahhahaha<br>We hebben games.<br>\n"
 "<strong><em>Mwuahahaha!</em></strong>"
 
 #: auth/views/auth/join/join-controller.js:5
@@ -305,7 +306,7 @@ msgstr "Privacy"
 
 #: auth/views/auth/auth.html:32
 msgid "auth.legal.terms"
-msgstr "Terms"
+msgstr "Voorwaarden"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
@@ -327,7 +328,7 @@ msgstr "Sorteren"
 msgid "dash.activity.heading"
 msgstr "Activiteit"
 
-#: app/views/dashboard/activity/list/list.html:93
+#: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
 msgstr "Geen notificaties hier. Je bent of een hele snelle lezer, of je moet meer games volgen!"
 
@@ -621,7 +622,7 @@ msgstr "Gebruikers met Sessies"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
-msgstr "Trofee&eacuten Vrijgespeeld"
+msgstr "Trofee&euml;n Vrijgespeeld"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
@@ -631,17 +632,20 @@ msgstr "Trofee XP"
 msgid "dash.games.api.overview.trophies_exp_tooltip"
 msgstr "De totale hoeveelheid XP behaalbaar in je game."
 
+#. All "Trofee&eacuten" are wrong and must become "Trofee&euml;n" 
+#. Isn't there a way to modify that all in once?
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
-msgstr "Trofee&eacutem"
+msgstr "Trofee&euml;m"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:78
 msgid "dash.games.api.overview.trophies_label"
-msgstr "Trofee&eacuten"
+msgstr "Trofee&euml;\n"
+"n"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
-msgstr "Gebruikers met Trofee&eacuten"
+msgstr "Gebruikers met Trofee&euml;n"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
@@ -1322,7 +1326,7 @@ msgstr "Statistieken"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:143
 msgid "dash.games.overview.stats_na"
-msgstr "N/A"
+msgstr "-"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:126
 msgid "dash.games.overview.stats_plays"
@@ -1445,14 +1449,6 @@ msgstr "Nieuwe Uitgave Toevoegen"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
 msgid "dash.games.packages.manage.releases.builds_count_none"
 msgstr "Nog geen versies."
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:22
-msgid "dash.games.packages.manage.releases.builds_count_one"
-msgstr "1 versie"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:23
-msgid "dash.games.packages.manage.releases.builds_count_other"
-msgstr "{{ count | number }} versies"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
@@ -2446,12 +2442,6 @@ msgstr "Frisheid geeft de interesse van de gemeenschap weer. Frisheid begint hoo
 msgid "games.list.games_count_none"
 msgstr "Geen games."
 
-#: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:179
-#: app/views/library/collection/collection.html:79
-msgid "games.list.games_count_one"
-msgstr "1 game."
-
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Populariteit."
@@ -2602,27 +2592,27 @@ msgstr "Volgers"
 msgid "library.collection.games_label"
 msgstr "Games"
 
-#: app/views/library/collection/collection.html:122
+#: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
 msgstr "Er zitten nog geen games in deze bundel."
 
-#: app/views/library/collection/collection.html:120
+#: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
 msgstr "Deze ontwikkelaar heeft nog geen games toegevoegd."
 
-#: app/views/library/collection/collection.html:121
+#: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
 msgstr "Er worden nog geen games gevolgd."
 
-#: app/views/library/collection/collection.html:113
+#: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
 msgstr "@:games.list.no_games_html"
 
-#: app/views/library/collection/collection.html:119
+#: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
 msgstr "Er zijn nog geen games in deze playlist geplaatst, helaas."
 
-#: app/views/library/collection/collection.html:123
+#: app/views/library/collection/collection.html:129
 msgid "library.collection.no_games_tag_html"
 msgstr "Er zijn nog geen games met deze tag."
 
@@ -2796,35 +2786,24 @@ msgstr "<p>Nieuws updates van de games die je volgt worden hier weergegeven.</p>
 msgid "news.list.followed_tab"
 msgstr "Gevolgde Games"
 
-#: app/views/discover/news/news.html:110
+#: app/views/discover/news/news.html:116
 msgid "news.list.no_posts_followed_html"
 msgstr "Er is nog geen nieuws in de door jou gevolgde games, volg er meer."
 
-#: app/views/discover/news/news.html:109
+#: app/views/discover/news/news.html:115
 msgid "news.list.no_posts_html"
 msgstr "Er zijn nog geen nieuwsupdates om weer te geven."
 
-#: app/components/post/grid/grid.html:32
-#: app/components/post/list/list.html:29
-#: app/views/discover/games/view/news/list/list.html:42
-#: app/views/discover/games/view/news/view/view.html:15
+#: app/components/post/grid/grid.html:31
+#: app/components/post/list/list.html:28
+#: app/views/discover/games/view/news/list/list.html:41
+#: app/views/discover/games/view/news/view/view.html:12
 msgid "news.list.post_comments_none"
 msgstr "commentaar"
 
-#: app/components/post/grid/grid.html:33
-#: app/components/post/list/list.html:30
-#: app/views/discover/games/view/news/list/list.html:43
-#: app/views/discover/games/view/news/view/view.html:16
-msgid "news.list.post_comments_one"
-msgstr "1 commentaar"
-
-#: app/views/discover/news/news.html:84
+#: app/views/discover/news/news.html:76
 msgid "news.list.posts_count_none"
 msgstr "Geen artikelen."
-
-#: app/views/discover/news/news.html:85
-msgid "news.list.posts_count_one"
-msgstr "1 artikel."
 
 #: app/views/discover/news/news.html:21
 msgid "news.list.released_descriptive_html"
@@ -2853,10 +2832,6 @@ msgstr "In Ontwikkeling"
 #: app/components/notifications/popover/popover.html:33
 msgid "notifications.popover.dismiss_all"
 msgstr "alles afwijzen"
-
-#: app/components/notifications/popover/popover.html:83
-msgid "notifications.popover.more_notifications_one_button"
-msgstr "+1 notificatie"
 
 #: app/components/notifications/popover/popover.html:26
 msgid "notifications.popover.no_notifications"
@@ -3629,7 +3604,7 @@ msgstr "Error! Error! De game kan niet worden toegevoegd aan je playlist."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:84
 msgid "library.playlists.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:74
 msgid "library.playlists.add_game_success_growl"
@@ -3647,7 +3622,7 @@ msgstr "Error! Error! De game kon niet verwijderd worden uit de playlist."
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:104
 #: app/views/library/collection/listing/listing-controller.js:49
 msgid "library.playlists.remove_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:94
 #: app/views/library/collection/listing/listing-controller.js:40
@@ -3809,7 +3784,7 @@ msgstr "Forum Posts"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:30
 msgid "dash.email_prefs.notify_friendships_help"
-msgstr "Get emails about incoming and accepted friend requests."
+msgstr "Ontvang emails over inkomende en geaccepteerde vriendschapsverzoeken."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:29
 msgid "dash.email_prefs.notify_friendships_label"
@@ -4173,6 +4148,7 @@ msgstr "Versies in {{ release }} - {{ package }} - {{ game }}"
 msgid "dash.games.releases.builds.remove_build_confirmation"
 msgstr "Weet je zeker dat je deze versie wilt verwijderen?"
 
+#. 'Build' and 'Versie' are two different things (the latter is indeed the Dutch word for "version". Among fellow programmers I just say 'Build' in Dutch, so just the English word, and I actually don't know if there is an official Dutch term for it, as "Bouw" or "Gebouw" sound definitely awkward, and I don't think it will make sense to any Dutch speaker. Perhaps I need to ask somebody who is professionally trained in programming about any possible term for Dutch, but I think it's better just to use the English term, by lack of a good Dutch term. "Versie" in any case is not right.
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:177
 msgid "dash.games.releases.builds.remove_build_growl"
 msgstr "De versie is verwijderd uit de uitgave."
@@ -4335,7 +4311,7 @@ msgstr "Upload Thumbnail"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tooltip"
-msgstr "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&eacuten."
+msgstr "Verborgen trofee&euml;n zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&euml;n."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:66
 msgid "dash.games.trophies.secret_tooltip"
@@ -4417,13 +4393,14 @@ msgstr "Volgend"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Stop me volgen om de playlist uit je bibliotheek te verwijderen en notificaties te stoppen."
 
+#. Reading this line again, I'm not sure if "Iets weerhoud je" is the right type of wording. In English the sentence makes perfect sense, however in Dutch, while essentially correct, the type of wording implies to most Dutch people that something inside me (as a person) keeps me from doing something, while it is clear an error in the system is responsible for that. Since my old man is a Dutch teacher I may need to ask him whether or not this is the right type of wording.
 #: app/views/discover/games/view/view-controller.js:82
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, iets weerhoud je er van deze game te volgen."
 
 #: app/views/discover/games/view/view-controller.js:83
 msgid "library.followed.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl"
@@ -4453,7 +4430,7 @@ msgstr "Uh-oh, iets weerhoud je er van deze game niet meer te volgen."
 #: app/views/discover/games/view/view-controller.js:61
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/views/discover/games/view/view-controller.js:53
 #: app/views/library/collection/listing/listing-controller.js:66
@@ -4487,7 +4464,7 @@ msgstr "Error! Error! Kan niet stoppen met volgen van de playlist."
 
 #: app/views/library/collection/collection-controller.js:220
 msgid "library.playlists.remove_playlist_error_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/views/library/collection/collection-controller.js:212
 msgid "library.playlists.remove_playlist_success_growl"
@@ -4640,7 +4617,7 @@ msgstr "Kan de afbeelding niet vinden, misschien is deze verwijderd."
 
 #: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
@@ -4648,7 +4625,7 @@ msgstr "Kan de video niet vinden, misschien is deze verwijderd."
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nee!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
@@ -4673,4 +4650,57 @@ msgstr "Populair"
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
 msgstr "Nieuw"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
+msgid "dash.games.packages.manage.releases.build_count"
+msgid_plural "dash.games.packages.manage.releases.build_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#. {{ page }} expands to the current page of games
+#: app/components/game/grid/grid.html:9
+#: app/views/discover/games/list/list.html:180
+#: app/views/library/collection/collection.html:78
+msgid "games.list.games_count"
+msgid_plural "games.list.games_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/post/grid/grid.html:34
+#: app/components/post/list/list.html:31
+#: app/views/discover/games/view/news/list/list.html:44
+#: app/views/discover/games/view/news/view/view.html:15
+msgid "news.list.post_comments"
+msgid_plural "news.list.post_comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. {{ page }} expands to the current page of articles
+#: app/views/discover/news/news.html:83
+msgid "news.list.posts_count"
+msgid_plural "news.list.posts_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/notifications/popover/popover.html:82
+msgid "notifications.popover.more_notifications_button"
+msgid_plural "notifications.popover.more_notifications_button"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/shell/footer/footer.html:34
+msgid "footer.contact"
+msgstr "Contact"
+
+#: app/components/shell/footer/footer.html:26
+msgid "footer.tagline"
+msgstr "Too many games... and counting!"
+
+#: app/components/shell/footer/footer.html:22
+msgid "footer.translations"
+msgstr "Translations are a community project."
+
+#: app/components/shell/footer/footer.html:23
+msgid "footer.translations_help"
+msgstr "Help translate!"
 
