@@ -10,22 +10,22 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>Your authorization code is invalid.</p>\n"
-"<p>Please make sure to copy and paste the full URL that we emailed you.</p>"
+msgstr "<p>Vôtre code d'Activation est invalide.</p>\n"
+"<p>S'il vous plait, soyez sûr de copier et coller l'URL complet que nous vous avons envoyés.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
-msgstr "Invalid Authorization"
+msgstr "Activation Invalide"
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
 msgid "auth.authorize.invalid.page_title"
-msgstr "Invalid Authorization Code"
+msgstr "Code d'Activation Invalide"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "We're redirecting you to your Game Jolt dashboard now."
+msgstr "Nous vous redirigeons vers vôtre Tableau de bord Gamejolt."
 
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
@@ -38,7 +38,7 @@ msgstr "Entrez vôtre adresse e-mail et nous vous enverrons vos informations de 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
 msgid "auth.forgot.email_label"
-msgstr "Adresse mail"
+msgstr "Adresse e-mail"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
@@ -50,266 +50,265 @@ msgstr "<p>Hmm, cette adresse mail ne fait partie d'aucun compte. Peut être que
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>We've sent your login credentials to the email address you entered.</p>"
+msgstr "<p>Nous avons envoyé vos identifiants à l'adresse mail que vous avez renseigner à l'instant.</p> "
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
-msgstr "Credentials Sent"
+msgstr "Identifiants Envoyés"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "If you don't see our email within 10 minutes, please check your spam folder. It might have been gobbled up!"
+msgstr "Si vous ne voyez pas le mail aprés 10 minutes, s'il vous plait veuillez vérifier votre dossier spam. Il y est peut être."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Retrieve Credentials"
+msgstr "Récupérez vos identifiants"
 
 #: auth/views/auth/login/login.html:35
 msgid "auth.join_link"
-msgstr "Sign Up!"
+msgstr "Inscrivez-vous !"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Before you can log in to Game Jolt, you need to verify the email address on your account.</p>\n"
-"<p>We've sent you an email with instructions on how to authorize your account.</p>"
+msgstr "<p>Avant de pouvoir accéder à vôtre compte, vous devez vérifier l'adresse e-mail lié à vôtre compte.</p>\n"
+"<p>Nous vous avons envoyés un mail avec les instructions a suivre pour vérifier vôtre e-mail et pour pouvoir accéder a vôtre compte.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
-msgstr "Almost there!"
+msgstr "Vous y étes presque !"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "If you don't see an email within 10 minutes, please check your spam folder. It might have gobbled it up."
+msgstr "Si vous ne voyez pas le mail aprés 10 minutes, s'il vous plait veuillez vérifier votre dossier spam. Il y est peut être."
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Note that you have a week to authorize your account. After that, it will be deleted and you'll have to sign up again."
+msgstr "Notez que vous disposez d'une semaine pour activer votre compte.\n"
+"Aprés ça, il sera supprimer et vous devrez vous ré-inscrire."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
 msgid "auth.join.email_label"
-msgstr "Email Address"
+msgstr "Adresse e-mail"
 
 #: auth/views/auth/join/join.html:11
 msgid "auth.join.facebook_button"
-msgstr "Log In With Facebook"
+msgstr "Connectez-vous avec Facebook"
 
 #: auth/components/forms/join/join.html:25
 #: auth/components/forms/join/join.html:30
 msgid "auth.join.password_label"
-msgstr "Password"
+msgstr "Mot de passe"
 
 #: auth/components/forms/join/join.html:39
 msgid "auth.join.submit_button"
-msgstr "Sign Up"
+msgstr "Inscrivez-vous"
 
 #: auth/views/auth/join/join.html:19
 msgid "auth.join.twitter_button"
-msgstr "Sign Up With Twitter"
+msgstr "Inscrivez-vous avec Twitter"
 
 #: auth/components/forms/join/join.html:13
 #: auth/components/forms/join/join.html:20
 msgid "auth.join.username_label"
-msgstr "Username"
+msgstr "Nom d'utilisateur"
 
 #: auth/views/auth/linked-account/_processing.html:1
 msgid "auth.linked_account.loading_message"
-msgstr "Processing. Please wait..."
+msgstr "En cours. Veuillez patienter..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>The email address you entered is already in use.</p>\n"
-"<p>If you already have a Game Jolt account you can <a href=\"/login\">log in here</a>.</p>\n"
-"<p>If you've forgotten your login information, you can <a href=\"/forgot\">retrieve it here</a>.</p>"
+msgstr "<p>L'adresse e-mail que vous avez entrer est déjà utiliser.</p> <p>Si vous possédez déjà un compte GameJolt vous pouvez vous <a href=\"/login\">connectez ici</a>.</p> <p>Si vous avez oubliés vos identifiants vous pouvez <a href=\"/forgot\">les récupérer ici</a>.</p> "
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "To finish logging in with Twitter, please enter a valid email address."
+msgstr "Pour vous connectez à l'aide de Twitter , veuillez entrer une adresse e-mail valide."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
 msgid "auth.linked_account.twitter.finalize.email_label"
-msgstr "Email Address"
+msgstr "Adresse e-mail"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
 msgid "auth.linked_account.twitter.finalize.heading"
-msgstr "Email Required"
+msgstr "Adresse mail nécessaire"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
 msgid "auth.linked_account.twitter.finalize.submit_button"
-msgstr "Complete Sign Up"
+msgstr "Inscription Compléte!"
 
 #: auth/views/auth/join/join.html:33
 msgid "auth.login_link"
-msgstr "Log In"
+msgstr "Connectez-vous"
 
 #: auth/views/auth/login/login.html:12
 msgid "auth.login.facebook_button"
-msgstr "Log In With Facebook"
+msgstr "Connectez-vous avec Facebook"
 
 #: auth/components/forms/login/login.html:28
 msgid "auth.login.invalid_login_error_html"
-msgstr "Incorrect username or password."
+msgstr "Mot de passe ou nom d'utilisateur incorrect."
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Connecting to mainframe..."
+msgstr "Connection à l'unité centrale..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
 msgid "auth.login.password_label"
-msgstr "Password"
+msgstr "Mot de passe"
 
 #: auth/components/forms/login/login.html:35
 msgid "auth.login.submit_button"
-msgstr "Log In"
+msgstr "Connectez-vous"
 
 #: auth/views/auth/login/login.html:20
 msgid "auth.login.twitter_button"
-msgstr "Log In With Twitter"
+msgstr "Connectez-vous avec Twitter"
 
 #: auth/components/forms/login/login.html:13
 #: auth/components/forms/login/login.html:8
 msgid "auth.login.username_label"
-msgstr "Username"
+msgstr "Nom d'utilisateur"
 
 #: auth/views/auth/join/join.html:24
 #: auth/views/auth/join/join.html:31
 #: auth/views/auth/login/login.html:26
 #: auth/views/auth/login/login.html:33
 msgid "auth.or"
-msgstr "or"
+msgstr "ou"
 
 #: auth/views/auth/reset-password/reset-password.html:1
 msgid "auth.reset_password.heading"
-msgstr "Reset Password"
+msgstr "Réinitialiser le Mot de passe"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
-msgstr "If you'd like to reset your password, enter a new one below."
+msgstr "Si vous voulez réinitialiser le mot de passe, veuillez en entrer un nouveau ici."
 
 #: auth/components/forms/reset-password/reset-password.html:11
 #: auth/components/forms/reset-password/reset-password.html:4
 msgid "auth.reset_password.password_label"
-msgstr "New Password"
+msgstr "Nouveau Mot de passe"
 
 #: auth/components/forms/reset-password/reset-password.html:20
 msgid "auth.reset_password.submit_button"
-msgstr "Reset Password"
+msgstr "Réinitialiser le Mot de passe"
 
-#: app/components/shell/footer/footer.html:19
+#: app/components/shell/footer/footer.html:32
 msgid "legal.privacy"
-msgstr "Privacy"
+msgstr "Confidentialité"
 
-#: app/components/shell/footer/footer.html:17
+#: app/components/shell/footer/footer.html:30
 msgid "legal.terms"
-msgstr "Terms"
+msgstr "Termes d'utilisations"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:28
 msgid "auth.authorize.success_growl_title"
-msgstr "Account Authorized"
+msgstr "Compte Autoriser"
 
 #: auth/views/auth/forgot/forgot-controller.js:3
 msgid "auth.forgot.page_title"
-msgstr "Retrieve Login Credentials"
+msgstr "Récupérez les identifiants de connexion"
 
 #: auth/views/auth/forgot/sent/sent.js:10
 msgid "auth.forgot.sent.page_title"
-msgstr "Credentials Sent"
+msgstr "Identifiants envoyés"
 
 #: auth/views/auth/join/almost/almost-controller.js:3
 msgid "auth.join.almost.page_title"
-msgstr "Almost there!"
+msgstr "Vous y êtes presque!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Join us. Mwuahaha.<br>We have games.<br>\n"
-"<strong><em>Mwuahahaha!</em></strong>"
+msgstr "Rejoins-nous. Mwuahaha.<br>Nous avons des jeux.<br>\n"
+"<strong><em>Mwuahahaha!</em></strong> "
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
-msgstr "Join Game Jolt - The Largest Collection of Indie Games by People"
+msgstr "Rejoins Game Jolt - La plus grande collection de jeux indépendant fait par des amateurs"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Votre compte à été créer avec succés. A partir de la, c'est tranquille!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:36
 msgid "auth.linked_account.facebook.created_growl_title"
-msgstr "Account Created"
+msgstr "Compte créer"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:17
 msgid "auth.linked_account.facebook.duplicate_email_growl"
-msgstr "The email address on this Facebook account is already in use. Perhaps you already have an account?"
+msgstr "L'adresse e-mail sur ce compte Facebook est déjà enregistrée. Peut être que vous avez déjà un compte?"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
-msgstr "Oh no!"
+msgstr "Oh non!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:24
 msgid "auth.linked_account.facebook.failed_growl"
-msgstr "Unable to log in with Facebook."
+msgstr "Impossible de se connecté avec Facebook."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:25
 msgid "auth.linked_account.facebook.failed_growl_title"
-msgstr "Login Failed"
+msgstr "échec de la connexion"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:10
 msgid "auth.linked_account.facebook.no_email_growl"
-msgstr "Your Facebook account did not return an email address. Make sure you have verified it with Facebook."
+msgstr "Vôtre compte Facebook na pas retourné d'adresse e-mail. Soyez sûr d'avoir vérifié votre adresse au prés de Facebook."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
-msgstr "Oh no!"
+msgstr "Oh non!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Votre compte à été créer avec succés. A partir de la, c'est tranquille!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
-msgstr "Account Created"
+msgstr "Compte créer"
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:15
 msgid "auth.linked_account.twitter.failed_growl"
-msgstr "Unable to log in with Twitter."
+msgstr "Impossible de se connecter avec Twitter."
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:16
 msgid "auth.linked_account.twitter.failed_growl_title"
-msgstr "Login Failed"
+msgstr "Echec de la connection"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:3
 msgid "auth.linked_account.twitter.finalize.page_title"
-msgstr "Email Required"
+msgstr "Adresse e-mail requise"
 
 #: auth/views/auth/login/login-controller.js:3
 msgid "auth.login.page_title"
-msgstr "Log in to Game Jolt"
+msgstr "Connectez-vous à Game Jolt"
 
 #: auth/views/auth/reset-password/reset-password-controller.js:3
 msgid "auth.reset_password.page_title"
-msgstr "Reset Password"
+msgstr "Réinitialiser le Mot de passe"
 
 #: auth/views/auth/reset-password/reset-password-controller.js:11
 msgid "auth.reset_password.success_growl"
-msgstr "Your password has been reset. Now you can log in with your new one."
+msgstr "Vôtre mot de passe à été réinitialiser. Vous pouvez à présent vous connecter avec le nouveau."
 
 #: auth/views/auth/reset-password/reset-password-controller.js:12
 msgid "auth.reset_password.success_growl_title"
-msgstr "Password Changed"
+msgstr "Mot de passe changé"
 
 #: auth/views/auth/auth.html:35
 msgid "auth.legal.privacy"
-msgstr "Privacy"
+msgstr "Confidentialité"
 
 #: auth/views/auth/auth.html:32
 msgid "auth.legal.terms"
-msgstr "Terms"
+msgstr "Termes"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
-msgstr "<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>"
+msgstr "<p>Faites vous des amis pour discutez avec eux, voir à quoi ils jouents, et même jouer avec eux!</p>"
 
 #: app/views/dashboard/activity/list/list.html:11
 msgid "dash.activity.all_tab"
@@ -327,7 +326,7 @@ msgstr "Showing {{ filter }}"
 msgid "dash.activity.heading"
 msgstr "Activity Feed"
 
-#: app/views/dashboard/activity/list/list.html:93
+#: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
 msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
 
@@ -1444,14 +1443,6 @@ msgstr "Add New Release"
 msgid "dash.games.packages.manage.releases.builds_count_none"
 msgstr "No builds yet."
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:22
-msgid "dash.games.packages.manage.releases.builds_count_one"
-msgstr "1 build"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:23
-msgid "dash.games.packages.manage.releases.builds_count_other"
-msgstr "{{ count | number }} builds"
-
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
 msgstr "Releases"
@@ -2444,12 +2435,6 @@ msgstr "Freshness indicates community interest in recent games. A game's freshne
 msgid "games.list.games_count_none"
 msgstr "No games."
 
-#: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:179
-#: app/views/library/collection/collection.html:79
-msgid "games.list.games_count_one"
-msgstr "1 game."
-
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorted by Hotness."
@@ -2600,27 +2585,27 @@ msgstr "Followers"
 msgid "library.collection.games_label"
 msgstr "Games"
 
-#: app/views/library/collection/collection.html:122
+#: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
 msgstr "There are no games in this bundle yet."
 
-#: app/views/library/collection/collection.html:120
+#: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
 msgstr "This developer hasn't added any games yet."
 
-#: app/views/library/collection/collection.html:121
+#: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
 msgstr "No games are being followed yet."
 
-#: app/views/library/collection/collection.html:113
+#: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
 msgstr "@:games.list.no_games_html"
 
-#: app/views/library/collection/collection.html:119
+#: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
 msgstr "There are no games in this playlist yet, alas."
 
-#: app/views/library/collection/collection.html:123
+#: app/views/library/collection/collection.html:129
 msgid "library.collection.no_games_tag_html"
 msgstr "There are no games with this tag yet."
 
@@ -2794,35 +2779,24 @@ msgstr "<p>News updates about the games you're following show up here.</p>\n"
 msgid "news.list.followed_tab"
 msgstr "Followed Games"
 
-#: app/views/discover/news/news.html:110
+#: app/views/discover/news/news.html:116
 msgid "news.list.no_posts_followed_html"
 msgstr "No updates to show yet! Follow more games to customize this news feed."
 
-#: app/views/discover/news/news.html:109
+#: app/views/discover/news/news.html:115
 msgid "news.list.no_posts_html"
 msgstr "No news updates to show yet."
 
-#: app/components/post/grid/grid.html:32
-#: app/components/post/list/list.html:29
-#: app/views/discover/games/view/news/list/list.html:42
-#: app/views/discover/games/view/news/view/view.html:15
+#: app/components/post/grid/grid.html:31
+#: app/components/post/list/list.html:28
+#: app/views/discover/games/view/news/list/list.html:41
+#: app/views/discover/games/view/news/view/view.html:12
 msgid "news.list.post_comments_none"
 msgstr "comment"
 
-#: app/components/post/grid/grid.html:33
-#: app/components/post/list/list.html:30
-#: app/views/discover/games/view/news/list/list.html:43
-#: app/views/discover/games/view/news/view/view.html:16
-msgid "news.list.post_comments_one"
-msgstr "1 comment"
-
-#: app/views/discover/news/news.html:84
+#: app/views/discover/news/news.html:76
 msgid "news.list.posts_count_none"
 msgstr "No articles."
-
-#: app/views/discover/news/news.html:85
-msgid "news.list.posts_count_one"
-msgstr "1 article."
 
 #: app/views/discover/news/news.html:21
 msgid "news.list.released_descriptive_html"
@@ -2851,10 +2825,6 @@ msgstr "In Development"
 #: app/components/notifications/popover/popover.html:33
 msgid "notifications.popover.dismiss_all"
 msgstr "dismiss all"
-
-#: app/components/notifications/popover/popover.html:83
-msgid "notifications.popover.more_notifications_one_button"
-msgstr "+1 more notification"
 
 #: app/components/notifications/popover/popover.html:26
 msgid "notifications.popover.no_notifications"
@@ -4671,4 +4641,57 @@ msgstr "Hot"
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
 msgstr "Newly Added"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
+msgid "dash.games.packages.manage.releases.build_count"
+msgid_plural "dash.games.packages.manage.releases.build_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#. {{ page }} expands to the current page of games
+#: app/components/game/grid/grid.html:9
+#: app/views/discover/games/list/list.html:180
+#: app/views/library/collection/collection.html:78
+msgid "games.list.games_count"
+msgid_plural "games.list.games_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/post/grid/grid.html:34
+#: app/components/post/list/list.html:31
+#: app/views/discover/games/view/news/list/list.html:44
+#: app/views/discover/games/view/news/view/view.html:15
+msgid "news.list.post_comments"
+msgid_plural "news.list.post_comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. {{ page }} expands to the current page of articles
+#: app/views/discover/news/news.html:83
+msgid "news.list.posts_count"
+msgid_plural "news.list.posts_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/notifications/popover/popover.html:82
+msgid "notifications.popover.more_notifications_button"
+msgid_plural "notifications.popover.more_notifications_button"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/shell/footer/footer.html:34
+msgid "footer.contact"
+msgstr "Contact"
+
+#: app/components/shell/footer/footer.html:26
+msgid "footer.tagline"
+msgstr "Too many games... and counting!"
+
+#: app/components/shell/footer/footer.html:22
+msgid "footer.translations"
+msgstr "Translations are a community project."
+
+#: app/components/shell/footer/footer.html:23
+msgid "footer.translations_help"
+msgstr "Help translate!"
 
