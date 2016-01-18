@@ -27,6 +27,7 @@ msgstr "Cod de Autorizare Invalid"
 msgid "auth.authorize.success_growl"
 msgstr "Acum te redirecționam catre bordul tău de pe Game Jolt."
 
+#: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
 msgstr "Ai uitat Numele de Utilizator sau Parola"
@@ -70,7 +71,7 @@ msgstr "Înregistrează-te!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Înainte de a te conecta la Game Jolt, trebuie sa verifici adresa de e-mail a contului tău.</p>\n"
+msgstr "<p>Înainte de a te conecta la Game Jolt, trebuie să verifici adresa de e-mail a contului tău.</p>\n"
 "\t<p>Am trimis un E-mail cu instrucțiunile de activare ale contului tău.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
@@ -79,7 +80,7 @@ msgstr "Aproape gata!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "Dacă nu vezi un E-Mail în zece minute, te rugăm să verifici fișierul pentru spam. Este posibil ca acesta sa fi ajuns acolo!"
+msgstr "Dacă nu primeşti niciun e-mail în zece minute, te rugăm să verifici fișierul pentru spam. Este posibil ca acesta să fi ajuns acolo!"
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
@@ -88,7 +89,7 @@ msgstr "Reține faptul că ai o săptămână la dispoziție să îți activezi 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
 msgid "auth.join.email_label"
-msgstr "Adresa de E-Mail"
+msgstr "Adresa de e-mail"
 
 #: auth/views/auth/join/join.html:11
 msgid "auth.join.facebook_button"
@@ -129,7 +130,7 @@ msgstr "Pentru a finaliza conectarea prin Twitter, vă rugăm să introduceți o
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
 msgid "auth.linked_account.twitter.finalize.email_label"
-msgstr "Adresă de E-Mail"
+msgstr "Adresă de e-mail"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
 msgid "auth.linked_account.twitter.finalize.heading"
@@ -244,7 +245,7 @@ msgstr "Adresa de e-mail de pe acest cont de Facebook este în folosința. Poate
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
-msgstr "O nu!"
+msgstr "O, nu!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:24
 msgid "auth.linked_account.facebook.failed_growl"
@@ -260,11 +261,11 @@ msgstr "Contul tău de Facebook nu a returnat nici o adresă de e-mail. Asigura�
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
-msgstr "O nu!"
+msgstr "O, nu!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Contul tău a fost creat. De acum îl puteți folosi!"
+msgstr "Contul tău a fost creat. De acum îl poţi folosi!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
@@ -348,15 +349,15 @@ msgstr "Poza de Profil"
 
 #: app/views/dashboard/account/avatar/avatar.html:6
 msgid "dash.avatar.current_label"
-msgstr "Poza de Profil Actuala"
+msgstr "Poza Actuală de Profil"
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
-msgstr "Get Gravatar Account"
+msgstr "Creează-ţi un cont Gravatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Cum să îţi iei avatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
@@ -400,15 +401,15 @@ msgstr "Preferințele Tale de Email"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Receive Newsletter?"
+msgstr "Vrei să primeşti noutăţile prin e-mail?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Adu-ne la cunoștință ce fel de notificări prin Email ai vrea să primești prin setarea fiecarei categorii pe pornit sau oprit."
+msgstr "Adu-ne la cunoștință ce fel de notificări prin Email ai vrea să primești prin setarea fiecărei categorii pe pornit sau oprit."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
-msgstr "Notificari"
+msgstr "Notificări"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
@@ -422,8 +423,8 @@ msgstr "Salvați Preferințe"
 #: app/components/forms/dashboard/game/image/image.html:11
 #: app/components/forms/dashboard/game/trophy/trophy.html:40
 msgid "dash.forms.image_filetype_help_html"
-msgstr "Imagines trebuie sa fie sub format PNG, JPG sau GIF. <br>\n"
-"<strong>PNG este cel mai recomandat deoarece produce o imagine fără pierderi.</storng>\n"
+msgstr "Imaginea trebuie să fie sub format PNG, JPG sau GIF. <br>\n"
+"<strong>PNG este cel mai recomandat, deoarece produce o imagine fără pierderi.</storng>\n"
 ""
 
 #: app/components/forms/dashboard/game/build/build.html:163
@@ -450,8 +451,8 @@ msgstr "Pornit"
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
 msgstr "Imaginea de miniatură trebuie să fie PNG, JPG sau GIF.<br>\n"
-"GIF-urile animate permit jucătorilor să aiba o licărire a jocului tău in acțiune.<br>\n"
-"Pentru imagini fără aimație, PNG-urile sunt recomandate deoarece produc imagini fără pierderi."
+"GIF-urile animate permit jucătorilor să aibă parte de o previzualizare a jocului tău in acțiune.<br>\n"
+"Pentru imagini fără animație, PNG-urile sunt recomandate deoarece produc imagini fără pierderi."
 
 #: app/components/forms/dashboard/game/build/build.html:162
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
@@ -485,8 +486,7 @@ msgstr "Retrage Beneficiul"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
-msgstr "<p>Please allow 3 days for withdrawals to be processed. At this time all withdrawals are processed through <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p>\n"
-"\t<p>If you don't have a PayPal account, you will not be able to withdraw any money. Please be sure to <a href=\"https://www.paypal.com\" target=\"_blank\">sign up with a PayPal account</a> <em>before</em> trying to withdraw funds.</p>"
+msgstr "<p>Vă rugăm să aşteptaţi 3 zile pentru sumele retrase pentru a fi procesate. În acest moment, toate sumele retrase sunt procesate prin <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p> <p>Dacă nu aveţi un cont de PayPal, nu o să aveţi posibilitatea să retrageţi banii. Vă rugăm să vă asiguraţi că <a href=\"https://www.paypal.com\" target=\"_blank\">vă înregistraţi cu un cont PayPal</a> <em>înainte</em> de a încerca să retrageţi o anumită sumă.</p> "
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
 msgid "dash.funds.withdraw.revenue_pending"
@@ -494,11 +494,11 @@ msgstr "Retragere în Așteptare"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
-msgstr "Withdrawable Amount"
+msgstr "Sumă de Retras"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.submit_button"
-msgstr "Send Withdrawal Request"
+msgstr "Trimite Cerere pentru a Retrage Suma"
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
@@ -506,12 +506,12 @@ msgstr "În regulă"
 
 #: app/components/forms/dashboard/game/game.html:156
 msgid "dash.games.add.fnaf_autotag_message_html"
-msgstr "<strong>Se pare că jocul tău ar putea sa fie un fan-joc Five Nights at Freddie's, un ''spin-off'' sau o continuare neoficiala.</strong> Prin urmare am adăugat tag-ul <code>#fnaf</code> in descrierea jocului tău. Cerem acest tag tuturor jocurilor derivate din seria '' Five Nights at Freddie's ''\n"
+msgstr "<strong>Se pare că jocul tău ar putea să fie un fan-joc Five Nights at Freddie's, un ''spin-off'' sau o continuare neoficială.</strong> Prin urmare am adăugat tag-ul <code>#fnaf</code> in descrierea jocului tău. Cerem acest tag tuturor jocurilor derivate din seria '' Five Nights at Freddie's ''\n"
 ""
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Don't Tag"
+msgstr "Nu Da Tag"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
@@ -527,22 +527,12 @@ msgstr "Reguli"
 
 #: app/components/forms/dashboard/game/game.html:12
 msgid "dash.games.add.rules_html"
-msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
-"\t<ul>\n"
-"\t\t<li>Game Jolt is currently only accepting free games. There must be no requirement to pay in order to play your game.</li>\n"
-"\t\t<li>Don't upload games you didn't make. If you are not the game's developer, don't add the game to the site. If you're a fan, encourage the developer to add it themselves.</li>\n"
-"\t\t<li>Publishers are not allowed to upload games; only developers are. Remember: This is Indie.</li>\n"
-"\t\t<li>Our name is \"Game Jolt\". As such, only actual <em>games</em> may be uploaded to the site. No applications, software, or tools are allowed at this time. We may accept these in the future or on a case by case basis, but for now, let's just keep it to games.</li>\n"
-"\t\t<li>No stripped-down demos or \"lite\" versions of commercial games are permitted. You must upload a totally free version of your game, and it must be as complete a version as is publicly available.</li>\n"
-"\t\t<li>We welcome and encourage you to add games that are incomplete and still in development, as long as they are tagged as Works-in-Progress. However, you should keep your game hidden until you have something to show. Work-in-Progress games do not have to be playable, but they must be further along than the concept stage. Before you unhide the game, make sure you at least have some screenshots and an informative description.</li>\n"
-"\t\t<li>Do not add links to download or play your game on other sites unless you have already uploaded it to Game Jolt. You can't use your game page as an advertisement for another site.</li>\n"
-"\t\t<li>For browser-based games, we don't allow you to display ads in the preloader on Game Jolt. Remove any ads or block them from showing on the site.</li>\n"
-"\t<p>If you have questions or concerns about the rules, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p>"
+msgstr "<p>Trebuie să accepţi următoarele reguli înainte de a încărca un joc:</p> <ul> <li>Momentan, Game Jolt acceptă doar jocuri gratuite. Este interzisă cererea oricărei sume de bani în timpul jocului.</li> <li>Nu pune pe acest site jocuri pe care nu le-ai creeat tu. Dacă eşti un fan al jocului, încurajează creatorul să îl încarce el însuşi</li> <li>Publisher-ii nu au permisiunea de a pune jocuri; doar developerii pot. Ţine minte: Acest site e Indie (Independent).</li> <li>Numele nostru este ''Game Jolt''. De aceea,doar <em>jocurile</em> pot fi încărcate pe acest site. Nicio aplicaţie, software, sau vreun instrument nu sunt permise momentan. Este posibil să acceptăm în viitor, dar în acest moment, haideţi să păstrăm sensul numelui.</li> <li>Nu sunt permise demo-uri sau versiuni ''lite'' ale jocurilor comerciale. Trebuie să încarci o versiune TOTAL gratuită a jocului, şi trebuie să fie completă.</li> <li>Te încurajăm să adaugi jocuri care sunt incomplete/în stare avansată de developare, atât timp cât au eticheta ''Muncă în Progres''. Cu toate acestea, ar trebui să păstrezi jocul ascuns, până când ai ceva de arătat. Jocurile sub eticheta ''Muncă în Progres'' nu trebuie să fie necesar jucabile, dar trebuie să fie mult deasupra stadiului de concept. Până când arăţi jocul, ai grijă să pui câteva capturi de ecran, şi o descriere informativă.</li> <li>Nu pune link-uri către alte site-uri, atât timp cât nu ai postat jocul pe Game Jolt. Nu poţi folosi pagina jocului drept o reclamă pentru alt site.</li> <li>Pentru jocurile HTML5 sau Flash care sunt jucabile direct de pe site, nu îţi permitem să afişezi reclame în timpul încărcării. Şterge reclamele, sau blochează-le de la a fi afişate pe site.</li> <p>Dacă ai vreo întrebare sau vreo sugestie în privinţa regulamentului, contactează-ne pe: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p> "
 
 #. This is a tad though one since there is no stand alone word/abbreviation like API in Romanian without having to define it with an entire phrase...
 #: app/views/dashboard/developer/games/manage/manage.html:51
 msgid "dash.games.api_tab"
-msgstr "Game API"
+msgstr "API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
@@ -2288,7 +2278,7 @@ msgstr "This Week's Best Games"
 msgid "discover.home.week_best_help"
 msgstr "The highest rated games published in the past 7 days."
 
-#: app/components/shell/menu-popover/menu-popover.html:70
+#: app/components/shell/menu-popover/menu-popover.html:69
 msgid "discover.nav.featured_playlists"
 msgstr "Featured Playlists"
 
@@ -2996,11 +2986,11 @@ msgstr "Games"
 msgid "search.autocomplete.installed_heading"
 msgstr "Installed Games"
 
-#: app/components/search/autocomplete/autocomplete.html:106
+#: app/components/search/autocomplete/autocomplete.html:105
 msgid "search.autocomplete.no_commands"
 msgstr "No commands match."
 
-#: app/components/search/autocomplete/autocomplete.html:15
+#: app/components/search/autocomplete/autocomplete.html:14
 msgid "search.autocomplete.show_all"
 msgstr "Show all results..."
 
@@ -3017,7 +3007,7 @@ msgstr "Search"
 msgid "search.recent.clear_button"
 msgstr "Clear Recent Searches"
 
-#: app/components/search/history/history.html:20
+#: app/components/search/history/history.html:19
 msgid "search.recent.none"
 msgstr "No searches yet."
 
@@ -4793,4 +4783,96 @@ msgid_plural "games.view.notifications_news"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "dash.funds.withdraw.amount_help"
+msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+
+#: app/components/forms/dashboard/game/song/song.html:15
+msgid "dash.games.music.form.file_help_block"
+msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:34
+msgid "dash.games.news.posted_on"
+msgstr "Posted on: {{ date | date:'medium' }}"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
+msgid "dash.games.packages.manage.releases.release_title"
+msgstr "Release {{ version }}"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
+msgid "dash.games.trophies.add_button"
+msgstr "Add {{ difficulty }} Trophy"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
+msgid "dash.games.trophies.no_trophies"
+msgstr "No {{ difficulty | lowercase }} trophies added yet."
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
+msgid "dash.games.trophies.section_heading"
+msgstr "{{ difficulty }} Trophies"
+
+#: app/views/discover/games/view/download/build/build.html:13
+msgid "game.download.game.downloading_label"
+msgstr "Downloading {{ game }}..."
+
+#: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
+msgid "game.download.soundtrack.downloading_label"
+msgstr "Downloading soundtrack..."
+
+#: app/views/discover/games/list/list.html:27
+msgid "games.list.date_heading_small"
+msgstr "on {{ date }}"
+
+#: app/views/discover/games/list/list.html:31
+msgid "games.list.date_range_heading_small"
+msgstr "between {{ dateStart }} and {{ dateEnd }}"
+
+#: app/components/game/thumbnail/thumbnail.html:30
+msgid "games.thumbnail.ratings"
+msgstr "{{ count | number }} rating(s)"
+
+#: app/views/library/collection/_header-default.html:88
+msgid "library.collection.bundle_heading"
+msgstr "{{ bundle }}"
+
+#: app/views/library/collection/_header-default.html:76
+msgid "library.collection.playlist_heading"
+msgstr "{{ playlist }}"
+
+#: app/views/library/collection/_header-tag.html:12
+msgid "library.collection.tag_heading"
+msgstr "#{{ tag }}"
+
+#: app/components/game/collection/grid/grid.html:41
+msgid "library.playlists.subscription_developer_description"
+msgstr "Games made by {{ user }}."
+
+#: app/components/game/collection/grid/grid.html:37
+msgid "library.playlists.subscription_followed_description"
+msgstr "Games followed by {{ user }}."
+
+#: app/components/activity/feed/feed.html:50
+msgid "notifications.rating_details_title"
+msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+
+#: app/views/profile/overview/overview.html:127
+msgid "profile.developer_games_teaser_button"
+msgstr "View All ({{ gamesCount | number }})"
+
+#: app/views/profile/overview/overview.html:59
+msgid "profile.friend_request_received_pending"
+msgstr "{{ user }} would like to be your friend."
+
+#: app/views/profile/overview/overview.html:49
+msgid "profile.friend_request_sent_pending"
+msgstr "Friend request to {{ user }} pending acceptance."
+
+#: app/components/score/overview/overview.html:93
+msgid "scores.overview.user_best_exp_tooltip"
+msgstr "{{ experience | number }} EXP gained from this score!"
+
+#: app/components/trophy/overview/overview.html:55
+msgid "trophies.overview.more_link"
+msgstr "+{{ extraCount | number }} more"
 
