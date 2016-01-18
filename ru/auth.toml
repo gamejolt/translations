@@ -1,6 +1,6 @@
 [auth]
 	# This is for the links a the bottom of login/join auth pages.
-	or = "or"
+	or = "или"
 	join_link = "Зарегистрироваться!"
 	login_link = "Войти"
 	forgot_link = "Забыл имя или пароль"
@@ -41,7 +41,7 @@
 	join_message_html_1 = "Присоединяйтесь. Муахаха. <br>У нас есть игры. <br><strong><em>Муахахахаха!</em></strong>"
 	join_message_html_2 = "Присоединяйтесь к нашей космической ракете чтобы исследовать суперновую звезду геймдева."
 
-	email_label = "Адресс эллектронной почты"
+	email_label = "Адрес эллектронной почты"
 	username_label = "Имя пользователя"
 	password_label = "Пароль"
 
@@ -74,7 +74,7 @@
 	heading = "Авторизация невозможна"
 	body_html = """
 	<p>Ваш активационный код неверен.</p>
-	<p>Пожаллуйста, удостоверьтесь что вы скопировали URL из нашего сообщения правильно.</p>
+	<p>Пожалуйста, удостоверьтесь что вы скопировали URL из нашего сообщения правильно.</p>
 	"""
 
 # /forgot
@@ -83,7 +83,7 @@
 	heading = "@:auth.forgot.page_title"
 
 	email_help = "Введите вашу электронную почту и мы вам отправим ваши настройки."
-	email_label = "Адресс Email"
+	email_label = "Адрес Email"
 	submit_button = "Отправка данных профилля"
 
 	# If the email address they enter isn't a registered user, this shows up as an error message.
