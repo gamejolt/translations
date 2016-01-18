@@ -2494,7 +2494,7 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "News"
 
-#: app/views/discover/games/view/view.html:16
+#: app/views/discover/games/view/view.html:15
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
@@ -3681,7 +3681,7 @@ msgstr "New Comments"
 msgid "notifications.new_friends_label"
 msgstr "Yeni Arkadaşlar"
 
-#: app/components/rating/widget/widget.html:20
+#: app/components/rating/widget/widget.html:21
 msgid "rating.clear"
 msgstr "Clear Rating"
 
@@ -4695,4 +4695,86 @@ msgstr "Translations are a community project."
 #: app/components/shell/footer/footer.html:23
 msgid "footer.translations_help"
 msgstr "Help translate!"
+
+#: app/components/game/filtering/filtering-service.js:17
+msgid "games.filtering.browser"
+msgstr "Browser"
+
+#: app/components/game/filtering/filtering-service.js:23
+msgid "games.filtering.browser_applet"
+msgstr "Java Applet"
+
+#: app/components/game/filtering/filtering-service.js:21
+msgid "games.filtering.browser_flash"
+msgstr "Flash"
+
+#: app/components/game/filtering/filtering-service.js:20
+msgid "games.filtering.browser_html"
+msgstr "HTML"
+
+#: app/components/game/filtering/filtering-service.js:24
+msgid "games.filtering.browser_silverlight"
+msgstr "Silverlight"
+
+#: app/components/game/filtering/filtering-service.js:22
+msgid "games.filtering.browser_unity"
+msgstr "Unity"
+
+#: app/components/game/filtering/filtering-service.js:28
+msgid "games.filtering.maturity"
+msgstr "Maturity"
+
+#: app/components/game/filtering/filtering-service.js:33
+msgid "games.filtering.maturity_adult"
+msgstr "Adult Content"
+
+#: app/components/game/filtering/filtering-service.js:31
+msgid "games.filtering.maturity_everyone"
+msgstr "All Ages"
+
+#: app/components/game/filtering/filtering-service.js:32
+msgid "games.filtering.maturity_teen"
+msgstr "Teen Content"
+
+#: app/components/game/filtering/filtering-service.js:7
+msgid "games.filtering.os"
+msgstr "OS"
+
+#: app/components/game/filtering/filtering-service.js:12
+msgid "games.filtering.os_linux"
+msgstr "Linux"
+
+#: app/components/game/filtering/filtering-service.js:11
+msgid "games.filtering.os_mac"
+msgstr "Mac"
+
+#: app/components/game/filtering/filtering-service.js:13
+msgid "games.filtering.os_other"
+msgstr "Other"
+
+#: app/components/game/filtering/filtering-service.js:10
+msgid "games.filtering.os_windows"
+msgstr "Windows"
+
+#: app/components/game/filtering/filtering-service.js:37
+msgid "games.filtering.status"
+msgstr "Status"
+
+#: app/components/game/filtering/filtering-service.js:42
+msgid "games.filtering.status_canceled"
+msgstr "Canceled"
+
+#: app/components/game/filtering/filtering-service.js:40
+msgid "games.filtering.status_complete"
+msgstr "Complete"
+
+#: app/components/game/filtering/filtering-service.js:41
+msgid "games.filtering.status_wip"
+msgstr "Work in Progress"
+
+#: app/views/discover/games/view/view.html:18
+msgid "games.view.notifications_news"
+msgid_plural "games.view.notifications_news"
+msgstr[0] ""
+msgstr[1] ""
 
