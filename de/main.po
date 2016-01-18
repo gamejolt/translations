@@ -27,6 +27,7 @@ msgstr "Ungültiger Authorisierungscode"
 msgid "auth.authorize.success_growl"
 msgstr "Du wirst nun zum Game Jolt Dashboard weitergeleitet."
 
+#: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
 msgid "auth.forgot_link"
 msgstr "Benutzername oder Passwort vergessen"
@@ -153,7 +154,7 @@ msgstr "Falscher Benutzername oder falsches Passwort."
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Connecting to mainframe..."
+msgstr "Verbinde zum Zentralrechner"
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
@@ -224,8 +225,8 @@ msgstr "Fast da!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Join us. Mwuahaha.<br>We have games.<br>\n"
-"<strong><em>Mwuahahaha!</em></strong>"
+msgstr "Trete uns Bei. Mwuahaha.<br>Wir haben Spiele.<br>\n"
+"<strong><em>Mwuahahaha!</em></strong> "
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
@@ -301,39 +302,39 @@ msgstr "Passwort wurde geändert"
 
 #: auth/views/auth/auth.html:35
 msgid "auth.legal.privacy"
-msgstr "Privacy"
+msgstr "Privatsphäre"
 
 #: auth/views/auth/auth.html:32
 msgid "auth.legal.terms"
-msgstr "Terms"
+msgstr "Bedingungen"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
-msgstr "<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>"
+msgstr "<p>Mache Freunde auf der Seite,um mit ihnen zu Reden,Um zu sehen,was sie Spielen und um mit ihnen Spiele zu spielen!</p> "
 
 #: app/views/dashboard/activity/list/list.html:11
 msgid "dash.activity.all_tab"
-msgstr "All Activity"
+msgstr "Alle Aktivitäten"
 
 #: app/views/dashboard/activity/list/list.html:69
 msgid "dash.activity.dismiss_all_button"
-msgstr "Mark All as Read"
+msgstr "Markiere Alles als Gelesen"
 
 #: app/views/dashboard/activity/list/list.html:52
 msgid "dash.activity.filter_button"
-msgstr "Showing {{ filter }}"
+msgstr "Zeige {{ filter }}"
 
 #: app/views/dashboard/activity/list/list.html:6
 msgid "dash.activity.heading"
-msgstr "Activity Feed"
+msgstr "Aktivitäts Feed"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
-msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
+msgstr "Keine Neuigkeiten Hier.Entweder bist du ein schneller Leser oder du must Mehr Sachen folgen!"
 
 #: app/views/dashboard/activity/list/list.html:24
 msgid "dash.activity.unread_tab"
-msgstr "Unread"
+msgstr "Ungelesen"
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
@@ -344,35 +345,35 @@ msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Global
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
-msgstr "Your Avatar"
+msgstr "Dein Avatar"
 
 #: app/views/dashboard/account/avatar/avatar.html:6
 msgid "dash.avatar.current_label"
-msgstr "Current Avatar"
+msgstr "Momentaner Avatar"
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
-msgstr "Get Gravatar Account"
+msgstr "Mach ein Gravatar-Account!"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Einen Gravatar kriegen"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
-msgstr "Your Avatar"
+msgstr "Dein Avatar"
 
 #: app/components/forms/dashboard/change-password/change-password.html:23
 msgid "dash.change_pass.confirm_password_label"
-msgstr "Confirm New Password"
+msgstr "Neues Passwort bestätigen"
 
 #: app/views/dashboard/account/change-password/change-password-controller.js:4
 msgid "dash.change_pass.heading"
-msgstr "Change Account Password"
+msgstr "Ändere Account-Passwort"
 
 #: app/components/forms/dashboard/change-password/change-password.html:10
 msgid "dash.change_pass.invalid_old_password_error"
-msgstr "The password you entered is invalid."
+msgstr "Das Passwort,was du Eingegeben hast,ist Falsch."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
@@ -380,23 +381,23 @@ msgstr "The passwords you entered don't match. Try re-typing them and make sure 
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
-msgstr "Old Password"
+msgstr "Altes Passwort"
 
 #: app/views/dashboard/account/change-password/change-password-controller.js:3
 msgid "dash.change_pass.page_title"
-msgstr "Change Password"
+msgstr "Passwort ändern"
 
 #: app/components/forms/dashboard/change-password/change-password.html:14
 msgid "dash.change_pass.password_label"
-msgstr "New Password"
+msgstr "Neues Passwort"
 
 #: app/components/forms/dashboard/change-password/change-password.html:37
 msgid "dash.change_pass.submit_button"
-msgstr "Change Account Password"
+msgstr "Ändere Account Passwort"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
-msgstr "Your Email Preferences"
+msgstr "Deine E-Mail vorlieben"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
@@ -408,11 +409,11 @@ msgstr "Let us know what kinds of email notifications you'd like to receive by t
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
-msgstr "Notifications"
+msgstr "Benachrichtigung"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
-msgstr "Email Preferences"
+msgstr "E-Mail vorlieben"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
@@ -471,11 +472,11 @@ msgstr "This must be a valid email address attached to a PayPal account."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
-msgstr "PayPal Email Address"
+msgstr "PayPal E-Mail Adresse"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
-msgstr "Make sure that the information you enter below is correct. You will not get a chance to change it after you submit."
+msgstr "Gehe Sicher,dass die Informationen,die du Eingegeben hast unten,richtig sind.Du kriegst keine Weitere Chance,sie zu ändern,nachdem du es hochgeladen hast."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
@@ -508,19 +509,19 @@ msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Don't Tag"
+msgstr "Nicht Taggen"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
-msgstr "Add a Game"
+msgstr "Füge ein Spiel hinzu"
 
 #: app/components/forms/dashboard/game/game.html:18
 msgid "dash.games.add.rules_accept_button"
-msgstr "Accept Rules"
+msgstr "Akzeptiere die Regeln"
 
 #: app/components/forms/dashboard/game/game.html:10
 msgid "dash.games.add.rules_heading"
-msgstr "Rules"
+msgstr "Regeln"
 
 #: app/components/forms/dashboard/game/game.html:12
 msgid "dash.games.add.rules_html"
@@ -538,7 +539,7 @@ msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
 
 #: app/views/dashboard/developer/games/manage/manage.html:51
 msgid "dash.games.api_tab"
-msgstr "Game API"
+msgstr "Spiele API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
@@ -546,23 +547,23 @@ msgstr "Data Store"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
-msgstr "Global Items"
+msgstr "Globale Gegenstände"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
 msgid "dash.games.api.overview.data_items_tooltip"
-msgstr "The total number of stored global data items."
+msgstr "Die insgesamte Nummer von Aufbewahrten Globalen Dateien-Gegenstände."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
 msgid "dash.games.api.overview.heading"
-msgstr "Game API Overview"
+msgstr "Spiele API Übersicht"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
-msgstr "N/A"
+msgstr "N/V"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
-msgstr "Find help in the API forums..."
+msgstr "Finde Hilfe in den API Forumen..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
@@ -619,11 +620,11 @@ msgstr "Users w/ Sessions"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
-msgstr "Trophies Achieved"
+msgstr "Trophäen Erhalten"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
-msgstr "Trophy EXP"
+msgstr "Trophäen EXP"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
@@ -631,35 +632,35 @@ msgstr "The total awardable EXP for trophies in your game."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
-msgstr "Trophies"
+msgstr "Trophäen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:78
 msgid "dash.games.api.overview.trophies_label"
-msgstr "Trophies"
+msgstr "Trophäen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
-msgstr "Users w/ Trophies"
+msgstr "Benutzer mit Trophäen"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
-msgstr "Game ID"
+msgstr "Spiele ID"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
-msgstr "Game API Settings"
+msgstr "Spiele ID Einstellungen"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
 msgid "dash.games.api.settings.key_generate_button"
-msgstr "Generate New Key"
+msgstr "Generiere Neuen Schlüssel"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:19
 msgid "dash.games.api.settings.key_label"
-msgstr "Private Key"
+msgstr "Privater Schlüssel"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:26
 msgid "dash.games.api.settings.key_show_link"
-msgstr "(show key)"
+msgstr "(Zeige Schlüssel)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
@@ -675,7 +676,7 @@ msgstr "Be sure to remove or block ads from showing in your game. We serve our o
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
-msgstr "Browser Type"
+msgstr "Browser-Typ"
 
 #: app/components/forms/dashboard/game/build/build.html:22
 msgid "dash.games.builds.form.browser_tab"
@@ -683,7 +684,7 @@ msgstr "Browser"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Class Name"
+msgstr "Klassen Name"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
@@ -2280,7 +2281,7 @@ msgstr "Die besten Spiele dieser Woche"
 msgid "discover.home.week_best_help"
 msgstr "Die am besten bewerteten Spiele, die in den letzten 7 Tagen veröffentlicht wurden."
 
-#: app/components/shell/menu-popover/menu-popover.html:70
+#: app/components/shell/menu-popover/menu-popover.html:69
 msgid "discover.nav.featured_playlists"
 msgstr "Empfohlene Playlists"
 
@@ -2987,11 +2988,11 @@ msgstr "Spiele"
 msgid "search.autocomplete.installed_heading"
 msgstr "Installierte Spiele"
 
-#: app/components/search/autocomplete/autocomplete.html:106
+#: app/components/search/autocomplete/autocomplete.html:105
 msgid "search.autocomplete.no_commands"
 msgstr "Keine Befehle gefunden."
 
-#: app/components/search/autocomplete/autocomplete.html:15
+#: app/components/search/autocomplete/autocomplete.html:14
 msgid "search.autocomplete.show_all"
 msgstr "Alle Ergebnisse anzeigen..."
 
@@ -3008,7 +3009,7 @@ msgstr "Suchen"
 msgid "search.recent.clear_button"
 msgstr "Letzte Suchanfragen leeren."
 
-#: app/components/search/history/history.html:20
+#: app/components/search/history/history.html:19
 msgid "search.recent.none"
 msgstr "Bis jetzt keine Suchen durchgeführt."
 
@@ -4777,4 +4778,96 @@ msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
 msgstr[1] ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "dash.funds.withdraw.amount_help"
+msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+
+#: app/components/forms/dashboard/game/song/song.html:15
+msgid "dash.games.music.form.file_help_block"
+msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+
+#: app/views/dashboard/developer/games/manage/news/list/list.html:34
+msgid "dash.games.news.posted_on"
+msgstr "Posted on: {{ date | date:'medium' }}"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
+msgid "dash.games.packages.manage.releases.release_title"
+msgstr "Release {{ version }}"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
+msgid "dash.games.trophies.add_button"
+msgstr "Add {{ difficulty }} Trophy"
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
+msgid "dash.games.trophies.no_trophies"
+msgstr "No {{ difficulty | lowercase }} trophies added yet."
+
+#: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
+msgid "dash.games.trophies.section_heading"
+msgstr "{{ difficulty }} Trophies"
+
+#: app/views/discover/games/view/download/build/build.html:13
+msgid "game.download.game.downloading_label"
+msgstr "Downloading {{ game }}..."
+
+#: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
+msgid "game.download.soundtrack.downloading_label"
+msgstr "Downloading soundtrack..."
+
+#: app/views/discover/games/list/list.html:27
+msgid "games.list.date_heading_small"
+msgstr "on {{ date }}"
+
+#: app/views/discover/games/list/list.html:31
+msgid "games.list.date_range_heading_small"
+msgstr "between {{ dateStart }} and {{ dateEnd }}"
+
+#: app/components/game/thumbnail/thumbnail.html:30
+msgid "games.thumbnail.ratings"
+msgstr "{{ count | number }} rating(s)"
+
+#: app/views/library/collection/_header-default.html:88
+msgid "library.collection.bundle_heading"
+msgstr "{{ bundle }}"
+
+#: app/views/library/collection/_header-default.html:76
+msgid "library.collection.playlist_heading"
+msgstr "{{ playlist }}"
+
+#: app/views/library/collection/_header-tag.html:12
+msgid "library.collection.tag_heading"
+msgstr "#{{ tag }}"
+
+#: app/components/game/collection/grid/grid.html:41
+msgid "library.playlists.subscription_developer_description"
+msgstr "Games made by {{ user }}."
+
+#: app/components/game/collection/grid/grid.html:37
+msgid "library.playlists.subscription_followed_description"
+msgstr "Games followed by {{ user }}."
+
+#: app/components/activity/feed/feed.html:50
+msgid "notifications.rating_details_title"
+msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+
+#: app/views/profile/overview/overview.html:127
+msgid "profile.developer_games_teaser_button"
+msgstr "View All ({{ gamesCount | number }})"
+
+#: app/views/profile/overview/overview.html:59
+msgid "profile.friend_request_received_pending"
+msgstr "{{ user }} would like to be your friend."
+
+#: app/views/profile/overview/overview.html:49
+msgid "profile.friend_request_sent_pending"
+msgstr "Friend request to {{ user }} pending acceptance."
+
+#: app/components/score/overview/overview.html:93
+msgid "scores.overview.user_best_exp_tooltip"
+msgstr "{{ experience | number }} EXP gained from this score!"
+
+#: app/components/trophy/overview/overview.html:55
+msgid "trophies.overview.more_link"
+msgstr "+{{ extraCount | number }} more"
 
