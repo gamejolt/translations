@@ -54,7 +54,7 @@ msgstr "<p>We've sent your login credentials to the email address you entered.</
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
-msgstr "Credentials Sent"
+msgstr "Kimlik Gönderildi"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
@@ -197,11 +197,11 @@ msgstr "Yeni Şifre"
 msgid "auth.reset_password.submit_button"
 msgstr "Reset Password"
 
-#: app/components/shell/footer/footer.html:19
+#: app/components/shell/footer/footer.html:32
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:17
+#: app/components/shell/footer/footer.html:30
 msgid "legal.terms"
 msgstr "Terms"
 
@@ -327,7 +327,7 @@ msgstr "Showing {{ filter }}"
 msgid "dash.activity.heading"
 msgstr "Activity Feed"
 
-#: app/views/dashboard/activity/list/list.html:93
+#: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
 msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
 
@@ -865,7 +865,7 @@ msgstr "Other Engine/Language/Tool"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
-msgstr "Why?"
+msgstr "Niye?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
@@ -973,7 +973,7 @@ msgstr "Fantasy Violence"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
-msgstr "Gambling"
+msgstr "Kumar"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
@@ -985,7 +985,7 @@ msgstr "Humor"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
-msgstr "Language"
+msgstr "Dil"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
@@ -993,7 +993,7 @@ msgstr "Miscellaneous"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Çıplaklık"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
@@ -1013,7 +1013,7 @@ msgstr "Save Maturity Details"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
-msgstr "Sex/Nudity"
+msgstr "Sex/Çıplaklık"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
@@ -1030,7 +1030,7 @@ msgstr "Substances"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
-msgstr "Tobacco"
+msgstr "Tütün"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
@@ -1042,7 +1042,7 @@ msgstr "If you don't know what the final content of your game will be, give an e
 
 #: app/views/dashboard/developer/games/manage/manage.html:31
 msgid "dash.games.media_tab"
-msgstr "Media"
+msgstr "Medya"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
@@ -1055,7 +1055,7 @@ msgstr "Add an Image or Video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
-msgstr "Add Media"
+msgstr "Medya Ekle"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
@@ -1076,13 +1076,13 @@ msgstr "Learn more about videos..."
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
-msgstr "Game Media"
+msgstr "Oyun Medya"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:14
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
 #: app/views/dashboard/developer/games/manage/media/list/list.html:45
 msgid "dash.games.media.image_label"
-msgstr "Image"
+msgstr "Resim"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
@@ -1102,11 +1102,11 @@ msgstr "Caption"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
-msgstr "image"
+msgstr "Resim"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
-msgstr "Image File"
+msgstr "Resim Dosyası"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
@@ -1175,11 +1175,11 @@ msgstr "Remove Video"
 
 #: app/views/dashboard/developer/games/manage/manage.html:46
 msgid "dash.games.music_tab"
-msgstr "Music"
+msgstr "Müzik"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
-msgstr "Add Song"
+msgstr "Şarkı Ekle"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:12
 msgid "dash.games.music.direct_link_help"
@@ -1187,7 +1187,7 @@ msgstr "Link to a downloadable ZIP of your game's soundtrack."
 
 #: app/components/forms/dashboard/game/song/song.html:24
 msgid "dash.games.music.form.file_error_label"
-msgstr "song"
+msgstr "Şarkı"
 
 #: app/components/forms/dashboard/game/song/song.html:29
 msgid "dash.games.music.form.submit_button"
@@ -1199,7 +1199,7 @@ msgstr "Song Title"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:4
 msgid "dash.games.music.heading"
-msgstr "Game Music"
+msgstr "Oyun Şarkısı"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
@@ -1215,7 +1215,7 @@ msgstr "Remove Song"
 
 #: app/views/dashboard/developer/games/manage/manage.html:41
 msgid "dash.games.news_tab"
-msgstr "News"
+msgstr "Haber"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
@@ -1223,7 +1223,7 @@ msgstr "Add News Update"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
-msgstr "Add News"
+msgstr "Haber Ekle"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
@@ -1275,7 +1275,7 @@ msgstr "Title"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:4
 msgid "dash.games.news.heading"
-msgstr "Game News"
+msgstr "Oyun Haberleri"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
@@ -1312,7 +1312,7 @@ msgstr "Comments"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:171
 msgid "dash.games.overview.stats_followers"
-msgstr "Followers"
+msgstr "Takip Edenler"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:101
 msgid "dash.games.overview.stats_heading"
@@ -1444,21 +1444,13 @@ msgstr "Add New Release"
 msgid "dash.games.packages.manage.releases.builds_count_none"
 msgstr "No builds yet."
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:22
-msgid "dash.games.packages.manage.releases.builds_count_one"
-msgstr "1 build"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:23
-msgid "dash.games.packages.manage.releases.builds_count_other"
-msgstr "{{ count | number }} builds"
-
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
 msgstr "Releases"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
 msgid "dash.games.packages.manage.releases.hidden_tag"
-msgstr "Hidden"
+msgstr "Saklı"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
@@ -1578,7 +1570,7 @@ msgstr "<p><strong>We've detected that this build is an archive file.</strong></
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
-msgstr "Cancel"
+msgstr "İptal"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:8
 msgid "dash.games.releases.builds.launch_options.file_selector.filter_placeholder"
@@ -1750,7 +1742,7 @@ msgstr "Descending"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:8
 msgid "dash.games.scoreboard.form.description_label"
-msgstr "Description"
+msgstr "Tanım"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:23
 msgid "dash.games.scoreboard.form.direction_label"
@@ -1766,7 +1758,7 @@ msgstr "Guest Scoring"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:3
 msgid "dash.games.scoreboard.form.name_label"
-msgstr "Name"
+msgstr "Ad"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:42
 msgid "dash.games.scoreboard.form.save_button"
@@ -1840,7 +1832,7 @@ msgstr "Guest"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:8
 msgid "dash.games.scores.list.date_label"
-msgstr "Date"
+msgstr "Tarih"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:1
 msgid "dash.games.scores.list.heading"
@@ -1888,7 +1880,7 @@ msgstr "<p>The user has no scores on this scoreboard.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:21
 msgid "dash.games.scores.user.list.remove_all_button"
-msgstr "Remove All"
+msgstr "Hepsini Sil"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:10
 msgid "dash.games.scores.view_user_scores"
@@ -1928,7 +1920,7 @@ msgstr "Table"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:27
 msgid "dash.games.scores.view.user_label"
-msgstr "User"
+msgstr "Kullanıcı"
 
 #: app/components/forms/dashboard/game/settings/settings.html:16
 msgid "dash.games.settings.ads_help_html"
@@ -1937,7 +1929,7 @@ msgstr "<p><strong>Turning this off will remove all ads for this game.</strong><
 
 #: app/components/forms/dashboard/game/settings/settings.html:15
 msgid "dash.games.settings.ads_label"
-msgstr "Show ads?"
+msgstr "Göster reklâm?"
 
 #: app/components/forms/dashboard/game/settings/settings.html:27
 msgid "dash.games.settings.comments_help_html"
@@ -1994,7 +1986,7 @@ msgstr "Save Settings"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:45
 msgid "dash.games.thumbnail.crop_error_label"
-msgstr "crop"
+msgstr "kırp"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:4
 msgid "dash.games.thumbnail.heading"
@@ -2019,11 +2011,11 @@ msgstr "Upload New Thumbnail"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:64
 msgid "dash.games.trophies.form.description_label"
-msgstr "Description"
+msgstr "Tanım"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:31
 msgid "dash.games.trophies.form.difficulty_label"
-msgstr "Difficulty"
+msgstr "Zorluk"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:75
 msgid "dash.games.trophies.form.hidden_help"
@@ -2031,7 +2023,7 @@ msgstr "Hidden trophies are invisible to everyone but the game's developer, for 
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:74
 msgid "dash.games.trophies.form.hidden_label"
-msgstr "Hidden"
+msgstr "Saklı"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:55
 msgid "dash.games.trophies.form.image_error_label"
@@ -2051,7 +2043,7 @@ msgstr "Secret trophies hide everything but their titles from players until they
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:69
 msgid "dash.games.trophies.form.secret_label"
-msgstr "Secret"
+msgstr "Gizli"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:59
 msgid "dash.games.trophies.form.title_label"
@@ -2067,7 +2059,7 @@ msgstr "Game Trophies"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tag"
-msgstr "Hidden"
+msgstr "Saklı"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:7
 msgid "dash.games.trophies.page_help_html"
@@ -2083,7 +2075,7 @@ msgstr "Remove Trophy"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:66
 msgid "dash.games.trophies.secret_tag"
-msgstr "Secret"
+msgstr "Gizli"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:55
 msgid "dash.games.trophies.trophy_id_label"
@@ -2132,11 +2124,11 @@ msgstr "View All Changelog Broadcasts"
 
 #: app/views/dashboard/overview/overview.html:164
 msgid "dash.overview.developer_games_add_button"
-msgstr "Add Game"
+msgstr "Oyun Ekle"
 
 #: app/views/dashboard/overview/overview.html:157
 msgid "dash.overview.developer_games_heading"
-msgstr "Your Games"
+msgstr "Sizin Oyunlarınız"
 
 #: app/views/dashboard/overview/overview.html:180
 msgid "dash.overview.developer_games_no_games_html"
@@ -2444,12 +2436,6 @@ msgstr "Freshness indicates community interest in recent games. A game's freshne
 msgid "games.list.games_count_none"
 msgstr "No games."
 
-#: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:179
-#: app/views/library/collection/collection.html:79
-msgid "games.list.games_count_one"
-msgstr "1 game."
-
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorted by Hotness."
@@ -2600,27 +2586,27 @@ msgstr "Followers"
 msgid "library.collection.games_label"
 msgstr "Games"
 
-#: app/views/library/collection/collection.html:122
+#: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
 msgstr "There are no games in this bundle yet."
 
-#: app/views/library/collection/collection.html:120
+#: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
 msgstr "This developer hasn't added any games yet."
 
-#: app/views/library/collection/collection.html:121
+#: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
 msgstr "No games are being followed yet."
 
-#: app/views/library/collection/collection.html:113
+#: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
 msgstr "@:games.list.no_games_html"
 
-#: app/views/library/collection/collection.html:119
+#: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
 msgstr "There are no games in this playlist yet, alas."
 
-#: app/views/library/collection/collection.html:123
+#: app/views/library/collection/collection.html:129
 msgid "library.collection.no_games_tag_html"
 msgstr "There are no games with this tag yet."
 
@@ -2794,35 +2780,24 @@ msgstr "<p>News updates about the games you're following show up here.</p>\n"
 msgid "news.list.followed_tab"
 msgstr "Followed Games"
 
-#: app/views/discover/news/news.html:110
+#: app/views/discover/news/news.html:116
 msgid "news.list.no_posts_followed_html"
 msgstr "No updates to show yet! Follow more games to customize this news feed."
 
-#: app/views/discover/news/news.html:109
+#: app/views/discover/news/news.html:115
 msgid "news.list.no_posts_html"
 msgstr "No news updates to show yet."
 
-#: app/components/post/grid/grid.html:32
-#: app/components/post/list/list.html:29
-#: app/views/discover/games/view/news/list/list.html:42
-#: app/views/discover/games/view/news/view/view.html:15
+#: app/components/post/grid/grid.html:31
+#: app/components/post/list/list.html:28
+#: app/views/discover/games/view/news/list/list.html:41
+#: app/views/discover/games/view/news/view/view.html:12
 msgid "news.list.post_comments_none"
 msgstr "comment"
 
-#: app/components/post/grid/grid.html:33
-#: app/components/post/list/list.html:30
-#: app/views/discover/games/view/news/list/list.html:43
-#: app/views/discover/games/view/news/view/view.html:16
-msgid "news.list.post_comments_one"
-msgstr "1 comment"
-
-#: app/views/discover/news/news.html:84
+#: app/views/discover/news/news.html:76
 msgid "news.list.posts_count_none"
 msgstr "No articles."
-
-#: app/views/discover/news/news.html:85
-msgid "news.list.posts_count_one"
-msgstr "1 article."
 
 #: app/views/discover/news/news.html:21
 msgid "news.list.released_descriptive_html"
@@ -2851,10 +2826,6 @@ msgstr "In Development"
 #: app/components/notifications/popover/popover.html:33
 msgid "notifications.popover.dismiss_all"
 msgstr "dismiss all"
-
-#: app/components/notifications/popover/popover.html:83
-msgid "notifications.popover.more_notifications_one_button"
-msgstr "+1 more notification"
 
 #: app/components/notifications/popover/popover.html:26
 msgid "notifications.popover.no_notifications"
@@ -3289,7 +3260,7 @@ msgstr "Depictions of bloodshed and the mutilation of body parts."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:156
 msgid "dash.games.maturity.brief_nudity_option"
-msgstr "Brief Nudity"
+msgstr "Az Çıplaklık"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:33
 msgid "dash.games.maturity.cartoon_violence_1_description"
@@ -3325,7 +3296,7 @@ msgstr "Graphic depictions of violence involving situations easily distinguishab
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:160
 msgid "dash.games.maturity.full_nudity_option"
-msgstr "Nudity"
+msgstr "Çıplaklık"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:225
 msgid "dash.games.maturity.gambling_1_description"
@@ -3402,7 +3373,7 @@ msgstr "Moderate"
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:65
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:83
 msgid "dash.games.maturity.none_option"
-msgstr "None"
+msgstr "Hiç"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:157
 msgid "dash.games.maturity.nudity_1_description"
@@ -3414,7 +3385,7 @@ msgstr "Prolonged depictions of nudity."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:228
 msgid "dash.games.maturity.real_gambling_option"
-msgstr "Real Gambling"
+msgstr "Gerçek Kumar"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:69
 msgid "dash.games.maturity.realistic_violence_1_description"
@@ -3635,7 +3606,7 @@ msgstr "You've added {{ game }} to {{ playlist }}. Nice!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:75
 msgid "library.playlists.add_game_success_growl_title"
-msgstr "Added Game"
+msgstr "Oyun Eklendi"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:103
 #: app/views/library/collection/listing/listing-controller.js:48
@@ -3708,7 +3679,7 @@ msgstr "New Comments"
 
 #: app/views/dashboard/activity/list/list-controller.js:37
 msgid "notifications.new_friends_label"
-msgstr "New Friends"
+msgstr "Yeni Arkadaşlar"
 
 #: app/components/rating/widget/widget.html:20
 msgid "rating.clear"
@@ -3716,23 +3687,23 @@ msgstr "Clear Rating"
 
 #: app/components/rating/widget/widget-directive.js:26
 msgid "rating.five"
-msgstr "Perfecto!"
+msgstr "Mükemmel-o!"
 
 #: app/components/rating/widget/widget-directive.js:25
 msgid "rating.four"
-msgstr "Great"
+msgstr "Harika"
 
 #: app/components/rating/widget/widget-directive.js:22
 msgid "rating.one"
-msgstr "Terrible"
+msgstr "Fena"
 
 #: app/components/rating/widget/widget-directive.js:24
 msgid "rating.three"
-msgstr "Good"
+msgstr "İyi"
 
 #: app/components/rating/widget/widget-directive.js:23
 msgid "rating.two"
-msgstr "Meh"
+msgstr "Fena Değil"
 
 #: app/views/search/results/results-controller.js:11
 msgid "search.page_title"
@@ -3761,17 +3732,17 @@ msgstr "Bronze"
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
-msgstr "Gold"
+msgstr "Altın"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
-msgstr "Platinum"
+msgstr "Platin"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
-msgstr "Silver"
+msgstr "Ğümüş"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:15
 msgid "dash.email_prefs.notify_comment_replies_help"
@@ -3811,7 +3782,7 @@ msgstr "Get emails about incoming and accepted friend requests."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:29
 msgid "dash.email_prefs.notify_friendships_label"
-msgstr "Friend Requests"
+msgstr "Arkadaşlık İsteği"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:50
 msgid "dash.email_prefs.notify_game_follows_help"
@@ -3855,11 +3826,11 @@ msgstr "Your game has been added and can now be managed from your dashboard."
 
 #: app/views/dashboard/developer/games/add/add-controller.js:9
 msgid "dash.games.add.add_growl_title"
-msgstr "Game Added"
+msgstr "Oyun Eklendi"
 
 #: app/views/dashboard/developer/games/add/add-controller.js:3
 msgid "dash.games.add.page_title"
-msgstr "Add Game"
+msgstr "Oyun Ekle"
 
 #: app/views/dashboard/developer/games/manage/manage.html:49
 msgid "dash.games.api_tooltip"
@@ -3979,7 +3950,7 @@ msgstr "Update Posted"
 
 #: app/views/dashboard/developer/games/manage/news/add/add-controller.js:3
 msgid "dash.games.news.add.page_title"
-msgstr "Add News"
+msgstr "Haber Ekle"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:6
 msgid "dash.games.news.article.edit.page_title"
@@ -4053,7 +4024,7 @@ msgstr "Before you can publish your game, you must at least add a <a href=\"{{ t
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:92
 msgid "dash.games.overview.todo_info_publish_button_tooltip"
-msgstr "Ohhhh, yeah!"
+msgstr "Ohhhh, ya!"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:59
 msgid "dash.games.overview.todo_info_wip_html"
@@ -4069,7 +4040,7 @@ msgstr "Set the maturity rating."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:43
 msgid "dash.games.overview.todo_media_progress"
-msgstr "Game Media"
+msgstr "Oyun Medya"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:42
 msgid "dash.games.overview.todo_media_title"
@@ -4161,7 +4132,7 @@ msgstr "Mac"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:56
 msgid "dash.games.releases.builds.other_tag"
-msgstr "Other"
+msgstr "Başka"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:8
 msgid "dash.games.releases.builds.page_title"
@@ -4361,7 +4332,7 @@ msgstr "<a href=\"/dashboard/linked-accounts\">Link your Twitter account</a>."
 
 #: app/views/dashboard/overview/overview-controller.js:37
 msgid "dash.integrate.played_game_html"
-msgstr "Play a game."
+msgstr "Bir oyun oyna."
 
 #: app/views/dashboard/overview/overview-controller.js:38
 msgid "dash.integrate.rated_game_html"
@@ -4381,7 +4352,7 @@ msgstr "Games by {{ user }}"
 
 #: app/views/library/collection/_header/controls.html:10
 msgid "library.collection.follow_button"
-msgstr "Follow"
+msgstr "Takip et"
 
 #: app/views/library/collection/_header/controls.html:6
 msgid "library.collection.follow_button_tooltip"
@@ -4405,11 +4376,11 @@ msgstr "Remove from playlist."
 
 #: app/views/library/collection/listing/listing-controller.js:24
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
-msgstr "Stop following."
+msgstr "Takip etme"
 
 #: app/views/library/collection/_header/controls.html:19
 msgid "library.collection.unfollow_button"
-msgstr "Following"
+msgstr "Takip ediyorsun"
 
 #: app/views/library/collection/_header/controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
@@ -4441,7 +4412,7 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 
 #: app/views/library/collection/listing/listing-controller.js:60
 msgid "library.followed.remove_game_confirmation"
-msgstr "Are you sure you want to stop following {{ game }}?"
+msgstr "{{ Oyunu }} takip etmemekten emin misiniz?"
 
 #: app/views/discover/games/view/view-controller.js:60
 #: app/views/library/collection/listing/listing-controller.js:74
@@ -4521,7 +4492,7 @@ msgstr "accepted your friend request."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:7
 msgid "notifications.friendship_request_title_html"
-msgstr "sent you a friend request."
+msgstr "sana bir arkadaş isteği gönderdi"
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
@@ -4553,11 +4524,11 @@ msgstr "The sender will not be notified."
 
 #: app/views/profile/profile.html:38
 msgid "profile.friend_tooltip"
-msgstr "You are friends! Awwww!"
+msgstr "Arkadaşsınız! Awwww!"
 
 #: app/views/profile/profile.html:52
 msgid "profile.in_game_tooltip"
-msgstr "This user is currently playing a game."
+msgstr "Bu kişi şimdi oyun içinde."
 
 #: app/views/profile/profile.html:43
 msgid "profile.offline_tooltip"
@@ -4586,7 +4557,7 @@ msgstr "Adventure"
 
 #: app/views/discover/games/list/category/category-controller.js:7
 msgid "discover.categories.all"
-msgstr "All"
+msgstr "Hepsi"
 
 #: app/views/discover/games/list/category/category-controller.js:8
 msgid "discover.categories.arcade"
@@ -4602,7 +4573,7 @@ msgstr "Platformer"
 
 #: app/views/discover/games/list/category/category-controller.js:12
 msgid "discover.categories.puzzle"
-msgstr "Puzzle"
+msgstr "Bulmaca"
 
 #: app/views/discover/games/list/category/category-controller.js:13
 msgid "discover.categories.rpg"
@@ -4650,11 +4621,11 @@ msgstr "Oh no!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
-msgstr "All"
+msgstr "Hepsi"
 
 #: app/views/discover/games/list/category/category-controller.js:27
 msgid "games.list.section_best"
-msgstr "The Best"
+msgstr "En İyi"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
@@ -4662,13 +4633,66 @@ msgstr "Featured"
 
 #: app/views/discover/games/list/category/category-controller.js:25
 msgid "games.list.section_fresh"
-msgstr "Fresh"
+msgstr "Taze"
 
 #: app/views/discover/games/list/category/category-controller.js:26
 msgid "games.list.section_hot"
-msgstr "Hot"
+msgstr "Sıcak"
 
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
-msgstr "Newly Added"
+msgstr "Yeni eklenen"
+
+#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
+msgid "dash.games.packages.manage.releases.build_count"
+msgid_plural "dash.games.packages.manage.releases.build_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#. {{ page }} expands to the current page of games
+#: app/components/game/grid/grid.html:9
+#: app/views/discover/games/list/list.html:180
+#: app/views/library/collection/collection.html:78
+msgid "games.list.games_count"
+msgid_plural "games.list.games_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/post/grid/grid.html:34
+#: app/components/post/list/list.html:31
+#: app/views/discover/games/view/news/list/list.html:44
+#: app/views/discover/games/view/news/view/view.html:15
+msgid "news.list.post_comments"
+msgid_plural "news.list.post_comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. {{ page }} expands to the current page of articles
+#: app/views/discover/news/news.html:83
+msgid "news.list.posts_count"
+msgid_plural "news.list.posts_count"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/notifications/popover/popover.html:82
+msgid "notifications.popover.more_notifications_button"
+msgid_plural "notifications.popover.more_notifications_button"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/components/shell/footer/footer.html:34
+msgid "footer.contact"
+msgstr "Contact"
+
+#: app/components/shell/footer/footer.html:26
+msgid "footer.tagline"
+msgstr "Too many games... and counting!"
+
+#: app/components/shell/footer/footer.html:22
+msgid "footer.translations"
+msgstr "Translations are a community project."
+
+#: app/components/shell/footer/footer.html:23
+msgid "footer.translations_help"
+msgstr "Help translate!"
 
