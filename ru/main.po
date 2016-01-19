@@ -4975,3 +4975,7 @@ msgstr "On"
 msgid "forms.yes"
 msgstr "Yes"
 
+#: app/components/search/autocomplete/autocomplete-directive.js:54
+msgid "commands.settings_description"
+msgstr "Change settings."
+
