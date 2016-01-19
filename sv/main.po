@@ -10,22 +10,22 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>Your authorization code is invalid.</p>\n"
-"<p>Please make sure to copy and paste the full URL that we emailed you.</p>"
+msgstr "<p>Din auktoriseringskoden är ogiltig.</p>\n"
+"<p>Var noga med att kopiera och klistra in hela webbadressen som vi mailade dig.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
-msgstr "Invalid Authorization"
+msgstr "Ogiltigt Tillstånd"
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
 msgid "auth.authorize.invalid.page_title"
-msgstr "Invalid Authorization Code"
+msgstr "Ogiltig behörighetskod"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "We're redirecting you to your Game Jolt dashboard now."
+msgstr "Vi omdirigerar dig till din Game Jolt instrumentpanelen nu."
 
 #: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
@@ -34,7 +34,7 @@ msgstr "Glömt Användarnamn eller Lösenord"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Enter the email address on your account and we'll email your login credentials to you."
+msgstr "Ange e-postadressen på ditt konto och vi kommer att skicka dina inloggningsuppgifter till dig."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -47,23 +47,23 @@ msgstr "Hämta Inloggningsuppgifter"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, that email address is not in our system. Maybe you didn't <a href=\"/join\">sign up yet</a>?</p>"
+msgstr "<p>Hmm, den där e-postadressen finns inte i vårt system. Kanske du inte <a href=\"/join\">registrerat dig ännu</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>We've sent your login credentials to the email address you entered.</p>"
+msgstr "<p>Vi har skickat dina inloggningsuppgifter till den e-postadress du angett.</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
-msgstr "Credentials Sent"
+msgstr "Referenser Skickade"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "If you don't see our email within 10 minutes, please check your spam folder. It might have been gobbled up!"
+msgstr "Om du inte ser vår e-post inom 10 minuter, vänligen kontrollera din skräppostmapp. Det kan ha varit ätit upp!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Retrieve Credentials"
+msgstr "hämta autentiseringsuppgifter"
 
 #. There are a lot of ways to say this in Swedish, just as in English. I'm not confident that "Bli Medlem!" is the phrase that fits best. Some feedback from another swede would be great.
 #: auth/views/auth/login/login.html:35
@@ -72,8 +72,8 @@ msgstr "Bli Medlem!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Before you can log in to Game Jolt, you need to verify the email address on your account.</p>\n"
-"<p>We've sent you an email with instructions on how to authorize your account.</p>"
+msgstr "<p>Innan du kan logga in på Game Jolt, måste du bekräfta den e-postadress på ditt konto.</p>\n"
+"<p>Vi har skickat ett e-postmeddelande med instruktioner om hur du godkänna ditt konto.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -81,11 +81,11 @@ msgstr "Nästan framme!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "If you don't see an email within 10 minutes, please check your spam folder. It might have gobbled it up."
+msgstr "Om du inte ser ett e-postmeddelande inom 10 minuter, vänligen kontrollera din skräppostmapp. Det kan ha ätit upp det. "
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Note that you have a week to authorize your account. After that, it will be deleted and you'll have to sign up again."
+msgstr "Observera att du har en vecka att godkänna ditt konto. Efter det kommer det att tas bort och du måste registrera dig igen."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
@@ -120,13 +120,13 @@ msgstr "Bearbetar. Var vänlig vänta..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>The email address you entered is already in use.</p>\n"
-"<p>If you already have a Game Jolt account you can <a href=\"/login\">log in here</a>.</p>\n"
+msgstr "<p>Den e-postadress du angav används redan.</p>\n"
+"<p>Om du redan har en Gamejolt konto som du kan använda <a href=\"/login\">logga in här</a>.</p>\n"
 "<p>If you've forgotten your login information, you can <a href=\"/forgot\">retrieve it here</a>.</p>"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "To finish logging in with Twitter, please enter a valid email address."
+msgstr "För att avsluta logga in med Twitter, ange en giltig e-postadress."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
@@ -199,11 +199,11 @@ msgstr "Nytt Lösenord"
 msgid "auth.reset_password.submit_button"
 msgstr "Återställ Lösenord"
 
-#: app/components/shell/footer/footer.html:32
+#: app/components/shell/footer/footer.html:36
 msgid "legal.privacy"
 msgstr "Integritet"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:33
 msgid "legal.terms"
 msgstr "Terms"
 
@@ -2062,12 +2062,12 @@ msgstr "View Game Page"
 msgid "dash.integrate.done"
 msgstr "Done"
 
-#: app/views/dashboard/overview/overview.html:126
+#: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
 "\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
 
-#: app/views/dashboard/overview/overview.html:125
+#: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
 msgstr "Gain experience and level up!"
 
@@ -2079,15 +2079,15 @@ msgstr "Integrate"
 msgid "dash.integrate.lead"
 msgstr "Here's a to-do list of things to get you started with the site:"
 
-#: app/views/dashboard/overview/overview.html:133
+#: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
 msgstr "Latest Activity"
 
-#: app/views/dashboard/overview/overview.html:142
+#: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>No activity yet.</p>"
 
-#: app/views/dashboard/overview/overview.html:146
+#: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
 msgstr "View All Activity"
 
@@ -2095,15 +2095,15 @@ msgstr "View All Activity"
 msgid "dash.overview.broadcast_view_all"
 msgstr "View All Changelog Broadcasts"
 
-#: app/views/dashboard/overview/overview.html:164
+#: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
 msgstr "Add Game"
 
-#: app/views/dashboard/overview/overview.html:157
+#: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
 msgstr "Your Games"
 
-#: app/views/dashboard/overview/overview.html:180
+#: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboard/developer/games/add\">Add a game</a>!"
 
@@ -2975,7 +2975,7 @@ msgstr "Användare"
 #: app/components/search/search.html:12
 #: app/components/search/search.html:6
 msgid "search.input.placeholder"
-msgstr "Search"
+msgstr "Sök"
 
 #: app/components/search/history/history.html:41
 msgid "search.recent.clear_button"
@@ -3067,35 +3067,35 @@ msgstr "Trophies"
 msgid "trophies.overview.view_more_button"
 msgstr "View All Trophies"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:42
+#: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
 msgstr "Edit your account information."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:48
+#: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
 msgstr "View your activity feed."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:24
+#: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
 msgstr "View your dashboard."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:7
+#: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
 msgstr "Go to main home page."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:13
+#: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
 msgstr "Browse games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:36
+#: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
 msgstr "View your installed games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:30
+#: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
 msgstr "View your game library."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:18
+#: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
 msgstr "Browse game news."
 
@@ -4653,7 +4653,7 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:34
+#: app/components/shell/footer/footer.html:39
 msgid "footer.contact"
 msgstr "Contact"
 
@@ -4957,7 +4957,11 @@ msgstr "On"
 msgid "forms.yes"
 msgstr "Yes"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:54
+#: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
 msgstr "Change settings."
+
+#: app/components/shell/footer/footer.html:30
+msgid "footer.open_source"
+msgstr "Open Source"
 
