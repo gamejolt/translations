@@ -198,11 +198,11 @@ msgstr "Parolă Nouă"
 msgid "auth.reset_password.submit_button"
 msgstr "Schimbă Parola"
 
-#: app/components/shell/footer/footer.html:32
+#: app/components/shell/footer/footer.html:36
 msgid "legal.privacy"
 msgstr "Confidențialitate"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:33
 msgid "legal.terms"
 msgstr "Termeni"
 
@@ -510,15 +510,15 @@ msgstr "Depozit de Date"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
-msgstr "Global Items"
+msgstr "Itemi Globali"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
 msgid "dash.games.api.overview.data_items_tooltip"
-msgstr "The total number of stored global data items."
+msgstr "Numărul total de itemi globali stocați."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
 msgid "dash.games.api.overview.heading"
-msgstr "Game API Overview"
+msgstr "Prezentare generală a API-ului Game Jolt"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
@@ -526,16 +526,16 @@ msgstr "Neaplicabil"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
-msgstr "Find help in the API forums..."
+msgstr "Găsește ajutor în forumurile API-urilor"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
-"\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
+msgstr "␣<p>API-ul de joc îți introduc în joc tablouri de bord, trofee, stocare in cloud, înregistrarea sesiunii și multe altele.</p>\n"
+"\t<p>Poți să vizitezi link-urile de maii jos să vezi dacă comunitatea a scris deja o librărie API sau plugin pentru engine/instrumentul/limba pe care tu o folsești. Deasemenea, poți oricând să creezi unul tu și să il postezi tu pe forum!</p> "
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
-msgstr "Learn more about the Game API..."
+msgstr "Citește mai multe despre API-ul de joc..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
 msgid "dash.games.api.overview.scores_heading"
@@ -555,7 +555,7 @@ msgstr "Utilizatori cu Scoruri"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
-msgstr "The number of users with scores on any of the game's scoreboards. Does not include guests."
+msgstr "Numărul de utilizatori cu scoruri pe oricare tablou de bord. Acesta nu include vizitatori."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
@@ -588,11 +588,11 @@ msgstr "Trofee Obținute"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
-msgstr "Trophy EXP"
+msgstr "EXP-ul Trofeului"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
-msgstr "The total awardable EXP for trophies in your game."
+msgstr "Numărul total de EXP care pate fi acordat de la trofeele din jocul tău."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
@@ -613,7 +613,7 @@ msgstr "ID Joc"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
-msgstr "Game API Settings"
+msgstr "Setările API-ului de joc"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
 #, fuzzy
@@ -627,19 +627,19 @@ msgstr "Cod Privat"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:26
 msgid "dash.games.api.settings.key_show_link"
-msgstr "(show key)"
+msgstr "(arată cheie)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
-msgstr "\t<p><strong>Never give your private key to anyone!</strong> Your game's key is used to validate that API requests are coming from your game. If villains or knaves get ahold of it, they can send in fake requests pretending to be your game. Not good!</p>"
+msgstr "␣<p><strong>Niciodată să nu îți dai cheia privată la nimeni!</strong> Cheia ta de joc este folosită pentru validarea faptului că cererile API-ului vin de la jocul tău. Dacă răfacători sau pirați fac rost de ea, pot să se prefacă că sunt persoana ta în jocuri. Nu-i de bine! </p> "
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr "A .jar file. Playable in browsers that still support Java. Consider adding your .jar as a downloadable build, too."
+msgstr "Un fișier de tip .jar. Se poate juca în browsere de internet care suportă Java. Consideră să adaugi fișierul tău .jar ca și un joc descărcabil, de asemenea."
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+msgstr "Te rugăm să nu adaugi reclame în jocul tău. Noi avem propiile reclame și împărțim suma cu dezvoltatorii. Te rugăm să blockezi următoarele domenii:"
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
@@ -651,169 +651,171 @@ msgstr "Browser-ul"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Class Name"
+msgstr "Numele Clasei"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
-msgstr "These are the dimensions at which your browser build will be displayed."
+msgstr "Aceste dimensiuni sunt cele la care jocul tău de browser va apărea."
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "Această setare va opri apăsarea de dreapta pe pagina ta. Pornește-o doar dacă jocul tău trebuie să oprească apăsarea de dreapta."
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disable right click?"
+msgstr "Ești sigur că vrei să oprești apăsarea de dreapta?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
-msgstr "Downloadable"
+msgstr "Descărcabil"
 
 #: app/components/forms/dashboard/game/build/build.html:88
 msgid "dash.games.builds.form.file_error_label"
-msgstr "file"
+msgstr "fișier"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
-msgstr "Your account is currently limited to {{ maxFilesize | number }} MB per file. If you need more, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a>"
+msgstr "Contul tău este momentan limitat la {{ maxFilesize | number }} MB pe fișier. Dacă îți trebuie mai mult, trimite un mesaj la:  <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a> "
 
 #: app/components/forms/dashboard/game/build/build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
-msgstr "<strong>For an HTML game, upload a .zip archive containing all of your game's files and assets. There must be an index.html in the root folder.</strong>"
+msgstr "<strong>Pentru un joc HTML, încarcă o arhivă de tip .zip conținând toate fișierele jocului tău. Trebuie să existe un fișier index.html în folder-ul principal.</strong> "
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
-msgstr "Upload File"
+msgstr "Încarcă un fișier"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr "A .swf file. Playable in browsers that support Flash."
+msgstr "Un fișier de tip .swf. Se poate rula pe orice browser de internet care suportă Adobe Flash."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
-msgstr "Height"
+msgstr "Înălțime"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr "A .zip archive containing all of the files the game needs to run, including an index.html in the root. Should be playable in any modern browser without plugins."
+msgstr "O arhivă de tip .zip care conține toate fișierele necesare pentru jocul tău să ruleze, incluzând un fișier index.html în folder-ul principal. Ar trebui să fie rulat în orice browser de internet modern fără plugin-uri."
 
 #: app/components/forms/dashboard/game/build/build.html:116
 msgid "dash.games.builds.form.no_platforms_error"
-msgstr "You have to select at least one platform on which your build runs (or \"Other\")."
+msgstr "Trebuie să alegi măcar o platformă pe care jocul tău rulează (sau \"Altul\")."
 
 #: app/components/forms/dashboard/game/build/build.html:97
 msgid "dash.games.builds.form.platforms_help_html"
-msgstr "Select \"Other\" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF."
+msgstr "Alege \"Altul\" dacă acest joc este pe o platformă care nu apare aici, sau dacă este un fișier ne-executabil, ca și un PDF."
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
-msgstr "Platforms"
+msgstr "Platforme"
 
 #: app/components/forms/dashboard/game/build/build.html:56
 msgid "dash.games.builds.form.silverlight_help"
-msgstr "A .xap file. Playable in browsers that support Silverlight."
+msgstr "Un fișier de tip .xap. Poate fi rulat în orice browser de internet care suportă Silverlight."
 
 #: app/components/forms/dashboard/game/build/build.html:42
 msgid "dash.games.builds.form.unity_help"
-msgstr "A .unity3d file. Playable in browsers that support the Unity Web Player. If you exported your game to WebGL, choose HTML instead of Unity."
+msgstr "Un fișier de tip .unity3d. Poate fi rulat în orice browser de internet care suportă Player-ul Web Unity. Dacă ai exportat jocul ca WebGL, alege HTML în loc de Unity."
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
-msgstr "Width"
+msgstr "Lățime"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Stored On"
+msgstr "Stocat în"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
-msgstr "Data Storage Items"
+msgstr "Itemi de stocare a datelor"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
+#, fuzzy
 msgid "dash.games.data_store.items.key_label"
-msgstr "Key"
+msgstr "Cod"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
 msgid "dash.games.data_store.items.page_help_html"
-msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All stored data items will show up here.</p>\n"
-"\t<p>Currently, you can only view (and remove) globally stored data items. Stored user data items are not viewable at this time.</p>"
+msgstr "<p>Poți folosi API-ul să stochezi date... <em>în cloud!</em> Toți itemi de date stocate vor apărea aici.</p>\n"
+"\t<p>Momentan, poți doar să vizualizezi (și să elimini) itemi de date stocate globale. Itemi de date ale utilizatorilor sunt nu momentan vizibile.</p> "
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "Citește mai mult despre stocarea datelor..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Previzualizarea Datelor"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
 msgid "dash.games.data_store.items.remove_button"
-msgstr "Remove Item"
+msgstr "Elimină Item"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
-msgstr "Item Data"
+msgstr "Datele Item-ului"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "Stocat Pe"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
-msgstr "Item Details"
+msgstr "Detalii despre Item"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:27
+#, fuzzy
 msgid "dash.games.data_store.items.view.key_label"
-msgstr "Key"
+msgstr "Cheie"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit.html:4
 msgid "dash.games.edit.heading"
-msgstr "Edit Details"
+msgstr "Editează Detaliile"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
-msgstr "Category"
+msgstr "Categorie"
 
 #: app/components/forms/dashboard/game/game.html:40
 msgid "dash.games.form.category_placeholder"
-msgstr "Select a category..."
+msgstr "Selectează o Categorie..."
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
-msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
+msgstr "Poți să schimbi descripția când dorești și să mai adaugi peste timp. Asta e șansa ta să folosești cuvinte care să facă oamenii să îți joacele jocul! O descripție interestantă conține lucruri precum un sumar al jocului, controalele, povestea și credit-ul."
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
-msgstr "Description"
+msgstr "Descriere"
 
 #: app/components/forms/dashboard/game/game.html:86
 msgid "dash.games.form.dev_status_canceled"
-msgstr "Canceled"
+msgstr "Anulat"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "Alege această opțiune dacă jocul tău poate fi jucat, dar dezvoltarea acestui a fost anulat sau este în repaus. Nu ar trebui să alegi această opțiune dacă nu există o versiune a jocului valabilă."
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
-msgstr "Finished/Stable"
+msgstr "Terminat/Stabil"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
-msgstr "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+msgstr "Alege această opțiune dacă jocul tău este complet. Acesta trebuie să fie într-o stare stabilă și doar dacă plănuiești să faci fixări și optimizații."
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
-msgstr "Development Status"
+msgstr "Starea de Dezvoltare"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Nu poți să îți setezi jocul ca Terminat sau Anulat până când nu adaugi o versiune."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
-msgstr "Work in Progress/Unstable"
+msgstr "Dezvoltare în lucru/Instabil"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
@@ -821,31 +823,31 @@ msgstr "Choose this if your game is not finished but you're actively developing 
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
-msgstr "Engine/Language/Creation Tool"
+msgstr "Engine/Limbă/Unealtă de Creeare"
 
 #: app/components/forms/dashboard/game/game.html:58
 msgid "dash.games.form.engine_other_help"
-msgstr "Which engine, language, or tool?"
+msgstr "Care engine, limbă sau unealtă?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
-msgstr "Other Engine/Language/Tool"
+msgstr "Alt engine/limbă/unealtă?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
-msgstr "Why?"
+msgstr "De ce?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
-msgstr "This helps us create better filtering options around which tools people use."
+msgstr "Aceasta ne ajută pe noi să creem opțiuni de filtru mai bune."
 
 #: app/components/forms/dashboard/game/game.html:47
 msgid "dash.games.form.engine_placeholder"
-msgstr "Select an engine/language/tool..."
+msgstr "Selectează un engine/limbă/unealtă..."
 
 #: app/components/forms/dashboard/game/game.html:125
 msgid "dash.games.form.status_hidden"
-msgstr "Hidden"
+msgstr "Ascuns"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
@@ -853,7 +855,7 @@ msgstr "Your game page won't show up in public listings or search results. It ca
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
-msgstr "Visibility"
+msgstr "Vizibilitate"
 
 #: app/components/forms/dashboard/game/game.html:113
 msgid "dash.games.form.status_not_publishable_info_html"
@@ -861,7 +863,7 @@ msgstr "This game can't be published until the required set up steps are complet
 
 #: app/components/forms/dashboard/game/game.html:118
 msgid "dash.games.form.status_published"
-msgstr "Published"
+msgstr "Publicat"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
@@ -869,19 +871,19 @@ msgstr "Your game page will show up in public listings and search results. It ca
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
-msgstr "Title"
+msgstr "Titlu"
 
 #: app/components/forms/dashboard/game/game.html:33
 msgid "dash.games.form.website_label"
-msgstr "Website"
+msgstr "Site"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "Șterge Imaginea de Copertă"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
-msgstr "Edit Header"
+msgstr "Editează Imaginea de Copertă"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
@@ -889,23 +891,23 @@ msgstr "<p>Headers are the big, banner-like images that adorn the tops of game p
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
-msgstr "What are the header requirements and guidelines?"
+msgstr "Care sunt necesitățile și recomandările pentru Header?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "Încarcă Imagine de Copertă"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "imaginea de copertă"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "Încarcă un nou Header"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
-msgstr "This game is currently hidden from public view."
+msgstr "Acest joc este momentan ascuns de vedera publicului."
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
@@ -913,7 +915,7 @@ msgstr "We recommend keeping it hidden until you've finished filling out the det
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
-msgstr "Hidden"
+msgstr "Ascuns"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
@@ -921,27 +923,27 @@ msgstr "Age Rating"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
-msgstr "Alcohol"
+msgstr "Alcool"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Sânge"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
-msgstr "Cartoon Violence"
+msgstr "Violență caricaturizată"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Droguri"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
-msgstr "Fantasy Violence"
+msgstr "Violență de tip Fantezie"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
-msgstr "Gambling"
+msgstr "Valută"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
@@ -949,19 +951,19 @@ msgstr "Edit Rating Details"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
-msgstr "Humor"
+msgstr "Umor"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
-msgstr "Language"
+msgstr "Limbaj Licențios"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
-msgstr "Miscellaneous"
+msgstr "Diverse"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Nuditate"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
@@ -973,7 +975,7 @@ msgstr "What is a maturity rating?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
-msgstr "Realistic Violence"
+msgstr "Violență Realistică"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
@@ -981,20 +983,20 @@ msgstr "Save Maturity Details"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
-msgstr "Sex/Nudity"
+msgstr "Sex/Nuditate"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
-msgstr "Sexual Themes"
+msgstr "Teme Sexuale"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:104
 #: app/components/forms/dashboard/game/maturity/maturity.html:67
 msgid "dash.games.maturity.sexual_violence_label"
-msgstr "Sexual Violence"
+msgstr "Violență Sexuală."
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:80
 msgid "dash.games.maturity.substances_legend"
-msgstr "Substances"
+msgstr "Substanțe"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
@@ -1002,7 +1004,7 @@ msgstr "Tobacco"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
-msgstr "Violence"
+msgstr "Violență"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
@@ -1023,7 +1025,7 @@ msgstr "Add an Image or Video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
-msgstr "Add Media"
+msgstr "Adaugă Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
@@ -2057,12 +2059,12 @@ msgstr "View Game Page"
 msgid "dash.integrate.done"
 msgstr "Done"
 
-#: app/views/dashboard/overview/overview.html:126
+#: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
 "\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
 
-#: app/views/dashboard/overview/overview.html:125
+#: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
 msgstr "Gain experience and level up!"
 
@@ -2074,15 +2076,15 @@ msgstr "Integrate"
 msgid "dash.integrate.lead"
 msgstr "Here's a to-do list of things to get you started with the site:"
 
-#: app/views/dashboard/overview/overview.html:133
+#: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
 msgstr "Latest Activity"
 
-#: app/views/dashboard/overview/overview.html:142
+#: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>No activity yet.</p>"
 
-#: app/views/dashboard/overview/overview.html:146
+#: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
 msgstr "View All Activity"
 
@@ -2090,15 +2092,15 @@ msgstr "View All Activity"
 msgid "dash.overview.broadcast_view_all"
 msgstr "View All Changelog Broadcasts"
 
-#: app/views/dashboard/overview/overview.html:164
+#: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
 msgstr "Add Game"
 
-#: app/views/dashboard/overview/overview.html:157
+#: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
 msgstr "Your Games"
 
-#: app/views/dashboard/overview/overview.html:180
+#: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboard/developer/games/add\">Add a game</a>!"
 
@@ -3063,35 +3065,35 @@ msgstr "Trophies"
 msgid "trophies.overview.view_more_button"
 msgstr "View All Trophies"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:42
+#: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
 msgstr "Edit your account information."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:48
+#: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
 msgstr "View your activity feed."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:24
+#: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
 msgstr "View your dashboard."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:7
+#: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
 msgstr "Go to main home page."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:13
+#: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
 msgstr "Browse games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:36
+#: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
 msgstr "View your installed games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:30
+#: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
 msgstr "View your game library."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:18
+#: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
 msgstr "Browse game news."
 
@@ -4470,7 +4472,7 @@ msgstr "followed <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:11
 msgid "notifications.game_news_title_html"
-msgstr "posted a news update."
+msgstr "a postat o ştire actualizare"
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:42
 msgid "notifications.game_news_title_popover_html"
@@ -4506,7 +4508,8 @@ msgstr "This user is currently offline."
 
 #: app/views/profile/profile.html:47
 msgid "profile.online_tooltip"
-msgstr "This user is currently online."
+msgstr "Acest utilizator este in prezent online.\n"
+""
 
 #: app/views/profile/profile.html:83
 msgid "profile.website_tooltip"
@@ -4519,27 +4522,27 @@ msgstr "Highest Rated"
 
 #: app/views/discover/games/list/category/category-controller.js:9
 msgid "discover.categories.action"
-msgstr "Action"
+msgstr "Actiune"
 
 #: app/views/discover/games/list/category/category-controller.js:10
 msgid "discover.categories.adventure"
-msgstr "Adventure"
+msgstr "Aventura"
 
 #: app/views/discover/games/list/category/category-controller.js:7
 msgid "discover.categories.all"
-msgstr "All"
+msgstr "Toate"
 
 #: app/views/discover/games/list/category/category-controller.js:8
 msgid "discover.categories.arcade"
-msgstr "Arcade"
+msgstr "Arcada"
 
 #: app/views/discover/games/list/category/category-controller.js:17
 msgid "discover.categories.other"
-msgstr "Other"
+msgstr "Altele"
 
 #: app/views/discover/games/list/category/category-controller.js:11
 msgid "discover.categories.platformer"
-msgstr "Platformer"
+msgstr "Platforma"
 
 #: app/views/discover/games/list/category/category-controller.js:12
 msgid "discover.categories.puzzle"
@@ -4551,15 +4554,15 @@ msgstr "RPG"
 
 #: app/views/discover/games/list/category/category-controller.js:14
 msgid "discover.categories.shooter"
-msgstr "Shooter"
+msgstr "Impuscaturi"
 
 #: app/views/discover/games/list/category/category-controller.js:15
 msgid "discover.categories.sports"
-msgstr "Sports"
+msgstr "Sporturi"
 
 #: app/views/discover/games/list/category/category-controller.js:16
 msgid "discover.categories.strategy_sim"
-msgstr "Strategy/Sim"
+msgstr "Strategie"
 
 #: app/views/discover/games/list/category/category-controller.js:19
 msgid "games.list.page_title"
@@ -4579,23 +4582,23 @@ msgstr "Couldn't find that image. Maybe it was removed."
 
 #: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nu!"
 
 #: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
-msgstr "Couldn't find that video. Maybe it was removed."
+msgstr "Nu se poate gasi acel video. Poate a fost sters."
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
-msgstr "Oh no!"
+msgstr "Oh nu!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
-msgstr "All"
+msgstr "Toate"
 
 #: app/views/discover/games/list/category/category-controller.js:27
 msgid "games.list.section_best"
-msgstr "The Best"
+msgstr "Cel mai bun"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
@@ -4607,11 +4610,11 @@ msgstr "Fresh"
 
 #: app/views/discover/games/list/category/category-controller.js:26
 msgid "games.list.section_hot"
-msgstr "Hot"
+msgstr "Fierbinte"
 
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
-msgstr "Newly Added"
+msgstr "Cele mai noi adaugate"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
@@ -4655,13 +4658,13 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: app/components/shell/footer/footer.html:34
+#: app/components/shell/footer/footer.html:39
 msgid "footer.contact"
-msgstr "Contact"
+msgstr "Contacteaza"
 
 #: app/components/shell/footer/footer.html:26
 msgid "footer.tagline"
-msgstr "Too many games... and counting!"
+msgstr "Prea multe jocuri...Si de numarare!"
 
 #: app/components/shell/footer/footer.html:22
 msgid "footer.translations"
@@ -4669,7 +4672,7 @@ msgstr "Translations are a community project."
 
 #: app/components/shell/footer/footer.html:23
 msgid "footer.translations_help"
-msgstr "Help translate!"
+msgstr "Ajuta sa traduci!"
 
 #: app/components/game/filtering/filtering-service.js:17
 msgid "games.filtering.browser"
@@ -4685,7 +4688,7 @@ msgstr "Flash"
 
 #: app/components/game/filtering/filtering-service.js:20
 msgid "games.filtering.browser_html"
-msgstr "HTML"
+msgstr "HTLM"
 
 #: app/components/game/filtering/filtering-service.js:24
 msgid "games.filtering.browser_silverlight"
@@ -4958,9 +4961,13 @@ msgstr "On"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.yes"
-msgstr "Yes"
+msgstr "Da"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:54
+#: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
-msgstr "Change settings."
+msgstr "Schimba setarile."
+
+#: app/components/shell/footer/footer.html:30
+msgid "footer.open_source"
+msgstr "Open Source"
 
