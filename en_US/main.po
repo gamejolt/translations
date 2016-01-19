@@ -198,11 +198,11 @@ msgstr "New Password"
 msgid "auth.reset_password.submit_button"
 msgstr "Reset Password"
 
-#: app/components/shell/footer/footer.html:32
+#: app/components/shell/footer/footer.html:36
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:33
 msgid "legal.terms"
 msgstr "Terms"
 
@@ -2060,12 +2060,12 @@ msgstr "View Game Page"
 msgid "dash.integrate.done"
 msgstr "Done"
 
-#: app/views/dashboard/overview/overview.html:126
+#: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
 "\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
 
-#: app/views/dashboard/overview/overview.html:125
+#: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
 msgstr "Gain experience and level up!"
 
@@ -2077,15 +2077,15 @@ msgstr "Integrate"
 msgid "dash.integrate.lead"
 msgstr "Here's a to-do list of things to get you started with the site:"
 
-#: app/views/dashboard/overview/overview.html:133
+#: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
 msgstr "Latest Activity"
 
-#: app/views/dashboard/overview/overview.html:142
+#: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>No activity yet.</p>"
 
-#: app/views/dashboard/overview/overview.html:146
+#: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
 msgstr "View All Activity"
 
@@ -2093,15 +2093,15 @@ msgstr "View All Activity"
 msgid "dash.overview.broadcast_view_all"
 msgstr "View All Changelog Broadcasts"
 
-#: app/views/dashboard/overview/overview.html:164
+#: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
 msgstr "Add Game"
 
-#: app/views/dashboard/overview/overview.html:157
+#: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
 msgstr "Your Games"
 
-#: app/views/dashboard/overview/overview.html:180
+#: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboard/developer/games/add\">Add a game</a>!"
 
@@ -3065,35 +3065,35 @@ msgstr "Trophies"
 msgid "trophies.overview.view_more_button"
 msgstr "View All Trophies"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:42
+#: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
 msgstr "Edit your account information."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:48
+#: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
 msgstr "View your activity feed."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:24
+#: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
 msgstr "View your dashboard."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:7
+#: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
 msgstr "Go to main home page."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:13
+#: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
 msgstr "Browse games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:36
+#: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
 msgstr "View your installed games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:30
+#: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
 msgstr "View your game library."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:18
+#: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
 msgstr "Browse game news."
 
@@ -4651,7 +4651,7 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 more notification"
 msgstr[1] "+{{ $count | number }} more notifications"
 
-#: app/components/shell/footer/footer.html:34
+#: app/components/shell/footer/footer.html:39
 msgid "footer.contact"
 msgstr "Contact"
 
@@ -4955,7 +4955,11 @@ msgstr "On"
 msgid "forms.yes"
 msgstr "Yes"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:54
+#: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
 msgstr "Change settings."
+
+#: app/components/shell/footer/footer.html:30
+msgid "footer.open_source"
+msgstr "Open Source"
 
