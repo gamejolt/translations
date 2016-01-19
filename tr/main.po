@@ -432,6 +432,11 @@ msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.no"
 msgstr "Hayır"
 
@@ -459,6 +464,11 @@ msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.yes"
 msgstr "Evet"
 
@@ -537,7 +547,7 @@ msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
 "\t\t<li>For browser-based games, we don't allow you to display ads in the preloader on Game Jolt. Remove any ads or block them from showing on the site.</li>\n"
 "\t<p>If you have questions or concerns about the rules, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p>"
 
-#: app/views/dashboard/developer/games/manage/manage.html:51
+#: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
 msgstr "Game API"
 
@@ -1041,7 +1051,7 @@ msgstr "Violence"
 msgid "dash.games.maturity.wip_help"
 msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
 
-#: app/views/dashboard/developer/games/manage/manage.html:31
+#: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
 msgstr "Medya"
 
@@ -1174,7 +1184,7 @@ msgstr "Video Details"
 msgid "dash.games.media.video.remove_button"
 msgstr "Remove Video"
 
-#: app/views/dashboard/developer/games/manage/manage.html:46
+#: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
 msgstr "Müzik"
 
@@ -1214,7 +1224,7 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 msgid "dash.games.music.remove_button"
 msgstr "Remove Song"
 
-#: app/views/dashboard/developer/games/manage/manage.html:41
+#: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
 msgstr "Haber"
 
@@ -1290,7 +1300,7 @@ msgstr "Post news to let people know when something interesting happens with you
 msgid "dash.games.news.views"
 msgstr "Views:"
 
-#: app/views/dashboard/developer/games/manage/manage.html:26
+#: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
 msgstr "Overview"
 
@@ -1380,7 +1390,7 @@ msgstr "Recommended"
 msgid "dash.games.overview.todo_required"
 msgstr "Required"
 
-#: app/views/dashboard/developer/games/manage/manage.html:36
+#: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
 msgstr "Builds & Files"
 
@@ -4870,4 +4880,78 @@ msgstr "{{ experience | number }} EXP gained from this score!"
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
 msgstr "+{{ extraCount | number }} more"
+
+#: app/components/forms/settings/settings.html:52
+msgid "settings.autostart_client_label"
+msgstr "Start when Windows starts?"
+
+#: app/components/forms/settings/settings.html:12
+msgid "settings.change_location_button"
+msgstr "Change Location"
+
+#: app/components/forms/settings/settings.html:59
+#: app/views/settings/settings.html:24
+msgid "settings.chat"
+msgstr "Chat"
+
+#: app/components/forms/settings/settings.html:61
+msgid "settings.chat_notify_friends_online_label"
+msgstr "Get notifications when friends go online/offline?"
+
+#: app/components/forms/settings/settings.html:4
+#: app/views/settings/settings.html:21
+msgid "settings.client"
+msgstr "Client"
+
+#: app/components/forms/settings/settings.html:7
+msgid "settings.game_install_dir_help"
+msgstr "This is the directory on your computer that games will install into."
+
+#: app/components/forms/settings/settings.html:6
+msgid "settings.game_install_dir_label"
+msgstr "Installed Games Directory"
+
+#: app/views/settings/settings.html:6
+msgid "settings.heading"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:24
+msgid "settings.limit_downloads_label"
+msgstr "Limit simultaneous downloads?"
+
+#: app/components/forms/settings/settings.html:36
+msgid "settings.limit_extractions_help"
+msgstr "An extraction is when the game is unpacked and installed after downloading."
+
+#: app/components/forms/settings/settings.html:35
+msgid "settings.limit_extractions_label"
+msgstr "Limit simultaneous extractions?"
+
+#: app/components/forms/settings/settings.html:30
+msgid "settings.max_download_count_help"
+msgstr "If you have more than this number, downloads will be queued up."
+
+#: app/components/forms/settings/settings.html:29
+msgid "settings.max_download_count_label"
+msgstr "Max # of Simultaneous Downloads"
+
+#: app/components/forms/settings/settings.html:42
+msgid "settings.max_extract_count_help"
+msgstr "If you have more than this number, extractions will be queued up."
+
+#: app/components/forms/settings/settings.html:41
+msgid "settings.max_extract_count_label"
+msgstr "Max # of Simultaneous Extractions"
+
+#: app/views/settings/settings-controller.js:3
+msgid "settings.page_title"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:48
+msgid "settings.queue_when_playing_help"
+msgstr "Should we pause all game installs and updates when you're playing a game?"
+
+#: app/components/forms/settings/settings.html:47
+msgid "settings.queue_when_playing_label"
+msgstr "Pause when playing?"
 
