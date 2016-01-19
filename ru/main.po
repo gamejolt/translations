@@ -432,6 +432,11 @@ msgstr "Ваша картинка должна быть в формате PNG, J
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.no"
 msgstr "Нет"
 
@@ -459,6 +464,11 @@ msgstr "Ваша миниатюра должна быть в формате PNG,
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.yes"
 msgstr "Да"
 
@@ -538,7 +548,7 @@ msgstr "<p>Вы должны принять следующие правила п
 "\t\t<li>Для браузерных игр мы не даем Вам разрешения на рекламу. Перед загрузкой игры на наш сайт, соизвольте удалить всю рекламу.</li>\n"
 "\t<p>Если у вас остались какие-то вопросы - обращайтесь: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p> "
 
-#: app/views/dashboard/developer/games/manage/manage.html:51
+#: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
 msgstr "API для игр"
 
@@ -730,15 +740,15 @@ msgstr "Высота"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr "A .zip archive containing all of the files the game needs to run, including an index.html in the root. Should be playable in any modern browser without plugins."
+msgstr ".zip архив содержит все файлы, нужные игре для запуска, включая индекс.html в корне. Игра должна работать на всех современных браузерах без плагинов."
 
 #: app/components/forms/dashboard/game/build/build.html:116
 msgid "dash.games.builds.form.no_platforms_error"
-msgstr "You have to select at least one platform on which your build runs (or \"Other\")."
+msgstr "Вам нужно выбрать хотя бы одну платформу, для которой Ваша игра будет предназначена(или \"Другое\")"
 
 #: app/components/forms/dashboard/game/build/build.html:97
 msgid "dash.games.builds.form.platforms_help_html"
-msgstr "Select \"Other\" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF."
+msgstr "Выберите \"Другое\", если данная сборка не предназначена для указанных платформ, или это неисполняемый файл, такой, как PDF."
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
@@ -758,11 +768,11 @@ msgstr "Ширина"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Stored On"
+msgstr "Хранятся на"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
-msgstr "Data Storage Items"
+msgstr "Пункты хранения данных."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
 msgid "dash.games.data_store.items.key_label"
@@ -775,11 +785,11 @@ msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All store
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "Больше о складе данных..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Предпросмотр"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
@@ -788,15 +798,15 @@ msgstr "Удалить элемент"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
-msgstr "Item Data"
+msgstr "Данные элемента"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "Хранятся на"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
-msgstr "Item Details"
+msgstr "Пункт подробности"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:27
 msgid "dash.games.data_store.items.view.key_label"
@@ -804,7 +814,7 @@ msgstr "Ключ"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit.html:4
 msgid "dash.games.edit.heading"
-msgstr "Edit Details"
+msgstr "Редактировать детали"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
@@ -816,7 +826,7 @@ msgstr "Выберете категорию.."
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
-msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
+msgstr "Вы можете редактировать описание всегда, когда захотите. Это ваш шанс использовать слова, чтобы заинтересовать людей вашей игрой! Хорошее описание, как правило, содержит краткое изложение геймплея, описание управления, сюжет и список авторов."
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
@@ -828,7 +838,7 @@ msgstr "Отменено"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "Выберите этот вариант, если игра доступна, но разработка была прекращена или приостановлена. Чтобы выбрать этот вариант, Вы должны загрузить на сайт отменённую версию."
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
@@ -836,7 +846,7 @@ msgstr "Завершенное/Стабильное"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
-msgstr "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+msgstr "Выберите это, если ваша игра готова. Она должна стабильно работать, и Вы планируете выпускать только патчи для исправления багов и повышения производительности."
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
@@ -844,7 +854,7 @@ msgstr "Статус разработки"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Вы не можете выбрать \"Готова\" или \"Отменена\", пока не загрузите билд."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
@@ -852,15 +862,15 @@ msgstr "В разработке/Нестабильное"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
-msgstr "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+msgstr "Выберите этот вариант, если игра ещё не закончена, но активно создаётся. Либо играбельный билд в процессе разработки, или пока нет публичных сборок. Не делайте игру публичной, пока у вас нет материалов: Скриншоты, видео, хорошее описание, и, возможно, готовая сборка. "
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
-msgstr "Engine/Language/Creation Tool"
+msgstr "Движок/Язык программирования"
 
 #: app/components/forms/dashboard/game/game.html:58
 msgid "dash.games.form.engine_other_help"
-msgstr "Which engine, language, or tool?"
+msgstr "Какой движок, язык программирования, или инструмент?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
@@ -1043,7 +1053,7 @@ msgstr "Violence"
 msgid "dash.games.maturity.wip_help"
 msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
 
-#: app/views/dashboard/developer/games/manage/manage.html:31
+#: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
 msgstr "Media"
 
@@ -1176,7 +1186,7 @@ msgstr "Video Details"
 msgid "dash.games.media.video.remove_button"
 msgstr "Remove Video"
 
-#: app/views/dashboard/developer/games/manage/manage.html:46
+#: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
 msgstr "Music"
 
@@ -1216,7 +1226,7 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 msgid "dash.games.music.remove_button"
 msgstr "Remove Song"
 
-#: app/views/dashboard/developer/games/manage/manage.html:41
+#: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
 msgstr "News"
 
@@ -1292,7 +1302,7 @@ msgstr "Post news to let people know when something interesting happens with you
 msgid "dash.games.news.views"
 msgstr "Views:"
 
-#: app/views/dashboard/developer/games/manage/manage.html:26
+#: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
 msgstr "Overview"
 
@@ -1382,7 +1392,7 @@ msgstr "Recommended"
 msgid "dash.games.overview.todo_required"
 msgstr "Required"
 
-#: app/views/dashboard/developer/games/manage/manage.html:36
+#: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
 msgstr "Builds & Files"
 
@@ -4890,4 +4900,78 @@ msgstr "{{ experience | number }} EXP gained from this score!"
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
 msgstr "+{{ extraCount | number }} more"
+
+#: app/components/forms/settings/settings.html:52
+msgid "settings.autostart_client_label"
+msgstr "Start when Windows starts?"
+
+#: app/components/forms/settings/settings.html:12
+msgid "settings.change_location_button"
+msgstr "Change Location"
+
+#: app/components/forms/settings/settings.html:59
+#: app/views/settings/settings.html:24
+msgid "settings.chat"
+msgstr "Chat"
+
+#: app/components/forms/settings/settings.html:61
+msgid "settings.chat_notify_friends_online_label"
+msgstr "Get notifications when friends go online/offline?"
+
+#: app/components/forms/settings/settings.html:4
+#: app/views/settings/settings.html:21
+msgid "settings.client"
+msgstr "Client"
+
+#: app/components/forms/settings/settings.html:7
+msgid "settings.game_install_dir_help"
+msgstr "This is the directory on your computer that games will install into."
+
+#: app/components/forms/settings/settings.html:6
+msgid "settings.game_install_dir_label"
+msgstr "Installed Games Directory"
+
+#: app/views/settings/settings.html:6
+msgid "settings.heading"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:24
+msgid "settings.limit_downloads_label"
+msgstr "Limit simultaneous downloads?"
+
+#: app/components/forms/settings/settings.html:36
+msgid "settings.limit_extractions_help"
+msgstr "An extraction is when the game is unpacked and installed after downloading."
+
+#: app/components/forms/settings/settings.html:35
+msgid "settings.limit_extractions_label"
+msgstr "Limit simultaneous extractions?"
+
+#: app/components/forms/settings/settings.html:30
+msgid "settings.max_download_count_help"
+msgstr "If you have more than this number, downloads will be queued up."
+
+#: app/components/forms/settings/settings.html:29
+msgid "settings.max_download_count_label"
+msgstr "Max # of Simultaneous Downloads"
+
+#: app/components/forms/settings/settings.html:42
+msgid "settings.max_extract_count_help"
+msgstr "If you have more than this number, extractions will be queued up."
+
+#: app/components/forms/settings/settings.html:41
+msgid "settings.max_extract_count_label"
+msgstr "Max # of Simultaneous Extractions"
+
+#: app/views/settings/settings-controller.js:3
+msgid "settings.page_title"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:48
+msgid "settings.queue_when_playing_help"
+msgstr "Should we pause all game installs and updates when you're playing a game?"
+
+#: app/components/forms/settings/settings.html:47
+msgid "settings.queue_when_playing_label"
+msgstr "Pause when playing?"
 
