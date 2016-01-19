@@ -10,22 +10,22 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>Your authorization code is invalid.</p>\n"
-"<p>Please make sure to copy and paste the full URL that we emailed you.</p>"
+msgstr "<p>Vahvistuskoodisi on virheellinen.</p>\n"
+"<p>Varmista, että kopioit koko URL-osoitteen jonka me lähetimme sinulle.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
-msgstr "Invalid Authorization"
+msgstr "Virheellinen vahvistus"
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
 msgid "auth.authorize.invalid.page_title"
-msgstr "Invalid Authorization Code"
+msgstr "Virheellinen vahvistuskoodi"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "We're redirecting you to your Game Jolt dashboard now."
+msgstr "Ohjaamme sinut nyt omalle Game Jolt -kojelaudallesi."
 
 #: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
@@ -34,7 +34,7 @@ msgstr "Unohditko käyttäjänimesi tai salasanan"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Enter the email address on your account and we'll email your login credentials to you."
+msgstr "Kirjoita sähköpostiosoitteesi, niin me lähetämme kirjautumistietosi sinulle."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -43,27 +43,27 @@ msgstr "Sähköpostiosoite"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
-msgstr "Retrieve Login Credentials"
+msgstr "Palauta kirjautumistiedot"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, that email address is not in our system. Maybe you didn't <a href=\"/join\">sign up yet</a>?</p>"
+msgstr "<p>Kappas, tuo sähköpostiosoite ei ole järjestelmässämme. Kenties et ole <a href=\"/join\">rekisteröitynyt vielä</a>?</p> "
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>We've sent your login credentials to the email address you entered.</p>"
+msgstr "<p>Olemme lähettäneet kirjautumistietosi antamaasi sähköpostiosoitteeseen.</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
-msgstr "Credentials Sent"
+msgstr "Tiedot lähetetty"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "If you don't see our email within 10 minutes, please check your spam folder. It might have been gobbled up!"
+msgstr "Jos et näe sähköpostiamme 10 minuutin sisään, ole hyvä ja tarkista roskapostisi, sillä viesti on voinut joutua sinne."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Retrieve Credentials"
+msgstr "Palauta kirjautumistiedot"
 
 #: auth/views/auth/login/login.html:35
 msgid "auth.join_link"
@@ -71,8 +71,8 @@ msgstr "Rekisteröidy"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Before you can log in to Game Jolt, you need to verify the email address on your account.</p>\n"
-"<p>We've sent you an email with instructions on how to authorize your account.</p>"
+msgstr "<p>Ennen kun voit kirjautua Game Joltiin, sinun täytyy vahvistaa tilisi sähköpostiosoite.</p>\n"
+"<p>Olemme lähettäneet sinulle sähköpostitse tiedot kuinka vahvistat tilisi.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -102,11 +102,11 @@ msgstr "Salasana"
 
 #: auth/components/forms/join/join.html:39
 msgid "auth.join.submit_button"
-msgstr "Sign Up"
+msgstr "Rekisteröidy"
 
 #: auth/views/auth/join/join.html:19
 msgid "auth.join.twitter_button"
-msgstr "Sign Up With Twitter"
+msgstr "Rekisteröidy Twitter-tilillä"
 
 #: auth/components/forms/join/join.html:13
 #: auth/components/forms/join/join.html:20
@@ -115,13 +115,13 @@ msgstr "Käyttäjänimi"
 
 #: auth/views/auth/linked-account/_processing.html:1
 msgid "auth.linked_account.loading_message"
-msgstr "Processing. Please wait..."
+msgstr "Prosessoidaan. Ole hyvä ja odota..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>The email address you entered is already in use.</p>\n"
-"<p>If you already have a Game Jolt account you can <a href=\"/login\">log in here</a>.</p>\n"
-"<p>If you've forgotten your login information, you can <a href=\"/forgot\">retrieve it here</a>.</p>"
+msgstr "<p>Antamasi sähköpostiosoite on jo käytössä.</p>\n"
+"<p>Jos sinulla on jo Game Jolt tili, voit <a href=\"/login\">kirjautua sisään tästä</a>.</p>\n"
+"<p>Jos olet unohtanut kirjautumistietosi, voit <a href=\"/forgot\">palauttaa ne tästä</a>.</p> "
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
@@ -154,7 +154,7 @@ msgstr "Väärä nimi tai salasana"
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Connecting to mainframe..."
+msgstr "Yhdistetään keskusjärjestelmään..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
@@ -187,7 +187,7 @@ msgstr "Vaihda salasana"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
-msgstr "If you'd like to reset your password, enter a new one below."
+msgstr "Jos haluat uusia salasanasi, kirjoita uusi salasana alle."
 
 #: auth/components/forms/reset-password/reset-password.html:11
 #: auth/components/forms/reset-password/reset-password.html:4
@@ -196,53 +196,52 @@ msgstr "Uusi salasana"
 
 #: auth/components/forms/reset-password/reset-password.html:20
 msgid "auth.reset_password.submit_button"
-msgstr "Reset Password"
+msgstr "Nollaa salasana"
 
-#: app/components/shell/footer/footer.html:32
+#: app/components/shell/footer/footer.html:36
 msgid "legal.privacy"
-msgstr "Privacy"
+msgstr "Yksityisyys"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:33
 msgid "legal.terms"
-msgstr "Terms"
+msgstr "Ehdot"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:28
 msgid "auth.authorize.success_growl_title"
-msgstr "Account Authorized"
+msgstr "Tilin vahvistus"
 
 #: auth/views/auth/forgot/forgot-controller.js:3
 msgid "auth.forgot.page_title"
-msgstr "Retrieve Login Credentials"
+msgstr "Palauta kirjautumistiedot"
 
 #: auth/views/auth/forgot/sent/sent.js:10
 msgid "auth.forgot.sent.page_title"
-msgstr "Credentials Sent"
+msgstr "Tiedot lähetetty"
 
 #: auth/views/auth/join/almost/almost-controller.js:3
 msgid "auth.join.almost.page_title"
-msgstr "Almost there!"
+msgstr "Lähes valmista!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Join us. Mwuahaha.<br>We have games.<br>\n"
-"<strong><em>Mwuahahaha!</em></strong>"
+msgstr "Liity meihin. (Pahaa naurua) <br>Meillä on pelejä.<br><strong><em>(Erittäin pahaa naurua)</em></strong>"
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
-msgstr "Join Game Jolt - The Largest Collection of Indie Games by People"
+msgstr "Liity Game Joltiin - maailman suurimpaan indiepelikokoelmaan"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Tilisi on nyt luotu. Tästä eteenpäin elämäsi on helppoa."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:36
 msgid "auth.linked_account.facebook.created_growl_title"
-msgstr "Account Created"
+msgstr "Tili luotu."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:17
 msgid "auth.linked_account.facebook.duplicate_email_growl"
-msgstr "The email address on this Facebook account is already in use. Perhaps you already have an account?"
+msgstr "Tämän Facebook-tilin sähköpostiosoite on jo käytössä. Kenties sinulla on jo tili?"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
@@ -250,7 +249,7 @@ msgstr "Voihan nenä!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:24
 msgid "auth.linked_account.facebook.failed_growl"
-msgstr "Unable to log in with Facebook."
+msgstr "Kirjautuminen Facebook-tilillä epäonnistui."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:25
 msgid "auth.linked_account.facebook.failed_growl_title"
@@ -258,7 +257,7 @@ msgstr "Kirjautuminen epäonnistui"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:10
 msgid "auth.linked_account.facebook.no_email_growl"
-msgstr "Your Facebook account did not return an email address. Make sure you have verified it with Facebook."
+msgstr "Facebook-tilisi ei palauttanut sähköpostiosoitetta. Varmista, että olet vahvistanut sen Facebookissa."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
@@ -266,7 +265,7 @@ msgstr "Voihan nenä!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Tilisi on nyt luotu. Tästä eteenpäin elämäsi on helppoa."
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
@@ -274,7 +273,7 @@ msgstr "Tili luotu"
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:15
 msgid "auth.linked_account.twitter.failed_growl"
-msgstr "Unable to log in with Twitter."
+msgstr "Kirjautuminen Twitter-tilillä epäonnistui."
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:16
 msgid "auth.linked_account.twitter.failed_growl_title"
@@ -290,11 +289,11 @@ msgstr "Kirjaudu Game Joltiin"
 
 #: auth/views/auth/reset-password/reset-password-controller.js:3
 msgid "auth.reset_password.page_title"
-msgstr "Reset Password"
+msgstr "Nollaa salasana."
 
 #: auth/views/auth/reset-password/reset-password-controller.js:11
 msgid "auth.reset_password.success_growl"
-msgstr "Your password has been reset. Now you can log in with your new one."
+msgstr "Salasanasi on resetoitu. Nyt voit kirjautua uudella salasanalla."
 
 #: auth/views/auth/reset-password/reset-password-controller.js:12
 msgid "auth.reset_password.success_growl_title"
@@ -310,11 +309,11 @@ msgstr "Ehdot"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
-msgstr "<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>"
+msgstr "<p>Hanki ystäviä tällä sivustolla, niin voit keskustella heidän kanssaan, nähdä, mitä he pelaavat sekä pelata pelejä heidän kanssaan!</p>"
 
 #: app/views/dashboard/activity/list/list.html:11
 msgid "dash.activity.all_tab"
-msgstr "All Activity"
+msgstr "Kaikki toiminta"
 
 #: app/views/dashboard/activity/list/list.html:69
 msgid "dash.activity.dismiss_all_button"
@@ -322,11 +321,11 @@ msgstr "Merkitse kaikki luetuiksi"
 
 #: app/views/dashboard/activity/list/list.html:52
 msgid "dash.activity.filter_button"
-msgstr "Showing {{ filter }}"
+msgstr "Näytetään {{ filter }}"
 
 #: app/views/dashboard/activity/list/list.html:6
 msgid "dash.activity.heading"
-msgstr "Activity Feed"
+msgstr "Toimintasyöte"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
@@ -353,11 +352,11 @@ msgstr "Nykyinen avatarisi."
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
-msgstr "Get Gravatar Account"
+msgstr "Hanki Gravatar-tili"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Hanki avatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
@@ -373,11 +372,11 @@ msgstr "Vaihda tilin salasanaa"
 
 #: app/components/forms/dashboard/change-password/change-password.html:10
 msgid "dash.change_pass.invalid_old_password_error"
-msgstr "The password you entered is invalid."
+msgstr "Syöttämäsi salasana on virheellinen."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+msgstr "Antamasi salasanat eivät täsmää. Yritä kirjoittaa ne uudelleen ja varmistaa, että ne ovat samanlaiset."
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
@@ -393,19 +392,19 @@ msgstr "Uusi salasana"
 
 #: app/components/forms/dashboard/change-password/change-password.html:37
 msgid "dash.change_pass.submit_button"
-msgstr "Change Account Password"
+msgstr "Vaihda tilin salasanaa"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
-msgstr "Your Email Preferences"
+msgstr "Sähköpostikäytäntösi"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Receive Newsletter?"
+msgstr "Vastaanota uutiskirje?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "Kerro meille, millaisia sähköpostihuomautuksia haluat vastaanottaa vaihtamalla eri kategorioita päälle/pois."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
@@ -413,44 +412,43 @@ msgstr "Huomautukset"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
-msgstr "Email Preferences"
+msgstr "Sähköpostikäytännöt"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
-msgstr "Save Preferences"
+msgstr "Tallennuskäytännöt"
 
 #: app/components/forms/dashboard/game/header/header.html:11
 #: app/components/forms/dashboard/game/image/image.html:11
 #: app/components/forms/dashboard/game/trophy/trophy.html:40
 msgid "dash.forms.image_filetype_help_html"
-msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
-"\t<strong>PNGs are highly recommended as they produce a lossless image.</strong>"
+msgstr "Kuvasti täytyy olla PNG, JPG tai GIF -tyyppiä. <br> <strong>PNG:t ovat suositeltuja, koska ne muodostavat häviöttömän kuvan.</strong>"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
-msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
-"\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
-"\tFor still images, PNGs are recommended because they produce lossless images."
+msgstr "Esikatselukuvan täytyy olla tiedostotyypiltään PNG, JPG tai GIF. <br>\n"
+"Animoidut GIF-kuvat antavat vihjeitä siitä, millaiselta pelisi (kenties) näyttää toiminnassa. <br>\n"
+"Staattisille kuville PNG-tiedostot ovat suositeltavia"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
-msgstr "Amount to Withdraw"
+msgstr "Nostettava summa"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Tämän täytyy olla kunnollinen sähköpostiosite kiinnitettynä PayPal-tiliin."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
-msgstr "PayPal Email Address"
+msgstr "PayPal-sähköpostiosoite"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
-msgstr "Make sure that the information you enter below is correct. You will not get a chance to change it after you submit."
+msgstr "Varmista, että antamasi tiedot ovat kunnollisia. Et voi vaihtaa niitä myöhemmin."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
-msgstr "Withdraw Revenue"
+msgstr "Nosta tulojasi"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
@@ -459,27 +457,27 @@ msgstr "<p>Please allow 3 days for withdrawals to be processed. At this time all
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
 msgid "dash.funds.withdraw.revenue_pending"
-msgstr "Pending Withdrawal"
+msgstr "Nostohakemus vireillä"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
-msgstr "Withdrawable Amount"
+msgstr "Nostettavissa oleva summa"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.submit_button"
-msgstr "Send Withdrawal Request"
+msgstr "Lähetä noutopyyntö."
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
-msgstr "Okay"
+msgstr "Okei."
 
 #: app/components/forms/dashboard/game/game.html:156
 msgid "dash.games.add.fnaf_autotag_message_html"
-msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series."
+msgstr "<strong>Ei kai pelisi vain ole Five Nights of Freddy's -pelistä ammentava tuotos (fanipeli, spinoff tai epävirallinen jatko-osa)?</strong> Siinä tapauksessa olemme lisänneet hashtagin <code>#fnaf</code> pelisi esittelyyn. Vaadimme tätä kaikilta Five Nights of Freddy's -pelisarjaa liittyviltä peleiltä."
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Don't Tag"
+msgstr "Älä listää tagia"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
@@ -513,19 +511,19 @@ msgstr "Game API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
-msgstr "Data Store"
+msgstr "Datavarasto"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
-msgstr "Global Items"
+msgstr "Globaalit esineet"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
 msgid "dash.games.api.overview.data_items_tooltip"
-msgstr "The total number of stored global data items."
+msgstr "Globaalien dataesineiden yhteismäärä"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
 msgid "dash.games.api.overview.heading"
-msgstr "Game API Overview"
+msgstr "Yleiskatsaus Game API:in"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
@@ -533,12 +531,12 @@ msgstr "N/A"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
-msgstr "Find help in the API forums..."
+msgstr "Etsi apua API-foorumeilta..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
-"\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
+msgstr "<p>Game API -ohjelmointirajapinta antaa sinulle mahdollisuuden parantaa peliäsi pistetaulukoilla, pokaaleilla, pilvidatavarastolla, istunnon kirjaamisella sekä muulla.</p>\n"
+"<p>Voit katsastaa alla olevat linkit, jos vaikka yhteisö olisi jo kirjoittanut API-kirjaston haluamallesi alustalle/kielelle/työkalulle. Toki voit itsekin kirjoittaa omasia ja jakaa sen foorumeilla!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
@@ -554,27 +552,27 @@ msgstr "Yhteispisteet"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
-msgstr "The total number of scores across all of the game's scoreboards, including guest scores."
+msgstr "Pelisi pistetaulukoissa olevien pisteiden yhteismäärä vieraspisteet mukaanlukien."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Users w/ Scores"
+msgstr "Käyttäjät, joilla on tulos"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
-msgstr "The number of users with scores on any of the game's scoreboards. Does not include guests."
+msgstr "Sellaisten käyttäjien määrä, joilla on edes yksi tulos millä tahansa pelin pistetaulukoista. Ei sisällä vieraspisteitä."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "Active Sessions"
+msgstr "Aktiiviset istunnot"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
-msgstr "Avg. Session Time"
+msgstr "Keskimääräinen istunnon pituus"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sessions"
+msgstr "Istunnot"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
@@ -586,7 +584,7 @@ msgstr "Yhteenlaskettu aika"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
 msgid "dash.games.api.overview.sessions_users_label"
-msgstr "Users w/ Sessions"
+msgstr "Käyttäjät, joilla on istuntoja"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
@@ -598,7 +596,7 @@ msgstr "Pokaalikokemus"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
-msgstr "The total awardable EXP for trophies in your game."
+msgstr "Saatavan kokemuksen yhteismäärä pelisi pokaaleista"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
@@ -610,19 +608,19 @@ msgstr "Pokaalit"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
-msgstr "Users w/ Trophies"
+msgstr "Käyttäjät, joilla on pokaaleja"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
-msgstr "Game ID"
+msgstr "Pelisi ID-tunnus"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
-msgstr "Game API Settings"
+msgstr "Game API -asetukset"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
 msgid "dash.games.api.settings.key_generate_button"
-msgstr "Generate New Key"
+msgstr "Luo uusi avain"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:19
 msgid "dash.games.api.settings.key_label"
@@ -634,15 +632,15 @@ msgstr "(näytä avain)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
-msgstr "\t<p><strong>Never give your private key to anyone!</strong> Your game's key is used to validate that API requests are coming from your game. If villains or knaves get ahold of it, they can send in fake requests pretending to be your game. Not good!</p>"
+msgstr "<p><strong>Älä koskaa anna yksityistä avaintasi kenellekään!</strong> Pelisi avaita käytetään vahvistamaan pelistäsi tulevat API-pyynnöt. Jos väärät tahot pääsevät siihen käsiksi, pahuus on irti!</p>"
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr "A .jar file. Playable in browsers that still support Java. Consider adding your .jar as a downloadable build, too."
+msgstr ".jar-tiedosto. Pelattavissa selaimissa, jotka silti jostain syystä tukevat Javaa. Harkitse lisääväsi .jar-tiedosto myös ladattavaksi."
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+msgstr "Muistathan estää tai poistaa kaikki pelissäsi näkyvät mainokset. Me jaamme omat mainoksemme ja jaamme tuottomme kehittäjien kesken. Estä seuraavat verkkotunnukset:"
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
@@ -654,19 +652,19 @@ msgstr "Selain"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Class Name"
+msgstr "Luokan (class) nimi"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
-msgstr "These are the dimensions at which your browser build will be displayed."
+msgstr "Näillä mitoilla selainpelisi näytetään."
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "Tämä antaa sinun poistaa oikean hiiren napautuksen käytöstä. Käytä vain, jos pelisi käyttää oikeaa napautusta johonkin muuhun."
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disable right click?"
+msgstr "Poista oikea hiiren painallus käytöstä?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
@@ -678,7 +676,7 @@ msgstr "tiedosto"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
-msgstr "Your account is currently limited to {{ maxFilesize | number }} MB per file. If you need more, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a>"
+msgstr "Tilisi on tällä hetkellä rajoitettu tiedostokokoon {{ maxFilesize | number }} Mt per tiedosto. Lähetä viestiä, jos tarvitset enemmän: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a> "
 
 #: app/components/forms/dashboard/game/build/build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
@@ -2060,12 +2058,12 @@ msgstr "View Game Page"
 msgid "dash.integrate.done"
 msgstr "Done"
 
-#: app/views/dashboard/overview/overview.html:126
+#: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
 "\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
 
-#: app/views/dashboard/overview/overview.html:125
+#: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
 msgstr "Gain experience and level up!"
 
@@ -2077,15 +2075,15 @@ msgstr "Integrate"
 msgid "dash.integrate.lead"
 msgstr "Here's a to-do list of things to get you started with the site:"
 
-#: app/views/dashboard/overview/overview.html:133
+#: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
 msgstr "Latest Activity"
 
-#: app/views/dashboard/overview/overview.html:142
+#: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>No activity yet.</p>"
 
-#: app/views/dashboard/overview/overview.html:146
+#: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
 msgstr "View All Activity"
 
@@ -2093,15 +2091,15 @@ msgstr "View All Activity"
 msgid "dash.overview.broadcast_view_all"
 msgstr "View All Changelog Broadcasts"
 
-#: app/views/dashboard/overview/overview.html:164
+#: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
 msgstr "Add Game"
 
-#: app/views/dashboard/overview/overview.html:157
+#: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
 msgstr "Your Games"
 
-#: app/views/dashboard/overview/overview.html:180
+#: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboard/developer/games/add\">Add a game</a>!"
 
@@ -3065,35 +3063,35 @@ msgstr "Trophies"
 msgid "trophies.overview.view_more_button"
 msgstr "View All Trophies"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:42
+#: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
 msgstr "Edit your account information."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:48
+#: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
 msgstr "View your activity feed."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:24
+#: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
 msgstr "View your dashboard."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:7
+#: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
 msgstr "Go to main home page."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:13
+#: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
 msgstr "Browse games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:36
+#: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
 msgstr "View your installed games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:30
+#: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
 msgstr "View your game library."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:18
+#: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
 msgstr "Browse game news."
 
@@ -4651,7 +4649,7 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:34
+#: app/components/shell/footer/footer.html:39
 msgid "footer.contact"
 msgstr "Contact"
 
@@ -4955,7 +4953,11 @@ msgstr "On"
 msgid "forms.yes"
 msgstr "Yes"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:54
+#: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
 msgstr "Change settings."
+
+#: app/components/shell/footer/footer.html:30
+msgid "footer.open_source"
+msgstr "Open Source"
 
