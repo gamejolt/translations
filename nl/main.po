@@ -85,12 +85,12 @@ msgstr "Heb je de mail niet binnen 10 minuten ontvangen, check dan je SPAM map, 
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "De verificatie mail is een week geldig, activeer binnen een week of de account wordt verwijderd."
+msgstr "De verificatie mail is een week geldig, activeer binnen een week of het account wordt verwijderd."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
 msgid "auth.join.email_label"
-msgstr "Email Addres"
+msgstr "E-mailadres"
 
 #: auth/views/auth/join/join.html:11
 msgid "auth.join.facebook_button"
@@ -131,11 +131,11 @@ msgstr "Om het inloggen met Twitter af te ronden hebben we je email adres nodig.
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
 msgid "auth.linked_account.twitter.finalize.email_label"
-msgstr "Email Addres"
+msgstr "E-mailadres"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
 msgid "auth.linked_account.twitter.finalize.heading"
-msgstr "Email Vereist"
+msgstr "E-mail Vereist"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
 msgid "auth.linked_account.twitter.finalize.submit_button"
@@ -184,26 +184,26 @@ msgstr "of"
 
 #: auth/views/auth/reset-password/reset-password.html:1
 msgid "auth.reset_password.heading"
-msgstr "Wachtwoord resetten"
+msgstr "Wachtwoord opnieuw instellen"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
-msgstr "Als je jouw wachtwoord wilt veranderen, voer hier onder dan een nieuw wachtwoord in."
+msgstr "Als je jouw wachtwoord wilt veranderen, voer hieronder dan een nieuw wachtwoord in."
 
 #: auth/components/forms/reset-password/reset-password.html:11
 #: auth/components/forms/reset-password/reset-password.html:4
 msgid "auth.reset_password.password_label"
-msgstr "Nieuwe Wachtwoord"
+msgstr "Nieuw Wachtwoord"
 
 #: auth/components/forms/reset-password/reset-password.html:20
 msgid "auth.reset_password.submit_button"
-msgstr "Wachtwoord Resetten"
+msgstr "Wachtwoord Opnieuw Instellen"
 
-#: app/components/shell/footer/footer.html:32
+#: app/components/shell/footer/footer.html:36
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:33
 msgid "legal.terms"
 msgstr "Voorwaarden"
 
@@ -214,11 +214,11 @@ msgstr "Account Geautoriseerd"
 
 #: auth/views/auth/forgot/forgot-controller.js:3
 msgid "auth.forgot.page_title"
-msgstr "Log In gegevens ophalen"
+msgstr "Inloggegevens ophalen"
 
 #: auth/views/auth/forgot/sent/sent.js:10
 msgid "auth.forgot.sent.page_title"
-msgstr "Log In gegevens verzonden"
+msgstr "Inloggegevens verzonden"
 
 #: auth/views/auth/join/almost/almost-controller.js:3
 msgid "auth.join.almost.page_title"
@@ -231,7 +231,7 @@ msgstr "Schrijf je in! Mwahhahaha<br>We hebben games.<br>\n"
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
-msgstr "Neem deel aan Gamejolt - De grootste collectie Indie Games ter wereld"
+msgstr "Neem deel aan Gamejolt - De grootste verzameling Indie Games ter wereld"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
@@ -243,7 +243,7 @@ msgstr "Account Aangemaakt"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:17
 msgid "auth.linked_account.facebook.duplicate_email_growl"
-msgstr "Het email adres van de opgegeven Facebook account is al bij ons bekend, ben je al geregistreerd?"
+msgstr "Het email adres van de opgegeven Facebook account is al bij ons bekend, misschien ben je al geregistreerd?"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
@@ -340,7 +340,7 @@ msgstr "Ongelezen"
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
 msgstr "<p>We gebruiken momenteel <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) om avatars weer te geven op Game Jolt.</p>\n"
-"\t<p>Als je nog geen Gravatar account hebt, kun je op de knop hier onder drukken om <a href=\"http://gravatar.com\">gravatar.com</a> te openen en een gravatar te verkrijgen. Je kunt hier inloggen met je Wordpress account. Heb je nog geen Wordpress account?! No worries! Je kunt ze beide tegelijk aanmaken.</p>\n"
+"\t<p>Als je nog geen Gravatar account hebt, kun je op de knop hieronder drukken om <a href=\"http://gravatar.com\">gravatar.com</a> te openen en een gravatar te verkrijgen. Je kunt hier inloggen met je Wordpress account. Heb je nog geen Wordpress account?! No worries! Je kunt ze beide tegelijk aanmaken.</p>\n"
 "\t<p>Heb je al een Gravatar account? Goed. Log in en upload de avatar naar keus, associeer dan de avatar met het email addres dat je gebruikt voor Game Jolt. Je avatar zal automatisch overal op de site verschijnen.</p>\n"
 "\t<p><em>Er zit een kleine vertraging tussen het uploaden van je gravatar en de weergave op de site. Mocht de avatar na ruime tijd nog niet zichtbaar zijn, leeg dan je browser cache.</em></p>"
 
@@ -2066,12 +2066,12 @@ msgstr "Bekijk Game Pagina"
 msgid "dash.integrate.done"
 msgstr "Klaar"
 
-#: app/views/dashboard/overview/overview.html:126
+#: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>Om XP te halen speel je games, vergeet niet ze te <em>beoordelen</em> en een <em>reactie</em> achter te laten op de games die je volgt.</p>\n"
 "\t<p>De snelste manier om XP te halen is door <strong>trofee&eacute;n</strong> vrij te spelen en je scores te plaatsen op <strong>scoreborden</strong>!</p>"
 
-#: app/views/dashboard/overview/overview.html:125
+#: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
 msgstr "Verzamel XP en verhoog je level!"
 
@@ -2083,15 +2083,15 @@ msgstr "Integreren"
 msgid "dash.integrate.lead"
 msgstr "Hier een to-do list met dingen die je kunt doen op de site:"
 
-#: app/views/dashboard/overview/overview.html:133
+#: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
 msgstr "Recente Activiteit"
 
-#: app/views/dashboard/overview/overview.html:142
+#: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>Nog geen activiteiten.</p>"
 
-#: app/views/dashboard/overview/overview.html:146
+#: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
 msgstr "Bekijk alle Activiteit"
 
@@ -2099,15 +2099,15 @@ msgstr "Bekijk alle Activiteit"
 msgid "dash.overview.broadcast_view_all"
 msgstr "Bekijk alle wijzigingen"
 
-#: app/views/dashboard/overview/overview.html:164
+#: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
 msgstr "Game Toevoegen"
 
-#: app/views/dashboard/overview/overview.html:157
+#: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
 msgstr "Jouw Games"
 
-#: app/views/dashboard/overview/overview.html:180
+#: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "Nog geen games? Wat?? Echt? Je bent een developer, dussss... <a href=\"/dashboard/developer/games/add\">Voeg een Game toe</a>!"
 
@@ -3071,35 +3071,35 @@ msgstr "Trofee&eacute;n"
 msgid "trophies.overview.view_more_button"
 msgstr "Bekijk Alle Trofee&eacute;n"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:42
+#: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
 msgstr "Bewerk je account informatie."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:48
+#: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
 msgstr "Bekijk je activiteit."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:24
+#: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
 msgstr "Bekijk dashboard."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:7
+#: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
 msgstr "Ga naar de voorpagina."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:13
+#: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
 msgstr "Bladeren in games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:36
+#: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
 msgstr "Bekijk je geinstalleerde games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:30
+#: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
 msgstr "Bekijk je bibliotheek."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:18
+#: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
 msgstr "Bladeren in game nieuws."
 
@@ -4659,7 +4659,7 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 extra notificatie"
 msgstr[1] "+{{ $count | number }} extra notificaties"
 
-#: app/components/shell/footer/footer.html:34
+#: app/components/shell/footer/footer.html:39
 msgid "footer.contact"
 msgstr "Contact"
 
@@ -4754,8 +4754,8 @@ msgstr "In Ontwikkeling"
 #: app/views/discover/games/view/view.html:18
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 nieuwsartikel"
+msgstr[1] "{{ $count | number }} nieuwsartikels"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.amount_help"
@@ -4763,47 +4763,47 @@ msgstr "Het minimumbedrag wat je op dit moment kunt laten uitkeren is {{ amount 
 
 #: app/components/forms/dashboard/game/song/song.html:15
 msgid "dash.games.music.form.file_help_block"
-msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+msgstr "Uploads van muziek mogen momenteel maximaal {{ maxFilesize | number }}MB per bestand zijn. Alleen MP3-bestanden worden ondersteund."
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:34
 msgid "dash.games.news.posted_on"
-msgstr "Posted on: {{ date | date:'medium' }}"
+msgstr "Geplaatst op: {{ date | date:'medium' }}"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
 msgid "dash.games.packages.manage.releases.release_title"
-msgstr "Release {{ version }}"
+msgstr "Uitgave {{ version }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
 msgid "dash.games.trophies.add_button"
-msgstr "Add {{ difficulty }} Trophy"
+msgstr "Voeg {{ difficulty }} Trofee toe"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
 msgid "dash.games.trophies.no_trophies"
-msgstr "No {{ difficulty | lowercase }} trophies added yet."
+msgstr "Nog geen {{ difficulty | lowercase }} trofeeën toegevoegd."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
 msgid "dash.games.trophies.section_heading"
-msgstr "{{ difficulty }} Trophies"
+msgstr "{{ difficulty }} Trofeeën."
 
 #: app/views/discover/games/view/download/build/build.html:13
 msgid "game.download.game.downloading_label"
-msgstr "Downloading {{ game }}..."
+msgstr "{{ game }} downloaden..."
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
 msgid "game.download.soundtrack.downloading_label"
-msgstr "Downloading soundtrack..."
+msgstr "Soundtrack downloaden..."
 
 #: app/views/discover/games/list/list.html:27
 msgid "games.list.date_heading_small"
-msgstr "on {{ date }}"
+msgstr "op {{ date }}"
 
 #: app/views/discover/games/list/list.html:31
 msgid "games.list.date_range_heading_small"
-msgstr "between {{ dateStart }} and {{ dateEnd }}"
+msgstr "tussen {{ dateStart }} en {{ dateEnd }}"
 
 #: app/components/game/thumbnail/thumbnail.html:30
 msgid "games.thumbnail.ratings"
-msgstr "{{ count | number }} rating(s)"
+msgstr "{{ count | number }} waardering(en)"
 
 #: app/views/library/collection/_header-default.html:88
 msgid "library.collection.bundle_heading"
@@ -4819,43 +4819,43 @@ msgstr "#{{ tag }}"
 
 #: app/components/game/collection/grid/grid.html:41
 msgid "library.playlists.subscription_developer_description"
-msgstr "Games made by {{ user }}."
+msgstr "Spellen gemaakt door {{ user }}."
 
 #: app/components/game/collection/grid/grid.html:37
 msgid "library.playlists.subscription_followed_description"
-msgstr "Games followed by {{ user }}."
+msgstr "Spellen gevolgd door {{ user }}."
 
 #: app/components/activity/feed/feed.html:50
 msgid "notifications.rating_details_title"
-msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+msgstr "{{ rating }} is het getal dat gij zult ontvangen, en het getal van het ontvangen zal {{ rating }} zijn."
 
 #: app/views/profile/overview/overview.html:127
 msgid "profile.developer_games_teaser_button"
-msgstr "View All ({{ gamesCount | number }})"
+msgstr "Laat alles zien ({{ gamesCount | number }})"
 
 #: app/views/profile/overview/overview.html:59
 msgid "profile.friend_request_received_pending"
-msgstr "{{ user }} would like to be your friend."
+msgstr "{{ user }} wil graag je vriend zijn."
 
 #: app/views/profile/overview/overview.html:49
 msgid "profile.friend_request_sent_pending"
-msgstr "Friend request to {{ user }} pending acceptance."
+msgstr "Het vriendverzoek naar {{ user }} is nog niet geaccepteerd."
 
 #: app/components/score/overview/overview.html:93
 msgid "scores.overview.user_best_exp_tooltip"
-msgstr "{{ experience | number }} EXP gained from this score!"
+msgstr "{{ experience | number }} EXP gekregen van deze score! "
 
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
-msgstr "+{{ extraCount | number }} more"
+msgstr "+{{ extraCount | number }} extra"
 
 #: app/components/forms/settings/settings.html:52
 msgid "settings.autostart_client_label"
-msgstr "Start when Windows starts?"
+msgstr "Opstarten als Windows start?"
 
 #: app/components/forms/settings/settings.html:12
 msgid "settings.change_location_button"
-msgstr "Change Location"
+msgstr "Locatie Veranderen"
 
 #: app/components/forms/settings/settings.html:59
 #: app/views/settings/settings.html:24
@@ -4864,7 +4864,7 @@ msgstr "Chat"
 
 #: app/components/forms/settings/settings.html:61
 msgid "settings.chat_notify_friends_online_label"
-msgstr "Get notifications when friends go online/offline?"
+msgstr "Notificaties krijgen als vrienden online of offline gaan?"
 
 #: app/components/forms/settings/settings.html:4
 #: app/views/settings/settings.html:21
@@ -4873,55 +4873,55 @@ msgstr "Client"
 
 #: app/components/forms/settings/settings.html:7
 msgid "settings.game_install_dir_help"
-msgstr "This is the directory on your computer that games will install into."
+msgstr "Dit is de map op je computer waar games naartoe geïnstalleerd worden."
 
 #: app/components/forms/settings/settings.html:6
 msgid "settings.game_install_dir_label"
-msgstr "Installed Games Directory"
+msgstr "Installatiemap"
 
 #: app/views/settings/settings.html:6
 msgid "settings.heading"
-msgstr "Settings"
+msgstr "Instellingen"
 
 #: app/components/forms/settings/settings.html:24
 msgid "settings.limit_downloads_label"
-msgstr "Limit simultaneous downloads?"
+msgstr "Maximaal aantal downloads beperken?"
 
 #: app/components/forms/settings/settings.html:36
 msgid "settings.limit_extractions_help"
-msgstr "An extraction is when the game is unpacked and installed after downloading."
+msgstr "Games moeten worden uitgepakt en geïnstalleerd nadat ze zijn gedownload."
 
 #: app/components/forms/settings/settings.html:35
 msgid "settings.limit_extractions_label"
-msgstr "Limit simultaneous extractions?"
+msgstr "Maximaal aantal games die worden uitgepakt beperken?"
 
 #: app/components/forms/settings/settings.html:30
 msgid "settings.max_download_count_help"
-msgstr "If you have more than this number, downloads will be queued up."
+msgstr "Als je meer dan dit aantal hebt, worden downloads in een wachtrij gezet."
 
 #: app/components/forms/settings/settings.html:29
 msgid "settings.max_download_count_label"
-msgstr "Max # of Simultaneous Downloads"
+msgstr "Maximaal aantal downloads tegelijk"
 
 #: app/components/forms/settings/settings.html:42
 msgid "settings.max_extract_count_help"
-msgstr "If you have more than this number, extractions will be queued up."
+msgstr "Als je meer dan dit aantal hebt, worden games die moeten worden uitgepakt in een wachtrij gezet."
 
 #: app/components/forms/settings/settings.html:41
 msgid "settings.max_extract_count_label"
-msgstr "Max # of Simultaneous Extractions"
+msgstr "Maximaal aantal games dat tegelijk mag worden uitgepakt"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
-msgstr "Settings"
+msgstr "Instellingen"
 
 #: app/components/forms/settings/settings.html:48
 msgid "settings.queue_when_playing_help"
-msgstr "Should we pause all game installs and updates when you're playing a game?"
+msgstr "Moeten we installaties en updates van spellen pauzeren terwijl je een spel speelt?"
 
 #: app/components/forms/settings/settings.html:47
 msgid "settings.queue_when_playing_label"
-msgstr "Pause when playing?"
+msgstr "Pauzeren tijdens het spelen?"
 
 #: app/components/forms/dashboard/game/build/build.html:163
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
@@ -4935,19 +4935,19 @@ msgstr "Pause when playing?"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.no"
-msgstr "No"
+msgstr "Nee"
 
 #: app/components/forms/dashboard/game/settings/settings.html:21
 #: app/components/forms/dashboard/game/settings/settings.html:32
 #: app/components/forms/dashboard/game/settings/settings.html:43
 msgid "forms.off"
-msgstr "Off"
+msgstr "Uit"
 
 #: app/components/forms/dashboard/game/settings/settings.html:20
 #: app/components/forms/dashboard/game/settings/settings.html:31
 #: app/components/forms/dashboard/game/settings/settings.html:42
 msgid "forms.on"
-msgstr "On"
+msgstr "Aan"
 
 #: app/components/forms/dashboard/game/build/build.html:162
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
@@ -4961,9 +4961,13 @@ msgstr "On"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.yes"
-msgstr "Yes"
+msgstr "Ja"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:54
+#: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
-msgstr "Change settings."
+msgstr "Instellingen veranderen."
+
+#: app/components/shell/footer/footer.html:30
+msgid "footer.open_source"
+msgstr "Open Source"
 
