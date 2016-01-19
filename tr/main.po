@@ -426,51 +426,11 @@ msgid "dash.forms.image_filetype_help_html"
 msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
 "\t<strong>PNGs are highly recommended as they produce a lossless image.</strong>"
 
-#: app/components/forms/dashboard/game/build/build.html:163
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
-#: app/components/forms/dashboard/game/score-table/score-table.html:15
-#: app/components/forms/dashboard/game/score-table/score-table.html:20
-#: app/components/forms/dashboard/game/trophy/trophy.html:71
-#: app/components/forms/dashboard/game/trophy/trophy.html:76
-#: app/components/forms/settings/settings.html:25
-#: app/components/forms/settings/settings.html:37
-#: app/components/forms/settings/settings.html:49
-#: app/components/forms/settings/settings.html:53
-#: app/components/forms/settings/settings.html:62
-msgid "dash.forms.no"
-msgstr "Hayır"
-
-#: app/components/forms/dashboard/game/settings/settings.html:21
-#: app/components/forms/dashboard/game/settings/settings.html:32
-#: app/components/forms/dashboard/game/settings/settings.html:43
-msgid "dash.forms.off"
-msgstr "Off"
-
-#: app/components/forms/dashboard/game/settings/settings.html:20
-#: app/components/forms/dashboard/game/settings/settings.html:31
-#: app/components/forms/dashboard/game/settings/settings.html:42
-msgid "dash.forms.on"
-msgstr "On"
-
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
 msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
 "\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
 "\tFor still images, PNGs are recommended because they produce lossless images."
-
-#: app/components/forms/dashboard/game/build/build.html:162
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
-#: app/components/forms/dashboard/game/score-table/score-table.html:15
-#: app/components/forms/dashboard/game/score-table/score-table.html:20
-#: app/components/forms/dashboard/game/trophy/trophy.html:71
-#: app/components/forms/dashboard/game/trophy/trophy.html:76
-#: app/components/forms/settings/settings.html:25
-#: app/components/forms/settings/settings.html:37
-#: app/components/forms/settings/settings.html:49
-#: app/components/forms/settings/settings.html:53
-#: app/components/forms/settings/settings.html:62
-msgid "dash.forms.yes"
-msgstr "Evet"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
@@ -4954,4 +4914,44 @@ msgstr "Should we pause all game installs and updates when you're playing a game
 #: app/components/forms/settings/settings.html:47
 msgid "settings.queue_when_playing_label"
 msgstr "Pause when playing?"
+
+#: app/components/forms/dashboard/game/build/build.html:163
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
+#: app/components/forms/dashboard/game/score-table/score-table.html:15
+#: app/components/forms/dashboard/game/score-table/score-table.html:20
+#: app/components/forms/dashboard/game/trophy/trophy.html:71
+#: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
+msgid "forms.no"
+msgstr "No"
+
+#: app/components/forms/dashboard/game/settings/settings.html:21
+#: app/components/forms/dashboard/game/settings/settings.html:32
+#: app/components/forms/dashboard/game/settings/settings.html:43
+msgid "forms.off"
+msgstr "Off"
+
+#: app/components/forms/dashboard/game/settings/settings.html:20
+#: app/components/forms/dashboard/game/settings/settings.html:31
+#: app/components/forms/dashboard/game/settings/settings.html:42
+msgid "forms.on"
+msgstr "On"
+
+#: app/components/forms/dashboard/game/build/build.html:162
+#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
+#: app/components/forms/dashboard/game/score-table/score-table.html:15
+#: app/components/forms/dashboard/game/score-table/score-table.html:20
+#: app/components/forms/dashboard/game/trophy/trophy.html:71
+#: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
+msgid "forms.yes"
+msgstr "Yes"
 
