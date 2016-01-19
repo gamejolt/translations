@@ -34,12 +34,12 @@ msgstr "Ai uitat Numele de Utilizator sau Parola"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Lipiți adresa de E-Mail de pe contul vostru și vă vom trimite datele de autentificare prin E-Mail."
+msgstr "Lipiți adresa de e-mail de pe contul vostru și vă vom trimite datele de autentificare prin e-mail."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
 msgid "auth.forgot.email_label"
-msgstr "Adresa de E-Mail"
+msgstr "Adresa de e-mail"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
@@ -47,7 +47,7 @@ msgstr "Recuperarea datelor de autentificare"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, acea adresă de e-mail nu este in sistemul nostru. Poate că nu <a href=\"/join\">te-ai înregistrat încă?</a>?</p>"
+msgstr "<p>Hmm, acea adresă de e-mail nu este in sistemul nostru. Poate că nu <a href=\"/join\">te-ai înregistrat încă</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
@@ -72,7 +72,7 @@ msgstr "Înregistrează-te!"
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
 msgstr "<p>Înainte de a te conecta la Game Jolt, trebuie să verifici adresa de e-mail a contului tău.</p>\n"
-"\t<p>Am trimis un E-mail cu instrucțiunile de activare ale contului tău.</p>"
+"\t<p>Am trimis un e-mail cu instrucțiunile de activare ale contului tău.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -433,6 +433,11 @@ msgstr "Imaginea trebuie să fie sub format PNG, JPG sau GIF. <br>\n"
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.no"
 msgstr "Nu"
 
@@ -460,6 +465,11 @@ msgstr "Imaginea de miniatură trebuie să fie PNG, JPG sau GIF.<br>\n"
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.yes"
 msgstr "Da"
 
@@ -530,7 +540,7 @@ msgid "dash.games.add.rules_html"
 msgstr "<p>Trebuie să accepţi următoarele reguli înainte de a încărca un joc:</p> <ul> <li>Momentan, Game Jolt acceptă doar jocuri gratuite. Este interzisă cererea oricărei sume de bani în timpul jocului.</li> <li>Nu pune pe acest site jocuri pe care nu le-ai creeat tu. Dacă eşti un fan al jocului, încurajează creatorul să îl încarce el însuşi</li> <li>Publisher-ii nu au permisiunea de a pune jocuri; doar developerii pot. Ţine minte: Acest site e Indie (Independent).</li> <li>Numele nostru este ''Game Jolt''. De aceea,doar <em>jocurile</em> pot fi încărcate pe acest site. Nicio aplicaţie, software, sau vreun instrument nu sunt permise momentan. Este posibil să acceptăm în viitor, dar în acest moment, haideţi să păstrăm sensul numelui.</li> <li>Nu sunt permise demo-uri sau versiuni ''lite'' ale jocurilor comerciale. Trebuie să încarci o versiune TOTAL gratuită a jocului, şi trebuie să fie completă.</li> <li>Te încurajăm să adaugi jocuri care sunt incomplete/în stare avansată de developare, atât timp cât au eticheta ''Muncă în Progres''. Cu toate acestea, ar trebui să păstrezi jocul ascuns, până când ai ceva de arătat. Jocurile sub eticheta ''Muncă în Progres'' nu trebuie să fie necesar jucabile, dar trebuie să fie mult deasupra stadiului de concept. Până când arăţi jocul, ai grijă să pui câteva capturi de ecran, şi o descriere informativă.</li> <li>Nu pune link-uri către alte site-uri, atât timp cât nu ai postat jocul pe Game Jolt. Nu poţi folosi pagina jocului drept o reclamă pentru alt site.</li> <li>Pentru jocurile HTML5 sau Flash care sunt jucabile direct de pe site, nu îţi permitem să afişezi reclame în timpul încărcării. Şterge reclamele, sau blochează-le de la a fi afişate pe site.</li> <p>Dacă ai vreo întrebare sau vreo sugestie în privinţa regulamentului, contactează-ne pe: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p> "
 
 #. This is a tad though one since there is no stand alone word/abbreviation like API in Romanian without having to define it with an entire phrase...
-#: app/views/dashboard/developer/games/manage/manage.html:51
+#: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
 msgstr "API"
 
@@ -1038,7 +1048,7 @@ msgstr "Violence"
 msgid "dash.games.maturity.wip_help"
 msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
 
-#: app/views/dashboard/developer/games/manage/manage.html:31
+#: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
 msgstr "Media"
 
@@ -1171,7 +1181,7 @@ msgstr "Video Details"
 msgid "dash.games.media.video.remove_button"
 msgstr "Remove Video"
 
-#: app/views/dashboard/developer/games/manage/manage.html:46
+#: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
 msgstr "Music"
 
@@ -1211,7 +1221,7 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 msgid "dash.games.music.remove_button"
 msgstr "Remove Song"
 
-#: app/views/dashboard/developer/games/manage/manage.html:41
+#: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
 msgstr "News"
 
@@ -1287,7 +1297,7 @@ msgstr "Post news to let people know when something interesting happens with you
 msgid "dash.games.news.views"
 msgstr "Views:"
 
-#: app/views/dashboard/developer/games/manage/manage.html:26
+#: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
 msgstr "Overview"
 
@@ -1377,7 +1387,7 @@ msgstr "Recommended"
 msgid "dash.games.overview.todo_required"
 msgstr "Required"
 
-#: app/views/dashboard/developer/games/manage/manage.html:36
+#: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
 msgstr "Builds & Files"
 
@@ -4875,4 +4885,78 @@ msgstr "{{ experience | number }} EXP gained from this score!"
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
 msgstr "+{{ extraCount | number }} more"
+
+#: app/components/forms/settings/settings.html:52
+msgid "settings.autostart_client_label"
+msgstr "Start when Windows starts?"
+
+#: app/components/forms/settings/settings.html:12
+msgid "settings.change_location_button"
+msgstr "Change Location"
+
+#: app/components/forms/settings/settings.html:59
+#: app/views/settings/settings.html:24
+msgid "settings.chat"
+msgstr "Chat"
+
+#: app/components/forms/settings/settings.html:61
+msgid "settings.chat_notify_friends_online_label"
+msgstr "Get notifications when friends go online/offline?"
+
+#: app/components/forms/settings/settings.html:4
+#: app/views/settings/settings.html:21
+msgid "settings.client"
+msgstr "Client"
+
+#: app/components/forms/settings/settings.html:7
+msgid "settings.game_install_dir_help"
+msgstr "This is the directory on your computer that games will install into."
+
+#: app/components/forms/settings/settings.html:6
+msgid "settings.game_install_dir_label"
+msgstr "Installed Games Directory"
+
+#: app/views/settings/settings.html:6
+msgid "settings.heading"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:24
+msgid "settings.limit_downloads_label"
+msgstr "Limit simultaneous downloads?"
+
+#: app/components/forms/settings/settings.html:36
+msgid "settings.limit_extractions_help"
+msgstr "An extraction is when the game is unpacked and installed after downloading."
+
+#: app/components/forms/settings/settings.html:35
+msgid "settings.limit_extractions_label"
+msgstr "Limit simultaneous extractions?"
+
+#: app/components/forms/settings/settings.html:30
+msgid "settings.max_download_count_help"
+msgstr "If you have more than this number, downloads will be queued up."
+
+#: app/components/forms/settings/settings.html:29
+msgid "settings.max_download_count_label"
+msgstr "Max # of Simultaneous Downloads"
+
+#: app/components/forms/settings/settings.html:42
+msgid "settings.max_extract_count_help"
+msgstr "If you have more than this number, extractions will be queued up."
+
+#: app/components/forms/settings/settings.html:41
+msgid "settings.max_extract_count_label"
+msgstr "Max # of Simultaneous Extractions"
+
+#: app/views/settings/settings-controller.js:3
+msgid "settings.page_title"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:48
+msgid "settings.queue_when_playing_help"
+msgstr "Should we pause all game installs and updates when you're playing a game?"
+
+#: app/components/forms/settings/settings.html:47
+msgid "settings.queue_when_playing_label"
+msgstr "Pause when playing?"
 
