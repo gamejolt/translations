@@ -10,8 +10,8 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>Your authorization code is invalid.</p>\n"
-"<p>Please make sure to copy and paste the full URL that we emailed you.</p>"
+msgstr "<p> Din autorisasjonskode er ugyldig. </ p>\n"
+"<p> Vennligst sørg for å kopiere og lime inn hele URL-en som vi har sendt deg. </ p>"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
@@ -34,7 +34,7 @@ msgstr "Glemt Brukernavn eller Passord"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Enter the email address on your account and we'll email your login credentials to you."
+msgstr "Skriv inn e-postadressen på kontoen din og vi vil sende påloggingsinformasjonen til deg."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -47,11 +47,11 @@ msgstr "Retrieve Login Credentials"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, that email address is not in our system. Maybe you didn't <a href=\"/join\">sign up yet</a>?</p>"
+msgstr "<p> Hmm, den e-postadressen er ikke i vårt system. Kanskje du ikke har <a href=\"/join\"> registrert deg ennå </a>? </ P>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>We've sent your login credentials to the email address you entered.</p>"
+msgstr "<p> Vi har sendt inn påloggingsinformasjonen til e-postadressen du har angitt. </ p>"
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
@@ -59,7 +59,7 @@ msgstr "Credentials Sent"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "If you don't see our email within 10 minutes, please check your spam folder. It might have been gobbled up!"
+msgstr "Hvis du ikke ser vår e-post i løpet av 10 minutter, sjekk din spam-mappe. Den kan ha blitt slukt opp!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
@@ -71,8 +71,8 @@ msgstr "Bli Medlem!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Before you can log in to Game Jolt, you need to verify the email address on your account.</p>\n"
-"<p>We've sent you an email with instructions on how to authorize your account.</p>"
+msgstr "<p> Før du kan logge inn til Game Jolt, må du bekrefte e-postadressen på kontoen din. </ p>\n"
+"<p> Vi har sendt deg en e-post med instruksjoner om hvordan du autoriserer kontoen din. </ p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -80,11 +80,11 @@ msgstr "Nesten der!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "If you don't see an email within 10 minutes, please check your spam folder. It might have gobbled it up."
+msgstr "hvis du ikke ser eposten innen 10 minutter, sjekk spam filen din. det kan ha blitt blanda opp."
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Note that you have a week to authorize your account. After that, it will be deleted and you'll have to sign up again."
+msgstr "Husk at du har en uke på deg for å autorisere brukeren din. etter det, vil det bli slettet å du må melde deg på igjen."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
@@ -119,13 +119,13 @@ msgstr "Jobber. Vennligst vent..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>The email address you entered is already in use.</p>\n"
-"<p>If you already have a Game Jolt account you can <a href=\"/login\">log in here</a>.</p>\n"
-"<p>If you've forgotten your login information, you can <a href=\"/forgot\">retrieve it here</a>.</p>"
+msgstr "<p> E-postadressen du har skrevet inn er allerede i bruk. </ p>\n"
+"<p> Hvis du allerede har en Gamejolt konto kan du <a href=\"/login\"> logge inn her </a>. </ p>\n"
+"<p> Hvis du har glemt påloggingsinformasjonen, kan du <a href=\"/forgot\"> hente det her </a>. </ p>"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "To finish logging in with Twitter, please enter a valid email address."
+msgstr "for å logge in med twitter, skriv en gyldig epost-adresse"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
@@ -138,7 +138,7 @@ msgstr "E-post påkrevd"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
 msgid "auth.linked_account.twitter.finalize.submit_button"
-msgstr "Complete Sign Up"
+msgstr "gjør ferdig pålogging"
 
 #: auth/views/auth/join/join.html:33
 msgid "auth.login_link"
@@ -154,7 +154,7 @@ msgstr "Feil brukernavn eller passord."
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Connecting to mainframe..."
+msgstr "Kobler til hovedmaskinen ..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
@@ -198,11 +198,11 @@ msgstr "Nytt Passord"
 msgid "auth.reset_password.submit_button"
 msgstr "Reset Password"
 
-#: app/components/shell/footer/footer.html:32
+#: app/components/shell/footer/footer.html:36
 msgid "legal.privacy"
 msgstr "Personvern"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:33
 msgid "legal.terms"
 msgstr "Vilkår"
 
@@ -242,7 +242,7 @@ msgstr "Account Created"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:17
 msgid "auth.linked_account.facebook.duplicate_email_growl"
-msgstr "The email address on this Facebook account is already in use. Perhaps you already have an account?"
+msgstr "E-postadressen på denne Facebook-kontoen er allerede i bruk. Kanskje du allerede har en konto?"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
@@ -258,7 +258,7 @@ msgstr "Login Failed"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:10
 msgid "auth.linked_account.facebook.no_email_growl"
-msgstr "Your Facebook account did not return an email address. Make sure you have verified it with Facebook."
+msgstr "Facebook-kontoen returnerte ikke en e-postadresse. Sørg for at du har bekreftet den med Facebook."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
@@ -282,7 +282,7 @@ msgstr "Login Failed"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:3
 msgid "auth.linked_account.twitter.finalize.page_title"
-msgstr "Email Required"
+msgstr "E-post Påkrevd"
 
 #: auth/views/auth/login/login-controller.js:3
 msgid "auth.login.page_title"
@@ -397,15 +397,15 @@ msgstr "Change Account Password"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
-msgstr "Your Email Preferences"
+msgstr "Dine E-postinnstillinger"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Receive Newsletter?"
+msgstr "Motta nyhetsbrev?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "La oss få vite hva slags e-post påminnelser du vil motta ved å veksle hver kategori av eller på."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
@@ -413,11 +413,11 @@ msgstr "Påminnelser"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
-msgstr "Email Preferences"
+msgstr "E-postinnstillinger"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
-msgstr "Save Preferences"
+msgstr "Lagre Innstillinger"
 
 #: app/components/forms/dashboard/game/header/header.html:11
 #: app/components/forms/dashboard/game/image/image.html:11
@@ -438,11 +438,11 @@ msgstr "Amount to Withdraw"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Dette må være en gyldig e-postadresse knyttet til en PayPal-konto."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
-msgstr "PayPal Email Address"
+msgstr "PayPal E-postadresse"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
@@ -2060,12 +2060,12 @@ msgstr "View Game Page"
 msgid "dash.integrate.done"
 msgstr "Done"
 
-#: app/views/dashboard/overview/overview.html:126
+#: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
 "\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
 
-#: app/views/dashboard/overview/overview.html:125
+#: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
 msgstr "Gain experience and level up!"
 
@@ -2077,15 +2077,15 @@ msgstr "Integrate"
 msgid "dash.integrate.lead"
 msgstr "Here's a to-do list of things to get you started with the site:"
 
-#: app/views/dashboard/overview/overview.html:133
+#: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
 msgstr "Latest Activity"
 
-#: app/views/dashboard/overview/overview.html:142
+#: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>No activity yet.</p>"
 
-#: app/views/dashboard/overview/overview.html:146
+#: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
 msgstr "View All Activity"
 
@@ -2093,15 +2093,15 @@ msgstr "View All Activity"
 msgid "dash.overview.broadcast_view_all"
 msgstr "View All Changelog Broadcasts"
 
-#: app/views/dashboard/overview/overview.html:164
+#: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
 msgstr "Add Game"
 
-#: app/views/dashboard/overview/overview.html:157
+#: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
 msgstr "Your Games"
 
-#: app/views/dashboard/overview/overview.html:180
+#: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboard/developer/games/add\">Add a game</a>!"
 
@@ -3065,35 +3065,35 @@ msgstr "Trophies"
 msgid "trophies.overview.view_more_button"
 msgstr "View All Trophies"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:42
+#: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
 msgstr "Edit your account information."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:48
+#: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
 msgstr "View your activity feed."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:24
+#: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
 msgstr "View your dashboard."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:7
+#: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
 msgstr "Go to main home page."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:13
+#: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
 msgstr "Browse games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:36
+#: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
 msgstr "View your installed games."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:30
+#: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
 msgstr "View your game library."
 
-#: app/components/search/autocomplete/autocomplete-directive.js:18
+#: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
 msgstr "Browse game news."
 
@@ -4651,7 +4651,7 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:34
+#: app/components/shell/footer/footer.html:39
 msgid "footer.contact"
 msgstr "Contact"
 
@@ -4955,7 +4955,11 @@ msgstr "On"
 msgid "forms.yes"
 msgstr "Yes"
 
-#: app/components/search/autocomplete/autocomplete-directive.js:54
+#: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
 msgstr "Change settings."
+
+#: app/components/shell/footer/footer.html:30
+msgid "footer.open_source"
+msgstr "Open Source"
 
