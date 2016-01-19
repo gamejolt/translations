@@ -35,32 +35,32 @@ msgstr "Inloggegevens opvragen"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Voor het mailadres in waarmee je geregistreerd hebt, dan sturen we de inloggegevens daar naar toe."
+msgstr "Voer het e-mailadres in waarmee je geregistreerd hebt en we sturen er de inloggegevens naar toe."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
 msgid "auth.forgot.email_label"
-msgstr "Email Addres"
+msgstr "E-mailadres"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
-msgstr "Log In gegevens ophalen"
+msgstr "Inloggegevens ophalen"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmmm, dat mailadres is ons niet bekend, ben je al <a href=\"/join\">geregistreerd</a>?</p>"
+msgstr "<p>Hmmm, dat e-mailadres is ons niet bekend, ben je al <a href=\"/join\">geregistreerd</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>Je inloggegevens zijn verzonden naar het opgegeven mailadres.</p>"
+msgstr "<p>Je inloggegevens zijn verzonden naar het opgegeven e-mailadres.</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:2
 msgid "auth.forgot.sent.heading"
-msgstr "Log In gegevens verzonden"
+msgstr "Inlog gegevens verzonden"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "Heb je de mail niet binnen 10 minuten ontvangen, check dan je SPAM map, deze heeft de mail waarschijnlijk opgegeten!"
+msgstr "Heb je de e-mail niet binnen 10 minuten ontvangen, check dan je SPAM map, deze heeft de mail waarschijnlijk opgegeten!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
@@ -433,6 +433,11 @@ msgstr "Je afbeelding moet een van de volgende bestandstypes zijn: PNG, JPG, of 
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.no"
 msgstr "Nee"
 
@@ -460,6 +465,11 @@ msgstr "Je afbeelding moet een van de volgende bestandstypes zijn: PNG, JPG, or 
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
 #: app/components/forms/dashboard/game/trophy/trophy.html:76
+#: app/components/forms/settings/settings.html:25
+#: app/components/forms/settings/settings.html:37
+#: app/components/forms/settings/settings.html:49
+#: app/components/forms/settings/settings.html:53
+#: app/components/forms/settings/settings.html:62
 msgid "dash.forms.yes"
 msgstr "Ja"
 
@@ -540,7 +550,7 @@ msgstr "<p>Je moet akkoord gaan met de volgende regels voordat je een game plaat
 "\n"
 "\t<p>Als je vragen en/of opmerkingen hebt over de regels kun je contact opnemen via: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p>"
 
-#: app/views/dashboard/developer/games/manage/manage.html:51
+#: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
 msgstr "Game API"
 
@@ -1047,7 +1057,7 @@ msgstr "Geweld"
 msgid "dash.games.maturity.wip_help"
 msgstr "Als je niet weet wat de uiteindelijke inhoud van je game zal zijn maak dan een verstandige inschatting. Je kunt altijd later wijzigingen doorvoeren."
 
-#: app/views/dashboard/developer/games/manage/manage.html:31
+#: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
 msgstr "Media"
 
@@ -1180,7 +1190,7 @@ msgstr "Video Details"
 msgid "dash.games.media.video.remove_button"
 msgstr "Verwijder Video"
 
-#: app/views/dashboard/developer/games/manage/manage.html:46
+#: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
 msgstr "Muziek"
 
@@ -1220,7 +1230,7 @@ msgstr "<p>Laat mensen genieten van de muziek in je game wanneer ze willen! Uplo
 msgid "dash.games.music.remove_button"
 msgstr "Verwijder Nummer"
 
-#: app/views/dashboard/developer/games/manage/manage.html:41
+#: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
 msgstr "Nieuws"
 
@@ -1296,7 +1306,7 @@ msgstr "Plaats nieuws om je volgers te laten weten dat er iets interessants gebe
 msgid "dash.games.news.views"
 msgstr "Bezoekers:"
 
-#: app/views/dashboard/developer/games/manage/manage.html:26
+#: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
 msgstr "Overzicht"
 
@@ -1386,7 +1396,7 @@ msgstr "Aangeraden"
 msgid "dash.games.overview.todo_required"
 msgstr "Vereist"
 
-#: app/views/dashboard/developer/games/manage/manage.html:36
+#: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
 msgstr "Versies & Bestanden"
 
@@ -4655,8 +4665,8 @@ msgstr "Nieuw"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 build"
+msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -4664,8 +4674,8 @@ msgstr[1] ""
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 game."
+msgstr[1] "Pagina {{ page | number }} van {{ $count | number }} games."
 
 #: app/components/post/grid/grid.html:34
 #: app/components/post/list/list.html:31
@@ -4673,21 +4683,21 @@ msgstr[1] ""
 #: app/views/discover/games/view/news/view/view.html:15
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 opmerking"
+msgstr[1] "{{ $count | number }} opmerkingen"
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 artikel."
+msgstr[1] "{{ $count | number }} artikels."
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "+1 extra notificatie"
+msgstr[1] "+{{ $count | number }} extra notificaties"
 
 #: app/components/shell/footer/footer.html:34
 msgid "footer.contact"
@@ -4695,15 +4705,15 @@ msgstr "Contact"
 
 #: app/components/shell/footer/footer.html:26
 msgid "footer.tagline"
-msgstr "Too many games... and counting!"
+msgstr "Te veel spellen... en het worden er steeds meer!"
 
 #: app/components/shell/footer/footer.html:22
 msgid "footer.translations"
-msgstr "Translations are a community project."
+msgstr "Vertalingen zijn een communityproject."
 
 #: app/components/shell/footer/footer.html:23
 msgid "footer.translations_help"
-msgstr "Help translate!"
+msgstr "Help te vertalen!"
 
 #: app/components/game/filtering/filtering-service.js:17
 msgid "games.filtering.browser"
@@ -4731,23 +4741,23 @@ msgstr "Unity"
 
 #: app/components/game/filtering/filtering-service.js:28
 msgid "games.filtering.maturity"
-msgstr "Maturity"
+msgstr "Volwassenheid"
 
 #: app/components/game/filtering/filtering-service.js:33
 msgid "games.filtering.maturity_adult"
-msgstr "Adult Content"
+msgstr "Inhoud voor Volwassenen"
 
 #: app/components/game/filtering/filtering-service.js:31
 msgid "games.filtering.maturity_everyone"
-msgstr "All Ages"
+msgstr "Alle Leeftijden"
 
 #: app/components/game/filtering/filtering-service.js:32
 msgid "games.filtering.maturity_teen"
-msgstr "Teen Content"
+msgstr "Inhoud voor Tieners"
 
 #: app/components/game/filtering/filtering-service.js:7
 msgid "games.filtering.os"
-msgstr "OS"
+msgstr "Besturingssysteem"
 
 #: app/components/game/filtering/filtering-service.js:12
 msgid "games.filtering.os_linux"
@@ -4759,7 +4769,7 @@ msgstr "Mac"
 
 #: app/components/game/filtering/filtering-service.js:13
 msgid "games.filtering.os_other"
-msgstr "Other"
+msgstr "Overig"
 
 #: app/components/game/filtering/filtering-service.js:10
 msgid "games.filtering.os_windows"
@@ -4771,15 +4781,15 @@ msgstr "Status"
 
 #: app/components/game/filtering/filtering-service.js:42
 msgid "games.filtering.status_canceled"
-msgstr "Canceled"
+msgstr "Geannuleerd"
 
 #: app/components/game/filtering/filtering-service.js:40
 msgid "games.filtering.status_complete"
-msgstr "Complete"
+msgstr "Voltooid"
 
 #: app/components/game/filtering/filtering-service.js:41
 msgid "games.filtering.status_wip"
-msgstr "Work in Progress"
+msgstr "In Ontwikkeling"
 
 #: app/views/discover/games/view/view.html:18
 msgid "games.view.notifications_news"
@@ -4789,7 +4799,7 @@ msgstr[1] ""
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.amount_help"
-msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+msgstr "Het minimumbedrag wat je op dit moment kunt laten uitkeren is {{ amount | currency:'€' }}."
 
 #: app/components/forms/dashboard/game/song/song.html:15
 msgid "dash.games.music.form.file_help_block"
@@ -4878,4 +4888,78 @@ msgstr "{{ experience | number }} EXP gained from this score!"
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
 msgstr "+{{ extraCount | number }} more"
+
+#: app/components/forms/settings/settings.html:52
+msgid "settings.autostart_client_label"
+msgstr "Start when Windows starts?"
+
+#: app/components/forms/settings/settings.html:12
+msgid "settings.change_location_button"
+msgstr "Change Location"
+
+#: app/components/forms/settings/settings.html:59
+#: app/views/settings/settings.html:24
+msgid "settings.chat"
+msgstr "Chat"
+
+#: app/components/forms/settings/settings.html:61
+msgid "settings.chat_notify_friends_online_label"
+msgstr "Get notifications when friends go online/offline?"
+
+#: app/components/forms/settings/settings.html:4
+#: app/views/settings/settings.html:21
+msgid "settings.client"
+msgstr "Client"
+
+#: app/components/forms/settings/settings.html:7
+msgid "settings.game_install_dir_help"
+msgstr "This is the directory on your computer that games will install into."
+
+#: app/components/forms/settings/settings.html:6
+msgid "settings.game_install_dir_label"
+msgstr "Installed Games Directory"
+
+#: app/views/settings/settings.html:6
+msgid "settings.heading"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:24
+msgid "settings.limit_downloads_label"
+msgstr "Limit simultaneous downloads?"
+
+#: app/components/forms/settings/settings.html:36
+msgid "settings.limit_extractions_help"
+msgstr "An extraction is when the game is unpacked and installed after downloading."
+
+#: app/components/forms/settings/settings.html:35
+msgid "settings.limit_extractions_label"
+msgstr "Limit simultaneous extractions?"
+
+#: app/components/forms/settings/settings.html:30
+msgid "settings.max_download_count_help"
+msgstr "If you have more than this number, downloads will be queued up."
+
+#: app/components/forms/settings/settings.html:29
+msgid "settings.max_download_count_label"
+msgstr "Max # of Simultaneous Downloads"
+
+#: app/components/forms/settings/settings.html:42
+msgid "settings.max_extract_count_help"
+msgstr "If you have more than this number, extractions will be queued up."
+
+#: app/components/forms/settings/settings.html:41
+msgid "settings.max_extract_count_label"
+msgstr "Max # of Simultaneous Extractions"
+
+#: app/views/settings/settings-controller.js:3
+msgid "settings.page_title"
+msgstr "Settings"
+
+#: app/components/forms/settings/settings.html:48
+msgid "settings.queue_when_playing_help"
+msgstr "Should we pause all game installs and updates when you're playing a game?"
+
+#: app/components/forms/settings/settings.html:47
+msgid "settings.queue_when_playing_label"
+msgstr "Pause when playing?"
 
