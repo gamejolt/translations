@@ -25,7 +25,7 @@ msgstr "Authorisatiecode ongeldig"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "We verwijzen je door naar je Gamejolt Dashboard."
+msgstr "We verwijzen je nu door naar je Gamejolt Dashboard."
 
 #. Veel sites zeggen hier ook gewoon "Gebruikersnaam of wachtwoord vergeten" (en ik denk dat dat in dit geval nog duidelijker is ook. (Many sites just say "^^^quote above^^^, and I think that will be more clear too).
 #: auth/views/auth/login/login.html:41
@@ -199,11 +199,11 @@ msgstr "Nieuw Wachtwoord"
 msgid "auth.reset_password.submit_button"
 msgstr "Wachtwoord Opnieuw Instellen"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Voorwaarden"
 
@@ -4659,19 +4659,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 extra notificatie"
 msgstr[1] "+{{ $count | number }} extra notificaties"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Te veel spellen... en het worden er steeds meer!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Vertalingen zijn een communityproject."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Help te vertalen!"
 
@@ -4967,7 +4967,109 @@ msgstr "Ja"
 msgid "commands.settings_description"
 msgstr "Instellingen veranderen."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
 msgstr "Open Source"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] "1 Reactie"
+msgstr[1] "{{ count | number }} Reacties"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Reageer"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatische vertalingen gebruiken Google Translate. Daarom kloppen ze niet altijd helemaal."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Reacties"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Kon de reacties voor dit spel niet laden."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Volg Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Krijg notificaties als mensen nieuwe reacties op deze thread posten."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Geef deze reactie wat liefde!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Laat een Reactie achter"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Laat een Reactie achter..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Laat ons weten wat je hiervan vindt en reageer als eerste!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "Nog Geen Reacties"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] "Eén persoon vindt deze reactie leuk."
+msgstr[1] "{{ $count | number }} mensen vinden deze reactie leuk."
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Eigenaar"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reageer"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Geef originele reacties weer"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop met Volgen"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Vertaal opmerkingen naar het Engels"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "vertaald door"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] "Jij en iemand anders vinden deze reactie leuk."
+msgstr[1] "Jij en {{ $count | number }} mensen vinden deze reactie leuk."
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "Jij vindt deze reactie leuk."
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "Je hebt net gestemd op deze reactie. Dit laat ons de kwaliteit van reacties weten en helpt de site fris en fruitig te houden."
 
