@@ -198,11 +198,11 @@ msgstr "Nytt Passord"
 msgid "auth.reset_password.submit_button"
 msgstr "Reset Password"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Personvern"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Vilkår"
 
@@ -4651,19 +4651,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Help translate!"
 
@@ -4959,7 +4959,109 @@ msgstr "Yes"
 msgid "commands.settings_description"
 msgstr "Change settings."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
 msgstr "Open Source"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comments"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
