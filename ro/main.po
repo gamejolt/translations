@@ -154,7 +154,7 @@ msgstr "Numele de utilizator sau parola incorectă."
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Connectare la calculatorul principal"
+msgstr "Connectare la calculatorul principal..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
@@ -198,11 +198,11 @@ msgstr "Parolă Nouă"
 msgid "auth.reset_password.submit_button"
 msgstr "Schimbă Parola"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Confidențialitate"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Termeni"
 
@@ -261,7 +261,7 @@ msgstr "Contul tău de Facebook nu a returnat nici o adresă de e-mail. Asigura�
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
-msgstr "O, nu!"
+msgstr "Oh nu!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
@@ -325,7 +325,7 @@ msgstr "Arată {{filtreaza}}"
 
 #: app/views/dashboard/activity/list/list.html:6
 msgid "dash.activity.heading"
-msgstr "Activity Feed"
+msgstr "Activitate"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
@@ -919,7 +919,7 @@ msgstr "Ascuns"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
-msgstr "Age Rating"
+msgstr "Norme de Vârstă"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
@@ -947,7 +947,7 @@ msgstr "Valută"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
-msgstr "Edit Rating Details"
+msgstr "Schimbă Normele de Vârstă"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
@@ -971,7 +971,7 @@ msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity r
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
-msgstr "What is a maturity rating?"
+msgstr "Ce sunt normele de vârstă?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
@@ -979,7 +979,7 @@ msgstr "Violență Realistică"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
-msgstr "Save Maturity Details"
+msgstr "Salvează Setările Maturității"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
@@ -1021,7 +1021,7 @@ msgstr "Add an <br>\n"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
-msgstr "Add an Image or Video"
+msgstr "Adauga o Imagine sau Video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
@@ -1033,7 +1033,7 @@ msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
-msgstr "Learn more about screenshots/images..."
+msgstr "Citește mai multe despre capturi de ecran/imagini..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
@@ -1042,17 +1042,17 @@ msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkth
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
-msgstr "Learn more about videos..."
+msgstr "Invata mai multe despre videouri..."
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
-msgstr "Game Media"
+msgstr "Media jocului"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:14
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
 #: app/views/dashboard/developer/games/manage/media/list/list.html:45
 msgid "dash.games.media.image_label"
-msgstr "Image"
+msgstr "Imagine"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
@@ -1060,35 +1060,35 @@ msgstr "You can directly link to this image on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
-msgstr "Edit Image"
+msgstr "Schimbă imaginea"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
-msgstr "This caption will appear when your image is viewed in full screen."
+msgstr "Această legendă va apăreea doar când imaginea ta va fii pe tot ecranul."
 
 #: app/components/forms/dashboard/game/image/image.html:26
 msgid "dash.games.media.image.form.caption_label"
-msgstr "Caption"
+msgstr "Legendă"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
-msgstr "image"
+msgstr "imagine"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
-msgstr "Image File"
+msgstr "Fișierul Imaginii"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
-msgstr "Save Image"
+msgstr "Salvează Imaginea"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:14
 msgid "dash.games.media.image.heading"
-msgstr "Image Details"
+msgstr "Detaliile Imaginii"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:21
 msgid "dash.games.media.image.remove_button"
-msgstr "Remove Image"
+msgstr "Elimină această Imagine"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
@@ -1106,23 +1106,23 @@ msgstr "You can directly link to this video on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:44
 msgid "dash.games.media.video.edit_heading"
-msgstr "Edit Video"
+msgstr "Schimbă video"
 
 #: app/components/forms/dashboard/game/video/video.html:14
 msgid "dash.games.media.video.form.description_label"
-msgstr "Description"
+msgstr "Descripție"
 
 #: app/components/forms/dashboard/game/video/video.html:21
 msgid "dash.games.media.video.form.submit_button"
-msgstr "Save Video"
+msgstr "Salveaza video"
 
 #: app/components/forms/dashboard/game/video/video.html:9
 msgid "dash.games.media.video.form.title_label"
-msgstr "Title"
+msgstr "Titlu"
 
 #: app/components/forms/dashboard/game/video/video.html:5
 msgid "dash.games.media.video.form.url_error_label"
-msgstr "video URL"
+msgstr "URL pentru video"
 
 #: app/components/forms/dashboard/game/video/video.html:6
 msgid "dash.games.media.video.form.url_help_html"
@@ -1133,43 +1133,43 @@ msgstr "We currently only support videos from Vimeo or YouTube. <br>\n"
 
 #: app/components/forms/dashboard/game/video/video.html:3
 msgid "dash.games.media.video.form.url_label"
-msgstr "Video URL"
+msgstr "URL pentru Video"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:14
 msgid "dash.games.media.video.heading"
-msgstr "Video Details"
+msgstr "Detaliile Videoclipului"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:21
 msgid "dash.games.media.video.remove_button"
-msgstr "Remove Video"
+msgstr "Sterge video"
 
 #: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
-msgstr "Music"
+msgstr "Melodii"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
-msgstr "Add Song"
+msgstr "Adaugă o Melodie"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:12
 msgid "dash.games.music.direct_link_help"
-msgstr "Link to a downloadable ZIP of your game's soundtrack."
+msgstr "Link către o arhivă de tip .zip conținând melodiile jocului tău."
 
 #: app/components/forms/dashboard/game/song/song.html:24
 msgid "dash.games.music.form.file_error_label"
-msgstr "song"
+msgstr "melodie"
 
 #: app/components/forms/dashboard/game/song/song.html:29
 msgid "dash.games.music.form.submit_button"
-msgstr "Save Song"
+msgstr "Salveaza Musica"
 
 #: app/components/forms/dashboard/game/song/song.html:9
 msgid "dash.games.music.form.title_label"
-msgstr "Song Title"
+msgstr "Numele Melodiei"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:4
 msgid "dash.games.music.heading"
-msgstr "Game Music"
+msgstr "Melodiile Jocului"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
@@ -1181,19 +1181,19 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
-msgstr "Remove Song"
+msgstr "Elimină Melodie"
 
 #: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
-msgstr "News"
+msgstr "Știri"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
-msgstr "Add News Update"
+msgstr "Adaugă o Știre"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
-msgstr "Add News"
+msgstr "Adaugă Știri"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
@@ -1201,31 +1201,31 @@ msgstr "News updates keep followers in the loop! Don't post so many updates that
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:9
 msgid "dash.games.news.add.page_help_link"
-msgstr "Learn more about news updates..."
+msgstr "Citește mai multe despre știri..."
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:50
 msgid "dash.games.news.article.edit_tab"
-msgstr "Edit"
+msgstr "Schimbă"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:14
 msgid "dash.games.news.article.heading"
-msgstr "Manage Update"
+msgstr "Setările Știrii"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:21
 msgid "dash.games.news.article.remove_option"
-msgstr "Remove News Update"
+msgstr "Șterge Știre"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:44
 msgid "dash.games.news.article.stats_tab"
-msgstr "Stats"
+msgstr "Statistici"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:62
 msgid "dash.games.news.article.view_tab"
-msgstr "View"
+msgstr "Vezi"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:42
 msgid "dash.games.news.comments"
-msgstr "Comments:"
+msgstr "Comentarii:"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:29
 msgid "dash.games.news.form.add_follower_message"
@@ -1237,15 +1237,15 @@ msgstr "Markdown allows you to easily make your news updates more dynamic and vi
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_label"
-msgstr "Content"
+msgstr "Conținut"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:3
 msgid "dash.games.news.form.title_label"
-msgstr "Title"
+msgstr "Titlu"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:4
 msgid "dash.games.news.heading"
-msgstr "Game News"
+msgstr "Știrile Jocului"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
@@ -1257,15 +1257,15 @@ msgstr "Post news to let people know when something interesting happens with you
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:37
 msgid "dash.games.news.views"
-msgstr "Views:"
+msgstr "Vizualizări:"
 
 #: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
-msgstr "Overview"
+msgstr "Prezentare Generală"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
 msgid "dash.games.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Activități Recente"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
@@ -1278,15 +1278,15 @@ msgstr "Publishing your game makes it visible on the site, so make sure your gam
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:161
 msgid "dash.games.overview.stats_comments"
-msgstr "Comments"
+msgstr "Comentarii"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:171
 msgid "dash.games.overview.stats_followers"
-msgstr "Followers"
+msgstr "Urmaratori"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:101
 msgid "dash.games.overview.stats_heading"
-msgstr "Quick Stats"
+msgstr "Statistici Generale"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:143
 msgid "dash.games.overview.stats_na"
@@ -1298,15 +1298,15 @@ msgstr "Plays/Downloads"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:136
 msgid "dash.games.overview.stats_rating"
-msgstr "Avg. Rating"
+msgstr "Evaluare Generală"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:151
 msgid "dash.games.overview.stats_ratings"
-msgstr "Ratings"
+msgstr "Evaluări"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:116
 msgid "dash.games.overview.stats_views"
-msgstr "Views"
+msgstr "Vizionări"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:20
 msgid "dash.games.overview.todo_additional_html"
@@ -1314,15 +1314,16 @@ msgstr "<p><strong>Your game page is lookin' hot!</strong> To get the most out o
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:34
 msgid "dash.games.overview.todo_done"
-msgstr "Done"
+msgstr "Terminat\n"
+""
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:3
 msgid "dash.games.overview.todo_heading"
-msgstr "Set Up Steps"
+msgstr "Pași de Înființare"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:39
 msgid "dash.games.overview.todo_highly_recommended"
-msgstr "Highly Recommended"
+msgstr "Foarte Recomandate"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
 msgid "dash.games.overview.todo_info_builds_processing_html"
@@ -1331,7 +1332,7 @@ msgstr "<strong>You still have builds that are being processed.</strong>\n"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:94
 msgid "dash.games.overview.todo_info_publish_button"
-msgstr "Publish Game"
+msgstr "Publică Jocul"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:75
 msgid "dash.games.overview.todo_info_ready_html"
@@ -1343,32 +1344,32 @@ msgstr "Your game page is <strong>{{ completion }}%</strong> complete."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:38
 msgid "dash.games.overview.todo_recommended"
-msgstr "Recommended"
+msgstr "Recomandat"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:37
 msgid "dash.games.overview.todo_required"
-msgstr "Required"
+msgstr "Necesar"
 
 #: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
-msgstr "Builds & Files"
+msgstr "Versiuni & Fișiere"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:45
 #: app/views/dashboard/developer/games/manage/packages/packages.html:76
 msgid "dash.games.packages.add_package_button"
-msgstr "Add Package"
+msgstr "Adaugă Pachet"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:2
 msgid "dash.games.packages.add.heading"
-msgstr "Add Package"
+msgstr "Adaugă Pachet"
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit.html:2
 msgid "dash.games.packages.edit.heading"
-msgstr "Edit Package"
+msgstr "Shimbă Pachetul"
 
 #: app/components/forms/dashboard/game/package/package.html:39
 msgid "dash.games.packages.form.description_change_button"
-msgstr "Enter Description"
+msgstr "Salvează Descripția"
 
 #: app/components/forms/dashboard/game/package/package.html:34
 msgid "dash.games.packages.form.description_help_html"
@@ -1376,11 +1377,11 @@ msgstr "This should be filled in <em>only if it's needed</em>, if the name alone
 
 #: app/components/forms/dashboard/game/package/package.html:33
 msgid "dash.games.packages.form.description_label"
-msgstr "Package Description"
+msgstr "Descripția Pachetului"
 
 #: app/components/forms/dashboard/game/package/package.html:18
 msgid "dash.games.packages.form.title_change_button"
-msgstr "Change Name"
+msgstr "Schimbă Numele"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
@@ -1388,15 +1389,15 @@ msgstr "This is the name that shows up on your game page above the Download/Play
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
-msgstr "Package Name"
+msgstr "Numele Pachetului"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:60
 msgid "dash.games.packages.heading"
-msgstr "Game Packages"
+msgstr "Pachetele Jocului"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:34
 msgid "dash.games.packages.manage.edit_package_tab"
-msgstr "Edit Package"
+msgstr "Schimbă Pachetul"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:7
 msgid "dash.games.packages.manage.heading"
@@ -1404,23 +1405,23 @@ msgstr "Manage Package"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:28
 msgid "dash.games.packages.manage.releases_tab"
-msgstr "Releases"
+msgstr "Lansări"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:16
 msgid "dash.games.packages.manage.releases.add_release_button"
-msgstr "Add New Release"
+msgstr "Adaugă o Nouă Lansare"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
 msgid "dash.games.packages.manage.releases.builds_count_none"
-msgstr "No builds yet."
+msgstr "Nicio versiune existentă."
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
-msgstr "Releases"
+msgstr "Lansări"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
 msgid "dash.games.packages.manage.releases.hidden_tag"
-msgstr "Hidden"
+msgstr "Ascuns"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
@@ -1440,7 +1441,7 @@ msgstr "Learn more about releases..."
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
 msgid "dash.games.packages.manage.releases.published_tag"
-msgstr "Published"
+msgstr "Publicat"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
 msgid "dash.games.packages.manage.releases.published_tooltip"
@@ -4658,19 +4659,19 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contacteaza"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Prea multe jocuri...Si de numarare!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Ajuta sa traduci!"
 
@@ -4913,7 +4914,7 @@ msgstr "Max # of Simultaneous Extractions"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
-msgstr "Settings"
+msgstr "Setari"
 
 #: app/components/forms/settings/settings.html:48
 msgid "settings.queue_when_playing_help"
@@ -4967,7 +4968,112 @@ msgstr "Da"
 msgid "commands.settings_description"
 msgstr "Schimba setarile."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
 msgstr "Open Source"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comments"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
