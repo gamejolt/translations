@@ -10,7 +10,7 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>O teu código de autorização é inválido!.</p> <p>Por favor, certifique-se de copiar e colar o URL completo corretamente.</p> "
+msgstr "<p>O teu código de autorização é inválido!.</p> <p>Por favor, certifique-se de copiar e colar o URL completo que te enviamos para o email.</p> "
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
@@ -62,7 +62,7 @@ msgstr "Se não conseguires ver o nosso email dentro de 10 minutos, por favor ve
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Retrieve Credentials"
+msgstr "Recuperar credenciais"
 
 #: auth/views/auth/login/login.html:35
 msgid "auth.join_link"
@@ -70,7 +70,7 @@ msgstr "Registar!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Antes de entrares no GameJolt com a tua conta, tens de a verificar.</p> <p>Enviámos-te um email com instruções para a verificares.</p> "
+msgstr "<p>Antes de entrares no GameJolt com a tua conta, tens de a verificar o teu email.</p> <p>Enviámos-te um email com instruções para como autorizar a tua conta.</p> "
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -149,9 +149,10 @@ msgstr "Entrar com o Facebook"
 msgid "auth.login.invalid_login_error_html"
 msgstr "Username ou password incorreto/a"
 
+#. nmn
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Connecting to mainframe..."
+msgstr "A conectar à estrutura principal..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
@@ -180,7 +181,7 @@ msgstr "ou"
 
 #: auth/views/auth/reset-password/reset-password.html:1
 msgid "auth.reset_password.heading"
-msgstr "Reset Password"
+msgstr "Repôr a palavra-passe"
 
 #: auth/components/forms/reset-password/reset-password.html:5
 msgid "auth.reset_password.password_help"
@@ -195,11 +196,11 @@ msgstr "Nova Password"
 msgid "auth.reset_password.submit_button"
 msgstr "Trocar Password"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Privacidade"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Termos"
 
@@ -222,7 +223,7 @@ msgstr "Quase lá!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Junta-te a nós Mwuahahaha"
+msgstr "Junta-te a nós Mwuahahaha.<br>Nós temos jogos.<br><strong><em>Mwahahaha!</em></strong>"
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
@@ -262,7 +263,7 @@ msgstr "Oh não!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "A tua conta foi criada. É bom velejar a partir de agora!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
@@ -336,10 +337,11 @@ msgstr "Não-lido"
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
-msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) to serve up the avatars on Game Jolt.</p>\n"
-"\t<p>If you don't already have a Gravatar account, you can click the button below to open <a href=\"http://gravatar.com\">gravatar.com</a> and sign up for one. Note that you'll need to sign up using your WordPress login. What's that, you don't have a WordPress account, either? No worries! You'll be able to create both accounts at the same time.</p>\n"
-"\t<p>Have a Gravatar account? Good. Just log in and upload the avatar of your choice, then associate that avatar with the email address you use for Game Jolt. Your avatar will automatically appear throughout the site.</p>\n"
-"\t<p><em>Note that there might be a short delay before your avatar shows up on the site. If you don't see it after what seems like long enough, try clearing your browser's cache.</em></p>"
+msgstr "<p>Nós atualmente utilizamos <a href=\"http://gravatar.com\">Gravatar</a> (Avatares Reconhecidos Globalmente) para servir de avatares no Game Jolt. </p>\n"
+"\t<p>Se ainda não tens uma conta Gravatar, tu podes clicar no botão abaixo para abrir <a href=\"http://gravatar.com\">gravatar.com</a> e registares-te para isso. Lembra-te que tu vais precisar de registares-te usando o teu login WordPress. O quê, ainda não tens a conta WordPress? Não te preocupes! Tu vais poder criar as duas contas simultaneamente.</p>\n"
+"\t<p>Já tens uma conta Gravatar? Boa. Apenas faz login e carrega um avatar à tua escolha, então associa esse avatar com o endereço de e-mail que tu usas na Game Jolt. O teu avatar vai aparecer automaticamente neste site.</p>\n"
+"\t<p><em>Lembra-te que pode haver uma pequena demora antes dos avatares aparecerem no site. Se não o veres, tenta limpar a cache do teu browser.</em></p>\n"
+""
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
@@ -352,104 +354,103 @@ msgstr "Avatar corrente"
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
-msgstr "Get Gravatar Account"
+msgstr "Ter uma conta Gravatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Ter um Avatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
-msgstr "Your Avatar"
+msgstr "O teu Avatar"
 
 #: app/components/forms/dashboard/change-password/change-password.html:23
 msgid "dash.change_pass.confirm_password_label"
-msgstr "Confirm New Password"
+msgstr "Confirma a nova palavra-passe"
 
 #: app/views/dashboard/account/change-password/change-password-controller.js:4
 msgid "dash.change_pass.heading"
-msgstr "Change Account Password"
+msgstr "Mudar a palavra-passe da conta"
 
 #: app/components/forms/dashboard/change-password/change-password.html:10
 msgid "dash.change_pass.invalid_old_password_error"
-msgstr "The password you entered is invalid."
+msgstr "A palavra-passe que puseste é inválida."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+msgstr "As "
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
-msgstr "Old Password"
+msgstr "Velha palavra-passe"
 
 #: app/views/dashboard/account/change-password/change-password-controller.js:3
 msgid "dash.change_pass.page_title"
-msgstr "Change Password"
+msgstr "Mudar a palavra-passe"
 
 #: app/components/forms/dashboard/change-password/change-password.html:14
 msgid "dash.change_pass.password_label"
-msgstr "New Password"
+msgstr "Nova palavra-passe"
 
 #: app/components/forms/dashboard/change-password/change-password.html:37
 msgid "dash.change_pass.submit_button"
-msgstr "Change Account Password"
+msgstr "Muda a palavra-passe da tua conta"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
-msgstr "Your Email Preferences"
+msgstr "As preferências do teu e-mail."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Receive Newsletter?"
+msgstr "Receber o Newsletter?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "Deixa-nos saber de que tipo de notificações de e-mail tu gostarias de receber alterando as categorias ligando ou desligando."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
-msgstr "Notifications"
+msgstr "Notificações"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
-msgstr "Email Preferences"
+msgstr "Preferências de e-mail"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
-msgstr "Save Preferences"
+msgstr "Salvar preferências"
 
 #: app/components/forms/dashboard/game/header/header.html:11
 #: app/components/forms/dashboard/game/image/image.html:11
 #: app/components/forms/dashboard/game/trophy/trophy.html:40
 msgid "dash.forms.image_filetype_help_html"
-msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
-"\t<strong>PNGs are highly recommended as they produce a lossless image.</strong>"
+msgstr "A tua imagem tem de ser um PNG, JPG, ou GIF. <br>\n"
+"\t<strong>As PNG são fortemente recomendadas porque produzem imagens sem perda de qualidade.</strong> "
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
-msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
-"\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
-"\tFor still images, PNGs are recommended because they produce lossless images."
+msgstr "A tua imagem tem de ser um PNG, JPG, ou GIF.<br>GIFs animados permite aos jogadores ter um vislumbre do teu jogo em ação. <br>\n"
+"\tPara imagens \"normais\", PNGs são recomendados porque eles produzem imagens sem perda de qualidade."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
-msgstr "Amount to Withdraw"
+msgstr "Quantidade a sacar"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Tem de ser um e-mail válido de uma conta PayPal."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
-msgstr "PayPal Email Address"
+msgstr "Endereço de e-mail do PayPal"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
-msgstr "Make sure that the information you enter below is correct. You will not get a chance to change it after you submit."
+msgstr "Confirma se a informação que tu colocaste é correta. Tu não vais ter a oportunidade para mudar se tu colocares."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
-msgstr "Withdraw Revenue"
+msgstr "Retirar o rendimento"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
@@ -4650,19 +4651,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Help translate!"
 
@@ -4952,13 +4953,115 @@ msgstr "On"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.yes"
-msgstr "Yes"
+msgstr "Sim"
 
 #: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
-msgstr "Change settings."
+msgstr "mudar defenições"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
-msgstr "Open Source"
+msgstr "abrir fonte"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] "1 Comentário"
+msgstr[1] "{{ conta | número }} Comentários"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Comentário adicionado"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comentário"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Receber notificações quando pessoas poêm"
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Dá a este comentário algum amor"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Deixa um comentário"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Deixa um comentário..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Deixa-nos saber os teus pensamentos e sê o primeiro a comentar!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "Sem comentários ainda "
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] "Uma pessoa gosta deste comentários "
+msgstr[1] "{{ $conta | número }} pessoas gostaram deste comentário."
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Dono"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Responder"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Mostrar comentários originais"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Parar de seguir"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Traduz comentários para Inglês."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "traduzir para"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] "tu e outra pessoa gostaram deste comentário"
+msgstr[1] "tu e {{$conta | número }} pessoas gostaram deste comentário "
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "tu gostas deste comentário "
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
