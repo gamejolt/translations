@@ -198,11 +198,11 @@ msgstr "Neues Passwort"
 msgid "auth.reset_password.submit_button"
 msgstr "Passwort zurücksetzen"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Datenschutz"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Geschäftsbedingungen"
 
@@ -377,7 +377,7 @@ msgstr "Das Passwort,was du Eingegeben hast,ist Falsch."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+msgstr "Die eingegebenen Passwörter stimmen nicht überein. Versuchen Sie erneut zu tippen und sicherstellen, dass sie identisch sind."
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
@@ -401,11 +401,11 @@ msgstr "Deine E-Mail vorlieben"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Receive Newsletter?"
+msgstr "Newsletter empfangen"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "Lassen Sie uns wissen, welche Arten von E-Mail-Benachrichtigungen, die Sie möchten, dass durch Umschalten jeder Kategorie ein oder aus zu erhalten."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
@@ -417,7 +417,7 @@ msgstr "E-Mail vorlieben"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
-msgstr "Save Preferences"
+msgstr "Einstellungen speichern"
 
 #: app/components/forms/dashboard/game/header/header.html:11
 #: app/components/forms/dashboard/game/image/image.html:11
@@ -434,11 +434,11 @@ msgstr "Dein Vorschaubild muss ein PNG, JPG oder GIF sein.<br>\n"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
-msgstr "Amount to Withdraw"
+msgstr "Betrag abziehen"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Es muss eine gültige E-Mail Adresse ein PayPal-Konto gebunden zu sein."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
@@ -450,7 +450,7 @@ msgstr "Gehe Sicher,dass die Informationen,die du Eingegeben hast unten,richtig 
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
-msgstr "Withdraw Revenue"
+msgstr "Revenue zurückzuziehen "
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
@@ -459,15 +459,15 @@ msgstr "<p>Please allow 3 days for withdrawals to be processed. At this time all
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
 msgid "dash.funds.withdraw.revenue_pending"
-msgstr "Pending Withdrawal"
+msgstr "Ausstehend Widerrufsrecht"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
-msgstr "Withdrawable Amount"
+msgstr "Einschubbetrag"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.submit_button"
-msgstr "Send Withdrawal Request"
+msgstr "Auszahlungsantrag senden"
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
@@ -513,7 +513,7 @@ msgstr "Spiele API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
-msgstr "Data Store"
+msgstr "Datenspeicher"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
@@ -546,15 +546,15 @@ msgstr "Lerne Mehr über die Spiele API..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
 msgid "dash.games.api.overview.scores_heading"
-msgstr "Scores"
+msgstr "Punkte"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:136
 msgid "dash.games.api.overview.scores_label"
-msgstr "Total Scores"
+msgstr "Insgesamte Punkte"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
-msgstr "The total number of scores across all of the game's scoreboards, including guest scores."
+msgstr "Die Gesamtzahl der Punkte über alle das Spiel der Scoreboards, einschließlich Gast Partituren."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
@@ -582,7 +582,7 @@ msgstr "Sessions show you who's playing your game and for how long."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
 msgid "dash.games.api.overview.sessions_time_label"
-msgstr "Total Time"
+msgstr "Gesamt Zeit"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
 msgid "dash.games.api.overview.sessions_users_label"
@@ -666,11 +666,11 @@ msgstr "This allows you to disable right mouse click behavior. Only enable this 
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disable right click?"
+msgstr "Rechtsclick deaktivieren?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
-msgstr "Downloadable"
+msgstr "Herunterladbar"
 
 #: app/components/forms/dashboard/game/build/build.html:88
 msgid "dash.games.builds.form.file_error_label"
@@ -694,7 +694,7 @@ msgstr "A .swf file. Playable in browsers that support Flash."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
-msgstr "Height"
+msgstr "Höhe"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
@@ -722,7 +722,7 @@ msgstr "A .unity3d file. Playable in browsers that support the Unity Web Player.
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
-msgstr "Width"
+msgstr "Breite"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
@@ -776,11 +776,11 @@ msgstr "Edit Details"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
-msgstr "Category"
+msgstr "Kategorie"
 
 #: app/components/forms/dashboard/game/game.html:40
 msgid "dash.games.form.category_placeholder"
-msgstr "Select a category..."
+msgstr "Kategorie wählen..."
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
@@ -788,11 +788,11 @@ msgstr "You can edit your description whenever you want and add to it over time.
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
-msgstr "Description"
+msgstr "Beschreibung"
 
 #: app/components/forms/dashboard/game/game.html:86
 msgid "dash.games.form.dev_status_canceled"
-msgstr "Canceled"
+msgstr "Abgebrochen"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
@@ -836,7 +836,7 @@ msgstr "Other Engine/Language/Tool"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
-msgstr "Why?"
+msgstr "Warum?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
@@ -924,11 +924,11 @@ msgstr "Age Rating"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
-msgstr "Alcohol"
+msgstr "Alkohol"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Blut"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
@@ -936,7 +936,7 @@ msgstr "Cartoon Violence"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Drogen"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
@@ -944,7 +944,7 @@ msgstr "Fantasy Violence"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
-msgstr "Gambling"
+msgstr "Glücksspiele"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
@@ -4651,19 +4651,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Help translate!"
 
@@ -4959,7 +4959,109 @@ msgstr "Yes"
 msgid "commands.settings_description"
 msgstr "Change settings."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
 msgstr "Open Source"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comments"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
