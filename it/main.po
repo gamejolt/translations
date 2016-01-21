@@ -34,7 +34,7 @@ msgstr "Nome utente o Password dimaticati?"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Inserisci l'indirizzo email del tuo account e ti invieremo i tuoi dati di accesso.\""
+msgstr "Inserisci l'indirizzo email del tuo account e ti invieremo i tuoi dati di accesso."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -81,7 +81,7 @@ msgstr "Ci siamo quasi!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "Se non un email entro 10 minuti, per favore controlla la tua cartella dello spam. Potrebbe essere stata inghiottita li!"
+msgstr "Se non vedi un'email entro 10 minuti, per favore controlla la tua cartella dello spam. Potrebbe essere finita li!"
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
@@ -200,11 +200,11 @@ msgstr "Nuova Password"
 msgid "auth.reset_password.submit_button"
 msgstr "Reset Password"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Termini"
 
@@ -233,12 +233,12 @@ msgstr "Unisciti a noi. Mwuahaha.<br>Noi abbiamo i giochi.<br><strong><em>Mwuaha
 #: auth/views/auth/join/join-controller.js:5
 #, fuzzy
 msgid "auth.join.page_title"
-msgstr "Unisciti a noi per un viaggio su una nave spaziale verso il cuore di una supernova fatta di giochi."
+msgstr "Unisciti a Game Jolt - La più Grande Collezione di Giochi Indie"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 #, fuzzy
 msgid "auth.linked_account.facebook.created_growl"
-msgstr "Il tuo account è stato creato. Sarà una navigazione tranquilla da ora in poi!"
+msgstr "Il tuo account è stato creato. Da ora in poi sarà una navigazione tranquilla!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:36
 msgid "auth.linked_account.facebook.created_growl_title"
@@ -271,7 +271,7 @@ msgstr "Oh no!"
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 #, fuzzy
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Il tuo account è stato creato. Sarà una navigazione tranquilla da ora in poi!"
+msgstr "Il tuo account è stato creato. Da ora in poi sarà una navigazione tranquilla!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
@@ -348,10 +348,10 @@ msgstr "Non letto."
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
-msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) to serve up the avatars on Game Jolt.</p>\n"
-"\t<p>If you don't already have a Gravatar account, you can click the button below to open <a href=\"http://gravatar.com\">gravatar.com</a> and sign up for one. Note that you'll need to sign up using your WordPress login. What's that, you don't have a WordPress account, either? No worries! You'll be able to create both accounts at the same time.</p>\n"
-"\t<p>Have a Gravatar account? Good. Just log in and upload the avatar of your choice, then associate that avatar with the email address you use for Game Jolt. Your avatar will automatically appear throughout the site.</p>\n"
-"\t<p><em>Note that there might be a short delay before your avatar shows up on the site. If you don't see it after what seems like long enough, try clearing your browser's cache.</em></p>"
+msgstr "<p>Al momento usiamo <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) per gestire gli avatar su Game Jolt</p>\n"
+"\t<p>Se non hai ancora un account Gravatar, clicca il pulsante sotto per aprire <a href=\"http://gravatar.com\">gravatar.com</a> e registrarti per uno. Nota che dovrai registrarti usando il tuo account WordPress. Come? Non hai un account WordPress? Nessun problema! Puoi creare entrambi gli account allo stesso momento.</p>\n"
+"\t<p>Hai un account Gravatar? Bene. Accedi e carica l'avatar di tua scelta, poi associalo con l'indirizzo e-mail che usi per Game Jolt. Il tuo avatar apparirà automaticamente sul sito.</p>\n"
+"\t<p><em>Nota che potrebbe metterci un pò di tempo prima che il tuo avatar appaia sul sito. Se non lo vedi dopo che abbastanza tempo è passato, prova a pulire la cache del tuo browser.</em></p> "
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
@@ -367,7 +367,7 @@ msgstr "Crea un account Gravatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Procurati un Avatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
@@ -388,11 +388,11 @@ msgstr "La password inserita non è valida\n"
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "La password inserita non corrisponde. Prova a reinserirla stando attento che siano uguali."
+msgstr "Le password inserite non corrispondono. Prova a reinserirla stando attento che siano uguali."
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
-msgstr "Vecchia password"
+msgstr "Password Corrente"
 
 #: app/views/dashboard/account/change-password/change-password-controller.js:3
 msgid "dash.change_pass.page_title"
@@ -408,15 +408,15 @@ msgstr "Cambia la password dell'account"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
-msgstr "Your Email Preferences"
+msgstr "Le tue preferenze E-mail"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Ricevere newsletter?"
+msgstr "Vuoi ricevere la newsletter?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "Facci sapere quali tipi di notifiche e-mail vorresti ricevere abilitando o disabilitando le varie categorie."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
@@ -424,32 +424,32 @@ msgstr "Notifiche"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
-msgstr "Email Preferences"
+msgstr "Preferenze E-Mail"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
-msgstr "Save Preferences"
+msgstr "Salva Preferenze"
 
 #: app/components/forms/dashboard/game/header/header.html:11
 #: app/components/forms/dashboard/game/image/image.html:11
 #: app/components/forms/dashboard/game/trophy/trophy.html:40
 msgid "dash.forms.image_filetype_help_html"
-msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
-"\t<strong>PNGs are highly recommended as they produce a lossless image.</strong>"
+msgstr "La tua immagine deve essere una PNG, JPG, o GIF. <br>\n"
+"\t<strong>Le PNG sono fortemente raccomandate perchè producono un'immagine senza perdita di qualità.</strong> "
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
-msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
-"\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
-"\tFor still images, PNGs are recommended because they produce lossless images."
+msgstr "Il tuo thumbnail deve essere una PNG, JPG, o GIF.<br>\n"
+"\tLe GIF animate permettono ai giocatori di avere un'idea del tuo gioco in azione. <br>\n"
+"\tLe PNG sono raccomandate per le immagini ferme, in quanto producono le immagini senza perdere qualità. "
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
-msgstr "Amount to Withdraw"
+msgstr "Quantità da ritirare"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Questo deve essere un indirizzo e-mail valido collegato ad un account PayPal"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
@@ -457,28 +457,30 @@ msgstr "Indirizzo email di paypal"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
-msgstr "Make sure that the information you enter below is correct. You will not get a chance to change it after you submit."
+msgstr "Assicurati che le informazioni che inserisci siano corrette.\n"
+"Non potrai cambiarle dopo averle inviate."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
-msgstr "Withdraw Revenue"
+msgstr "Ricevuta di ritiro"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
-msgstr "<p>Please allow 3 days for withdrawals to be processed. At this time all withdrawals are processed through <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p>\n"
-"\t<p>If you don't have a PayPal account, you will not be able to withdraw any money. Please be sure to <a href=\"https://www.paypal.com\" target=\"_blank\">sign up with a PayPal account</a> <em>before</em> trying to withdraw funds.</p>"
+msgstr "<p>Per favore lascia che passino 3 giorni per permettere ai ritiri di venire processati. A quel punto tutti i ritiri saranno processati attraverso<a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p>\n"
+"\t<p>Se non hai un account PayPal, non potrai ritirare alcuna somma. Assicurati di <a href=\"https://www.paypal.com\" target=\"_blank\">accedere con un account PayPal</a> <em>prima</em> di provare a ritirare fondi.</p> "
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
+#, fuzzy
 msgid "dash.funds.withdraw.revenue_pending"
-msgstr "Pending Withdrawal"
+msgstr "In attesa di Ritiro"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
-msgstr "Withdrawable Amount"
+msgstr "Quantità Ritirabile"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.submit_button"
-msgstr "Send Withdrawal Request"
+msgstr "Invia Richiesta di Ritiro"
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
@@ -486,11 +488,11 @@ msgstr "Okay"
 
 #: app/components/forms/dashboard/game/game.html:156
 msgid "dash.games.add.fnaf_autotag_message_html"
-msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series."
+msgstr "␣<strong>Sembra che il tuo gioco possa essere un fan game, spinoff o sequel non ufficiale di \"Five Nights at Freddy's\".</strong>Pertanto, abbiamo aggiunto l'hashtag <code>#fnaf</code> alla descrizione del tuo gioco. Questo tag è obbligatorio per tutti i giochi derivati dalla serie \"Five Nights at Freddy's\". "
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Don't Tag"
+msgstr "Non Taggare"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
@@ -520,7 +522,7 @@ msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
 
 #: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
-msgstr "Game API"
+msgstr "API del Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
@@ -528,15 +530,15 @@ msgstr "Data Store"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
-msgstr "Global Items"
+msgstr "Oggetti Globali"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
 msgid "dash.games.api.overview.data_items_tooltip"
-msgstr "The total number of stored global data items."
+msgstr "Numero totale dei dati oggetto globali contenuti"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
 msgid "dash.games.api.overview.heading"
-msgstr "Game API Overview"
+msgstr "Anteprima API Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
@@ -544,16 +546,16 @@ msgstr "N/A"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
-msgstr "Find help in the API forums..."
+msgstr "Cerca aiuto nei forum delle API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
-"\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
+msgstr " <p>Le API di Gioco ti permettono di arricchire il tuo gioco con tabelle dei punteggi, trofei, data store nel cloud, log delle sessioni e altro.</p>\n"
+"   <p>Puoi controllare i link sottostanti per vedere se la comunità ha già scritto una libreria per le API o plugin per l'engine/strumento/lingua che stai usando. Ovviamente, puoi scriverne uno tu stesso e condividerlo nei forum|</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
-msgstr "Learn more about the Game API..."
+msgstr "Impara di più sulle API di Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
 msgid "dash.games.api.overview.scores_heading"
@@ -565,31 +567,31 @@ msgstr "Punti totali"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
-msgstr "The total number of scores across all of the game's scoreboards, including guest scores."
+msgstr "Numero totale dei punteggi riguardo tutte le classifiche del gioco, inclusi i punteggi dei guest"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Users w/ Scores"
+msgstr "Utenti e Punteggi"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
-msgstr "The number of users with scores on any of the game's scoreboards. Does not include guests."
+msgstr "Il numero di utenti con punteggio su tutte le classifiche del gioco. Non include i guest."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "Active Sessions"
+msgstr "Sessione Attiva"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
-msgstr "Avg. Session Time"
+msgstr "Tempo Medio della Sessione"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sessions"
+msgstr "Sessioni"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
-msgstr "Sessions show you who's playing your game and for how long."
+msgstr "Sessioni mostranti chi sta giocando al tuo gioco e quanto a lungo."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
 msgid "dash.games.api.overview.sessions_time_label"
@@ -597,19 +599,19 @@ msgstr "Tempo totale"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
 msgid "dash.games.api.overview.sessions_users_label"
-msgstr "Users w/ Sessions"
+msgstr "Utenti e Sessioni"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
-msgstr "Trophies Achieved"
+msgstr "Trofei Ottenuti"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
-msgstr "Trophy EXP"
+msgstr "Esperienza Trofei"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
-msgstr "The total awardable EXP for trophies in your game."
+msgstr "Il totale di Esperienza ottenibile dai trofei nel tuo gioco."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
@@ -621,15 +623,15 @@ msgstr "Trofei"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
-msgstr "Users w/ Trophies"
+msgstr "Utenti con Trofei"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
-msgstr "Game ID"
+msgstr "ID Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
-msgstr "Game API Settings"
+msgstr "Impostazioni API Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
 msgid "dash.games.api.settings.key_generate_button"
@@ -645,43 +647,43 @@ msgstr "Mostra codice"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
-msgstr "\t<p><strong>Never give your private key to anyone!</strong> Your game's key is used to validate that API requests are coming from your game. If villains or knaves get ahold of it, they can send in fake requests pretending to be your game. Not good!</p>"
+msgstr "<p><strong>Non dare la tua chiave privata a nessuno!</strong> La tua ciave per il gioco è usata per validare che le richieste alle API stanno arrivando dal tuo gioco. Se villani o ladri ne prendessero il possesso, potrebbero inviare richieste fasullle pertendendo di essere il tuo gioco. Non buono!</p>"
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr "A .jar file. Playable in browsers that still support Java. Consider adding your .jar as a downloadable build, too."
+msgstr "Un file .jar. È Giocabile nei browsers che ancora supportano Java.Considera di aggiungere il tuo .jar anche come una build scaricabile."
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+msgstr "Si sicuro di rimuovere o bloccare inserzioni pubblicitarie nel tuo gioco. Noi serviamo le nostre inserzioni pubblicitarie e condividiamo il ricavato con gli sviluppatori. Per favore blocca i seguenti domini:"
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
-msgstr "Browser Type"
+msgstr "Tipo di Browser"
 
 #: app/components/forms/dashboard/game/build/build.html:22
 msgid "dash.games.builds.form.browser_tab"
-msgstr "Browser"
+msgstr "Broswer"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Class Name"
+msgstr "Nome Classe"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
-msgstr "These are the dimensions at which your browser build will be displayed."
+msgstr "Queste sono le dimensioni alle quali la tua Browser Build sarà mostrata."
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "Questo ti permette di disabilitare il pulsante destro del mouse. Attivalo solo se il tuo gioco ha bisogno di intercettare i click del pulsante destro."
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disabilitare click destro?"
+msgstr "Disabilitare il pulsante mouse destro?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
-msgstr "scaricabile"
+msgstr "Scaricabile"
 
 #: app/components/forms/dashboard/game/build/build.html:88
 msgid "dash.games.builds.form.file_error_label"
@@ -689,76 +691,76 @@ msgstr "file"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
-msgstr "Your account is currently limited to {{ maxFilesize | number }} MB per file. If you need more, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a>"
+msgstr "Il tuo account è attualmente limitato a {{ maxFilesize | number }} MB per file. Se te ne servono di più, contatta: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a> "
 
 #: app/components/forms/dashboard/game/build/build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
-msgstr "<strong>For an HTML game, upload a .zip archive containing all of your game's files and assets. There must be an index.html in the root folder.</strong>"
+msgstr "<strong>Per un gioco HTML, carica un archivio .zip con tutti i file ed asset del tuo gioco. Deve esserci un index.html nella root della cartella.</strong> "
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
-msgstr "Upload File"
+msgstr "Carica File"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr "A .swf file. Playable in browsers that support Flash."
+msgstr "Un file .swf. Giocabile sui Browser che supportano Flash."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
-msgstr "Height"
+msgstr "Altezza"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr "A .zip archive containing all of the files the game needs to run, including an index.html in the root. Should be playable in any modern browser without plugins."
+msgstr "E' richiesto un archivio .zip contenente tutti i file richiesti per far andare il gioco, incluso un index.html nella root. Deve essere giocabile in ogni browser moderno senza l'uso di plugin. "
 
 #: app/components/forms/dashboard/game/build/build.html:116
 msgid "dash.games.builds.form.no_platforms_error"
-msgstr "You have to select at least one platform on which your build runs (or \"Other\")."
+msgstr "Devi selezionare almeno una piattaforma su cui andrà la tua build (oppure \"Altre\"). "
 
 #: app/components/forms/dashboard/game/build/build.html:97
 msgid "dash.games.builds.form.platforms_help_html"
-msgstr "Select \"Other\" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF."
+msgstr "Seleziona \"Altre\" se questa build è per una piattaforma non indicata, o se è un file non eseguibile, come .PDF. "
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
-msgstr "Platforms"
+msgstr "Piattaforme"
 
 #: app/components/forms/dashboard/game/build/build.html:56
 msgid "dash.games.builds.form.silverlight_help"
-msgstr "A .xap file. Playable in browsers that support Silverlight."
+msgstr "Un file .xap. Giocabile sui browser che supportano Silverlight."
 
 #: app/components/forms/dashboard/game/build/build.html:42
 msgid "dash.games.builds.form.unity_help"
-msgstr "A .unity3d file. Playable in browsers that support the Unity Web Player. If you exported your game to WebGL, choose HTML instead of Unity."
+msgstr "Un file .unity3d. Giocabile sui browser che supportano Unity Web Player. Se hai esportato il tuo gioco su WebGL, scegli HTML invece che Unity. "
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
-msgstr "Width"
+msgstr "Ampiezza"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Stored On"
+msgstr "Salvato Su"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
-msgstr "Data Storage Items"
+msgstr "Oggetti Data Store"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
 msgid "dash.games.data_store.items.key_label"
-msgstr "chiave"
+msgstr "Chiave"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
 msgid "dash.games.data_store.items.page_help_html"
-msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All stored data items will show up here.</p>\n"
-"\t<p>Currently, you can only view (and remove) globally stored data items. Stored user data items are not viewable at this time.</p>"
+msgstr "<p>Puoi usare le API per salvare dati... <em>sul cloud!</em> Tutti gli oggetti salvati appariranno qui.</p> \n"
+"    <p>Per il momento, puoi solo vedere (e rimuovere) dati di oggetti salvati globalmente. Dati salvati dagli utenti non sono al momento visibili.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "Impara di più sullo storage di dati..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Anteprima Dati"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
@@ -767,11 +769,11 @@ msgstr "Rimuovi oggetto"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
-msgstr "Item Data"
+msgstr "Dati Oggetto"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "Salvato Su"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
@@ -795,7 +797,7 @@ msgstr "Seleziona una categoria..."
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
-msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
+msgstr "Puoi modificare la tua descrizione ogni volta che vuoi e aggiungere dettagli col tempo. Questa è la tua possibilità di usare le parole per interessare le persone a giocare al tuo gioco! Una buona descrizione generalmente contiene cose come un sommario di un gameplay, una panoramica generale, storia, e crediti."
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
@@ -806,40 +808,41 @@ msgid "dash.games.form.dev_status_canceled"
 msgstr "Cancellato"
 
 #: app/components/forms/dashboard/game/game.html:87
+#, fuzzy
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "Scegli questo se il tuo gioco è giocabile, ma lo sviluppo è stato cancellato o è in uno stato di pausa. Non dovresti scegliere questo se il tuo gioco ha una build giocabile."
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
-msgstr "Finished/Stable"
+msgstr "Finito/Stabile"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
-msgstr "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+msgstr "Scegli questo solo se il tuo gioco è completo. È in uno stato stabile e prevedi soltanto di rilasciare bug fix o ottimizzazioni di performance. "
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
-msgstr "Development Status"
+msgstr "Stato di Sviluppo"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Non puoi mettere il tuo gioco come Finito o Cancellato finchè non aggiungi build."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
-msgstr "Work in Progress/Unstable"
+msgstr "Lavoro in Corso/ Non Stabile"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
-msgstr "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+msgstr "Scegli questo se il tuo gioco non è finito ma lo stai sviluppando attivamente. Se la build giocabile è in via di svilluppo o se non c'è ancora una build pubblica. Considera di aspettare a pubblicare il tuo gioco in via di sviluppo fino a quando non avrai qualcosa da mostrare: immagini, video, una ottima descrizione, e magari anche una build."
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
-msgstr "Engine/Language/Creation Tool"
+msgstr "Engine/Lingua/Strumento di Creazione"
 
 #: app/components/forms/dashboard/game/game.html:58
 msgid "dash.games.form.engine_other_help"
-msgstr "Which engine, language, or tool?"
+msgstr "Quale Engine, lingua o strumento?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
@@ -851,11 +854,11 @@ msgstr "Perché?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
-msgstr "This helps us create better filtering options around which tools people use."
+msgstr "Questo ci aiuta a creare migliori opzioni di filtraggio riguardo agli strumenti usati dalla gente."
 
 #: app/components/forms/dashboard/game/game.html:47
 msgid "dash.games.form.engine_placeholder"
-msgstr "selezione un motore/linguaggio di programmazione/strumento..."
+msgstr "Seleziona un motore/linguaggio di programmazione/strumento..."
 
 #: app/components/forms/dashboard/game/game.html:125
 msgid "dash.games.form.status_hidden"
@@ -863,7 +866,7 @@ msgstr "Nascosto"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
-msgstr "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
+msgstr "La pagina del tuo gioco non apparirà nelle liste pubbliche o nei risultati di ricerca. Può essere comunque visualizzata da chiunque abbia un link diretto."
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
@@ -871,7 +874,7 @@ msgstr "Visibilità"
 
 #: app/components/forms/dashboard/game/game.html:113
 msgid "dash.games.form.status_not_publishable_info_html"
-msgstr "This game can't be published until the required set up steps are completed. Find them on the game overview."
+msgstr "Questo gioco non può essere pubblicato finchè non vengono completati tutti i passaggi di setup richiesti. Li puoi trovare nelle generalità del gioco."
 
 #: app/components/forms/dashboard/game/game.html:118
 msgid "dash.games.form.status_published"
@@ -879,7 +882,7 @@ msgstr "Pubblicato"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
-msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
+msgstr "La pagina del tuo gioco apparirà nelle liste pubbliche e nei risultati di ricerca. Può essere vista da chiunque."
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
@@ -891,11 +894,11 @@ msgstr "Sito web"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "Pulisci Header"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
-msgstr "Edit Header"
+msgstr "Modifica Header"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
@@ -903,55 +906,55 @@ msgstr "<p>Headers are the big, banner-like images that adorn the tops of game p
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
-msgstr "What are the header requirements and guidelines?"
+msgstr "Quali sono i requisiti e le linee guida di un header?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "Carica Header"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "immagine di Header"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "Carica Nuovo Header"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
-msgstr "Questo gioco è momentaneamente non è pubblico"
+msgstr "Questo gioco è momentaneamente nascosto alla pubblica visione."
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
-msgstr "We recommend keeping it hidden until you've finished filling out the details and added some media. Don't forget to unhide it when it's ready, or it won't show up in the game listings!"
+msgstr "Ti raccomandiamo di tenerlo nascosto finchè non hai finito di compilare tutti i dettagli ed aggiunto un pò di media. Non dimenticare di denasconderlo una volta pronto oppure non apparirà nelle liste di giochi! "
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
-msgstr "Hidden"
+msgstr "Nascosto"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
-msgstr "Age Rating"
+msgstr "Classificazione di Età"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
-msgstr "Alcohol"
+msgstr "Alcool"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Spargimento di Sangue"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
-msgstr "Cartoon Violence"
+msgstr "Violenza cartoonesca"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Droga"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
-msgstr "Fantasy Violence"
+msgstr "Violenza Fantasy"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
@@ -1037,7 +1040,7 @@ msgstr "Aggiungi un'immagine o un video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
-msgstr "Add Media"
+msgstr "Aggiungi Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
@@ -1045,7 +1048,7 @@ msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
-msgstr "Learn more about screenshots/images..."
+msgstr "Impara di più su screenshot/immagini..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
@@ -1054,7 +1057,7 @@ msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkth
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
-msgstr "Learn more about videos..."
+msgstr "Impara di più sui video..."
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
@@ -1064,15 +1067,15 @@ msgstr "Game Media"
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
 #: app/views/dashboard/developer/games/manage/media/list/list.html:45
 msgid "dash.games.media.image_label"
-msgstr "Image"
+msgstr "Immagine"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
-msgstr "You can directly link to this image on your game page with the URL below."
+msgstr "Puoi usare l'URL sottostante per linkare direttamente l'immagine alla pagina del tuo gioco."
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
-msgstr "Edit Image"
+msgstr "Modifica Immagine"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
@@ -1084,7 +1087,7 @@ msgstr "Caption"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
-msgstr "image"
+msgstr "Immagine"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
@@ -1193,19 +1196,19 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
-msgstr "Remove Song"
+msgstr "Rimuovi Canzone"
 
 #: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
-msgstr "News"
+msgstr "Notizie"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
-msgstr "Add News Update"
+msgstr "Aggiungi aggiornamento Notizie"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
-msgstr "Add News"
+msgstr "Aggiungi Notizie"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
@@ -1229,15 +1232,15 @@ msgstr "Remove News Update"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:44
 msgid "dash.games.news.article.stats_tab"
-msgstr "Stats"
+msgstr "Statistiche"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:62
 msgid "dash.games.news.article.view_tab"
-msgstr "View"
+msgstr "Visioni"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:42
 msgid "dash.games.news.comments"
-msgstr "Comments:"
+msgstr "Commenti:"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:29
 msgid "dash.games.news.form.add_follower_message"
@@ -1249,19 +1252,19 @@ msgstr "Markdown allows you to easily make your news updates more dynamic and vi
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_label"
-msgstr "Content"
+msgstr "Contenuto"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:3
 msgid "dash.games.news.form.title_label"
-msgstr "Title"
+msgstr "Titolo"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:4
 msgid "dash.games.news.heading"
-msgstr "Game News"
+msgstr "Notizie Gioco"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
-msgstr "\t<p>You haven't posted any news for this game yet. Updates keep followers informed and attract new ones!</p>"
+msgstr "␣<p>Non hai ancora postato alcuna notizia per questo gioco. Gli aggiornamenti tengono i Follower informati e ne attraggono di nuovi!</p> "
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:7
 msgid "dash.games.news.page_help"
@@ -1269,7 +1272,7 @@ msgstr "Post news to let people know when something interesting happens with you
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:37
 msgid "dash.games.news.views"
-msgstr "Views:"
+msgstr "Visite:"
 
 #: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
@@ -1277,7 +1280,7 @@ msgstr "Overview"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
 msgid "dash.games.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Ultima Attività"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
@@ -1286,11 +1289,11 @@ msgstr "No activity yet. As people interact with your game, the latest activity 
 #: app/components/forms/dashboard/game/game.html:134
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
-msgstr "Publishing your game makes it visible on the site, so make sure your game page is lookin' good!"
+msgstr "Pubblicare il tuo gioco lo rende visibile sul sito, assicurati che la pagina del gioco abbia un bell'aspetto! "
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:161
 msgid "dash.games.overview.stats_comments"
-msgstr "Comments"
+msgstr "Commenti"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:171
 msgid "dash.games.overview.stats_followers"
@@ -1298,7 +1301,7 @@ msgstr "Followers"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:101
 msgid "dash.games.overview.stats_heading"
-msgstr "Quick Stats"
+msgstr "Statistiche Rapide"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:143
 msgid "dash.games.overview.stats_na"
@@ -1355,64 +1358,64 @@ msgstr "Your game page is <strong>{{ completion }}%</strong> complete."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:38
 msgid "dash.games.overview.todo_recommended"
-msgstr "Recommended"
+msgstr "Raccomandati"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:37
 msgid "dash.games.overview.todo_required"
-msgstr "Required"
+msgstr "Richiesti"
 
 #: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
-msgstr "Builds & Files"
+msgstr "Build e File"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:45
 #: app/views/dashboard/developer/games/manage/packages/packages.html:76
 msgid "dash.games.packages.add_package_button"
-msgstr "Add Package"
+msgstr "Aggiungi Pacchetto"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:2
 msgid "dash.games.packages.add.heading"
-msgstr "Add Package"
+msgstr "Aggiungi Pacchetto"
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit.html:2
 msgid "dash.games.packages.edit.heading"
-msgstr "Edit Package"
+msgstr "Modifica Pacchetto"
 
 #: app/components/forms/dashboard/game/package/package.html:39
 msgid "dash.games.packages.form.description_change_button"
-msgstr "Enter Description"
+msgstr "Inserisci Descrizione"
 
 #: app/components/forms/dashboard/game/package/package.html:34
 msgid "dash.games.packages.form.description_help_html"
-msgstr "This should be filled in <em>only if it's needed</em>, if the name alone isn't enough to distinguish this package from other packages."
+msgstr "Questo va compilato <em>solo se necessario</em>, se il nome da solo non è abbastanza per distinguere questo pacchetto dagli altri. "
 
 #: app/components/forms/dashboard/game/package/package.html:33
 msgid "dash.games.packages.form.description_label"
-msgstr "Package Description"
+msgstr "Descrizione Pacchetto"
 
 #: app/components/forms/dashboard/game/package/package.html:18
 msgid "dash.games.packages.form.title_change_button"
-msgstr "Change Name"
+msgstr "Cambia Nome"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
-msgstr "This is the name that shows up on your game page above the Download/Play button. For your main package, use the title of your game."
+msgstr "Questo è il nomre che appare sulla pagina del tuo gioco, sopra il pulsante \"Scarica/Gioca\". Usa il titolo del gioco per il pacchetto principale. "
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
-msgstr "Package Name"
+msgstr "Nome Pacchetto"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:60
 msgid "dash.games.packages.heading"
-msgstr "Game Packages"
+msgstr "Pacchetti Gioco"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:34
 msgid "dash.games.packages.manage.edit_package_tab"
-msgstr "Edit Package"
+msgstr "Modifica Pacchetto"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:7
 msgid "dash.games.packages.manage.heading"
-msgstr "Manage Package"
+msgstr "Gestisci Pacchetto"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:28
 msgid "dash.games.packages.manage.releases_tab"
@@ -1420,11 +1423,11 @@ msgstr "Releases"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:16
 msgid "dash.games.packages.manage.releases.add_release_button"
-msgstr "Add New Release"
+msgstr "Aggiungi Nuova Release"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
 msgid "dash.games.packages.manage.releases.builds_count_none"
-msgstr "No builds yet."
+msgstr "Ancora nessuna build."
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
@@ -1432,7 +1435,7 @@ msgstr "Releases"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
 msgid "dash.games.packages.manage.releases.hidden_tag"
-msgstr "Hidden"
+msgstr "Nascosto"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
@@ -1452,7 +1455,7 @@ msgstr "Learn more about releases..."
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
 msgid "dash.games.packages.manage.releases.published_tag"
-msgstr "Published"
+msgstr "Pubblicato"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
 msgid "dash.games.packages.manage.releases.published_tooltip"
@@ -1460,11 +1463,11 @@ msgstr "This release is published and can be accessed from your game page."
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:18
 msgid "dash.games.packages.manage.remove_package_button"
-msgstr "Remove Package"
+msgstr "Rimuovi Pacchetto"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:9
 msgid "dash.games.packages.nav_heading"
-msgstr "Packages"
+msgstr "Pacchetti"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:71
 msgid "dash.games.packages.no_packages_html"
@@ -1535,36 +1538,36 @@ msgstr "<p>You can upload any additional files that your applet needs here.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
 msgid "dash.games.releases.builds.heading"
-msgstr "Builds"
+msgstr "Build"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:66
 msgid "dash.games.releases.builds.incomplete_tag"
-msgstr "Action Required"
+msgstr "Richiesta Azione"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:185
 msgid "dash.games.releases.builds.launch_options_tab"
-msgstr "Launch Options"
+msgstr "Opzioni di Lancio"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
 msgid "dash.games.releases.builds.launch_options.archive_info_html"
-msgstr "<p><strong>We've detected that this build is an archive file.</strong></p>\n"
-"\t<p>Tell us the path to the executable file for each platform you've chosen so we can launch it automatically.</p>"
+msgstr "<p><strong>Abbiamo notato che questa build è in un file archivio.</strong></p>\n"
+"\t<p>Dicci la destinazione del file eseguibile per ogni piattaforma scelta, così che possiamo lanciarlo automaticamente.</p> "
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
-msgstr "Cancel"
+msgstr "Annulla"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:8
 msgid "dash.games.releases.builds.launch_options.file_selector.filter_placeholder"
-msgstr "Filter files..."
+msgstr "Filtra file"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:2
 msgid "dash.games.releases.builds.launch_options.file_selector.heading"
-msgstr "Select Executable File"
+msgstr "Seleziona File Eseguibili"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
 msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
-msgstr "<p>Oh no! We didn't find any executable files for this platform in the archive.</p>"
+msgstr "<p>Oh no! Non abbiamo trovato alcun file eseguibile per questa piattaforma all'interno dell'archivio.</p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
 msgid "dash.games.releases.builds.launch_options.form.file_error_label"
@@ -1580,7 +1583,7 @@ msgstr "<p>We don't know how to auto-run this build! We need you to tell us how 
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
 msgid "dash.games.releases.builds.launch_options.page_help_link"
-msgstr "Learn more about launch options..."
+msgstr "Impara di più sulle opzioni di lancio..."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:28
 msgid "dash.games.releases.builds.launch_options.standalone_info_html"
@@ -1593,7 +1596,7 @@ msgstr "<p>You haven't added any builds to this release yet.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:56
 msgid "dash.games.releases.builds.other_downloadable_tag"
-msgstr "Other Downloadable"
+msgstr "Altri Scaricabili"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:9
 msgid "dash.games.releases.builds.page_help_link"
@@ -1609,11 +1612,11 @@ msgstr "Params"
 
 #: app/components/forms/dashboard/game/build/param/param.html:18
 msgid "dash.games.releases.builds.params.form.add_parameter_button"
-msgstr "Add Parameter"
+msgstr "Aggiungi Parametri"
 
 #: app/components/forms/dashboard/game/build/param/param.html:3
 msgid "dash.games.releases.builds.params.form.parameter_label"
-msgstr "Parameter"
+msgstr "Parametri"
 
 #: app/components/forms/dashboard/game/build/param/param.html:11
 msgid "dash.games.releases.builds.params.form.value_label"
@@ -1668,47 +1671,47 @@ msgstr "Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:103
 msgid "dash.games.releases.manage.builds_tab"
-msgstr "Builds"
+msgstr "Build"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:120
 msgid "dash.games.releases.manage.edit_release_tab"
-msgstr "Edit Release"
+msgstr "Modifica Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:26
 msgid "dash.games.releases.manage.heading"
-msgstr "Manage Release"
+msgstr "Gestisci Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:92
 msgid "dash.games.releases.manage.publish_release_button"
-msgstr "Publish Release"
+msgstr "Pubblica Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:40
 msgid "dash.games.releases.manage.remove_release_button"
-msgstr "Remove Release"
+msgstr "Rimuovi Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:112
 msgid "dash.games.releases.manage.stats_tab"
-msgstr "Stats"
+msgstr "Statistiche"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:65
 msgid "dash.games.releases.manage.switch_release_heading"
-msgstr "Switch Release"
+msgstr "Cambia Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:36
 msgid "dash.games.releases.manage.unpublish_release_button"
-msgstr "Hide Release"
+msgstr "Nascondi Release"
 
 #: app/views/dashboard/developer/games/manage/packages/release/stats/stats.html:1
 msgid "dash.games.releases.stats.heading"
-msgstr "Stats"
+msgstr "Statistiche"
 
 #: app/views/dashboard/developer/games/manage/manage.html:67
 msgid "dash.games.remove_game_button"
-msgstr "Remove Game"
+msgstr "Rimuovi Gioco"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:35
 msgid "dash.games.scoreboard.form.asc_help"
-msgstr "Scores with lower values are ranked better."
+msgstr "Punteggi con valori bassi sono classificati più in alto."
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:34
 msgid "dash.games.scoreboard.form.asc_label"
@@ -1716,7 +1719,7 @@ msgstr "Ascending"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:28
 msgid "dash.games.scoreboard.form.desc_help"
-msgstr "Scores with higher values are ranked better."
+msgstr "Punteggi con valori alti sono classificati più in alto."
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:27
 msgid "dash.games.scoreboard.form.desc_label"
@@ -1724,7 +1727,7 @@ msgstr "Descending"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:8
 msgid "dash.games.scoreboard.form.description_label"
-msgstr "Description"
+msgstr "Descrizione"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:23
 msgid "dash.games.scoreboard.form.direction_label"
@@ -1732,15 +1735,15 @@ msgstr "Sort Direction"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:14
 msgid "dash.games.scoreboard.form.guest_help"
-msgstr "Allow guests to submit scores?"
+msgstr "Permettere agli ospiti di inviare punteggi?"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:13
 msgid "dash.games.scoreboard.form.guest_label"
-msgstr "Guest Scoring"
+msgstr "Punteggio Ospite"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:3
 msgid "dash.games.scoreboard.form.name_label"
-msgstr "Name"
+msgstr "Nome"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:42
 msgid "dash.games.scoreboard.form.save_button"
@@ -1814,11 +1817,11 @@ msgstr "Guest"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:8
 msgid "dash.games.scores.list.date_label"
-msgstr "Date"
+msgstr "Data"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:1
 msgid "dash.games.scores.list.heading"
-msgstr "View Scores"
+msgstr "Vedi Punteggi"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:16
 msgid "dash.games.scores.list.no_scores_html"
@@ -1826,51 +1829,51 @@ msgstr "<p>This table lacks scores, alas.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
-msgstr "<p>These are all of the scores that have been submitted to this scoreboard by users and guests (if allowed).</p>"
+msgstr "<p>Questi sono tutti i punteggi inviati da utenti ed ospiti alla classifica.</p> "
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:5
 msgid "dash.games.scores.list.rank_label"
-msgstr "Rank"
+msgstr "Posizione"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:52
 msgid "dash.games.scores.list.remove_button"
-msgstr "Remove Score"
+msgstr "Rimuovi Punteggio"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:7
 msgid "dash.games.scores.list.sort_label"
-msgstr "Sort Value"
+msgstr "Organizza Valori"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:6
 msgid "dash.games.scores.list.user_label"
-msgstr "User"
+msgstr "Utente"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:8
 msgid "dash.games.scores.user.list.heading"
-msgstr "View Scores"
+msgstr "Vedi Punteggi"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:10
 msgid "dash.games.scores.user.list.heading_for"
-msgstr "for"
+msgstr "per"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:12
 msgid "dash.games.scores.user.list.heading_on"
-msgstr "on"
+msgstr "su"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:27
 msgid "dash.games.scores.user.list.no_scores_html"
-msgstr "<p>The user has no scores on this scoreboard.</p>"
+msgstr "<p>L'utente non ha punteggi su questa classifica.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:21
 msgid "dash.games.scores.user.list.remove_all_button"
-msgstr "Remove All"
+msgstr "Rimuovi Tutto"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:10
 msgid "dash.games.scores.view_user_scores"
-msgstr "View All Scores For User"
+msgstr "Vedi tutti i Punteggi dell' Utente"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:72
 msgid "dash.games.scores.view.data_label"
-msgstr "Extra Data"
+msgstr "Dati Extra"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:75
 msgid "dash.games.scores.view.data_none_help"
@@ -1882,11 +1885,11 @@ msgstr "Scored On"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:8
 msgid "dash.games.scores.view.heading"
-msgstr "Score Details"
+msgstr "Dettagli Punteggio"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:15
 msgid "dash.games.scores.view.remove_button"
-msgstr "Remove Score"
+msgstr "Rimuovi Punteggio"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:62
 msgid "dash.games.scores.view.sort_label"
@@ -1997,7 +2000,7 @@ msgstr "Description"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:31
 msgid "dash.games.trophies.form.difficulty_label"
-msgstr "Difficulty"
+msgstr "Difficoltà"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:75
 msgid "dash.games.trophies.form.hidden_help"
@@ -2033,72 +2036,72 @@ msgstr "Title"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:13
 msgid "dash.games.trophies.has_hidden_html"
-msgstr "<p><strong>You have hidden trophies!</strong> Be sure to unhide them when you're ready for players to achieve them.</p>"
+msgstr "<p><strong>Hai dei trofei nascosti!</strong> Assicurati di renderli visibili quando sono pronti per essere ottenuti dai giocatori.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:4
 msgid "dash.games.trophies.heading"
-msgstr "Game Trophies"
+msgstr "Trofei Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tag"
-msgstr "Hidden"
+msgstr "Nascosto"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:7
 msgid "dash.games.trophies.page_help_html"
-msgstr "<p>The API lets you add multiple unique trophies, each forged from a material that indicates how difficult it is to achieve: bronze (easiest), silver, gold, or platinum (hardest).</p>"
+msgstr "<p> Le API ti permettono di aggiungere vari trofei unici, ognuno forgiato con un materiale indicante la loro difficoltà di ottenimento: bronzo (il più facile), argento, oro, or platino (il più difficile).</p> "
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:9
 msgid "dash.games.trophies.page_help_link"
-msgstr "Learn more about trophies..."
+msgstr "Impara di più sui trofei..."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:76
 msgid "dash.games.trophies.remove_button"
-msgstr "Remove Trophy"
+msgstr "Rimuovi Trofeo"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:66
 msgid "dash.games.trophies.secret_tag"
-msgstr "Secret"
+msgstr "Secreto"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:55
 msgid "dash.games.trophies.trophy_id_label"
-msgstr "Trophy ID"
+msgstr "ID Trofeo"
 
 #: app/views/dashboard/developer/games/manage/manage.html:18
 msgid "dash.games.view_page_button"
-msgstr "View Game Page"
+msgstr "Vedi Pagina del Gioco"
 
 #: app/views/dashboard/overview/overview.html:111
 msgid "dash.integrate.done"
-msgstr "Done"
+msgstr "Fatto"
 
 #: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
-msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
-"\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
+msgstr "<p>Per ottenere esperienza e salire di livello, assicurati di <em>valutare</em> e <em>commentare</em> i giochi a cui hai giocato.</p>\n"
+"\t<p>Comunque, la via più veloce di raccogliere EXP è di ottenere <strong>trofei</strong> ed entrare nelle <strong>classifiche</strong>!</p> "
 
 #: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
-msgstr "Gain experience and level up!"
+msgstr "Ottieni esperienza e sali di livello"
 
 #: app/views/dashboard/overview/overview.html:87
 msgid "dash.integrate.heading"
-msgstr "Integrate"
+msgstr "Integra"
 
 #: app/views/dashboard/overview/overview.html:90
 msgid "dash.integrate.lead"
-msgstr "Here's a to-do list of things to get you started with the site:"
+msgstr "Ecco una lista di cosa da fare per cominciare ad integrarti nel sito: "
 
 #: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Ultima Attività"
 
 #: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
-msgstr "<p>No activity yet.</p>"
+msgstr "<p>Ancora nessuna attività.</p>"
 
 #: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
-msgstr "View All Activity"
+msgstr "Vedi tutte le Attività"
 
 #: app/views/dashboard/overview/overview.html:38
 msgid "dash.overview.broadcast_view_all"
@@ -2106,11 +2109,11 @@ msgstr "View All Changelog Broadcasts"
 
 #: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
-msgstr "Add Game"
+msgstr "Aggiungi Gioco"
 
 #: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
-msgstr "Your Games"
+msgstr "I tuoi Giochi"
 
 #: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
@@ -2195,11 +2198,11 @@ msgstr "You can only change your username once a week. <br>\n"
 
 #: app/components/forms/dashboard/profile/profile.html:43
 msgid "dash.profile.edit.website_label"
-msgstr "Website"
+msgstr "Sito Web"
 
 #: app/views/discover/home/home.html:74
 msgid "discover.home.best_heading"
-msgstr "All-Time Best Games"
+msgstr "Migliori Giochi di Sempre"
 
 #: app/views/discover/home/home.html:81
 msgid "discover.home.best_help"
@@ -2207,60 +2210,60 @@ msgstr "A sampling of the highest rated games of all time."
 
 #: app/views/discover/home/home.html:261
 msgid "discover.home.fireside_heading"
-msgstr "Latest from the"
+msgstr "Ultime da"
 
 #: app/views/discover/home/home.html:269
 msgid "discover.home.fireside_help"
-msgstr "Indie game news, reviews, and opinions by people."
+msgstr "Notizie, recensioni ed opinioni della gente sugli Indie"
 
 #: app/views/discover/home/home.html:226
 msgid "discover.home.followed_news_heading"
-msgstr "Followed Game News"
+msgstr "Notizie sui Giochi Seguiti"
 
 #: app/views/discover/home/home.html:233
 msgid "discover.home.followed_news_help"
-msgstr "The latest news from games you're following."
+msgstr "Ultime novità dai giochi che stai seguendo"
 
 #: app/views/discover/home/home.html:205
 msgid "discover.home.followed_news_tab"
-msgstr "Followed"
+msgstr "Seguito"
 
 #: app/views/discover/home/home.html:152
 msgid "discover.home.hot_heading"
-msgstr "Hot Games"
+msgstr "Giochi \"Caldi\""
 
 #: app/views/discover/home/home.html:159
 msgid "discover.home.hot_help"
-msgstr "Popular indie games, sorted by Hotness."
+msgstr "Giochi Indie popolari, organizzati da Hotness."
 
 #: app/views/discover/home/home.html:218
 msgid "discover.home.hot_news_heading"
-msgstr "Hot Game News"
+msgstr "Notizie più recenti sui Giochi"
 
 #: app/views/discover/home/home.html:232
 msgid "discover.home.hot_news_help"
-msgstr "The hottest indie game news directly from the developers."
+msgstr "Le notizie più recenti sugli Indie direttamente dagli sviluppatori."
 
 #: app/views/discover/home/home.html:200
 msgid "discover.home.hot_news_tab"
-msgstr "Hot News"
+msgstr "Notizie Recenti"
 
 #: app/views/discover/home/home.html:245
 #: app/views/discover/home/home.html:249
 msgid "discover.home.more_news"
-msgstr "More News"
+msgstr "Più Notizie"
 
 #: app/views/discover/home/home.html:52
 msgid "discover.home.social_label"
-msgstr "Play along with us!"
+msgstr "Gioca con noi!"
 
 #: app/views/discover/home/home.html:114
 msgid "discover.home.week_best_heading"
-msgstr "This Week's Best Games"
+msgstr "Giochi Migliori di questa settimana"
 
 #: app/views/discover/home/home.html:120
 msgid "discover.home.week_best_help"
-msgstr "The highest rated games published in the past 7 days."
+msgstr "I giochi più votati pubblicati negli ultimi 7 giorni."
 
 #: app/components/shell/menu-popover/menu-popover.html:69
 msgid "discover.nav.featured_playlists"
@@ -2268,11 +2271,11 @@ msgstr "Featured Playlists"
 
 #: app/views/discover/games/view/download/build/build.html:55
 msgid "game.download.game.developer_games_heading"
-msgstr "Other Games"
+msgstr "Altri Giochi"
 
 #: app/views/discover/games/view/download/build/build.html:57
 msgid "game.download.game.developer_games_heading_small"
-msgstr "by this developer"
+msgstr "da questo sviluppatore"
 
 #: app/views/discover/games/view/download/build/build.html:14
 msgid "game.download.game.downloading_wait_message"
@@ -2360,15 +2363,15 @@ msgstr "Unity"
 
 #: app/components/game/filtering/widget.html:12
 msgid "games.filtering.browser_label"
-msgstr "Browser Games"
+msgstr "Giochi Browser"
 
 #: app/components/game/filtering/tags.html:5
 msgid "games.filtering.genre_label"
-msgstr "Genre"
+msgstr "Genere"
 
 #: app/components/game/filtering/input.html:14
 msgid "games.filtering.input_placeholder"
-msgstr "Filter results..."
+msgstr "Filtra risultati..."
 
 #: app/components/game/filtering/widget.html:19
 msgid "games.filtering.maturity_label"
@@ -2376,47 +2379,47 @@ msgstr "Maturity Rating"
 
 #: app/components/game/filtering/widget.html:5
 msgid "games.filtering.os_label"
-msgstr "Operating Systems"
+msgstr "Sistemi Operativi"
 
 #: app/components/game/filtering/widget.html:26
 msgid "games.filtering.status_label"
-msgstr "Status"
+msgstr "Stato"
 
 #: app/views/discover/games/list/list.html:44
 msgid "games.list.best_descriptive_html"
-msgstr "Indie {{ category }} sorted by Voltage."
+msgstr "{{ category }} Indie, organizzata da Voltage."
 
 #: app/views/discover/games/list/list.html:71
 msgid "games.list.date_descriptive_html"
-msgstr "Games that were published on {{ date }}, sorted by Voltage, with the best scores at the top."
+msgstr "Giochi pubblicati il {{ date }}, organizzati da Voltage, con i migliori punteggi in cima."
 
 #: app/views/discover/games/list/list.html:26
 msgid "games.list.date_heading"
-msgstr "Games Published"
+msgstr "Giochi Pubblicati"
 
 #: app/views/discover/games/list/list.html:74
 msgid "games.list.date_range_descriptive_html"
-msgstr "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
+msgstr "Giochi pubblicati tra {{ dateStart }} e {{ dateEnd }}, organizzati da Voltage, con i punteggi migliori in cima. "
 
 #: app/views/discover/games/list/list.html:30
 msgid "games.list.date_range_heading"
-msgstr "Games Published"
+msgstr "Giochi Pubblicati"
 
 #: app/views/discover/games/list/list.html:38
 msgid "games.list.featured_descriptive_html"
-msgstr "Indie {{ category }} that we've featured on the homepage, sorted by feature date."
+msgstr "{{ category }} Indie mostrata sulla homepage, organizzata in base alla data d'uscita."
 
 #: app/views/discover/games/list/list.html:51
 msgid "games.list.fresh_descriptive_html"
-msgstr "Indie {{ category }} sorted by Freshness."
+msgstr "{{ category }} Indie mostrati per Freschezza. "
 
 #: app/views/discover/games/list/list.html:54
 msgid "games.list.freshness_tooltip"
-msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
+msgstr "Freschezza indica l'interesse della comunità nei giochi recenti. Il punteggio di Freschezza di un gioco inizia alto e cala col tempo. Attività di Community possono rallentare il calo."
 
 #: app/views/discover/games/list/list.html:178
 msgid "games.list.games_count_none"
-msgstr "No games."
+msgstr "Nessun Gioco."
 
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
@@ -2502,11 +2505,11 @@ msgstr "Ratings"
 
 #: app/views/discover/games/view/overview/_details.html:38
 msgid "games.view.stats.views_label"
-msgstr "Views"
+msgstr "Visite"
 
 #: app/views/discover/games/view/_header/nav.html:23
 msgid "games.view.trophies_tab"
-msgstr "Trophies"
+msgstr "Trofei"
 
 #: app/components/score/overview/overview.html:96
 #: app/components/trophy/list/list.html:27
@@ -2522,59 +2525,59 @@ msgstr "EXP"
 #: app/views/library/collection/_header-default.html:79
 #: app/views/library/library.html:95
 msgid "library.by"
-msgstr "by"
+msgstr "da"
 
 #: app/views/library/collection/_header-default.html:66
 msgid "library.collection.developer_descriptive_html"
-msgstr "These are the games made by {{ user }}."
+msgstr "Questi sono i giochi fatti da {{ user }}."
 
 #: app/views/library/collection/_header-default.html:58
 msgid "library.collection.developer_heading"
-msgstr "Games"
+msgstr "Giochi"
 
 #: app/views/library/collection/_header-default.html:54
 msgid "library.collection.developer_owner_descriptive_html"
-msgstr "These are the games that you've made. Be proud!<br>Feel free to share this page with others to show off your games."
+msgstr "Questi sono i giochi che hai creato. Sii orgoglioso!<br>Sentiti libero di condividere questa pagina con altri così da mostrare i tuoi giochi."
 
 #: app/views/library/collection/_header-default.html:53
 msgid "library.collection.developer_owner_heading"
-msgstr "Your Games"
+msgstr "I tuoi Giochi"
 
 #: app/views/library/collection/_header/controls.html:28
 msgid "library.collection.edit_playlist_button"
-msgstr "Edit Playlist"
+msgstr "Modifica Playlist"
 
 #: app/views/library/collection/_header-default.html:44
 msgid "library.collection.followed_descriptive_html"
-msgstr "These are the games that {{ user }} is following."
+msgstr "Questi sono i giochi che {{ user }} sta seguendo."
 
 #: app/views/library/collection/_header-default.html:36
 msgid "library.collection.followed_heading"
-msgstr "Games Followed"
+msgstr "Giochi Seguiti"
 
 #: app/views/library/collection/_header-default.html:32
 msgid "library.collection.followed_owner_descriptive_html"
-msgstr "When you follow a game, it shows up here.<br>You'll receive notifications when developers post news about any games you're following."
+msgstr "Quando segui un gioco, esso appare qui.<br> Riceverai delle notifiche quando gli sviluppatori postano notizie riguardo uno dei tuoi giochi seguiti."
 
 #: app/views/library/collection/_header-default.html:31
 msgid "library.collection.followed_owner_heading"
-msgstr "Your Followed Games"
+msgstr "I tuoi Giochi Seguiti"
 
 #: app/views/library/collection/_header/stats.html:3
 msgid "library.collection.followers_label"
-msgstr "Followers"
+msgstr "Seguaci"
 
 #: app/views/library/collection/_header/stats.html:7
 msgid "library.collection.games_label"
-msgstr "Games"
+msgstr "Giochi"
 
 #: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
-msgstr "There are no games in this bundle yet."
+msgstr "Non ci sono ancora dei giochi in questo bundle."
 
 #: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
-msgstr "This developer hasn't added any games yet."
+msgstr "Questo sviluppatore non ha ancora aggiunto giochi."
 
 #: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
@@ -2582,7 +2585,7 @@ msgstr "No games are being followed yet."
 
 #: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
-msgstr "@:games.list.no_games_html"
+msgstr "@:games.list.no_games_html "
 
 #: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
@@ -2659,11 +2662,11 @@ msgstr "Here are the games created by this developer."
 
 #: app/components/game/collection/thumbnail/thumbnail.html:3
 msgid "library.playlists.developer_tag"
-msgstr "Developer's Games"
+msgstr "Giochi dello Sviluppatore"
 
 #: app/components/game/collection/grid/grid.html:14
 msgid "library.playlists.developer_title"
-msgstr "Developer's Games"
+msgstr "Giochi dello Sviluppatore"
 
 #: app/components/game/collection/grid/grid.html:36
 msgid "library.playlists.followed_description"
@@ -2671,31 +2674,31 @@ msgstr "Here are the games this person is following."
 
 #: app/components/game/collection/thumbnail/thumbnail.html:4
 msgid "library.playlists.followed_tag"
-msgstr "Followed Games"
+msgstr "Giochi Seguiti"
 
 #: app/components/game/collection/grid/grid.html:20
 msgid "library.playlists.followed_title"
-msgstr "Followed Games"
+msgstr "Giochi Seguiti"
 
 #: app/components/forms/playlist/playlist.html:10
 msgid "library.playlists.form.add_submit_button"
-msgstr "Add Playlist"
+msgstr "Aggiungi Playlist"
 
 #: app/components/forms/playlist/playlist.html:11
 msgid "library.playlists.form.edit_submit_button"
-msgstr "Edit Playlist"
+msgstr "Modifica Playlist"
 
 #: app/components/forms/playlist/playlist.html:3
 msgid "library.playlists.form.name_label"
-msgstr "Name"
+msgstr "Nome"
 
 #: app/components/game/collection/grid/grid.html:13
 msgid "library.playlists.owner_developer_title"
-msgstr "Your Games"
+msgstr "I tuoi Giochi"
 
 #: app/components/game/collection/grid/grid.html:19
 msgid "library.playlists.owner_followed_title"
-msgstr "Your Followed Games"
+msgstr "I Giochi Seguiti"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:5
 msgid "library.playlists.playlist_tag"
@@ -2703,39 +2706,39 @@ msgstr "Playlist"
 
 #: app/components/game-playlist/save-modal/save-modal.html:2
 msgid "library.playlists.save_modal.add_heading"
-msgstr "Add Playlist"
+msgstr "Aggiungi Playlist"
 
 #: app/components/game-playlist/save-modal/save-modal.html:15
 msgid "library.playlists.save_modal.close"
-msgstr "Cancel"
+msgstr "Annulla"
 
 #: app/components/game-playlist/save-modal/save-modal.html:3
 msgid "library.playlists.save_modal.edit_heading"
-msgstr "Edit Playlist"
+msgstr "Modifica Playlist"
 
 #: app/components/game/collection/grid/grid.html:12
 msgid "library.playlists.subscription_developer_title"
-msgstr "Games Made"
+msgstr "Giochi Prodotti"
 
 #: app/components/game/collection/grid/grid.html:18
 msgid "library.playlists.subscription_followed_title"
-msgstr "Games Followed"
+msgstr "Giochi Seguiti"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:7
 msgid "library.playlists.tag_tag"
-msgstr "Tag"
+msgstr "Categoria"
 
 #: app/components/shell/top-nav/top-nav.html:113
 msgid "nav.join"
-msgstr "Sign Up!"
+msgstr "Registrati!"
 
 #: app/components/shell/top-nav/top-nav.html:107
 msgid "nav.login"
-msgstr "Log In"
+msgstr "Accedi"
 
 #: app/views/discover/news/news.html:18
 msgid "news.list.all_descriptive_html"
-msgstr "Fresh indie game news directly from the developers!"
+msgstr "Notizie fresche sui giochi indie direttamente dagli sviluppatori!"
 
 #: app/views/discover/news/news.html:4
 msgid "news.list.all_heading"
@@ -2815,7 +2818,7 @@ msgstr "No unread notifications at this time."
 
 #: app/components/notifications/popover/popover.html:15
 msgid "notifications.popover.view_all_button"
-msgstr "View All Activity"
+msgstr "Vedi tutte le Attività"
 
 #: app/components/activity/feed/feed.html:49
 msgid "notifications.rating_details_html"
@@ -2833,37 +2836,37 @@ msgstr[1] ""
 #: app/views/library/collection/_header/controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
-msgstr "More"
+msgstr "Di più"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:39
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:46
 msgid "options.options"
-msgstr "Options"
+msgstr "Opzioni"
 
 #: app/views/profile/overview/_banned.html:3
 msgid "profile.banned_message_html"
-msgstr "This account is banned."
+msgstr "Questo account è bannato."
 
 #: app/views/profile/overview/overview.html:110
 msgid "profile.developer_games_teaser_heading"
-msgstr "Latest Games"
+msgstr "Giochi più recenti"
 
 #: app/views/profile/overview/overview.html:112
 msgid "profile.developer_games_teaser_heading_small"
-msgstr "by this developer"
+msgstr "da questo sviluppatore"
 
 #: app/views/profile/overview/overview.html:62
 msgid "profile.friend_request_accept"
-msgstr "Add Friend"
+msgstr "Aggiungi Amico"
 
 #: app/views/profile/profile.html:115
 #: app/views/profile/profile.html:127
 msgid "profile.friend_request_button"
-msgstr "Send Friend Request"
+msgstr "Invia Richiesta Amico"
 
 #: app/views/profile/overview/overview.html:52
 msgid "profile.friend_request_cancel"
-msgstr "Cancel Request"
+msgstr "Annulla Richiesta"
 
 #: app/views/profile/overview/overview.html:66
 msgid "profile.friend_request_decline"
@@ -2871,11 +2874,11 @@ msgstr "Dismiss"
 
 #: app/views/profile/profile.html:39
 msgid "profile.friend_tag"
-msgstr "Friend"
+msgstr "Amico"
 
 #: app/views/profile/profile.html:54
 msgid "profile.in_game_tag"
-msgstr "In-Game"
+msgstr "Sta Giocando"
 
 #: app/views/profile/profile.html:94
 msgid "profile.joined"
@@ -2887,11 +2890,11 @@ msgstr "Last seen"
 
 #: app/views/profile/profile.html:142
 msgid "profile.library_tab"
-msgstr "Library"
+msgstr "Libreria"
 
 #: app/views/profile/profile.html:171
 msgid "profile.moderate_user_button"
-msgstr "Moderate User"
+msgstr "Utente Moderato"
 
 #: app/views/profile/overview/overview.html:83
 msgid "profile.no_bio_html"
@@ -2899,7 +2902,7 @@ msgstr "<p><em>This person doesn't have a bio yet, so use your imagination!</em>
 
 #: app/views/profile/overview/overview.html:105
 msgid "profile.no_developer_games_html"
-msgstr "This developer hasn't published any games yet. Tell them to get a move on!"
+msgstr "Questo sviluppatore non ha ancora pubblicato giochi. Digli di darsi una mossa!"
 
 #: app/views/profile/profile.html:45
 msgid "profile.offline_tag"
@@ -4662,19 +4665,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Help translate!"
 
@@ -4888,7 +4891,7 @@ msgstr "Settings"
 
 #: app/components/forms/settings/settings.html:24
 msgid "settings.limit_downloads_label"
-msgstr "Limit simultaneous downloads?"
+msgstr "Limitare i download simultanei?"
 
 #: app/components/forms/settings/settings.html:36
 msgid "settings.limit_extractions_help"
@@ -4896,15 +4899,15 @@ msgstr "An extraction is when the game is unpacked and installed after downloadi
 
 #: app/components/forms/settings/settings.html:35
 msgid "settings.limit_extractions_label"
-msgstr "Limit simultaneous extractions?"
+msgstr "Limitare le estrazioni simultanee?"
 
 #: app/components/forms/settings/settings.html:30
 msgid "settings.max_download_count_help"
-msgstr "If you have more than this number, downloads will be queued up."
+msgstr "Se sono un numero maggiore di questo, i download saranno messi in coda."
 
 #: app/components/forms/settings/settings.html:29
 msgid "settings.max_download_count_label"
-msgstr "Max # of Simultaneous Downloads"
+msgstr "# Massimo di Download Simultanei"
 
 #: app/components/forms/settings/settings.html:42
 msgid "settings.max_extract_count_help"
@@ -4916,7 +4919,7 @@ msgstr "Max # of Simultaneous Extractions"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
-msgstr "Settings"
+msgstr "Impostazioni"
 
 #: app/components/forms/settings/settings.html:48
 msgid "settings.queue_when_playing_help"
@@ -4968,9 +4971,111 @@ msgstr "Yes"
 
 #: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
-msgstr "Change settings."
+msgstr "Cambia impostazioni."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
 msgstr "Open Source"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comments"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
