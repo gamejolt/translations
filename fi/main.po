@@ -198,11 +198,11 @@ msgstr "Uusi salasana"
 msgid "auth.reset_password.submit_button"
 msgstr "Nollaa salasana"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Yksityisyys"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Ehdot"
 
@@ -680,7 +680,7 @@ msgstr "Tilisi on tällä hetkellä rajoitettu tiedostokokoon {{ maxFilesize | n
 
 #: app/components/forms/dashboard/game/build/build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
-msgstr "<strong>For an HTML game, upload a .zip archive containing all of your game's files and assets. There must be an index.html in the root folder.</strong>"
+msgstr "<strong>HTML-pelit vaativat .zip-tiedoston, josta löytyy tarvittavat tiedostot ja data. Zip-arkiston juurelta on löydyttävä \"index.html\"-niminen tiedosto.</strong>"
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
@@ -688,7 +688,7 @@ msgstr "Lataa tiedosto"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr "A .swf file. Playable in browsers that support Flash."
+msgstr ".swf-tiedosto. Pelattavissa selaimilla, jotka sattuvat tukemaan Flashiä."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
@@ -696,15 +696,15 @@ msgstr "Korkeus"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr "A .zip archive containing all of the files the game needs to run, including an index.html in the root. Should be playable in any modern browser without plugins."
+msgstr ".zip-arkisto, joka sisältää kaikki pelin vaatimat tiedostot, mukaan lukien \"index.html\"-tiedosto juurella. Pitäisi olla pelattavissa kaikilla moderneilla selaimilla ilman liitännäisiä."
 
 #: app/components/forms/dashboard/game/build/build.html:116
 msgid "dash.games.builds.form.no_platforms_error"
-msgstr "You have to select at least one platform on which your build runs (or \"Other\")."
+msgstr "Sinun täytyy valita ainakin yksi alusta, jolla koontiversiosi toimii (tai \"Muu\")."
 
 #: app/components/forms/dashboard/game/build/build.html:97
 msgid "dash.games.builds.form.platforms_help_html"
-msgstr "Select \"Other\" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF."
+msgstr "Valitse \"Muu\", jos tämä koontiversio on alustalle, jota ei tässä näy, tai sitten se on ei-suoritettava tiedosto, kuten PDF."
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
@@ -712,11 +712,11 @@ msgstr "Alustat"
 
 #: app/components/forms/dashboard/game/build/build.html:56
 msgid "dash.games.builds.form.silverlight_help"
-msgstr "A .xap file. Playable in browsers that support Silverlight."
+msgstr ".xap-tiedosto. Pelattavissa selaimilla, jotka tukevat Silverlightia."
 
 #: app/components/forms/dashboard/game/build/build.html:42
 msgid "dash.games.builds.form.unity_help"
-msgstr "A .unity3d file. Playable in browsers that support the Unity Web Player. If you exported your game to WebGL, choose HTML instead of Unity."
+msgstr ".unity3d-tiedosto. Pelattavissa selaimilla, jotka tukevat Unity Web Playeria. Jos veit pelisi WebGL-muotoon, valitse HTML Unityn sijaan."
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
@@ -724,11 +724,11 @@ msgstr "Leveys"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Stored On"
+msgstr "Varastoitu"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
-msgstr "Data Storage Items"
+msgstr "Datavarastoesineet"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
 msgid "dash.games.data_store.items.key_label"
@@ -736,33 +736,33 @@ msgstr "Avain"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
 msgid "dash.games.data_store.items.page_help_html"
-msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All stored data items will show up here.</p>\n"
-"\t<p>Currently, you can only view (and remove) globally stored data items. Stored user data items are not viewable at this time.</p>"
+msgstr "<p>Voit käyttää API:tä varastoidaksesi dataa... <em>pilveen!</em> Kaikki varastoidut dataesineet näkyvät tässä.</p>\n"
+"<p>Tällä hetkellä voi ainoistaan nähdä (ja poistaa) globaalit dataesineet. Varastoitu käyttäjäkohtainen esinedata ei ole vielä katseltavissa.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "Lue lisää datavarastosta..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Datan esikatselu"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
 msgid "dash.games.data_store.items.remove_button"
-msgstr "Remove Item"
+msgstr "Poista esine"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
-msgstr "Item Data"
+msgstr "Esineen data"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "Varastoitu"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
-msgstr "Item Details"
+msgstr "Esineet yksityiskohdata"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:27
 msgid "dash.games.data_store.items.view.key_label"
@@ -770,7 +770,7 @@ msgstr "Avain"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit.html:4
 msgid "dash.games.edit.heading"
-msgstr "Edit Details"
+msgstr "Muokkaa yksityiskohtia"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
@@ -782,7 +782,7 @@ msgstr "Valitse kategoria"
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
-msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
+msgstr "Voit muokata esittelyä milloin vain haluat. Tämä on mahdollisuutesi houkutella pelaajia pelisi pariin. Hyvä esittely sisältää muun muassa seuraavia asioita: pelattavuuden esittely, kontrollit, tarina ja pelin tekijät."
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
@@ -794,43 +794,43 @@ msgstr "Peruutettu"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "Valitse tämä, jos pelisi on pelattavissa, mutta pelisi on peruttu tai laitettu jäihin pidemmäksi aikaa. Sinun ei pidä valita tätä, ellei pelisi ole pelattavissa."
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
-msgstr "Valmis"
+msgstr "Valmis/vakaa"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
-msgstr "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+msgstr "Valitse tämä jos pelisi on valmis. Jos pelisi on vakaa ja aiot julkaista vain bugikorjauksia ja suorituskyvyn optimointia."
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
-msgstr "Development Status"
+msgstr "Kehitystila"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Et voi asettaa peliäsi \"Valmis\" tai \"Peruttu\" -tilaan, ellet lisää pelattavaa versiota."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
-msgstr "Work in Progress/Unstable"
+msgstr "Kehitys kesken/epävakaa"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
-msgstr "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+msgstr "Valitse tmä, jos pelisi ei ole valmis, mutta kehität sitä aktiivisesti. Joko pelattava versio on kehityksessä tai julkista versiota ei vielä ole. Harkitse julkaisevasi keskeneräisestä pelistäsi jotain näytettävää, kuten kuvia, videoita tai ainakin kunnon esittely."
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
-msgstr "Engine/Language/Creation Tool"
+msgstr "Pelimoottori/ohjelmointikieli/luomistyökalu"
 
 #: app/components/forms/dashboard/game/game.html:58
 msgid "dash.games.form.engine_other_help"
-msgstr "Which engine, language, or tool?"
+msgstr "Mikä pelimoottori, ohjelmointikieli tai työkalu?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
-msgstr "Other Engine/Language/Tool"
+msgstr "Muu pelimoottori/ohjelmointikieli/työkalu"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
@@ -838,11 +838,11 @@ msgstr "Miksi?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
-msgstr "This helps us create better filtering options around which tools people use."
+msgstr "Tämä auttaa meitä luomaan parempia suodatusasetuksia liittyen siihen, mitä työkaluja ihmiset käyttävät."
 
 #: app/components/forms/dashboard/game/game.html:47
 msgid "dash.games.form.engine_placeholder"
-msgstr "Select an engine/language/tool..."
+msgstr "Valitse pelimoottori/ohjelmointikieli/työkalu..."
 
 #: app/components/forms/dashboard/game/game.html:125
 msgid "dash.games.form.status_hidden"
@@ -850,7 +850,7 @@ msgstr "Piilotettu"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
-msgstr "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
+msgstr "Peliäsi ei näy julkisessa listauksessa tai hakutuloksissa. Kaikki voivat silti nähdä sen suorasta linkistä."
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
@@ -858,7 +858,7 @@ msgstr "Näkyvyys"
 
 #: app/components/forms/dashboard/game/game.html:113
 msgid "dash.games.form.status_not_publishable_info_html"
-msgstr "This game can't be published until the required set up steps are completed. Find them on the game overview."
+msgstr "Tätä peliä ei voi julkaista, ennen kuin kaikki vaatimukset on täytetty. Löydät ne pelin yleiskatsauksesta."
 
 #: app/components/forms/dashboard/game/game.html:118
 msgid "dash.games.form.status_published"
@@ -866,11 +866,11 @@ msgstr "Julkaistu"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
-msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
+msgstr "Pelisi näkyy julkisessa listauksessa ja haun tuloksissa. Kaikki voivat nähdä sen."
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
-msgstr "Title"
+msgstr "Otsikko"
 
 #: app/components/forms/dashboard/game/game.html:33
 msgid "dash.games.form.website_label"
@@ -878,47 +878,47 @@ msgstr "Sivusto"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "Puhdista otsake"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
-msgstr "Edit Header"
+msgstr "Muokkaa otsaketta"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
-msgstr "<p>Headers are the big, banner-like images that adorn the tops of game pages. For your header to look its best on mobile devices in portrait mode, make sure anything important is located near the center of the image.</p>"
+msgstr "<p>Yläkuvat ovat isoja, bannerin kaltaisia kuvia, jotka komistavat pelisivujen yläosaa. Jotta yläkuvasi näyttäisi parhaalta mahdolliselta mobiililaitteilla, varmista, että olet asettanut tärkeimmät asiat keskelle kuvaa.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
-msgstr "What are the header requirements and guidelines?"
+msgstr "Mitkä ovat yläkuvien vaatimukset ja ohjeistukset?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "Lataa yläkuva"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "Yläkuvan kuvatiedosto"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "Lataa uusi yläkuva"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
-msgstr "This game is currently hidden from public view."
+msgstr "Tämä peli on tällä hetkellä piilossa julkisuudelta."
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
-msgstr "We recommend keeping it hidden until you've finished filling out the details and added some media. Don't forget to unhide it when it's ready, or it won't show up in the game listings!"
+msgstr "Suosittelemme pitämään peliä piilotettuna kunnens olet saanut täytettyä yksityiskohdat ja lisännyt hieman mediaa (kuvat yms.). Älä unohda tuoda peliäsi näkyville, kun se on valmis, muuten pelisi ei näy pelilistauksissa!"
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
-msgstr "Hidden"
+msgstr "Piilotettu"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
-msgstr "Age Rating"
+msgstr "Ikärajoitus"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
@@ -926,27 +926,27 @@ msgstr "Alkoholi"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Verilöyly"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
-msgstr "Cartoon Violence"
+msgstr "Sarjakuvaväkivalta"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Huumeet"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
-msgstr "Fantasy Violence"
+msgstr "Fantasiaväkivalta"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
-msgstr "Gambling"
+msgstr "Uhkapelit"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
-msgstr "Edit Rating Details"
+msgstr "Muokkaa ikäraja-asetuksia"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
@@ -958,48 +958,48 @@ msgstr "Kieli"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
-msgstr "Miscellaneous"
+msgstr "Sekalaista"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Alastomuus"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
-msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity rating to describe its content. Accurate ratings and details about content help gamers make informed decisions. Remember, you can always come back later and make changes.</p>"
+msgstr "<p>Kaikki Game Joltista löytyvät pelit - jopa keskeneräiset - vaativat ikärajoitukset kertomaan sisällöstä. Tarkat asetukset auttavat pelaajia tekemään tiedostettuja valintoja. Muista, voit muokata asetuksia myöhemmin.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
-msgstr "What is a maturity rating?"
+msgstr "Mikä on ikäraja?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
-msgstr "Realistic Violence"
+msgstr "Realisten väkivalta"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
-msgstr "Save Maturity Details"
+msgstr "Tallenna ikäraja-asetukset"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
-msgstr "Sex/Nudity"
+msgstr "Seksi/alastomuus"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
-msgstr "Sexual Themes"
+msgstr "Seksuaaliset teemat"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:104
 #: app/components/forms/dashboard/game/maturity/maturity.html:67
 msgid "dash.games.maturity.sexual_violence_label"
-msgstr "Sexual Violence"
+msgstr "Seksuaalinen väkivalta"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:80
 msgid "dash.games.maturity.substances_legend"
-msgstr "Substances"
+msgstr "Aineet"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
-msgstr "Tobacco"
+msgstr "Tupakka"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
@@ -1007,7 +1007,7 @@ msgstr "Väkivalta"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
-msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
+msgstr "Jos et tiedä, millainen pelisi lopullinen sisältö tulee olemaan, anna valistunut veikaus. Voit muokata asetuksia myöhemmin."
 
 #: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
@@ -1015,12 +1015,12 @@ msgstr "Media"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
-msgstr "Add an <br>\n"
-"\t<strong>Image</strong> or <strong>Video</strong>"
+msgstr "Lisää <br>\n"
+"\t<strong>Kuva</strong> tai <strong>Video</strong>"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
-msgstr "Add an Image or Video"
+msgstr "Lisää Kuva tai Video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
@@ -1028,11 +1028,11 @@ msgstr "Add Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
-msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake box covers, or any other original art created for the game. Yes, even if it's a text-based game!</p>"
+msgstr "<p>Lisää kuvankaappauksia, piirrustuksia, kuvia pienistä savinukeista, tai mitä muuta taideteosta tehty peliäsi varten... vaikka se olisikin tekstipeli!</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
-msgstr "Learn more about screenshots/images..."
+msgstr "Lue lisää kuvista..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
@@ -1041,7 +1041,7 @@ msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkth
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
-msgstr "Learn more about videos..."
+msgstr "Lue lisää videoista..."
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
@@ -1063,11 +1063,11 @@ msgstr "Muokkaa kuvaa"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
-msgstr "This caption will appear when your image is viewed in full screen."
+msgstr "Tämä kuvateksti ilmestyy kun kuvaasi tarkastellaan kokonaisena."
 
 #: app/components/forms/dashboard/game/image/image.html:26
 msgid "dash.games.media.image.form.caption_label"
-msgstr "Caption"
+msgstr "Kuvateksti"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
@@ -1075,7 +1075,7 @@ msgstr "Kuva"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
-msgstr "Image File"
+msgstr "Kuvatiedosto"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
@@ -1083,15 +1083,15 @@ msgstr "Tallenna Kuva"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:14
 msgid "dash.games.media.image.heading"
-msgstr "Image Details"
+msgstr "Kuvan tiedot"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:21
 msgid "dash.games.media.image.remove_button"
-msgstr "Remove Image"
+msgstr "Poista kuva"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
-msgstr "\t<p>Want people to play your game? Add some images and video to your page. We recommend adding as many images and videos as you can--even if your game is all text!</p>"
+msgstr "<p>Haluatko muiden pelaavan peliäsi? Lisää kuvia ja videoita sivullesi. Me suosittelemme mahdollisimman monen kuvan tai video lisäämistä--vaikka pelisikin olisi pelkkää tekstiä!</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:20
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:47
@@ -1105,58 +1105,58 @@ msgstr "You can directly link to this video on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:44
 msgid "dash.games.media.video.edit_heading"
-msgstr "Edit Video"
+msgstr "Muokkaa videota"
 
 #: app/components/forms/dashboard/game/video/video.html:14
 msgid "dash.games.media.video.form.description_label"
-msgstr "Description"
+msgstr "Kuvaus"
 
 #: app/components/forms/dashboard/game/video/video.html:21
 msgid "dash.games.media.video.form.submit_button"
-msgstr "Save Video"
+msgstr "Tallenna video"
 
 #: app/components/forms/dashboard/game/video/video.html:9
 msgid "dash.games.media.video.form.title_label"
-msgstr "Title"
+msgstr "Otsikko"
 
 #: app/components/forms/dashboard/game/video/video.html:5
 msgid "dash.games.media.video.form.url_error_label"
-msgstr "video URL"
+msgstr "videon URL-osoite"
 
 #: app/components/forms/dashboard/game/video/video.html:6
 msgid "dash.games.media.video.form.url_help_html"
-msgstr "We currently only support videos from Vimeo or YouTube. <br>\n"
-"\tThe URL should look something like: <br>\n"
+msgstr "Me tällä hetkellä tuemme videoita vain Youtubesta tai Vimeosta. <br>\n"
+"\tVideon URL-osoite pitäisi näyttää tältä: <br>\n"
 "\t<strong>YouTube:</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>\n"
-"\t<strong>Vimeo:</strong> http://www.vimeo.com/2619976"
+"\t<strong>Vimeo:</strong> http://www.vimeo.com/2619976 "
 
 #: app/components/forms/dashboard/game/video/video.html:3
 msgid "dash.games.media.video.form.url_label"
-msgstr "Video URL"
+msgstr "Videon URL-osoite"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:14
 msgid "dash.games.media.video.heading"
-msgstr "Video Details"
+msgstr "Videon tiedot"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:21
 msgid "dash.games.media.video.remove_button"
-msgstr "Remove Video"
+msgstr "Poista video"
 
 #: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
-msgstr "Music"
+msgstr "Musiikki"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
-msgstr "Add Song"
+msgstr "Lisää kappale"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:12
 msgid "dash.games.music.direct_link_help"
-msgstr "Link to a downloadable ZIP of your game's soundtrack."
+msgstr "Linkki ladattavaan, pelisi ääniraidan sisältämään ZIP-tiedostoon."
 
 #: app/components/forms/dashboard/game/song/song.html:24
 msgid "dash.games.music.form.file_error_label"
-msgstr "song"
+msgstr "kappale"
 
 #: app/components/forms/dashboard/game/song/song.html:29
 msgid "dash.games.music.form.submit_button"
@@ -1164,71 +1164,72 @@ msgstr "Tallenna musiikki"
 
 #: app/components/forms/dashboard/game/song/song.html:9
 msgid "dash.games.music.form.title_label"
-msgstr "Song Title"
+msgstr "Kappaleen nimi"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:4
 msgid "dash.games.music.heading"
-msgstr "Game Music"
+msgstr "Pelin musiikki"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
-msgstr "<p>You haven't added any music. Upload some songs from your game! The music player's worth it, trust us!</p>"
+msgstr "<p>Et ole lisännyt yhtäkään musiikkia. Lisää kappaleita pelistäsi! Musiikkisoittimemme on sen arvoinen!</p> "
 
 #: app/views/dashboard/developer/games/manage/music/music.html:6
 msgid "dash.games.music.page_help_html"
-msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP3s of music from your game and the songs will appear on your game page in a nice little music player. Don't upload copyrighted songs without permission!</p>"
+msgstr "<p>Anna muiden nauttia pelisi ääniraidasta milloin haluavat! Lisää MP3-tiedostoja pelisi musiikista. Kappaleet ilmestyvät pelisi sivulle kivan pienen musiikkisoittimen kera. Älä lisää muiden tekijänoikeudella suojattuja kappaleita ilman lupaa!</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
-msgstr "Remove Song"
+msgstr "Poista kappale"
 
 #: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
-msgstr "News"
+msgstr "Uutiset"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
-msgstr "Add News Update"
+msgstr "Lisää uutispäivitys"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
-msgstr "Add News"
+msgstr "Lisää uutinen"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
-msgstr "News updates keep followers in the loop! Don't post so many updates that the notifications turn into spam. Post an update when something genuinely newsworthy happens."
+msgstr "Uutiset pitävät seuraajiasi mukana kärryillä. Älä lisää niin monta uutista että ilmoitukset muuttuvat spämmiksi. Lisää uutinen kun jotain tapahtuu, joka ansaitsee sen."
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:9
 msgid "dash.games.news.add.page_help_link"
-msgstr "Learn more about news updates..."
+msgstr "Lue lisää uutispäivityksistä..."
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:50
 msgid "dash.games.news.article.edit_tab"
-msgstr "Edit"
+msgstr "Muokkaa"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:14
 msgid "dash.games.news.article.heading"
-msgstr "Manage Update"
+msgstr "Hallinnoi päivitystä"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:21
 msgid "dash.games.news.article.remove_option"
-msgstr "Remove News Update"
+msgstr "Poista uutispäivitys"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:44
 msgid "dash.games.news.article.stats_tab"
-msgstr "Stats"
+msgstr "Tilastot"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:62
+#, fuzzy
 msgid "dash.games.news.article.view_tab"
-msgstr "View"
+msgstr "Tarkastele"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:42
 msgid "dash.games.news.comments"
-msgstr "Comments:"
+msgstr "Kommentit:"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:29
 msgid "dash.games.news.form.add_follower_message"
-msgstr "All of your game's followers will be notified, so make sure to review your news post."
+msgstr "Kaikkia sinun pelisi seuraajia tullaan ilmoittamaan, joten pidä huoli että olet lukenut uutisesi läpi."
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:12
 msgid "dash.games.news.form.content_help"
@@ -1236,15 +1237,15 @@ msgstr "Markdown allows you to easily make your news updates more dynamic and vi
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_label"
-msgstr "Content"
+msgstr "Sisältö"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:3
 msgid "dash.games.news.form.title_label"
-msgstr "Title"
+msgstr "Otsikko"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:4
 msgid "dash.games.news.heading"
-msgstr "Game News"
+msgstr "Pelin uutiset"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
@@ -1260,11 +1261,11 @@ msgstr "Views:"
 
 #: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
-msgstr "Overview"
+msgstr "Yleiskatsaus"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
 msgid "dash.games.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Viimeisin toiminta"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
@@ -1277,43 +1278,47 @@ msgstr "Publishing your game makes it visible on the site, so make sure your gam
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:161
 msgid "dash.games.overview.stats_comments"
-msgstr "Comments"
+msgstr "Kommentit"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:171
 msgid "dash.games.overview.stats_followers"
-msgstr "Followers"
+msgstr "Seuraajat"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:101
+#, fuzzy
 msgid "dash.games.overview.stats_heading"
-msgstr "Quick Stats"
+msgstr "Tilastot"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:143
 msgid "dash.games.overview.stats_na"
-msgstr "N/A"
+msgstr "Ei saatavilla"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:126
 msgid "dash.games.overview.stats_plays"
-msgstr "Plays/Downloads"
+msgstr "Pelausta/latausta"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:136
+#, fuzzy
 msgid "dash.games.overview.stats_rating"
-msgstr "Avg. Rating"
+msgstr "Keskimääräinen arvosana"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:151
 msgid "dash.games.overview.stats_ratings"
-msgstr "Ratings"
+msgstr "Arvostelut"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:116
+#, fuzzy
 msgid "dash.games.overview.stats_views"
-msgstr "Views"
+msgstr "Tarkastelut"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:20
+#, fuzzy
 msgid "dash.games.overview.todo_additional_html"
-msgstr "<p><strong>Your game page is lookin' hot!</strong> To get the most out of Game Jolt, consider taking these additional steps.</p>"
+msgstr "<p><strong>Pelisivusi näyttää hyvältä!</strong> Saadaksesi kaiken irti Game Joltista, harkitse näiden ylimääräisten askelten tekoa.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:34
 msgid "dash.games.overview.todo_done"
-msgstr "Done"
+msgstr "Valmis"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:3
 msgid "dash.games.overview.todo_heading"
@@ -1321,113 +1326,113 @@ msgstr "Set Up Steps"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:39
 msgid "dash.games.overview.todo_highly_recommended"
-msgstr "Highly Recommended"
+msgstr "Erittäin suositeltavaa"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
 msgid "dash.games.overview.todo_info_builds_processing_html"
-msgstr "<strong>You still have builds that are being processed.</strong>\n"
-"\tThey won't show on your game page until they're finished processing."
+msgstr "<strong>Sinulla on vielä koontiversioita jotka ovat käsittelyn alla.</strong>\n"
+"\tNe eivät ilmesty pelisivullasi kunnes ne ovat käsitelty."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:94
 msgid "dash.games.overview.todo_info_publish_button"
-msgstr "Publish Game"
+msgstr "Julkaise peli"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:75
 msgid "dash.games.overview.todo_info_ready_html"
-msgstr "<strong>Your game page is ready to publish to the site for all to see!</strong>"
+msgstr "<strong>Pelisivusi on valmis julkaistavaksi!</strong>"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:5
 msgid "dash.games.overview.todo_lead_html"
-msgstr "Your game page is <strong>{{ completion }}%</strong> complete."
+msgstr "Pelisivusi on <strong>{{ completion }}%</strong> valmis."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:38
 msgid "dash.games.overview.todo_recommended"
-msgstr "Recommended"
+msgstr "Suositeltavaa"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:37
 msgid "dash.games.overview.todo_required"
-msgstr "Required"
+msgstr "Pakollista"
 
 #: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
-msgstr "Builds & Files"
+msgstr "Koontiversiot & Tiedostot"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:45
 #: app/views/dashboard/developer/games/manage/packages/packages.html:76
 msgid "dash.games.packages.add_package_button"
-msgstr "Add Package"
+msgstr "Lisää paketti"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:2
 msgid "dash.games.packages.add.heading"
-msgstr "Add Package"
+msgstr "Lisää paketti"
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit.html:2
 msgid "dash.games.packages.edit.heading"
-msgstr "Edit Package"
+msgstr "Muokkaa pakettia"
 
 #: app/components/forms/dashboard/game/package/package.html:39
 msgid "dash.games.packages.form.description_change_button"
-msgstr "Enter Description"
+msgstr "Anna kuvaus"
 
 #: app/components/forms/dashboard/game/package/package.html:34
 msgid "dash.games.packages.form.description_help_html"
-msgstr "This should be filled in <em>only if it's needed</em>, if the name alone isn't enough to distinguish this package from other packages."
+msgstr "Tämä pitäisi täydentää <em>vain jos sille on tarvetta</em>, esimerkiksi jos pelkästään nimi ei riitä erottamaan tämän paketin muista."
 
 #: app/components/forms/dashboard/game/package/package.html:33
 msgid "dash.games.packages.form.description_label"
-msgstr "Package Description"
+msgstr "Paketin kuvaus"
 
 #: app/components/forms/dashboard/game/package/package.html:18
 msgid "dash.games.packages.form.title_change_button"
-msgstr "Change Name"
+msgstr "Vaihda nimeä"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
-msgstr "This is the name that shows up on your game page above the Download/Play button. For your main package, use the title of your game."
+msgstr "Tämä nimi ilmestyy pelisivullesi latausnapin yläpuolelle. Käytä pelisi nimeä sille paketille, joka sisältää pelisi."
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
-msgstr "Package Name"
+msgstr "Paketin nimi"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:60
 msgid "dash.games.packages.heading"
-msgstr "Game Packages"
+msgstr "Pelin paketit"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:34
 msgid "dash.games.packages.manage.edit_package_tab"
-msgstr "Edit Package"
+msgstr "Muokkaa pakettia"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:7
 msgid "dash.games.packages.manage.heading"
-msgstr "Manage Package"
+msgstr "Hallinnoi pakettia"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:28
 msgid "dash.games.packages.manage.releases_tab"
-msgstr "Releases"
+msgstr "Julkaisut"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:16
 msgid "dash.games.packages.manage.releases.add_release_button"
-msgstr "Add New Release"
+msgstr "Lisää uusi julkaisu"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
 msgid "dash.games.packages.manage.releases.builds_count_none"
-msgstr "No builds yet."
+msgstr "Ei koontiversioita (vielä)."
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
-msgstr "Releases"
+msgstr "Julkaisut"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
 msgid "dash.games.packages.manage.releases.hidden_tag"
-msgstr "Hidden"
+msgstr "Piilotettu"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
-msgstr "This release is hidden and won't show up on your game page until published."
+msgstr "Tämä julkaisu on piilotettu ja ei ilmesty pelisivullesi kunnes se on julkaistu."
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
 msgid "dash.games.packages.manage.releases.no_releases_html"
-msgstr "<p>You haven't added any releases to this package yet.</p>"
+msgstr "<p>Et ole lisännyt yhtäkään julkaisua tähän pakettiin vielä.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
 msgid "dash.games.packages.manage.releases.page_help_html"
@@ -1435,11 +1440,11 @@ msgstr "\t<p>Releases represent new versions of your package. If you update a pa
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:6
 msgid "dash.games.packages.manage.releases.page_help_link"
-msgstr "Learn more about releases..."
+msgstr "Lue lisää julkaisuista..."
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
 msgid "dash.games.packages.manage.releases.published_tag"
-msgstr "Published"
+msgstr "Julkaistu"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
 msgid "dash.games.packages.manage.releases.published_tooltip"
@@ -1455,7 +1460,7 @@ msgstr "Packages"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:71
 msgid "dash.games.packages.no_packages_html"
-msgstr "<p>You haven't added any packages yet.</p>"
+msgstr "<p>Et ole lisännyt yhtäkään pakettia vielä.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:6
 #: app/views/dashboard/developer/games/manage/packages/packages.html:64
@@ -1466,23 +1471,23 @@ msgstr "<p>Packages are how you organize and distribute your game's builds and o
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:8
 #: app/views/dashboard/developer/games/manage/packages/packages.html:66
 msgid "dash.games.packages.page_help_link"
-msgstr "Learn more about packages..."
+msgstr "Lue lisää paketeista..."
 
 #: app/views/dashboard/developer/games/manage/manage.html:9
 msgid "dash.games.published_tag"
-msgstr "Published"
+msgstr "Julkaistu"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:237
 msgid "dash.games.releases.builds.add_build_button"
-msgstr "Add New Build"
+msgstr "Lisää uusi koontiversio"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:26
 msgid "dash.games.releases.builds.downloads_label"
-msgstr "Downloads"
+msgstr "Lataukset"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:179
 msgid "dash.games.releases.builds.edit_tab"
-msgstr "Edit"
+msgstr "Muokkaa"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:152
 msgid "dash.games.releases.builds.extra_files_heading"
@@ -1494,11 +1499,11 @@ msgstr "Supplemental Files"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:11
 msgid "dash.games.releases.builds.extra_files.form.file_error_label"
-msgstr "file"
+msgstr "tiedosto"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:4
 msgid "dash.games.releases.builds.extra_files.form.file_label"
-msgstr "Upload File"
+msgstr "Lisää tiedosto"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:15
 msgid "dash.games.releases.builds.extra_files.form.include_archive_help"
@@ -1522,7 +1527,7 @@ msgstr "<p>You can upload any additional files that your applet needs here.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
 msgid "dash.games.releases.builds.heading"
-msgstr "Builds"
+msgstr "Koontiversiot"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:66
 msgid "dash.games.releases.builds.incomplete_tag"
@@ -4649,19 +4654,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:22
+#: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
 msgstr "Help translate!"
 
@@ -4957,7 +4962,109 @@ msgstr "Yes"
 msgid "commands.settings_description"
 msgstr "Change settings."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
 msgstr "Open Source"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] "1 kommentti"
+msgstr[1] "{{ count | number }} kommentia"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Lisää kommentti"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automaattiset käännökset käyttävät Google-kääntäjää ja voivat olla epätarkkoja."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Kommentit"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
