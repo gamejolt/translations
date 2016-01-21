@@ -10,7 +10,7 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>Din auktoriseringskoden är ogiltig.</p>\n"
+msgstr "<p>Din auktoriseringskod är ogiltig.</p>\n"
 "<p>Var noga med att kopiera och klistra in hela webbadressen som vi mailade dig.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
@@ -25,7 +25,7 @@ msgstr "Ogiltig behörighetskod"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "Vi omdirigerar dig till din Game Jolt instrumentpanelen nu."
+msgstr "Vi omdirigerar dig till din Game Jolt instrumentpanel nu."
 
 #: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
@@ -47,7 +47,7 @@ msgstr "Hämta Inloggningsuppgifter"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, den där e-postadressen finns inte i vårt system. Kanske du inte <a href=\"/join\">registrerat dig ännu</a>?</p>"
+msgstr "<p>Hmm, den där e-postadressen finns inte i vårt system. Du Kanske inte har <a href=\"/join\">registrerat dig ännu</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
@@ -59,7 +59,7 @@ msgstr "Referenser Skickade"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "Om du inte ser vår e-post inom 10 minuter, vänligen kontrollera din skräppostmapp. Det kan ha varit ätit upp!"
+msgstr "Om du inte ser vårat e-post medelande inom 10 minuter, vänligen kontrollera din skräppostmapp. Det kan finnas där!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
@@ -72,8 +72,8 @@ msgstr "Bli Medlem!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Innan du kan logga in på Game Jolt, måste du bekräfta den e-postadress på ditt konto.</p>\n"
-"<p>Vi har skickat ett e-postmeddelande med instruktioner om hur du godkänna ditt konto.</p>"
+msgstr "<p>Innan du kan logga in på Game Jolt, måste du bekräfta den e-postadress som du registrerade dig med.</p>\n"
+"<p>Vi har skickat ett e-postmeddelande med instruktioner om hur du kan godkänna ditt konto.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -81,11 +81,11 @@ msgstr "Nästan framme!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "Om du inte ser ett e-postmeddelande inom 10 minuter, vänligen kontrollera din skräppostmapp. Det kan ha ätit upp det. "
+msgstr "Om du inte ser ett e-postmeddelande inom 10 minuter, vänligen kontrollera din skräppostmapp. Det kan finnas där."
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Observera att du har en vecka att godkänna ditt konto. Efter det kommer det att tas bort och du måste registrera dig igen."
+msgstr "Observera att du har en vecka på dig att godkänna ditt konto. Efter det kommer det att tas bort och du måste registrera dig igen."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
@@ -119,14 +119,16 @@ msgid "auth.linked_account.loading_message"
 msgstr "Bearbetar. Var vänlig vänta..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
 msgstr "<p>Den e-postadress du angav används redan.</p>\n"
-"<p>Om du redan har en Gamejolt konto som du kan använda <a href=\"/login\">logga in här</a>.</p>\n"
-"<p>If you've forgotten your login information, you can <a href=\"/forgot\">retrieve it here</a>.</p>"
+"<p>Om du redan har ett Gamejolt konto som du kan använda så kan du <a href=\"/login\">logga in här</a>.</p>\n"
+"<p>Om du har glömt din inloggnings information så kan du<a href=\"/glömt\">få tillbaka det här</a>.</p>"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "För att avsluta logga in med Twitter, ange en giltig e-postadress."
+msgstr "För att slutföra loggningen med Twitter, ange en giltig e-postadress."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
@@ -138,8 +140,9 @@ msgid "auth.linked_account.twitter.finalize.heading"
 msgstr "E-postadress Krävs"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.submit_button"
-msgstr "Complete Sign Up"
+msgstr "Görklart registreringen"
 
 #: auth/views/auth/join/join.html:33
 msgid "auth.login_link"
@@ -154,6 +157,7 @@ msgid "auth.login.invalid_login_error_html"
 msgstr "Felaktigt användarnamn eller lösenord."
 
 #: auth/components/forms/login/login.html:30
+#, fuzzy
 msgid "auth.login.loading_message"
 msgstr "Ansluter till mainframe..."
 
@@ -199,18 +203,18 @@ msgstr "Nytt Lösenord"
 msgid "auth.reset_password.submit_button"
 msgstr "Återställ Lösenord"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Integritet"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
-msgstr "Terms"
+msgstr "Villkor"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:28
 msgid "auth.authorize.success_growl_title"
-msgstr "Account Authorized"
+msgstr "Konto Auktoriserad"
 
 #: auth/views/auth/forgot/forgot-controller.js:3
 msgid "auth.forgot.page_title"
@@ -218,7 +222,7 @@ msgstr "Hämta Inloggningsuppgifter"
 
 #: auth/views/auth/forgot/sent/sent.js:10
 msgid "auth.forgot.sent.page_title"
-msgstr "Credentials Sent"
+msgstr "Referenser Skickade"
 
 #: auth/views/auth/join/almost/almost-controller.js:3
 msgid "auth.join.almost.page_title"
@@ -226,16 +230,16 @@ msgstr "Nästan framme!"
 
 #: auth/views/auth/join/join.html:2
 msgid "auth.join.join_message_html"
-msgstr "Join us. Mwuahaha.<br>We have games.<br>\n"
+msgstr "Gå med. Mwuahaha.<br>Vi har spel.<br>\n"
 "<strong><em>Mwuahahaha!</em></strong>"
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
-msgstr "Join Game Jolt - The Largest Collection of Indie Games by People"
+msgstr "Gå med i Game Jolt - den största samlingen av Indie Games av People"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Ditt konto har skapats. Det är smidig segling här på ut!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:36
 msgid "auth.linked_account.facebook.created_growl_title"
@@ -243,7 +247,7 @@ msgstr "Konto Skapat"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:17
 msgid "auth.linked_account.facebook.duplicate_email_growl"
-msgstr "The email address on this Facebook account is already in use. Perhaps you already have an account?"
+msgstr "Den e-postadress på denna Facebook-konto används redan. Kanske du redan har ett konto?"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
@@ -251,7 +255,7 @@ msgstr "Åh nej!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:24
 msgid "auth.linked_account.facebook.failed_growl"
-msgstr "Unable to log in with Facebook."
+msgstr "Det går inte att logga in med Facebook."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:25
 msgid "auth.linked_account.facebook.failed_growl_title"
@@ -259,7 +263,7 @@ msgstr "Inloggning Misslyckades"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:10
 msgid "auth.linked_account.facebook.no_email_growl"
-msgstr "Your Facebook account did not return an email address. Make sure you have verified it with Facebook."
+msgstr "Ditt Facebook-konto returnerade inte en e-postadress. Se till att du har kontrollerat det med Facebook."
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:11
 msgid "auth.linked_account.facebook.no_email_growl_title"
@@ -267,7 +271,7 @@ msgstr "Åh nej!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Your account has been created. It's smooth sailing from here on out!"
+msgstr "Ditt konto har skapats. Det är smidig segling här på ut!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
@@ -275,7 +279,7 @@ msgstr "Konto Skapat"
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:15
 msgid "auth.linked_account.twitter.failed_growl"
-msgstr "Unable to log in with Twitter."
+msgstr "Det går inte att logga in med Twitter."
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:16
 msgid "auth.linked_account.twitter.failed_growl_title"
@@ -307,11 +311,11 @@ msgstr "Integritet"
 
 #: auth/views/auth/auth.html:32
 msgid "auth.legal.terms"
-msgstr "Terms"
+msgstr "Vilkor"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
-msgstr "<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>"
+msgstr "<p>Gör vänner på webbsidan för att prata med dem, se vad de spelar, och spela spel med dem!</p>"
 
 #: app/views/dashboard/activity/list/list.html:11
 msgid "dash.activity.all_tab"
@@ -331,7 +335,7 @@ msgstr "Aktivitetsflöde"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
-msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
+msgstr "Inga notifikationer här. Antingen du är en riktigt snabb läsare eller om du behöver följa mer saker!"
 
 #: app/views/dashboard/activity/list/list.html:24
 msgid "dash.activity.unread_tab"
@@ -339,10 +343,10 @@ msgstr "Oläst"
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
-msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) to serve up the avatars on Game Jolt.</p>\n"
-"\t<p>If you don't already have a Gravatar account, you can click the button below to open <a href=\"http://gravatar.com\">gravatar.com</a> and sign up for one. Note that you'll need to sign up using your WordPress login. What's that, you don't have a WordPress account, either? No worries! You'll be able to create both accounts at the same time.</p>\n"
-"\t<p>Have a Gravatar account? Good. Just log in and upload the avatar of your choice, then associate that avatar with the email address you use for Game Jolt. Your avatar will automatically appear throughout the site.</p>\n"
-"\t<p><em>Note that there might be a short delay before your avatar shows up on the site. If you don't see it after what seems like long enough, try clearing your browser's cache.</em></p>"
+msgstr "<p>Vi använder för närvarande <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) att servera den avatarer på Game Jolt.</p>\n"
+"\t<p>Om du inte redan har en Gravatar konto kan du klicka på knappen nedan för att öppna <a href=\"http://gravatar.com\">gravatar.com</a> och registrera dig för ett. Observera att du måste registrera dig med hjälp av din Wordpress inloggning. Vad är det, har du inte en Wordpress-konto, antingen? Inga problem! Du kommer att kunna skapa båda kontona samtidigt.</p>\n"
+"\t<p>Ha en Gravatar konto? Bra. Bara logga in och ladda upp avatar av ditt val, sedan associera att avatar med den e-postadress du använder för Game Jolt. Din avatar visas automatiskt på hela webbplatsen.</p>\n"
+"\t<p><em>Observera att det kan finnas en kort fördröjning innan din avatar dyker upp på sajten. Om du inte ser det efter vad som känns som länge nog, prova att rensa webbläsarens cacheminne.</em></p>"
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
@@ -354,11 +358,11 @@ msgstr "Nuvarande Avatar"
 
 #: app/views/dashboard/account/avatar/avatar.html:19
 msgid "dash.avatar.get_avatar_button"
-msgstr "Get Gravatar Account"
+msgstr "Få Gravatar Konto"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:4
 msgid "dash.avatar.heading"
-msgstr "Getting an Avatar"
+msgstr "Hämtar En Avatar"
 
 #: app/views/dashboard/account/avatar/avatar-controller.js:3
 msgid "dash.avatar.page_title"
@@ -370,7 +374,7 @@ msgstr "Bekräfta Nytt Lösenord"
 
 #: app/views/dashboard/account/change-password/change-password-controller.js:4
 msgid "dash.change_pass.heading"
-msgstr "Change Account Password"
+msgstr "Byt Konto Lössenord"
 
 #: app/components/forms/dashboard/change-password/change-password.html:10
 msgid "dash.change_pass.invalid_old_password_error"
@@ -378,7 +382,7 @@ msgstr "Lösenordet du angav är ogiltigt."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+msgstr "Lösenorden du angav matchar inte. Prova att skriva in dem och se till att de är identiska."
 
 #. I think "Current Password" would make more sense.
 #: app/components/forms/dashboard/change-password/change-password.html:3
@@ -407,7 +411,7 @@ msgstr "Ta emot Nyhetsbrev?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "Låt oss veta vilken typ av e-postmeddelanden du vill ta emot genom att växla varje kategori på eller av."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
@@ -425,22 +429,22 @@ msgstr "Spara Inställningar"
 #: app/components/forms/dashboard/game/image/image.html:11
 #: app/components/forms/dashboard/game/trophy/trophy.html:40
 msgid "dash.forms.image_filetype_help_html"
-msgstr "Your image must be a PNG, JPG, or GIF. <br>\n"
-"\t<strong>PNGs are highly recommended as they produce a lossless image.</strong>"
+msgstr "din bild måste vara PNG, JPG eller GIF. <br>\n"
+"    <strong>PNG-fil är högst rekommenderad för det producerar mindre bilder.</strong>"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
-msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
-"\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
-"\tFor still images, PNGs are recommended because they produce lossless images."
+msgstr "Din miniatyrbild måste vara en PNG, JPG, eller GIF.<br>\n"
+"\tAnimerade GIF tillåter spel för att få en glimt av ditt spel i aktion. <br>\n"
+"\tFör stillbilder är PNG rekommenderas eftersom de producerar förlustfria bilder."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
-msgstr "Amount to Withdraw"
+msgstr "Belopp att dra ut"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Detta måste vara en giltig e-postadress kopplad till ett PayPal-konto."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
@@ -448,28 +452,28 @@ msgstr "PayPal E-postadress"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
-msgstr "Make sure that the information you enter below is correct. You will not get a chance to change it after you submit."
+msgstr "Se till att den information du anger nedan är korrekt. Du kommer inte få en chans att ändra den efter att du skickat."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
-msgstr "Withdraw Revenue"
+msgstr "Ta Ut Omsättningar"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
-msgstr "<p>Please allow 3 days for withdrawals to be processed. At this time all withdrawals are processed through <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p>\n"
-"\t<p>If you don't have a PayPal account, you will not be able to withdraw any money. Please be sure to <a href=\"https://www.paypal.com\" target=\"_blank\">sign up with a PayPal account</a> <em>before</em> trying to withdraw funds.</p>"
+msgstr "<p>Låt 3 dagar för uttag som ska bearbetas. Vid denna tid alla uttag behandlas genom <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p>\n"
+"\t<p>Om du inte har ett PayPal-konto, kommer du inte att kunna ta ut några pengar. Se till att <a href=\"https://www.paypal.com\" target=\"_blank\">logga in med ett PayPal-konto</a> <em>före</em> du försöker ta ut pengar.</p>"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
 msgid "dash.funds.withdraw.revenue_pending"
-msgstr "Pending Withdrawal"
+msgstr "Pågående Uttag"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
-msgstr "Withdrawable Amount"
+msgstr "Uttagbart Värde"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.submit_button"
-msgstr "Send Withdrawal Request"
+msgstr "Skicka begäran om uttag"
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
@@ -477,11 +481,11 @@ msgstr "Okej"
 
 #: app/components/forms/dashboard/game/game.html:156
 msgid "dash.games.add.fnaf_autotag_message_html"
-msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series."
+msgstr "\t<strong>Det verkar som om spelet kan vara en Five Nights At Freddy's fan spel, spin off eller inofficiell uppföljare.</strong> Därför har vi lagt till hashtag <code>#fnaf</code> till ditt spel beskrivning. Vi kräver denna tagg för alla spel som härrör från Five Nights At Freddy's serie."
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Don't Tag"
+msgstr "Tagga inte"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
@@ -497,17 +501,17 @@ msgstr "Regler"
 
 #: app/components/forms/dashboard/game/game.html:12
 msgid "dash.games.add.rules_html"
-msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
+msgstr "<p>Du måste godkänna följande regler innan du lägger ett spel:</p>\n"
 "\t<ul>\n"
-"\t\t<li>Game Jolt is currently only accepting free games. There must be no requirement to pay in order to play your game.</li>\n"
-"\t\t<li>Don't upload games you didn't make. If you are not the game's developer, don't add the game to the site. If you're a fan, encourage the developer to add it themselves.</li>\n"
-"\t\t<li>Publishers are not allowed to upload games; only developers are. Remember: This is Indie.</li>\n"
-"\t\t<li>Our name is \"Game Jolt\". As such, only actual <em>games</em> may be uploaded to the site. No applications, software, or tools are allowed at this time. We may accept these in the future or on a case by case basis, but for now, let's just keep it to games.</li>\n"
-"\t\t<li>No stripped-down demos or \"lite\" versions of commercial games are permitted. You must upload a totally free version of your game, and it must be as complete a version as is publicly available.</li>\n"
-"\t\t<li>We welcome and encourage you to add games that are incomplete and still in development, as long as they are tagged as Works-in-Progress. However, you should keep your game hidden until you have something to show. Work-in-Progress games do not have to be playable, but they must be further along than the concept stage. Before you unhide the game, make sure you at least have some screenshots and an informative description.</li>\n"
-"\t\t<li>Do not add links to download or play your game on other sites unless you have already uploaded it to Game Jolt. You can't use your game page as an advertisement for another site.</li>\n"
-"\t\t<li>For browser-based games, we don't allow you to display ads in the preloader on Game Jolt. Remove any ads or block them from showing on the site.</li>\n"
-"\t<p>If you have questions or concerns about the rules, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p>"
+"\t\t<li>Game Jolt för närvarande accepterar endast gratis spel. Det får inte finnas något krav på att betala för att spela ditt spel.</li>\n"
+"\t\t<li>Lägg inte upp spel du inte gör. Om du inte är spelets utvecklare, inte tillför spelet till platsen. Om du är ett fan, uppmuntrar utvecklaren till den själva.</li>\n"
+"\t\t<li>Utgivare är inte tillåtet att ladda upp spel; bara utvecklare är. Kom ihåg: Det här är Indie.</li>\n"
+"\t\t<li>Vårt namn är \"Game Jolt\". Som sådan, bara faktiska <em>spel</em> kan laddas upp till webbplatsen. Inga program, mjukvara, eller verktyg är tillåtna på den här gången. Vi kan ta emot dessa i framtiden eller från fall till fall, men för nu, låt oss bara hålla det till spel.</li>\n"
+"\t\t<li>Inga avskalad demos eller \"lite\" versioner av kommersiella spel är tillåtna. Du måste ladda upp en helt gratis version av spelet, och det måste vara så fullständig version som är allmänt tillgänglig.</li>\n"
+"\t\t<li>Vi välkomnar och uppmuntrar dig att lägga till spel som är ofullständiga och fortfarande är under utveckling, så länge de är taggade som arbeten-in-Progress. Du bör dock hålla ditt spel dold tills du har något att visa. Arbete-in-Progress spel behöver inte vara spelbar, men de måste vara längre bort än idéstadiet. Innan du ta fram spelet, se till att du åtminstone har några skärmdumpar och en informativ beskrivning.</li>\n"
+"\t\t<li>Lägga inte till länkar för att ladda ner eller spela ditt spel på andra webbplatser om du redan har laddat upp den till Game Jolt. Du kan inte använda ditt spel sida som en reklam för en annan webbplats.</li>\n"
+"\t\t<li>För webbläsarbaserade spel, vi tillåter dig inte att visa annonser i förspänning på Game Jolt. Ta bort alla annonser eller blockera dem från att visas på webbplatsen.</li>\n"
+"\t<p>Om du har frågor eller funderingar om reglerna, kontakta: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p>"
 
 #: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
@@ -515,19 +519,19 @@ msgstr "Spel API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
-msgstr "Data Store"
+msgstr "Datalager"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
-msgstr "Global Items"
+msgstr "Globala artiklar"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
 msgid "dash.games.api.overview.data_items_tooltip"
-msgstr "The total number of stored global data items."
+msgstr "Det totala antalet lagrade globala dataposter."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
 msgid "dash.games.api.overview.heading"
-msgstr "Game API Overview"
+msgstr "Game API Översikt"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
@@ -535,16 +539,16 @@ msgstr "N/A"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
-msgstr "Find help in the API forums..."
+msgstr "Hitta hjälp i API forum..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
-"\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
+msgstr "\t<p>The Game API kan du piffa upp ditt spel med resultattavlor, troféer, moln datalagring, session loggning, och mer.</p>\n"
+"\t<p>Du kan kolla länkarna nedan för att se om samhället redan har skrivit ett API bibliotek eller plugin för motorn / verktyg / språk du använder. Naturligtvis kan du alltid skriva en själv och dela den i forumet!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
-msgstr "Learn more about the Game API..."
+msgstr "Läs mer om Game API..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
 msgid "dash.games.api.overview.scores_heading"
@@ -556,51 +560,51 @@ msgstr "Totala Poängen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
-msgstr "The total number of scores across all of the game's scoreboards, including guest scores."
+msgstr "Det totala antalet poäng i samtliga av spelets resultattavlor, inklusive gäst poäng."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Users w/ Scores"
+msgstr "Användare med Poäng"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
-msgstr "The number of users with scores on any of the game's scoreboards. Does not include guests."
+msgstr "Antalet användare med poäng på någon av spelets resultattavlor. Inkluderar inte gäster."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "Active Sessions"
+msgstr "aktiva sessioner"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
-msgstr "Avg. Session Time"
+msgstr "Genomsnittlig sessions tid"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sessions"
+msgstr "sessioner"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
-msgstr "Sessions show you who's playing your game and for how long."
+msgstr "Sessioner visar vem som spelar ditt spel och hur länge."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
 msgid "dash.games.api.overview.sessions_time_label"
-msgstr "Total Time"
+msgstr "Total tid"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
 msgid "dash.games.api.overview.sessions_users_label"
-msgstr "Users w/ Sessions"
+msgstr "Användare med sessioner"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
-msgstr "Trophies Achieved"
+msgstr "Troféer Uppnåda"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
-msgstr "Trophy EXP"
+msgstr "Troféer EXP"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
-msgstr "The total awardable EXP for trophies in your game."
+msgstr "Den totala tilldelningen EXP för troféer i ditt spel."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
@@ -612,7 +616,7 @@ msgstr "Pokaler"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
-msgstr "Users w/ Trophies"
+msgstr "Användare med troféer"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
@@ -620,11 +624,11 @@ msgstr "Spel ID"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
-msgstr "Game API Settings"
+msgstr "Game API Inställningar"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
 msgid "dash.games.api.settings.key_generate_button"
-msgstr "Generate New Key"
+msgstr "Generera ny nyckel"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:19
 msgid "dash.games.api.settings.key_label"
@@ -636,19 +640,19 @@ msgstr "(visa nyckel)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
-msgstr "\t<p><strong>Never give your private key to anyone!</strong> Your game's key is used to validate that API requests are coming from your game. If villains or knaves get ahold of it, they can send in fake requests pretending to be your game. Not good!</p>"
+msgstr "\t<p><strong>Ge aldrig din privata nyckel till någon!</strong> Din spels nyckel används för att validera att API-förfrågningar kommer från ditt spel. Om skurkar och bedragare få fatt i bollen, kan de skicka in falska ansökningar låtsas vara ditt spel. Inte bra!</p>"
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr "A .jar file. Playable in browsers that still support Java. Consider adding your .jar as a downloadable build, too."
+msgstr "En .jar fil. Spelbara i webbläsare som fortfarande stöder Java. Överväg att lägga din .jar som en nedladdningsbar build också."
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+msgstr "Var noga med att ta bort eller blockera annonser från att visas i ditt spel. Vi betjänar våra egna annonser och dela intäkterna med utvecklare. Vänligen blockera följande domännamn:"
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
-msgstr "Browser Type"
+msgstr "Webbläsare Typ"
 
 #: app/components/forms/dashboard/game/build/build.html:22
 msgid "dash.games.builds.form.browser_tab"
@@ -656,23 +660,23 @@ msgstr "Bläddra"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Class Name"
+msgstr "Klass Namn"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
-msgstr "These are the dimensions at which your browser build will be displayed."
+msgstr "Dessa är de dimensioner som din webbläsare build kommer att visas."
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "Detta gör att du kan inaktivera högerklicka beteende. Bara aktivera detta om ditt spel måste fånga rätt klick."
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disable right click?"
+msgstr "Inaktivera högerklicka?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
-msgstr "Downloadable"
+msgstr "Nedladdningsbar"
 
 #: app/components/forms/dashboard/game/build/build.html:88
 msgid "dash.games.builds.form.file_error_label"
@@ -680,11 +684,11 @@ msgstr "fil"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
-msgstr "Your account is currently limited to {{ maxFilesize | number }} MB per file. If you need more, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a>"
+msgstr "Ditt konto är för närvarande begränsad till {{ maxFilesize | number }} MB per fil. Om du behöver mer, kontakta: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a>"
 
 #: app/components/forms/dashboard/game/build/build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
-msgstr "<strong>For an HTML game, upload a .zip archive containing all of your game's files and assets. There must be an index.html in the root folder.</strong>"
+msgstr "<strong>För ett HTML spel, ladda upp en .zip-arkiv som innehåller alla dina spel filer och tillgångar. Det måste finnas en index.html i rotkatalogen.</strong>"
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
@@ -692,7 +696,7 @@ msgstr "Ladda upp fil"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr "A .swf file. Playable in browsers that support Flash."
+msgstr "En .swf fil. Spelas i webbläsare som stöder Flash."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
@@ -700,15 +704,15 @@ msgstr "Höjd"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr "A .zip archive containing all of the files the game needs to run, including an index.html in the root. Should be playable in any modern browser without plugins."
+msgstr "En .zip-arkiv som innehåller alla filer spelet behöver köra, inklusive en index.html i roten. Bör vara spelbar i alla moderna webbläsare utan plugins."
 
 #: app/components/forms/dashboard/game/build/build.html:116
 msgid "dash.games.builds.form.no_platforms_error"
-msgstr "You have to select at least one platform on which your build runs (or \"Other\")."
+msgstr "Du måste välja minst en plattform på vilken din build körs (or \"Other\")."
 
 #: app/components/forms/dashboard/game/build/build.html:97
 msgid "dash.games.builds.form.platforms_help_html"
-msgstr "Select \"Other\" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF."
+msgstr "Välj \"Other\" om detta byggt för en plattform som inte visas, eller om det är en icke-körbar fil som en PDF-fil."
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
@@ -716,11 +720,11 @@ msgstr "Plattformar"
 
 #: app/components/forms/dashboard/game/build/build.html:56
 msgid "dash.games.builds.form.silverlight_help"
-msgstr "A .xap file. Playable in browsers that support Silverlight."
+msgstr "En .xap fil. Spelas i webbläsare som stöder Silverlight."
 
 #: app/components/forms/dashboard/game/build/build.html:42
 msgid "dash.games.builds.form.unity_help"
-msgstr "A .unity3d file. Playable in browsers that support the Unity Web Player. If you exported your game to WebGL, choose HTML instead of Unity."
+msgstr "En .unity3d fil. Spelas i webbläsare som stöder Unity Web Player. Om du exporterar ditt spel till WebGL, välj HTML i stället för Unity."
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
@@ -728,11 +732,11 @@ msgstr "Bredd"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Stored On"
+msgstr "Lagras på"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
-msgstr "Data Storage Items"
+msgstr "Datalagring artiklar"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
 msgid "dash.games.data_store.items.key_label"
@@ -740,33 +744,33 @@ msgstr "Nyckel"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
 msgid "dash.games.data_store.items.page_help_html"
-msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All stored data items will show up here.</p>\n"
-"\t<p>Currently, you can only view (and remove) globally stored data items. Stored user data items are not viewable at this time.</p>"
+msgstr "<p>Du kan använda API för att lagra data... <em>i molnet!</em> Alla lagrade dataförmål kommer att dyka upp här.</p>\n"
+"\t<p>För närvarande kan du bara se (och ta bort) globalt lagrade dataposter. Lagrade användardataposter kan inte visas just nu.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "Läs mer om datalagring..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Dataförhandsvisnign"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
 msgid "dash.games.data_store.items.remove_button"
-msgstr "Remove Item"
+msgstr "Ta bort föremål"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
-msgstr "Item Data"
+msgstr "Föremålsdata"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "Lagras på"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
-msgstr "Item Details"
+msgstr "Föremålsdetaljer"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:27
 msgid "dash.games.data_store.items.view.key_label"
@@ -774,7 +778,7 @@ msgstr "Nyckel"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit.html:4
 msgid "dash.games.edit.heading"
-msgstr "Edit Details"
+msgstr "Ändra detaljer"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
@@ -786,7 +790,7 @@ msgstr "Välj en kategori..."
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
-msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
+msgstr "Du kan redigera din beskrivning när du vill och komplettera det med tiden. Detta är din chans att använda ord för att locka folk att spela ditt spel! En bra beskrivning innehåller vanligtvis saker som en spel Sammanfattningsvis kontroll översikt berättelse, och lista över medverkande."
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
@@ -794,11 +798,11 @@ msgstr "Beskrivning"
 
 #: app/components/forms/dashboard/game/game.html:86
 msgid "dash.games.form.dev_status_canceled"
-msgstr "Canceled"
+msgstr "Inställt"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "Välj det här alternativet om ditt spel är spelbara, men utvecklingen har avbrutits eller om förlängd uppehåll. Du bör inte välja detta om ditt spel har en spelbar bygga."
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
@@ -806,35 +810,35 @@ msgstr "Färdigt/Stabilt"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
-msgstr "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+msgstr "Välj det här alternativet om ditt spel är klar. Det är i ett stabilt tillstånd och du bara planerar att göra buggfixar och prestandaoptimeringar."
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
-msgstr "Development Status"
+msgstr "Utvecklingsstatus"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Du kan inte ställa in spelet har Kom eller Avbruten förrän du lägger bygger."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
-msgstr "Work in Progress/Unstable"
+msgstr "I utveckling / Instabil"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
-msgstr "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+msgstr "Välj det här alternativet om ditt spel inte är avslutat men du aktivt utveckla det. Antingen spelbar bygga är ett work-in-progress eller så finns det ingen offentlig bygga ännu. Överväg väntar på att publicera WIP spelet tills du har något att visa: bilder, video, en bra beskrivning, och kanske till och med en build."
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
-msgstr "Engine/Language/Creation Tool"
+msgstr "Motor / Språk / Skapande verktyg"
 
 #: app/components/forms/dashboard/game/game.html:58
 msgid "dash.games.form.engine_other_help"
-msgstr "Which engine, language, or tool?"
+msgstr "Vilken motor, språk, eller verktyg?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
-msgstr "Other Engine/Language/Tool"
+msgstr "Annat Motor / Språk / Verktyg"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
@@ -842,11 +846,11 @@ msgstr "Varför?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
-msgstr "This helps us create better filtering options around which tools people use."
+msgstr "Detta hjälper oss att skapa bättre filtrerings alternativ kring vilka verktyg människor använder."
 
 #: app/components/forms/dashboard/game/game.html:47
 msgid "dash.games.form.engine_placeholder"
-msgstr "Select an engine/language/tool..."
+msgstr "Välj en motor / språk / verktyg..."
 
 #: app/components/forms/dashboard/game/game.html:125
 msgid "dash.games.form.status_hidden"
@@ -854,7 +858,7 @@ msgstr "Dold"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
-msgstr "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
+msgstr "Din spelsidan kommer inte att dyka upp i offentliga listor eller sökresultat. Det kan fortfarande ses av vem som helst som har direkt koppling."
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
@@ -862,7 +866,7 @@ msgstr "Synlighet"
 
 #: app/components/forms/dashboard/game/game.html:113
 msgid "dash.games.form.status_not_publishable_info_html"
-msgstr "This game can't be published until the required set up steps are completed. Find them on the game overview."
+msgstr "Det här spelet kan inte publiceras förrän de nödvändiga installationsstegen är genomförda. Hitta dem på spelöversikt."
 
 #: app/components/forms/dashboard/game/game.html:118
 msgid "dash.games.form.status_published"
@@ -870,7 +874,7 @@ msgstr "Publicerat"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
-msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
+msgstr "Din spelsidan kommer att dyka upp i offentliga listor och sökresultat. Det kan ses av vem som helst."
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
@@ -882,39 +886,39 @@ msgstr "Hemsida"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "Rensa Sidhuvud"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
-msgstr "Edit Header"
+msgstr "Redigera Sidhuvud"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
-msgstr "<p>Headers are the big, banner-like images that adorn the tops of game pages. For your header to look its best on mobile devices in portrait mode, make sure anything important is located near the center of the image.</p>"
+msgstr "<p>Rubriker är de stora, banderoll trogna bilder som pryder toppar spelsidorna. För din rubrik för att se sitt bästa på mobila enheter i stående läge, se till att något viktigt ligger nära centrum av bilden.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
-msgstr "What are the header requirements and guidelines?"
+msgstr "Vilka är huvudkraven och riktlinjer?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "Överför sidhuvud"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "Sidhuvuds bild"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "Ladda upp nytt sidhuvud"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
-msgstr "This game is currently hidden from public view."
+msgstr "Det här spelet är för närvarande dold från allmänheten."
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
-msgstr "We recommend keeping it hidden until you've finished filling out the details and added some media. Don't forget to unhide it when it's ready, or it won't show up in the game listings!"
+msgstr "Vi rekommenderar att hålla den gömd tills du är klar att fylla i detaljerna och lagt till några medier. Glöm inte att ta fram den när den är klar, eller det kommer inte att dyka upp i spelet listor!"
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
@@ -950,7 +954,7 @@ msgstr "Hasardspel"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
-msgstr "Edit Rating Details"
+msgstr "Redigera Betyg Information"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
@@ -962,7 +966,7 @@ msgstr "Språk"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
-msgstr "Miscellaneous"
+msgstr "Diverse"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
@@ -970,11 +974,11 @@ msgstr "Naket"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
-msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity rating to describe its content. Accurate ratings and details about content help gamers make informed decisions. Remember, you can always come back later and make changes.</p>"
+msgstr "\t<p>Varje spel på Game Jolt, även fungerar-in-progress, behöver en åldersgräns för att beskriva dess innehåll. Exakta betyg och detaljer om innehållshjälp spelare fatta välgrundade beslut. Kom ihåg att du kan alltid komma tillbaka senare och göra ändringar.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
-msgstr "What is a maturity rating?"
+msgstr "Vad är en åldersgräns?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
@@ -982,7 +986,7 @@ msgstr "Realistiskt Våld"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
-msgstr "Save Maturity Details"
+msgstr "Spara åldersgräns detaljer"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
@@ -990,7 +994,8 @@ msgstr "Sex/Naket"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
-msgstr "Sexual Themes"
+msgstr "\n"
+"Sexuella teman"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:104
 #: app/components/forms/dashboard/game/maturity/maturity.html:67
@@ -999,7 +1004,7 @@ msgstr "Sexuellt våld"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:80
 msgid "dash.games.maturity.substances_legend"
-msgstr "Substances"
+msgstr "Ämnen"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
@@ -1011,7 +1016,7 @@ msgstr "Våld"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
-msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
+msgstr "Om du inte vet vad det slutliga innehållet i ditt spelet kommer att vara, ge en kvalificerad gissning. Du kan göra ändringar senare."
 
 #: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
@@ -1036,7 +1041,7 @@ msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
-msgstr "Learn more about screenshots/images..."
+msgstr "Läs mer om skärmdumpar / bilder ..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
@@ -1067,7 +1072,7 @@ msgstr "Ändra Bild"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
-msgstr "This caption will appear when your image is viewed in full screen."
+msgstr "Den här rubriken kommer att visas när bilden visas i helskärmsläge."
 
 #: app/components/forms/dashboard/game/image/image.html:26
 msgid "dash.games.media.image.form.caption_label"
@@ -1087,7 +1092,7 @@ msgstr "Spara Bild"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:14
 msgid "dash.games.media.image.heading"
-msgstr "Image Details"
+msgstr "Bildinformation"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:21
 msgid "dash.games.media.image.remove_button"
@@ -1152,7 +1157,7 @@ msgstr "Musik"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
-msgstr "Add Song"
+msgstr "Lägg till låt"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:12
 msgid "dash.games.music.direct_link_help"
@@ -1160,15 +1165,15 @@ msgstr "Link to a downloadable ZIP of your game's soundtrack."
 
 #: app/components/forms/dashboard/game/song/song.html:24
 msgid "dash.games.music.form.file_error_label"
-msgstr "song"
+msgstr "låt"
 
 #: app/components/forms/dashboard/game/song/song.html:29
 msgid "dash.games.music.form.submit_button"
-msgstr "Save Song"
+msgstr "Spara låt"
 
 #: app/components/forms/dashboard/game/song/song.html:9
 msgid "dash.games.music.form.title_label"
-msgstr "Song Title"
+msgstr "Låt titel"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:4
 msgid "dash.games.music.heading"
@@ -1184,7 +1189,7 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
-msgstr "Remove Song"
+msgstr "Ta bort låt"
 
 #: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
@@ -1192,11 +1197,11 @@ msgstr "Nyheter"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
-msgstr "Add News Update"
+msgstr "lägg till nyhets uppdatering"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
-msgstr "Add News"
+msgstr "Lägg till nyhet"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
@@ -1224,7 +1229,7 @@ msgstr "Statistik"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:62
 msgid "dash.games.news.article.view_tab"
-msgstr "View"
+msgstr "Visa"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:42
 msgid "dash.games.news.comments"
@@ -1248,7 +1253,7 @@ msgstr "Titel"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:4
 msgid "dash.games.news.heading"
-msgstr "Game News"
+msgstr "Spel nyheter"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
@@ -1264,11 +1269,11 @@ msgstr "Visningar: "
 
 #: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
-msgstr "Overview"
+msgstr "Översikt"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
 msgid "dash.games.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Senaste aktivitet"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
@@ -1289,7 +1294,7 @@ msgstr "Följare"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:101
 msgid "dash.games.overview.stats_heading"
-msgstr "Quick Stats"
+msgstr "Snabbstatistik"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:143
 msgid "dash.games.overview.stats_na"
@@ -1297,15 +1302,15 @@ msgstr "N/A"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:126
 msgid "dash.games.overview.stats_plays"
-msgstr "Plays/Downloads"
+msgstr "Gånger nerladdad/spelad"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:136
 msgid "dash.games.overview.stats_rating"
-msgstr "Avg. Rating"
+msgstr "Snitt betyg"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:151
 msgid "dash.games.overview.stats_ratings"
-msgstr "Ratings"
+msgstr "Betyg"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:116
 msgid "dash.games.overview.stats_views"
@@ -1325,7 +1330,7 @@ msgstr "Set Up Steps"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:39
 msgid "dash.games.overview.todo_highly_recommended"
-msgstr "Highly Recommended"
+msgstr "Rekommenderas"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
 msgid "dash.games.overview.todo_info_builds_processing_html"
@@ -1350,7 +1355,7 @@ msgstr "Rekommenderad"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:37
 msgid "dash.games.overview.todo_required"
-msgstr "Required"
+msgstr "Nödvändig"
 
 #: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
@@ -1395,7 +1400,7 @@ msgstr "Paketnamn"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:60
 msgid "dash.games.packages.heading"
-msgstr "Game Packages"
+msgstr "Spel paket"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:34
 msgid "dash.games.packages.manage.edit_package_tab"
@@ -1403,7 +1408,7 @@ msgstr "Ändra Paket"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:7
 msgid "dash.games.packages.manage.heading"
-msgstr "Manage Package"
+msgstr "Hantera paket"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:28
 msgid "dash.games.packages.manage.releases_tab"
@@ -4436,12 +4441,13 @@ msgid "library.playlists.remove_playlist_success_growl"
 msgstr "You have successfully unfollowed {{ playlist }}."
 
 #: app/views/library/collection/collection-controller.js:213
+#, fuzzy
 msgid "library.playlists.remove_playlist_success_growl_title"
-msgstr "Playlist Unfollowed"
+msgstr "Du följer inte den här spellistan längre"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
-msgstr "News about games you're following."
+msgstr "Nyheter om spel som du följer."
 
 #: app/views/discover/news/news.html:49
 msgid "news.list.released_tooltip"
@@ -4461,11 +4467,11 @@ msgstr "posted a new reply to <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:8
 msgid "notifications.friendship_accepted_title_html"
-msgstr "accepted your friend request."
+msgstr "Har accepterat din vänförfrågan."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:7
 msgid "notifications.friendship_request_title_html"
-msgstr "sent you a friend request."
+msgstr "Har skickat en vänförfrågan till dig."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
@@ -4505,20 +4511,20 @@ msgstr "This user is currently playing a game."
 
 #: app/views/profile/profile.html:43
 msgid "profile.offline_tooltip"
-msgstr "This user is currently offline."
+msgstr "Denna användare är för närvarande offline."
 
 #: app/views/profile/profile.html:47
 msgid "profile.online_tooltip"
-msgstr "This user is currently online."
+msgstr "Denna användare är online."
 
 #: app/views/profile/profile.html:83
 msgid "profile.website_tooltip"
-msgstr "Visit Developer's Web Site"
+msgstr "Besök utvecklarens webbplats"
 
 #: app/views/library/collection/collection-controller.js:22
 #: app/views/library/collection/collection-controller.js:26
 msgid "sorting.best"
-msgstr "Highest Rated"
+msgstr "Högsta betyg"
 
 #: app/views/discover/games/list/category/category-controller.js:9
 msgid "discover.categories.action"
@@ -4530,7 +4536,7 @@ msgstr "äventyr"
 
 #: app/views/discover/games/list/category/category-controller.js:7
 msgid "discover.categories.all"
-msgstr "All"
+msgstr "Allt"
 
 #: app/views/discover/games/list/category/category-controller.js:8
 msgid "discover.categories.arcade"
@@ -4538,15 +4544,15 @@ msgstr "arkad"
 
 #: app/views/discover/games/list/category/category-controller.js:17
 msgid "discover.categories.other"
-msgstr "Other"
+msgstr "Annat"
 
 #: app/views/discover/games/list/category/category-controller.js:11
 msgid "discover.categories.platformer"
-msgstr "Platformer"
+msgstr "Platform "
 
 #: app/views/discover/games/list/category/category-controller.js:12
 msgid "discover.categories.puzzle"
-msgstr "Puzzle"
+msgstr "Pussel"
 
 #: app/views/discover/games/list/category/category-controller.js:13
 msgid "discover.categories.rpg"
@@ -4554,7 +4560,7 @@ msgstr "RPG"
 
 #: app/views/discover/games/list/category/category-controller.js:14
 msgid "discover.categories.shooter"
-msgstr "Shooter"
+msgstr "Skjuta"
 
 #: app/views/discover/games/list/category/category-controller.js:15
 msgid "discover.categories.sports"
@@ -4578,7 +4584,7 @@ msgstr "{{ section }} Indie RPGs"
 
 #: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
-msgstr "Couldn't find that image. Maybe it was removed."
+msgstr "Det gick inte att hitta den bilden. Den kan vara borttagen"
 
 #: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
@@ -4586,7 +4592,7 @@ msgstr "Åh nej!"
 
 #: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
-msgstr "Couldn't find that video. Maybe it was removed."
+msgstr "Det gick inte att hitta videon. Den kan vara borttagen."
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
@@ -4602,7 +4608,7 @@ msgstr "Bästa"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
-msgstr "Featured"
+msgstr "Utvalda"
 
 #: app/views/discover/games/list/category/category-controller.js:25
 msgid "games.list.section_fresh"
@@ -4653,25 +4659,25 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
-msgstr "Contact"
+msgstr "Kontakta"
+
+#: app/components/shell/footer/footer.html:13
+msgid "footer.tagline"
+msgstr "Alltför många spel ... och fler blir det!"
 
 #: app/components/shell/footer/footer.html:26
-msgid "footer.tagline"
-msgstr "Too many games... and counting!"
-
-#: app/components/shell/footer/footer.html:22
 msgid "footer.translations"
-msgstr "Translations are a community project."
+msgstr "Översättningar är ett gemensamt projekt."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
-msgstr "Help translate!"
+msgstr "Hjälp till att översätta!"
 
 #: app/components/game/filtering/filtering-service.js:17
 msgid "games.filtering.browser"
-msgstr "Browser"
+msgstr "Webbläsare"
 
 #: app/components/game/filtering/filtering-service.js:23
 msgid "games.filtering.browser_applet"
@@ -4679,35 +4685,35 @@ msgstr "Java Applet"
 
 #: app/components/game/filtering/filtering-service.js:21
 msgid "games.filtering.browser_flash"
-msgstr "Flash"
+msgstr "Flash "
 
 #: app/components/game/filtering/filtering-service.js:20
 msgid "games.filtering.browser_html"
-msgstr "HTML"
+msgstr "HTML "
 
 #: app/components/game/filtering/filtering-service.js:24
 msgid "games.filtering.browser_silverlight"
-msgstr "Silverlight"
+msgstr "Silverlight "
 
 #: app/components/game/filtering/filtering-service.js:22
 msgid "games.filtering.browser_unity"
-msgstr "Unity"
+msgstr "Unity "
 
 #: app/components/game/filtering/filtering-service.js:28
 msgid "games.filtering.maturity"
-msgstr "Maturity"
+msgstr "Åldersgräns"
 
 #: app/components/game/filtering/filtering-service.js:33
 msgid "games.filtering.maturity_adult"
-msgstr "Adult Content"
+msgstr "Vuxen innehåll"
 
 #: app/components/game/filtering/filtering-service.js:31
 msgid "games.filtering.maturity_everyone"
-msgstr "All Ages"
+msgstr "Alla åldrar"
 
 #: app/components/game/filtering/filtering-service.js:32
 msgid "games.filtering.maturity_teen"
-msgstr "Teen Content"
+msgstr "Medel ålder"
 
 #: app/components/game/filtering/filtering-service.js:7
 msgid "games.filtering.os"
@@ -4723,7 +4729,7 @@ msgstr "Mac"
 
 #: app/components/game/filtering/filtering-service.js:13
 msgid "games.filtering.os_other"
-msgstr "Other"
+msgstr "Annat"
 
 #: app/components/game/filtering/filtering-service.js:10
 msgid "games.filtering.os_windows"
@@ -4735,15 +4741,15 @@ msgstr "Status"
 
 #: app/components/game/filtering/filtering-service.js:42
 msgid "games.filtering.status_canceled"
-msgstr "Canceled"
+msgstr "Inställd"
 
 #: app/components/game/filtering/filtering-service.js:40
 msgid "games.filtering.status_complete"
-msgstr "Complete"
+msgstr "Färdigt"
 
 #: app/components/game/filtering/filtering-service.js:41
 msgid "games.filtering.status_wip"
-msgstr "Work in Progress"
+msgstr "Pågående arbete"
 
 #: app/views/discover/games/view/view.html:18
 msgid "games.view.notifications_news"
@@ -4753,7 +4759,7 @@ msgstr[1] ""
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.amount_help"
-msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+msgstr "Det minsta belopp du kan ta ut just nu är {{ amount | currency:'$' }}. "
 
 #: app/components/forms/dashboard/game/song/song.html:15
 msgid "dash.games.music.form.file_help_block"
@@ -4761,7 +4767,7 @@ msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per fi
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:34
 msgid "dash.games.news.posted_on"
-msgstr "Posted on: {{ date | date:'medium' }}"
+msgstr "Publicerat den: {{ date | date:'medium' }} "
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
 msgid "dash.games.packages.manage.releases.release_title"
@@ -4781,15 +4787,15 @@ msgstr "{{ difficulty }} Trophies"
 
 #: app/views/discover/games/view/download/build/build.html:13
 msgid "game.download.game.downloading_label"
-msgstr "Downloading {{ game }}..."
+msgstr "Laddar ner {{ game }}..."
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
 msgid "game.download.soundtrack.downloading_label"
-msgstr "Downloading soundtrack..."
+msgstr "Laddar ner ljudspår"
 
 #: app/views/discover/games/list/list.html:27
 msgid "games.list.date_heading_small"
-msgstr "on {{ date }}"
+msgstr "på {{ date }}"
 
 #: app/views/discover/games/list/list.html:31
 msgid "games.list.date_range_heading_small"
@@ -4813,11 +4819,11 @@ msgstr "#{{ tag }}"
 
 #: app/components/game/collection/grid/grid.html:41
 msgid "library.playlists.subscription_developer_description"
-msgstr "Games made by {{ user }}."
+msgstr "Spel skapade av {{ user }}."
 
 #: app/components/game/collection/grid/grid.html:37
 msgid "library.playlists.subscription_followed_description"
-msgstr "Games followed by {{ user }}."
+msgstr "Spel följda av {{ user }}."
 
 #: app/components/activity/feed/feed.html:50
 msgid "notifications.rating_details_title"
@@ -4829,11 +4835,11 @@ msgstr "View All ({{ gamesCount | number }})"
 
 #: app/views/profile/overview/overview.html:59
 msgid "profile.friend_request_received_pending"
-msgstr "{{ user }} would like to be your friend."
+msgstr "{{ user }} Vill vara din vän."
 
 #: app/views/profile/overview/overview.html:49
 msgid "profile.friend_request_sent_pending"
-msgstr "Friend request to {{ user }} pending acceptance."
+msgstr "Vänförfrågan till {{ user }} Ej besvarad."
 
 #: app/components/score/overview/overview.html:93
 msgid "scores.overview.user_best_exp_tooltip"
@@ -4845,11 +4851,11 @@ msgstr "+{{ extraCount | number }} more"
 
 #: app/components/forms/settings/settings.html:52
 msgid "settings.autostart_client_label"
-msgstr "Start when Windows starts?"
+msgstr "Starta när Windows startas?"
 
 #: app/components/forms/settings/settings.html:12
 msgid "settings.change_location_button"
-msgstr "Change Location"
+msgstr "Ändra plats"
 
 #: app/components/forms/settings/settings.html:59
 #: app/views/settings/settings.html:24
@@ -4858,64 +4864,65 @@ msgstr "Chat"
 
 #: app/components/forms/settings/settings.html:61
 msgid "settings.chat_notify_friends_online_label"
-msgstr "Get notifications when friends go online/offline?"
+msgstr "Få ett meddelande när vänner gå online / offline?"
 
 #: app/components/forms/settings/settings.html:4
 #: app/views/settings/settings.html:21
 msgid "settings.client"
-msgstr "Client"
+msgstr "Klient"
 
 #: app/components/forms/settings/settings.html:7
 msgid "settings.game_install_dir_help"
-msgstr "This is the directory on your computer that games will install into."
+msgstr "Detta är den mappen på datorn som spel kommer att installeras i."
 
 #: app/components/forms/settings/settings.html:6
 msgid "settings.game_install_dir_label"
-msgstr "Installed Games Directory"
+msgstr "Installerade spel mappen"
 
 #: app/views/settings/settings.html:6
 msgid "settings.heading"
-msgstr "Settings"
+msgstr "Inställningar"
 
 #: app/components/forms/settings/settings.html:24
 msgid "settings.limit_downloads_label"
-msgstr "Limit simultaneous downloads?"
+msgstr "Begränsa samtidiga nerladdningar?"
 
 #: app/components/forms/settings/settings.html:36
 msgid "settings.limit_extractions_help"
-msgstr "An extraction is when the game is unpacked and installed after downloading."
+msgstr "En extraktion är när spelet packas upp och installeras efter nedladdning."
 
 #: app/components/forms/settings/settings.html:35
 msgid "settings.limit_extractions_label"
-msgstr "Limit simultaneous extractions?"
+msgstr "Begränsa samtidiga extraktioner?"
 
 #: app/components/forms/settings/settings.html:30
 msgid "settings.max_download_count_help"
-msgstr "If you have more than this number, downloads will be queued up."
+msgstr "\n"
+"Om du har mer än detta antal, kommer nedladdningar att sättas i kö."
 
 #: app/components/forms/settings/settings.html:29
 msgid "settings.max_download_count_label"
-msgstr "Max # of Simultaneous Downloads"
+msgstr "Max # av samtidiga nedladdningar"
 
 #: app/components/forms/settings/settings.html:42
 msgid "settings.max_extract_count_help"
-msgstr "If you have more than this number, extractions will be queued up."
+msgstr "Om du har mer än detta antal, kommer extraktioner ställas i kö"
 
 #: app/components/forms/settings/settings.html:41
 msgid "settings.max_extract_count_label"
-msgstr "Max # of Simultaneous Extractions"
+msgstr "Max # av samtidiga Extraktioner"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
-msgstr "Settings"
+msgstr "Inställningar"
 
 #: app/components/forms/settings/settings.html:48
 msgid "settings.queue_when_playing_help"
-msgstr "Should we pause all game installs and updates when you're playing a game?"
+msgstr "Ska vi pausar alla spel installationer och uppdateringar när du spelar ett spel?"
 
 #: app/components/forms/settings/settings.html:47
 msgid "settings.queue_when_playing_label"
-msgstr "Pause when playing?"
+msgstr "Pausa när du spelar?"
 
 #: app/components/forms/dashboard/game/build/build.html:163
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
@@ -4929,19 +4936,19 @@ msgstr "Pause when playing?"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.no"
-msgstr "No"
+msgstr "Nej"
 
 #: app/components/forms/dashboard/game/settings/settings.html:21
 #: app/components/forms/dashboard/game/settings/settings.html:32
 #: app/components/forms/dashboard/game/settings/settings.html:43
 msgid "forms.off"
-msgstr "Off"
+msgstr "Av"
 
 #: app/components/forms/dashboard/game/settings/settings.html:20
 #: app/components/forms/dashboard/game/settings/settings.html:31
 #: app/components/forms/dashboard/game/settings/settings.html:42
 msgid "forms.on"
-msgstr "On"
+msgstr "På"
 
 #: app/components/forms/dashboard/game/build/build.html:162
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
@@ -4955,13 +4962,115 @@ msgstr "On"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.yes"
-msgstr "Yes"
+msgstr "ja"
 
 #: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
-msgstr "Change settings."
+msgstr "Ändra inställningar"
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
-msgstr "Open Source"
+msgstr "Öppen källa"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comments"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
