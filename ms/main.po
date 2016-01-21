@@ -48,7 +48,7 @@ msgstr "Dapatkan Butiran Log Masuk"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, alamat e-mel itu bukan di dalam sistem kami. Mungkin anda belum <a href=\"/join\">daftarM/a>?</p>"
+msgstr "<p>Hmm, alamat e-mel itu bukan di dalam sistem kami. Mungkin anda belum <a href=\"/join\">daftar</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
@@ -121,7 +121,7 @@ msgstr "Memproseskan. Slia tunggu."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>Alamat e-mel anda memasukkan telah digunakan.</p> <p>Jika anda sudah ada akaun untuk Game Jolt, anda boleh <a href=\"/login\">log masuk di sini</a>.</p> <p>Kalau anda telah lupa imformasi log masuk anda, anda boleh <a href=\"/forgot\">dapat di sini</a>.</p> "
+msgstr "<p>Alamat e-mel anda memasukkan telah digunakan.</p> <p>Jika anda sudah ada akaun untuk Game Jolt, anda boleh <a href=\"/login\">log masuk di sini</a>.</p> <p>Kalau anda telah lupa imformasi log masuk anda, anda boleh <a href=\"/forgot\">dapat di sini</a>.</p>"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
@@ -198,11 +198,11 @@ msgstr "Kata laluan Baru"
 msgid "auth.reset_password.submit_button"
 msgstr "Menepatkan Kata laluan"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
 msgstr "Privasi"
 
-#: app/components/shell/footer/footer.html:33
+#: app/components/shell/footer/footer.html:39
 msgid "legal.terms"
 msgstr "Syarat"
 
@@ -376,7 +376,7 @@ msgstr "Kata laluan yang anda memasukkan tidak sah."
 
 #: app/components/forms/dashboard/change-password/change-password.html:31
 msgid "dash.change_pass.no_match_error"
-msgstr "The passwords you entered don't match. Try re-typing them and make sure they're identical."
+msgstr "Kata laluan yang anda memasukkan tidak sama. Cuba memasukkan kata laluan lagi dan pastikan ia bersama."
 
 #: app/components/forms/dashboard/change-password/change-password.html:3
 msgid "dash.change_pass.old_password_label"
@@ -400,7 +400,7 @@ msgstr "Your Email Preferences"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
-msgstr "Receive Newsletter?"
+msgstr "Mendapat Surat Berita?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
@@ -408,7 +408,7 @@ msgstr "Let us know what kinds of email notifications you'd like to receive by t
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
-msgstr "Notifications"
+msgstr "Pemberitahuan"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
@@ -426,21 +426,19 @@ msgstr "Imej anda mesti adalah PNG, JPG atau GIF. <br>"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
-msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
-"\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
-"\tFor still images, PNGs are recommended because they produce lossless images."
+msgstr "Thumbnail anda mesti adalah PNG, JPG, atau GIF.<br>GIF yang animasi membenarkan pemain untuk mendapat gambaran permainan anda dalam tindakan. <br> Untuk imej yang tepat, PNG adalah direkomen kerana ia menghasilkan imej yang berkualiti."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
-msgstr "Amount to Withdraw"
+msgstr "Amaun Untuk Menarik Diri"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "This must be a valid email address attached to a PayPal account."
+msgstr "Ini mestilah alamat e-mel yang disahkan dilampiri oleh satu akaun untuk PayPal."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
-msgstr "PayPal Email Address"
+msgstr "Alamat E-mel Paypal"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
@@ -461,35 +459,35 @@ msgstr "Pending Withdrawal"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
-msgstr "Withdrawable Amount"
+msgstr "Amaun yang Boleh Menarik Diri"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.submit_button"
-msgstr "Send Withdrawal Request"
+msgstr "Menghantar Menarik Diri Permintaan"
 
 #: app/components/forms/dashboard/game/game.html:161
 msgid "dash.games.add.fnaf_autotag_accept"
-msgstr "Okay"
+msgstr "Baiklah"
 
 #: app/components/forms/dashboard/game/game.html:156
 msgid "dash.games.add.fnaf_autotag_message_html"
-msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series."
+msgstr "<strong>Permain anda mungkin permainan peminat ataupun sequel yang tidak rasmi untuk \"Five Nights at Freddy's\"</strong> Oleh itu, kami telah tambah hashtag <code>#fnaf</code> kepada deskripsi permainan anda. Kami memerlukan tag ini untuk semua permainan berasal daripada siri \"FNaF\"."
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Don't Tag"
+msgstr "Jangan tag"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
-msgstr "Add a Game"
+msgstr "Tambah Permainan"
 
 #: app/components/forms/dashboard/game/game.html:18
 msgid "dash.games.add.rules_accept_button"
-msgstr "Accept Rules"
+msgstr "Menerima Peraturan"
 
 #: app/components/forms/dashboard/game/game.html:10
 msgid "dash.games.add.rules_heading"
-msgstr "Rules"
+msgstr "Peraturan"
 
 #: app/components/forms/dashboard/game/game.html:12
 msgid "dash.games.add.rules_html"
@@ -507,23 +505,23 @@ msgstr "<p>You must agree to the following rules before adding a game:</p>\n"
 
 #: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
-msgstr "Game API"
+msgstr "API Permainan"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
-msgstr "Data Store"
+msgstr "Penyimpan Data"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
-msgstr "Global Items"
+msgstr "Item Sejagat"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:170
 msgid "dash.games.api.overview.data_items_tooltip"
-msgstr "The total number of stored global data items."
+msgstr "Jumlah bilangan item sejagat yang telah disimpan"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:2
 msgid "dash.games.api.overview.heading"
-msgstr "Game API Overview"
+msgstr "API Permainan Keseluruhan"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:93
 msgid "dash.games.api.overview.na"
@@ -531,7 +529,7 @@ msgstr "N/A"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:10
 msgid "dash.games.api.overview.page_forum_link"
-msgstr "Find help in the API forums..."
+msgstr "Cari bantuan dalam forum API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
@@ -540,39 +538,39 @@ msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
-msgstr "Learn more about the Game API..."
+msgstr "Belajar tentang API permainan"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
 msgid "dash.games.api.overview.scores_heading"
-msgstr "Scores"
+msgstr "Skor"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:136
 msgid "dash.games.api.overview.scores_label"
-msgstr "Total Scores"
+msgstr "Jumlah Skor"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
-msgstr "The total number of scores across all of the game's scoreboards, including guest scores."
+msgstr "Jumlah bilangan skor dalam semua papan skor permainan, termasuk skor tamu."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Users w/ Scores"
+msgstr "Pengguna dengan skor"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
-msgstr "The number of users with scores on any of the game's scoreboards. Does not include guests."
+msgstr "Bilangan pengguna dengan skor dalam papan skor permainan. Tidak termasuk tamu."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "Active Sessions"
+msgstr "Sesyen Aktif"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
-msgstr "Avg. Session Time"
+msgstr "Purata Masa Sesyen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sessions"
+msgstr "Sesyen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
@@ -580,63 +578,63 @@ msgstr "Sessions show you who's playing your game and for how long."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
 msgid "dash.games.api.overview.sessions_time_label"
-msgstr "Total Time"
+msgstr "Jumlah Masa"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
 msgid "dash.games.api.overview.sessions_users_label"
-msgstr "Users w/ Sessions"
+msgstr "Pengguna dengan Sesyen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
-msgstr "Trophies Achieved"
+msgstr "Piala yang Telah Mencapai"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
-msgstr "Trophy EXP"
+msgstr "EXP Piala"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
-msgstr "The total awardable EXP for trophies in your game."
+msgstr "EXP yang boleh dapat dalam permainan anda."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:69
 msgid "dash.games.api.overview.trophies_heading"
-msgstr "Trophies"
+msgstr "Piala"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:78
 msgid "dash.games.api.overview.trophies_label"
-msgstr "Trophies"
+msgstr "Piala"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:115
 msgid "dash.games.api.overview.trophies_users_label"
-msgstr "Users w/ Trophies"
+msgstr "Pengguna dengan Piala"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
-msgstr "Game ID"
+msgstr "ID Permainan"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
-msgstr "Game API Settings"
+msgstr "Tetapan API Permainan"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:30
 msgid "dash.games.api.settings.key_generate_button"
-msgstr "Generate New Key"
+msgstr "Membina Kunci Baru"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:19
 msgid "dash.games.api.settings.key_label"
-msgstr "Private Key"
+msgstr "Kunci Swasta"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:26
 msgid "dash.games.api.settings.key_show_link"
-msgstr "(show key)"
+msgstr "(lihat kunci)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
-msgstr "\t<p><strong>Never give your private key to anyone!</strong> Your game's key is used to validate that API requests are coming from your game. If villains or knaves get ahold of it, they can send in fake requests pretending to be your game. Not good!</p>"
+msgstr "<p><strong>Jangan memberi kunci swasta anda kepada sesiapa!</strong> Kunci permainan anda digunakan untuk mengesahkan permintaan API adalah daripada permainan anda. Jikalau pesalah dapat kunci itu, mereka boleh menghantar permintaan yang palsu berpura-pura permainan anda. Sangat Bahaya!"
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr "A .jar file. Playable in browsers that still support Java. Consider adding your .jar as a downloadable build, too."
+msgstr "Fail .jar. Boleh bermain dengan pelayar yang masih menyokong Java. Sila tambah .jar fail anda sebagai build yang boleh muat turun."
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
@@ -644,19 +642,19 @@ msgstr "Be sure to remove or block ads from showing in your game. We serve our o
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
-msgstr "Browser Type"
+msgstr "Jenis Pelayar"
 
 #: app/components/forms/dashboard/game/build/build.html:22
 msgid "dash.games.builds.form.browser_tab"
-msgstr "Browser"
+msgstr "Pelayar"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Class Name"
+msgstr "Nama Kelas"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
-msgstr "These are the dimensions at which your browser build will be displayed."
+msgstr "Ini ialah dimensi di mana build pelayar anda akan dipaparkan."
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
@@ -668,11 +666,11 @@ msgstr "Disable right click?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
-msgstr "Downloadable"
+msgstr "Yang boleh muat turun"
 
 #: app/components/forms/dashboard/game/build/build.html:88
 msgid "dash.games.builds.form.file_error_label"
-msgstr "file"
+msgstr "Fail"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
@@ -684,15 +682,15 @@ msgstr "<strong>For an HTML game, upload a .zip archive containing all of your g
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
-msgstr "Upload File"
+msgstr "Muat Naik Fail"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr "A .swf file. Playable in browsers that support Flash."
+msgstr "Fail .swf. Boleh bermain dalam pelayar yang menyokong Flash."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
-msgstr "Height"
+msgstr "Ketinggian"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
@@ -708,7 +706,7 @@ msgstr "Select \"Other\" if this build is for a platform that's not shown, or if
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
-msgstr "Platforms"
+msgstr "Platform"
 
 #: app/components/forms/dashboard/game/build/build.html:56
 msgid "dash.games.builds.form.silverlight_help"
@@ -720,19 +718,19 @@ msgstr "A .unity3d file. Playable in browsers that support the Unity Web Player.
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
-msgstr "Width"
+msgstr "Keluasan"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Stored On"
+msgstr "Menyimpan Dalam"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
-msgstr "Data Storage Items"
+msgstr "Item Storan Data"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
 msgid "dash.games.data_store.items.key_label"
-msgstr "Key"
+msgstr "Kunci"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
 msgid "dash.games.data_store.items.page_help_html"
@@ -741,32 +739,32 @@ msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All store
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "Belajar tentang storan data..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Pratonton Data"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
 msgid "dash.games.data_store.items.remove_button"
-msgstr "Remove Item"
+msgstr "Buang Item"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
-msgstr "Item Data"
+msgstr "Data Item"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "Menyimpan Dalam"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
-msgstr "Item Details"
+msgstr "Perincian Item"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:27
 msgid "dash.games.data_store.items.view.key_label"
-msgstr "Key"
+msgstr "Kunci"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit.html:4
 msgid "dash.games.edit.heading"
@@ -774,11 +772,11 @@ msgstr "Edit Details"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
-msgstr "Category"
+msgstr "Kategori"
 
 #: app/components/forms/dashboard/game/game.html:40
 msgid "dash.games.form.category_placeholder"
-msgstr "Select a category..."
+msgstr "Pilih kategori..."
 
 #: app/components/forms/dashboard/game/game.html:97
 msgid "dash.games.form.description_help_html"
@@ -786,11 +784,11 @@ msgstr "You can edit your description whenever you want and add to it over time.
 
 #: app/components/forms/dashboard/game/game.html:95
 msgid "dash.games.form.description_label"
-msgstr "Description"
+msgstr "Deskripsi"
 
 #: app/components/forms/dashboard/game/game.html:86
 msgid "dash.games.form.dev_status_canceled"
-msgstr "Canceled"
+msgstr "DiBatalkan"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
@@ -798,7 +796,7 @@ msgstr "Choose this if your game is playable, but development has been canceled 
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
-msgstr "Finished/Stable"
+msgstr "Habis/Stabil"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
@@ -806,15 +804,15 @@ msgstr "Choose this if your game is complete. It's in a stable state and you onl
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
-msgstr "Development Status"
+msgstr "Taraf Kemajuan"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Anda tidak boleh set permainan anda sebagai Habis atau Dibatalkan sehingga anda ada builds."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
-msgstr "Work in Progress/Unstable"
+msgstr "Kerja Dalam Proses/Tidak Stabil"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
@@ -822,19 +820,19 @@ msgstr "Choose this if your game is not finished but you're actively developing 
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
-msgstr "Engine/Language/Creation Tool"
+msgstr "Enjin/Bahasa/Alat Penciptaan"
 
 #: app/components/forms/dashboard/game/game.html:58
 msgid "dash.games.form.engine_other_help"
-msgstr "Which engine, language, or tool?"
+msgstr "Enjin, bahasa, atau alat apa?"
 
 #: app/components/forms/dashboard/game/game.html:53
 msgid "dash.games.form.engine_other_label"
-msgstr "Other Engine/Language/Tool"
+msgstr "Enjin/Bahasa/Alat yang lain"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
-msgstr "Why?"
+msgstr "Mengapakah?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
@@ -842,11 +840,11 @@ msgstr "This helps us create better filtering options around which tools people 
 
 #: app/components/forms/dashboard/game/game.html:47
 msgid "dash.games.form.engine_placeholder"
-msgstr "Select an engine/language/tool..."
+msgstr "Pilih enjin/bahasa/alat"
 
 #: app/components/forms/dashboard/game/game.html:125
 msgid "dash.games.form.status_hidden"
-msgstr "Hidden"
+msgstr "Tersembunyi"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
@@ -854,7 +852,7 @@ msgstr "Your game page won't show up in public listings or search results. It ca
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
-msgstr "Visibility"
+msgstr "Penglihatan"
 
 #: app/components/forms/dashboard/game/game.html:113
 msgid "dash.games.form.status_not_publishable_info_html"
@@ -862,7 +860,7 @@ msgstr "This game can't be published until the required set up steps are complet
 
 #: app/components/forms/dashboard/game/game.html:118
 msgid "dash.games.form.status_published"
-msgstr "Published"
+msgstr "Diterbitkan"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
@@ -870,19 +868,19 @@ msgstr "Your game page will show up in public listings and search results. It ca
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
-msgstr "Title"
+msgstr "Tajuk"
 
 #: app/components/forms/dashboard/game/game.html:33
 msgid "dash.games.form.website_label"
-msgstr "Website"
+msgstr "Laman Web"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "Buang Imej"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
-msgstr "Edit Header"
+msgstr "Mengubahkan Imej"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
@@ -894,19 +892,19 @@ msgstr "What are the header requirements and guidelines?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "Muat naik Imej"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "Imej"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "Muat naik Imej Baru"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
-msgstr "This game is currently hidden from public view."
+msgstr "Permainan ini tersembunyi pada masa ini."
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
@@ -914,55 +912,55 @@ msgstr "We recommend keeping it hidden until you've finished filling out the det
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
-msgstr "Hidden"
+msgstr "Tersembunyi"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
-msgstr "Age Rating"
+msgstr "Penarafan Umur"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
-msgstr "Alcohol"
+msgstr "Alkohol"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Darah"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
-msgstr "Cartoon Violence"
+msgstr "Keganasan Kartun"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Dadah"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
-msgstr "Fantasy Violence"
+msgstr "Keganasan Fantasi"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
-msgstr "Gambling"
+msgstr "Perjudian"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
-msgstr "Edit Rating Details"
+msgstr "Mengubahkan Penarafan"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
-msgstr "Humor"
+msgstr "Kelucuan"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
-msgstr "Language"
+msgstr "Bahasa"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
-msgstr "Miscellaneous"
+msgstr "Lain-lain"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Kebogelan"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
@@ -970,40 +968,40 @@ msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity r
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
-msgstr "What is a maturity rating?"
+msgstr "Apakah penarafan kemantangan?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
-msgstr "Realistic Violence"
+msgstr "Keganasan Realistik"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
-msgstr "Save Maturity Details"
+msgstr "Mengubahkan Maklumat Kemantangan"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
-msgstr "Sex/Nudity"
+msgstr "Seks"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
-msgstr "Sexual Themes"
+msgstr "Tema Seksual"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:104
 #: app/components/forms/dashboard/game/maturity/maturity.html:67
 msgid "dash.games.maturity.sexual_violence_label"
-msgstr "Sexual Violence"
+msgstr "Keganasan Seksual"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:80
 msgid "dash.games.maturity.substances_legend"
-msgstr "Substances"
+msgstr "Bahan"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
-msgstr "Tobacco"
+msgstr "Tembakau"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
-msgstr "Violence"
+msgstr "Keganasan"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
@@ -1015,16 +1013,15 @@ msgstr "Media"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
-msgstr "Add an <br>\n"
-"\t<strong>Image</strong> or <strong>Video</strong>"
+msgstr "Tambah<br><strong>Imej</strong> atau <strong>Video</strong>"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
-msgstr "Add an Image or Video"
+msgstr "Tambah Imej atau Video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
-msgstr "Add Media"
+msgstr "Tembah Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
@@ -1032,7 +1029,7 @@ msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
-msgstr "Learn more about screenshots/images..."
+msgstr "Belajar tentang imej"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
@@ -1041,17 +1038,17 @@ msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkth
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
-msgstr "Learn more about videos..."
+msgstr "Belajar tentang Video"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
-msgstr "Game Media"
+msgstr "Permainan Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:14
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
 #: app/views/dashboard/developer/games/manage/media/list/list.html:45
 msgid "dash.games.media.image_label"
-msgstr "Image"
+msgstr "Imej"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
@@ -1059,7 +1056,7 @@ msgstr "You can directly link to this image on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
-msgstr "Edit Image"
+msgstr "Mengubahkan Imej"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
@@ -1067,27 +1064,27 @@ msgstr "This caption will appear when your image is viewed in full screen."
 
 #: app/components/forms/dashboard/game/image/image.html:26
 msgid "dash.games.media.image.form.caption_label"
-msgstr "Caption"
+msgstr "Kepsyen"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
-msgstr "image"
+msgstr "imej"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
-msgstr "Image File"
+msgstr "Fail imej"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
-msgstr "Save Image"
+msgstr "Mengubahkan imej"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:14
 msgid "dash.games.media.image.heading"
-msgstr "Image Details"
+msgstr "Maklumat Imej"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:21
 msgid "dash.games.media.image.remove_button"
-msgstr "Remove Image"
+msgstr "Buang Imej"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
@@ -1105,19 +1102,19 @@ msgstr "You can directly link to this video on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:44
 msgid "dash.games.media.video.edit_heading"
-msgstr "Edit Video"
+msgstr "Mengubahkan Video"
 
 #: app/components/forms/dashboard/game/video/video.html:14
 msgid "dash.games.media.video.form.description_label"
-msgstr "Description"
+msgstr "Deskripsi"
 
 #: app/components/forms/dashboard/game/video/video.html:21
 msgid "dash.games.media.video.form.submit_button"
-msgstr "Save Video"
+msgstr "Mengubahkan Video"
 
 #: app/components/forms/dashboard/game/video/video.html:9
 msgid "dash.games.media.video.form.title_label"
-msgstr "Title"
+msgstr "Tajuk"
 
 #: app/components/forms/dashboard/game/video/video.html:5
 msgid "dash.games.media.video.form.url_error_label"
@@ -1136,43 +1133,43 @@ msgstr "Video URL"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:14
 msgid "dash.games.media.video.heading"
-msgstr "Video Details"
+msgstr "Maklumat Video"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:21
 msgid "dash.games.media.video.remove_button"
-msgstr "Remove Video"
+msgstr "Buang Video"
 
 #: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
-msgstr "Music"
+msgstr "Muzik"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
-msgstr "Add Song"
+msgstr "Tambah lagu"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:12
 msgid "dash.games.music.direct_link_help"
-msgstr "Link to a downloadable ZIP of your game's soundtrack."
+msgstr "Link kepada lagu parmainan ZIP yang boleh muat turun."
 
 #: app/components/forms/dashboard/game/song/song.html:24
 msgid "dash.games.music.form.file_error_label"
-msgstr "song"
+msgstr "lagu"
 
 #: app/components/forms/dashboard/game/song/song.html:29
 msgid "dash.games.music.form.submit_button"
-msgstr "Save Song"
+msgstr "Mengubahkan Lagu"
 
 #: app/components/forms/dashboard/game/song/song.html:9
 msgid "dash.games.music.form.title_label"
-msgstr "Song Title"
+msgstr "Tajuk Lagu"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:4
 msgid "dash.games.music.heading"
-msgstr "Game Music"
+msgstr "Muzik Permainan"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
-msgstr "<p>You haven't added any music. Upload some songs from your game! The music player's worth it, trust us!</p>"
+msgstr "<p>Anda belum tambah muzik. Muat naik lagu daripada permainan anda! Bernilai muzik pemain ini, percayalah kami!</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:6
 msgid "dash.games.music.page_help_html"
@@ -1180,19 +1177,19 @@ msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
-msgstr "Remove Song"
+msgstr "Buang lagu"
 
 #: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
-msgstr "News"
+msgstr "Berita"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
-msgstr "Add News Update"
+msgstr "Tambah Berita Baru"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
-msgstr "Add News"
+msgstr "Tembah Berita"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
@@ -1200,19 +1197,19 @@ msgstr "News updates keep followers in the loop! Don't post so many updates that
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:9
 msgid "dash.games.news.add.page_help_link"
-msgstr "Learn more about news updates..."
+msgstr "Belajar tentang berita perkembangan..."
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:50
 msgid "dash.games.news.article.edit_tab"
-msgstr "Edit"
+msgstr "Mengubahkan"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:14
 msgid "dash.games.news.article.heading"
-msgstr "Manage Update"
+msgstr "Menguruskan Berita"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:21
 msgid "dash.games.news.article.remove_option"
-msgstr "Remove News Update"
+msgstr "Buang Berita"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:44
 msgid "dash.games.news.article.stats_tab"
@@ -1220,11 +1217,11 @@ msgstr "Stats"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:62
 msgid "dash.games.news.article.view_tab"
-msgstr "View"
+msgstr "Lihat"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:42
 msgid "dash.games.news.comments"
-msgstr "Comments:"
+msgstr "Komen:"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:29
 msgid "dash.games.news.form.add_follower_message"
@@ -1236,15 +1233,15 @@ msgstr "Markdown allows you to easily make your news updates more dynamic and vi
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_label"
-msgstr "Content"
+msgstr "Kandungan"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:3
 msgid "dash.games.news.form.title_label"
-msgstr "Title"
+msgstr "Tajuk"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:4
 msgid "dash.games.news.heading"
-msgstr "Game News"
+msgstr "Permainan Berita"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
@@ -1256,7 +1253,7 @@ msgstr "Post news to let people know when something interesting happens with you
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:37
 msgid "dash.games.news.views"
-msgstr "Views:"
+msgstr "Lihat:"
 
 #: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
@@ -2921,109 +2918,109 @@ msgstr "Scoreboards"
 
 #: app/components/score/overview/overview.html:154
 msgid "scores.overview.no_scores_html"
-msgstr "There are no scores on this scoreboard yet."
+msgstr "Papan skor ini sekarang tidak ada skor."
 
 #: app/components/score/overview/overview.html:116
 msgid "scores.overview.top_scores_heading"
-msgstr "Best Scores"
+msgstr "Skor Terbaik"
 
 #: app/components/score/overview/overview.html:62
 msgid "scores.overview.user_best_heading"
-msgstr "Your Best Score"
+msgstr "Skor Terbaik Anda"
 
 #: app/components/score/overview/overview.html:75
 msgid "scores.overview.user_best_none_body_html"
-msgstr "What'cha waitin' for? Get gaming!"
+msgstr "Tunggu apa? Bermainlah!"
 
 #: app/components/score/overview/overview.html:74
 msgid "scores.overview.user_best_none_heading"
-msgstr "You Haven't Scored Yet!"
+msgstr "Anda Belum Skor!"
 
 #: app/components/score/overview/overview.html:150
 msgid "scores.overview.view_more_button"
-msgstr "View Full Scoreboard"
+msgstr "Lihat Papan Skor Penuh"
 
 #: app/components/score/scoreboard-popover/scoreboard-popover.html:2
 msgid "scores.scoreboard_popover.heading"
-msgstr "Change Scoreboard"
+msgstr "Mengubahkan Papan Skor"
 
 #: app/components/search/autocomplete/autocomplete.html:48
 msgid "search.autocomplete.games_heading"
-msgstr "Games"
+msgstr "Permainan"
 
 #: app/components/search/autocomplete/autocomplete.html:22
 msgid "search.autocomplete.installed_heading"
-msgstr "Installed Games"
+msgstr "Permainan Dipasangkan"
 
 #: app/components/search/autocomplete/autocomplete.html:105
 msgid "search.autocomplete.no_commands"
-msgstr "No commands match."
+msgstr "Arahan tidak sama."
 
 #: app/components/search/autocomplete/autocomplete.html:14
 msgid "search.autocomplete.show_all"
-msgstr "Show all results..."
+msgstr "Lihat semua keputusan..."
 
 #: app/components/search/autocomplete/autocomplete.html:78
 msgid "search.autocomplete.users_heading"
-msgstr "Users"
+msgstr "Pengguna"
 
 #: app/components/search/search.html:12
 #: app/components/search/search.html:6
 msgid "search.input.placeholder"
-msgstr "Search"
+msgstr "Cari"
 
 #: app/components/search/history/history.html:41
 msgid "search.recent.clear_button"
-msgstr "Clear Recent Searches"
+msgstr "Bersihkan Carian Terkini"
 
 #: app/components/search/history/history.html:19
 msgid "search.recent.none"
-msgstr "No searches yet."
+msgstr "Tiada Carian."
 
 #: app/components/search/history/history.html:17
 msgid "search.recent.popover_heading"
-msgstr "Recent Searches"
+msgstr "Carian Terkini"
 
 #: app/views/search/results/results.html:5
 msgid "search.results_placeholder"
-msgstr "Enter your search query above."
+msgstr "Memasukkan carian pertanyaan di atas."
 
 #: app/views/search/results/results.html:47
 msgid "search.results.games_heading"
-msgstr "Games"
+msgstr "Permainan"
 
 #: app/views/search/search.html:36
 msgid "search.results.games_tab"
-msgstr "Games"
+msgstr "Permainan"
 
 #: app/views/search/search.html:49
 msgid "search.results.no_results"
-msgstr "No results for that search query."
+msgstr "Tiada keputusan daripada carian pertanyaan itu."
 
 #: app/views/search/search.html:25
 msgid "search.results.overview_tab"
-msgstr "All"
+msgstr "Semua"
 
 #: app/views/search/results/results.html:22
 msgid "search.results.users_heading"
-msgstr "Users"
+msgstr "Pengguna"
 
 #: app/views/search/search.html:30
 msgid "search.results.users_tab"
-msgstr "Users"
+msgstr "Pengguna"
 
 #: app/views/search/results/results.html:19
 #: app/views/search/results/results.html:44
 msgid "search.results.view_all_link"
-msgstr "See All"
+msgstr "Lihat Semua"
 
 #: app/views/search/search.html:15
 msgid "search.showing_label"
-msgstr "Showing results for"
+msgstr "Lihatkan keputusan untuk"
 
 #: app/components/sorting/sorting.html:2
 msgid "sorting.sort"
-msgstr "Sort by"
+msgstr "Susun mengikut"
 
 #: app/components/trophy/list/list.html:34
 msgid "trophies.achieved_tag"
@@ -3031,7 +3028,7 @@ msgstr "Achieved!"
 
 #: app/components/trophy/completion/completion.html:14
 msgid "trophies.completion.completion_label"
-msgstr "Completion"
+msgstr "Penyiapan"
 
 #: app/components/trophy/completion/completion.html:23
 msgid "trophies.completion.exp_gained_label"
@@ -3039,100 +3036,100 @@ msgstr "EXP Gained"
 
 #: app/components/trophy/completion/completion.html:4
 msgid "trophies.completion.lead_html"
-msgstr "You've achieved <b>{{ achieved | number }}</b> trophies out of a possible <b>{{ total | number }}</b>."
+msgstr "Anda telah dapat <b>{{ achieved | number }}</b> piala daripada <b>{{ total | number }}</b>."
 
 #: app/components/trophy/completion/completion.html:29
 msgid "trophies.completion.none_achieved_html"
-msgstr "You haven't achieved any trophies for this game yet!"
+msgstr "Anda belum dapat piala untuk permainan ini!"
 
 #: app/components/trophy/list/list.html:24
 msgid "trophies.exp_gained_tooltip"
-msgstr "The amount of EXP gained from this trophy."
+msgstr "Jumlah EXP dapat daripada piala ini."
 
 #: app/components/trophy/overview/overview.html:60
 #: app/views/discover/games/view/trophies/list/list.html:40
 msgid "trophies.invisible_trophies_message"
-msgstr "Some trophies may be invisible to players. You're seeing them because you're the developer."
+msgstr "Beberapa piala mungkin tidak dapat dilihat oleh pemain. Anda boleh kerana anda pemajunya."
 
 #: app/components/trophy/overview/overview.html:6
 msgid "trophies.overview.heading"
-msgstr "Trophies"
+msgstr "Piala"
 
 #: app/components/trophy/overview/overview.html:66
 msgid "trophies.overview.view_more_button"
-msgstr "View All Trophies"
+msgstr "Lihat Semua Piala"
 
 #: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
-msgstr "Edit your account information."
+msgstr "Mengubahkan akaun informasi anda."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:91
 msgid "commands.activity_description"
-msgstr "View your activity feed."
+msgstr "Lihatkan suapan aktiviti anda."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:67
 msgid "commands.dashboard_description"
-msgstr "View your dashboard."
+msgstr "Lihat papan pemuka anda."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:50
 msgid "commands.discover_description"
-msgstr "Go to main home page."
+msgstr "Pergi ke muka surat utama."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:56
 msgid "commands.games_description"
-msgstr "Browse games."
+msgstr "Cari Permainan."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:79
 msgid "commands.installed_description"
-msgstr "View your installed games."
+msgstr "Lihat permainan yang anda memasang."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:73
 msgid "commands.library_description"
-msgstr "View your game library."
+msgstr "Lihat perpustakaan permainan anda."
 
 #: app/components/search/autocomplete/autocomplete-directive.js:61
 msgid "commands.news_description"
-msgstr "Browse game news."
+msgstr "Cari berita permainan."
 
 #. {{listCtrl.currentNotificationType.label}} expands to the type of notification
 #: app/views/dashboard/activity/list/list.html:75
 msgid "dash.activity.current_filter"
-msgstr "Showing {{ filter }}"
+msgstr "Lihatkan {{ filter }}"
 
 #: app/views/dashboard/activity/list/list-controller.js:5
 msgid "dash.activity.page_title"
-msgstr "Activity Feed"
+msgstr "Suapan Aktiviti"
 
 #. {{listCtrl.page}} expands to the page number, {{$count}} expands to the notifications number
 #: app/views/dashboard/activity/list/list.html:83
 msgid "dash.activity.pages"
 msgid_plural "dash.activity.pages"
-msgstr[0] ""
+msgstr[0] "Muka surat {{ page | number }} daripada {{$count | number }} pemberitahuan."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview-controller.js:5
 msgid "dash.games.api.overview.page_title"
-msgstr "Game API for {{ game }}"
+msgstr "API permainan untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:13
 msgid "dash.games.api.settings.generate_confirmation"
-msgstr "Are you sure you want to generate a new key? If you do, any builds of your game using the current key will stop working."
+msgstr "Pastikan anda mahu membina kunci yang baru? Jika anda mahu, build permainan anda m yang menggunakan kunci ini tidak akan berjalan lagi."
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:26
 msgid "dash.games.api.settings.generate_growl"
-msgstr "Generated a brand new private key for your game. You'll need to update your game's code with the new key."
+msgstr "Membina kunci swasta yang baru untuk permainan anda. Anda mesti kemaskinikan permainan anda dengan kunci baru ini."
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:25
 msgid "dash.games.api.settings.generate_growl_title"
-msgstr "New Key Generated"
+msgstr "Kunci Baru Dibina"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:6
 msgid "dash.games.api.settings.page_title"
-msgstr "Game API Settings for {{ game }}"
+msgstr "Tetapan API Permainan untuk {{ game }}"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:68
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:38
 msgid "dash.games.builds.form.linux_64_tag"
-msgstr "Linux 64-bit"
+msgstr "Linux x64"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:63
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:34
@@ -3152,15 +3149,15 @@ msgstr "Mac"
 #: app/components/forms/dashboard/game/build/build-directive.js:73
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:42
 msgid "dash.games.builds.form.other_tag"
-msgstr "Other"
+msgstr "Lain"
 
 #: app/components/forms/dashboard/game/build/build.html:184
 msgid "dash.games.builds.form.save_build_button"
-msgstr "Save Build"
+msgstr "Simpan Build"
 
 #: app/components/forms/dashboard/game/build/build.html:183
 msgid "dash.games.builds.form.upload_build_button"
-msgstr "Upload Build"
+msgstr "Muat naik Build"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:48
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:22
@@ -3174,36 +3171,36 @@ msgstr "Windows"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list-controller.js:6
 msgid "dash.games.data_store.items.page_title"
-msgstr "Manage Data Storage for {{ game }}"
+msgstr "Menguruskan Storan Data untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list-controller.js:12
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view-controller.js:12
 msgid "dash.games.data_store.items.remove_confirmation"
-msgstr "Are you sure you want to remove this item?"
+msgstr "Pastikan anda mahu membuangkan item ini?"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view-controller.js:6
 msgid "dash.games.data_store.items.view.page_title"
-msgstr "Item Details - {{ game }}"
+msgstr "Maklumat Item - {{ game }}"
 
 #: app/components/forms/dashboard/game/game.html:143
 msgid "dash.games.form.add_button"
-msgstr "Add Game"
+msgstr "Tambah Permainan"
 
 #: app/components/forms/dashboard/game/game.html:147
 msgid "dash.games.form.edit_button"
-msgstr "Save Game"
+msgstr "Simpan Permainan"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:17
 msgid "dash.games.maturity.age_everyone_option"
-msgstr "All Ages"
+msgstr "Semua Umur"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:23
 msgid "dash.games.maturity.age_mature_option"
-msgstr "Mature Content"
+msgstr "Kandungan Dewasa"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:20
 msgid "dash.games.maturity.age_teen_option"
-msgstr "Teen Content"
+msgstr "Kandungan Remaja"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:115
 msgid "dash.games.maturity.alcohol_1_description"
@@ -3275,7 +3272,7 @@ msgstr "Players can gamble using real money."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:178
 msgid "dash.games.maturity.graphic_option"
-msgstr "Graphic"
+msgstr "Grafik"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:207
 msgid "dash.games.maturity.humor_1_description"
@@ -3294,7 +3291,7 @@ msgstr "Depictions of or dialog including mature humor; sexual humor."
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:76
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:94
 msgid "dash.games.maturity.intense_option"
-msgstr "Intense"
+msgstr "Sengit"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:189
 msgid "dash.games.maturity.language_1_description"
@@ -3314,7 +3311,7 @@ msgstr "Strong or frequent use of profanity."
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:68
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:86
 msgid "dash.games.maturity.mild_option"
-msgstr "Mild"
+msgstr "Sederhana"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:174
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:192
@@ -3324,7 +3321,7 @@ msgstr "Mild"
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:72
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:90
 msgid "dash.games.maturity.moderate_option"
-msgstr "Moderate"
+msgstr "Sederhana"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:101
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:111
@@ -3340,7 +3337,7 @@ msgstr "Moderate"
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:65
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:83
 msgid "dash.games.maturity.none_option"
-msgstr "None"
+msgstr "Tiada"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:157
 msgid "dash.games.maturity.nudity_1_description"
@@ -3352,7 +3349,7 @@ msgstr "Prolonged depictions of nudity."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:228
 msgid "dash.games.maturity.real_gambling_option"
-msgstr "Real Gambling"
+msgstr "Perjudian Benar"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:69
 msgid "dash.games.maturity.realistic_violence_1_description"
@@ -3360,220 +3357,220 @@ msgstr "Mild depictions of realistic characters in unsafe situations."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:73
 msgid "dash.games.maturity.realistic_violence_2_description"
-msgstr "Depictions of realistic characters in aggressive conflict."
+msgstr "Gambaran watak realistik dalam agresif konflik."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:77
 msgid "dash.games.maturity.realistic_violence_3_description"
-msgstr "Graphic depictions of violence involving realistic characters."
+msgstr "Grafik gambaran yang keganasan melibatkan watak realistik."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:114
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:128
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:142
 msgid "dash.games.maturity.reference_option"
-msgstr "Reference"
+msgstr "Merujukkan"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:171
 msgid "dash.games.maturity.sexual_themes_1_description"
-msgstr "Provocative references or depictions of provocative behavior."
+msgstr "Rujukan provokatif atau gambaran kelakuan provokatif."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:175
 msgid "dash.games.maturity.sexual_themes_2_description"
-msgstr "Sexual references or depictions of sexual behavior."
+msgstr "Rujukan seksual atau gambaran kelaukan seksual."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:179
 msgid "dash.games.maturity.sexual_themes_3_description"
-msgstr "Graphic depictions of sexual behavior."
+msgstr "Grafik gambaran kelakuan seksual."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:105
 msgid "dash.games.maturity.sexual_violence_description"
-msgstr "Depictions of or graphic references to rape or other violent sexual behavior."
+msgstr "Gambaran atau grafik rujuk kepada rogol atau keganasan kelakuan seksual lain."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:206
 msgid "dash.games.maturity.shenanigans_option"
-msgstr "Comic Shenanigans"
+msgstr "Lucah Komik"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:224
 msgid "dash.games.maturity.simulated_option"
-msgstr "Simulated"
+msgstr "Disimulasikan"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:196
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:214
 msgid "dash.games.maturity.strong_option"
-msgstr "Strong"
+msgstr "Kuat"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:170
 msgid "dash.games.maturity.suggestive_option"
-msgstr "Suggestive"
+msgstr "Mencadangkan"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:143
 msgid "dash.games.maturity.tobacco_1_description"
-msgstr "References to or images of tobacco products."
+msgstr "Rujukan kepada imej produk tembakau."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:147
 msgid "dash.games.maturity.tobacco_2_description"
-msgstr "Use of tobacco products."
+msgstr "Menggunakan produk tembakau."
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:118
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:132
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:146
 msgid "dash.games.maturity.use_option"
-msgstr "Use"
+msgstr "Guna"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image-controller.js:4
 msgid "dash.games.media.add.image.page_title"
-msgstr "Add Image for {{ game }}"
+msgstr "Tambah Imej untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video-controller.js:4
 msgid "dash.games.media.add.video.page_title"
-msgstr "Add Video for {{ game }}"
+msgstr "Tambah Video untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:6
 msgid "dash.games.media.page_title"
-msgstr "Manage Media for {{ game }}"
+msgstr "Menguruskan Media untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:51
 msgid "dash.games.media.remove_confirmation"
-msgstr "Are you sure you want to remove this {{ type }}?"
+msgstr "Pastikan anda mahu membuangkan {{ type }} ini?"
 
 #: app/views/dashboard/developer/games/manage/music/music-controller.js:6
 msgid "dash.games.music.page_title"
-msgstr "Manage Music for {{ game }}"
+msgstr "Menguruskan Muzik untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/music/music-controller.js:45
 msgid "dash.games.music.remove_confirmation"
-msgstr "Are you sure you want to remove this song?"
+msgstr "Pastikan anda mahu membuangkan lagu ini?"
 
 #: app/views/dashboard/developer/games/manage/news/article/stats/stats-controller.js:6
 msgid "dash.games.news.article.stats.page_title"
-msgstr "Stats for {{ article }}"
+msgstr "Maklumat untuk {{ article }}"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.add_button"
-msgstr "Add News Update"
+msgstr "Tambah Berita"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:38
 msgid "dash.games.news.form.edit_button"
-msgstr "Save News Update"
+msgstr "Mengubahkan Berita"
 
 #: app/views/dashboard/developer/games/manage/news/list/list-controller.js:3
 msgid "dash.games.news.page_title"
-msgstr "Manage News for {{ game }}"
+msgstr "Menguruskan Berita untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add-controller.js:3
 msgid "dash.games.packages.add.page_title"
-msgstr "Add Package for {{ game }}"
+msgstr "Tambah Pakej untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases-controller.js:6
 msgid "dash.games.packages.manage.releases.page_title"
-msgstr "Releases in {{ package }} - {{ game }}"
+msgstr "Keluaran dalam {{ package }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/packages-controller.js:7
 msgid "dash.games.packages.page_title"
-msgstr "Manage Packages for {{ game }}"
+msgstr "Menguruskan Pakej untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/release/stats/stats-controller.js:3
 msgid "dash.games.releases.stats.page_title"
-msgstr "Stats for {{ release }} - {{ package }} - {{ game }}"
+msgstr "Maklumat untuk {{ release }} - {{package }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:5
 msgid "dash.games.scoreboards.page_title"
-msgstr "Manage Scoreboards for {{ game }}"
+msgstr "Menguruskan Papan Skor untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:48
 msgid "dash.games.scoreboards.remove_confirmation"
-msgstr "Are you sure you want to remove this scoreboard?"
+msgstr "Pastikan anda mahu membuangkan papan skor ini?"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list-controller.js:13
 msgid "dash.games.scores.list.page_title"
-msgstr "View Scores for {{ table }} - {{ game }}"
+msgstr "Lihatkan Skor untuk {{ table }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:11
 msgid "dash.games.scores.view_user_scores_table"
-msgstr "on {{ table }}"
+msgstr "Dalam {{ table }}"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view-controller.js:6
 msgid "dash.games.scores.view.page_title"
-msgstr "Score Details - {{ game }}"
+msgstr "Maklumat Skor - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view-controller.js:13
 msgid "dash.games.scores.view.remove_confirmation"
-msgstr "Are you sure you want to remove this score?"
+msgstr "Pastikan anda mahu membuangkan skor ini?"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
 msgid "dash.games.trophies.form.clear_image_confirmation"
-msgstr "Are you sure you want to clear this trophy image?"
+msgstr "Pastikan anda mahu membuangkan imej piala ini?"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:5
 msgid "dash.games.trophies.page_title"
-msgstr "Manage Trophies for {{ game }}"
+msgstr "Menguruskan Piala untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:90
 msgid "dash.games.trophies.remove_confirmation"
-msgstr "Are you sure you want to remove this trophy?"
+msgstr "Pastikan anda mahu membuang piala ini?"
 
 #: app/views/dashboard/overview/overview-controller.js:3
 msgid "dash.overview.page_title"
-msgstr "Your Dashboard"
+msgstr "Papan Pemuka Anda"
 
 #: app/views/dashboard/overview/overview.html:67
 msgid "dash.overview.revenue_pending_message_html"
-msgstr "You currently have <strong>{{ amount | currency:'$' }}</strong> pending withdrawal."
+msgstr "Anda sekarang ada <strong>{{ amount | currency:'$' }}</strong> pengeluaran yang belum mengesuai."
 
 #: app/views/discover/games/view/download/build/build-controller.js:6
 msgid "game.download.game.page_title"
-msgstr "Downloading {{ game }}"
+msgstr "Muat turun {{ game }}"
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack-controller.js:6
 msgid "game.download.soundtrack.page_title"
-msgstr "Downloading soundtrack for {{ game }}"
+msgstr "Muat turun lagu permainan untuk {{ game }}"
 
 #: app/views/discover/games/view/scores/list/list-controller.js:3
 msgid "game.scores.page_title"
-msgstr "Scores for {{ game }}"
+msgstr "Skor untuk {{ game }}"
 
 #: app/views/discover/games/view/trophies/list/list-controller.js:5
 msgid "game.trophies.page_title"
-msgstr "Trophies for {{ game }}"
+msgstr "Piala untuk {{ game }}"
 
 #: app/views/discover/games/list/category/category-controller.js:66
 msgid "games.list.date_page_title"
-msgstr "Games Published on {{ date }}"
+msgstr "Permainan Diterbit dalam {{ date }}"
 
 #: app/views/discover/games/list/category/category-controller.js:71
 msgid "games.list.date_range_page_title"
-msgstr "Games Published Between {{ dateStart }} and {{ dateEnd }}"
+msgstr "Permainan Diterbit Antara {{ dateStart }} and {{ dateEnd }}"
 
 #: app/views/discover/games/list/category/category-controller.js:106
 msgid "games.list.descriptive_category"
-msgstr "{{ category | lowercase }} games"
+msgstr "{{ category | lowercase }} permainan"
 
 #: app/views/discover/games/list/category/category-controller.js:101
 msgid "games.list.descriptive_category_other"
-msgstr "alt games and other weirdness"
+msgstr "permainan alt dan kepelikan lain"
 
 #: app/views/discover/games/list/category/category-controller.js:97
 msgid "games.list.descriptive_category_rpg"
-msgstr "role-playing games"
+msgstr "RPG"
 
 #: app/views/library/overview/overview-controller.js:5
 msgid "library.page_title"
-msgstr "Your Library of Games"
+msgstr "Perpustakaan Permainan Anda"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:83
 msgid "library.playlists.add_game_error_growl"
-msgstr "Error! Error! This game could not be added to the playlist."
+msgstr "Kesilapan! Permainan ini tidak dapat bertambah kepada senarai."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:84
 msgid "library.playlists.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:74
 msgid "library.playlists.add_game_success_growl"
-msgstr "You've added {{ game }} to {{ playlist }}. Nice!"
+msgstr "Anda telah bertambah {{ game }} kepada {{ playlist }}. Bagus!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:75
 msgid "library.playlists.add_game_success_growl_title"
-msgstr "Added Game"
+msgstr "Permainan Ditambah"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:103
 #: app/views/library/collection/listing/listing-controller.js:48
@@ -3583,7 +3580,7 @@ msgstr "Error! Error! This game could not be removed from the playlist."
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:104
 #: app/views/library/collection/listing/listing-controller.js:49
 msgid "library.playlists.remove_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:94
 #: app/views/library/collection/listing/listing-controller.js:40
@@ -3593,23 +3590,23 @@ msgstr "You have successfully removed {{ game }} from {{ playlist }}."
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:95
 #: app/views/library/collection/listing/listing-controller.js:41
 msgid "library.playlists.remove_game_success_growl_title"
-msgstr "Removed Game"
+msgstr "Buang Permainan"
 
 #: app/views/discover/news/list/list-controller.js:15
 msgid "news.list.all_page_title"
-msgstr "Latest Game News"
+msgstr "Berita Permainan Terkini"
 
 #: app/views/discover/news/list/list-controller.js:18
 msgid "news.list.followed_page_title"
-msgstr "Followed Game News"
+msgstr "Permainan Berita Diikuti"
 
 #: app/views/discover/news/list/list-controller.js:24
 msgid "news.list.released_page_title"
-msgstr "Released Game News"
+msgstr "Berita Permainan yang Dikeluar"
 
 #: app/views/discover/news/list/list-controller.js:21
 msgid "news.list.wip_page_title"
-msgstr "Development News"
+msgstr "Berita Kemajuan"
 
 #: app/components/notifications/popover/popover-directive.js:84
 #: app/views/dashboard/activity/list/list-controller.js:77
@@ -3622,84 +3619,84 @@ msgstr "Are you sure you want to mark the filtered notifications as read?"
 
 #: app/views/dashboard/activity/list/list-controller.js:29
 msgid "notifications.comment_replies_label"
-msgstr "Comment Replies"
+msgstr "Jawab Komen"
 
 #: app/views/dashboard/activity/list/list-controller.js:33
 msgid "notifications.forum_posts_label"
-msgstr "Forum Posts"
+msgstr "Forum Terbitan"
 
 #: app/views/dashboard/activity/list/list-controller.js:49
 msgid "notifications.game_follows_label"
-msgstr "Game Follows"
+msgstr "Ikuti Permainan"
 
 #: app/views/dashboard/activity/list/list-controller.js:25
 msgid "notifications.game_news_label"
-msgstr "News Updates"
+msgstr "Berita Kemaskini"
 
 #: app/views/dashboard/activity/list/list-controller.js:45
 msgid "notifications.game_ratings_label"
-msgstr "Game Ratings"
+msgstr "Penaraf Permainan"
 
 #: app/views/dashboard/activity/list/list-controller.js:41
 msgid "notifications.new_comments_label"
-msgstr "New Comments"
+msgstr "Komen Baru"
 
 #: app/views/dashboard/activity/list/list-controller.js:37
 msgid "notifications.new_friends_label"
-msgstr "New Friends"
+msgstr "Kawan Baru"
 
 #: app/components/rating/widget/widget.html:21
 msgid "rating.clear"
-msgstr "Clear Rating"
+msgstr "Bersihkan Penarafan"
 
 #: app/components/rating/widget/widget-directive.js:26
 msgid "rating.five"
-msgstr "Perfecto!"
+msgstr "Sempurna!"
 
 #: app/components/rating/widget/widget-directive.js:25
 msgid "rating.four"
-msgstr "Great"
+msgstr "Bagus"
 
 #: app/components/rating/widget/widget-directive.js:22
 msgid "rating.one"
-msgstr "Terrible"
+msgstr "Rosak"
 
 #: app/components/rating/widget/widget-directive.js:24
 msgid "rating.three"
-msgstr "Good"
+msgstr "Baik"
 
 #: app/components/rating/widget/widget-directive.js:23
 msgid "rating.two"
-msgstr "Meh"
+msgstr "Memuaskan"
 
 #: app/views/search/results/results-controller.js:11
 msgid "search.page_title"
-msgstr "Search Game Jolt"
+msgstr "Cari Game Jollt"
 
 #: app/views/search/results/results-controller.js:15
 msgid "search.results.page_title"
-msgstr "Search results for \"{{ query }}\""
+msgstr "Keputusan cari untuk \"{{ query }}\""
 
 #: app/views/discover/news/news-controller.js:10
 #: app/views/library/collection/collection-controller.js:27
 msgid "sorting.hot"
-msgstr "Hottest"
+msgstr "Terpanas"
 
 #: app/views/discover/news/news-controller.js:11
 #: app/views/library/collection/collection-controller.js:21
 #: app/views/library/collection/collection-controller.js:28
 msgid "sorting.new"
-msgstr "Newest"
+msgstr "Terbaru"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
-msgstr "Bronze"
+msgstr "Gangsa"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
-msgstr "Gold"
+msgstr "Emas"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
@@ -3709,7 +3706,7 @@ msgstr "Platinum"
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
-msgstr "Silver"
+msgstr "Perak"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:15
 msgid "dash.email_prefs.notify_comment_replies_help"
@@ -3717,7 +3714,7 @@ msgstr "Get emails about replies in comment threads you're watching or to which 
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:14
 msgid "dash.email_prefs.notify_comment_replies_label"
-msgstr "Comment Replies"
+msgstr "Jawab Komen"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:40
 msgid "dash.email_prefs.notify_comments_help"
@@ -3725,7 +3722,7 @@ msgstr "Get emails about new comments on things you've posted, such as a game or
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:39
 msgid "dash.email_prefs.notify_comments_label"
-msgstr "New Comments"
+msgstr "Komen Baru"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:25
 msgid "dash.email_prefs.notify_followed_game_updates_help"
@@ -3733,7 +3730,7 @@ msgstr "Get emails about news updates on games you're following."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:24
 msgid "dash.email_prefs.notify_followed_game_updates_label"
-msgstr "Updates to Followed Games"
+msgstr "Kemaskini untuk Mengikut Permainan"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:20
 msgid "dash.email_prefs.notify_forum_posts_help"
@@ -3741,7 +3738,7 @@ msgstr "Get emails about forum posts in topics you're watching or which you crea
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:19
 msgid "dash.email_prefs.notify_forum_posts_label"
-msgstr "Forum Posts"
+msgstr "Forum Terbitan"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:30
 msgid "dash.email_prefs.notify_friendships_help"
@@ -3749,7 +3746,7 @@ msgstr "Get emails about incoming and accepted friend requests."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:29
 msgid "dash.email_prefs.notify_friendships_label"
-msgstr "Friend Requests"
+msgstr "Kawan Permintaan"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:50
 msgid "dash.email_prefs.notify_game_follows_help"
@@ -3757,7 +3754,7 @@ msgstr "Get emails when people follow your games and find out who they are."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:49
 msgid "dash.email_prefs.notify_game_follows_label"
-msgstr "Game Follows"
+msgstr "Ikuti Permainan"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:35
 msgid "dash.email_prefs.notify_private_messages_help"
@@ -3765,7 +3762,7 @@ msgstr "Get emails when friends private message you and you're offline."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:34
 msgid "dash.email_prefs.notify_private_messages_label"
-msgstr "Chat Messages"
+msgstr "Mesej Berbual"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:45
 msgid "dash.email_prefs.notify_ratings_help"
@@ -3773,7 +3770,7 @@ msgstr "Get emails when your games have been rated--and find out what ratings th
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:44
 msgid "dash.email_prefs.notify_ratings_label"
-msgstr "Game Ratings"
+msgstr "Penilai Permainan"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:3
 msgid "dash.funds.withdraw.page_title"
@@ -3793,11 +3790,11 @@ msgstr "Your game has been added and can now be managed from your dashboard."
 
 #: app/views/dashboard/developer/games/add/add-controller.js:9
 msgid "dash.games.add.add_growl_title"
-msgstr "Game Added"
+msgstr "Permainan Ditambah"
 
 #: app/views/dashboard/developer/games/add/add-controller.js:3
 msgid "dash.games.add.page_title"
-msgstr "Add Game"
+msgstr "Tambah Permainan"
 
 #: app/views/dashboard/developer/games/manage/manage.html:49
 msgid "dash.games.api_tooltip"
@@ -3805,31 +3802,31 @@ msgstr "Manage your game's API integration (trophies, scoreboards, data storage,
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:3
 msgid "dash.games.edit.page_title"
-msgstr "Edit Details for {{ game }}"
+msgstr "Mengubahkan Maklumat untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:15
 msgid "dash.games.edit.save_growl"
-msgstr "Your game details have been saved."
+msgstr "Maklumat permainan anda telah diubahkan."
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:16
 msgid "dash.games.edit.save_growl_title"
-msgstr "Game Details Saved"
+msgstr "Maklumat Permainan Diubah"
 
 #: app/views/dashboard/developer/games/manage/game/header/header-controller.js:3
 msgid "dash.games.header.page_title"
-msgstr "Edit Header for {{ game }}"
+msgstr "Mengubahkan Imej Kepala untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/header/header-controller.js:20
 msgid "dash.games.header.saved_growl"
-msgstr "Your game page's header has been updated."
+msgstr "Imej kepala permainan anda telah dikemaskinikan."
 
 #: app/views/dashboard/developer/games/manage/game/header/header-controller.js:21
 msgid "dash.games.header.saved_growl_title"
-msgstr "Header Saved"
+msgstr "Imej Kepala Diubah"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:3
 msgid "dash.games.maturity.page_title"
-msgstr "Edit Maturity Rating for {{ game }}"
+msgstr "Mengubahkan Penaraf Kematangan untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:8
 msgid "dash.games.maturity.saved_growl"
@@ -3837,7 +3834,7 @@ msgstr "Your game's maturity information has been updated."
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:9
 msgid "dash.games.maturity.saved_growl_title"
-msgstr "Maturity Rating Saved"
+msgstr "Penarafan Kematangan Diubahkan"
 
 #: app/views/dashboard/developer/games/manage/manage.html:29
 msgid "dash.games.media_tooltip"
@@ -3845,7 +3842,7 @@ msgstr "Manage screenshots, images, and videos for your game."
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:85
 msgid "dash.games.media.edit_image_button"
-msgstr "Edit Image"
+msgstr "Mengubahkan Imej"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:88
 msgid "dash.games.media.edit_video_button"
@@ -3853,7 +3850,7 @@ msgstr "Edit Video"
 
 #: app/views/dashboard/developer/games/manage/media/image/image-controller.js:3
 msgid "dash.games.media.image.page_title"
-msgstr "Image Details - {{ game }}"
+msgstr "Maklumat Imej - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/image/image-controller.js:11
 msgid "dash.games.media.image.remove_confirmation"
@@ -3861,23 +3858,23 @@ msgstr "Are you sure you want to remove this image?"
 
 #: app/views/dashboard/developer/games/manage/media/image/image-controller.js:18
 msgid "dash.games.media.image.removed_growl"
-msgstr "The image has been removed."
+msgstr "Imej telah dibuang."
 
 #: app/views/dashboard/developer/games/manage/media/image/image-controller.js:19
 msgid "dash.games.media.image.removed_growl_title"
-msgstr "Image Removed"
+msgstr "Imej Dibuang"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:95
 msgid "dash.games.media.remove_image_button"
-msgstr "Remove Image"
+msgstr "Buang Imej"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:98
 msgid "dash.games.media.remove_video_button"
-msgstr "Remove Video"
+msgstr "Buang Video"
 
 #: app/views/dashboard/developer/games/manage/media/video/video-controller.js:3
 msgid "dash.games.media.video.page_title"
-msgstr "Video Details - {{ game }}"
+msgstr "Maklumat Video - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/video/video-controller.js:11
 msgid "dash.games.media.video.remove_confirmation"
@@ -3885,27 +3882,27 @@ msgstr "Are you sure you want to remove this video?"
 
 #: app/views/dashboard/developer/games/manage/media/video/video-controller.js:18
 msgid "dash.games.media.video.removed_growl"
-msgstr "The video has been removed."
+msgstr "Video telah dibuang."
 
 #: app/views/dashboard/developer/games/manage/media/video/video-controller.js:19
 msgid "dash.games.media.video.removed_growl_title"
-msgstr "Video Removed"
+msgstr "Video Dibuang"
 
 #: app/views/dashboard/developer/games/manage/manage.html:44
 msgid "dash.games.music_tooltip"
-msgstr "Upload your game's soundtrack."
+msgstr "Muat naik lagu permainan anda."
 
 #: app/components/forms/dashboard/game/song/song-directive.js:26
 msgid "dash.games.music.form.add_file_label"
-msgstr "Song File"
+msgstr "Fail Lagu"
 
 #: app/components/forms/dashboard/game/song/song-directive.js:29
 msgid "dash.games.music.form.change_file_label"
-msgstr "Change Song File"
+msgstr "Mengubahkan Fail Lagu"
 
 #: app/views/dashboard/developer/games/manage/manage.html:39
 msgid "dash.games.news_tooltip"
-msgstr "Manage news updates for your game."
+msgstr "Menguruskan berita untuk permainan anda."
 
 #: app/views/dashboard/developer/games/manage/news/add/add-controller.js:8
 msgid "dash.games.news.add.added_growl"
@@ -3913,23 +3910,23 @@ msgstr "You posted a news update. Good job! Your game's followers have been noti
 
 #: app/views/dashboard/developer/games/manage/news/add/add-controller.js:9
 msgid "dash.games.news.add.added_growl_title"
-msgstr "Update Posted"
+msgstr "Kemaskini Diterbitkan"
 
 #: app/views/dashboard/developer/games/manage/news/add/add-controller.js:3
 msgid "dash.games.news.add.page_title"
-msgstr "Add News"
+msgstr "Tambah Berita"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:6
 msgid "dash.games.news.article.edit.page_title"
-msgstr "Edit {{ article }}"
+msgstr "Mengubahkan {{ article }}"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:11
 msgid "dash.games.news.article.edit.save_growl"
-msgstr "Your news update has, itself, been updated."
+msgstr "Berita anda sudah dikemaskinikan."
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:12
 msgid "dash.games.news.article.edit.save_growl_title"
-msgstr "Update Saved"
+msgstr "Kemaskini Diubahkan"
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:13
 msgid "dash.games.news.article.remove_confirmation"
@@ -3941,11 +3938,11 @@ msgstr "The news update has been removed from the site."
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:22
 msgid "dash.games.news.article.remove_growl_title"
-msgstr "News Update Removed"
+msgstr "Berita Dibuang"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:6
 msgid "dash.games.overview.page_title"
-msgstr "Manage {{ game }}"
+msgstr "Menguruskan {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:9
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:112
@@ -3955,35 +3952,35 @@ msgstr "You've published your game to the site! Huzzah! Remember to spread the w
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:10
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:113
 msgid "dash.games.overview.published_growl_title"
-msgstr "Game Published"
+msgstr "Permainan Diterbitkan"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:86
 msgid "dash.games.overview.todo_api_progress"
-msgstr "API Integration"
+msgstr "API Intergrasi"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:85
 msgid "dash.games.overview.todo_api_title"
-msgstr "Integrate with Game Jolt through the Game API."
+msgstr "Menyepadukan dengan Game Jolt dengan API permainan."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:59
 msgid "dash.games.overview.todo_builds_extra_wip"
-msgstr "Upload your game when it's in a playable state."
+msgstr "Muat naik permainan anda apabila ia boleh dimainkan."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:60
 msgid "dash.games.overview.todo_builds_progress"
-msgstr "Builds/Files"
+msgstr "Build/Fail"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:58
 msgid "dash.games.overview.todo_builds_title"
-msgstr "Upload game builds/files."
+msgstr "Muat naik permainan build/fail."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:35
 msgid "dash.games.overview.todo_header_progress"
-msgstr "Page Header"
+msgstr "Kepala Muka"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:34
 msgid "dash.games.overview.todo_header_title"
-msgstr "Add a page header image."
+msgstr "Tambah satu imej kepala muka."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:65
 msgid "dash.games.overview.todo_info_html"
@@ -3991,7 +3988,7 @@ msgstr "Before you can publish your game, you must at least add a <a href=\"{{ t
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:92
 msgid "dash.games.overview.todo_info_publish_button_tooltip"
-msgstr "Ohhhh, yeah!"
+msgstr "Ohhh, yes!!"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:59
 msgid "dash.games.overview.todo_info_wip_html"
@@ -3999,23 +3996,23 @@ msgstr "Before you can publish your game, you must at least add a <a href=\"{{ t
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:51
 msgid "dash.games.overview.todo_maturity_progress"
-msgstr "Maturity Rating"
+msgstr "Penarafan Kementangan"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:50
 msgid "dash.games.overview.todo_maturity_title"
-msgstr "Set the maturity rating."
+msgstr "Set penarafan Kementangan."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:43
 msgid "dash.games.overview.todo_media_progress"
-msgstr "Game Media"
+msgstr "Media Permainan"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:42
 msgid "dash.games.overview.todo_media_title"
-msgstr "Add images and videos."
+msgstr "Tambah imej dan video."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:78
 msgid "dash.games.overview.todo_news_progress"
-msgstr "News Update"
+msgstr "Berita Kemas Kini"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:77
 msgid "dash.games.overview.todo_news_title"
@@ -4023,19 +4020,19 @@ msgstr "Post your first news update (when you have something newsworthy, of cour
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:70
 msgid "dash.games.overview.todo_songs_progress"
-msgstr "Soundtrack"
+msgstr "Lagu permainan"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:69
 msgid "dash.games.overview.todo_songs_title"
-msgstr "Add the soundtrack."
+msgstr "Tambah lagu permainan."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:27
 msgid "dash.games.overview.todo_thumbnail_progress"
-msgstr "Thumbnail Image"
+msgstr "Imej Thumbnail"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:26
 msgid "dash.games.overview.todo_thumbnail_title"
-msgstr "Add a thumbnail image."
+msgstr "Tembah imej thumbnail."
 
 #: app/views/dashboard/developer/games/manage/manage.html:34
 msgid "dash.games.packages_tooltip"
@@ -4043,23 +4040,23 @@ msgstr "Upload files and manage your game packages."
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:3
 msgid "dash.games.packages.edit.page_title"
-msgstr "Edit Package {{ package }} - {{ game }}"
+msgstr "Ubah Pakej {{ pakage }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:11
 msgid "dash.games.packages.edit.saved_growl"
-msgstr "Your package has been updated."
+msgstr "Pakej anda telah dikemaskini."
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:12
 msgid "dash.games.packages.edit.saved_growl_title"
-msgstr "Package Saved"
+msgstr "Pakej dikemaskini"
 
 #: app/components/forms/dashboard/game/package/package.html:51
 msgid "dash.games.packages.form.add_package_button"
-msgstr "Add Package"
+msgstr "Tambah Pakej"
 
 #: app/components/forms/dashboard/game/package/package.html:52
 msgid "dash.games.packages.form.save_package_button"
-msgstr "Save Package"
+msgstr "Mengemaskini Pakej"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:18
 msgid "dash.games.packages.manage.remove_confirmation"
@@ -4067,19 +4064,19 @@ msgstr "Are you sure you want to remove this package? All of the releases and bu
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:27
 msgid "dash.games.packages.manage.removed_growl"
-msgstr "The game package has been removed."
+msgstr "Pakej permainan telah dibuang."
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:28
 msgid "dash.games.packages.manage.removed_growl_title"
-msgstr "Package Removed"
+msgstr "Pakej Dibuang."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:64
 msgid "dash.games.releases.builds.incomplete_tag_tooltip"
-msgstr "We don't know how to auto-run your build! Please set its launch options."
+msgstr "Kami tidakbtahu bagaimana berjalan build anda. Sila set pilih pelancaran."
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:13
 msgid "dash.games.releases.builds.launch_options.form.file_selector_tooltip"
-msgstr "Browse file list."
+msgstr "Cari senarai fail."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:52
 msgid "dash.games.releases.builds.linux_64_tag"
@@ -4103,19 +4100,19 @@ msgstr "Other"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:8
 msgid "dash.games.releases.builds.page_title"
-msgstr "Builds in {{ release }} - {{ package }} - {{ game }}"
+msgstr "Build dalam {{ release }} - {{ package }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:166
 msgid "dash.games.releases.builds.remove_build_confirmation"
-msgstr "Are you sure you want to remove this build?"
+msgstr "Pastikan anda mahu buang build ini?"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:177
 msgid "dash.games.releases.builds.remove_build_growl"
-msgstr "The build has been removed from the release."
+msgstr "Build telah dibuang daripada keluaran."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:178
 msgid "dash.games.releases.builds.remove_build_growl_title"
-msgstr "Build Removed"
+msgstr "Build Dibuang"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:215
 msgid "dash.games.releases.builds.remove_extra_file_confirmation"
@@ -4131,23 +4128,23 @@ msgstr "Win"
 
 #: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:4
 msgid "dash.games.releases.edit.page_title"
-msgstr "Edit Release {{ release }} - {{ package }} - {{ game }}"
+msgstr "Mengubah Keluaran {{ release }} - {{ package }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:13
 msgid "dash.games.releases.edit.saved_growl"
-msgstr "The release has been updated."
+msgstr "Keluaran sudah dikemaskini."
 
 #: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:14
 msgid "dash.games.releases.edit.saved_growl_title"
-msgstr "Release Saved"
+msgstr "Keluaran Dikemaskini"
 
 #: app/components/forms/dashboard/game/release/release.html:28
 msgid "dash.games.releases.form.add_release_button"
-msgstr "Add Release"
+msgstr "Tambah Keluaran"
 
 #: app/components/forms/dashboard/game/release/release.html:29
 msgid "dash.games.releases.form.save_release_button"
-msgstr "Save Release"
+msgstr "Mengemaskini Keluaran"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:28
 msgid "dash.games.releases.manage.publish_release_confirmation"
@@ -4159,7 +4156,7 @@ msgstr "The release is now active on your game page."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:37
 msgid "dash.games.releases.manage.publish_release_growl_title"
-msgstr "Release Published"
+msgstr "Keluaran Diterbitkan"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:89
 msgid "dash.games.releases.manage.publish_release_tooltip"
@@ -4171,11 +4168,11 @@ msgstr "Are you sure you want to remove this release? All of its builds will be 
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:68
 msgid "dash.games.releases.manage.remove_release_growl"
-msgstr "The release and its builds have been removed from the package."
+msgstr "Keluaran dan buildnya telah dibuangkan daripada pakej ini."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:69
 msgid "dash.games.releases.manage.remove_release_growl_title"
-msgstr "Release Removed"
+msgstr "Keluaran Dibuang"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:44
 msgid "dash.games.releases.manage.unpublish_release_confirmation"
@@ -4187,7 +4184,7 @@ msgstr "The release has been unpublished and is now hidden."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:53
 msgid "dash.games.releases.manage.unpublish_release_growl_title"
-msgstr "Release Hidden"
+msgstr "Keluaran Bersembunyi"
 
 #: app/views/dashboard/developer/games/manage/manage-controller.js:13
 msgid "dash.games.remove_confirmation"
@@ -4199,7 +4196,7 @@ msgstr "Your game has been removed from the site. Maybe a phoenix will rise in i
 
 #: app/views/dashboard/developer/games/manage/manage-controller.js:22
 msgid "dash.games.removed_growl_title"
-msgstr "Game Removed"
+msgstr "Permainan Dibuang"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:66
 msgid "dash.games.scoreboards.asc_tooltip"
@@ -4211,7 +4208,7 @@ msgstr "Scores with higher values are ranked better/higher."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:52
 msgid "dash.games.scoreboards.guest_tooltip"
-msgstr "Allows guests to save their scores."
+msgstr "Membenarkan tetamu untuk simpan skor mereka"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:45
 msgid "dash.games.scoreboards.primary_tooltip"
@@ -4219,11 +4216,11 @@ msgstr "The primary scoreboard is displayed on your game page by default. If you
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:59
 msgid "dash.games.scoreboards.unique_tooltip"
-msgstr "Only displays a user's best score."
+msgstr "Melihatkan skor pengguna yang terbaik sahaja."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:10
 msgid "dash.games.scores.user.list.page_title"
-msgstr "View Scores for {{ user }} on {{ table }} - {{ game }}"
+msgstr "Lihatkan skor untuk {{ user }} dalam {{ table }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:23
 msgid "dash.games.scores.user.list.remove_confirmation"
@@ -4235,39 +4232,39 @@ msgstr "All of the user's scores have been removed from the scoreboard."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:35
 msgid "dash.games.scores.user.list.remove_growl_title"
-msgstr "Scores Removed"
+msgstr "Skor Dibuang"
 
 #: app/views/dashboard/developer/games/manage/game/settings/settings-controller.js:3
 msgid "dash.games.settings.page_title"
-msgstr "Settings for {{ game }}"
+msgstr "Tetapan untuk {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/settings/settings-controller.js:8
 msgid "dash.games.settings.save_growl"
-msgstr "Your game settings have been saved."
+msgstr "Permainan tetapan anda sudah mengemaskini."
 
 #: app/views/dashboard/developer/games/manage/game/settings/settings-controller.js:9
 msgid "dash.games.settings.save_growl_title"
-msgstr "Settings Saved"
+msgstr "Tetapan Dikemaskini"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail-controller.js:3
 msgid "dash.games.thumbnail.page_title"
-msgstr "Edit Thumbnail for {{ game }}"
+msgstr "Mengubahkan Thumbail untuk {{ game }}"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:56
 msgid "dash.games.thumbnail.save_button"
-msgstr "Save Thumbnail"
+msgstr "Mengubah Thumbnail"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail-controller.js:8
 msgid "dash.games.thumbnail.saved_growl"
-msgstr "Your game's thumbnail has been updated."
+msgstr "Thumbnail untuk permainan anda telah dikemaskini."
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail-controller.js:9
 msgid "dash.games.thumbnail.saved_growl_title"
-msgstr "Thumbnail Saved"
+msgstr "Thumbail Dikemaskini"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:55
 msgid "dash.games.thumbnail.upload_button"
-msgstr "Upload Thumbnail"
+msgstr "Muat naik Thumbnail"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tooltip"
@@ -4279,35 +4276,35 @@ msgstr "Making a trophy secret hides everything but its name until it is achieve
 
 #: app/views/dashboard/overview/overview-controller.js:40
 msgid "dash.integrate.got_score_html"
-msgstr "Get on a game's scoreboard."
+msgstr "Menaikkan anda kepada papan skor di satu permainan."
 
 #: app/views/dashboard/overview/overview-controller.js:39
 msgid "dash.integrate.got_trophy_html"
-msgstr "Achieve a trophy in a game."
+msgstr "Mendapat piala dalam satu permainan."
 
 #: app/views/dashboard/overview/overview-controller.js:42
 msgid "dash.integrate.has_facebook_html"
-msgstr "<a href=\"/dashboard/linked-accounts\">Link your Facebook account</a>."
+msgstr "<a href=\"/dashboard/linked-accounts\">Menghubungkan Facebook akaun anda</a>"
 
 #: app/views/dashboard/overview/overview-controller.js:41
 msgid "dash.integrate.has_friend_html"
-msgstr "Add your first friend."
+msgstr "Tambah kawan pertama anda."
 
 #: app/views/dashboard/overview/overview-controller.js:43
 msgid "dash.integrate.has_twitter_html"
-msgstr "<a href=\"/dashboard/linked-accounts\">Link your Twitter account</a>."
+msgstr "<a href=\"/dashboard/linked-accounts\">Menghubungkan Twitter akaun anda</a>."
 
 #: app/views/dashboard/overview/overview-controller.js:37
 msgid "dash.integrate.played_game_html"
-msgstr "Play a game."
+msgstr "Bermain permainan."
 
 #: app/views/dashboard/overview/overview-controller.js:38
 msgid "dash.integrate.rated_game_html"
-msgstr "Rate and comment on a game."
+msgstr "Menilaikan and komen dalam saru permainan."
 
 #: app/views/discover/games/view/overview/_details.html:66
 msgid "games.view.stats.rating_breakdown_tooltip"
-msgstr "Ratings breakdown."
+msgstr "Nilai satu demi satu."
 
 #: app/views/library/collection/collection-controller.js:86
 msgid "library.collection.bundle_page_title"
@@ -4315,11 +4312,11 @@ msgstr "{{ bundle }}"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.developer_page_title"
-msgstr "Games by {{ user }}"
+msgstr "Permainan dibuat oleh {{ user }}"
 
 #: app/views/library/collection/_header/controls.html:10
 msgid "library.collection.follow_button"
-msgstr "Follow"
+msgstr "Mengikuti"
 
 #: app/views/library/collection/_header/controls.html:6
 msgid "library.collection.follow_button_tooltip"
@@ -4327,11 +4324,11 @@ msgstr "Follow this playlist to add it to your library and be notified when new 
 
 #: app/views/library/collection/collection-controller.js:69
 msgid "library.collection.followed_page_title"
-msgstr "Games Followed by {{ user }}"
+msgstr "Permainan diikut oleh {{ user }}"
 
 #: app/views/library/collection/collection-controller.js:75
 msgid "library.collection.playlist_page_title"
-msgstr "{{ playlist }} by {{ user }}"
+msgstr "{{ playlist }} oleh {{ user }}"
 
 #: app/views/library/collection/collection-controller.js:90
 msgid "library.collection.tag_page_title"
@@ -4339,15 +4336,15 @@ msgstr "#{{ tag }}"
 
 #: app/views/library/collection/listing/listing-controller.js:19
 msgid "library.collection.thumbnail_control_playlist_tooltip"
-msgstr "Remove from playlist."
+msgstr "Buang dari senarai."
 
 #: app/views/library/collection/listing/listing-controller.js:24
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
-msgstr "Stop following."
+msgstr "Berhenti mengikut."
 
 #: app/views/library/collection/_header/controls.html:19
 msgid "library.collection.unfollow_button"
-msgstr "Following"
+msgstr "Mengikutkan"
 
 #: app/views/library/collection/_header/controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
@@ -4359,7 +4356,7 @@ msgstr "Uh-oh, something has prevented you from following this game."
 
 #: app/views/discover/games/view/view-controller.js:83
 msgid "library.followed.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl"
@@ -4367,11 +4364,11 @@ msgstr "You are now following {{ game }}. You'll be notified of news updates as 
 
 #: app/views/discover/games/view/view-controller.js:76
 msgid "library.followed.add_game_success_growl_title"
-msgstr "Game Followed"
+msgstr "Permainan Diikut"
 
 #: app/views/discover/games/view/_header/controls.html:9
 msgid "library.followed.follow_game_button"
-msgstr "Follow Game"
+msgstr "Mengikut Permainan"
 
 #: app/views/discover/games/view/_header/controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
@@ -4389,7 +4386,7 @@ msgstr "Uh-oh, something has prevented you from unfollowing this game."
 #: app/views/discover/games/view/view-controller.js:61
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/views/discover/games/view/view-controller.js:53
 #: app/views/library/collection/listing/listing-controller.js:66
@@ -4399,11 +4396,11 @@ msgstr "You have stopped following {{ game }} and will no longer receive notific
 #: app/views/discover/games/view/view-controller.js:54
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
-msgstr "Game Unfollowed"
+msgstr "Permainan Berhenti Mengikuti"
 
 #: app/views/discover/games/view/_header/controls.html:19
 msgid "library.followed.unfollow_game_button"
-msgstr "Following"
+msgstr "Mengikuti"
 
 #: app/views/discover/games/view/_header/controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
@@ -4423,7 +4420,7 @@ msgstr "Error! Error! Unable to unfollow this playlist."
 
 #: app/views/library/collection/collection-controller.js:220
 msgid "library.playlists.remove_playlist_error_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/views/library/collection/collection-controller.js:212
 msgid "library.playlists.remove_playlist_success_growl"
@@ -4431,7 +4428,7 @@ msgstr "You have successfully unfollowed {{ playlist }}."
 
 #: app/views/library/collection/collection-controller.js:213
 msgid "library.playlists.remove_playlist_success_growl_title"
-msgstr "Playlist Unfollowed"
+msgstr "Senarai Berhenti Mengikut"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
@@ -4455,11 +4452,11 @@ msgstr "posted a new reply to <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:8
 msgid "notifications.friendship_accepted_title_html"
-msgstr "accepted your friend request."
+msgstr "Menerima kawan perminataan anda."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:7
 msgid "notifications.friendship_request_title_html"
-msgstr "sent you a friend request."
+msgstr "Menghantar kawan permintaan kepada anda."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
@@ -4479,31 +4476,31 @@ msgstr "commented on <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:9
 msgid "notifications.rating_title_html"
-msgstr "received a new rating."
+msgstr "menerima nilai yang baru."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:33
 msgid "notifications.rating_title_popover_html"
-msgstr "received a rating of <strong>{{ rating }}</strong>."
+msgstr "menerima nilai yang bernilai <strong{{ rating }}</strong>"
 
 #: app/views/profile/overview/overview.html:64
 msgid "profile.friend_request_decline_tooltip"
-msgstr "The sender will not be notified."
+msgstr "Pehantar tidak akan diberitahu."
 
 #: app/views/profile/profile.html:38
 msgid "profile.friend_tooltip"
-msgstr "You are friends! Awwww!"
+msgstr "Kalian adalah kawan! Awwww!"
 
 #: app/views/profile/profile.html:52
 msgid "profile.in_game_tooltip"
-msgstr "This user is currently playing a game."
+msgstr "Pengguna ini sedang bermain."
 
 #: app/views/profile/profile.html:43
 msgid "profile.offline_tooltip"
-msgstr "This user is currently offline."
+msgstr "Pengguna ini sekarang dalam talian."
 
 #: app/views/profile/profile.html:47
 msgid "profile.online_tooltip"
-msgstr "This user is currently online."
+msgstr "Pengguna ini sekarang luar talian."
 
 #: app/views/profile/profile.html:83
 msgid "profile.website_tooltip"
@@ -4512,19 +4509,19 @@ msgstr "Visit Developer's Web Site"
 #: app/views/library/collection/collection-controller.js:22
 #: app/views/library/collection/collection-controller.js:26
 msgid "sorting.best"
-msgstr "Highest Rated"
+msgstr "Nilai Tertinggi"
 
 #: app/views/discover/games/list/category/category-controller.js:9
 msgid "discover.categories.action"
-msgstr "Action"
+msgstr "Tindakan"
 
 #: app/views/discover/games/list/category/category-controller.js:10
 msgid "discover.categories.adventure"
-msgstr "Adventure"
+msgstr "Pengembaraan"
 
 #: app/views/discover/games/list/category/category-controller.js:7
 msgid "discover.categories.all"
-msgstr "All"
+msgstr "Semua"
 
 #: app/views/discover/games/list/category/category-controller.js:8
 msgid "discover.categories.arcade"
@@ -4532,15 +4529,15 @@ msgstr "Arcade"
 
 #: app/views/discover/games/list/category/category-controller.js:17
 msgid "discover.categories.other"
-msgstr "Other"
+msgstr "Lain"
 
 #: app/views/discover/games/list/category/category-controller.js:11
 msgid "discover.categories.platformer"
-msgstr "Platformer"
+msgstr "Platform"
 
 #: app/views/discover/games/list/category/category-controller.js:12
 msgid "discover.categories.puzzle"
-msgstr "Puzzle"
+msgstr "Teka-teki"
 
 #: app/views/discover/games/list/category/category-controller.js:13
 msgid "discover.categories.rpg"
@@ -4548,15 +4545,15 @@ msgstr "RPG"
 
 #: app/views/discover/games/list/category/category-controller.js:14
 msgid "discover.categories.shooter"
-msgstr "Shooter"
+msgstr "Menembak"
 
 #: app/views/discover/games/list/category/category-controller.js:15
 msgid "discover.categories.sports"
-msgstr "Sports"
+msgstr "Sukan"
 
 #: app/views/discover/games/list/category/category-controller.js:16
 msgid "discover.categories.strategy_sim"
-msgstr "Strategy/Sim"
+msgstr "Strategi"
 
 #: app/views/discover/games/list/category/category-controller.js:19
 msgid "games.list.page_title"
@@ -4576,7 +4573,7 @@ msgstr "Couldn't find that image. Maybe it was removed."
 
 #: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
@@ -4584,36 +4581,36 @@ msgstr "Couldn't find that video. Maybe it was removed."
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
-msgstr "Oh no!"
+msgstr "Tidak!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
-msgstr "All"
+msgstr "Semua"
 
 #: app/views/discover/games/list/category/category-controller.js:27
 msgid "games.list.section_best"
-msgstr "The Best"
+msgstr "Terbaik"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
-msgstr "Featured"
+msgstr "Bercirikan"
 
 #: app/views/discover/games/list/category/category-controller.js:25
 msgid "games.list.section_fresh"
-msgstr "Fresh"
+msgstr "Segar"
 
 #: app/views/discover/games/list/category/category-controller.js:26
 msgid "games.list.section_hot"
-msgstr "Hot"
+msgstr "Panas"
 
 #: app/views/discover/games/list/category/category-controller.js:24
 msgid "games.list.section_new"
-msgstr "Newly Added"
+msgstr "Baru"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] ""
+msgstr[0] "1 build"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -4621,7 +4618,7 @@ msgstr[0] ""
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] ""
+msgstr[0] "1 permainan"
 
 #: app/components/post/grid/grid.html:34
 #: app/components/post/list/list.html:31
@@ -4629,38 +4626,38 @@ msgstr[0] ""
 #: app/views/discover/games/view/news/view/view.html:15
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
-msgstr[0] ""
+msgstr[0] "1 komen"
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
-msgstr[0] ""
+msgstr[0] "1 Berita"
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
-msgstr[0] ""
+msgstr[0] "+1 pemberitahuan"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
-msgstr "Contact"
+msgstr "Hubungi"
+
+#: app/components/shell/footer/footer.html:13
+msgid "footer.tagline"
+msgstr "Terlalu banyak permainan... dan mengira!"
 
 #: app/components/shell/footer/footer.html:26
-msgid "footer.tagline"
-msgstr "Too many games... and counting!"
-
-#: app/components/shell/footer/footer.html:22
 msgid "footer.translations"
-msgstr "Translations are a community project."
+msgstr "Penterjemahan adalah projek komuniti."
 
-#: app/components/shell/footer/footer.html:23
+#: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
-msgstr "Help translate!"
+msgstr "Tolong menterjemahkan!"
 
 #: app/components/game/filtering/filtering-service.js:17
 msgid "games.filtering.browser"
-msgstr "Browser"
+msgstr "Pelayar"
 
 #: app/components/game/filtering/filtering-service.js:23
 msgid "games.filtering.browser_applet"
@@ -4676,7 +4673,7 @@ msgstr "HTML"
 
 #: app/components/game/filtering/filtering-service.js:24
 msgid "games.filtering.browser_silverlight"
-msgstr "Silverlight"
+msgstr "Sliverlight"
 
 #: app/components/game/filtering/filtering-service.js:22
 msgid "games.filtering.browser_unity"
@@ -4684,19 +4681,19 @@ msgstr "Unity"
 
 #: app/components/game/filtering/filtering-service.js:28
 msgid "games.filtering.maturity"
-msgstr "Maturity"
+msgstr "Kemantangan"
 
 #: app/components/game/filtering/filtering-service.js:33
 msgid "games.filtering.maturity_adult"
-msgstr "Adult Content"
+msgstr "Kandungan Dewasa"
 
 #: app/components/game/filtering/filtering-service.js:31
 msgid "games.filtering.maturity_everyone"
-msgstr "All Ages"
+msgstr "Semua Umur"
 
 #: app/components/game/filtering/filtering-service.js:32
 msgid "games.filtering.maturity_teen"
-msgstr "Teen Content"
+msgstr "Kandungan Remaja"
 
 #: app/components/game/filtering/filtering-service.js:7
 msgid "games.filtering.os"
@@ -4712,7 +4709,7 @@ msgstr "Mac"
 
 #: app/components/game/filtering/filtering-service.js:13
 msgid "games.filtering.os_other"
-msgstr "Other"
+msgstr "Lain"
 
 #: app/components/game/filtering/filtering-service.js:10
 msgid "games.filtering.os_windows"
@@ -4724,24 +4721,24 @@ msgstr "Status"
 
 #: app/components/game/filtering/filtering-service.js:42
 msgid "games.filtering.status_canceled"
-msgstr "Canceled"
+msgstr "Dibatalkan"
 
 #: app/components/game/filtering/filtering-service.js:40
 msgid "games.filtering.status_complete"
-msgstr "Complete"
+msgstr "Habis"
 
 #: app/components/game/filtering/filtering-service.js:41
 msgid "games.filtering.status_wip"
-msgstr "Work in Progress"
+msgstr "Kerja Dalam Proses"
 
 #: app/views/discover/games/view/view.html:18
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
-msgstr[0] ""
+msgstr[0] "1 Berita"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.amount_help"
-msgstr "The minimum amount you can withdraw at this time is {{ amount | currency:'$' }}."
+msgstr "Amaun minimum yang anda boleh menarik diri pada masa ini ialah {{ amount | currency:'$' }}."
 
 #: app/components/forms/dashboard/game/song/song.html:15
 msgid "dash.games.music.form.file_help_block"
@@ -4749,19 +4746,19 @@ msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per fi
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:34
 msgid "dash.games.news.posted_on"
-msgstr "Posted on: {{ date | date:'medium' }}"
+msgstr "Pada masa: {{ date | date:'medium' }}"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
 msgid "dash.games.packages.manage.releases.release_title"
-msgstr "Release {{ version }}"
+msgstr "Keluaran {{ version }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
 msgid "dash.games.trophies.add_button"
-msgstr "Add {{ difficulty }} Trophy"
+msgstr "Tambah {{ difficulty }} Piala"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
 msgid "dash.games.trophies.no_trophies"
-msgstr "No {{ difficulty | lowercase }} trophies added yet."
+msgstr "Tiada {{ difficulty | lowercase}} piala ditambah."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
 msgid "dash.games.trophies.section_heading"
@@ -4769,23 +4766,23 @@ msgstr "{{ difficulty }} Trophies"
 
 #: app/views/discover/games/view/download/build/build.html:13
 msgid "game.download.game.downloading_label"
-msgstr "Downloading {{ game }}..."
+msgstr "Muat turun {{ game }}..."
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
 msgid "game.download.soundtrack.downloading_label"
-msgstr "Downloading soundtrack..."
+msgstr "Muat turun lagu..."
 
 #: app/views/discover/games/list/list.html:27
 msgid "games.list.date_heading_small"
-msgstr "on {{ date }}"
+msgstr "Dalam {{ date }}"
 
 #: app/views/discover/games/list/list.html:31
 msgid "games.list.date_range_heading_small"
-msgstr "between {{ dateStart }} and {{ dateEnd }}"
+msgstr "Antara {{ dateStart }} dan {{ dateEnd }}"
 
 #: app/components/game/thumbnail/thumbnail.html:30
 msgid "games.thumbnail.ratings"
-msgstr "{{ count | number }} rating(s)"
+msgstr "{{ count | number }} nilai"
 
 #: app/views/library/collection/_header-default.html:88
 msgid "library.collection.bundle_heading"
@@ -4801,57 +4798,57 @@ msgstr "#{{ tag }}"
 
 #: app/components/game/collection/grid/grid.html:41
 msgid "library.playlists.subscription_developer_description"
-msgstr "Games made by {{ user }}."
+msgstr "Permainan dibuat oleh {{ user }}"
 
 #: app/components/game/collection/grid/grid.html:37
 msgid "library.playlists.subscription_followed_description"
-msgstr "Games followed by {{ user }}."
+msgstr "Permainan diikuti oleh {{ user }}"
 
 #: app/components/activity/feed/feed.html:50
 msgid "notifications.rating_details_title"
-msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+msgstr "{{ rating }} adalah nombor anda akan menerima, nombor yang anda menerima ialah {{ rating }}"
 
 #: app/views/profile/overview/overview.html:127
 msgid "profile.developer_games_teaser_button"
-msgstr "View All ({{ gamesCount | number }})"
+msgstr "Lihat Semua ({{ gamesCount | number}})"
 
 #: app/views/profile/overview/overview.html:59
 msgid "profile.friend_request_received_pending"
-msgstr "{{ user }} would like to be your friend."
+msgstr "{{ user }} mahu menjadi kawan anda."
 
 #: app/views/profile/overview/overview.html:49
 msgid "profile.friend_request_sent_pending"
-msgstr "Friend request to {{ user }} pending acceptance."
+msgstr "Permintaan Kawan kepada {{ user }} sementara menunggu penerimaan."
 
 #: app/components/score/overview/overview.html:93
 msgid "scores.overview.user_best_exp_tooltip"
-msgstr "{{ experience | number }} EXP gained from this score!"
+msgstr "{{ experience | number }} EXP mendapat daripada skor ini!"
 
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
-msgstr "+{{ extraCount | number }} more"
+msgstr "+{{ extraCount | number }} lebih"
 
 #: app/components/forms/settings/settings.html:52
 msgid "settings.autostart_client_label"
-msgstr "Start when Windows starts?"
+msgstr "Bermula apabila Windows bermula?"
 
 #: app/components/forms/settings/settings.html:12
 msgid "settings.change_location_button"
-msgstr "Change Location"
+msgstr "Mengubah Lokasi"
 
 #: app/components/forms/settings/settings.html:59
 #: app/views/settings/settings.html:24
 msgid "settings.chat"
-msgstr "Chat"
+msgstr "Berbual"
 
 #: app/components/forms/settings/settings.html:61
 msgid "settings.chat_notify_friends_online_label"
-msgstr "Get notifications when friends go online/offline?"
+msgstr "Ambil pemberitahuan apabila kawan dalam/luar talian?"
 
 #: app/components/forms/settings/settings.html:4
 #: app/views/settings/settings.html:21
 msgid "settings.client"
-msgstr "Client"
+msgstr "Pelanggan"
 
 #: app/components/forms/settings/settings.html:7
 msgid "settings.game_install_dir_help"
@@ -4859,15 +4856,15 @@ msgstr "This is the directory on your computer that games will install into."
 
 #: app/components/forms/settings/settings.html:6
 msgid "settings.game_install_dir_label"
-msgstr "Installed Games Directory"
+msgstr "Direktori Permainan Dipasang"
 
 #: app/views/settings/settings.html:6
 msgid "settings.heading"
-msgstr "Settings"
+msgstr "Tetapan"
 
 #: app/components/forms/settings/settings.html:24
 msgid "settings.limit_downloads_label"
-msgstr "Limit simultaneous downloads?"
+msgstr "Mengehadkan serentak muat turun?"
 
 #: app/components/forms/settings/settings.html:36
 msgid "settings.limit_extractions_help"
@@ -4875,35 +4872,35 @@ msgstr "An extraction is when the game is unpacked and installed after downloadi
 
 #: app/components/forms/settings/settings.html:35
 msgid "settings.limit_extractions_label"
-msgstr "Limit simultaneous extractions?"
+msgstr "Mengehadkan serentak pengekstrakan?"
 
 #: app/components/forms/settings/settings.html:30
 msgid "settings.max_download_count_help"
-msgstr "If you have more than this number, downloads will be queued up."
+msgstr "Jika anda ada lebih daripada nombor ini, muat turun akan diaturkan."
 
 #: app/components/forms/settings/settings.html:29
 msgid "settings.max_download_count_label"
-msgstr "Max # of Simultaneous Downloads"
+msgstr "Serentak Muat Turun Maksimum"
 
 #: app/components/forms/settings/settings.html:42
 msgid "settings.max_extract_count_help"
-msgstr "If you have more than this number, extractions will be queued up."
+msgstr "Jika anda ada lebih daripada nombor ini, pengekstrakan akan diaturkan."
 
 #: app/components/forms/settings/settings.html:41
 msgid "settings.max_extract_count_label"
-msgstr "Max # of Simultaneous Extractions"
+msgstr "Serentak Pengekstrakan Maksimum"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
-msgstr "Settings"
+msgstr "Tetapan"
 
 #: app/components/forms/settings/settings.html:48
 msgid "settings.queue_when_playing_help"
-msgstr "Should we pause all game installs and updates when you're playing a game?"
+msgstr "Perlulah kami berhenti semua permainan dan mengemaskinian permainan apabila anda sedang bermain?"
 
 #: app/components/forms/settings/settings.html:47
 msgid "settings.queue_when_playing_label"
-msgstr "Pause when playing?"
+msgstr "Berhanti apabila bermain?"
 
 #: app/components/forms/dashboard/game/build/build.html:163
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
@@ -4917,19 +4914,19 @@ msgstr "Pause when playing?"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.no"
-msgstr "No"
+msgstr "Tidak"
 
 #: app/components/forms/dashboard/game/settings/settings.html:21
 #: app/components/forms/dashboard/game/settings/settings.html:32
 #: app/components/forms/dashboard/game/settings/settings.html:43
 msgid "forms.off"
-msgstr "Off"
+msgstr "Tutup"
 
 #: app/components/forms/dashboard/game/settings/settings.html:20
 #: app/components/forms/dashboard/game/settings/settings.html:31
 #: app/components/forms/dashboard/game/settings/settings.html:42
 msgid "forms.on"
-msgstr "On"
+msgstr "Buka"
 
 #: app/components/forms/dashboard/game/build/build.html:162
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
@@ -4943,13 +4940,112 @@ msgstr "On"
 #: app/components/forms/settings/settings.html:53
 #: app/components/forms/settings/settings.html:62
 msgid "forms.yes"
-msgstr "Yes"
+msgstr "Ya"
 
 #: app/components/search/autocomplete/autocomplete-directive.js:97
 msgid "commands.settings_description"
-msgstr "Change settings."
+msgstr "Mengubahkan tetapan."
 
-#: app/components/shell/footer/footer.html:30
+#: app/components/shell/footer/footer.html:36
 msgid "footer.open_source"
-msgstr "Open Source"
+msgstr "Sumber Terbuka"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:14
+msgid "1 Comment"
+msgid_plural "{{ count | number }} Comments"
+msgstr[0] ""
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:25
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:82
+msgid "Automatic translations use Google Translate and may not be completely accurate."
+msgstr "Automatic translations use Google Translate and may not be completely accurate."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:3
+#: lib/gj-lib-client/components/comment/widget/widget.html:8
+msgid "Comments"
+msgstr "Comments"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:9
+msgid "Couldn't fetch comments for game."
+msgstr "Couldn't fetch comments for game."
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:100
+msgid "Follow Thread"
+msgstr "Follow Thread"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:96
+msgid "Get notifications when people post new replies to this thread."
+msgstr "Get notifications when people post new replies to this thread."
+
+#. Tooltip for comment voting when no one has liked a comment yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
+msgid "Give this comment some love!"
+msgstr "Give this comment some love!"
+
+#: lib/gj-lib-client/components/comment/widget/add-form.html:9
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
+msgid "Leave a comment..."
+msgstr "Leave a comment..."
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:25
+msgid "Let us know your thoughts and be the first to comment!"
+msgstr "Let us know your thoughts and be the first to comment!"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:13
+msgid "No Comments Yet"
+msgstr "No Comments Yet"
+
+#. Tooltip for comment voting when you haven't liked it yet, but other people do.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
+msgid "One person likes this comment."
+msgid_plural "{{ $count | number }} people like this comment."
+msgstr[0] ""
+
+#. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
+#: lib/gj-lib-client/components/comment/widget/comment.html:12
+#: lib/gj-lib-client/components/comment/widget/comment.html:20
+msgid "Owner"
+msgstr "Owner"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:85
+msgid "Reply"
+msgstr "Reply"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:74
+msgid "Show original comments"
+msgstr "Show original comments"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:109
+msgid "Stop Following"
+msgstr "Stop Following"
+
+#. You should replace English with the current language, since it will be translating into the selected language.
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to English"
+msgstr "Translate comments to English"
+
+#: lib/gj-lib-client/components/comment/widget/widget.html:76
+msgid "translated by"
+msgstr "translated by"
+
+#. Tooltip for comment voting when you and other people like it.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
+msgid "You and another person like this comment."
+msgid_plural "You and {{ $count | number }} people like this comment."
+msgstr[0] ""
+
+#. Tooltip for comment voting when you like a comment and no one else has liked it yet.
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
+msgid "You like this comment"
+msgstr "You like this comment"
+
+#: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
+msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
