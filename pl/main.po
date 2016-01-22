@@ -5116,3 +5116,26 @@ msgstr "Report Sent"
 msgid "Translate comments to {{ lang }}"
 msgstr "Translate comments to {{ lang }}"
 
+#. Short message to remind them that they can change install location at any time in their settings.
+#: app/views/library/installed/installed.html:22
+msgid "library.installed.change_location_message"
+msgstr "You can change the location where games are installed at any time in your <a href=\"/settings\">Settings</a>."
+
+#: app/views/library/installed/installed.html:4
+msgid "library.installed.heading"
+msgstr "Installed Games"
+
+#. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
+#: app/views/library/installed/installed.html:70
+msgid "library.installed.multiple_packages"
+msgstr "Multiple Packages"
+
+#. The message shown when there are no games installed yet in their library.
+#: app/views/library/installed/installed.html:13
+msgid "library.installed.no_games_message"
+msgstr "Your installed games show up here... that is, once you have some!"
+
+#: app/views/library/installed/installed-controller.js:6
+msgid "library.installed.page_title"
+msgstr "Installed Games"
+
