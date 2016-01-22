@@ -39,7 +39,7 @@ msgstr "Ingresa la dirección de email de tu cuenta y te enviaremos tus credenci
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
 msgid "auth.forgot.email_label"
-msgstr "Dirección de Email"
+msgstr "Correo electrónico"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
@@ -131,7 +131,7 @@ msgstr "Para finalizar el inicio de sesión con Twitter, por favor ingresa una d
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
 msgid "auth.linked_account.twitter.finalize.email_label"
-msgstr "Dirección de correo electrónico"
+msgstr "Correo electrónico"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
 msgid "auth.linked_account.twitter.finalize.heading"
@@ -143,7 +143,7 @@ msgstr "Registro completo"
 
 #: auth/views/auth/join/join.html:33
 msgid "auth.login_link"
-msgstr "Ingresar"
+msgstr "Iniciar Sesión"
 
 #: auth/views/auth/login/login.html:12
 msgid "auth.login.facebook_button"
@@ -2628,8 +2628,8 @@ msgstr "Nueva lista"
 
 #: app/views/library/library.html:65
 msgid "library.nav.no_playlists_html"
-msgstr "<p>Crea playlists para organizar y compartir los juegos de tu libreria. </p>\n"
-"<p>¡Sigue a playlists de otra gente para descubrir más juegos!</p>"
+msgstr "<p>Crea una lista para organizar y compartir los juegos de tu libreria. </p>\n"
+"<p>¡Sigue las listas de otra gente para descubrir más juegos!</p>"
 
 #: app/views/library/library.html:45
 msgid "library.nav.playlists"
@@ -2637,11 +2637,11 @@ msgstr "Listas de reproducción"
 
 #: app/views/discover/games/view/_header/controls.html:32
 msgid "library.playlists.add_to.button"
-msgstr "Añadir a playlist"
+msgstr "Añadir a la lista"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
-msgstr "Filtrar playlists..."
+msgstr "Filtrar listas..."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:16
 msgid "library.playlists.add_to.new_playlist_button"
@@ -2677,7 +2677,7 @@ msgstr "Juegos seguidos"
 
 #: app/components/forms/playlist/playlist.html:10
 msgid "library.playlists.form.add_submit_button"
-msgstr "Añadir playlist"
+msgstr "Añadir lista"
 
 #: app/components/forms/playlist/playlist.html:11
 msgid "library.playlists.form.edit_submit_button"
@@ -4446,7 +4446,7 @@ msgstr "Haz dejado de seguir {{ playlist }} exitosamente."
 
 #: app/views/library/collection/collection-controller.js:213
 msgid "library.playlists.remove_playlist_success_growl_title"
-msgstr "Has dejado de seguir la playlist"
+msgstr "Has dejado de seguir la lista"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
@@ -4466,15 +4466,15 @@ msgstr "Contesto a tu comentario <strong>{{ object }}</strong>. "
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:6
 msgid "notifications.forum_post_title_html"
-msgstr "publicada una contesta a <strong>{{ object }}</strong>."
+msgstr "publicó una nueva respuesta a <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:8
 msgid "notifications.friendship_accepted_title_html"
-msgstr "acepte a tu Solicitud de amistad "
+msgstr "acepto tu solicitud de amistad."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:7
 msgid "notifications.friendship_request_title_html"
-msgstr "Enviada una Solicitud de amistad"
+msgstr "te envió una solicitud de amistad."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
@@ -4482,23 +4482,23 @@ msgstr "Seguido <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:11
 msgid "notifications.game_news_title_html"
-msgstr "Publicada una nueva actualizacion"
+msgstr "publicó una nueva actualización."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:42
 msgid "notifications.game_news_title_popover_html"
-msgstr "publicada <strong>{{ title }}</strong> "
+msgstr "publicó <strong>{{ title }}</strong> "
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:4
 msgid "notifications.new_comment_title_html"
-msgstr "comento en <strong>{{ object }}</strong>."
+msgstr "comentó en <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:9
 msgid "notifications.rating_title_html"
-msgstr "Recivido una calificacion"
+msgstr "recibió una calificacion"
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:33
 msgid "notifications.rating_title_popover_html"
-msgstr "received a rating of <strong>{{ rating }}</strong>."
+msgstr "recibió una calificación de <strong>{{ rating }}</strong>."
 
 #: app/views/profile/overview/overview.html:64
 msgid "profile.friend_request_decline_tooltip"
@@ -4510,11 +4510,11 @@ msgstr "¡Ya sois amigos! ¡Yay!"
 
 #: app/views/profile/profile.html:52
 msgid "profile.in_game_tooltip"
-msgstr "Este usuario está jugando ahora mismo a un juego."
+msgstr "Este usuario está jugando un juego."
 
 #: app/views/profile/profile.html:43
 msgid "profile.offline_tooltip"
-msgstr "Este usuario está ahora mismo desconectado."
+msgstr "Este usuario está desconectado."
 
 #: app/views/profile/profile.html:47
 msgid "profile.online_tooltip"
@@ -4629,8 +4629,8 @@ msgstr "Añadidos recientemente"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] "1 construir"
-msgstr[1] "{{ $count | number }} construye"
+msgstr[0] "1 verción"
+msgstr[1] "{{ $count | number }} verciones"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -4844,11 +4844,11 @@ msgstr "{{ user }} le gustaría ser tu amigo"
 
 #: app/views/profile/overview/overview.html:49
 msgid "profile.friend_request_sent_pending"
-msgstr "Solicitud de amistad a {{ user }} pendiente de acceptacion."
+msgstr "Solicitud de amistad a {{ user }} pendiente."
 
 #: app/components/score/overview/overview.html:93
 msgid "scores.overview.user_best_exp_tooltip"
-msgstr "{{ experience | number }} EXP ganada de esta puntuacion!"
+msgstr "¡Ganaste {{ experience | number }} EXP con esta puntuación!"
 
 #: app/components/trophy/overview/overview.html:55
 msgid "trophies.overview.more_link"
@@ -4856,7 +4856,7 @@ msgstr "+{{ extraCount | number }} mas"
 
 #: app/components/forms/settings/settings.html:52
 msgid "settings.autostart_client_label"
-msgstr "Iniciar cuando windows inicia?"
+msgstr "¿Iniciar con Windows?"
 
 #: app/components/forms/settings/settings.html:12
 msgid "settings.change_location_button"
@@ -4869,7 +4869,7 @@ msgstr "Chat"
 
 #: app/components/forms/settings/settings.html:61
 msgid "settings.chat_notify_friends_online_label"
-msgstr "Obtener notificaciones cuando amigos estan conectados/desconectados ?"
+msgstr "¿Quieres obtener notificaciones cuando tus amigos estén conectados/desconectados ?"
 
 #: app/components/forms/settings/settings.html:4
 #: app/views/settings/settings.html:21
@@ -4878,7 +4878,7 @@ msgstr "Cliente"
 
 #: app/components/forms/settings/settings.html:7
 msgid "settings.game_install_dir_help"
-msgstr "Este es la dirrecion de tu computadora donde los juegos se instalan"
+msgstr "Este es el directorio de tu computadora donde los juegos se instalan"
 
 #: app/components/forms/settings/settings.html:6
 msgid "settings.game_install_dir_label"
@@ -4890,15 +4890,15 @@ msgstr "Configuraciones"
 
 #: app/components/forms/settings/settings.html:24
 msgid "settings.limit_downloads_label"
-msgstr "Limite de descargas simultaneas?"
+msgstr "¿Limitar descargas simultaneas?"
 
 #: app/components/forms/settings/settings.html:36
 msgid "settings.limit_extractions_help"
-msgstr "Una extraccion es cuando el juego es desempacado e instalado despues de descagar"
+msgstr "Una extracción es cuando el juego es descomprimido e instalado después de su descarga."
 
 #: app/components/forms/settings/settings.html:35
 msgid "settings.limit_extractions_label"
-msgstr "Limite de extracciones simultaneas?"
+msgstr "¿Limitar extracciones simultaneas?"
 
 #: app/components/forms/settings/settings.html:30
 msgid "settings.max_download_count_help"
@@ -4926,7 +4926,7 @@ msgstr "¿Quieres que paremos todas las descargas mientras juegas?"
 
 #: app/components/forms/settings/settings.html:47
 msgid "settings.queue_when_playing_label"
-msgstr "Pausar el juego mientras se juega?"
+msgstr "¿Pausar mientras juegas?"
 
 #: app/components/forms/dashboard/game/build/build.html:163
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
@@ -4993,7 +4993,7 @@ msgstr "Las traducciones automaticas usan Google Translate y podrian no ser comp
 #: lib/gj-lib-client/components/comment/widget/widget.html:3
 #: lib/gj-lib-client/components/comment/widget/widget.html:8
 msgid "Comments"
-msgstr "Cmentarios"
+msgstr "Comentarios"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:9
 msgid "Couldn't fetch comments for game."
@@ -5075,46 +5075,70 @@ msgstr "Acabas de valorar positivamente este comentario. Esto nos permite saber 
 
 #: app/components/shell/footer/footer.html:51
 msgid "footer.send_system_report"
-msgstr "Send System Report"
+msgstr "Enviar Reporte De Sistema"
 
 #: app/components/client/forms/system-report/system-report.html:4
 msgid "system_report.form.description_help"
-msgstr "Describe what this system report is about, any bugs you may have encountered, and how you can reproduce."
+msgstr "Describe tu reporte, cualquier error que hallas encontrado y como se puede reproducir"
 
 #: app/components/client/forms/system-report/system-report.html:3
 msgid "system_report.form.description_label"
-msgstr "Description"
+msgstr "Descripcion"
 
 #: app/components/client/forms/system-report/system-report.html:11
 msgid "system_report.form.submit_button"
-msgstr "Submit Bug Report"
+msgstr "enviar reporte de error"
 
 #: app/components/client/system-report-modal/system-report-modal.html:20
 msgid "system_report.send.close"
-msgstr "Close"
+msgstr "Cerrar"
 
 #: app/components/client/system-report-modal/system-report-modal.html:2
 msgid "system_report.send.heading"
-msgstr "Send System Report"
+msgstr "Enviar Reporte De Sistema"
 
 #: app/components/client/system-report-modal/system-report-modal.html:4
 msgid "system_report.send.help"
-msgstr "This will send a system report to us with details about your device and client log. We don't collect personal information through this."
+msgstr "Esto enviará un reporte del sistema a nosotros con detalles sobre tu dispositivo y cuenta. No recolectaremos información personal a través de esto.\n"
+""
 
 #: app/components/client/system-report-modal/system-report-modal.html:8
 msgid "system_report.send.issue_tracker"
-msgstr "If you experienced a bug, please report it first on our <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>."
+msgstr "Si has encontrado algun error, por favor reportalo en nuestra <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>. "
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:6
 msgid "system_report.sent_growl"
-msgstr "Your system report has been sent."
+msgstr "Tu Reporte De Sistema A Sido Enviado"
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:7
 msgid "system_report.sent_growl_title"
-msgstr "Report Sent"
+msgstr "Reporte Enviado"
 
 #. {{ lang }} is passed in with the current language
 #: lib/gj-lib-client/components/comment/widget/widget.html:60
 msgid "Translate comments to {{ lang }}"
-msgstr "Translate comments to {{ lang }}"
+msgstr "Traducir Comentarios a {{ lang }} "
+
+#. Short message to remind them that they can change install location at any time in their settings.
+#: app/views/library/installed/installed.html:22
+msgid "library.installed.change_location_message"
+msgstr "You can change the location where games are installed at any time in your <a href=\"/settings\">Settings</a>."
+
+#: app/views/library/installed/installed.html:4
+msgid "library.installed.heading"
+msgstr "Installed Games"
+
+#. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
+#: app/views/library/installed/installed.html:70
+msgid "library.installed.multiple_packages"
+msgstr "Multiple Packages"
+
+#. The message shown when there are no games installed yet in their library.
+#: app/views/library/installed/installed.html:13
+msgid "library.installed.no_games_message"
+msgstr "Your installed games show up here... that is, once you have some!"
+
+#: app/views/library/installed/installed-controller.js:6
+msgid "library.installed.page_title"
+msgstr "Installed Games"
 
