@@ -526,7 +526,7 @@ msgstr "API del Gioco"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
-msgstr "Data Store"
+msgstr "Archivio dati"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:169
 msgid "dash.games.api.overview.data_items_label"
@@ -902,7 +902,7 @@ msgstr "Modifica Header"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
-msgstr "<p>Headers are the big, banner-like images that adorn the tops of game pages. For your header to look its best on mobile devices in portrait mode, make sure anything important is located near the center of the image.</p>"
+msgstr "Intestazioni sono le grandi immagini , bandiera -like che adornano le cime delle pagine di gioco . Per l'intestazione per sempre al meglio sui dispositivi mobili in modalità verticale , assicurarsi che nulla di importante si trova vicino al centro dell'immagine"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
@@ -958,15 +958,15 @@ msgstr "Violenza Fantasy"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:167
 msgid "dash.games.maturity.gambling_label"
-msgstr "Gambling"
+msgstr "giochi d'azzardo"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:1
 msgid "dash.games.maturity.heading"
-msgstr "Edit Rating Details"
+msgstr "Modifica Punteggio Dettagli"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:156
 msgid "dash.games.maturity.humor_label"
-msgstr "Humor"
+msgstr "Umore"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
@@ -982,11 +982,11 @@ msgstr "Nudità"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
-msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity rating to describe its content. Accurate ratings and details about content help gamers make informed decisions. Remember, you can always come back later and make changes.</p>"
+msgstr "Ogni gioco su Jolt gioco , anche lavori in corso , ha bisogno di un voto di maturità per descrivere il suo contenuto . Rating accurati e dettagli sul contenuto giocatori aiutare a prendere decisioni informate. Ricorda , puoi sempre tornare più tardi e apportare modifiche"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
-msgstr "What is a maturity rating?"
+msgstr "Che cosa è un voto di maturità ?"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
@@ -994,7 +994,8 @@ msgstr "Violenza realistica"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
-msgstr "Save Maturity Details"
+msgstr "\n"
+"Salva Maturità Dettagli"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
@@ -1023,7 +1024,7 @@ msgstr "Violenza"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
-msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
+msgstr "Se non sapete qual è il contenuto finale del vostro gioco sarà , darà un'ipotesi plausibile . È possibile apportare modifiche in seguito ."
 
 #: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
@@ -1031,8 +1032,7 @@ msgstr "Media"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
-msgstr "Add an <br>\n"
-"\t<strong>Image</strong> or <strong>Video</strong>"
+msgstr "Aggiungere un'immagine o un video"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
@@ -1044,7 +1044,7 @@ msgstr "Aggiungi Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
-msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake box covers, or any other original art created for the game. Yes, even if it's a text-based game!</p>"
+msgstr "Aggiungere le immagini , i disegni , le foto concetto di piccoli modelli in creta , finti coperchi delle scatole , o di qualsiasi altra arte originale creata per il gioco . Sì , anche se si tratta di un gioco basato su testo !"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
@@ -1052,8 +1052,8 @@ msgstr "Impara di più su screenshot/immagini..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
-msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkthroughs, etc.</p>\n"
-"\t<p>Please don't add Let's Plays or reviews. Let the content owners do that themselves in the comments.</p>"
+msgstr "Aggiungere i video che hai creato , come trailer, gameplay , procedure dettagliate , etc.\n"
+"Si prega di non aggiungere Plays o recensioni di Let . Lasciate che i proprietari di contenuti che si fanno nei commenti ."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
@@ -1061,7 +1061,7 @@ msgstr "Impara di più sui video..."
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
-msgstr "Game Media"
+msgstr "Gioco Media"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:14
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
@@ -1079,11 +1079,11 @@ msgstr "Modifica Immagine"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
-msgstr "This caption will appear when your image is viewed in full screen."
+msgstr "La voce viene visualizzata quando l' immagine viene visualizzata a schermo intero ."
 
 #: app/components/forms/dashboard/game/image/image.html:26
 msgid "dash.games.media.image.form.caption_label"
-msgstr "Caption"
+msgstr "Didascalia"
 
 #: app/components/forms/dashboard/game/image/image.html:22
 msgid "dash.games.media.image.form.image_error_label"
@@ -1107,7 +1107,7 @@ msgstr "Rimuovi immagine"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
-msgstr "\t<p>Want people to play your game? Add some images and video to your page. We recommend adding as many images and videos as you can--even if your game is all text!</p>"
+msgstr "Voglio che la gente a giocare il tuo gioco? Aggiungete un po ' di immagini e video alla tua pagina. Si consiglia di aggiungere il maggior numero di immagini e video , come si può - anche se il gioco è tutto il testo !"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:20
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:47
@@ -1117,7 +1117,7 @@ msgstr "Video"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:33
 msgid "dash.games.media.video.direct_link_help"
-msgstr "You can directly link to this video on your game page with the URL below."
+msgstr "È possibile collegare direttamente a questo video nella tua pagina gioco con l'URL di seguito ."
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:44
 msgid "dash.games.media.video.edit_heading"
@@ -1184,7 +1184,7 @@ msgstr "Song Title"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:4
 msgid "dash.games.music.heading"
-msgstr "Game Music"
+msgstr "Musica del gioco"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
@@ -1220,7 +1220,7 @@ msgstr "Learn more about news updates..."
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:50
 msgid "dash.games.news.article.edit_tab"
-msgstr "Edit"
+msgstr "Modifica"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:14
 msgid "dash.games.news.article.heading"
@@ -1494,7 +1494,7 @@ msgstr "Add New Build"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:26
 msgid "dash.games.releases.builds.downloads_label"
-msgstr "Downloads"
+msgstr "Scaricamenti"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:179
 msgid "dash.games.releases.builds.edit_tab"
@@ -5118,4 +5118,27 @@ msgstr "Report Sent"
 #: lib/gj-lib-client/components/comment/widget/widget.html:60
 msgid "Translate comments to {{ lang }}"
 msgstr "Translate comments to {{ lang }}"
+
+#. Short message to remind them that they can change install location at any time in their settings.
+#: app/views/library/installed/installed.html:22
+msgid "library.installed.change_location_message"
+msgstr "You can change the location where games are installed at any time in your <a href=\"/settings\">Settings</a>."
+
+#: app/views/library/installed/installed.html:4
+msgid "library.installed.heading"
+msgstr "Installed Games"
+
+#. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
+#: app/views/library/installed/installed.html:70
+msgid "library.installed.multiple_packages"
+msgstr "Multiple Packages"
+
+#. The message shown when there are no games installed yet in their library.
+#: app/views/library/installed/installed.html:13
+msgid "library.installed.no_games_message"
+msgstr "Your installed games show up here... that is, once you have some!"
+
+#: app/views/library/installed/installed-controller.js:6
+msgid "library.installed.page_title"
+msgstr "Installed Games"
 
