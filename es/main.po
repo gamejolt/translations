@@ -164,7 +164,7 @@ msgstr "Contraseña"
 
 #: auth/components/forms/login/login.html:35
 msgid "auth.login.submit_button"
-msgstr "Ingresar"
+msgstr "Iniciar Sesión"
 
 #: auth/views/auth/login/login.html:20
 msgid "auth.login.twitter_button"
@@ -2723,11 +2723,11 @@ msgstr "Juegos seguidos"
 msgid "library.playlists.tag_tag"
 msgstr "Etiqueta"
 
-#: app/components/shell/top-nav/top-nav.html:113
+#: app/components/shell/top-nav/top-nav.html:127
 msgid "nav.join"
 msgstr "Registrate"
 
-#: app/components/shell/top-nav/top-nav.html:107
+#: app/components/shell/top-nav/top-nav.html:121
 msgid "nav.login"
 msgstr "Iniciar Sesión"
 
@@ -3403,7 +3403,7 @@ msgstr "Representaciones de o referencias gráficas a violación u otra conducta
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:206
 msgid "dash.games.maturity.shenanigans_option"
-msgstr "Comic Shenanigans"
+msgstr "Shenanigans Comic"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:224
 msgid "dash.games.maturity.simulated_option"
@@ -4629,8 +4629,8 @@ msgstr "Añadidos recientemente"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 construir"
+msgstr[1] "{{ $count | number }} construye"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -4638,8 +4638,8 @@ msgstr[1] ""
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 juego"
+msgstr[1] "Página {{ page | number }} de {{ $count | number }} juegos."
 
 #: app/components/post/grid/grid.html:34
 #: app/components/post/list/list.html:31
@@ -4986,7 +4986,7 @@ msgstr[1] "{{ count | number }} Comentarios"
 msgid "Add Comment"
 msgstr "Agregar Comentario"
 
-#: lib/gj-lib-client/components/comment/widget/widget.html:82
+#: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
 msgstr "Las traducciones automaticas usan Google Translate y podrian no ser completamente precisas."
 
@@ -5045,7 +5045,7 @@ msgstr "Dueño"
 msgid "Reply"
 msgstr "Responder"
 
-#: lib/gj-lib-client/components/comment/widget/widget.html:74
+#: lib/gj-lib-client/components/comment/widget/widget.html:75
 msgid "Show original comments"
 msgstr "Mostrar comentarios originales"
 
@@ -5053,12 +5053,7 @@ msgstr "Mostrar comentarios originales"
 msgid "Stop Following"
 msgstr "Dejar de Seguir"
 
-#. You should replace English with the current language, since it will be translating into the selected language.
-#: lib/gj-lib-client/components/comment/widget/widget.html:60
-msgid "Translate comments to English"
-msgstr "Traducir comentarios a Ingles"
-
-#: lib/gj-lib-client/components/comment/widget/widget.html:76
+#: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
 msgstr "traducido por"
 
@@ -5067,7 +5062,7 @@ msgstr "traducido por"
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
 msgstr[0] "Tu y otra persona le gusta este comentario"
-msgstr[1] ""
+msgstr[1] "Usted y {{ $count | number }} Aficionados comentario"
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
@@ -5077,4 +5072,49 @@ msgstr "Te gusta este comentario"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Acabas de valorar positivamente este comentario. Esto nos permite saber la calidad de los comentarios y mantener el sitio fresco."
+
+#: app/components/shell/footer/footer.html:51
+msgid "footer.send_system_report"
+msgstr "Send System Report"
+
+#: app/components/client/forms/system-report/system-report.html:4
+msgid "system_report.form.description_help"
+msgstr "Describe what this system report is about, any bugs you may have encountered, and how you can reproduce."
+
+#: app/components/client/forms/system-report/system-report.html:3
+msgid "system_report.form.description_label"
+msgstr "Description"
+
+#: app/components/client/forms/system-report/system-report.html:11
+msgid "system_report.form.submit_button"
+msgstr "Submit Bug Report"
+
+#: app/components/client/system-report-modal/system-report-modal.html:20
+msgid "system_report.send.close"
+msgstr "Close"
+
+#: app/components/client/system-report-modal/system-report-modal.html:2
+msgid "system_report.send.heading"
+msgstr "Send System Report"
+
+#: app/components/client/system-report-modal/system-report-modal.html:4
+msgid "system_report.send.help"
+msgstr "This will send a system report to us with details about your device and client log. We don't collect personal information through this."
+
+#: app/components/client/system-report-modal/system-report-modal.html:8
+msgid "system_report.send.issue_tracker"
+msgstr "If you experienced a bug, please report it first on our <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>."
+
+#: app/components/client/system-report-modal/system-report-modal-controller.js:6
+msgid "system_report.sent_growl"
+msgstr "Your system report has been sent."
+
+#: app/components/client/system-report-modal/system-report-modal-controller.js:7
+msgid "system_report.sent_growl_title"
+msgstr "Report Sent"
+
+#. {{ lang }} is passed in with the current language
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to {{ lang }}"
+msgstr "Translate comments to {{ lang }}"
 
