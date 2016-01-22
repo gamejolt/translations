@@ -2713,11 +2713,11 @@ msgstr "Ακολουθούνται"
 msgid "library.playlists.tag_tag"
 msgstr "Ετικέτα"
 
-#: app/components/shell/top-nav/top-nav.html:113
+#: app/components/shell/top-nav/top-nav.html:127
 msgid "nav.join"
 msgstr "Εγγραφή!"
 
-#: app/components/shell/top-nav/top-nav.html:107
+#: app/components/shell/top-nav/top-nav.html:121
 msgid "nav.login"
 msgstr "Σύνδεση"
 
@@ -3343,7 +3343,7 @@ msgstr "Μέτρια"
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:65
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:83
 msgid "dash.games.maturity.none_option"
-msgstr "Καμία"
+msgstr "Καθόλου"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:157
 msgid "dash.games.maturity.nudity_1_description"
@@ -4972,7 +4972,7 @@ msgstr[1] "σχόλια"
 msgid "Add Comment"
 msgstr "Προσθήκη Σχόλιου"
 
-#: lib/gj-lib-client/components/comment/widget/widget.html:82
+#: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
 msgstr "Η αυτόματη μετάφραση χρησιμοποιεί την τεχνολογια Google Translate και μπορει να μην είναι ακριβής."
 
@@ -5031,7 +5031,7 @@ msgstr "Ιδιοκτήτης"
 msgid "Reply"
 msgstr "Απάντηση"
 
-#: lib/gj-lib-client/components/comment/widget/widget.html:74
+#: lib/gj-lib-client/components/comment/widget/widget.html:75
 msgid "Show original comments"
 msgstr "Εμφάνιση αρχικών σχολίων"
 
@@ -5039,12 +5039,7 @@ msgstr "Εμφάνιση αρχικών σχολίων"
 msgid "Stop Following"
 msgstr "Σταματήστε να ακολουθείτε."
 
-#. You should replace English with the current language, since it will be translating into the selected language.
-#: lib/gj-lib-client/components/comment/widget/widget.html:60
-msgid "Translate comments to English"
-msgstr "Μετάφραση σχολίων στα Αγγλικά"
-
-#: lib/gj-lib-client/components/comment/widget/widget.html:76
+#: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
 msgstr "Μετάφραση απο"
 
@@ -5063,4 +5058,49 @@ msgstr "Σου αρέσει αυτό το σχόλιο"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Μόλις ψηφισατε θετικά αυτο το σχόλιο. Αυτό μας επιτρέπει να γνωρίζουμε την ποιότητα των σχολίων και κρατάει τον ιστότοπο φρέσκο."
+
+#: app/components/shell/footer/footer.html:51
+msgid "footer.send_system_report"
+msgstr "Send System Report"
+
+#: app/components/client/forms/system-report/system-report.html:4
+msgid "system_report.form.description_help"
+msgstr "Describe what this system report is about, any bugs you may have encountered, and how you can reproduce."
+
+#: app/components/client/forms/system-report/system-report.html:3
+msgid "system_report.form.description_label"
+msgstr "Description"
+
+#: app/components/client/forms/system-report/system-report.html:11
+msgid "system_report.form.submit_button"
+msgstr "Submit Bug Report"
+
+#: app/components/client/system-report-modal/system-report-modal.html:20
+msgid "system_report.send.close"
+msgstr "Close"
+
+#: app/components/client/system-report-modal/system-report-modal.html:2
+msgid "system_report.send.heading"
+msgstr "Send System Report"
+
+#: app/components/client/system-report-modal/system-report-modal.html:4
+msgid "system_report.send.help"
+msgstr "This will send a system report to us with details about your device and client log. We don't collect personal information through this."
+
+#: app/components/client/system-report-modal/system-report-modal.html:8
+msgid "system_report.send.issue_tracker"
+msgstr "If you experienced a bug, please report it first on our <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>."
+
+#: app/components/client/system-report-modal/system-report-modal-controller.js:6
+msgid "system_report.sent_growl"
+msgstr "Your system report has been sent."
+
+#: app/components/client/system-report-modal/system-report-modal-controller.js:7
+msgid "system_report.sent_growl_title"
+msgstr "Report Sent"
+
+#. {{ lang }} is passed in with the current language
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to {{ lang }}"
+msgstr "Translate comments to {{ lang }}"
 
