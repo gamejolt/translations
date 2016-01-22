@@ -442,7 +442,7 @@ msgstr "Alamat E-mel Paypal"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.form_help_html"
-msgstr "Make sure that the information you enter below is correct. You will not get a chance to change it after you submit."
+msgstr "Pastikan informasi anda yang memasukkan adalah betul. Anda tidak boleh mengubahkan selepas ini."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
@@ -450,12 +450,12 @@ msgstr "Withdraw Revenue"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
-msgstr "<p>Please allow 3 days for withdrawals to be processed. At this time all withdrawals are processed through <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal</a>.</p>\n"
-"\t<p>If you don't have a PayPal account, you will not be able to withdraw any money. Please be sure to <a href=\"https://www.paypal.com\" target=\"_blank\">sign up with a PayPal account</a> <em>before</em> trying to withdraw funds.</p>"
+msgstr "<p>Sila tunggu 3 hari untuk menarik diri untuk diproseskan. Pada masa ini, semua proses menarik diri melalui <a href=\"https://www.paypal.com\" target=\"_blank\">Paypal</a>.</p>\n"
+"<p>Jika anda tidak ada akaun PayPal, anda tidak boleh dapat untuk menarikkan diri. Sila pastikan anda telah <a href=\"https://www.paypal.com\"target=\"_blank\">daftar dengan akaun PayPal</a> <em>sebelum</em> cuba untuk menarik diri."
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
 msgid "dash.funds.withdraw.revenue_pending"
-msgstr "Pending Withdrawal"
+msgstr "Menunggu Menarik Diri"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
 msgid "dash.funds.withdraw.revenue_withdrawable"
@@ -533,8 +533,8 @@ msgstr "Cari bantuan dalam forum API"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
-"\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
+msgstr "<p>API Permainan membolehkan anda meningkatkan permainan anda dengan papan skor, piala, storan data awan, sesi log masuk dan banyak lagi.</p>\n"
+"<p>Anda boleh menyemak pautan di bawah untuk lihatkan sudahkah komuni"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
@@ -5088,4 +5088,27 @@ msgstr "Report Sent"
 #: lib/gj-lib-client/components/comment/widget/widget.html:60
 msgid "Translate comments to {{ lang }}"
 msgstr "Translate comments to {{ lang }}"
+
+#. Short message to remind them that they can change install location at any time in their settings.
+#: app/views/library/installed/installed.html:22
+msgid "library.installed.change_location_message"
+msgstr "You can change the location where games are installed at any time in your <a href=\"/settings\">Settings</a>."
+
+#: app/views/library/installed/installed.html:4
+msgid "library.installed.heading"
+msgstr "Installed Games"
+
+#. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
+#: app/views/library/installed/installed.html:70
+msgid "library.installed.multiple_packages"
+msgstr "Multiple Packages"
+
+#. The message shown when there are no games installed yet in their library.
+#: app/views/library/installed/installed.html:13
+msgid "library.installed.no_games_message"
+msgstr "Your installed games show up here... that is, once you have some!"
+
+#: app/views/library/installed/installed-controller.js:6
+msgid "library.installed.page_title"
+msgstr "Installed Games"
 
