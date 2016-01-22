@@ -505,7 +505,14 @@ msgstr "<p>Vous devez prendre connaissance des règles avant d'ajouter un jeu:</
 "                 <li>Game Jolt n’accepte actuellement que les jeux gratuit. Personne ne doit payer pour pouvoir jouer à vôtre jeu.</li>\n"
 "                  <li>N'ajouter pas de jeu dont vous n'êtes pas le créateur. Si vous n'êtes pas le développeur du jeu, ne l'ajouter pas au site. Si vous êtes un fan, encouragez plutôt le développeur à l'ajouter lui même.</li>\n"
 "                   <li>Les éditeurs de jeux ne sont pas autorisé à ajouter un jeu; seulement le développeur l'est. Rappelez-vous: Game Jolt est une base de jeu Indépendant!</li>\n"
-"                    <li>Notre nom est Game Jolt. Donc seulement les <em>jeux</em> sont autorisé à être ajouter. Pas d'applications, logiciels, ou outils sont autorisé pour l'instant. Peut-être que dans le futur nous envisagerons"
+"                    <li>Notre nom est Game Jolt. Donc seulement les <em>jeux</em> sont autorisé à être ajouter. Pas d'applications, logiciels, ou outils sont autorisé pour l'instant. Peut-être que dans le futur nous les accepterons, mais pour l'instant restons-en au jeux.</li>\n"
+"                     <li>Les démos ou version \"lite\" de jeux commerciaux ne sont pas autorisé. Vous devez ajouter une version totalement gratuite de vôtre jeu, et elle doit être aussi complète que si elle était publiquement disponible.</li>  \n"
+"                      <li>Nous sommes heureux d’accueillir et nous vous encourageons d'ajouter des jeux incomplets et encore en développement, si ils sont taggé dans \"Développement en cours\"(?). Mais attention, vous devez gardez vôtre jeu caché si vous ne pouvez rien proposé du tout. Les jeux en développement ne sont pas obligatoirement jouable, mais ils doivent aller plus loin que le simple concept. Avant de montrer un jeu, soyez sûr d'avoir des photos et une description informative.</li>\n"
+"                        <li>N'ajoutez aucun lien dirigeant vers d'autres sites pour télécharger ou jouer à vôtre jeu à moins d'avoir déjà ajouté vôtre jeu sur Game Jolt. Vous ne pouvez pas vous servir de vôtre page comme publicité pour un autre site.</li>\n"
+"                         <li>Pour les jeux sur navigateurs, vous n'avez pas le droit de mettre de publicité pendants les chargements sur Game Jolt. Vous devez retirez ou les empêcher d’apparaître sur le site.</li>\n"
+"                 <p>Si vous avez des questions ou des objections au sujets des règles, veuillez contactez:\n"
+"<a href=\"maito:contact@gamejolt.com\">contact@gamejolt.com</a>\n"
+"</p>"
 
 #: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
@@ -558,7 +565,7 @@ msgstr "The total number of scores across all of the game's scoreboards, includi
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Users w/ Scores"
+msgstr "Scores d'utilisateurs"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
@@ -566,7 +573,7 @@ msgstr "The number of users with scores on any of the game's scoreboards. Does n
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "Active Sessions"
+msgstr "Sessions actives"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
@@ -2714,11 +2721,11 @@ msgstr "Jeux suivis"
 msgid "library.playlists.tag_tag"
 msgstr "Tag"
 
-#: app/components/shell/top-nav/top-nav.html:113
+#: app/components/shell/top-nav/top-nav.html:127
 msgid "nav.join"
 msgstr "S'enregistrer !"
 
-#: app/components/shell/top-nav/top-nav.html:107
+#: app/components/shell/top-nav/top-nav.html:121
 msgid "nav.login"
 msgstr "Se connecter"
 
@@ -4975,7 +4982,7 @@ msgstr[1] ""
 msgid "Add Comment"
 msgstr "Add Comment"
 
-#: lib/gj-lib-client/components/comment/widget/widget.html:82
+#: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
 msgstr "Automatic translations use Google Translate and may not be completely accurate."
 
@@ -5034,7 +5041,7 @@ msgstr "Owner"
 msgid "Reply"
 msgstr "Reply"
 
-#: lib/gj-lib-client/components/comment/widget/widget.html:74
+#: lib/gj-lib-client/components/comment/widget/widget.html:75
 msgid "Show original comments"
 msgstr "Show original comments"
 
@@ -5042,12 +5049,7 @@ msgstr "Show original comments"
 msgid "Stop Following"
 msgstr "Stop Following"
 
-#. You should replace English with the current language, since it will be translating into the selected language.
-#: lib/gj-lib-client/components/comment/widget/widget.html:60
-msgid "Translate comments to English"
-msgstr "Translate comments to English"
-
-#: lib/gj-lib-client/components/comment/widget/widget.html:76
+#: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
 msgstr "translated by"
 
@@ -5066,4 +5068,49 @@ msgstr "You like this comment"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+
+#: app/components/shell/footer/footer.html:51
+msgid "footer.send_system_report"
+msgstr "Send System Report"
+
+#: app/components/client/forms/system-report/system-report.html:4
+msgid "system_report.form.description_help"
+msgstr "Describe what this system report is about, any bugs you may have encountered, and how you can reproduce."
+
+#: app/components/client/forms/system-report/system-report.html:3
+msgid "system_report.form.description_label"
+msgstr "Description"
+
+#: app/components/client/forms/system-report/system-report.html:11
+msgid "system_report.form.submit_button"
+msgstr "Submit Bug Report"
+
+#: app/components/client/system-report-modal/system-report-modal.html:20
+msgid "system_report.send.close"
+msgstr "Close"
+
+#: app/components/client/system-report-modal/system-report-modal.html:2
+msgid "system_report.send.heading"
+msgstr "Send System Report"
+
+#: app/components/client/system-report-modal/system-report-modal.html:4
+msgid "system_report.send.help"
+msgstr "This will send a system report to us with details about your device and client log. We don't collect personal information through this."
+
+#: app/components/client/system-report-modal/system-report-modal.html:8
+msgid "system_report.send.issue_tracker"
+msgstr "If you experienced a bug, please report it first on our <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>."
+
+#: app/components/client/system-report-modal/system-report-modal-controller.js:6
+msgid "system_report.sent_growl"
+msgstr "Your system report has been sent."
+
+#: app/components/client/system-report-modal/system-report-modal-controller.js:7
+msgid "system_report.sent_growl_title"
+msgstr "Report Sent"
+
+#. {{ lang }} is passed in with the current language
+#: lib/gj-lib-client/components/comment/widget/widget.html:60
+msgid "Translate comments to {{ lang }}"
+msgstr "Translate comments to {{ lang }}"
 
