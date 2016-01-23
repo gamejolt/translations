@@ -566,7 +566,7 @@ msgstr "The number of users with scores on any of the game's scoreboards. Does n
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "Active Sessions"
+msgstr "Aktive Sitzungen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
@@ -674,7 +674,7 @@ msgstr "Herunterladbar"
 
 #: app/components/forms/dashboard/game/build/build.html:88
 msgid "dash.games.builds.form.file_error_label"
-msgstr "file"
+msgstr "Datei"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
@@ -686,7 +686,7 @@ msgstr "<strong>For an HTML game, upload a .zip archive containing all of your g
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
-msgstr "Upload File"
+msgstr "Datei hochladen"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
@@ -808,7 +808,7 @@ msgstr "Choose this if your game is complete. It's in a stable state and you onl
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
-msgstr "Development Status"
+msgstr "Entwicklungs Status"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
@@ -847,8 +847,9 @@ msgid "dash.games.form.engine_placeholder"
 msgstr "Select an engine/language/tool..."
 
 #: app/components/forms/dashboard/game/game.html:125
+#, fuzzy
 msgid "dash.games.form.status_hidden"
-msgstr "Hidden"
+msgstr "Versteckt"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
@@ -872,7 +873,7 @@ msgstr "Your game page will show up in public listings and search results. It ca
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
-msgstr "Title"
+msgstr "Titel"
 
 #: app/components/forms/dashboard/game/game.html:33
 msgid "dash.games.form.website_label"
@@ -916,7 +917,8 @@ msgstr "We recommend keeping it hidden until you've finished filling out the det
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
-msgstr "Hidden"
+msgstr "versteckt\n"
+""
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:3
 msgid "dash.games.maturity.age_label"
@@ -960,11 +962,11 @@ msgstr "Language"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
-msgstr "Miscellaneous"
+msgstr "Verschiedenes"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Nacktheit"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
@@ -1001,11 +1003,11 @@ msgstr "Substances"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
-msgstr "Tobacco"
+msgstr "Tabak"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:21
 msgid "dash.games.maturity.violence_legend"
-msgstr "Violence"
+msgstr "Gewalt"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
@@ -1022,7 +1024,7 @@ msgstr "Add an <br>\n"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
-msgstr "Add an Image or Video"
+msgstr "Bild oder Video einfügen"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
@@ -1034,7 +1036,7 @@ msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
-msgstr "Learn more about screenshots/images..."
+msgstr "Erfahre mehr über Screenshots/Bilder..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
@@ -1043,7 +1045,7 @@ msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkth
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
-msgstr "Learn more about videos..."
+msgstr "Erfahre mehr über videos..."
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:4
 msgid "dash.games.media.heading"
@@ -1053,7 +1055,7 @@ msgstr "Game Media"
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:44
 #: app/views/dashboard/developer/games/manage/media/list/list.html:45
 msgid "dash.games.media.image_label"
-msgstr "Image"
+msgstr "Bild"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
@@ -1061,7 +1063,7 @@ msgstr "You can directly link to this image on your game page with the URL below
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
-msgstr "Edit Image"
+msgstr "Bild bearbeiten"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
@@ -1127,10 +1129,11 @@ msgstr "video URL"
 
 #: app/components/forms/dashboard/game/video/video.html:6
 msgid "dash.games.media.video.form.url_help_html"
-msgstr "We currently only support videos from Vimeo or YouTube. <br>\n"
-"\tThe URL should look something like: <br>\n"
+msgstr "Wir unterstützen momentan nur videos von Vimeo oder YouTube\n"
+"<br>\n"
+"\tDie URL sollte so aussehen: <br>\n"
 "\t<strong>YouTube:</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>\n"
-"\t<strong>Vimeo:</strong> http://www.vimeo.com/2619976"
+"\t<strong>Vimeo:</strong> http://www.vimeo.com/2619976 "
 
 #: app/components/forms/dashboard/game/video/video.html:3
 msgid "dash.games.media.video.form.url_label"
@@ -1141,8 +1144,9 @@ msgid "dash.games.media.video.heading"
 msgstr "Video Details"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:21
+#, fuzzy
 msgid "dash.games.media.video.remove_button"
-msgstr "Remove Video"
+msgstr "Video entfernen"
 
 #: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
@@ -1282,8 +1286,10 @@ msgid "dash.games.overview.stats_comments"
 msgstr "Comments"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:171
+#, fuzzy
 msgid "dash.games.overview.stats_followers"
-msgstr "Followers"
+msgstr "Abonnenten\n"
+""
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:101
 msgid "dash.games.overview.stats_heading"
@@ -2403,7 +2409,7 @@ msgstr "Indie {{ category }} nach 'Freshness' sortiert."
 msgid "games.list.freshness_tooltip"
 msgstr "'Freshness' zeigt das Interesse der Community an neueren Spielen an. Zu Beginn ist die 'Freshness' eines Spiels hoch und sie sinkt mit der Zeit. Community-Aktivitäten verlangsamen das Sinken."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:179
 msgid "games.list.games_count_none"
 msgstr "Keine Spiele."
 
@@ -2420,7 +2426,7 @@ msgstr "'Hotness' zeigt das Interesse der Community an neueren Spielen an. Zu Be
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} nach Veröffentlichungsdatum sortiert."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:96
 msgid "games.list.new_games_warning_html"
 msgstr "Neue Spiele werden nicht moderiert, kuratiert oder von der Community geprüft. Du kannst eine Goldmine mit unbekannten Talent, oder auch die gruseligste Scheiße deines Lebens finden."
 
@@ -2428,19 +2434,19 @@ msgstr "Neue Spiele werden nicht moderiert, kuratiert oder von der Community gep
 msgid "games.list.no_games_html"
 msgstr "Keine Spiele passen zum Filter. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:162
 msgid "games.list.sections_selector_best"
 msgstr "Beste"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:142
 msgid "games.list.sections_selector_featured"
 msgstr "Empfohlen"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.sections_selector_hot"
 msgstr "Hot"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:172
 msgid "games.list.sections_selector_new"
 msgstr "Neues"
 
@@ -4622,7 +4628,7 @@ msgstr[1] ""
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:181
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4965,7 +4971,7 @@ msgstr "Open Source"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ count | number }} Comments"
+msgid_plural "{{ $count | number }} Comments"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -5042,19 +5048,20 @@ msgstr "Stop Following"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
-msgstr "translated by"
+msgstr "Übersetz von\n"
+""
 
 #. Tooltip for comment voting when you and other people like it.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
-msgstr[0] ""
+msgstr[0] "Du und ein anderer gefällt diesen Post"
 msgstr[1] ""
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
 msgid "You like this comment"
-msgstr "You like this comment"
+msgstr "Dir gefällt diesen Post"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
@@ -5078,7 +5085,8 @@ msgstr "Submit Bug Report"
 
 #: app/components/client/system-report-modal/system-report-modal.html:20
 msgid "system_report.send.close"
-msgstr "Close"
+msgstr "schließen\n"
+""
 
 #: app/components/client/system-report-modal/system-report-modal.html:2
 msgid "system_report.send.heading"
@@ -5112,7 +5120,7 @@ msgstr "You can change the location where games are installed at any time in you
 
 #: app/views/library/installed/installed.html:4
 msgid "library.installed.heading"
-msgstr "Installed Games"
+msgstr "installierte spiele"
 
 #. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
 #: app/views/library/installed/installed.html:70
