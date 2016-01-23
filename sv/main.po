@@ -1024,8 +1024,8 @@ msgstr "Media"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
-msgstr "Add an <br>\n"
-"\t<strong>Image</strong> or <strong>Video</strong>"
+msgstr "Lägg till en <br>\n"
+"\t<strong>Bild</strong> Eller <strong>Video</strong> "
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
@@ -1036,17 +1036,19 @@ msgid "dash.games.media.add.heading"
 msgstr "Ändra Bild"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
+#, fuzzy
 msgid "dash.games.media.add.image.page_help_html"
-msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake box covers, or any other original art created for the game. Yes, even if it's a text-based game!</p>"
+msgstr "Lägg till skärmdumpar, konceptritningar, bilder av små lermodeller, falska fodral, eller någon annan original- konst som skapas för spelet. Ja, även om det är ett text-baserat spel!"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
 msgstr "Läs mer om skärmdumpar / bilder ..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
+#, fuzzy
 msgid "dash.games.media.add.video.page_help_html"
-msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkthroughs, etc.</p>\n"
-"\t<p>Please don't add Let's Plays or reviews. Let the content owners do that themselves in the comments.</p>"
+msgstr "<p>Lägg till videoklipp som du har skapat, t.ex. trailers, gameplay material, genomgångar, O.s.v </p>\n"
+"\t<p>Var vänlig och lägg inte upp andras filmklipp eller recensioner. Låt de innehållsägarna gör det själva i kommentarerna.</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
@@ -1064,7 +1066,7 @@ msgstr "Bild"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
-msgstr "You can directly link to this image on your game page with the URL below."
+msgstr "Du kan direkt länka till den här bilden på din spelsida med webbadressen nedan."
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
@@ -1100,7 +1102,7 @@ msgstr "Ta bort Bild"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
-msgstr "\t<p>Want people to play your game? Add some images and video to your page. We recommend adding as many images and videos as you can--even if your game is all text!</p>"
+msgstr "␣<p>Vill du att folk spela ditt spel? Lägg till några bilder och videos på din sida. Vi rekommenderar att lägga till så många bilder och videoklipp som du kan - även om ditt spel är textbaserat!</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:20
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:47
@@ -2410,7 +2412,7 @@ msgstr "Indie {{ category }} sorted by Freshness."
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:179
 msgid "games.list.games_count_none"
 msgstr "No games."
 
@@ -2427,7 +2429,7 @@ msgstr "Hotness indicates community interest in recent games. A game's Hotness s
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorted by publication date."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:96
 msgid "games.list.new_games_warning_html"
 msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
 
@@ -2435,19 +2437,19 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 msgid "games.list.no_games_html"
 msgstr "No games match your filters. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:162
 msgid "games.list.sections_selector_best"
 msgstr "Best"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:142
 msgid "games.list.sections_selector_featured"
 msgstr "Featured"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.sections_selector_hot"
 msgstr "Hot"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:172
 msgid "games.list.sections_selector_new"
 msgstr "New"
 
@@ -4630,7 +4632,7 @@ msgstr[1] ""
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:181
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4974,7 +4976,7 @@ msgstr "Öppen källa"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ count | number }} Comments"
+msgid_plural "{{ $count | number }} Comments"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -5051,7 +5053,8 @@ msgstr "Stop Following"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
-msgstr "translated by"
+msgstr "du luktar lukt\n"
+""
 
 #. Tooltip for comment voting when you and other people like it.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
@@ -5063,7 +5066,8 @@ msgstr[1] ""
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
 msgid "You like this comment"
-msgstr "You like this comment"
+msgstr "\n"
+"Du gillar den här kommentaren"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
@@ -5071,7 +5075,8 @@ msgstr "You've just upvoted this comment. This lets us know the quality of comme
 
 #: app/components/shell/footer/footer.html:51
 msgid "footer.send_system_report"
-msgstr "Send System Report"
+msgstr "\n"
+"Skicka systemrapport"
 
 #: app/components/client/forms/system-report/system-report.html:4
 msgid "system_report.form.description_help"
