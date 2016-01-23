@@ -2234,7 +2234,7 @@ msgstr "Горячие игровые новости"
 
 #: app/views/discover/home/home.html:232
 msgid "discover.home.hot_news_help"
-msgstr "The hottest indie game news directly from the developers."
+msgstr "Самые горячие новости инди-игр прямо от разработчиков."
 
 #: app/views/discover/home/home.html:200
 msgid "discover.home.hot_news_tab"
@@ -2409,7 +2409,7 @@ msgstr "Indie {{ category }} sorted by Freshness."
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:179
 msgid "games.list.games_count_none"
 msgstr "Нет игр."
 
@@ -2426,7 +2426,7 @@ msgstr "Hotness indicates community interest in recent games. A game's Hotness s
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorted by publication date."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:96
 msgid "games.list.new_games_warning_html"
 msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
 
@@ -2434,19 +2434,19 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 msgid "games.list.no_games_html"
 msgstr "Нет игр по вашим фильтрам. <b>Zoinks!</b> "
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:162
 msgid "games.list.sections_selector_best"
 msgstr "Самое лучшее"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:142
 msgid "games.list.sections_selector_featured"
 msgstr "Интересное"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.sections_selector_hot"
 msgstr "Горячее"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:172
 msgid "games.list.sections_selector_new"
 msgstr "Новое"
 
@@ -2722,11 +2722,11 @@ msgstr "Тэг"
 
 #: app/components/shell/top-nav/top-nav.html:127
 msgid "nav.join"
-msgstr "Зарегистрируйся"
+msgstr "Зарегистрироваться"
 
 #: app/components/shell/top-nav/top-nav.html:121
 msgid "nav.login"
-msgstr "Войди"
+msgstr "Войти"
 
 #: app/views/discover/news/news.html:18
 msgid "news.list.all_descriptive_html"
@@ -2989,7 +2989,7 @@ msgstr "Clear Recent Searches"
 
 #: app/components/search/history/history.html:19
 msgid "search.recent.none"
-msgstr "No searches yet."
+msgstr "Ничего не найдено."
 
 #: app/components/search/history/history.html:17
 msgid "search.recent.popover_heading"
@@ -3432,15 +3432,15 @@ msgstr "Используются табачные изделия."
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:132
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:146
 msgid "dash.games.maturity.use_option"
-msgstr "Use"
+msgstr "Использовать"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image-controller.js:4
 msgid "dash.games.media.add.image.page_title"
-msgstr "Add Image for {{ game }}"
+msgstr "Добавить картинку по {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video-controller.js:4
 msgid "dash.games.media.add.video.page_title"
-msgstr "Add Video for {{ game }}"
+msgstr "Добавить видео по {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:6
 msgid "dash.games.media.page_title"
@@ -3464,11 +3464,11 @@ msgstr "Stats for {{ article }}"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.add_button"
-msgstr "Add News Update"
+msgstr "Добавить новость о обновлении"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:38
 msgid "dash.games.news.form.edit_button"
-msgstr "Save News Update"
+msgstr "Сохранить новость о обновлении"
 
 #: app/views/dashboard/developer/games/manage/news/list/list-controller.js:3
 msgid "dash.games.news.page_title"
@@ -3544,11 +3544,11 @@ msgstr "Скачиваем саундтрэк..."
 
 #: app/views/discover/games/view/scores/list/list-controller.js:3
 msgid "game.scores.page_title"
-msgstr "Scores for {{ game }}"
+msgstr "Очки в {{ game }}"
 
 #: app/views/discover/games/view/trophies/list/list-controller.js:5
 msgid "game.trophies.page_title"
-msgstr "Trophies for {{ game }}"
+msgstr "Трофеи в {{ game }}"
 
 #: app/views/discover/games/list/category/category-controller.js:66
 msgid "games.list.date_page_title"
@@ -3572,7 +3572,7 @@ msgstr "ролевые игры"
 
 #: app/views/library/overview/overview-controller.js:5
 msgid "library.page_title"
-msgstr "Your Library of Games"
+msgstr "Ваша библиотека игр"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:83
 msgid "library.playlists.add_game_error_growl"
@@ -4637,7 +4637,7 @@ msgstr[3] ""
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:181
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4991,15 +4991,15 @@ msgstr "Открытый исходный код"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ count | number }} Comments"
-msgstr[0] ""
+msgid_plural "{{ $count | number }} Comments"
+msgstr[0] "1 Комментарий"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
-msgstr "Add Comment"
+msgstr "Добавить Комментарий"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
@@ -5008,7 +5008,7 @@ msgstr "Automatic translations use Google Translate and may not be completely ac
 #: lib/gj-lib-client/components/comment/widget/widget.html:3
 #: lib/gj-lib-client/components/comment/widget/widget.html:8
 msgid "Comments"
-msgstr "Comments"
+msgstr "Комментарии"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:9
 msgid "Couldn't fetch comments for game."
@@ -5041,13 +5041,13 @@ msgstr "Let us know your thoughts and be the first to comment!"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:13
 msgid "No Comments Yet"
-msgstr "No Comments Yet"
+msgstr "Комментарии пока отсутствуют"
 
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
-msgstr[0] ""
+msgstr[0] "Одному человеку понравился этот комментарий"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -5056,15 +5056,15 @@ msgstr[3] ""
 #: lib/gj-lib-client/components/comment/widget/comment.html:12
 #: lib/gj-lib-client/components/comment/widget/comment.html:20
 msgid "Owner"
-msgstr "Owner"
+msgstr "Владелец"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:85
 msgid "Reply"
-msgstr "Reply"
+msgstr "Ответить"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:75
 msgid "Show original comments"
-msgstr "Show original comments"
+msgstr "Показать исходные комментарии"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:109
 msgid "Stop Following"
