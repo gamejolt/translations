@@ -16,7 +16,7 @@ msgstr "<p>Votre code d'Activation est invalide.</p>\n"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
-msgstr "Activation invalide"
+msgstr "Autorisation invalide"
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
@@ -266,7 +266,7 @@ msgstr "Oh non !"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Votre compte à été créé avec succàs. A partir de là, c'est tranquille !"
+msgstr "Votre compte à été créé avec succés. A partir de là, c'est tranquille !"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
 msgid "auth.linked_account.twitter.created_growl_title"
@@ -859,7 +859,7 @@ msgstr "Caché"
 
 #: app/components/forms/dashboard/game/game.html:126
 msgid "dash.games.form.status_hidden_help"
-msgstr "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
+msgstr "La page de votre jeu ne sera pas affichée dans les annonces publiques ni dans les résultats de recherche. Elle est cependant visible par les gens possédant un lien direct."
 
 #: app/components/forms/dashboard/game/game.html:112
 msgid "dash.games.form.status_label"
@@ -875,7 +875,7 @@ msgstr "Publié"
 
 #: app/components/forms/dashboard/game/game.html:119
 msgid "dash.games.form.status_published_help"
-msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
+msgstr "La page de votre jeu sera affichée dans les annonces publiques et dans les résultats de recherche. Elle sera visible par n'importe qui."
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
@@ -935,7 +935,7 @@ msgstr "Alcool"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
-msgstr "Bloodshed"
+msgstr "Effusion de sang"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:23
 msgid "dash.games.maturity.cartoon_violence_label"
@@ -1016,7 +1016,7 @@ msgstr "Violence"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
-msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
+msgstr "Si vous ne savez pas ce que sera le contenu final de votre jeu, donnez simplement vos pensées/idées. Vous pouvez faire des changements plus tard."
 
 #: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
@@ -1084,7 +1084,7 @@ msgstr "image"
 
 #: app/components/forms/dashboard/game/image/image.html:9
 msgid "dash.games.media.image.form.image_label"
-msgstr "Image File"
+msgstr "Fichier de l'image"
 
 #: app/components/forms/dashboard/game/image/image.html:34
 msgid "dash.games.media.image.form.submit_button"
@@ -1269,7 +1269,7 @@ msgstr "Vues:"
 
 #: app/views/dashboard/developer/games/manage/manage.html:25
 msgid "dash.games.overview_tab"
-msgstr "Overview"
+msgstr "Vue d'ensemble"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
 msgid "dash.games.overview.activity_heading"
@@ -2410,7 +2410,7 @@ msgstr "Indie {{ category }} sorted by Freshness."
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:179
 msgid "games.list.games_count_none"
 msgstr "Pas de jeux."
 
@@ -2427,7 +2427,7 @@ msgstr "Hotness indicates community interest in recent games. A game's Hotness s
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorted by publication date."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:96
 msgid "games.list.new_games_warning_html"
 msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
 
@@ -2435,19 +2435,19 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 msgid "games.list.no_games_html"
 msgstr "No games match your filters. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:162
 msgid "games.list.sections_selector_best"
 msgstr "Meilleurs"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:142
 msgid "games.list.sections_selector_featured"
 msgstr "Séléctionnés"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.sections_selector_hot"
 msgstr "Hot"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:172
 msgid "games.list.sections_selector_new"
 msgstr "Nouveaux"
 
@@ -4631,7 +4631,7 @@ msgstr[1] ""
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:181
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4856,7 +4856,7 @@ msgstr "Start when Windows starts?"
 
 #: app/components/forms/settings/settings.html:12
 msgid "settings.change_location_button"
-msgstr "Change Location"
+msgstr "Changer la localisation"
 
 #: app/components/forms/settings/settings.html:59
 #: app/views/settings/settings.html:24
@@ -4865,7 +4865,7 @@ msgstr "Chat"
 
 #: app/components/forms/settings/settings.html:61
 msgid "settings.chat_notify_friends_online_label"
-msgstr "Get notifications when friends go online/offline?"
+msgstr "Recevoir des notifications quand vous amis sont en ligne/hors-ligne"
 
 #: app/components/forms/settings/settings.html:4
 #: app/views/settings/settings.html:21
@@ -4914,7 +4914,7 @@ msgstr "Max # of Simultaneous Extractions"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
-msgstr "Settings"
+msgstr "Paramètres"
 
 #: app/components/forms/settings/settings.html:48
 msgid "settings.queue_when_playing_help"
@@ -4974,13 +4974,13 @@ msgstr "Open source"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ count | number }} Comments"
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "{{ $count | number }} Comments"
+msgstr[0] "1 commentaire"
+msgstr[1] "{{ $count | number }} Commentaires"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
-msgstr "Add Comment"
+msgstr "Ajouter un commentaire"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
@@ -4989,46 +4989,46 @@ msgstr "Automatic translations use Google Translate and may not be completely ac
 #: lib/gj-lib-client/components/comment/widget/widget.html:3
 #: lib/gj-lib-client/components/comment/widget/widget.html:8
 msgid "Comments"
-msgstr "Comments"
+msgstr "Commenter"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:9
 msgid "Couldn't fetch comments for game."
-msgstr "Couldn't fetch comments for game."
+msgstr "Vous ne pouvez pas apporter de commentaire à ce jeu"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:100
 msgid "Follow Thread"
-msgstr "Follow Thread"
+msgstr "Suivre le fil"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:96
 msgid "Get notifications when people post new replies to this thread."
-msgstr "Get notifications when people post new replies to this thread."
+msgstr "Recevoir des notifications quand les gens postent des réponses a ce post"
 
 #. Tooltip for comment voting when no one has liked a comment yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
 msgid "Give this comment some love!"
-msgstr "Give this comment some love!"
+msgstr "Donnez de l'amour à ce commentaire <3"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:9
 msgid "Leave a Comment"
-msgstr "Leave a Comment"
+msgstr "Laissez un commentaire"
 
 #: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
 msgid "Leave a comment..."
-msgstr "Leave a comment..."
+msgstr "Laissez un commentaire"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:25
 msgid "Let us know your thoughts and be the first to comment!"
-msgstr "Let us know your thoughts and be the first to comment!"
+msgstr "Laisser nous votre ressenti et soyez le premier !"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:13
 msgid "No Comments Yet"
-msgstr "No Comments Yet"
+msgstr "Pas encore de commentaire"
 
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
-msgstr[0] ""
+msgstr[0] "Une personne a aimé ce comentaire."
 msgstr[1] ""
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
@@ -5039,31 +5039,31 @@ msgstr "Owner"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:85
 msgid "Reply"
-msgstr "Reply"
+msgstr "Rpondre"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:75
 msgid "Show original comments"
-msgstr "Show original comments"
+msgstr "Montrer le commentaire original"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:109
 msgid "Stop Following"
-msgstr "Stop Following"
+msgstr "Arreter de suivre"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
-msgstr "translated by"
+msgstr "Traduit par"
 
 #. Tooltip for comment voting when you and other people like it.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Vous et une autre personne a aimé ce commentaire"
+msgstr[1] "Vous et {{ $count | number }} personnes ont aimé ce commentaire"
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
 msgid "You like this comment"
-msgstr "You like this comment"
+msgstr "Vous aimez ce commentaire"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
@@ -5083,15 +5083,15 @@ msgstr "Description"
 
 #: app/components/client/forms/system-report/system-report.html:11
 msgid "system_report.form.submit_button"
-msgstr "Submit Bug Report"
+msgstr "Soumettre un rapport de bug"
 
 #: app/components/client/system-report-modal/system-report-modal.html:20
 msgid "system_report.send.close"
-msgstr "Close"
+msgstr "Fermer"
 
 #: app/components/client/system-report-modal/system-report-modal.html:2
 msgid "system_report.send.heading"
-msgstr "Send System Report"
+msgstr "Envoyer un rapport du système"
 
 #: app/components/client/system-report-modal/system-report-modal.html:4
 msgid "system_report.send.help"
@@ -5103,25 +5103,25 @@ msgstr "If you experienced a bug, please report it first on our <a href=\"https:
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:6
 msgid "system_report.sent_growl"
-msgstr "Your system report has been sent."
+msgstr "Votre rapport du système a été envoyé"
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:7
 msgid "system_report.sent_growl_title"
-msgstr "Report Sent"
+msgstr "Rapport envoyé"
 
 #. {{ lang }} is passed in with the current language
 #: lib/gj-lib-client/components/comment/widget/widget.html:60
 msgid "Translate comments to {{ lang }}"
-msgstr "Translate comments to {{ lang }}"
+msgstr "Traduire le commentaire en {{ lang }}"
 
 #. Short message to remind them that they can change install location at any time in their settings.
 #: app/views/library/installed/installed.html:22
 msgid "library.installed.change_location_message"
-msgstr "You can change the location where games are installed at any time in your <a href=\"/settings\">Settings</a>."
+msgstr "Vous pouvez changer la localisation où les jeux sont installés a n'importe quel moment dans votre <a href=\"/settings\">Settings</a>"
 
 #: app/views/library/installed/installed.html:4
 msgid "library.installed.heading"
-msgstr "Installed Games"
+msgstr "Jeux installés"
 
 #. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
 #: app/views/library/installed/installed.html:70
@@ -5131,9 +5131,9 @@ msgstr "Multiple Packages"
 #. The message shown when there are no games installed yet in their library.
 #: app/views/library/installed/installed.html:13
 msgid "library.installed.no_games_message"
-msgstr "Your installed games show up here... that is, once you have some!"
+msgstr "Vos jeux installés montrer ici ... qui est, une fois que vous avez!"
 
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
-msgstr "Installed Games"
+msgstr "Jeux installés"
 
