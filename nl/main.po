@@ -2409,7 +2409,7 @@ msgstr "Indie {{ category }} gesorteerd op Frisheid."
 msgid "games.list.freshness_tooltip"
 msgstr "Frisheid geeft de interesse van de gemeenschap weer. Frisheid begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:179
 msgid "games.list.games_count_none"
 msgstr "Geen games."
 
@@ -2426,7 +2426,7 @@ msgstr "Populariteit geeft de interesse van de gemeenschap weer op recent gepubl
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Publicatiedatum."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:96
 msgid "games.list.new_games_warning_html"
 msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vindt hier een combinatie van onontdekte juweeltjes, maar ook de meest vreemde shit die je ooit gezien hebt!"
 
@@ -2434,19 +2434,19 @@ msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vi
 msgid "games.list.no_games_html"
 msgstr "Geen games voldoen aan je criteria. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:162
 msgid "games.list.sections_selector_best"
 msgstr "Beste"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:142
 msgid "games.list.sections_selector_featured"
 msgstr "Uitgelicht"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.sections_selector_hot"
 msgstr "Populair"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:172
 msgid "games.list.sections_selector_new"
 msgstr "Nieuw"
 
@@ -4630,7 +4630,7 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:181
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4973,9 +4973,9 @@ msgstr "Open Source"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ count | number }} Comments"
+msgid_plural "{{ $count | number }} Comments"
 msgstr[0] "1 Reactie"
-msgstr[1] "{{ count | number }} Reacties"
+msgstr[1] "{{ $count | number }} Reacties"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -5070,69 +5070,69 @@ msgstr "Je hebt net gestemd op deze reactie. Dit laat ons de kwaliteit van react
 
 #: app/components/shell/footer/footer.html:51
 msgid "footer.send_system_report"
-msgstr "Send System Report"
+msgstr "Verstuur Systeemrapport"
 
 #: app/components/client/forms/system-report/system-report.html:4
 msgid "system_report.form.description_help"
-msgstr "Describe what this system report is about, any bugs you may have encountered, and how you can reproduce."
+msgstr "Omschrijf waar dit systeemrapport over gaat, bugs die je bent tegengekomen en hoe je het kunt reproduceren."
 
 #: app/components/client/forms/system-report/system-report.html:3
 msgid "system_report.form.description_label"
-msgstr "Description"
+msgstr "Omschrijving"
 
 #: app/components/client/forms/system-report/system-report.html:11
 msgid "system_report.form.submit_button"
-msgstr "Submit Bug Report"
+msgstr "Verzend Systeemrapport"
 
 #: app/components/client/system-report-modal/system-report-modal.html:20
 msgid "system_report.send.close"
-msgstr "Close"
+msgstr "Sluiten"
 
 #: app/components/client/system-report-modal/system-report-modal.html:2
 msgid "system_report.send.heading"
-msgstr "Send System Report"
+msgstr "Verstuur Systeemrapport"
 
 #: app/components/client/system-report-modal/system-report-modal.html:4
 msgid "system_report.send.help"
-msgstr "This will send a system report to us with details about your device and client log. We don't collect personal information through this."
+msgstr "Dit zal een systeemrapport naar ons versturen met informatie over je apparaat en een logbestand. We halen hier geen persoonlijke data uit."
 
 #: app/components/client/system-report-modal/system-report-modal.html:8
 msgid "system_report.send.issue_tracker"
-msgstr "If you experienced a bug, please report it first on our <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>."
+msgstr "Ben je een bug tegenkomen? Rapporteer deze dan eerst op de <a href=\"https://github.com/gamejolt/issue-tracker\">bugtracker</a>."
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:6
 msgid "system_report.sent_growl"
-msgstr "Your system report has been sent."
+msgstr "Je systeemrapport is verstuurd."
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:7
 msgid "system_report.sent_growl_title"
-msgstr "Report Sent"
+msgstr "Rapport Verstuurd"
 
 #. {{ lang }} is passed in with the current language
 #: lib/gj-lib-client/components/comment/widget/widget.html:60
 msgid "Translate comments to {{ lang }}"
-msgstr "Translate comments to {{ lang }}"
+msgstr "Vertaal reacties naar {{ lang }}"
 
 #. Short message to remind them that they can change install location at any time in their settings.
 #: app/views/library/installed/installed.html:22
 msgid "library.installed.change_location_message"
-msgstr "You can change the location where games are installed at any time in your <a href=\"/settings\">Settings</a>."
+msgstr "Je kunt deze locatie waar spellen worden geïnstalleerd altijd veranderen in je <a href=\"/settings\">Instellingen</a>."
 
 #: app/views/library/installed/installed.html:4
 msgid "library.installed.heading"
-msgstr "Installed Games"
+msgstr "Geïnstalleerde spellen"
 
 #. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
 #: app/views/library/installed/installed.html:70
 msgid "library.installed.multiple_packages"
-msgstr "Multiple Packages"
+msgstr "Meerdere Pakketten"
 
 #. The message shown when there are no games installed yet in their library.
 #: app/views/library/installed/installed.html:13
 msgid "library.installed.no_games_message"
-msgstr "Your installed games show up here... that is, once you have some!"
+msgstr "Je geïnstalleerde spellen verschijnen hier... tenminste, zodra je die hebt!"
 
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
-msgstr "Installed Games"
+msgstr "Geïnstalleerde Spellen"
 
