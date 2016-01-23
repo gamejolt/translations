@@ -26,7 +26,7 @@ msgstr "Kod Pengesahan Tidak Sah"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "Kami sedang mengarahkan anda ke papan pemuka Game Jolt anda"
+msgstr "Kami sedang mengarahkan anda ke papan pemuka Game Jolt anda."
 
 #: auth/views/auth/login/login.html:41
 #: auth/views/auth/login/login.html:42
@@ -293,7 +293,7 @@ msgstr "Menetapkan Kata Laluan"
 
 #: auth/views/auth/reset-password/reset-password-controller.js:11
 msgid "auth.reset_password.success_growl"
-msgstr "kala laluan anda telah ditetapkan. Anda boleh log masuk dengan kata "
+msgstr "kala laluan anda telah ditetapkan. Anda boleh log masuk dengan kata."
 
 #: auth/views/auth/reset-password/reset-password-controller.js:12
 msgid "auth.reset_password.success_growl_title"
@@ -309,7 +309,7 @@ msgstr "Syarat"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
-msgstr "<p>Make friends on the site to chat with them, see what they're playing, and play games with them!</p>"
+msgstr "<p>Berteman untuk berbual-bual dengan mereka, lihatkan apa yang mereka bermain, dan bermain permainan dengan mereka!</p>"
 
 #: app/views/dashboard/activity/list/list.html:11
 msgid "dash.activity.all_tab"
@@ -329,7 +329,7 @@ msgstr "Aktiviti suapan"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
-msgstr "No notifications here. Either you're a really fast reader or you need to follow more stuff!"
+msgstr "Tidak ada pemberitahuan di sini. Mungkin anda pembaca yang cepat atau anda perlu mengikut permainan."
 
 #: app/views/dashboard/activity/list/list.html:24
 msgid "dash.activity.unread_tab"
@@ -337,10 +337,10 @@ msgstr "Belum baca"
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
-msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) to serve up the avatars on Game Jolt.</p>\n"
-"\t<p>If you don't already have a Gravatar account, you can click the button below to open <a href=\"http://gravatar.com\">gravatar.com</a> and sign up for one. Note that you'll need to sign up using your WordPress login. What's that, you don't have a WordPress account, either? No worries! You'll be able to create both accounts at the same time.</p>\n"
-"\t<p>Have a Gravatar account? Good. Just log in and upload the avatar of your choice, then associate that avatar with the email address you use for Game Jolt. Your avatar will automatically appear throughout the site.</p>\n"
-"\t<p><em>Note that there might be a short delay before your avatar shows up on the site. If you don't see it after what seems like long enough, try clearing your browser's cache.</em></p>"
+msgstr "<p>Kami kini menggunakan <a href=\"http://gravatar.com\">Gravatar</a>(Globally Reconized Avatar) untuk berkhidmatkan avatar di Game Jolt.</p>\n"
+"<p> Jika anda tidak mempunyai akaun Gravatar, anda boleh klik butang yang dibawah untuk membuka <a href=\"http://gravatar.com\">Gravatar</a> dan mendaftar. Anda mestilah mendafter menggunakan akaun WordPress log masuk. Apa tu, anda juga tidak ada akaun WordPress juga? Tak perlu risau! Anda boleh mendaftar kedua-dua akaun dalam semasa.</p>\n"
+"<p> Menpunyai akaun Gravatar? Baik. Log masuk dan muat naik pilihan avatar anda, dan menggabungkan avatar itu dengan alamat e-mel anda yang menggunakan untuk Game Jolt. Avatar anda akan muncul secara automatik seluruh laman web ini.</p>\n"
+"<p><em>Mungkin proses ini mempunyai lawat yang pendek sebelum avatar anda boleh dilihatkan. Jika anda tidak dapat melihatkan avatar selepas masa yang masa yang panjang, cubalah membersihkan cache pelayar anda.</p>"
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
@@ -396,7 +396,7 @@ msgstr "Mengubahkan Kata laluan Akaun"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
-msgstr "Your Email Preferences"
+msgstr "Keutamaan E-mel Anda"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:12
 msgid "dash.email_prefs.newsletter_label"
@@ -404,7 +404,7 @@ msgstr "Mendapat Surat Berita?"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:20
 msgid "dash.email_prefs.notifications_description"
-msgstr "Let us know what kinds of email notifications you'd like to receive by toggling each category on or off."
+msgstr "Membenarkan kami tahu apa pemberitahuan e-mel yang anda mahu menerima dengan menogol kategori buka atau tutup."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:18
 msgid "dash.email_prefs.notifications_heading"
@@ -412,11 +412,11 @@ msgstr "Pemberitahuan"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:3
 msgid "dash.email_prefs.page_title"
-msgstr "Email Preferences"
+msgstr "Keutamaan E-mel"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:34
 msgid "dash.email_prefs.submit_button"
-msgstr "Save Preferences"
+msgstr "Mengubahkan Keutamaan"
 
 #: app/components/forms/dashboard/game/header/header.html:11
 #: app/components/forms/dashboard/game/image/image.html:11
@@ -446,7 +446,7 @@ msgstr "Pastikan informasi anda yang memasukkan adalah betul. Anda tidak boleh m
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:3
 msgid "dash.funds.withdraw.heading"
-msgstr "Withdraw Revenue"
+msgstr "Mengeluarkan Hasil"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.page_help_html"
@@ -534,7 +534,7 @@ msgstr "Cari bantuan dalam forum API"
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
 msgstr "<p>API Permainan membolehkan anda meningkatkan permainan anda dengan papan skor, piala, storan data awan, sesi log masuk dan banyak lagi.</p>\n"
-"<p>Anda boleh menyemak pautan di bawah untuk lihatkan sudahkah komuni"
+"<p>Anda boleh menyemak pautan di bawah untuk lihatkan sudahkah komuniti dicatat sebuah perpustakaan API atau pasangkan untuk enjin/bahasa/alat anda menggunakan. Kamu boleh sentiasa menbina satu untuk anda dan berkongsinya dalam forum!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
@@ -566,15 +566,15 @@ msgstr "Sesyen Aktif"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
-msgstr "Purata Masa Sesyen"
+msgstr "Purata Masa Sesi"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sesyen"
+msgstr "Sesi"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
-msgstr "Sessions show you who's playing your game and for how long."
+msgstr "Sesi membolehkan anda lihat siapa yang bermain permainan anda dan bermain berapa masa."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
 msgid "dash.games.api.overview.sessions_time_label"
@@ -638,7 +638,7 @@ msgstr "Fail .jar. Boleh bermain dengan pelayar yang masih menyokong Java. Sila 
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+msgstr "Pastikan anda membuang atau melarangkan iklan dalam permainan anda. Kami berkhidmatkan iklan kami dan berkongsi dengan pemaju. Sila melarangkan nama domain di bawah:"
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
@@ -658,11 +658,11 @@ msgstr "Ini ialah dimensi di mana build pelayar anda akan dipaparkan."
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "Ini membolehkan anda untuk menutupkan kelakukan klik kanan. Membolehkan ini apabila permainan anda perlu memintas klik kanan sahaja."
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disable right click?"
+msgstr "Tutup klik kanan?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
@@ -2296,31 +2296,31 @@ msgstr "There are no scores on this scoreboard yet."
 
 #: app/views/discover/games/view/scores/list/list.html:74
 msgid "game.scores.no_user_scores_html"
-msgstr "You don't have any scores here yet!"
+msgstr "Anda belum dapat skor di sini!"
 
 #: app/views/discover/games/view/scores/list/list.html:39
 msgid "game.scores.user_tab"
-msgstr "Your Scores"
+msgstr "Skor Anda"
 
 #: app/views/discover/games/view/trophies/list/list.html:26
 msgid "game.trophies.achieved_tab"
-msgstr "Achieved"
+msgstr "Dapatkan"
 
 #: app/views/discover/games/view/trophies/list/list.html:20
 msgid "game.trophies.all_tab"
-msgstr "All"
+msgstr "Semua"
 
 #: app/views/discover/games/view/trophies/list/list.html:7
 msgid "game.trophies.heading"
-msgstr "Trophies"
+msgstr "Piala"
 
 #: app/views/discover/games/view/trophies/list/list.html:55
 msgid "game.trophies.no_trophies_html"
-msgstr "There are no trophies for this game yet. Bug the developer about adding some!"
+msgstr "Permainan ini belum mengadakan piala. Menggangu pemaju untuk tambah piala!"
 
 #: app/views/discover/games/view/trophies/list/list.html:32
 msgid "game.trophies.unachieved_tab"
-msgstr "Not Achieved"
+msgstr "Belum Dapat"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:138
 msgid "games.browser_applet"
@@ -2336,7 +2336,7 @@ msgstr "HTML"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:133
 msgid "games.browser_silverlight"
-msgstr "Silverlight"
+msgstr "Sliverlight"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:128
 msgid "games.browser_unity"
@@ -2344,7 +2344,7 @@ msgstr "Unity"
 
 #: app/components/game/filtering/widget.html:12
 msgid "games.filtering.browser_label"
-msgstr "Browser Games"
+msgstr "Permainan Pelayar"
 
 #: app/components/game/filtering/tags.html:5
 msgid "games.filtering.genre_label"
@@ -2352,15 +2352,15 @@ msgstr "Genre"
 
 #: app/components/game/filtering/input.html:14
 msgid "games.filtering.input_placeholder"
-msgstr "Filter results..."
+msgstr "Keputusan menyaring..."
 
 #: app/components/game/filtering/widget.html:19
 msgid "games.filtering.maturity_label"
-msgstr "Maturity Rating"
+msgstr "Penarafan Kematangan"
 
 #: app/components/game/filtering/widget.html:5
 msgid "games.filtering.os_label"
-msgstr "Operating Systems"
+msgstr "Sistem Operasi"
 
 #: app/components/game/filtering/widget.html:26
 msgid "games.filtering.status_label"
@@ -2368,43 +2368,43 @@ msgstr "Status"
 
 #: app/views/discover/games/list/list.html:44
 msgid "games.list.best_descriptive_html"
-msgstr "Indie {{ category }} sorted by Voltage."
+msgstr "Indie {{ category }} disusun dengan Voltan."
 
 #: app/views/discover/games/list/list.html:71
 msgid "games.list.date_descriptive_html"
-msgstr "Games that were published on {{ date }}, sorted by Voltage, with the best scores at the top."
+msgstr "Permainan diterbitkan pada {{ date }}, disusunkan dengan Voltan, skor terbaik disusun di atas."
 
 #: app/views/discover/games/list/list.html:26
 msgid "games.list.date_heading"
-msgstr "Games Published"
+msgstr "Permainan Diterbitkan"
 
 #: app/views/discover/games/list/list.html:74
 msgid "games.list.date_range_descriptive_html"
-msgstr "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
+msgstr "Permainan diterbit antara {{ dateStart }} dan {{ dateEnd }}, disusun dengan Voltan, skor terbaik disusun di atas."
 
 #: app/views/discover/games/list/list.html:30
 msgid "games.list.date_range_heading"
-msgstr "Games Published"
+msgstr "Permainan Diterbitkan"
 
 #: app/views/discover/games/list/list.html:38
 msgid "games.list.featured_descriptive_html"
-msgstr "Indie {{ category }} that we've featured on the homepage, sorted by feature date."
+msgstr "Indie {{ category }} kami diketengahkan di muka surat utama, disusun dengan hari diketengahkan."
 
 #: app/views/discover/games/list/list.html:51
 msgid "games.list.fresh_descriptive_html"
-msgstr "Indie {{ category }} sorted by Freshness."
+msgstr "Indie {{ category }} disusun dengan Kesegaran."
 
 #: app/views/discover/games/list/list.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:179
 msgid "games.list.games_count_none"
-msgstr "No games."
+msgstr "Tiada Permainan."
 
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
-msgstr "Indie {{ category }} sorted by Hotness."
+msgstr "Indie {{ category }} disusun dengan Kepanasan."
 
 #: app/views/discover/games/list/list.html:61
 #: app/views/discover/home/home.html:160
@@ -2413,31 +2413,31 @@ msgstr "Hotness indicates community interest in recent games. A game's Hotness s
 
 #: app/views/discover/games/list/list.html:65
 msgid "games.list.new_descriptive_html"
-msgstr "Indie {{ category }} sorted by publication date."
+msgstr "Indie {{ category }} disusun dengan hari penerbitan."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:96
 msgid "games.list.new_games_warning_html"
-msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
+msgstr "Permainan yang baru tidak dimainkan, dikirikan atau disemak oleh komuniti. Anda boleh mencari emas yang belum dipegang atau anda akan melihatkan najis yang tertakutkan."
 
 #: app/views/discover/games/list/category/category.html:2
 msgid "games.list.no_games_html"
-msgstr "No games match your filters. <b>Zoinks!</b>"
+msgstr "Tiada permainan samakan dengan menyaing anda. <b>Oops!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:162
 msgid "games.list.sections_selector_best"
-msgstr "Best"
+msgstr "Terbaik"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:142
 msgid "games.list.sections_selector_featured"
-msgstr "Featured"
+msgstr "Diketengahkan"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.sections_selector_hot"
-msgstr "Hot"
+msgstr "Panas"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:172
 msgid "games.list.sections_selector_new"
-msgstr "New"
+msgstr "Baru"
 
 #: app/views/discover/games/list/list.html:47
 #: app/views/discover/games/list/list.html:77
@@ -2446,35 +2446,35 @@ msgstr "Voltage is our weighted rating system. All games start with an average s
 
 #: app/views/discover/games/view/_header/nav.html:48
 msgid "games.view.manage_game_button"
-msgstr "Manage Game"
+msgstr "Menguruskan Permainan"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:14
 msgid "games.view.media.close"
-msgstr "Close"
+msgstr "Tutup"
 
 #: app/views/discover/games/view/_header/nav.html:56
 msgid "games.view.moderate_game_button"
-msgstr "Moderate Game"
+msgstr "Sederhana Permainan"
 
 #: app/views/discover/games/view/_header/nav.html:11
 msgid "games.view.news_tab"
-msgstr "News"
+msgstr "Berita"
 
 #: app/views/discover/games/view/view.html:15
 msgid "games.view.notifications_heading"
-msgstr "Notifications"
+msgstr "Pemberitahuan"
 
 #: app/views/discover/games/view/_header/nav.html:6
 msgid "games.view.overview_tab"
-msgstr "Overview"
+msgstr "Pemuka"
 
 #: app/views/discover/games/view/_header/nav.html:18
 msgid "games.view.scores_tab"
-msgstr "Scores"
+msgstr "Skor"
 
 #: app/views/discover/games/view/overview/_details.html:43
 msgid "games.view.stats.downloads_plays_label"
-msgstr "Plays"
+msgstr "Main"
 
 #: app/views/discover/games/view/overview/_details.html:47
 msgid "games.view.stats.na"
@@ -2482,15 +2482,15 @@ msgstr "N/A"
 
 #: app/views/discover/games/view/overview/_details.html:53
 msgid "games.view.stats.ratings_label"
-msgstr "Ratings"
+msgstr "Penarafan"
 
 #: app/views/discover/games/view/overview/_details.html:38
 msgid "games.view.stats.views_label"
-msgstr "Views"
+msgstr "Lihat"
 
 #: app/views/discover/games/view/_header/nav.html:23
 msgid "games.view.trophies_tab"
-msgstr "Trophies"
+msgstr "Piala"
 
 #: app/components/score/overview/overview.html:96
 #: app/components/trophy/list/list.html:27
@@ -2506,35 +2506,35 @@ msgstr "EXP"
 #: app/views/library/collection/_header-default.html:79
 #: app/views/library/library.html:95
 msgid "library.by"
-msgstr "by"
+msgstr "oleh"
 
 #: app/views/library/collection/_header-default.html:66
 msgid "library.collection.developer_descriptive_html"
-msgstr "These are the games made by {{ user }}."
+msgstr "Permainan ini dibuat oleh {{ user }}."
 
 #: app/views/library/collection/_header-default.html:58
 msgid "library.collection.developer_heading"
-msgstr "Games"
+msgstr "Permainan"
 
 #: app/views/library/collection/_header-default.html:54
 msgid "library.collection.developer_owner_descriptive_html"
-msgstr "These are the games that you've made. Be proud!<br>Feel free to share this page with others to show off your games."
+msgstr "Permainan ini adalah permainan yang anda buat. Berasa bangga!<br>Berkongsilah dengan orang lain."
 
 #: app/views/library/collection/_header-default.html:53
 msgid "library.collection.developer_owner_heading"
-msgstr "Your Games"
+msgstr "Permainan Anda"
 
 #: app/views/library/collection/_header/controls.html:28
 msgid "library.collection.edit_playlist_button"
-msgstr "Edit Playlist"
+msgstr "Mengubahkan Senarai"
 
 #: app/views/library/collection/_header-default.html:44
 msgid "library.collection.followed_descriptive_html"
-msgstr "These are the games that {{ user }} is following."
+msgstr "Permainan ini adalah diikut oleh {{ user }}."
 
 #: app/views/library/collection/_header-default.html:36
 msgid "library.collection.followed_heading"
-msgstr "Games Followed"
+msgstr "Permainan Diikut"
 
 #: app/views/library/collection/_header-default.html:32
 msgid "library.collection.followed_owner_descriptive_html"
@@ -2542,27 +2542,27 @@ msgstr "When you follow a game, it shows up here.<br>You'll receive notification
 
 #: app/views/library/collection/_header-default.html:31
 msgid "library.collection.followed_owner_heading"
-msgstr "Your Followed Games"
+msgstr "Permainan Anda Mengikut"
 
 #: app/views/library/collection/_header/stats.html:3
 msgid "library.collection.followers_label"
-msgstr "Followers"
+msgstr "Pengikut"
 
 #: app/views/library/collection/_header/stats.html:7
 msgid "library.collection.games_label"
-msgstr "Games"
+msgstr "Permainan"
 
 #: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
-msgstr "There are no games in this bundle yet."
+msgstr "Berkas ini belum ada permainan."
 
 #: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
-msgstr "This developer hasn't added any games yet."
+msgstr "Pemaju ini belum bertambah permainan."
 
 #: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
-msgstr "No games are being followed yet."
+msgstr "Tiada permainan yang diikut."
 
 #: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
@@ -2570,19 +2570,19 @@ msgstr "@:games.list.no_games_html"
 
 #: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
-msgstr "There are no games in this playlist yet, alas."
+msgstr "Oh, senarai ini belum ada permainan."
 
 #: app/views/library/collection/collection.html:129
 msgid "library.collection.no_games_tag_html"
-msgstr "There are no games with this tag yet."
+msgstr "Belum ada parmainan dengan tag ini."
 
 #: app/views/library/collection/collection.html:37
 msgid "library.collection.remove_playlist_button"
-msgstr "Remove Playlist"
+msgstr "Buang Senarai"
 
 #: app/views/library/collection/_header-tag.html:10
 msgid "library.collection.tag_heading_before"
-msgstr "Games tagged with"
+msgstr "Parmainan tag dengan"
 
 #: app/views/library/overview/overview.html:5
 msgid "library.description_html"
@@ -2590,27 +2590,27 @@ msgstr "<p>This is your personalized library of games. Here dwell the games you'
 
 #: app/views/library/overview/overview.html:4
 msgid "library.heading"
-msgstr "Game Library"
+msgstr "Perpustakaan Permainan"
 
 #: app/views/library/library.html:31
 msgid "library.nav.bundles"
-msgstr "Bundles"
+msgstr "Berkas"
 
 #: app/views/library/library.html:23
 msgid "library.nav.developer"
-msgstr "Your Games"
+msgstr "Permainan Anda"
 
 #: app/views/library/library.html:59
 msgid "library.nav.filter_playlists_placeholder"
-msgstr "Filter playlists..."
+msgstr "Menyaring Senarai..."
 
 #: app/views/library/library.html:17
 msgid "library.nav.followed"
-msgstr "Followed Games"
+msgstr "Permainan Diikut"
 
 #: app/views/library/library.html:52
 msgid "library.nav.new_playlist_button"
-msgstr "New Playlist"
+msgstr "Senaeai Baru"
 
 #: app/views/library/library.html:65
 msgid "library.nav.no_playlists_html"
@@ -2619,91 +2619,91 @@ msgstr "<p>Create playlists to organize and share the games in your library.</p>
 
 #: app/views/library/library.html:45
 msgid "library.nav.playlists"
-msgstr "Playlists"
+msgstr "Senarai"
 
 #: app/views/discover/games/view/_header/controls.html:32
 msgid "library.playlists.add_to.button"
-msgstr "Add to Playlist"
+msgstr "Tambah ke Senarai"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
-msgstr "Filter playlists..."
+msgstr "Menyaring Senarai..."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:16
 msgid "library.playlists.add_to.new_playlist_button"
-msgstr "New Playlist"
+msgstr "Senarai Baru"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:6
 msgid "library.playlists.bundle_tag"
-msgstr "Bundle"
+msgstr "Berkas"
 
 #: app/components/game/collection/grid/grid.html:40
 msgid "library.playlists.developer_description"
-msgstr "Here are the games created by this developer."
+msgstr "Permainan ini adalah dibuat oleh pemaju ini."
 
 #: app/components/game/collection/thumbnail/thumbnail.html:3
 msgid "library.playlists.developer_tag"
-msgstr "Developer's Games"
+msgstr "Permainan Pemaju Ini"
 
 #: app/components/game/collection/grid/grid.html:14
 msgid "library.playlists.developer_title"
-msgstr "Developer's Games"
+msgstr "Permainan Pemaju Ini"
 
 #: app/components/game/collection/grid/grid.html:36
 msgid "library.playlists.followed_description"
-msgstr "Here are the games this person is following."
+msgstr "Permainan orang ini mengikutkan."
 
 #: app/components/game/collection/thumbnail/thumbnail.html:4
 msgid "library.playlists.followed_tag"
-msgstr "Followed Games"
+msgstr "Permainan Diikut"
 
 #: app/components/game/collection/grid/grid.html:20
 msgid "library.playlists.followed_title"
-msgstr "Followed Games"
+msgstr "Permainan Diikut"
 
 #: app/components/forms/playlist/playlist.html:10
 msgid "library.playlists.form.add_submit_button"
-msgstr "Add Playlist"
+msgstr "Tambah Senarai"
 
 #: app/components/forms/playlist/playlist.html:11
 msgid "library.playlists.form.edit_submit_button"
-msgstr "Edit Playlist"
+msgstr "Mengubahkan Senarai"
 
 #: app/components/forms/playlist/playlist.html:3
 msgid "library.playlists.form.name_label"
-msgstr "Name"
+msgstr "Nama"
 
 #: app/components/game/collection/grid/grid.html:13
 msgid "library.playlists.owner_developer_title"
-msgstr "Your Games"
+msgstr "Permainan Anda"
 
 #: app/components/game/collection/grid/grid.html:19
 msgid "library.playlists.owner_followed_title"
-msgstr "Your Followed Games"
+msgstr "Permainan Anda Mengikut"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:5
 msgid "library.playlists.playlist_tag"
-msgstr "Playlist"
+msgstr "Senarai"
 
 #: app/components/game-playlist/save-modal/save-modal.html:2
 msgid "library.playlists.save_modal.add_heading"
-msgstr "Add Playlist"
+msgstr "Tambah Senarai"
 
 #: app/components/game-playlist/save-modal/save-modal.html:15
 msgid "library.playlists.save_modal.close"
-msgstr "Cancel"
+msgstr "Batal"
 
 #: app/components/game-playlist/save-modal/save-modal.html:3
 msgid "library.playlists.save_modal.edit_heading"
-msgstr "Edit Playlist"
+msgstr "Mengubahkan Senarai"
 
 #: app/components/game/collection/grid/grid.html:12
 msgid "library.playlists.subscription_developer_title"
-msgstr "Games Made"
+msgstr "Permainan Dibuat"
 
 #: app/components/game/collection/grid/grid.html:18
 msgid "library.playlists.subscription_followed_title"
-msgstr "Games Followed"
+msgstr "Permainan Diikut"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:7
 msgid "library.playlists.tag_tag"
@@ -4614,7 +4614,7 @@ msgstr[0] "1 build"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:181
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4952,7 +4952,7 @@ msgstr "Sumber Terbuka"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ count | number }} Comments"
+msgid_plural "{{ $count | number }} Comments"
 msgstr[0] ""
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
