@@ -27,8 +27,8 @@ msgstr "Invalid Authorization Code"
 msgid "auth.authorize.success_growl"
 msgstr "We're redirecting you to your Game Jolt dashboard now."
 
-#: auth/views/auth/login/login.html:41
-#: auth/views/auth/login/login.html:42
+#: auth/views/auth/login/login.html:35
+#: auth/views/auth/login/login.html:36
 msgid "auth.forgot_link"
 msgstr "Forgot Username or Password"
 
@@ -65,7 +65,7 @@ msgstr "If you don't see our email within 10 minutes, please check your spam fol
 msgid "auth.forgot.submit_button"
 msgstr "Retrieve Credentials"
 
-#: auth/views/auth/login/login.html:35
+#: auth/views/auth/login/login.html:29
 msgid "auth.join_link"
 msgstr "Sign Up!"
 
@@ -93,7 +93,7 @@ msgstr "Email Address"
 
 #: auth/views/auth/join/join.html:11
 msgid "auth.join.facebook_button"
-msgstr "Log In With Facebook"
+msgstr "Sign Up With Facebook"
 
 #: auth/components/forms/join/join.html:25
 #: auth/components/forms/join/join.html:30
@@ -114,6 +114,7 @@ msgid "auth.join.username_label"
 msgstr "Username"
 
 #: auth/views/auth/linked-account/_processing.html:1
+#: auth/views/auth/linked-account/poll/poll.html:14
 msgid "auth.linked_account.loading_message"
 msgstr "Processing. Please wait..."
 
@@ -144,7 +145,7 @@ msgstr "Complete Sign Up"
 msgid "auth.login_link"
 msgstr "Log In"
 
-#: auth/views/auth/login/login.html:12
+#: auth/views/auth/login/login.html:7
 msgid "auth.login.facebook_button"
 msgstr "Log In With Facebook"
 
@@ -165,7 +166,7 @@ msgstr "Password"
 msgid "auth.login.submit_button"
 msgstr "Log In"
 
-#: auth/views/auth/login/login.html:20
+#: auth/views/auth/login/login.html:15
 msgid "auth.login.twitter_button"
 msgstr "Log In With Twitter"
 
@@ -176,8 +177,8 @@ msgstr "Username"
 
 #: auth/views/auth/join/join.html:24
 #: auth/views/auth/join/join.html:31
-#: auth/views/auth/login/login.html:26
-#: auth/views/auth/login/login.html:33
+#: auth/views/auth/login/login.html:20
+#: auth/views/auth/login/login.html:27
 msgid "auth.or"
 msgstr "or"
 
@@ -264,11 +265,11 @@ msgstr "Your Facebook account did not return an email address. Make sure you hav
 msgid "auth.linked_account.facebook.no_email_growl_title"
 msgstr "Oh no!"
 
-#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
+#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:10
 msgid "auth.linked_account.twitter.created_growl"
 msgstr "Your account has been created. It's smooth sailing from here on out!"
 
-#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
+#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:11
 msgid "auth.linked_account.twitter.created_growl_title"
 msgstr "Account Created"
 
@@ -2403,7 +2404,7 @@ msgstr "Indie {{ category }} sorted by Freshness."
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:179
+#: app/views/discover/games/list/list.html:178
 msgid "games.list.games_count_none"
 msgstr "No games."
 
@@ -2420,7 +2421,7 @@ msgstr "Hotness indicates community interest in recent games. A game's Hotness s
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorted by publication date."
 
-#: app/views/discover/games/list/list.html:96
+#: app/views/discover/games/list/list.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
 
@@ -2428,19 +2429,19 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 msgid "games.list.no_games_html"
 msgstr "No games match your filters. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:162
+#: app/views/discover/games/list/list.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Best"
 
-#: app/views/discover/games/list/list.html:142
+#: app/views/discover/games/list/list.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Featured"
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/list.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Hot"
 
-#: app/views/discover/games/list/list.html:172
+#: app/views/discover/games/list/list.html:171
 msgid "games.list.sections_selector_new"
 msgstr "New"
 
@@ -2449,7 +2450,7 @@ msgstr "New"
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage is our weighted rating system. All games start with an average score and the community drags it up or down."
 
-#: app/views/discover/games/view/_header/nav.html:48
+#: app/views/discover/games/view/_header/nav.html:51
 msgid "games.view.manage_game_button"
 msgstr "Manage Game"
 
@@ -2457,7 +2458,7 @@ msgstr "Manage Game"
 msgid "games.view.media.close"
 msgstr "Close"
 
-#: app/views/discover/games/view/_header/nav.html:56
+#: app/views/discover/games/view/_header/nav.html:59
 msgid "games.view.moderate_game_button"
 msgstr "Moderate Game"
 
@@ -2465,7 +2466,7 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "News"
 
-#: app/views/discover/games/view/view.html:15
+#: app/views/discover/games/view/view.html:8
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
@@ -2818,7 +2819,7 @@ msgstr[1] "{{ $count | number }} unread"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:35
+#: app/views/discover/games/view/_header/nav.html:30
 #: app/views/library/collection/_header/controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
@@ -2878,7 +2879,7 @@ msgstr "Last seen"
 msgid "profile.library_tab"
 msgstr "Library"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:179
 msgid "profile.moderate_user_button"
 msgstr "Moderate User"
 
@@ -2906,7 +2907,7 @@ msgstr "Profile"
 msgid "profile.playing_heading"
 msgstr "Currently Playing"
 
-#: app/views/profile/profile.html:163
+#: app/views/profile/profile.html:171
 msgid "profile.remove_friend_button"
 msgstr "Remove Friend"
 
@@ -4313,11 +4314,11 @@ msgstr "Rate and comment on a game."
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Ratings breakdown."
 
-#: app/views/library/collection/collection-controller.js:86
+#: app/views/library/collection/collection-controller.js:101
 msgid "library.collection.bundle_page_title"
 msgstr "{{ bundle }}"
 
-#: app/views/library/collection/collection-controller.js:81
+#: app/views/library/collection/collection-controller.js:95
 msgid "library.collection.developer_page_title"
 msgstr "Games by {{ user }}"
 
@@ -4329,15 +4330,15 @@ msgstr "Follow"
 msgid "library.collection.follow_button_tooltip"
 msgstr "Follow this playlist to add it to your library and be notified when new games are added."
 
-#: app/views/library/collection/collection-controller.js:69
+#: app/views/library/collection/collection-controller.js:73
 msgid "library.collection.followed_page_title"
 msgstr "Games Followed by {{ user }}"
 
-#: app/views/library/collection/collection-controller.js:75
+#: app/views/library/collection/collection-controller.js:84
 msgid "library.collection.playlist_page_title"
 msgstr "{{ playlist }} by {{ user }}"
 
-#: app/views/library/collection/collection-controller.js:90
+#: app/views/library/collection/collection-controller.js:105
 msgid "library.collection.tag_page_title"
 msgstr "#{{ tag }}"
 
@@ -4357,19 +4358,19 @@ msgstr "Following"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:81
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, something has prevented you from following this game."
 
-#: app/views/discover/games/view/view-controller.js:83
+#: app/views/discover/games/view/view-controller.js:82
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Oh no!"
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:74
 msgid "library.followed.add_game_success_growl"
 msgstr "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 
-#: app/views/discover/games/view/view-controller.js:76
+#: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Followed"
 
@@ -4385,22 +4386,22 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 msgid "library.followed.remove_game_confirmation"
 msgstr "Are you sure you want to stop following {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:59
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, something has prevented you from unfollowing this game."
 
-#: app/views/discover/games/view/view-controller.js:61
+#: app/views/discover/games/view/view-controller.js:60
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh no!"
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:52
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "You have stopped following {{ game }} and will no longer receive notifications about it."
 
-#: app/views/discover/games/view/view-controller.js:54
+#: app/views/discover/games/view/view-controller.js:53
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Unfollowed"
@@ -4417,23 +4418,23 @@ msgstr "Stop following this game to remove it from your library."
 msgid "library.playlists.remove_game_confirmation"
 msgstr "Are you sure you want to remove this game from the playlist?"
 
-#: app/views/library/collection/collection-controller.js:204
+#: app/views/library/collection/collection-controller.js:219
 msgid "library.playlists.remove_playlist_confirmation"
 msgstr "Are you sure you want to stop following this playlist?"
 
-#: app/views/library/collection/collection-controller.js:219
+#: app/views/library/collection/collection-controller.js:234
 msgid "library.playlists.remove_playlist_error_growl"
 msgstr "Error! Error! Unable to unfollow this playlist."
 
-#: app/views/library/collection/collection-controller.js:220
+#: app/views/library/collection/collection-controller.js:235
 msgid "library.playlists.remove_playlist_error_growl_title"
 msgstr "Oh no!"
 
-#: app/views/library/collection/collection-controller.js:212
+#: app/views/library/collection/collection-controller.js:227
 msgid "library.playlists.remove_playlist_success_growl"
 msgstr "You have successfully unfollowed {{ playlist }}."
 
-#: app/views/library/collection/collection-controller.js:213
+#: app/views/library/collection/collection-controller.js:228
 msgid "library.playlists.remove_playlist_success_growl_title"
 msgstr "Playlist Unfollowed"
 
@@ -4622,7 +4623,7 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:181
+#: app/views/discover/games/list/list.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4743,7 +4744,7 @@ msgstr "Complete"
 msgid "games.filtering.status_wip"
 msgstr "Work in Progress"
 
-#: app/views/discover/games/view/view.html:18
+#: app/views/discover/games/view/view.html:11
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 news article"
@@ -5127,4 +5128,126 @@ msgstr "Your installed games show up here... that is, once you have some!"
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
 msgstr "Installed Games"
+
+#: app/views/library/collection/collection-controller.js:92
+msgid "library.collection.developer_owner_page_title"
+msgstr "Your Games"
+
+#: app/views/library/collection/collection-controller.js:70
+msgid "library.collection.followed_owner_page_title"
+msgstr "Your Followed Games"
+
+#: app/views/library/collection/collection-controller.js:81
+msgid "library.collection.playlist_owner_page_title"
+msgstr "{{ playlist }}"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:17
+msgid "Close"
+msgstr "Close"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:37
+msgid "External link to play the game (not uploaded on site)"
+msgstr "External link to play the game (not uploaded on site)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:19
+msgid "Game does not belong to this developer"
+msgstr "Game does not belong to this developer"
+
+#: app/views/discover/games/view/_header/nav.html:43
+msgid "games.view.report_game_button"
+msgstr "Report Game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:13
+msgid "Incorrect maturity rating for the content in the game"
+msgstr "Incorrect maturity rating for the content in the game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:61
+msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:55
+msgid "It is harassment or bullying"
+msgstr "It is harassment or bullying"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:43
+msgid "It is hate speech or contains graphic content"
+msgstr "It is hate speech or contains graphic content"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:49
+msgid "It is pornographic or contains sexually explicit material"
+msgstr "It is pornographic or contains sexually explicit material"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:7
+msgid "It is spam or unwanted commercial content"
+msgstr "It is spam or unwanted commercial content"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:117
+msgid "More Options"
+msgstr "More Options"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:31
+msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:25
+msgid "Not a game"
+msgstr "Not a game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:79
+msgid "Profile or username contains explicit or sensitive material"
+msgstr "Profile or username contains explicit or sensitive material"
+
+#: app/views/profile/profile.html:163
+msgid "profile.report_user_button"
+msgstr "Report user"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/report/modal/modal.html:2
+msgid "Report Comment"
+msgstr "Report Comment"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:3
+msgid "Report Game"
+msgstr "Report Game"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:4
+msgid "Report User"
+msgstr "Report User"
+
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+msgid "Reported"
+msgstr "Reported"
+
+#: lib/gj-lib-client/components/report/form/form.html:87
+msgid "Send Report"
+msgstr "Send Report"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:67
+msgid "Spammer"
+msgstr "Spammer"
+
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:73
+msgid "Uprating / downrating"
+msgstr "Uprating / downrating"
+
+#: lib/gj-lib-client/components/report/form/form.html:3
+msgid "Why are you reporting this?"
+msgstr "Why are you reporting this?"
 
