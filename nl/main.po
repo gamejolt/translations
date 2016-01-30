@@ -28,8 +28,8 @@ msgid "auth.authorize.success_growl"
 msgstr "We verwijzen je nu door naar je Gamejolt Dashboard."
 
 #. Veel sites zeggen hier ook gewoon "Gebruikersnaam of wachtwoord vergeten" (en ik denk dat dat in dit geval nog duidelijker is ook. (Many sites just say "^^^quote above^^^, and I think that will be more clear too).
-#: auth/views/auth/login/login.html:41
-#: auth/views/auth/login/login.html:42
+#: auth/views/auth/login/login.html:35
+#: auth/views/auth/login/login.html:36
 msgid "auth.forgot_link"
 msgstr "Inloggegevens opvragen"
 
@@ -66,7 +66,7 @@ msgstr "Heb je de e-mail niet binnen 10 minuten ontvangen, check dan je SPAM map
 msgid "auth.forgot.submit_button"
 msgstr "Gegevens Verzenden"
 
-#: auth/views/auth/login/login.html:35
+#: auth/views/auth/login/login.html:29
 msgid "auth.join_link"
 msgstr "Registreren!"
 
@@ -115,6 +115,7 @@ msgid "auth.join.username_label"
 msgstr "Gebruikersnaam"
 
 #: auth/views/auth/linked-account/_processing.html:1
+#: auth/views/auth/linked-account/poll/poll.html:14
 msgid "auth.linked_account.loading_message"
 msgstr "Verwerken, een momentje geduld..."
 
@@ -145,7 +146,7 @@ msgstr "Registratie Afronden"
 msgid "auth.login_link"
 msgstr "Log In"
 
-#: auth/views/auth/login/login.html:12
+#: auth/views/auth/login/login.html:7
 msgid "auth.login.facebook_button"
 msgstr "Log In Met Facebook"
 
@@ -166,7 +167,7 @@ msgstr "Wachtwoord"
 msgid "auth.login.submit_button"
 msgstr "Log In"
 
-#: auth/views/auth/login/login.html:20
+#: auth/views/auth/login/login.html:15
 msgid "auth.login.twitter_button"
 msgstr "Log In Met Twitter"
 
@@ -177,8 +178,8 @@ msgstr "Gebruikersnaam"
 
 #: auth/views/auth/join/join.html:24
 #: auth/views/auth/join/join.html:31
-#: auth/views/auth/login/login.html:26
-#: auth/views/auth/login/login.html:33
+#: auth/views/auth/login/login.html:20
+#: auth/views/auth/login/login.html:27
 msgid "auth.or"
 msgstr "of"
 
@@ -265,11 +266,11 @@ msgstr "Je Facebook account stuurt ons geen mailadres door. Controleer of je mai
 msgid "auth.linked_account.facebook.no_email_growl_title"
 msgstr "Oh nee!"
 
-#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
+#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:10
 msgid "auth.linked_account.twitter.created_growl"
 msgstr "Je account is aangemaakt, vanaf hier staat de wind in je zeilen!"
 
-#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
+#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:11
 msgid "auth.linked_account.twitter.created_growl_title"
 msgstr "Account Aangemaakt"
 
@@ -540,7 +541,7 @@ msgstr "Vind hulp op het API forum..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "<p>De Game API geeft je de mogelijkheid om trofee&eacuten, cloud data opslag en nog veel meer toe te voegen aan je game pagina.</p>\n"
+msgstr "<p>De Game API geeft je de mogelijkheid om Trofee&euml;n, cloud data opslag en nog veel meer toe te voegen aan je game pagina.</p>\n"
 "\t<p>Je kunt onderstaande links bekijken om te zien of iemand al een API library of plugin heeft gemaakt voor de programmeertaal of de tool die je gebruikt. Je kunt er natuurlijk ook een zelf schrijven en delen op het forum!"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
@@ -1996,7 +1997,7 @@ msgstr "Moeilijkheidsgraad"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:75
 msgid "dash.games.trophies.form.hidden_help"
-msgstr "Verborgen trofee&eacuten zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met trofee&eacuten."
+msgstr "Verborgen Trofee&euml;n zijn alleen beschikbaar voor jou, de ontwikkelaar. Deze optie is bedoeld om te testen met Trofee&euml;n."
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:74
 msgid "dash.games.trophies.form.hidden_label"
@@ -2028,11 +2029,11 @@ msgstr "Titel"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:13
 msgid "dash.games.trophies.has_hidden_html"
-msgstr "<p><strong>Je hebt verborgen trofee&eacuten!</strong> Vergeet niet ze zichtbaar te maken als je wilt dat spelers ze kunnen vrijspelen.</p>"
+msgstr "<p><strong>Je hebt verborgen Trofee&euml;n!</strong> Vergeet niet ze zichtbaar te maken als je wilt dat spelers ze kunnen vrijspelen.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:4
 msgid "dash.games.trophies.heading"
-msgstr "Game Trofee&eacuten"
+msgstr "Game Trofee&euml;n"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tag"
@@ -2040,11 +2041,11 @@ msgstr "Verborgen"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:7
 msgid "dash.games.trophies.page_help_html"
-msgstr "<p>De API geeft je de mogelijkheid meerdere unieke trofee&eacuten toe te voegen aan je game, trofee&eacuten komen in verschillende materialen om de moeilijkheidsgraag aan te geven: brons (makkelijk), zilver, goud, of platina (moeilijk).</p>"
+msgstr "<p>De API geeft je de mogelijkheid meerdere unieke trofee&euml;n toe te voegen aan je game, trofee&euml;n komen in verschillende materialen om de moeilijkheidsgraag aan te geven: brons (makkelijk), zilver, goud, of platina (moeilijk).</p>"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:9
 msgid "dash.games.trophies.page_help_link"
-msgstr "Leer meer over trofee&eacuten..."
+msgstr "Leer meer over trofee&euml;n..."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:76
 msgid "dash.games.trophies.remove_button"
@@ -2069,7 +2070,7 @@ msgstr "Klaar"
 #: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>Om XP te halen speel je games, vergeet niet ze te <em>beoordelen</em> en een <em>reactie</em> achter te laten op de games die je volgt.</p>\n"
-"\t<p>De snelste manier om XP te halen is door <strong>trofee&eacute;n</strong> vrij te spelen en je scores te plaatsen op <strong>scoreborden</strong>!</p>"
+"\t<p>De snelste manier om XP te halen is door <strong>trofee&euml;n</strong> vrij te spelen en je scores te plaatsen op <strong>scoreborden</strong>!</p>"
 
 #: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
@@ -2323,11 +2324,11 @@ msgstr "Alles"
 
 #: app/views/discover/games/view/trophies/list/list.html:7
 msgid "game.trophies.heading"
-msgstr "Trofee&eacute;n"
+msgstr "Trofee&euml;n"
 
 #: app/views/discover/games/view/trophies/list/list.html:55
 msgid "game.trophies.no_trophies_html"
-msgstr "Er zijn nog geen Trofee&eacute;n beschikbaar voor deze game! Val de ontwikkelaar lastig!"
+msgstr "Er zijn nog geen Trofee&euml;n beschikbaar voor deze game! Val de ontwikkelaar lastig!"
 
 #: app/views/discover/games/view/trophies/list/list.html:32
 msgid "game.trophies.unachieved_tab"
@@ -2409,7 +2410,7 @@ msgstr "Indie {{ category }} gesorteerd op Frisheid."
 msgid "games.list.freshness_tooltip"
 msgstr "Frisheid geeft de interesse van de gemeenschap weer. Frisheid begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
-#: app/views/discover/games/list/list.html:179
+#: app/views/discover/games/list/list.html:178
 msgid "games.list.games_count_none"
 msgstr "Geen games."
 
@@ -2426,7 +2427,7 @@ msgstr "Populariteit geeft de interesse van de gemeenschap weer op recent gepubl
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Publicatiedatum."
 
-#: app/views/discover/games/list/list.html:96
+#: app/views/discover/games/list/list.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vindt hier een combinatie van onontdekte juweeltjes, maar ook de meest vreemde shit die je ooit gezien hebt!"
 
@@ -2434,19 +2435,19 @@ msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vi
 msgid "games.list.no_games_html"
 msgstr "Geen games voldoen aan je criteria. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:162
+#: app/views/discover/games/list/list.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Beste"
 
-#: app/views/discover/games/list/list.html:142
+#: app/views/discover/games/list/list.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Uitgelicht"
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/list.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Populair"
 
-#: app/views/discover/games/list/list.html:172
+#: app/views/discover/games/list/list.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Nieuw"
 
@@ -2455,7 +2456,7 @@ msgstr "Nieuw"
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage is ons evenwichtige rating systeem. Alle games starten met een gemiddelde score en de gemeenschap bepaalt de rest."
 
-#: app/views/discover/games/view/_header/nav.html:48
+#: app/views/discover/games/view/_header/nav.html:51
 msgid "games.view.manage_game_button"
 msgstr "Game Beheren"
 
@@ -2463,7 +2464,7 @@ msgstr "Game Beheren"
 msgid "games.view.media.close"
 msgstr "Sluiten"
 
-#: app/views/discover/games/view/_header/nav.html:56
+#: app/views/discover/games/view/_header/nav.html:59
 msgid "games.view.moderate_game_button"
 msgstr "Game Modereren"
 
@@ -2471,7 +2472,7 @@ msgstr "Game Modereren"
 msgid "games.view.news_tab"
 msgstr "Nieuws"
 
-#: app/views/discover/games/view/view.html:15
+#: app/views/discover/games/view/view.html:8
 msgid "games.view.notifications_heading"
 msgstr "Notificaties"
 
@@ -2501,7 +2502,7 @@ msgstr "Bezoeken"
 
 #: app/views/discover/games/view/_header/nav.html:23
 msgid "games.view.trophies_tab"
-msgstr "Trofee&eacute;n"
+msgstr "Trofee&euml;n"
 
 #: app/components/score/overview/overview.html:96
 #: app/components/trophy/list/list.html:27
@@ -2824,7 +2825,7 @@ msgstr[1] ""
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:35
+#: app/views/discover/games/view/_header/nav.html:30
 #: app/views/library/collection/_header/controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
@@ -2884,7 +2885,7 @@ msgstr "Voor het laatst gezien"
 msgid "profile.library_tab"
 msgstr "Bibliotheek"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:179
 msgid "profile.moderate_user_button"
 msgstr "Gebruiker Modereren"
 
@@ -2912,7 +2913,7 @@ msgstr "Profiel"
 msgid "profile.playing_heading"
 msgstr "Speelt momenteel"
 
-#: app/views/profile/profile.html:163
+#: app/views/profile/profile.html:171
 msgid "profile.remove_friend_button"
 msgstr "Vriend verwijderen"
 
@@ -3048,11 +3049,11 @@ msgstr "XP Behaald"
 
 #: app/components/trophy/completion/completion.html:4
 msgid "trophies.completion.lead_html"
-msgstr "Je hebt <b>{{ achieved | number }}</b> van de <b>{{ total | number }} Trofee&eacute;n vrijgespeeld</b>."
+msgstr "Je hebt <b>{{ achieved | number }}</b> van de <b>{{ total | number }} Trofee&euml;n vrijgespeeld</b>."
 
 #: app/components/trophy/completion/completion.html:29
 msgid "trophies.completion.none_achieved_html"
-msgstr "Je hebt nog geen Trofee&eacute;n voor deze game vrijgespeeld!"
+msgstr "Je hebt nog geen Trofee&euml;n voor deze game vrijgespeeld!"
 
 #: app/components/trophy/list/list.html:24
 msgid "trophies.exp_gained_tooltip"
@@ -3061,15 +3062,15 @@ msgstr "De hoeveelheid XP behaald met deze trofee."
 #: app/components/trophy/overview/overview.html:60
 #: app/views/discover/games/view/trophies/list/list.html:40
 msgid "trophies.invisible_trophies_message"
-msgstr "Sommige trofee&eacute; zijn ontzichtbaar voor spelers, jij ziet ze omdat je de ontwikkelaar bent."
+msgstr "Sommige trofee&euml; zijn ontzichtbaar voor spelers, jij ziet ze omdat je de ontwikkelaar bent."
 
 #: app/components/trophy/overview/overview.html:6
 msgid "trophies.overview.heading"
-msgstr "Trofee&eacute;n"
+msgstr "Trofee&euml;n"
 
 #: app/components/trophy/overview/overview.html:66
 msgid "trophies.overview.view_more_button"
-msgstr "Bekijk Alle Trofee&eacute;n"
+msgstr "Bekijk Alle Trofee&euml;n"
 
 #: app/components/search/autocomplete/autocomplete-directive.js:85
 msgid "commands.account_description"
@@ -3515,7 +3516,7 @@ msgstr "Weet je zeker dat je de afbeelding van deze trofee wilt wissen?"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:5
 msgid "dash.games.trophies.page_title"
-msgstr "Beheer Trofee&eacuten voor{{ game }}"
+msgstr "Beheer Trofee&euml voor{{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:90
 msgid "dash.games.trophies.remove_confirmation"
@@ -3543,7 +3544,7 @@ msgstr "Scores voor {{ game }}"
 
 #: app/views/discover/games/view/trophies/list/list-controller.js:5
 msgid "game.trophies.page_title"
-msgstr "Trofee&eacute;n voor {{ game }}"
+msgstr "Trofee&euml;n voor {{ game }}"
 
 #: app/views/discover/games/list/category/category-controller.js:66
 msgid "games.list.date_page_title"
@@ -3811,7 +3812,7 @@ msgstr "Game Toevoegen"
 
 #: app/views/dashboard/developer/games/manage/manage.html:49
 msgid "dash.games.api_tooltip"
-msgstr "Beheer de API integratie van je game (trofee&eacute;n, scoreborden, data opslag, etc.)"
+msgstr "Beheer de API integratie van je game (trofee&euml;n, scoreborden, data opslag, etc.)"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:3
 msgid "dash.games.edit.page_title"
@@ -4320,11 +4321,11 @@ msgstr "Beoordel en plaats een reactie bij een game."
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Beoordelingen Overzicht."
 
-#: app/views/library/collection/collection-controller.js:86
+#: app/views/library/collection/collection-controller.js:101
 msgid "library.collection.bundle_page_title"
 msgstr "{{ bundle }}"
 
-#: app/views/library/collection/collection-controller.js:81
+#: app/views/library/collection/collection-controller.js:95
 msgid "library.collection.developer_page_title"
 msgstr "Games door {{ user }}"
 
@@ -4336,15 +4337,15 @@ msgstr "Volgen"
 msgid "library.collection.follow_button_tooltip"
 msgstr "Volg deze playlist om hem toe te voegen aan je bibliotheek en notificaties van updates te ontvangen."
 
-#: app/views/library/collection/collection-controller.js:69
+#: app/views/library/collection/collection-controller.js:73
 msgid "library.collection.followed_page_title"
 msgstr "Games Gevolgd door {{ user }}"
 
-#: app/views/library/collection/collection-controller.js:75
+#: app/views/library/collection/collection-controller.js:84
 msgid "library.collection.playlist_page_title"
 msgstr "{{ playlist }} door {{ user }}"
 
-#: app/views/library/collection/collection-controller.js:90
+#: app/views/library/collection/collection-controller.js:105
 msgid "library.collection.tag_page_title"
 msgstr "#{{ tag }}"
 
@@ -4365,19 +4366,19 @@ msgid "library.collection.unfollow_button_tooltip"
 msgstr "Stop me volgen om de playlist uit je bibliotheek te verwijderen en notificaties te stoppen."
 
 #. Reading this line again, I'm not sure if "Iets weerhoud je" is the right type of wording. In English the sentence makes perfect sense, however in Dutch, while essentially correct, the type of wording implies to most Dutch people that something inside me (as a person) keeps me from doing something, while it is clear an error in the system is responsible for that. Since my old man is a Dutch teacher I may need to ask him whether or not this is the right type of wording.
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:81
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, iets weerhoud je er van deze game te volgen."
 
-#: app/views/discover/games/view/view-controller.js:83
+#: app/views/discover/games/view/view-controller.js:82
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Oh nee!"
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:74
 msgid "library.followed.add_game_success_growl"
 msgstr "Je volgt nu {{ game }}. Zolang de game in je bibliotheek staat zul je notificaties van deze game ontvangen."
 
-#: app/views/discover/games/view/view-controller.js:76
+#: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Gevolgd"
 
@@ -4393,22 +4394,22 @@ msgstr "Volg deze game om hem toe te voegen aan je bibliotheek en notificaties t
 msgid "library.followed.remove_game_confirmation"
 msgstr "Weet je zeker dat je {{ game }} niet meer wilt volgen?"
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:59
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, iets weerhoud je er van deze game niet meer te volgen."
 
-#: app/views/discover/games/view/view-controller.js:61
+#: app/views/discover/games/view/view-controller.js:60
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh nee!"
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:52
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Je volgt {{ game }} niet meer en zult geen notificaties meer ontvangen."
 
-#: app/views/discover/games/view/view-controller.js:54
+#: app/views/discover/games/view/view-controller.js:53
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Niet Meer Gevolgd"
@@ -4425,23 +4426,23 @@ msgstr "Stop met volgen van deze game om hem te verwijderen uit je bibliotheek."
 msgid "library.playlists.remove_game_confirmation"
 msgstr "Weet je zeker dat je deze game uit de playlist wilt verwijderen?"
 
-#: app/views/library/collection/collection-controller.js:204
+#: app/views/library/collection/collection-controller.js:219
 msgid "library.playlists.remove_playlist_confirmation"
 msgstr "Weet je zeker dat je deze playlist niet meer wilt volgen?"
 
-#: app/views/library/collection/collection-controller.js:219
+#: app/views/library/collection/collection-controller.js:234
 msgid "library.playlists.remove_playlist_error_growl"
 msgstr "Error! Error! Kan niet stoppen met volgen van de playlist."
 
-#: app/views/library/collection/collection-controller.js:220
+#: app/views/library/collection/collection-controller.js:235
 msgid "library.playlists.remove_playlist_error_growl_title"
 msgstr "Oh nee!"
 
-#: app/views/library/collection/collection-controller.js:212
+#: app/views/library/collection/collection-controller.js:227
 msgid "library.playlists.remove_playlist_success_growl"
 msgstr "Je volgt {{ playlist }} niet langer."
 
-#: app/views/library/collection/collection-controller.js:213
+#: app/views/library/collection/collection-controller.js:228
 msgid "library.playlists.remove_playlist_success_growl_title"
 msgstr "Playlist niet langer gevolgd"
 
@@ -4630,7 +4631,7 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:181
+#: app/views/discover/games/list/list.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4751,7 +4752,7 @@ msgstr "Voltooid"
 msgid "games.filtering.status_wip"
 msgstr "In Ontwikkeling"
 
-#: app/views/discover/games/view/view.html:18
+#: app/views/discover/games/view/view.html:11
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 nieuwsartikel"
@@ -4779,11 +4780,11 @@ msgstr "Voeg {{ difficulty }} Trofee toe"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:20
 msgid "dash.games.trophies.no_trophies"
-msgstr "Nog geen {{ difficulty | lowercase }} trofeeën toegevoegd."
+msgstr "Nog geen {{ difficulty | lowercase }} trofee&euml;n toegevoegd."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
 msgid "dash.games.trophies.section_heading"
-msgstr "{{ difficulty }} Trofeeën."
+msgstr "{{ difficulty }} Trofee&euml;n."
 
 #: app/views/discover/games/view/download/build/build.html:13
 msgid "game.download.game.downloading_label"
@@ -5135,4 +5136,126 @@ msgstr "Je geïnstalleerde spellen verschijnen hier... tenminste, zodra je die h
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
 msgstr "Geïnstalleerde Spellen"
+
+#: app/views/library/collection/collection-controller.js:92
+msgid "library.collection.developer_owner_page_title"
+msgstr "Jouw Games"
+
+#: app/views/library/collection/collection-controller.js:70
+msgid "library.collection.followed_owner_page_title"
+msgstr "Games die je volgt"
+
+#: app/views/library/collection/collection-controller.js:81
+msgid "library.collection.playlist_owner_page_title"
+msgstr "{{ playlist }}"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:17
+msgid "Close"
+msgstr "Close"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:37
+msgid "External link to play the game (not uploaded on site)"
+msgstr "External link to play the game (not uploaded on site)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:19
+msgid "Game does not belong to this developer"
+msgstr "Game does not belong to this developer"
+
+#: app/views/discover/games/view/_header/nav.html:43
+msgid "games.view.report_game_button"
+msgstr "Report Game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:13
+msgid "Incorrect maturity rating for the content in the game"
+msgstr "Incorrect maturity rating for the content in the game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:61
+msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:55
+msgid "It is harassment or bullying"
+msgstr "It is harassment or bullying"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:43
+msgid "It is hate speech or contains graphic content"
+msgstr "It is hate speech or contains graphic content"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:49
+msgid "It is pornographic or contains sexually explicit material"
+msgstr "It is pornographic or contains sexually explicit material"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:7
+msgid "It is spam or unwanted commercial content"
+msgstr "It is spam or unwanted commercial content"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:117
+msgid "More Options"
+msgstr "More Options"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:31
+msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:25
+msgid "Not a game"
+msgstr "Not a game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:79
+msgid "Profile or username contains explicit or sensitive material"
+msgstr "Profile or username contains explicit or sensitive material"
+
+#: app/views/profile/profile.html:163
+msgid "profile.report_user_button"
+msgstr "Report user"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/report/modal/modal.html:2
+msgid "Report Comment"
+msgstr "Report Comment"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:3
+msgid "Report Game"
+msgstr "Report Game"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:4
+msgid "Report User"
+msgstr "Report User"
+
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+msgid "Reported"
+msgstr "Reported"
+
+#: lib/gj-lib-client/components/report/form/form.html:87
+msgid "Send Report"
+msgstr "Send Report"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:67
+msgid "Spammer"
+msgstr "Spammer"
+
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:73
+msgid "Uprating / downrating"
+msgstr "Uprating / downrating"
+
+#: lib/gj-lib-client/components/report/form/form.html:3
+msgid "Why are you reporting this?"
+msgstr "Why are you reporting this?"
 
