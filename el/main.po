@@ -27,8 +27,8 @@ msgstr "Μη έγκυρος κωδικός εξουσιοδότησης"
 msgid "auth.authorize.success_growl"
 msgstr "Σας ανακατευθύνουμε στo Game Jolt dashboard σας."
 
-#: auth/views/auth/login/login.html:41
-#: auth/views/auth/login/login.html:42
+#: auth/views/auth/login/login.html:35
+#: auth/views/auth/login/login.html:36
 msgid "auth.forgot_link"
 msgstr "Ξέχασα το Όνομα Χρήστη ή τον κωδικό μου"
 
@@ -65,7 +65,7 @@ msgstr "Αν δεν δείτε το email μας εντός 10 λεπτών, π�
 msgid "auth.forgot.submit_button"
 msgstr "Λήψη πιστοποιητικών"
 
-#: auth/views/auth/login/login.html:35
+#: auth/views/auth/login/login.html:29
 msgid "auth.join_link"
 msgstr "Εγγραφή!"
 
@@ -114,6 +114,7 @@ msgid "auth.join.username_label"
 msgstr "Όνομα Χρήστη"
 
 #: auth/views/auth/linked-account/_processing.html:1
+#: auth/views/auth/linked-account/poll/poll.html:14
 msgid "auth.linked_account.loading_message"
 msgstr "Επεξεργασία. Παρακαλώ περιμένετε..."
 
@@ -144,7 +145,7 @@ msgstr "Ολοκλήρωση Εγγραφής"
 msgid "auth.login_link"
 msgstr "Σύνδεση"
 
-#: auth/views/auth/login/login.html:12
+#: auth/views/auth/login/login.html:7
 msgid "auth.login.facebook_button"
 msgstr "Σύνδεση μέσω Facebook"
 
@@ -165,7 +166,7 @@ msgstr "Κωδικός"
 msgid "auth.login.submit_button"
 msgstr "Σύνδεση"
 
-#: auth/views/auth/login/login.html:20
+#: auth/views/auth/login/login.html:15
 msgid "auth.login.twitter_button"
 msgstr "Σύνδεση μέσω Twitter"
 
@@ -176,8 +177,8 @@ msgstr "Όνομα Χρήστη"
 
 #: auth/views/auth/join/join.html:24
 #: auth/views/auth/join/join.html:31
-#: auth/views/auth/login/login.html:26
-#: auth/views/auth/login/login.html:33
+#: auth/views/auth/login/login.html:20
+#: auth/views/auth/login/login.html:27
 msgid "auth.or"
 msgstr "ή"
 
@@ -263,11 +264,11 @@ msgstr "Ο λογαριασμός Facebook σας δεν διαθέτει διε
 msgid "auth.linked_account.facebook.no_email_growl_title"
 msgstr "Ωχ όχι!"
 
-#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:8
+#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:10
 msgid "auth.linked_account.twitter.created_growl"
 msgstr "Ο λογαριασμός σας δημιουργήθηκε. Όλα είναι μονόδρομος από δω και μπρος!"
 
-#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:9
+#: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:11
 msgid "auth.linked_account.twitter.created_growl_title"
 msgstr "Δημιουργία λογαριασμού"
 
@@ -2402,7 +2403,7 @@ msgstr "Indie παιχνίδια τύπου {{ category }} ταξινομημέ�
 msgid "games.list.freshness_tooltip"
 msgstr "Η Φρεσκάδα εκφράζει το ενδιαφέρον της κοινότητας σε νέα παιχνίδια. Η φρεσκάδα ενός παιχνιδιού ξεκινάει υψηλά και μειώνεται με τον χρόνο. Η ανταπόκριση από την κοινότητα μειώνει τον ρυθμό μείωσης."
 
-#: app/views/discover/games/list/list.html:179
+#: app/views/discover/games/list/list.html:178
 msgid "games.list.games_count_none"
 msgstr "Κανένα παιχνίδι."
 
@@ -2419,7 +2420,7 @@ msgstr "Η Δημοτικότητα εκφράζει το ενδιαφέρον �
 msgid "games.list.new_descriptive_html"
 msgstr "Indie παιχνίδια τύπου {{ category }} ταξινομημένα ως προς ημερομηνία δημοσίευσης."
 
-#: app/views/discover/games/list/list.html:96
+#: app/views/discover/games/list/list.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Τα παιχνίδια που προστίθενται πρόσφατα δεν έχουν μετριαστεί ή ελεγχθεί από την κοινότητα. Μπορεί να ανακαλύψετε κάποιο χρυσωρυχείο ανεύρετου ταλέντου ή μπορεί να δείτε τρομαχτικά πράγματα."
 
@@ -2427,19 +2428,19 @@ msgstr "Τα παιχνίδια που προστίθενται πρόσφατα
 msgid "games.list.no_games_html"
 msgstr "Κανένα παιχνίδι δεν ταιριάζει τα φίλτρα σας."
 
-#: app/views/discover/games/list/list.html:162
+#: app/views/discover/games/list/list.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Καλύτερα"
 
-#: app/views/discover/games/list/list.html:142
+#: app/views/discover/games/list/list.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Προβαλλόμενα"
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/list.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Δημοφιλή"
 
-#: app/views/discover/games/list/list.html:172
+#: app/views/discover/games/list/list.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Νέα"
 
@@ -2448,7 +2449,7 @@ msgstr "Νέα"
 msgid "games.list.voltage_tooltip"
 msgstr "Η Τάση είναι το σύστημά μας για σταθμισμένη αξιολόγηση. Όλα τα παιχνίδια ξεκινάνε με ένα μέσο σκορ και η κοινότητα το μεταβάλλει προς τα πάνω ή προς τα κάτω."
 
-#: app/views/discover/games/view/_header/nav.html:48
+#: app/views/discover/games/view/_header/nav.html:51
 msgid "games.view.manage_game_button"
 msgstr "Διαχείρ. Παιχνιδιού"
 
@@ -2456,7 +2457,7 @@ msgstr "Διαχείρ. Παιχνιδιού"
 msgid "games.view.media.close"
 msgstr "Κλείσιμο"
 
-#: app/views/discover/games/view/_header/nav.html:56
+#: app/views/discover/games/view/_header/nav.html:59
 msgid "games.view.moderate_game_button"
 msgstr "Μετρίαση Παιχνιδιού"
 
@@ -2464,7 +2465,7 @@ msgstr "Μετρίαση Παιχνιδιού"
 msgid "games.view.news_tab"
 msgstr "Νέα"
 
-#: app/views/discover/games/view/view.html:15
+#: app/views/discover/games/view/view.html:8
 msgid "games.view.notifications_heading"
 msgstr "Ειδοποιήσεις"
 
@@ -2817,7 +2818,7 @@ msgstr[1] "{{ $count | number }} μη αναγνωσμ."
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:35
+#: app/views/discover/games/view/_header/nav.html:30
 #: app/views/library/collection/_header/controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
@@ -2877,7 +2878,7 @@ msgstr "Τελευταία Σύνδεση"
 msgid "profile.library_tab"
 msgstr "Παιχνιδοθήκη"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:179
 msgid "profile.moderate_user_button"
 msgstr "Περιορισμός Χρήστη"
 
@@ -2905,7 +2906,7 @@ msgstr "Προφίλ"
 msgid "profile.playing_heading"
 msgstr "Παίζει Τώρα"
 
-#: app/views/profile/profile.html:163
+#: app/views/profile/profile.html:171
 msgid "profile.remove_friend_button"
 msgstr "Διαγραφή Φίλου"
 
@@ -4312,11 +4313,11 @@ msgstr "Αξιολογήστε και σχολιάστε ένα παιχνίδι
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Ανάλυση αξιολογήσεων."
 
-#: app/views/library/collection/collection-controller.js:86
+#: app/views/library/collection/collection-controller.js:101
 msgid "library.collection.bundle_page_title"
 msgstr "{{ bundle }}"
 
-#: app/views/library/collection/collection-controller.js:81
+#: app/views/library/collection/collection-controller.js:95
 msgid "library.collection.developer_page_title"
 msgstr "Παιχνίδια του χρήστη {{ user }}"
 
@@ -4328,15 +4329,15 @@ msgstr "Ακολουθήστε"
 msgid "library.collection.follow_button_tooltip"
 msgstr "Ακολουθήστε αυτήν την λίστα για να την προσθέσετε στην παιχνιδοθήκη σας και να ενημερώνεστε όταν προστίθενται νέα παιχνίδια."
 
-#: app/views/library/collection/collection-controller.js:69
+#: app/views/library/collection/collection-controller.js:73
 msgid "library.collection.followed_page_title"
 msgstr "Παιχνίδια που ακολουθεί ο χρήστης {{ user }}"
 
-#: app/views/library/collection/collection-controller.js:75
+#: app/views/library/collection/collection-controller.js:84
 msgid "library.collection.playlist_page_title"
 msgstr "{{ playlist }} από χρήστη {{ user }}"
 
-#: app/views/library/collection/collection-controller.js:90
+#: app/views/library/collection/collection-controller.js:105
 msgid "library.collection.tag_page_title"
 msgstr "#{{ tag }}"
 
@@ -4356,19 +4357,19 @@ msgstr "Ακολουθείτε"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Σταματήστε να ακολουθείτε αυτήν την λίστα για να την αφαιρέσετε από την παιχνιδοθήκη σας και να μη λαμβάνετε ειδοποιήσεις γι αυτήν."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:81
 msgid "library.followed.add_game_error_growl"
 msgstr "Ωχ, κάτι δεν σας επέτρεψε να ακολουθήσετε αυτό το παιχνίδι."
 
-#: app/views/discover/games/view/view-controller.js:83
+#: app/views/discover/games/view/view-controller.js:82
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Ω όχι!"
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:74
 msgid "library.followed.add_game_success_growl"
 msgstr "Ακολουθείτε πλέον το παιχνίδι {{ game }}. Θα ενημερώνεστε για νέα που δημοσιεύονται σε αυτό για όσο θα το έχετε στην παιχνιδοθήκη σας."
 
-#: app/views/discover/games/view/view-controller.js:76
+#: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Ακολουθείτε το Παιχνίδι"
 
@@ -4384,22 +4385,22 @@ msgstr "Ακολουθήστε αυτό το παιχνίδι για να το �
 msgid "library.followed.remove_game_confirmation"
 msgstr "Θέλετε σίγουρα να μην ακολουθείτε πλέον το {{ game }};"
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:59
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Ωχ, κάτι δεν σας επέτρεψε να σταματήσετε να ακολουθείτε αυτό το παιχνίδι."
 
-#: app/views/discover/games/view/view-controller.js:61
+#: app/views/discover/games/view/view-controller.js:60
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Ω όχι!"
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:52
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Δεν ακολουθείτε πλέον το παιχνίδι {{ game }} και δεν θα λαμβάνετε ειδοποιήσεις γι αυτό."
 
-#: app/views/discover/games/view/view-controller.js:54
+#: app/views/discover/games/view/view-controller.js:53
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Δεν ακολουθείτε πλέον"
@@ -4416,23 +4417,23 @@ msgstr "Σταματήστε να ακολουθείτε αυτό το παιχ�
 msgid "library.playlists.remove_game_confirmation"
 msgstr "Θέλετε σίγουρα να αφαιρέσετε αυτό το παιχνίδι από την λίστα;"
 
-#: app/views/library/collection/collection-controller.js:204
+#: app/views/library/collection/collection-controller.js:219
 msgid "library.playlists.remove_playlist_confirmation"
 msgstr "Θέλετε σίγουρα να σταματήσετε να ακολουθείτε αυτή την λίστα;"
 
-#: app/views/library/collection/collection-controller.js:219
+#: app/views/library/collection/collection-controller.js:234
 msgid "library.playlists.remove_playlist_error_growl"
 msgstr "Σφάλμα! Απέτυχε η διακοπή ακολούθησης αυτής της λίστας."
 
-#: app/views/library/collection/collection-controller.js:220
+#: app/views/library/collection/collection-controller.js:235
 msgid "library.playlists.remove_playlist_error_growl_title"
 msgstr "Ω όχι!"
 
-#: app/views/library/collection/collection-controller.js:212
+#: app/views/library/collection/collection-controller.js:227
 msgid "library.playlists.remove_playlist_success_growl"
 msgstr "Δεν ακολουθείτε πλέον την λίστα {{ playlist }}."
 
-#: app/views/library/collection/collection-controller.js:213
+#: app/views/library/collection/collection-controller.js:228
 msgid "library.playlists.remove_playlist_success_growl_title"
 msgstr "Δεν ακολουθείτε πλέον"
 
@@ -4621,7 +4622,7 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:181
+#: app/views/discover/games/list/list.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4742,7 +4743,7 @@ msgstr "Ολοκληρωμένο"
 msgid "games.filtering.status_wip"
 msgstr "Υπό Κατασκευή"
 
-#: app/views/discover/games/view/view.html:18
+#: app/views/discover/games/view/view.html:11
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 άρθρο"
@@ -5126,4 +5127,126 @@ msgstr "Τα εγκατεστημένα παιχνίδια σας θα εμφα�
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
 msgstr "Εγκατεστημένα Παιχνίδια"
+
+#: app/views/library/collection/collection-controller.js:92
+msgid "library.collection.developer_owner_page_title"
+msgstr "Your Games"
+
+#: app/views/library/collection/collection-controller.js:70
+msgid "library.collection.followed_owner_page_title"
+msgstr "Your Followed Games"
+
+#: app/views/library/collection/collection-controller.js:81
+msgid "library.collection.playlist_owner_page_title"
+msgstr "{{ playlist }}"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:17
+msgid "Close"
+msgstr "Close"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:37
+msgid "External link to play the game (not uploaded on site)"
+msgstr "External link to play the game (not uploaded on site)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:19
+msgid "Game does not belong to this developer"
+msgstr "Game does not belong to this developer"
+
+#: app/views/discover/games/view/_header/nav.html:43
+msgid "games.view.report_game_button"
+msgstr "Report Game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:13
+msgid "Incorrect maturity rating for the content in the game"
+msgstr "Incorrect maturity rating for the content in the game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:61
+msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:55
+msgid "It is harassment or bullying"
+msgstr "It is harassment or bullying"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:43
+msgid "It is hate speech or contains graphic content"
+msgstr "It is hate speech or contains graphic content"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:49
+msgid "It is pornographic or contains sexually explicit material"
+msgstr "It is pornographic or contains sexually explicit material"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:7
+msgid "It is spam or unwanted commercial content"
+msgstr "It is spam or unwanted commercial content"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:117
+msgid "More Options"
+msgstr "More Options"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:31
+msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:25
+msgid "Not a game"
+msgstr "Not a game"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:79
+msgid "Profile or username contains explicit or sensitive material"
+msgstr "Profile or username contains explicit or sensitive material"
+
+#: app/views/profile/profile.html:163
+msgid "profile.report_user_button"
+msgstr "Report user"
+
+#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/report/modal/modal.html:2
+msgid "Report Comment"
+msgstr "Report Comment"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:3
+msgid "Report Game"
+msgstr "Report Game"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:4
+msgid "Report User"
+msgstr "Report User"
+
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+msgid "Reported"
+msgstr "Reported"
+
+#: lib/gj-lib-client/components/report/form/form.html:87
+msgid "Send Report"
+msgstr "Send Report"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:67
+msgid "Spammer"
+msgstr "Spammer"
+
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+
+#. Reporting reason.
+#: lib/gj-lib-client/components/report/form/form.html:73
+msgid "Uprating / downrating"
+msgstr "Uprating / downrating"
+
+#: lib/gj-lib-client/components/report/form/form.html:3
+msgid "Why are you reporting this?"
+msgstr "Why are you reporting this?"
 
