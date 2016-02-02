@@ -81,7 +81,7 @@ msgstr "Nesten der!"
 #: auth/views/auth/join/almost/almost.html:5
 #, fuzzy
 msgid "auth.join.almost.spam"
-msgstr "Hvis du ikke ser eposten innen 10 minutter, sjekk spam filen din. det kan ha blitt blanda opp."
+msgstr "Hvis du ikke ser eposten innen 10 minutter, sjekk spam mappen din. det kan ha blitt blanda opp."
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
