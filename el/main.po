@@ -4967,7 +4967,7 @@ msgstr "Ανοιχτού Κώδικα"
 msgid "1 Comment"
 msgid_plural "{{ $count | number }} Comments"
 msgstr[0] "1 σχόλιο"
-msgstr[1] "σχόλια"
+msgstr[1] "{{ $count | number }} σχόλια"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -4975,7 +4975,7 @@ msgstr "Προσθήκη Σχόλιου"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
-msgstr "Η αυτόματη μετάφραση χρησιμοποιεί την τεχνολογια Google Translate και μπορει να μην είναι ακριβής."
+msgstr "Η αυτόματη μετάφραση χρησιμοποιεί το Google Translate και μπορεί να μην είναι ακριβής."
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:3
 #: lib/gj-lib-client/components/comment/widget/widget.html:8
@@ -4992,24 +4992,24 @@ msgstr "Ακολουθήστε το νήμα."
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:96
 msgid "Get notifications when people post new replies to this thread."
-msgstr "Λάβετε υπενθυμίσεις όταν κάποιοι απαντήσουν σ'αυτό το νήμα."
+msgstr "Λάβετε ειδοποιήσεις όταν κάποιοι απαντήσουν σ'αυτό το νήμα."
 
 #. Tooltip for comment voting when no one has liked a comment yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:60
 msgid "Give this comment some love!"
-msgstr "Δώσε σ'αυτό το σχόλιο λίγο αγάπη!"
+msgstr "Δώστε λίγη αγάπη σε αυτό το σχόλιο!"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:9
 msgid "Leave a Comment"
-msgstr "Κάνε ενα σχόλιο"
+msgstr "Σχολιάστε"
 
 #: lib/gj-lib-client/components/comment/widget/add-form-directive.js:17
 msgid "Leave a comment..."
-msgstr "Κάνε ενα σχόλιο..."
+msgstr "Σχολιάστε..."
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:25
 msgid "Let us know your thoughts and be the first to comment!"
-msgstr "Πείτε μας τις σκέψεις μας και απαντήστε πρώτος."
+msgstr "Πείτε μας τις σκέψεις σας κάνοντας το πρώτο σχόλιο!"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:13
 msgid "No Comments Yet"
@@ -5019,8 +5019,8 @@ msgstr "Δεν υπάρχουν ακόμα σχόλια"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
-msgstr[0] "Αρέσει σ'εναν αυτό το σχόλιο."
-msgstr[1] "Αρέσει σε {{$count | number}} άνθρωπους."
+msgstr[0] "Αρέσει σε έναν αυτό το σχόλιο."
+msgstr[1] "Αρέσει σε {{$count | number}} άτομα."
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: lib/gj-lib-client/components/comment/widget/comment.html:12
@@ -5038,27 +5038,27 @@ msgstr "Εμφάνιση αρχικών σχολίων"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:109
 msgid "Stop Following"
-msgstr "Σταματήστε να ακολουθείτε."
+msgstr "Σταματήστε να ακολουθείτε"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
-msgstr "Μετάφραση απο"
+msgstr "Μετάφραση από "
 
 #. Tooltip for comment voting when you and other people like it.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
-msgstr[0] "Εσύ και ένας άλλος αρέσει αυτό το σχόλιο."
-msgstr[1] "Εσύ και {{$count | number}} άλλοι αρέσουν αυτό το σχόλιο."
+msgstr[0] "Σε εσάς και άλλον έναν αρέσει αυτό το σχόλιο."
+msgstr[1] "Σε εσάς και {{$count | number}} άλλους αρέσει αυτό το σχόλιο."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
 msgid "You like this comment"
-msgstr "Σου αρέσει αυτό το σχόλιο"
+msgstr "Σας αρέσει αυτό το σχόλιο"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
-msgstr "Μόλις ψηφισατε θετικά αυτο το σχόλιο. Αυτό μας επιτρέπει να γνωρίζουμε την ποιότητα των σχολίων και κρατάει τον ιστότοπο φρέσκο."
+msgstr "Μόλις ψηφίσατε θετικά αυτό το σχόλιο. Αυτό μας επιτρέπει να γνωρίζουμε την ποιότητα των σχολίων και κρατάει τον ιστότοπο φρέσκο."
 
 #: app/components/shell/footer/footer.html:51
 msgid "footer.send_system_report"
@@ -5130,11 +5130,11 @@ msgstr "Εγκατεστημένα Παιχνίδια"
 
 #: app/views/library/collection/collection-controller.js:92
 msgid "library.collection.developer_owner_page_title"
-msgstr "Your Games"
+msgstr "Τα Παιχνίδια σας"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
-msgstr "Your Followed Games"
+msgstr "Παιχνίδια που Ακολουθείτε"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.playlist_owner_page_title"
@@ -5142,95 +5142,95 @@ msgstr "{{ playlist }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
-msgstr "Close"
+msgstr "Κλείσιμο"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Δίνεται μόνο εξωτερικός σύνδεσμος όπου διατίθεται το παιχνίδι (μη ανεβασμένο στο site)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "Το παιχνίδι δεν ανήκει σε αυτόν τον κατασκευαστή"
 
 #: app/views/discover/games/view/_header/nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Αναφορά Παιχνιδιού"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Λανθασμένη αξιολόγηση καταλληλότητας για το περιεχόμενο του παιχνιδιού"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
 msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
-msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "Περιέχει spoilers και δεν χρησιμοποιεί ετικέτες spoiler (<code>&gt!</code>)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "Ενοχλητικό ή εκφοβιστικό περιεχόμενο"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
 msgid "It is hate speech or contains graphic content"
-msgstr "It is hate speech or contains graphic content"
+msgstr "Εχθρική ομιλία ή γραφικό περιεχόμενο"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Πορνογραφικό ή σεξουαλικά ακατάλληλο περιεχόμενο"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
 msgid "It is spam or unwanted commercial content"
-msgstr "It is spam or unwanted commercial content"
+msgstr "Επιθετική διαφήμιση (spam) ή άλλη ανεπιθύμητη διαφήμιση"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Άλλες Επιλογές"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "Έλλειψη πληροφοριών στη σελίδα του παιχνιδιού (καθόλου screenshots, ελλειπής περιγραφή, κενή σελίδα κλπ.)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Δεν είναι παιχνίδι"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Το προφίλ ή το όνομα χρήστη περιέχει ακατάλληλο ή ευαίσθητο περιεχόμενο"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Αναφορά Χρήστη"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:133
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Αναφορά Σχόλιου"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Αναφορά Παιχνιδιού"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Αναφορά Χρήστη"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Έγινε Αναφορά"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Αποστολή Αναφοράς"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
@@ -5239,14 +5239,14 @@ msgstr "Spammer"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Ευχαριστούμε που βοηθάτε να κάνουμε το Game Jolt κατάλληλο μέρος για όλους. Θα ελέγξουμε την αναφορά σας το συντομότερο δυνατόν!"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
 msgid "Uprating / downrating"
-msgstr "Uprating / downrating"
+msgstr "Υπερτιμητικό / υποτιμητικό"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Για ποιο λόγο το αναφέρετε;"
 
