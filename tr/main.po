@@ -645,7 +645,7 @@ msgstr "Bir .jar dosyası. Java desteği olan internet tarayıcılarında oynan�
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Be sure to remove or block ads from showing in your game. We serve our own ads and share the revenue with developers. Please block the following domain names:"
+msgstr "Oyununuzda gösterilen reklamları kaldırdığınızdan veya blokladığınızdan emin olun.Biz, kendi reklamlarımızı sunuyor ve gelirleri yapımcılarla paylaşıyoruz.Lütfen belirtilen domain isimlerini engelleyin:"
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
@@ -799,7 +799,7 @@ msgstr "İptal Edildi"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "Eğer oyununuz iptal edilmiş veya oyununuza uzun bir ara verilmişse ancak oynanılabilir bir durumdaysa bunu seçin.Eğer oyununuz oynanılamayan bir sürüme sahipse bunu seçmemelisiniz."
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
@@ -815,7 +815,7 @@ msgstr "Geliştirme Durumu"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "Oyununu Bitirilmiş yada İptal Edilmiş olarak seçmezsen sürüm ekleyemezsin."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
@@ -823,7 +823,7 @@ msgstr "Hazır Değil/Tamamlanmamış"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
-msgstr "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+msgstr "Eğer oyununuz tamamlanmamışsa ama üzerinde hala uğraşıyorsanız bunu seçin.Oynanılabilir sürümünüz üzerinde uğraşıyorsanız veya açık bir sürüme sahip değilse de seçin.Oyununuzu yayınlamada beklerken gösterebilecek bir şeye sahip olma durumunuzu da göz önünde bulundurun: resimler, video, iyi bir açıklama, belki de bir yapım sürümü (build)."
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
@@ -915,7 +915,7 @@ msgstr "Bu oyun şu anlık görünüme açık değil."
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
-msgstr "We recommend keeping it hidden until you've finished filling out the details and added some media. Don't forget to unhide it when it's ready, or it won't show up in the game listings!"
+msgstr "Tamamlayana kadar gizli tutmanızı ve detaylarla birlikte medya eklemenizi tavsiye ederiz.Hazır olduğunda herkese açık hale getirmeyi unutmayın yoksa oyun, listelerde görünmez!"
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
@@ -1181,7 +1181,7 @@ msgstr "<p>You haven't added any music. Upload some songs from your game! The mu
 
 #: app/views/dashboard/developer/games/manage/music/music.html:6
 msgid "dash.games.music.page_help_html"
-msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP3s of music from your game and the songs will appear on your game page in a nice little music player. Don't upload copyrighted songs without permission!</p>"
+msgstr "<p>İnsanların, oyununuzun müzikleriyle diledikleri zaman eğlenmelerine izin verin! Oyununuzdaki müzikleri MP3 halinde uploadlayın ve oyun sayfanızda şirin bir oynatıcıyla belirsinler. Ayrıca izin almadan telif haklı müzikler yüklemeyin!</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
@@ -1589,7 +1589,7 @@ msgstr "Başka İndirilebilenler"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:9
 msgid "dash.games.releases.builds.page_help_link"
-msgstr "Learn more about builds and files..."
+msgstr "Sürümler ve dosyalar hakkında daha fazla bilgi öğrenin..."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:148
 msgid "dash.games.releases.builds.params_heading"
@@ -2001,15 +2001,15 @@ msgstr "Saklı"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:55
 msgid "dash.games.trophies.form.image_error_label"
-msgstr "trophy image"
+msgstr "ödül resmi"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:43
 msgid "dash.games.trophies.form.image_help_link"
-msgstr "Learn more about trophy images..."
+msgstr "Ödül resimleri hakkında daha fazla bilgi öğrenin..."
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:81
 msgid "dash.games.trophies.form.save_button"
-msgstr "Save Trophy"
+msgstr "Ödülü Kaydet"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:70
 msgid "dash.games.trophies.form.secret_help"
@@ -2061,7 +2061,7 @@ msgstr "Oyun Sayfasına Bak"
 
 #: app/views/dashboard/overview/overview.html:111
 msgid "dash.integrate.done"
-msgstr "Done"
+msgstr "Tamamlandı"
 
 #: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
@@ -2074,7 +2074,7 @@ msgstr "Deneyim puanı kazan ve seviye atla!"
 
 #: app/views/dashboard/overview/overview.html:87
 msgid "dash.integrate.heading"
-msgstr "Integrate"
+msgstr "İntegre"
 
 #: app/views/dashboard/overview/overview.html:90
 msgid "dash.integrate.lead"
@@ -2086,11 +2086,11 @@ msgstr "Son Aktivite"
 
 #: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
-msgstr "<p>No activity yet.</p>"
+msgstr "Hiçbir Aktivite Yok"
 
 #: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
-msgstr "View All Activity"
+msgstr "Bütün Aktivitelere Bak"
 
 #: app/views/dashboard/overview/overview.html:38
 msgid "dash.overview.broadcast_view_all"
@@ -2110,7 +2110,7 @@ msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboa
 
 #: app/views/dashboard/overview/overview.html:4
 msgid "dash.overview.heading"
-msgstr "Your Dashboard"
+msgstr "Senin Hesabın"
 
 #: app/views/dashboard/overview/overview.html:61
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:19
