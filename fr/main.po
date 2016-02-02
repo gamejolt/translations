@@ -40,7 +40,7 @@ msgstr "Entrez votre adresse e-mail et nous vous enverrons vos informations de c
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
 msgid "auth.forgot.email_label"
-msgstr "Adresse Mail"
+msgstr "Adresse e-mail"
 
 #: auth/views/auth/forgot/forgot.html:1
 msgid "auth.forgot.heading"
@@ -331,7 +331,7 @@ msgstr "Fil d'activité"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
-msgstr "Aucune notification ici. Soit vous êtes un lecteur très rapide ou vous avez besoin de suivre plus de choses !"
+msgstr "Aucune notification ici. Soit vous êtes un lecteur très rapide soit vous avez besoin de suivre plus de choses !"
 
 #: app/views/dashboard/activity/list/list.html:24
 msgid "dash.activity.unread_tab"
@@ -441,7 +441,7 @@ msgstr "Quantité à retirer"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:6
 msgid "dash.funds.withdraw.email_help"
-msgstr "Ceci doit être une adresse e-mail valide associée à un compte PayPal"
+msgstr "Ceci doit être une adresse e-mail valide associée à un compte PayPal."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:5
 msgid "dash.funds.withdraw.email_label"
@@ -514,7 +514,7 @@ msgstr "<p>Vous devez prendre connaissance des règles avant d'ajouter un jeu:</
 
 #: app/views/dashboard/developer/games/manage/manage.html:50
 msgid "dash.games.api_tab"
-msgstr "Jeu API"
+msgstr "API de jeu"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:160
 msgid "dash.games.api.overview.data_heading"
@@ -643,7 +643,7 @@ msgstr "␣<p><strong>Ne donnez jamais votre clé privée à qui que ce soit!</s
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr "Un fichier .jar. Jouable sur navigateurs qui supportent encore Java. Envisagez ajouter votre .jar en version téléchargeable, aussi."
+msgstr "Un fichier .jar. Jouable sur navigateurs qui supportent encore Java. Envisagez également d'ajouter votre .jar en version téléchargeable."
 
 #: app/components/forms/dashboard/game/build/build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
@@ -695,7 +695,7 @@ msgstr "Télécharger un fichier"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr "Un fichier .swf. Lisible sur un navigateur supportant Flash."
+msgstr "Un fichier .swf. Lisible sur les navigateurs supportant Flash."
 
 #: app/components/forms/dashboard/game/build/build.html:136
 msgid "dash.games.builds.form.height_label"
@@ -723,7 +723,7 @@ msgstr "Un fichier \".xap\" ne peut être lu que par un navigateur qui supporte 
 
 #: app/components/forms/dashboard/game/build/build.html:42
 msgid "dash.games.builds.form.unity_help"
-msgstr "Un fichier \"unity3d\" ne peut être lu que par des navigateurs supportant Unity Web Player. Si tu exporte ton jeu sur WebGL, préfère le format HTML à Unity."
+msgstr "Un fichier \"unity3d\" ne peut être lu que par des navigateurs supportant Unity Web Player. Si vous exportez votre jeu sur WebGL, préférez le format HTML à Unity."
 
 #: app/components/forms/dashboard/game/build/build.html:130
 msgid "dash.games.builds.form.width_label"
@@ -1018,7 +1018,7 @@ msgstr "Si vous ne savez pas ce que sera le contenu final de votre jeu, donnez s
 
 #: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
-msgstr "Média"
+msgstr "Médias"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
@@ -1336,7 +1336,7 @@ msgstr "Fortement recommandé"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
 msgid "dash.games.overview.todo_info_builds_processing_html"
-msgstr "<strong> Vous avez toujours des créations en cours de traitement. </ strong> Elles ne se montreront sur votre page que quand les traitements seront finis."
+msgstr "<strong> Vous avez toujours des versions en cours de traitement. </ strong> Elles ne se montreront sur votre page que quand les traitements seront finis."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:94
 msgid "dash.games.overview.todo_info_publish_button"
@@ -1360,7 +1360,7 @@ msgstr "Requis"
 
 #: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
-msgstr "Créations et fichiers"
+msgstr "Versions et fichiers"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:45
 #: app/views/dashboard/developer/games/manage/packages/packages.html:76
@@ -1421,7 +1421,7 @@ msgstr "Ajouter une nouvelle sortie"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
 msgid "dash.games.packages.manage.releases.builds_count_none"
-msgstr "encore aucune créations"
+msgstr "Pas encore de versions"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
@@ -1484,7 +1484,7 @@ msgstr "Publié"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:237
 msgid "dash.games.releases.builds.add_build_button"
-msgstr "ajouter une nouvelle création"
+msgstr "ajouter une nouvelle version"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:26
 msgid "dash.games.releases.builds.downloads_label"
@@ -1515,7 +1515,6 @@ msgid "dash.games.releases.builds.extra_files.form.include_archive_help"
 msgstr "Si vous n'êtes pas sûr de ce que ça veut dire, mieux vaut laisser tel quel."
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:14
-#, fuzzy
 msgid "dash.games.releases.builds.extra_files.form.include_archive_label"
 msgstr "inclure dans la série d'archives ?"
 
@@ -1529,11 +1528,11 @@ msgstr "Inclure dans l'archive ?"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:3
 msgid "dash.games.releases.builds.extra_files.info_html"
-msgstr "Vous pouvez télécharger tous les fichiers supplémentaires que votre applet a besoin"
+msgstr "<p>Vous pouvez télécharger tous les fichiers supplémentaires que votre applet a besoin.</p> "
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
 msgid "dash.games.releases.builds.heading"
-msgstr "créations"
+msgstr "Versions"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:66
 msgid "dash.games.releases.builds.incomplete_tag"
@@ -1545,8 +1544,8 @@ msgstr "Options de lancement"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
 msgid "dash.games.releases.builds.launch_options.archive_info_html"
-msgstr "<p > <strong > Nous avons constaté que cette version est un fichier d'archive . < / strong > < / p>\n"
-"<p > Donnez-nous le chemin vers le fichier exécutable pour chaque plate-forme que vous avez choisi pour que nous puissions lancer automatiquement. < / p>"
+msgstr "<p><strong>Nous avons constaté que cette version est un fichier d'archive.</strong></p>\n"
+"<p>Indiquez-nous le chemin vers le fichier exécutable pour chaque plate-forme que vous avez choisi pour que nous puissions la lancer automatiquement.</p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
@@ -1574,8 +1573,7 @@ msgstr "Définir les options de lancement"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:1
 msgid "dash.games.releases.builds.launch_options.incomplete_alert_html"
-msgstr "<p>Nous ne savons pas comment exécuter automatiquement ceci ! Dites nous comment l'exécuter avant de le mettre en ligne sur la page de votre jeu.<p>\n"
-""
+msgstr "<p>Nous ne savons pas comment exécuter automatiquement cette version ! Indiquez-nous comment l'exécuter avant de le mettre en ligne sur la page de votre jeu.<p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
 msgid "dash.games.releases.builds.launch_options.page_help_link"
@@ -1583,13 +1581,12 @@ msgstr "En savoir plus sur les options de lancement..."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:28
 msgid "dash.games.releases.builds.launch_options.standalone_info_html"
-msgstr "\n"
-"<p > <strong> We have found that this version is a standalone executable file. </ Strong> </ p>\n"
-"<p> It can be launched automatically. </ P>"
+msgstr "<p> <strong> Nous avons détécté que cette version est un fichier éxécutable autonome.</strong></p>\n"
+"<p>Il peut donc être lancé automatiquement.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:12
 msgid "dash.games.releases.builds.no_builds_html"
-msgstr "<p>Vous n'avez pas encore ajouté de builds à cette sortie.</p>"
+msgstr "<p>Vous n'avez pas encore ajouté de version à cette sortie.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:56
 msgid "dash.games.releases.builds.other_downloadable_tag"
@@ -1597,7 +1594,7 @@ msgstr "Autre Téléchargeable"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:9
 msgid "dash.games.releases.builds.page_help_link"
-msgstr "en savoir plus a propos des créations et des fichiers"
+msgstr "En savoir plus à propos des versions et des fichiers"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:148
 msgid "dash.games.releases.builds.params_heading"
@@ -1625,11 +1622,11 @@ msgstr "<p> Vous pouvez mettre en ligne n'importe quels fichiers additionnels qu
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:168
 msgid "dash.games.releases.builds.processing_message_html"
-msgstr "<strong>Traitement du build.</strong> v"
+msgstr "<strong>Traitement de la version.</strong> Elle deviendra disponible dans cette sortie une fois terminé."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:211
 msgid "dash.games.releases.builds.remove_build_button"
-msgstr "supprimer la création"
+msgstr "Supprimer la version"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:84
 msgid "dash.games.releases.builds.standalone_tag"
@@ -1668,7 +1665,7 @@ msgstr "Nouveauté"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:103
 msgid "dash.games.releases.manage.builds_tab"
-msgstr "Builds"
+msgstr "Versions"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:120
 msgid "dash.games.releases.manage.edit_release_tab"
@@ -1915,7 +1912,9 @@ msgstr "Afficher les publicités ?"
 
 #: app/components/forms/dashboard/game/settings/settings.html:27
 msgid "dash.games.settings.comments_help_html"
-msgstr "<p><strong>"
+msgstr "<p><strong>Désactiver ceci désactivera les commentaires pour ce jeu et cachera les commentaires déjà présents sur la page.</strong></p>\n"
+"\t<p>La communauté ne pourra plus donner son avis via commentaires, mais vous pourriez préférer ceci si votre jeu contient du matériel sensible ou sujet à controverse.</p>\n"
+"\t<p>Cela n'enlèvera pas les commentaires de votre page de jeu&mdash;seulement les cacher. Si vous réactivez les commentaires plus tard, les commentaires précédemment cachés seront à nouveau visibles.</p> "
 
 #: app/components/forms/dashboard/game/settings/settings.html:26
 msgid "dash.games.settings.comments_label"
@@ -2281,11 +2280,11 @@ msgstr "par ce développeur"
 
 #: app/views/discover/games/view/download/build/build.html:14
 msgid "game.download.game.downloading_wait_message"
-msgstr "Votre téléchargement devrait commencé dans peu de temps..."
+msgstr "Votre téléchargement devrait commencer dans peu de temps..."
 
 #: app/views/discover/games/view/download/build/build.html:38
 msgid "game.download.game.rate_html"
-msgstr "<p><fort>Qu'est ce que vous pensez ?<fort> Les évaluations des jeux nous permettent de vous montrer le meilleur. Aidez nous à être plus précis !</p>"
+msgstr "<p><strong>Qu'en avez-vous pensé ?</strong> Les évaluations des jeux nous permettent de vous montrer le meilleur. Aidez nous à être plus précis !</p>"
 
 #: app/views/discover/games/view/download/build/build.html:76
 msgid "game.download.game.recommended_heading"
@@ -2475,9 +2474,10 @@ msgstr "Nouveaux"
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage est notre system d'évaluation. Tous les jeux commencent avec un pointage moyen et la communauté le monte ou le descend. "
 
+#. It's the button used to manage game, not a type of game. Just mentionning
 #: app/views/discover/games/view/_header/nav.html:51
 msgid "games.view.manage_game_button"
-msgstr "Jeu de stratégie"
+msgstr "Configurer jeu"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:14
 msgid "games.view.media.close"
@@ -3146,7 +3146,7 @@ msgstr "API de jeu pour {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:13
 msgid "dash.games.api.settings.generate_confirmation"
-msgstr "Êtes vous sûr de vouloir générer une nouvelle clé ? Si vous le faites, tout le contenu de vôtre jeu en lien avec la clé actuelle arrêtera de fonctionner. "
+msgstr "Êtes vous sûr de vouloir générer une nouvelle clé ? Si vous le faites, tout le contenu de votre jeu en lien avec la clé actuelle arrêtera de fonctionner. "
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:26
 msgid "dash.games.api.settings.generate_growl"
@@ -3178,7 +3178,7 @@ msgstr "Mac 64-bit"
 #: app/components/forms/dashboard/game/build/build-directive.js:53
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:26
 msgid "dash.games.builds.form.mac_tag"
-msgstr "Max"
+msgstr "Mac"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:73
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:42
@@ -3187,11 +3187,11 @@ msgstr "Autre"
 
 #: app/components/forms/dashboard/game/build/build.html:184
 msgid "dash.games.builds.form.save_build_button"
-msgstr "Sauvegarder build"
+msgstr "Sauvegarder version"
 
 #: app/components/forms/dashboard/game/build/build.html:183
 msgid "dash.games.builds.form.upload_build_button"
-msgstr "Téléverser build"
+msgstr "Uploader version"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:48
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:22
@@ -3960,7 +3960,7 @@ msgstr "Éditer {{ article }}"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:11
 msgid "dash.games.news.article.edit.save_growl"
-msgstr "Votre mise à jour de nouvelles à, elles-même, été mise à jour."
+msgstr "Votre mise à jour de nouvelles a, elle-même, été mise à jour."
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:12
 msgid "dash.games.news.article.edit.save_growl_title"
@@ -4006,11 +4006,11 @@ msgstr "Uploadez votre jeu quand il est dans un état jouable"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:60
 msgid "dash.games.overview.todo_builds_progress"
-msgstr "Builds/Fichiers"
+msgstr "Versions/Fichiers"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:58
 msgid "dash.games.overview.todo_builds_title"
-msgstr "envoyez les fichiers/constructions du jeu."
+msgstr "envoyez les fichiers/versions du jeu."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:35
 msgid "dash.games.overview.todo_header_progress"
@@ -4022,7 +4022,7 @@ msgstr "Ajouter une bannière à la page..."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:65
 msgid "dash.games.overview.todo_info_html"
-msgstr "Avant de pouvoir publier le jeu, vous devez au moins ajouter un <a href=\"{{ thumbnailUrl }}\">thumbnail image</a>, définir un <a href=\"{{ maturityUrl }}\">maturity rating</a>, et uploadez votre/vos jeu(x) <a href=\"{{ buildsUrl }}\">builds/files</a>. "
+msgstr "Avant de pouvoir publier le jeu, vous devez au moins ajouter une <a href=\"{{ thumbnailUrl }}\">miniature</a>, définir une <a href=\"{{ maturityUrl }}\">limite d'âge</a>, et uploader les <a href=\"{{ buildsUrl }}\">versions/fichiers</a> du jeu. "
 
 #. branleur
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:92
@@ -4100,7 +4100,7 @@ msgstr "Sauver Forfait."
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:18
 msgid "dash.games.packages.manage.remove_confirmation"
-msgstr "Êtes vous conscients d'être en danger de mort ? Un espion peut apparaitre n'importe quand dans votre vie, faîtes attention."
+msgstr "Êtes-vous sûr(e) de vouloir retirer ce pack ? Toutes les versions et sorties qu'il contient seront aussi supprimées."
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:27
 msgid "dash.games.packages.manage.removed_growl"
@@ -4112,11 +4112,11 @@ msgstr "Forfait Enlevé."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:64
 msgid "dash.games.releases.builds.incomplete_tag_tooltip"
-msgstr "Nous ne savons pas comment exécuter automatiquement votre construction! Svp définissez vos options de lancement."
+msgstr "Nous ne savons pas comment exécuter automatiquement votre version ! Veuillez définir vos options de lancement."
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:13
 msgid "dash.games.releases.builds.launch_options.form.file_selector_tooltip"
-msgstr "Feuilleter cette liste de fichiers."
+msgstr "Parcourir liste de fichiers."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:52
 msgid "dash.games.releases.builds.linux_64_tag"
@@ -4140,23 +4140,23 @@ msgstr "Autre"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:8
 msgid "dash.games.releases.builds.page_title"
-msgstr "Construit dans {{ release }} - {{ package }} - {{ game }} "
+msgstr "Versions dans {{ release }} - {{ package }} - {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:166
 msgid "dash.games.releases.builds.remove_build_confirmation"
-msgstr "Êtes vous sûr de vouloir enlevé cette construction?"
+msgstr "Êtes vous sûr(e) de vouloir enlever cette version ?"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:177
 msgid "dash.games.releases.builds.remove_build_growl"
-msgstr "Cette construction a été enlevé de cette sortie"
+msgstr "Cette version a été enlevée de cette sortie."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:178
 msgid "dash.games.releases.builds.remove_build_growl_title"
-msgstr "Construction Enlevée "
+msgstr "Version Enlevée "
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:215
 msgid "dash.games.releases.builds.remove_extra_file_confirmation"
-msgstr "Êtes vous sûr de vouloir enlever ce fichier additionnel?"
+msgstr "Êtes vous sûr(e) de vouloir enlever ce fichier additionnel ?"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:36
 msgid "dash.games.releases.builds.windows_64_tag"
@@ -4188,7 +4188,7 @@ msgstr "Sauver la Sortie"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:28
 msgid "dash.games.releases.manage.publish_release_confirmation"
-msgstr "Êtes vous sûr de vouloir publier cette sortie? Toutes ces constructions deviendront actives sur votre page de jeu."
+msgstr "Êtes vous sûr(e) de vouloir publier cette sortie ? Toutes ses versions deviendront actives sur votre page de jeu."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:36
 msgid "dash.games.releases.manage.publish_release_growl"
@@ -4204,11 +4204,11 @@ msgstr "Publiez cette sortie pour la montrer sur la page de votre jeu!"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:60
 msgid "dash.games.releases.manage.remove_release_confirmation"
-msgstr "Êtes vous sûr sale gay de vouloir enlever cette sortie? Toutes les constructions seront enlevé aussi."
+msgstr "Êtes vous sûr(e) de vouloir enlever cette sortie ? Toutes les constructions seront aussi supprimées."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:68
 msgid "dash.games.releases.manage.remove_release_growl"
-msgstr "Cette sortie et sa construction seront enlevés de ce forfait."
+msgstr "Cette sortie et ses versions seront enlevées de ce pack."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:69
 msgid "dash.games.releases.manage.remove_release_growl_title"
@@ -4500,7 +4500,7 @@ msgstr "vous a envoyé une demande d'amitié."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
-msgstr "suivi <strong>{{ object }}</strong>. "
+msgstr "suit <strong>{{ object }}</strong>. "
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:11
 msgid "notifications.game_news_title_html"
@@ -4657,8 +4657,8 @@ msgstr "Récemment ajouté"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] "1 élément"
-msgstr[1] "{{ $count | nombre }} éléments"
+msgstr[0] "1 version"
+msgstr[1] "{{ $count | nombre }} versions"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -5083,7 +5083,7 @@ msgstr "Arrêter de suivre"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
-msgstr "Traduit par"
+msgstr "traduit par"
 
 #. Tooltip for comment voting when you and other people like it.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
@@ -5099,15 +5099,15 @@ msgstr "Vous aimez ce commentaire"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
-msgstr "Vous venez de plussoyer ce commentaire. Cela nous permet de connaitre la qualité des commentaires et nous aide a garder le site frais"
+msgstr "Vous venez de plussoyer ce commentaire. Cela nous permet de connaître la qualité des commentaires et nous aide à garder le site frais."
 
 #: app/components/shell/footer/footer.html:51
 msgid "footer.send_system_report"
-msgstr "Envoyer un rapport système"
+msgstr "Envoyer un rapport du système"
 
 #: app/components/client/forms/system-report/system-report.html:4
 msgid "system_report.form.description_help"
-msgstr "Décrivez nous a propos de quoi est ce rapport système, quels sont les bugs que vous avez rencontrés, et comment vous pouvez le reproduire"
+msgstr "Décrivez à propos de quoi est ce rapport du système, quels sont les bugs que vous avez rencontrés, et comment vous pouvez le reproduire."
 
 #: app/components/client/forms/system-report/system-report.html:3
 msgid "system_report.form.description_label"
@@ -5127,11 +5127,11 @@ msgstr "Envoyer un rapport du système"
 
 #: app/components/client/system-report-modal/system-report-modal.html:4
 msgid "system_report.send.help"
-msgstr "Cette action vas nous envoyer un rapport système a propos de votre appareil et de votre journal client. Nous nous collectons aucune information personnelle par ce biais"
+msgstr "Cette action va nous envoyer un rapport du système à propos de votre appareil et de votre journal client. Nous ne collectons aucune information personnelle par ce biais."
 
 #: app/components/client/system-report-modal/system-report-modal.html:8
 msgid "system_report.send.issue_tracker"
-msgstr "Si vous avez eu un bug, signalez le d'abord sur notre <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>. "
+msgstr "Si vous avez eu un bug, signalez le d'abord sur notre <a href=\"https://github.com/gamejolt/issue-tracker\">issue tracker</a>."
 
 #: app/components/client/system-report-modal/system-report-modal-controller.js:6
 msgid "system_report.sent_growl"
@@ -5158,12 +5158,12 @@ msgstr "Jeux installés"
 #. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
 #: app/views/library/installed/installed.html:70
 msgid "library.installed.multiple_packages"
-msgstr "Forfaits Multiples"
+msgstr "Packs multiples"
 
 #. The message shown when there are no games installed yet in their library.
 #: app/views/library/installed/installed.html:13
 msgid "library.installed.no_games_message"
-msgstr "Vos jeux installés sont exposés ici ... si, bien sûr vous en avez !"
+msgstr "Vos jeux installés sont exposés ici... si bien sûr vous en avez !"
 
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
@@ -5183,111 +5183,111 @@ msgstr "{{ playlist }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
-msgstr "Close"
+msgstr "Fermer"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Lien externe pour jouer au jeu (non uploadé sur le site)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "Le jeu n'appartient à ce développeur"
 
 #: app/views/discover/games/view/_header/nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Signaler ce jeu"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Limite d'âge incorrecte pour le contenu de ce jeu"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
 msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
-msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "Il contient des spoilers et n'utilise pas de tags spoilers (<code>&gt!</code>)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "C'est du harcèlement"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
 msgid "It is hate speech or contains graphic content"
-msgstr "It is hate speech or contains graphic content"
+msgstr "Discours haineux ou contient du contenu graphique violent"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Ça contient du matériel pornographique ou sexuellement explicite"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
 msgid "It is spam or unwanted commercial content"
-msgstr "It is spam or unwanted commercial content"
+msgstr "C'est du spam ou du contenu commercial non souhaité"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Plus d'options"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "Pas d'information sur la page du jeu (pas de captures d'écran, etc)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Ce n'est pas un jeu"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Le profil ou le nom d'utilisateur contient du matériel explicite ou sensible"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Signaler l'utilisateur"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:133
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Signaler le commentaire"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Signaler le jeu"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Signaler l'utilisateur"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Signalé"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Envoyer le signalement"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
 msgid "Spammer"
-msgstr "Spammer"
+msgstr "Spammeur"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Merci de nous aider à faire de Game Jolt un lieu pour tous. Nous y jetterons un œil aussi vite que possible !"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
 msgid "Uprating / downrating"
-msgstr "Uprating / downrating"
+msgstr "Note positive / Note négative"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Pourquoi signalez-vous ceci ?"
 
