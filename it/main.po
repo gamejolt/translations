@@ -197,9 +197,9 @@ msgid "auth.reset_password.password_label"
 msgstr "Nuova Password"
 
 #: auth/components/forms/reset-password/reset-password.html:20
-#, fuzzy
 msgid "auth.reset_password.submit_button"
-msgstr "Reset Password"
+msgstr "Reimposta la password\n"
+""
 
 #: app/components/shell/footer/footer.html:42
 msgid "legal.privacy"
@@ -317,7 +317,7 @@ msgstr "Termini"
 #: app/components/chat/sidebar/sidebar.html:89
 #, fuzzy
 msgid "chat.no_friends_message_html"
-msgstr "<p>Aggiungi amici sul sito e parla con loro, guarda a che cosa stanno giocando,\n"
+msgstr "<p>Fatti degli amici sul sito e parla con loro, guarda a che cosa stanno giocando,\n"
 "e gioca con loro!</p>"
 
 #: app/views/dashboard/activity/list/list.html:11
@@ -1445,11 +1445,12 @@ msgstr "Questa release è nascosta e non verrà mostrata sulla pagina del tuo gi
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
 msgid "dash.games.packages.manage.releases.no_releases_html"
-msgstr "<p>You haven't added any releases to this package yet.</p>"
+msgstr "<p> Non hai aggiunto alcun rilascio per questo pacchetto. </p>"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
+#, fuzzy
 msgid "dash.games.packages.manage.releases.page_help_html"
-msgstr "\t<p>Releases represent new versions of your package. If you update a package, you should add a release. You can group all of the new builds for different platforms into a single new release.</p>"
+msgstr "␣<p>Le release rappresentano nuove versioni del tuo pacchetto. Se ne aggiorni uno, devi rilasciare una release. Puoi raggruppare tutte le nuove builds per piattaforme diverde in una singola release.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:6
 msgid "dash.games.packages.manage.releases.page_help_link"
@@ -1606,7 +1607,7 @@ msgstr "Scopri di più sulle builds ed i files..."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:148
 msgid "dash.games.releases.builds.params_heading"
-msgstr "Params"
+msgstr "Parametri"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:190
 msgid "dash.games.releases.builds.params_tab"
@@ -1768,8 +1769,9 @@ msgid "dash.games.scoreboards.asc_tag"
 msgstr "Ascendente"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:72
+#, fuzzy
 msgid "dash.games.scoreboards.desc_tag"
-msgstr "Descending"
+msgstr "Discendente"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:51
 msgid "dash.games.scoreboards.guest_tag"
@@ -1826,8 +1828,9 @@ msgid "dash.games.scores.list.heading"
 msgstr "Vedi Punteggi"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:16
+#, fuzzy
 msgid "dash.games.scores.list.no_scores_html"
-msgstr "<p>This table lacks scores, alas.</p>"
+msgstr "<p>In questa tabella mancano punteggi.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
@@ -1899,7 +1902,7 @@ msgstr "Ordina per Valore"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:58
 msgid "dash.games.scores.view.string_label"
-msgstr "Score String"
+msgstr "Linea di punteggio"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:50
 msgid "dash.games.scores.view.table_label"
