@@ -478,7 +478,7 @@ msgstr "<strong>Ei kai pelisi vain ole Five Nights of Freddy's -pelistä ammenta
 
 #: app/components/forms/dashboard/game/game.html:166
 msgid "dash.games.add.fnaf_autotag_reject"
-msgstr "Älä listää tagia"
+msgstr "Älä lisää tagia"
 
 #: app/views/dashboard/developer/games/add/add.html:5
 msgid "dash.games.add.heading"
@@ -1056,7 +1056,7 @@ msgstr "Kuva"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
-msgstr "You can directly link to this image on your game page with the URL below."
+msgstr "Voit linkata tämän kuvan pelisivullesi alla olevalla URL:illa"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
@@ -1323,7 +1323,7 @@ msgstr "Valmis"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:3
 msgid "dash.games.overview.todo_heading"
-msgstr "Set Up Steps"
+msgstr "Järjestelyn vaiheet"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:39
 msgid "dash.games.overview.todo_highly_recommended"
@@ -1492,11 +1492,11 @@ msgstr "Muokkaa"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:152
 msgid "dash.games.releases.builds.extra_files_heading"
-msgstr "Supplemental Files"
+msgstr "Ylimääräis tiedostot"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:195
 msgid "dash.games.releases.builds.extra_files_tab"
-msgstr "Supplemental Files"
+msgstr "Ylimääräis tiedostot"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:11
 msgid "dash.games.releases.builds.extra_files.form.file_error_label"
@@ -1524,7 +1524,7 @@ msgstr "Sisällytä arkistoon"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:3
 msgid "dash.games.releases.builds.extra_files.info_html"
-msgstr "<p>You can upload any additional files that your applet needs here.</p>"
+msgstr "<p>Voit ladata tänne mitä vain lisätiedostoja mitä sinun sovelmasi tarvitsee</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
 msgid "dash.games.releases.builds.heading"
@@ -1540,8 +1540,8 @@ msgstr "Käynnistys asetukset"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
 msgid "dash.games.releases.builds.launch_options.archive_info_html"
-msgstr "<p><strong>We've detected that this build is an archive file.</strong></p>\n"
-"\t<p>Tell us the path to the executable file for each platform you've chosen so we can launch it automatically.</p>"
+msgstr "<p> <strong> Olemme havainneet, että tämä koontiversio on arkistotiedosto. </ strong> </ p>\n"
+"<p> Kerro meille polku suoritettavaan tiedostoon kaikille alustoille jotka olet valinnut, jotta voimme käynnistää sen automaattisesti. </ p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
@@ -1557,7 +1557,7 @@ msgstr "Valitse suoritettava tiedosto"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
 msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
-msgstr "<p>Oh no! We didn't find any executable files for this platform in the archive.</p>"
+msgstr "<p> Voi ei! Emme löytäneet suoritettavia tiedostoja tälle alustalle arkistosta. </ P>"
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
 msgid "dash.games.releases.builds.launch_options.form.file_error_label"
@@ -1569,7 +1569,7 @@ msgstr "Vahvista käynnistysasetukset"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:1
 msgid "dash.games.releases.builds.launch_options.incomplete_alert_html"
-msgstr "<p>We don't know how to auto-run this build! We need you to tell us how to launch it before it can show up on your game page.</p>"
+msgstr "<p> Emme tiedä, miten automaattisesti suorittaa tätä koontiversiota! Kerro meille, miten se käynnistetään ennen kuin se voi näkyä pelisivulla. </ P>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
 msgid "dash.games.releases.builds.launch_options.page_help_link"
@@ -1816,7 +1816,7 @@ msgstr "<p>This table lacks scores, alas.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
-msgstr "<p>These are all of the scores that have been submitted to this scoreboard by users and guests (if allowed).</p>"
+msgstr "<p> Nämä ovat kaikki tulokset, jotka on toimitettu tähän tulostauluun käyttäjiltä ja vierailta (jos sallittu). </ p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:5
 msgid "dash.games.scores.list.rank_label"
@@ -1975,11 +1975,11 @@ msgstr "What are the thumbnail requirements and guidelines?"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:30
 msgid "dash.games.thumbnail.upload_error_label"
-msgstr "thumbnail image"
+msgstr "Pikkukuva"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:15
 msgid "dash.games.thumbnail.upload_label"
-msgstr "Upload New Thumbnail"
+msgstr "Lataa uusi pikkukuva"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:64
 msgid "dash.games.trophies.form.description_label"
@@ -1999,7 +1999,7 @@ msgstr "Piilotettu"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:55
 msgid "dash.games.trophies.form.image_error_label"
-msgstr "trophy image"
+msgstr "Palkinnon kuva"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:43
 msgid "dash.games.trophies.form.image_help_link"
@@ -2068,7 +2068,7 @@ msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>com
 
 #: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
-msgstr "Gain experience and level up!"
+msgstr "Saa kokemusta ja nosta tasoasi!"
 
 #: app/views/dashboard/overview/overview.html:87
 msgid "dash.integrate.heading"
@@ -2108,7 +2108,7 @@ msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboa
 
 #: app/views/dashboard/overview/overview.html:4
 msgid "dash.overview.heading"
-msgstr "Your Dashboard"
+msgstr "Sinun kojelauta"
 
 #: app/views/dashboard/overview/overview.html:61
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:19
@@ -2145,16 +2145,16 @@ msgstr "Anna ihmisten tietää itsestäsi!"
 
 #: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_label"
-msgstr "Profile Bio"
+msgstr "Profiilin tiedot"
 
 #: app/components/forms/dashboard/profile/profile.html:33
 msgid "dash.profile.edit.display_name_help"
-msgstr "If you enter a display name, it'll show up on the site instead of your username. Unlike usernames, display names can contain spaces and special characters."
+msgstr "Jos lisäät näyttönimen, se tulee näkymään sivustolla käyttäjänimen sijaan. Toisin kuin käyttäjätunnukset, näyttönimet voivat sisältää välilyöntejä ja erikoismerkkejä."
 
 #: app/components/forms/dashboard/profile/profile.html:27
 #: app/components/forms/dashboard/profile/profile.html:37
 msgid "dash.profile.edit.display_name_label"
-msgstr "Display Name"
+msgstr "Näyttönimi"
 
 #: app/components/forms/dashboard/profile/profile.html:39
 msgid "dash.profile.edit.display_name_time_left_html"
@@ -4432,7 +4432,7 @@ msgstr "Voi ei!"
 
 #: app/views/library/collection/collection-controller.js:227
 msgid "library.playlists.remove_playlist_success_growl"
-msgstr "You have successfully unfollowed {{ playlist }}."
+msgstr "Olet onnistuneesti perunut {{ playlist }} seuraamisen"
 
 #: app/views/library/collection/collection-controller.js:228
 msgid "library.playlists.remove_playlist_success_growl_title"
@@ -4468,7 +4468,7 @@ msgstr "Lähetti sinulle kaveripyynnön"
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
-msgstr "followed <strong>{{ object }}</strong>."
+msgstr "seurasi <strong>{{ object }}</strong>."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:11
 msgid "notifications.game_news_title_html"
@@ -4601,7 +4601,7 @@ msgstr "Paras"
 
 #: app/views/discover/games/list/category/category-controller.js:23
 msgid "games.list.section_featured"
-msgstr "Featured"
+msgstr "Esittelyssä"
 
 #: app/views/discover/games/list/category/category-controller.js:25
 msgid "games.list.section_fresh"
@@ -4618,8 +4618,8 @@ msgstr "Vasta lisätty"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 koontiversio"
+msgstr[1] "{{ $count | number }} koontiversiota"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -4627,7 +4627,7 @@ msgstr[1] ""
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] ""
+msgstr[0] "1 peli"
 msgstr[1] ""
 
 #: app/components/post/grid/grid.html:34
@@ -4636,21 +4636,21 @@ msgstr[1] ""
 #: app/views/discover/games/view/news/view/view.html:15
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
-msgstr[0] ""
+msgstr[0] "1 kommentti"
 msgstr[1] ""
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
-msgstr[0] ""
+msgstr[0] "1 artikkeli"
 msgstr[1] ""
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "+1 ilmoitus"
+msgstr[1] "+{{ $count | number }} ilmoitusta"
 
 #: app/components/shell/footer/footer.html:45
 msgid "footer.contact"
@@ -4658,7 +4658,7 @@ msgstr "Ota yhteyttä"
 
 #: app/components/shell/footer/footer.html:13
 msgid "footer.tagline"
-msgstr "Too many games... and counting!"
+msgstr "Liian paljon pelejä... ja lisää tulee!"
 
 #: app/components/shell/footer/footer.html:26
 msgid "footer.translations"
@@ -4666,7 +4666,7 @@ msgstr "Käännökset ovat yhteisöprojekti."
 
 #: app/components/shell/footer/footer.html:27
 msgid "footer.translations_help"
-msgstr "Auta kääntämään"
+msgstr "Auta kääntämään!"
 
 #: app/components/game/filtering/filtering-service.js:17
 msgid "games.filtering.browser"
@@ -4674,7 +4674,7 @@ msgstr "Selain"
 
 #: app/components/game/filtering/filtering-service.js:23
 msgid "games.filtering.browser_applet"
-msgstr "Java Applet "
+msgstr "Java Applet"
 
 #: app/components/game/filtering/filtering-service.js:21
 msgid "games.filtering.browser_flash"
@@ -4747,8 +4747,8 @@ msgstr "Keskeneräinen"
 #: app/views/discover/games/view/view.html:11
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 uutisartikkeli"
+msgstr[1] "{{ $count | number }} uutisartikkelia"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.amount_help"
@@ -4756,7 +4756,7 @@ msgstr "The minimum amount you can withdraw at this time is {{ amount | currency
 
 #: app/components/forms/dashboard/game/song/song.html:15
 msgid "dash.games.music.form.file_help_block"
-msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per file. Only MP3s are supported at this time."
+msgstr "Musiikin lisäykset ovat rajoitettu tällä hetkellä {{MaxFileSize | number }} Mt tiedostoa kohti. Tukee vain MP3 tällä hetkellä."
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:34
 msgid "dash.games.news.posted_on"
@@ -4776,11 +4776,11 @@ msgstr "No {{ difficulty | lowercase }} trophies added yet."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:17
 msgid "dash.games.trophies.section_heading"
-msgstr "{{ difficulty }} Trophies"
+msgstr "{{ difficulty }} Pokaaleja"
 
 #: app/views/discover/games/view/download/build/build.html:13
 msgid "game.download.game.downloading_label"
-msgstr "Downloading {{ game }}..."
+msgstr "Ladataan {{ game }}..."
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack.html:13
 msgid "game.download.soundtrack.downloading_label"
@@ -4788,11 +4788,11 @@ msgstr "Ladataan ääniraitaa..."
 
 #: app/views/discover/games/list/list.html:27
 msgid "games.list.date_heading_small"
-msgstr "on {{ date }}"
+msgstr " {{ date }}"
 
 #: app/views/discover/games/list/list.html:31
 msgid "games.list.date_range_heading_small"
-msgstr "between {{ dateStart }} and {{ dateEnd }}"
+msgstr "{{ dateStart }} ja {{ dateEnd }} välissä"
 
 #: app/components/game/thumbnail/thumbnail.html:30
 msgid "games.thumbnail.ratings"
@@ -4812,11 +4812,11 @@ msgstr "#{{ tag }}"
 
 #: app/components/game/collection/grid/grid.html:41
 msgid "library.playlists.subscription_developer_description"
-msgstr "Games made by {{ user }}."
+msgstr "{{ user }} tekemiä pelejä"
 
 #: app/components/game/collection/grid/grid.html:37
 msgid "library.playlists.subscription_followed_description"
-msgstr "Games followed by {{ user }}."
+msgstr "{{ user }}seuraamia pelejä"
 
 #: app/components/activity/feed/feed.html:50
 msgid "notifications.rating_details_title"
@@ -4890,7 +4890,7 @@ msgstr "Rajoita yhtäaikaisia purkamisia?"
 
 #: app/components/forms/settings/settings.html:30
 msgid "settings.max_download_count_help"
-msgstr "If you have more than this number, downloads will be queued up."
+msgstr "Jos sinulla on enemmän kuin tämä määrä, lataukset laitetaan jonoon."
 
 #: app/components/forms/settings/settings.html:29
 msgid "settings.max_download_count_label"
@@ -4898,7 +4898,7 @@ msgstr "Max # of Simultaneous Downloads"
 
 #: app/components/forms/settings/settings.html:42
 msgid "settings.max_extract_count_help"
-msgstr "If you have more than this number, extractions will be queued up."
+msgstr "Jos sinulla on enemmän kuin tämä määrä, lataukset laitetaan jonoon."
 
 #: app/components/forms/settings/settings.html:41
 msgid "settings.max_extract_count_label"
@@ -4985,7 +4985,7 @@ msgstr "Kommentit"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:9
 msgid "Couldn't fetch comments for game."
-msgstr "Couldn't fetch comments for game."
+msgstr "Ei voitu hakea kommenteja pelille."
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:100
 msgid "Follow Thread"
@@ -5021,7 +5021,7 @@ msgstr "Ei kommentteja vielä"
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
 msgstr[0] "Yksi ihminen pitää tästä kommentista"
-msgstr[1] " {{ $count | number }} ihmistä pitää tästä kommentista"
+msgstr[1] "{{ $count | number }} ihmistä pitää tästä kommentista"
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: lib/gj-lib-client/components/comment/widget/comment.html:12
@@ -5049,7 +5049,7 @@ msgstr "kääntänyt"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
-msgstr[0] "Sinä ja yksi muu pidätte tästä kommentista "
+msgstr[0] "Sinä ja yksi muu pidätte tästä kommentista"
 msgstr[1] "Sinä ja  {{ $count | number }} muuta ihmistä pidätte tästä kommentista"
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
@@ -5131,11 +5131,11 @@ msgstr "Asennetut pelit"
 
 #: app/views/library/collection/collection-controller.js:92
 msgid "library.collection.developer_owner_page_title"
-msgstr "Your Games"
+msgstr "Pelisi"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
-msgstr "Your Followed Games"
+msgstr "Seuratut pelisi"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.playlist_owner_page_title"
@@ -5143,7 +5143,7 @@ msgstr "{{ playlist }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
-msgstr "Close"
+msgstr "Sulje"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
@@ -5157,12 +5157,12 @@ msgstr "Game does not belong to this developer"
 
 #: app/views/discover/games/view/_header/nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Ilmoita peli"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Virheellinen ikärajaluokitus pelistä"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
@@ -5172,26 +5172,26 @@ msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "Siinä on häirintää ja kiusaamista"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
 msgid "It is hate speech or contains graphic content"
-msgstr "It is hate speech or contains graphic content"
+msgstr "Siinä on viha puhetta tai sisältää graafista sisältöä"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Siinä on pornografiaa tai se sisältää seksuaalista materiaalia"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
 msgid "It is spam or unwanted commercial content"
-msgstr "It is spam or unwanted commercial content"
+msgstr "Se on roskapostia tai ei-toivottua kaupallis-sisältöä"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Lisää vaihtoehtoja"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
@@ -5201,46 +5201,46 @@ msgstr "No information on game page (no screenshots, sparse description, placeho
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Ei ole peli"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Profiili tai käyttäjätunnus sisältää nimenomaista tai arkaluontoista materiaalia"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Ilmoita käyttäjä"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:133
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Ilmoita kommentti"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Ilmoita peli"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Ilmoita käyttäjästä"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Ilmoitettu"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Lähetä ilmoitus"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
 msgid "Spammer"
-msgstr "Spammer"
+msgstr "Spämmääjä"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Kiitos, että autat meitä tekemään Gamejoltista paikan meille kaikille. Katsomme sen mahdollisimman pian!"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
@@ -5249,5 +5249,5 @@ msgstr "Uprating / downrating"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Miksi ilmoitat tästä"
 
