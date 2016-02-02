@@ -2882,7 +2882,7 @@ msgstr "Unido"
 
 #: app/views/profile/profile.html:99
 msgid "profile.last_seen"
-msgstr "Ultima ves visto"
+msgstr "Ultima vez visto"
 
 #: app/views/profile/profile.html:142
 msgid "profile.library_tab"
