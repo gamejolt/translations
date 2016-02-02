@@ -11,7 +11,7 @@ msgstr ""
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
 msgstr "Ваш код активации неверен.\n"
-"Пожалуйста, убедитесь, что вы скопировали URL из нашего сообщения правильно"
+"Пожалуйста, убедитесь, что вы скопировали URL из нашего сообщения правильно."
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
@@ -25,12 +25,12 @@ msgstr "Неправильный код авторизации"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "Мы перенаправляем вас на вашу панель приборов Game Jolt."
+msgstr "Мы перенаправляем вас на панель приборов Game Jolt."
 
 #: auth/views/auth/login/login.html:35
 #: auth/views/auth/login/login.html:36
 msgid "auth.forgot_link"
-msgstr "Забыли ник или пароль"
+msgstr "Забыли имя пользователя или пароль"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
@@ -47,7 +47,7 @@ msgstr "Отправка данных профиля"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "Хмм, данный Email не зарегистрирован в нашей системе. Может быть вы ещё не <a href=\"/join\">зарегистрировались?"
+msgstr "Хмм, данный Email не зарегистрирован в нашей системе. Может быть, вы ещё не <a href=\"/join\">зарегистрировались?"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
@@ -59,7 +59,7 @@ msgstr "Регистрационные данные отправлены"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "Если вы не увидите сообщение в течении 10 минут, проверьте папку со спамом.Оно могло попасть туда."
+msgstr "Если вы не увидите сообщение в течении 10 минут, проверьте папку со спамом. Оно могло попасть туда!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
@@ -71,8 +71,8 @@ msgstr "Зарегистрироваться!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Перед тем как войти в аккаунт Game Jolt, вам нужно подтвердить ваш email адрес.</p>\n"
-"<p>Мы отправили инструкцию по активации аккаунта на вашу почту</p>"
+msgstr "Перед тем как войти в аккаунт Game Jolt, вам нужно подтвердить ваш адрес электронной почты.\n"
+"Мы отправили инструкцию по активации аккаунта на вашу почту"
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -111,7 +111,7 @@ msgstr "Войти через Twitter"
 #: auth/components/forms/join/join.html:13
 #: auth/components/forms/join/join.html:20
 msgid "auth.join.username_label"
-msgstr "Никнейм"
+msgstr "Имя пользователя"
 
 #: auth/views/auth/linked-account/_processing.html:1
 #: auth/views/auth/linked-account/poll/poll.html:14
@@ -126,7 +126,7 @@ msgstr "<p>Данный адрес электронной почты уже ис
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
 msgid "auth.linked_account.twitter.finalize.email_help"
-msgstr "Чтобы закончить регистрацию через Twitter, пожалуйста введите ваш Email."
+msgstr "Чтобы закончить регистрацию через Twitter, пожалуйста, введите ваш Email."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
@@ -230,9 +230,9 @@ msgstr "Присоединяйтесь к нам. Муахаха.<br>У нас �
 "<strong><em>Муахахаха!</em></strong>"
 
 #: auth/views/auth/join/join-controller.js:5
+#, fuzzy
 msgid "auth.join.page_title"
-msgstr "Присоединяйтесь к Game Jolt - Самой Большой Коллекции Инди-игр сделанныме людьми.\n"
-""
+msgstr "Присоединяйтесь к Game Jolt - Самой большой коллекции инди-игр, сделанных людьми!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
@@ -343,7 +343,7 @@ msgid "dash.avatar.body_html"
 msgstr "<p>Сейчас мы используем <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars, Глобально Распознаваемые Аватары) для показа аватаров на Game Jolt.</p>\n"
 "\t<p>Если у Вас ещё нет аккаунта Gravatar, кликните по кнопке ниже для открытия <a href=\"http://gravatar.com\">gravatar.com</a> и зарегистрируйтесь там. Заметьте, что там нужно использовать Ваш логин WordPress. Как так, у Вас нет и аккаунта WordPress? Без паники! Вы сможете создать оба аккаунта одновременно.</p>\n"
 "\t<p>Есть аккаунт Gravatar? Отлично. Просто войдите и загрузите аватар, затем свяжите этот аватар с email-адресом, используемый Вами в Game Jolt. Ваш аватар автоматически появится на сайте.</p>\n"
-"\t<p><em>Заметьте, что может быть небольшая задержка. Если Вы не видите аватарку через приличное время, попробуйте почистить кэш браузера.</em></p>"
+"\t<p><em>Заметьте, что может быть небольшая задержка. Если Вы не видите аватар через приличное время, попробуйте почистить кэш браузера.</em></p>"
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
@@ -429,9 +429,10 @@ msgstr "Ваша картинка должна быть в формате PNG, J
 "\t<strong>PNG рекомендуется больше всего, потому что они сжаты без потерь.</strong>"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
+#, fuzzy
 msgid "dash.forms.thumbnail_filetype_help_html"
 msgstr "Иконка вашей игры должна быть в формате PNG, JPG или GIF.<br>\n"
-"\tАнимированные GIFки позволяют геймерам представить игру в действии. <br>\n"
+"\tАнимированные GIF-иконки позволяют геймерам представить игру в действии. <br>\n"
 "\tДля недвигающихся изображений рекомендуется PNG, потому что они сжаты без потерь."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
@@ -1819,7 +1820,7 @@ msgstr "<p>Этой таблице не хватает результатов, �
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
-msgstr "<p>These are all of the scores that have been submitted to this scoreboard by users and guests (if allowed).</p>"
+msgstr "<p>Здесь все показатели которые были опубликованы в этой таблице рекордов пользователями или гостями (если есть доступ).</p> "
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:5
 msgid "dash.games.scores.list.rank_label"
@@ -1899,8 +1900,8 @@ msgstr "Пользователь"
 
 #: app/components/forms/dashboard/game/settings/settings.html:16
 msgid "dash.games.settings.ads_help_html"
-msgstr "<p><strong>Turning this off will remove all ads for this game.</strong></p>\n"
-"\t<p>Only do this if you don't want to monetize your game, or if your game is subject to a license that doesn't allow monetization.</p>"
+msgstr "Выключение этого уберёт рекламу для этой игры.\n"
+"\tДелайте это только если вы не хотите монетизировать вашу игру, или ваша игра принадлежит лицензии которая не разрешает монетизацию."
 
 #: app/components/forms/dashboard/game/settings/settings.html:15
 msgid "dash.games.settings.ads_label"
@@ -2183,8 +2184,8 @@ msgstr "Имя Пользователя"
 
 #: app/components/forms/dashboard/profile/profile.html:23
 msgid "dash.profile.edit.username_time_left_html"
-msgstr "You can only change your username once a week. <br>\n"
-"\tYou have {{ duration }} left until you can change it again."
+msgstr "Вы можете изменить свой ник только один раз за неделю<br>\n"
+"\tЧерез {{ duration }} вы сможете вновь сменить свой ник."
 
 #: app/components/forms/dashboard/profile/profile.html:43
 msgid "dash.profile.edit.website_label"
@@ -2389,7 +2390,7 @@ msgstr "Опубликованные игры"
 
 #: app/views/discover/games/list/list.html:74
 msgid "games.list.date_range_descriptive_html"
-msgstr "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
+msgstr "Игры опубликованные между {{ dateStart }} и {{ dateEnd }}, отсортированы по Напряжению, с наилучшими результатами, находясь в топе. "
 
 #: app/views/discover/games/list/list.html:30
 msgid "games.list.date_range_heading"
@@ -2401,7 +2402,7 @@ msgstr "Indie {{ category }} that we've featured on the homepage, sorted by feat
 
 #: app/views/discover/games/list/list.html:51
 msgid "games.list.fresh_descriptive_html"
-msgstr "Indie {{ category }} sorted by Freshness."
+msgstr "Инди {{ category }} отсортированы в \"Новинки\"."
 
 #: app/views/discover/games/list/list.html:54
 msgid "games.list.freshness_tooltip"
@@ -2413,7 +2414,7 @@ msgstr "Нет игр."
 
 #: app/views/discover/games/list/list.html:58
 msgid "games.list.hot_descriptive_html"
-msgstr "Indie {{ category }} sorted by Hotness."
+msgstr "Инди {{ category }} отсортированы в \"Горячее\"."
 
 #: app/views/discover/games/list/list.html:61
 #: app/views/discover/home/home.html:160
@@ -2422,7 +2423,7 @@ msgstr "Hotness indicates community interest in recent games. A game's Hotness s
 
 #: app/views/discover/games/list/list.html:65
 msgid "games.list.new_descriptive_html"
-msgstr "Indie {{ category }} sorted by publication date."
+msgstr "Инди {{ category }} отсортированы дате публикаци. "
 
 #: app/views/discover/games/list/list.html:95
 msgid "games.list.new_games_warning_html"
@@ -2463,7 +2464,7 @@ msgstr "Отменить"
 
 #: app/views/discover/games/view/_header/nav.html:59
 msgid "games.view.moderate_game_button"
-msgstr "Moderate Game"
+msgstr "Управление игрой"
 
 #: app/views/discover/games/view/_header/nav.html:11
 msgid "games.view.news_tab"
@@ -2527,7 +2528,7 @@ msgstr "Игры"
 
 #: app/views/library/collection/_header-default.html:54
 msgid "library.collection.developer_owner_descriptive_html"
-msgstr "These are the games that you've made. Be proud!<br>Feel free to share this page with others to show off your games."
+msgstr "Здесь игры которые вы сделали. Гордись! <br>Не стесняйтесь показывать эту страницу другим чтобы показать свои игры."
 
 #: app/views/library/collection/_header-default.html:53
 msgid "library.collection.developer_owner_heading"
@@ -2539,7 +2540,7 @@ msgstr "Редактировать плейлист"
 
 #: app/views/library/collection/_header-default.html:44
 msgid "library.collection.followed_descriptive_html"
-msgstr "These are the games that {{ user }} is following."
+msgstr "Игры за которыми следит {{ user }}. "
 
 #: app/views/library/collection/_header-default.html:36
 msgid "library.collection.followed_heading"
@@ -2547,7 +2548,7 @@ msgstr "Подписки на игры"
 
 #: app/views/library/collection/_header-default.html:32
 msgid "library.collection.followed_owner_descriptive_html"
-msgstr "When you follow a game, it shows up here.<br>You'll receive notifications when developers post news about any games you're following."
+msgstr "Когда в следите за игрой, это показано чуть выше.<br>Вы будете получать уведомления, о новостях этих игр за которыми вы следите. "
 
 #: app/views/library/collection/_header-default.html:31
 msgid "library.collection.followed_owner_heading"
@@ -2817,10 +2818,10 @@ msgstr "<p>А значение рейтинга ты будешь получат
 #: app/views/dashboard/activity/list/list-controller.js:95
 msgid "notifications.unread_tooltip"
 msgid_plural "notifications.unread_tooltip"
-msgstr[0] "{{ $count | number }} непрочитано"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] "{{ $count | number }} непрочитано"
+msgstr[0] "Одно новое"
+msgstr[1] "{{ $count | number }} новых"
+msgstr[2] "{{ $count | number }} новых"
+msgstr[3] "{{ $count | number }} новых"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
@@ -3116,10 +3117,10 @@ msgstr "Лента Активности"
 #: app/views/dashboard/activity/list/list.html:83
 msgid "dash.activity.pages"
 msgid_plural "dash.activity.pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Страница оповещений: {{ page | number }} из {{ $count | number }}."
+msgstr[1] "Страница оповещений: {{ page | number }} из {{ $count | number }}."
+msgstr[2] "Страница оповещений: {{ page | number }} из {{ $count | number }}."
+msgstr[3] "Страница оповещений: {{ page | number }} из {{ $count | number }}."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview-controller.js:5
 msgid "dash.games.api.overview.page_title"
@@ -3195,7 +3196,7 @@ msgstr "Вы уверены что хотите удалить этот елем
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view-controller.js:6
 msgid "dash.games.data_store.items.view.page_title"
-msgstr "Item Details - {{ game }}"
+msgstr "Детали - {{ game }}"
 
 #: app/components/forms/dashboard/game/game.html:143
 msgid "dash.games.form.add_button"
@@ -3336,7 +3337,7 @@ msgstr "Слабо"
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:72
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:90
 msgid "dash.games.maturity.moderate_option"
-msgstr "Moderate"
+msgstr "Изменить"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:101
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:111
@@ -3382,7 +3383,7 @@ msgstr "Графические сцены насилия с участием р�
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:128
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:142
 msgid "dash.games.maturity.reference_option"
-msgstr "Reference"
+msgstr "Справка"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:171
 msgid "dash.games.maturity.sexual_themes_1_description"
@@ -3402,7 +3403,7 @@ msgstr "Изображения или графические намёки на �
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:206
 msgid "dash.games.maturity.shenanigans_option"
-msgstr "Comic Shenanigans"
+msgstr "Проделки комика"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:224
 msgid "dash.games.maturity.simulated_option"
@@ -3411,7 +3412,7 @@ msgstr "Симулированный"
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:196
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:214
 msgid "dash.games.maturity.strong_option"
-msgstr "Strong"
+msgstr "Мощно"
 
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:170
 msgid "dash.games.maturity.suggestive_option"
@@ -3441,23 +3442,23 @@ msgstr "Добавить видео по {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:6
 msgid "dash.games.media.page_title"
-msgstr "Manage Media for {{ game }}"
+msgstr "Управление медиа для {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:51
 msgid "dash.games.media.remove_confirmation"
-msgstr "Are you sure you want to remove this {{ type }}?"
+msgstr "Уверены, что хотите удалить {{ type }}?"
 
 #: app/views/dashboard/developer/games/manage/music/music-controller.js:6
 msgid "dash.games.music.page_title"
-msgstr "Manage Music for {{ game }}"
+msgstr "Управление музыкой для {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/music/music-controller.js:45
 msgid "dash.games.music.remove_confirmation"
-msgstr "Are you sure you want to remove this song?"
+msgstr "Точно хотите удалить эту песню?"
 
 #: app/views/dashboard/developer/games/manage/news/article/stats/stats-controller.js:6
 msgid "dash.games.news.article.stats.page_title"
-msgstr "Stats for {{ article }}"
+msgstr "Статистика по {{ article }} "
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.add_button"
@@ -3473,59 +3474,59 @@ msgstr "Управлять Новостью для {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add-controller.js:3
 msgid "dash.games.packages.add.page_title"
-msgstr "Add Package for {{ game }}"
+msgstr "Добавить пакет для {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases-controller.js:6
 msgid "dash.games.packages.manage.releases.page_title"
-msgstr "Releases in {{ package }} - {{ game }}"
+msgstr "Релизы в {{ package }} - {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/packages/packages-controller.js:7
 msgid "dash.games.packages.page_title"
-msgstr "Manage Packages for {{ game }}"
+msgstr "Управление пакетами для {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/packages/release/stats/stats-controller.js:3
 msgid "dash.games.releases.stats.page_title"
-msgstr "Stats for {{ release }} - {{ package }} - {{ game }}"
+msgstr "Статистика про {{ release }} - {{ package }} - {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:5
 msgid "dash.games.scoreboards.page_title"
-msgstr "Manage Scoreboards for {{ game }}"
+msgstr "Управление таблицей рекордов для {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:48
 msgid "dash.games.scoreboards.remove_confirmation"
-msgstr "Are you sure you want to remove this scoreboard?"
+msgstr "Точно хотите удалить таблицу рекордов?"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list-controller.js:13
 msgid "dash.games.scores.list.page_title"
-msgstr "View Scores for {{ table }} - {{ game }}"
+msgstr "Показать очки для {{ table }} - {{ game }} "
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:11
 msgid "dash.games.scores.view_user_scores_table"
-msgstr "on {{ table }}"
+msgstr "в {{ table }}"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view-controller.js:6
 msgid "dash.games.scores.view.page_title"
-msgstr "Score Details - {{ game }}"
+msgstr "Детали очков - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view-controller.js:13
 msgid "dash.games.scores.view.remove_confirmation"
-msgstr "Are you sure you want to remove this score?"
+msgstr "Точно хотите удалить эти очки?"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
 msgid "dash.games.trophies.form.clear_image_confirmation"
-msgstr "Are you sure you want to clear this trophy image?"
+msgstr "Точно хотите очистить изображения трофея?"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:5
 msgid "dash.games.trophies.page_title"
-msgstr "Manage Trophies for {{ game }}"
+msgstr "Управление трофеями для {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:90
 msgid "dash.games.trophies.remove_confirmation"
-msgstr "Are you sure you want to remove this trophy?"
+msgstr "Точно хотите удалить этот трофей?"
 
 #: app/views/dashboard/overview/overview-controller.js:3
 msgid "dash.overview.page_title"
-msgstr "Your Dashboard"
+msgstr "Ваша панель"
 
 #: app/views/dashboard/overview/overview.html:67
 msgid "dash.overview.revenue_pending_message_html"
@@ -3553,11 +3554,11 @@ msgstr "Игра опубликована {{ date }}"
 
 #: app/views/discover/games/list/category/category-controller.js:71
 msgid "games.list.date_range_page_title"
-msgstr "Games Published Between {{ dateStart }} and {{ dateEnd }}"
+msgstr "Игры опубликованные между {{ dateStart }} и {{ dateEnd }} "
 
 #: app/views/discover/games/list/category/category-controller.js:106
 msgid "games.list.descriptive_category"
-msgstr "{{ category | lowercase }} games"
+msgstr "{{ category | lowercase }} игры"
 
 #: app/views/discover/games/list/category/category-controller.js:101
 msgid "games.list.descriptive_category_other"
@@ -3573,7 +3574,7 @@ msgstr "Ваша библиотека игр"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:83
 msgid "library.playlists.add_game_error_growl"
-msgstr "Error! Error! This game could not be added to the playlist."
+msgstr "Ошибка! Ошибка! Игра не может быть добавлена в плейлист."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:84
 msgid "library.playlists.add_game_error_growl_title"
@@ -3581,16 +3582,16 @@ msgstr "О нет!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:74
 msgid "library.playlists.add_game_success_growl"
-msgstr "You've added {{ game }} to {{ playlist }}. Nice!"
+msgstr "Вы добавили {{ game }} в {{ playlist }}. Отлично! :-)"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:75
 msgid "library.playlists.add_game_success_growl_title"
-msgstr "Added Game"
+msgstr "Добавить игру"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:103
 #: app/views/library/collection/listing/listing-controller.js:48
 msgid "library.playlists.remove_game_error_growl"
-msgstr "Error! Error! This game could not be removed from the playlist."
+msgstr "Ошибка! Ошибка! Игра не может быть удалена из плейлиста."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:104
 #: app/views/library/collection/listing/listing-controller.js:49
@@ -3600,7 +3601,7 @@ msgstr "О нет!"
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:94
 #: app/views/library/collection/listing/listing-controller.js:40
 msgid "library.playlists.remove_game_success_growl"
-msgstr "You have successfully removed {{ game }} from {{ playlist }}."
+msgstr "Удален(-а) {{ game }} из {{ playlist }}."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:95
 #: app/views/library/collection/listing/listing-controller.js:41
@@ -3613,11 +3614,11 @@ msgstr "Последние игровые новости"
 
 #: app/views/discover/news/list/list-controller.js:18
 msgid "news.list.followed_page_title"
-msgstr "Followed Game News"
+msgstr "Новости по играм за которыми следим"
 
 #: app/views/discover/news/list/list-controller.js:24
 msgid "news.list.released_page_title"
-msgstr "Released Game News"
+msgstr "Новости опубликованных игр"
 
 #: app/views/discover/news/list/list-controller.js:21
 msgid "news.list.wip_page_title"
@@ -3626,11 +3627,11 @@ msgstr "Новости разработки"
 #: app/components/notifications/popover/popover-directive.js:84
 #: app/views/dashboard/activity/list/list-controller.js:77
 msgid "notifications.clear_all_confirmation"
-msgstr "Are you sure you want to mark all notifications as read?"
+msgstr "Точно хотите пометить все как прочитанное?"
 
 #: app/views/dashboard/activity/list/list-controller.js:79
 msgid "notifications.clear_all_of_type_confirmation"
-msgstr "Are you sure you want to mark the filtered notifications as read?"
+msgstr "Точно хотите пометить все отфильтрованное как прочитанное?"
 
 #: app/views/dashboard/activity/list/list-controller.js:29
 msgid "notifications.comment_replies_label"
@@ -3690,7 +3691,7 @@ msgstr "Искать по GameJolt"
 
 #: app/views/search/results/results-controller.js:15
 msgid "search.results.page_title"
-msgstr "Search results for \"{{ query }}\""
+msgstr "Результаты поиска по \"{{ query }}\""
 
 #: app/views/discover/news/news-controller.js:10
 #: app/views/library/collection/collection-controller.js:27
@@ -3711,7 +3712,7 @@ msgstr "Бронза"
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
-msgstr "Золотой"
+msgstr "Золото"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
@@ -3733,7 +3734,7 @@ msgstr "Ответить на комментарий"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:40
 msgid "dash.email_prefs.notify_comments_help"
-msgstr "Get emails about new comments on things you've posted, such as a game or news update."
+msgstr "Получать сообщения на электронную почту о новых комментариях к вашим играм или новостям."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:39
 msgid "dash.email_prefs.notify_comments_label"
@@ -3741,11 +3742,11 @@ msgstr "Новые комментарии"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:25
 msgid "dash.email_prefs.notify_followed_game_updates_help"
-msgstr "Get emails about news updates on games you're following."
+msgstr "Получать письма о обновлениях игр за которыми вы следите."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:24
 msgid "dash.email_prefs.notify_followed_game_updates_label"
-msgstr "Updates to Followed Games"
+msgstr "Обновления игр за которыми следим"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:20
 msgid "dash.email_prefs.notify_forum_posts_help"
@@ -3801,7 +3802,7 @@ msgstr "Request Sent"
 
 #: app/views/dashboard/developer/games/add/add-controller.js:8
 msgid "dash.games.add.add_growl"
-msgstr "Your game has been added and can now be managed from your dashboard."
+msgstr "Ваша игра была добавлена, теперь вы можете управлять ее страницей через панель управления."
 
 #: app/views/dashboard/developer/games/add/add-controller.js:9
 msgid "dash.games.add.add_growl_title"
@@ -3813,7 +3814,7 @@ msgstr "Добавить Игру"
 
 #: app/views/dashboard/developer/games/manage/manage.html:49
 msgid "dash.games.api_tooltip"
-msgstr "Manage your game's API integration (trophies, scoreboards, data storage, etc.)"
+msgstr "Управляйте API в ваших играх (достижениями, таблицами рекордов, облачным хранилищем и т.д.)"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:3
 msgid "dash.games.edit.page_title"
@@ -3821,11 +3822,11 @@ msgstr "Изменить {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:15
 msgid "dash.games.edit.save_growl"
-msgstr "Your game details have been saved."
+msgstr "Детали вашего проекта были сохранены."
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:16
 msgid "dash.games.edit.save_growl_title"
-msgstr "Game Details Saved"
+msgstr "Детали игры сохранены."
 
 #: app/views/dashboard/developer/games/manage/game/header/header-controller.js:3
 msgid "dash.games.header.page_title"
@@ -3841,15 +3842,15 @@ msgstr "Header Saved"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:3
 msgid "dash.games.maturity.page_title"
-msgstr "Edit Maturity Rating for {{ game }}"
+msgstr "Поменять возрастной рейтинг для {{ game }}."
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:8
 msgid "dash.games.maturity.saved_growl"
-msgstr "Your game's maturity information has been updated."
+msgstr "Информация о возрастном рейтинге была сохранена."
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:9
 msgid "dash.games.maturity.saved_growl_title"
-msgstr "Maturity Rating Saved"
+msgstr "Возрастной рейтинг сохранен."
 
 #: app/views/dashboard/developer/games/manage/manage.html:29
 msgid "dash.games.media_tooltip"
@@ -3933,7 +3934,7 @@ msgstr "Добавить новости"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:6
 msgid "dash.games.news.article.edit.page_title"
-msgstr "Edit {{ article }}"
+msgstr "Изменить {{ article }}"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:11
 msgid "dash.games.news.article.edit.save_growl"
@@ -3949,11 +3950,11 @@ msgstr "Are you sure you want to remove this news update?"
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:21
 msgid "dash.games.news.article.remove_growl"
-msgstr "The news update has been removed from the site."
+msgstr "Новость была удалена с сайта."
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:22
 msgid "dash.games.news.article.remove_growl_title"
-msgstr "News Update Removed"
+msgstr "Новость была удаленна."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:6
 msgid "dash.games.overview.page_title"
@@ -3962,7 +3963,7 @@ msgstr "Управлять {{ game }}"
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:9
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:112
 msgid "dash.games.overview.published_growl"
-msgstr "You've published your game to the site! Huzzah! Remember to spread the word..."
+msgstr "Вы опубликовали вашу игру на сайте! Хузах!"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:10
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:113
@@ -3979,7 +3980,7 @@ msgstr "Integrate with Game Jolt through the Game API."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:59
 msgid "dash.games.overview.todo_builds_extra_wip"
-msgstr "Upload your game when it's in a playable state."
+msgstr "Выложите вашу игру, если она в играбельном состоянии."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:60
 msgid "dash.games.overview.todo_builds_progress"
@@ -4023,11 +4024,11 @@ msgstr "Игровое медиа"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:42
 msgid "dash.games.overview.todo_media_title"
-msgstr "Add images and videos."
+msgstr "Добавить картинки и видео."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:78
 msgid "dash.games.overview.todo_news_progress"
-msgstr "News Update"
+msgstr "Новости обновлены"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:77
 msgid "dash.games.overview.todo_news_title"
@@ -4240,11 +4241,11 @@ msgstr "View Scores for {{ user }} on {{ table }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:23
 msgid "dash.games.scores.user.list.remove_confirmation"
-msgstr "Are you sure you want to remove all of the user's scores from this scoreboard?"
+msgstr "Вы уверены что хотите удалить все результаты игроков игроков из таблицы рекордов?"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:31
 msgid "dash.games.scores.user.list.remove_growl"
-msgstr "All of the user's scores have been removed from the scoreboard."
+msgstr "Все результаты игроков были удаленны из таблицы рекордов."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:35
 msgid "dash.games.scores.user.list.remove_growl_title"
@@ -4352,7 +4353,7 @@ msgstr "#{{ tag }}"
 
 #: app/views/library/collection/listing/listing-controller.js:19
 msgid "library.collection.thumbnail_control_playlist_tooltip"
-msgstr "Remove from playlist."
+msgstr "Удалено из плейлиста"
 
 #: app/views/library/collection/listing/listing-controller.js:24
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
@@ -4440,7 +4441,7 @@ msgstr "О нет!"
 
 #: app/views/library/collection/collection-controller.js:227
 msgid "library.playlists.remove_playlist_success_growl"
-msgstr "You have successfully unfollowed {{ playlist }}."
+msgstr "Вы успешно перестали следить за {{ playlist }}."
 
 #: app/views/library/collection/collection-controller.js:228
 msgid "library.playlists.remove_playlist_success_growl_title"
@@ -4448,7 +4449,7 @@ msgstr "Playlist Unfollowed"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
-msgstr "News about games you're following."
+msgstr "Новости об играх на которые вы подписаны."
 
 #: app/views/discover/news/news.html:49
 msgid "news.list.released_tooltip"
@@ -4637,10 +4638,10 @@ msgstr[3] ""
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Одна игра."
+msgstr[1] "Игры: страница {{ page | number }} из {{ $count | number }}."
+msgstr[2] "Игры: страница {{ page | number }} из {{ $count | number }}."
+msgstr[3] "Игры: страница {{ page | number }} из {{ $count | number }}."
 
 #: app/components/post/grid/grid.html:34
 #: app/components/post/list/list.html:31
@@ -4648,10 +4649,10 @@ msgstr[3] ""
 #: app/views/discover/games/view/news/view/view.html:15
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Один комментарий"
+msgstr[1] "{{ $count | number }} комментария"
+msgstr[2] "{{ $count | number }} комментариев"
+msgstr[3] "{{ $count | number }} комментариев"
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
@@ -4728,7 +4729,7 @@ msgstr "Подростковый контент"
 
 #: app/components/game/filtering/filtering-service.js:7
 msgid "games.filtering.os"
-msgstr "ОС"
+msgstr "Операционная система"
 
 #: app/components/game/filtering/filtering-service.js:12
 msgid "games.filtering.os_linux"
@@ -4765,10 +4766,10 @@ msgstr "В разработке"
 #: app/views/discover/games/view/view.html:11
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
-msgstr[0] "1 новая новость"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] "{{ $count | number }} новых новостей"
+msgstr[0] "Одна новость"
+msgstr[1] " {{ $count | number }} новости"
+msgstr[2] " {{ $count | number }} новостей"
+msgstr[3] "{{ $count | number }} новостей"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "dash.funds.withdraw.amount_help"
@@ -4988,10 +4989,10 @@ msgstr "Открытый исходный код"
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
 msgid_plural "{{ $count | number }} Comments"
-msgstr[0] "1 Комментарий"
-msgstr[1] "{{ $count | number }} комментариев."
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Один комментарий"
+msgstr[1] "{{ $count | number }} комментария"
+msgstr[2] "{{ $count | number }} комментариев"
+msgstr[3] "{{ $count | number }} комментариев"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -5044,9 +5045,9 @@ msgstr "Комментарии пока отсутствуют"
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
 msgstr[0] "Одному человеку понравился этот комментарий"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[1] "{{ $count | number }} пользователям понравился этот комментарий"
+msgstr[2] "{{ $count | number }} пользователям понравился этот комментарий"
+msgstr[3] "{{ $count | number }} пользователям понравился этот комментарий"
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: lib/gj-lib-client/components/comment/widget/comment.html:12
@@ -5077,7 +5078,7 @@ msgid_plural "You and {{ $count | number }} people like this comment."
 msgstr[0] "Вам и другому пользователю понравился этот комментарий."
 msgstr[1] "Вам и другому понравился этот комментарий."
 msgstr[2] "Вам и {{ $count | number }} людям понравился этот комментарий."
-msgstr[3] ""
+msgstr[3] "Вам и {{ $count | number }} пользователям нравится этот комментарий."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
@@ -5162,7 +5163,7 @@ msgstr "Ваши игры"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
-msgstr "Your Followed Games"
+msgstr "Игры, за которыми вы следите"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.playlist_owner_page_title"
@@ -5170,26 +5171,26 @@ msgstr "{{ playlist }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
-msgstr "Close"
+msgstr "Закрыть"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Внешняя ссылка на игру (не загружена на сайт)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "Эта игра не принадлежит заявленному разработчику"
 
 #: app/views/discover/games/view/_header/nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Подать жалобу на игру."
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Неверно указано возрастное ограничение"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
@@ -5209,72 +5210,72 @@ msgstr "It is hate speech or contains graphic content"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Содержит элементы эротики или порнографии"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
 msgid "It is spam or unwanted commercial content"
-msgstr "It is spam or unwanted commercial content"
+msgstr "Спам или неразрешенный коммерческий контент"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Дополнительные настройки"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "Нет информации на странице игры (нет скриншотов, непонятное описание и т.д.)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Не игра."
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Профиль или имя пользователя содержат неподобающие материалы"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Сообщить о пользователе "
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:133
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Сообщить о коментарии"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Сообщить об игре"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Сообщить о пользователе"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Отчет отправлен"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Отправить жалобу."
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
 msgid "Spammer"
-msgstr "Spammer"
+msgstr "Спамер."
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Спасибо, что помогаете делать нам Game Jolt уютным для всех местом. Мы рассмотрим ваше сообщение как можно быстрее!"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
 msgid "Uprating / downrating"
-msgstr "Uprating / downrating"
+msgstr "Нравиться / не нравиться."
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Почему вы жалуетесь на это?"
 
