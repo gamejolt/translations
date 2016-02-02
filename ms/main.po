@@ -5082,111 +5082,111 @@ msgstr "{{ playlist }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
-msgstr "Close"
+msgstr "Tutup"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Pautan luaran untuk bermain permainan (Tidak muat naik ke laman web)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "Permainan ini tidak berpunya pemaju ini"
 
 #: app/views/discover/games/view/_header/nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Lapor Permainan"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Kematangan penarafan yang tidak betul untuk kandungan permainan"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
 msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
-msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "Mempunyai perosak dan tidak menggunakan tag perosak (<code>&gt!</code>)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "Mempunyai kegangguan atau buli"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
 msgid "It is hate speech or contains graphic content"
-msgstr "It is hate speech or contains graphic content"
+msgstr "Permainan ialah ucapan benci atau kandungan grafik"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Mempunyai bahan seksual atau grafik lucah"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
 msgid "It is spam or unwanted commercial content"
-msgstr "It is spam or unwanted commercial content"
+msgstr "Spam atau kandungan komesial yang tidak mahu"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Pilihan Banyak Lagi"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "Tiada informasi dalam muka surat permainan (Tiada imej, deskripsi, etc.)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Bukan Permainan"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Profil atau pengguna mengandungi bahan sensitif"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Lapor Pengguna"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:133
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Lapor Komen"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Lapor Permainan"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Lapor Pengguna"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Telah Dilaporkan"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Menghantar Laporan"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
 msgid "Spammer"
-msgstr "Spammer"
+msgstr "Orang Spam"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Terima kasih untuk menolong kami membuat Game Jolt tempat untuk semua orang. Kami akan menyemakan kandungan secepatlah kami yang boleh."
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
 msgid "Uprating / downrating"
-msgstr "Uprating / downrating"
+msgstr "Penarafan Atas / Penarafan Bawah"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Mengapakan anda melaporkan ini?"
 
