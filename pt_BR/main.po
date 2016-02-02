@@ -5147,95 +5147,97 @@ msgstr "{{ playlist }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
-msgstr "Close"
+msgstr "Fechado\n"
+""
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Link externo para jogar este jogo (não enviado nesse site)\n"
+""
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "Jogo não pertence à esse desenvolvedor"
 
 #: app/views/discover/games/view/_header/nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Denunciar jogo"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Faixa etária incorreta para o conteúdo desse jogo"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
 msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
-msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "Isto contém spoilers e não foram usados tags de spoiler"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "Isto contém assédios ou bullyng"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
 msgid "It is hate speech or contains graphic content"
-msgstr "It is hate speech or contains graphic content"
+msgstr "Isto é discurso de ódio ou contém material gráfico"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Isto é pornográfico ou contém material sexual explícito"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
 msgid "It is spam or unwanted commercial content"
-msgstr "It is spam or unwanted commercial content"
+msgstr "Isto é spam ou material de comercial indesejado"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Mais opções"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "Sem informações na página do jogo (nenhuma foto, descrição escassa, página reservada, etc.)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Não é um jogo"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Perfil ou nome de usuário contém material explícito ou delicado"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Denunciar usuário"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:133
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Denunciar comentário"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Denunciar jogo"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Denunciar usuário"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Denunciado"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Enviar denúncia"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
@@ -5244,14 +5246,14 @@ msgstr "Spammer"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Obrigado por nos ajudar à fazer Game Jolt ser um lugar para todos. Nós vamos dar uma olhada o mais rápido possível!"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
 msgid "Uprating / downrating"
-msgstr "Uprating / downrating"
+msgstr "Taxa de upload / Taxa de download"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Por que você está denunciando isso?"
 
