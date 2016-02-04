@@ -67,7 +67,7 @@ msgstr "Palauta kirjautumistiedot"
 
 #: auth/views/auth/login/login.html:29
 msgid "auth.join_link"
-msgstr "Rekisteröidy"
+msgstr "Rekisteröidy!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
@@ -246,7 +246,7 @@ msgstr "Tämän Facebook-tilin sähköpostiosoite on jo käytössä. Kenties sin
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:18
 msgid "auth.linked_account.facebook.duplicate_email_growl_title"
-msgstr "Voihan nenä!"
+msgstr "Voi ei!"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:24
 msgid "auth.linked_account.facebook.failed_growl"
@@ -549,7 +549,7 @@ msgstr "Pisteet"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:136
 msgid "dash.games.api.overview.scores_label"
-msgstr "Yhteispisteet"
+msgstr "Kokonais pisteet"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
@@ -685,7 +685,7 @@ msgstr "<strong>HTML-pelit vaativat .zip-tiedoston, josta löytyy tarvittavat ti
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
-msgstr "Lataa tiedosto"
+msgstr "Lähetä tiedosto"
 
 #: app/components/forms/dashboard/game/build/build.html:49
 msgid "dash.games.builds.form.flash_help"
@@ -1791,7 +1791,7 @@ msgstr "Taulukon ID"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:58
 msgid "dash.games.scoreboards.unique_tag"
-msgstr "Unique Scores"
+msgstr "Uniikit pisteet"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:15
 msgid "dash.games.scores.goto_user_profile"
@@ -1958,7 +1958,7 @@ msgstr "Tallenna asetukset"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:45
 msgid "dash.games.thumbnail.crop_error_label"
-msgstr "crop"
+msgstr "rajaa"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:4
 msgid "dash.games.thumbnail.heading"
@@ -2217,7 +2217,7 @@ msgstr "Followed"
 
 #: app/views/discover/home/home.html:152
 msgid "discover.home.hot_heading"
-msgstr "Hot Games"
+msgstr "Kuumat pelit"
 
 #: app/views/discover/home/home.html:159
 msgid "discover.home.hot_help"
@@ -2372,56 +2372,56 @@ msgstr "Operating Systems"
 msgid "games.filtering.status_label"
 msgstr "Status"
 
-#: app/views/discover/games/list/list.html:44
+#: app/views/discover/games/list/list.html:47
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} sorted by Voltage."
 
-#: app/views/discover/games/list/list.html:71
+#: app/views/discover/games/list/list.html:74
 msgid "games.list.date_descriptive_html"
 msgstr "Games that were published on {{ date }}, sorted by Voltage, with the best scores at the top."
 
-#: app/views/discover/games/list/list.html:26
+#: app/views/discover/games/list/list.html:29
 msgid "games.list.date_heading"
 msgstr "Games Published"
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/list.html:77
 msgid "games.list.date_range_descriptive_html"
 msgstr "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/list.html:33
 msgid "games.list.date_range_heading"
 msgstr "Peli julkaistu"
 
-#: app/views/discover/games/list/list.html:38
+#: app/views/discover/games/list/list.html:41
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} that we've featured on the homepage, sorted by feature date."
 
-#: app/views/discover/games/list/list.html:51
+#: app/views/discover/games/list/list.html:54
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} sorted by Freshness."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/list.html:57
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.games_count_none"
 msgstr "Ei pelejä."
 
-#: app/views/discover/games/list/list.html:58
+#: app/views/discover/games/list/list.html:61
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorted by Hotness."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/list.html:64
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:65
+#: app/views/discover/games/list/list.html:68
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorted by publication date."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:94
 msgid "games.list.new_games_warning_html"
 msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
 
@@ -2429,40 +2429,40 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 msgid "games.list.no_games_html"
 msgstr "No games match your filters. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:135
 msgid "games.list.sections_selector_best"
 msgstr "Parhaat"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:115
 msgid "games.list.sections_selector_featured"
 msgstr "Suositellut"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:125
 msgid "games.list.sections_selector_hot"
 msgstr "Kuumat"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:145
 msgid "games.list.sections_selector_new"
 msgstr "Uudet"
 
-#: app/views/discover/games/list/list.html:47
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/list.html:50
+#: app/views/discover/games/list/list.html:80
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage is our weighted rating system. All games start with an average score and the community drags it up or down."
 
-#: app/views/discover/games/view/_header/nav.html:51
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.manage_game_button"
 msgstr "Hallitse peliä"
 
-#: app/components/game/media-bar/lightbox/lightbox.html:14
+#: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
 msgstr "Sulje"
 
-#: app/views/discover/games/view/_header/nav.html:59
+#: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
 msgstr "Moderoi peliä"
 
-#: app/views/discover/games/view/_header/nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
 msgstr "Uutiset"
 
@@ -2470,11 +2470,11 @@ msgstr "Uutiset"
 msgid "games.view.notifications_heading"
 msgstr "Ilmoitukset"
 
-#: app/views/discover/games/view/_header/nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
 msgstr "Yleiskatsaus"
 
-#: app/views/discover/games/view/_header/nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Scores"
 
@@ -2494,7 +2494,7 @@ msgstr "Ratings"
 msgid "games.view.stats.views_label"
 msgstr "Views"
 
-#: app/views/discover/games/view/_header/nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
 msgstr "Pokaalit"
 
@@ -2530,7 +2530,7 @@ msgstr "These are the games that you've made. Be proud!<br>Feel free to share th
 msgid "library.collection.developer_owner_heading"
 msgstr "Sinun pelit"
 
-#: app/views/library/collection/_header/controls.html:28
+#: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
 msgstr "Edit Playlist"
 
@@ -2550,11 +2550,11 @@ msgstr "When you follow a game, it shows up here.<br>You'll receive notification
 msgid "library.collection.followed_owner_heading"
 msgstr "Sinun seuraamat pelit"
 
-#: app/views/library/collection/_header/stats.html:3
+#: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
 msgstr "Seuraajat"
 
-#: app/views/library/collection/_header/stats.html:7
+#: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
 msgstr "Pelit"
 
@@ -2627,7 +2627,7 @@ msgstr "<p>Create playlists to organize and share the games in your library.</p>
 msgid "library.nav.playlists"
 msgstr "Playlists"
 
-#: app/views/discover/games/view/_header/controls.html:32
+#: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
 msgstr "Add to Playlist"
 
@@ -2799,7 +2799,7 @@ msgstr "Kehitys vaiheessa "
 msgid "notifications.popover.dismiss_all"
 msgstr "dismiss all"
 
-#: app/components/notifications/popover/popover.html:26
+#: app/components/notifications/popover/popover.html:25
 msgid "notifications.popover.no_notifications"
 msgstr "No unread notifications at this time."
 
@@ -2819,8 +2819,8 @@ msgstr[1] ""
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:30
-#: app/views/library/collection/_header/controls.html:37
+#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
 msgstr "Lisää"
@@ -2879,7 +2879,7 @@ msgstr "Viimeksi nähty"
 msgid "profile.library_tab"
 msgstr "Kirjasto"
 
-#: app/views/profile/profile.html:179
+#: app/views/profile/profile.html:178
 msgid "profile.moderate_user_button"
 msgstr "Moderoi käyttäjää"
 
@@ -2907,7 +2907,7 @@ msgstr "Profiili"
 msgid "profile.playing_heading"
 msgstr "Pelaamassa"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:170
 msgid "profile.remove_friend_button"
 msgstr "Poista ystävä"
 
@@ -4296,7 +4296,7 @@ msgstr "<a href=\"/dashboard/linked-accounts\">Link your Facebook account</a>."
 
 #: app/views/dashboard/overview/overview-controller.js:41
 msgid "dash.integrate.has_friend_html"
-msgstr "Add your first friend."
+msgstr "Lisää ensimmäinen ystäväsi."
 
 #: app/views/dashboard/overview/overview-controller.js:43
 msgid "dash.integrate.has_twitter_html"
@@ -4304,7 +4304,7 @@ msgstr "<a href=\"/dashboard/linked-accounts\">Link your Twitter account</a>."
 
 #: app/views/dashboard/overview/overview-controller.js:37
 msgid "dash.integrate.played_game_html"
-msgstr "Play a game."
+msgstr "Pelaa peliä."
 
 #: app/views/dashboard/overview/overview-controller.js:38
 msgid "dash.integrate.rated_game_html"
@@ -4320,13 +4320,13 @@ msgstr "{{ bundle }}"
 
 #: app/views/library/collection/collection-controller.js:95
 msgid "library.collection.developer_page_title"
-msgstr "Games by {{ user }}"
+msgstr "{{ user }} Tekemät pelit"
 
-#: app/views/library/collection/_header/controls.html:10
+#: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
-msgstr "Follow"
+msgstr "Seuraa"
 
-#: app/views/library/collection/_header/controls.html:6
+#: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
 msgstr "Follow this playlist to add it to your library and be notified when new games are added."
 
@@ -4350,11 +4350,11 @@ msgstr "Remove from playlist."
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
 msgstr "Lopeta seuraaminen"
 
-#: app/views/library/collection/_header/controls.html:19
+#: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
 msgstr "Seuraa"
 
-#: app/views/library/collection/_header/controls.html:15
+#: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
@@ -4368,23 +4368,23 @@ msgstr "Voi ei!"
 
 #: app/views/discover/games/view/view-controller.js:74
 msgid "library.followed.add_game_success_growl"
-msgstr "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
+msgstr "Sinä seuraat {{ game }}. Sinulle ilmoitetaan uusista päivitys niin kauan kun se on kirjastossasi."
 
 #: app/views/discover/games/view/view-controller.js:75
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Followed"
 
-#: app/views/discover/games/view/_header/controls.html:9
+#: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Seuraa peliä"
 
-#: app/views/discover/games/view/_header/controls.html:6
+#: app/views/discover/games/view/_header/_controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Follow this game to add it to your library and be notified of news updates."
 
 #: app/views/library/collection/listing/listing-controller.js:60
 msgid "library.followed.remove_game_confirmation"
-msgstr "Are you sure you want to stop following {{ game }}?"
+msgstr "Oletko varma että haluat lopettaa {{ game }} seuraamisen? "
 
 #: app/views/discover/games/view/view-controller.js:59
 #: app/views/library/collection/listing/listing-controller.js:74
@@ -4406,11 +4406,11 @@ msgstr "You have stopped following {{ game }} and will no longer receive notific
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Unfollowed"
 
-#: app/views/discover/games/view/_header/controls.html:19
+#: app/views/discover/games/view/_header/_controls.html:19
 msgid "library.followed.unfollow_game_button"
-msgstr "Following"
+msgstr "Seurataan"
 
-#: app/views/discover/games/view/_header/controls.html:16
+#: app/views/discover/games/view/_header/_controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Stop following this game to remove it from your library."
 
@@ -4424,7 +4424,7 @@ msgstr "Are you sure you want to stop following this playlist?"
 
 #: app/views/library/collection/collection-controller.js:234
 msgid "library.playlists.remove_playlist_error_growl"
-msgstr "Error! Error! Unable to unfollow this playlist."
+msgstr "Virhe! Virhe! Et voi epäseurata tätä soittolistaa."
 
 #: app/views/library/collection/collection-controller.js:235
 msgid "library.playlists.remove_playlist_error_growl_title"
@@ -4440,7 +4440,7 @@ msgstr "Playlist Unfollowed"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
-msgstr "News about games you're following."
+msgstr "Uutiset peleistä jota seuraat."
 
 #: app/views/discover/news/news.html:49
 msgid "news.list.released_tooltip"
@@ -4508,7 +4508,7 @@ msgstr "Tämä käyttäjä on offline-tilassa."
 
 #: app/views/profile/profile.html:47
 msgid "profile.online_tooltip"
-msgstr "Tämä käyttäjä ei ole paikalla."
+msgstr "Tämä käyttäjä on paikalla."
 
 #: app/views/profile/profile.html:83
 msgid "profile.website_tooltip"
@@ -4575,19 +4575,19 @@ msgstr "{{ section }} Vaihtoehtoiset indiepelit"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie-roolipelit"
 
-#: app/components/game/media-bar/media-bar-directive.js:82
+#: app/components/game/media-bar/media-bar-directive.js:80
 msgid "games.view.media.invalid_image_growl"
 msgstr "Emme löytäneet kyseistä kuvaa. Kenties se on poistettu."
 
-#: app/components/game/media-bar/media-bar-directive.js:83
+#: app/components/game/media-bar/media-bar-directive.js:81
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Voi ei!"
 
-#: app/components/game/media-bar/media-bar-directive.js:88
+#: app/components/game/media-bar/media-bar-directive.js:86
 msgid "games.view.media.invalid_video_growl"
 msgstr "Emme löytäneet kyseistä videota. Kenties se on poistettu."
 
-#: app/components/game/media-bar/media-bar-directive.js:89
+#: app/components/game/media-bar/media-bar-directive.js:87
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Voi ei!"
 
@@ -4623,7 +4623,7 @@ msgstr[1] "{{ $count | number }} koontiversiota"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:154
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4786,11 +4786,11 @@ msgstr "Ladataan {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Ladataan ääniraitaa..."
 
-#: app/views/discover/games/list/list.html:27
+#: app/views/discover/games/list/list.html:30
 msgid "games.list.date_heading_small"
 msgstr " {{ date }}"
 
-#: app/views/discover/games/list/list.html:31
+#: app/views/discover/games/list/list.html:34
 msgid "games.list.date_range_heading_small"
 msgstr "{{ dateStart }} ja {{ dateEnd }} välissä"
 
@@ -4828,7 +4828,8 @@ msgstr "Näytä kaikki ({{ gamesCount | number }})"
 
 #: app/views/profile/overview/overview.html:59
 msgid "profile.friend_request_received_pending"
-msgstr "{{ user }} would like to be your friend."
+msgstr "{{ user }} Haluaisi olla ystäväsi.\n"
+""
 
 #: app/views/profile/overview/overview.html:49
 msgid "profile.friend_request_sent_pending"
@@ -5059,7 +5060,7 @@ msgstr "Pidät tästä kommentista"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
-msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
+msgstr "Sinä juuri pidit tästä koomentista. tämä kertoo meille kommenttien laadun ja pitää sivuston tuoreena."
 
 #: app/components/shell/footer/footer.html:51
 msgid "footer.send_system_report"
@@ -5155,7 +5156,7 @@ msgstr "External link to play the game (not uploaded on site)"
 msgid "Game does not belong to this developer"
 msgstr "Game does not belong to this developer"
 
-#: app/views/discover/games/view/_header/nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
 msgstr "Ilmoita peli"
 
@@ -5212,7 +5213,7 @@ msgstr "Profiili tai käyttäjätunnus sisältää nimenomaista tai arkaluontois
 msgid "profile.report_user_button"
 msgstr "Ilmoita käyttäjä"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Ilmoita kommentti"
@@ -5250,4 +5251,8 @@ msgstr "Uprating / downrating"
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
 msgstr "Miksi ilmoitat tästä"
+
+#: app/components/game/media-bar/lightbox/lightbox.html:17
+msgid "games.view.media.download"
+msgstr "Download"
 
