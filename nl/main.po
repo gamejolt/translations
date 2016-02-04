@@ -2378,56 +2378,56 @@ msgstr "Besturingssysteem"
 msgid "games.filtering.status_label"
 msgstr "Status"
 
-#: app/views/discover/games/list/list.html:44
+#: app/views/discover/games/list/list.html:47
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Voltage."
 
-#: app/views/discover/games/list/list.html:71
+#: app/views/discover/games/list/list.html:74
 msgid "games.list.date_descriptive_html"
 msgstr "Games gepubliceerd op {{ date }}, gesorteerd op Voltage, met de beste scores bovenaan."
 
-#: app/views/discover/games/list/list.html:26
+#: app/views/discover/games/list/list.html:29
 msgid "games.list.date_heading"
 msgstr "Games Gepubliceerd"
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/list.html:77
 msgid "games.list.date_range_descriptive_html"
 msgstr "Games gepubliceerd tussen {{ dateStart }} en {{ dateEnd }}, gesorteerd op Voltage, met de beste scores bovenaan."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/list.html:33
 msgid "games.list.date_range_heading"
 msgstr "Games Gepubliceerd"
 
-#: app/views/discover/games/list/list.html:38
+#: app/views/discover/games/list/list.html:41
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} die we hebben uitgelicht, gesorteerd op datum van uitlichting."
 
-#: app/views/discover/games/list/list.html:51
+#: app/views/discover/games/list/list.html:54
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Frisheid."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/list.html:57
 msgid "games.list.freshness_tooltip"
 msgstr "Frisheid geeft de interesse van de gemeenschap weer. Frisheid begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.games_count_none"
 msgstr "Geen games."
 
-#: app/views/discover/games/list/list.html:58
+#: app/views/discover/games/list/list.html:61
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Populariteit."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/list.html:64
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Populariteit geeft de interesse van de gemeenschap weer op recent gepubliceerde games. Populariteit begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
-#: app/views/discover/games/list/list.html:65
+#: app/views/discover/games/list/list.html:68
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Publicatiedatum."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:94
 msgid "games.list.new_games_warning_html"
 msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vindt hier een combinatie van onontdekte juweeltjes, maar ook de meest vreemde shit die je ooit gezien hebt!"
 
@@ -2435,40 +2435,40 @@ msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vi
 msgid "games.list.no_games_html"
 msgstr "Geen games voldoen aan je criteria. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:135
 msgid "games.list.sections_selector_best"
 msgstr "Beste"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:115
 msgid "games.list.sections_selector_featured"
 msgstr "Uitgelicht"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:125
 msgid "games.list.sections_selector_hot"
 msgstr "Populair"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:145
 msgid "games.list.sections_selector_new"
 msgstr "Nieuw"
 
-#: app/views/discover/games/list/list.html:47
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/list.html:50
+#: app/views/discover/games/list/list.html:80
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage is ons evenwichtige rating systeem. Alle games starten met een gemiddelde score en de gemeenschap bepaalt de rest."
 
-#: app/views/discover/games/view/_header/nav.html:51
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.manage_game_button"
 msgstr "Game Beheren"
 
-#: app/components/game/media-bar/lightbox/lightbox.html:14
+#: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
 msgstr "Sluiten"
 
-#: app/views/discover/games/view/_header/nav.html:59
+#: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
 msgstr "Game Modereren"
 
-#: app/views/discover/games/view/_header/nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
 msgstr "Nieuws"
 
@@ -2476,11 +2476,11 @@ msgstr "Nieuws"
 msgid "games.view.notifications_heading"
 msgstr "Notificaties"
 
-#: app/views/discover/games/view/_header/nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
 msgstr "Overzicht"
 
-#: app/views/discover/games/view/_header/nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Scores"
 
@@ -2500,7 +2500,7 @@ msgstr "Beoordeling"
 msgid "games.view.stats.views_label"
 msgstr "Bezoeken"
 
-#: app/views/discover/games/view/_header/nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
 msgstr "Trofee&euml;n"
 
@@ -2536,7 +2536,7 @@ msgstr "Dit zijn de games die jij gemaakt hebt. Wees trots!<br>Deel deze pagina 
 msgid "library.collection.developer_owner_heading"
 msgstr "Jouw Games"
 
-#: app/views/library/collection/_header/controls.html:28
+#: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
 msgstr "Playlist Bewerken"
 
@@ -2556,11 +2556,11 @@ msgstr "Wanneer je een game volgt, komt hij hier terecht.<br>Je ontvangt notific
 msgid "library.collection.followed_owner_heading"
 msgstr "Jouw gevolgde Games"
 
-#: app/views/library/collection/_header/stats.html:3
+#: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
 msgstr "Volgers"
 
-#: app/views/library/collection/_header/stats.html:7
+#: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
 msgstr "Games"
 
@@ -2633,7 +2633,7 @@ msgstr "<p>Maak playlists om de games in je bibliotheek te organiseren.</p>\n"
 msgid "library.nav.playlists"
 msgstr "Playlists"
 
-#: app/views/discover/games/view/_header/controls.html:32
+#: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
 msgstr "Toevoegen aan Playlist"
 
@@ -2805,7 +2805,7 @@ msgstr "In Ontwikkeling"
 msgid "notifications.popover.dismiss_all"
 msgstr "alles afwijzen"
 
-#: app/components/notifications/popover/popover.html:26
+#: app/components/notifications/popover/popover.html:25
 msgid "notifications.popover.no_notifications"
 msgstr "Geen ongelezen notificaties op dit moment."
 
@@ -2825,8 +2825,8 @@ msgstr[1] ""
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:30
-#: app/views/library/collection/_header/controls.html:37
+#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
 msgstr "Meer"
@@ -2885,7 +2885,7 @@ msgstr "Voor het laatst gezien"
 msgid "profile.library_tab"
 msgstr "Bibliotheek"
 
-#: app/views/profile/profile.html:179
+#: app/views/profile/profile.html:178
 msgid "profile.moderate_user_button"
 msgstr "Gebruiker Modereren"
 
@@ -2913,7 +2913,7 @@ msgstr "Profiel"
 msgid "profile.playing_heading"
 msgstr "Speelt momenteel"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:170
 msgid "profile.remove_friend_button"
 msgstr "Vriend verwijderen"
 
@@ -4329,11 +4329,11 @@ msgstr "{{ bundle }}"
 msgid "library.collection.developer_page_title"
 msgstr "Games door {{ user }}"
 
-#: app/views/library/collection/_header/controls.html:10
+#: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
 msgstr "Volgen"
 
-#: app/views/library/collection/_header/controls.html:6
+#: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
 msgstr "Volg deze playlist om hem toe te voegen aan je bibliotheek en notificaties van updates te ontvangen."
 
@@ -4357,11 +4357,11 @@ msgstr "Verwijderen uit Playlist."
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
 msgstr "Stop met volgen."
 
-#: app/views/library/collection/_header/controls.html:19
+#: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
 msgstr "Volgend"
 
-#: app/views/library/collection/_header/controls.html:15
+#: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Stop me volgen om de playlist uit je bibliotheek te verwijderen en notificaties te stoppen."
 
@@ -4382,11 +4382,11 @@ msgstr "Je volgt nu {{ game }}. Zolang de game in je bibliotheek staat zul je no
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Gevolgd"
 
-#: app/views/discover/games/view/_header/controls.html:9
+#: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Volg Game"
 
-#: app/views/discover/games/view/_header/controls.html:6
+#: app/views/discover/games/view/_header/_controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Volg deze game om hem toe te voegen aan je bibliotheek en notificaties te ontvangen."
 
@@ -4414,11 +4414,11 @@ msgstr "Je volgt {{ game }} niet meer en zult geen notificaties meer ontvangen."
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Niet Meer Gevolgd"
 
-#: app/views/discover/games/view/_header/controls.html:19
+#: app/views/discover/games/view/_header/_controls.html:19
 msgid "library.followed.unfollow_game_button"
 msgstr "Volgend"
 
-#: app/views/discover/games/view/_header/controls.html:16
+#: app/views/discover/games/view/_header/_controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Stop met volgen van deze game om hem te verwijderen uit je bibliotheek."
 
@@ -4583,19 +4583,19 @@ msgstr "{{ section }} Alternatieve Indie Games"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie RPGs"
 
-#: app/components/game/media-bar/media-bar-directive.js:82
+#: app/components/game/media-bar/media-bar-directive.js:80
 msgid "games.view.media.invalid_image_growl"
 msgstr "Kan de afbeelding niet vinden, misschien is deze verwijderd."
 
-#: app/components/game/media-bar/media-bar-directive.js:83
+#: app/components/game/media-bar/media-bar-directive.js:81
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Oh nee!"
 
-#: app/components/game/media-bar/media-bar-directive.js:88
+#: app/components/game/media-bar/media-bar-directive.js:86
 msgid "games.view.media.invalid_video_growl"
 msgstr "Kan de video niet vinden, misschien is deze verwijderd."
 
-#: app/components/game/media-bar/media-bar-directive.js:89
+#: app/components/game/media-bar/media-bar-directive.js:87
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Oh nee!"
 
@@ -4631,7 +4631,7 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:154
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4794,11 +4794,11 @@ msgstr "{{ game }} downloaden..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Soundtrack downloaden..."
 
-#: app/views/discover/games/list/list.html:27
+#: app/views/discover/games/list/list.html:30
 msgid "games.list.date_heading_small"
 msgstr "op {{ date }}"
 
-#: app/views/discover/games/list/list.html:31
+#: app/views/discover/games/list/list.html:34
 msgid "games.list.date_range_heading_small"
 msgstr "tussen {{ dateStart }} en {{ dateEnd }}"
 
@@ -5163,7 +5163,7 @@ msgstr "Externe link naar het spel (niet geüpload op de site)"
 msgid "Game does not belong to this developer"
 msgstr "De ontwikkelaar is geen eigenaar van het spel"
 
-#: app/views/discover/games/view/_header/nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
 msgstr "Rapporteer Spel"
 
@@ -5220,7 +5220,7 @@ msgstr "Het profiel of de gebruikersnaam bevat ongeschikt of gevoelig materiaal"
 msgid "profile.report_user_button"
 msgstr "Rapporteer gebruiker"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Rapporteer Reactie"
@@ -5258,4 +5258,8 @@ msgstr "Positief / negatief waarderen"
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
 msgstr "Waarom wil je dit rapporteren?"
+
+#: app/components/game/media-bar/lightbox/lightbox.html:17
+msgid "games.view.media.download"
+msgstr "Download"
 
