@@ -97,8 +97,7 @@ msgstr "Endereço de email"
 #: auth/views/auth/join/join.html:11
 #, fuzzy
 msgid "auth.join.facebook_button"
-msgstr "Você Também pode se cadastrar com o Facebook.\n"
-""
+msgstr "Cadastre-se com o Facebook"
 
 #: auth/components/forms/join/join.html:25
 #: auth/components/forms/join/join.html:30
@@ -2370,56 +2369,56 @@ msgstr "Sistemas Operacionais"
 msgid "games.filtering.status_label"
 msgstr "Estado"
 
-#: app/views/discover/games/list/list.html:44
+#: app/views/discover/games/list/list.html:47
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} ordenado por Voltagem."
 
-#: app/views/discover/games/list/list.html:71
+#: app/views/discover/games/list/list.html:74
 msgid "games.list.date_descriptive_html"
 msgstr "Jogos que foram publicados em {{ date }}, ordenados por voltagem, com as melhores pontuações no topo."
 
-#: app/views/discover/games/list/list.html:26
+#: app/views/discover/games/list/list.html:29
 msgid "games.list.date_heading"
 msgstr "Jogos Publicados"
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/list.html:77
 msgid "games.list.date_range_descriptive_html"
 msgstr "Jogos que foram publicados entre {{ dateStart }} e {{ dateEnd }}, ordenado por Voltagem, com as melhores pontuações no topo."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/list.html:33
 msgid "games.list.date_range_heading"
 msgstr "Jogos Publicados"
 
-#: app/views/discover/games/list/list.html:38
+#: app/views/discover/games/list/list.html:41
 msgid "games.list.featured_descriptive_html"
 msgstr "{{ category }} independentes que foram destacados na nossa página inicial, organizados por data."
 
-#: app/views/discover/games/list/list.html:51
+#: app/views/discover/games/list/list.html:54
 msgid "games.list.fresh_descriptive_html"
 msgstr "{{ category }} independentes, organizado por data de lançamento."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/list.html:57
 msgid "games.list.freshness_tooltip"
 msgstr "Frescor indica o interessa da comunidade em jogos recentes. O frescor de um jogo começa alto e decai ao longo do tempo. A atividade da comunidade pode diminuir a queda."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.games_count_none"
 msgstr "Nenhum jogo."
 
-#: app/views/discover/games/list/list.html:58
+#: app/views/discover/games/list/list.html:61
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} ordenado por Jogos Quentes."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/list.html:64
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indica o interesse da comunidade nos últimos jogos. A escala Hotness jogos começa alto e decai com o tempo. Atividade comunitária pode retardar a deterioração."
 
-#: app/views/discover/games/list/list.html:65
+#: app/views/discover/games/list/list.html:68
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} ordenada por data de publicação."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:94
 msgid "games.list.new_games_warning_html"
 msgstr "Jogos adicionados recentemente não são moderados, curados, ou vetados pela comunidade. Você pode achar uma mina de ouro de talento não descoberto ou pode achar alguma das merdas mais assustadoras da sua vida."
 
@@ -2427,40 +2426,40 @@ msgstr "Jogos adicionados recentemente não são moderados, curados, ou vetados 
 msgid "games.list.no_games_html"
 msgstr "Nenhum jogo coincide com seus filtros. <b>Poxa :c</b> "
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:135
 msgid "games.list.sections_selector_best"
 msgstr "Melhor"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:115
 msgid "games.list.sections_selector_featured"
 msgstr "Destaque"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:125
 msgid "games.list.sections_selector_hot"
 msgstr "Quente"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:145
 msgid "games.list.sections_selector_new"
 msgstr "Novo"
 
-#: app/views/discover/games/list/list.html:47
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/list.html:50
+#: app/views/discover/games/list/list.html:80
 msgid "games.list.voltage_tooltip"
 msgstr "Voltagem é o nosso pesado sistema de avaliação. Todos os jogos começam uma pontuação média e a comunidade diz se é bom ou ruim."
 
-#: app/views/discover/games/view/_header/nav.html:51
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.manage_game_button"
 msgstr "Gerenciar Jogo"
 
-#: app/components/game/media-bar/lightbox/lightbox.html:14
+#: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
 msgstr "Fechar"
 
-#: app/views/discover/games/view/_header/nav.html:59
+#: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
 msgstr "Moderar Jogo"
 
-#: app/views/discover/games/view/_header/nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
 msgstr "Novidades"
 
@@ -2468,11 +2467,11 @@ msgstr "Novidades"
 msgid "games.view.notifications_heading"
 msgstr "Notificações"
 
-#: app/views/discover/games/view/_header/nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
 msgstr "Visão Geral"
 
-#: app/views/discover/games/view/_header/nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Pontuações"
 
@@ -2492,7 +2491,7 @@ msgstr "Avaliações"
 msgid "games.view.stats.views_label"
 msgstr "Vizualizações"
 
-#: app/views/discover/games/view/_header/nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
 msgstr "Troféus"
 
@@ -2528,7 +2527,7 @@ msgstr "Esses são os jogos que você fez. Fique orgulhoso!<br>Sinta-se livre pa
 msgid "library.collection.developer_owner_heading"
 msgstr "Seus Jogos"
 
-#: app/views/library/collection/_header/controls.html:28
+#: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
 msgstr "Editar Playlist"
 
@@ -2548,11 +2547,11 @@ msgstr "Quando você segue um jogo, ele é mostrado aqui.<br>Você receberá not
 msgid "library.collection.followed_owner_heading"
 msgstr "Jogos que Você Segue."
 
-#: app/views/library/collection/_header/stats.html:3
+#: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
 msgstr "Seguidores"
 
-#: app/views/library/collection/_header/stats.html:7
+#: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
 msgstr "Jogos"
 
@@ -2625,7 +2624,7 @@ msgstr "<p>Crie playlists para organizar e compartilhar os jogos na sua bibliote
 msgid "library.nav.playlists"
 msgstr "Playlists"
 
-#: app/views/discover/games/view/_header/controls.html:32
+#: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
 msgstr "Adicionar à Playlist"
 
@@ -2797,7 +2796,7 @@ msgstr "Em Desenvolvimento"
 msgid "notifications.popover.dismiss_all"
 msgstr "ignorar tudo"
 
-#: app/components/notifications/popover/popover.html:26
+#: app/components/notifications/popover/popover.html:25
 msgid "notifications.popover.no_notifications"
 msgstr "Sem notificações."
 
@@ -2817,8 +2816,8 @@ msgstr[1] "{{ $count | number }} não lido"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:30
-#: app/views/library/collection/_header/controls.html:37
+#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
 msgstr "Mais"
@@ -2877,7 +2876,7 @@ msgstr "Última vez visto"
 msgid "profile.library_tab"
 msgstr "Biblioteca"
 
-#: app/views/profile/profile.html:179
+#: app/views/profile/profile.html:178
 msgid "profile.moderate_user_button"
 msgstr "Moderar Usuário\n"
 ""
@@ -2906,7 +2905,7 @@ msgstr "Perfil"
 msgid "profile.playing_heading"
 msgstr "Atualmente Jogando"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:170
 msgid "profile.remove_friend_button"
 msgstr "Remover Amigo"
 
@@ -4322,11 +4321,11 @@ msgstr "{{ bundle }}"
 msgid "library.collection.developer_page_title"
 msgstr "Jogos por {{user}}"
 
-#: app/views/library/collection/_header/controls.html:10
+#: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
 msgstr "Seguir"
 
-#: app/views/library/collection/_header/controls.html:6
+#: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
 msgstr "Seguir esta playlist para adicioná-la a sua biblioteca e ser notificado quando jogos novos forem adicionados."
 
@@ -4350,11 +4349,11 @@ msgstr "Remover da playlist."
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
 msgstr "Parar de seguir"
 
-#: app/views/library/collection/_header/controls.html:19
+#: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
 msgstr "Seguindo"
 
-#: app/views/library/collection/_header/controls.html:15
+#: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Deixar de seguir esta playlist e removê-la da sua biblioteca e parar de receber notificações."
 
@@ -4374,11 +4373,11 @@ msgstr "Agora você está seguindo {{ game }}. Você será notificado com novida
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Jogo Seguido"
 
-#: app/views/discover/games/view/_header/controls.html:9
+#: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Seguir Jogo"
 
-#: app/views/discover/games/view/_header/controls.html:6
+#: app/views/discover/games/view/_header/_controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Siga este jogo para adicioná-lo para sua biblioteca e ser notificado de atualizações."
 
@@ -4406,11 +4405,11 @@ msgstr "Você parou de seguir {{ game }} e não receberá mais notificações so
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Deixou de seguir o jogo"
 
-#: app/views/discover/games/view/_header/controls.html:19
+#: app/views/discover/games/view/_header/_controls.html:19
 msgid "library.followed.unfollow_game_button"
 msgstr "Seguindo"
 
-#: app/views/discover/games/view/_header/controls.html:16
+#: app/views/discover/games/view/_header/_controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Pare de seguir este jogo para removê-lo da sua blibioteca."
 
@@ -4578,19 +4577,19 @@ msgstr "{{ section }} Jogos Indie Alternativos"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie RPGs "
 
-#: app/components/game/media-bar/media-bar-directive.js:82
+#: app/components/game/media-bar/media-bar-directive.js:80
 msgid "games.view.media.invalid_image_growl"
 msgstr "Não foi possível achar essa imagem. Talvez tenha sido removida."
 
-#: app/components/game/media-bar/media-bar-directive.js:83
+#: app/components/game/media-bar/media-bar-directive.js:81
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Oh não!"
 
-#: app/components/game/media-bar/media-bar-directive.js:88
+#: app/components/game/media-bar/media-bar-directive.js:86
 msgid "games.view.media.invalid_video_growl"
 msgstr "Vídeo não encontrado. Provavelmente foi excluído."
 
-#: app/components/game/media-bar/media-bar-directive.js:89
+#: app/components/game/media-bar/media-bar-directive.js:87
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Oh não!"
 
@@ -4627,7 +4626,7 @@ msgstr[1] "{{ $count | number }} configurações"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:154
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4790,11 +4789,11 @@ msgstr "Baixando {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Baixando soundtrack..."
 
-#: app/views/discover/games/list/list.html:27
+#: app/views/discover/games/list/list.html:30
 msgid "games.list.date_heading_small"
 msgstr "em {{ date }}"
 
-#: app/views/discover/games/list/list.html:31
+#: app/views/discover/games/list/list.html:34
 msgid "games.list.date_range_heading_small"
 msgstr "entre {{dateStart}} e {{dateEnd}}"
 
@@ -5161,7 +5160,7 @@ msgstr "Link externo para jogar este jogo (não enviado nesse site)\n"
 msgid "Game does not belong to this developer"
 msgstr "Jogo não pertence à esse desenvolvedor"
 
-#: app/views/discover/games/view/_header/nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
 msgstr "Denunciar jogo"
 
@@ -5218,7 +5217,7 @@ msgstr "Perfil ou nome de usuário contém material explícito ou delicado"
 msgid "profile.report_user_button"
 msgstr "Denunciar usuário"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Denunciar comentário"
@@ -5256,4 +5255,8 @@ msgstr "Taxa de upload / Taxa de download"
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
 msgstr "Por que você está denunciando isso?"
+
+#: app/components/game/media-bar/lightbox/lightbox.html:17
+msgid "games.view.media.download"
+msgstr "Download"
 
