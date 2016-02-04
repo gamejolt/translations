@@ -543,7 +543,7 @@ msgstr "Hitta hjälp i API forum..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API kan du piffa upp ditt spel med resultattavlor, troféer, moln datalagring, session loggning, och mer.</p>\n"
+msgstr "\t<p>The Game API kan du piffa upp ditt spel med poängtavlor, troféer, moln datalagring, session loggning, och mer.</p>\n"
 "\t<p>Du kan kolla länkarna nedan för att se om samhället redan har skrivit ett API bibliotek eller plugin för motorn / verktyg / språk du använder. Naturligtvis kan du alltid skriva en själv och dela den i forumet!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
@@ -560,7 +560,7 @@ msgstr "Totala Poängen"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:137
 msgid "dash.games.api.overview.scores_tooltip"
-msgstr "Det totala antalet poäng i samtliga av spelets resultattavlor, inklusive gäst poäng."
+msgstr "Det totala antalet poäng i samtliga av spelets poängtavlor, inklusive gäst poäng."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
@@ -568,7 +568,7 @@ msgstr "Användare med Poäng"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
-msgstr "Antalet användare med poäng på någon av spelets resultattavlor. Inkluderar inte gäster."
+msgstr "Antalet användare med poäng på någon av spelets poängtavlor. Inkluderar inte gäster."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
@@ -1742,7 +1742,7 @@ msgstr "Namn"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:42
 msgid "dash.games.scoreboard.form.save_button"
-msgstr "Spara resultattavlan"
+msgstr "Spara Poängtavla"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:19
 msgid "dash.games.scoreboard.form.unique_help"
@@ -1754,7 +1754,7 @@ msgstr "Unika betygsättning"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:113
 msgid "dash.games.scoreboards.add_button"
-msgstr "Lägg till Resultattavla"
+msgstr "Lägg till Poängtavla"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:65
 msgid "dash.games.scoreboards.asc_tag"
@@ -1770,24 +1770,24 @@ msgstr "Gäst poäng"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:1
 msgid "dash.games.scoreboards.heading"
-msgstr "Resultattavlor"
+msgstr "Poängtavlor"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:4
 msgid "dash.games.scoreboards.page_help_html"
-msgstr "\t<p>API kan du lägga till flera anpassade resultattavlor, med kontroll över sorteringsalternativ och gäst poäng, och förmågan att fästa extra dolda data till poängen.</p>\n"
-"\t<p>Den primära resultattavlan är den som kommer att visa som standard på ditt spel sida. Ställ en ny primär genom att dra en resultattavla i den första slitsen.</p>"
+msgstr "\t<p>API kan du lägga till flera anpassade poängtavlor, med kontroll över sorteringsalternativ och gäst poäng, och förmågan att fästa extra dolda data till poängen.</p>\n"
+"\t<p>Den primära poängtavlan är den som kommer att visa som standard på ditt spel sida. Ställ en ny primär genom att dra en poängtavla i den första slitsen.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:6
 msgid "dash.games.scoreboards.page_help_link"
-msgstr "Lär dig mer om resultattavlor..."
+msgstr "Lär dig mer om poängtavlor..."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:44
 msgid "dash.games.scoreboards.primary_tag"
-msgstr "Primär resultattavlan"
+msgstr "Primär Poängtavla"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:97
 msgid "dash.games.scoreboards.remove_button"
-msgstr "Ta bort Resultattavla"
+msgstr "Ta bort Poängtavla"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:84
 msgid "dash.games.scoreboards.scores_button"
@@ -1824,7 +1824,7 @@ msgstr "<p>Denna tabell saknar poäng, tyvärr.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
-msgstr "<p>Dessa är alla de poäng som har lämnats in till denna resultattavla av användare och gäster (om det tillåts).</p>"
+msgstr "<p>Dessa är alla de poäng som har lämnats in till denna poängtavla av användare och gäster (om det tillåts).</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:5
 msgid "dash.games.scores.list.rank_label"
@@ -1856,7 +1856,7 @@ msgstr "på"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:27
 msgid "dash.games.scores.user.list.no_scores_html"
-msgstr "<p>Användaren har inga poäng på denna resultattavla.</p>"
+msgstr "<p>Användaren har inga poäng på denna poängtavla.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:21
 msgid "dash.games.scores.user.list.remove_all_button"
@@ -2069,10 +2069,11 @@ msgstr "Visa Spel Sida"
 msgid "dash.integrate.done"
 msgstr "Färdig"
 
+#. "Nivå upp" is a very poor translation of "Level up", I'm not sure exactly what it should be though.
 #: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>För att tjäna erfarenhet och nivå upp, se till att <em>betygsätta</em> och <em>kommentera</em> på de spel du spelar.</p>\n"
-"\t<p>Men är det snabbaste sättet att samla EXP för att uppnå <strong>troféer</strong> och komma in på <strong>resultattavlor</strong>!</p>"
+"\t<p>Hur som helst, det snabbaste sättet att samla EXP är att samla <strong>troféer</strong> och att hamna på <strong>poängtavlor</strong>!</p>"
 
 #: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
@@ -2306,7 +2307,7 @@ msgstr "Alla Poäng"
 
 #: app/views/discover/games/view/scores/list/list.html:73
 msgid "game.scores.no_scores_html"
-msgstr "Det finns inga poäng på denna resultattavla ännu."
+msgstr "Det finns inga poäng på denna poängtavla ännu."
 
 #: app/views/discover/games/view/scores/list/list.html:74
 msgid "game.scores.no_user_scores_html"
@@ -2380,56 +2381,56 @@ msgstr "Operativ System"
 msgid "games.filtering.status_label"
 msgstr "Status"
 
-#: app/views/discover/games/list/list.html:44
+#: app/views/discover/games/list/list.html:47
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter spänning."
 
-#: app/views/discover/games/list/list.html:71
+#: app/views/discover/games/list/list.html:74
 msgid "games.list.date_descriptive_html"
 msgstr "Spel som offentliggjordes den {{ date }}, sorterade efter spänning, med de bästa poängen i toppen."
 
-#: app/views/discover/games/list/list.html:26
+#: app/views/discover/games/list/list.html:29
 msgid "games.list.date_heading"
 msgstr "Spel Publicerade"
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/list.html:77
 msgid "games.list.date_range_descriptive_html"
 msgstr "Spel som publicerats mellan {{ dateStart }} och {{ dateEnd }}, sorterade efter spänning, med de bästa poängen i toppen."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/list.html:33
 msgid "games.list.date_range_heading"
 msgstr "Spel Publicerade"
 
-#: app/views/discover/games/list/list.html:38
+#: app/views/discover/games/list/list.html:41
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} som vi har presenterat på hemsidan, sorterade efter datum."
 
-#: app/views/discover/games/list/list.html:51
+#: app/views/discover/games/list/list.html:54
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter friskhet."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/list.html:57
 msgid "games.list.freshness_tooltip"
 msgstr "Friskhet indikerar gemenskapens intresse i de senaste spelen. Ett spels friskhets poäng börjar hög och avtar med tiden. Gemenskapsverksamhet kan bromsa förfall."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.games_count_none"
 msgstr "Inga Spel."
 
-#: app/views/discover/games/list/list.html:58
+#: app/views/discover/games/list/list.html:61
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter Populärast."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/list.html:64
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Populärast indikerar gemenskapens intresse i de senaste spelen. Ett spel Populärast skalan börjar hög och avtar med tiden. Gemenskapsverksamhet kan bromsa förfall."
 
-#: app/views/discover/games/list/list.html:65
+#: app/views/discover/games/list/list.html:68
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter publiceringsdatum."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:94
 msgid "games.list.new_games_warning_html"
 msgstr "Nytillkomna spel är inte modererad, kurator, eller granskats av samhället. Du kan hitta en guldgruva av oupptäckt talang eller så kan du se några av de läskigaste skit av ditt liv."
 
@@ -2437,40 +2438,40 @@ msgstr "Nytillkomna spel är inte modererad, kurator, eller granskats av samhäl
 msgid "games.list.no_games_html"
 msgstr "Inga spel matchar dina filter. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:135
 msgid "games.list.sections_selector_best"
 msgstr "Bästa"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:115
 msgid "games.list.sections_selector_featured"
 msgstr "Utvalda"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:125
 msgid "games.list.sections_selector_hot"
 msgstr "Heta"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:145
 msgid "games.list.sections_selector_new"
 msgstr "Nya"
 
-#: app/views/discover/games/list/list.html:47
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/list.html:50
+#: app/views/discover/games/list/list.html:80
 msgid "games.list.voltage_tooltip"
 msgstr "Spänningen är vårat viktade riskklassificeringssystem. Alla spel börjar med en genomsnittlig poäng och samhället drar det upp eller ner."
 
-#: app/views/discover/games/view/_header/nav.html:51
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.manage_game_button"
 msgstr "Hantera spel"
 
-#: app/components/game/media-bar/lightbox/lightbox.html:14
+#: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
 msgstr "Stäng"
 
-#: app/views/discover/games/view/_header/nav.html:59
+#: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
 msgstr "Medel spel"
 
-#: app/views/discover/games/view/_header/nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
 msgstr "Nyheter"
 
@@ -2478,11 +2479,11 @@ msgstr "Nyheter"
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
-#: app/views/discover/games/view/_header/nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
 msgstr "Översikt"
 
-#: app/views/discover/games/view/_header/nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Poäng"
 
@@ -2502,7 +2503,7 @@ msgstr "Betyg"
 msgid "games.view.stats.views_label"
 msgstr "Visningar"
 
-#: app/views/discover/games/view/_header/nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
 msgstr "Troféer"
 
@@ -2538,7 +2539,7 @@ msgstr "Dessa är de spel som du har gjort. Var stolt!<br>Känn dig fri att dela
 msgid "library.collection.developer_owner_heading"
 msgstr "Dina Spel"
 
-#: app/views/library/collection/_header/controls.html:28
+#: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
 msgstr "Redigera Spellista"
 
@@ -2558,11 +2559,11 @@ msgstr "När du följer ett spel, visas de upp här.<br>Du får meddelanden när
 msgid "library.collection.followed_owner_heading"
 msgstr "Dina Följda Spel"
 
-#: app/views/library/collection/_header/stats.html:3
+#: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
 msgstr "Följare"
 
-#: app/views/library/collection/_header/stats.html:7
+#: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
 msgstr "Spel"
 
@@ -2635,7 +2636,7 @@ msgstr "<p>Skapa spellistor för att ordna och dela spelen i biblioteket.</p>\n"
 msgid "library.nav.playlists"
 msgstr "Spellistor"
 
-#: app/views/discover/games/view/_header/controls.html:32
+#: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
 msgstr "Lägg till i spellista"
 
@@ -2807,7 +2808,7 @@ msgstr "I Utveckling"
 msgid "notifications.popover.dismiss_all"
 msgstr "avfärda alla"
 
-#: app/components/notifications/popover/popover.html:26
+#: app/components/notifications/popover/popover.html:25
 msgid "notifications.popover.no_notifications"
 msgstr "Inga olästa meddelanden just nu."
 
@@ -2827,8 +2828,8 @@ msgstr[1] "{{ $count | number }} olästa"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:30
-#: app/views/library/collection/_header/controls.html:37
+#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
 msgstr "Mer"
@@ -2887,7 +2888,7 @@ msgstr "Senast sedd"
 msgid "profile.library_tab"
 msgstr "Bibliotek"
 
-#: app/views/profile/profile.html:179
+#: app/views/profile/profile.html:178
 msgid "profile.moderate_user_button"
 msgstr "Moderator Användare"
 
@@ -2915,7 +2916,7 @@ msgstr "Profil"
 msgid "profile.playing_heading"
 msgstr "Spelar just nu"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:170
 msgid "profile.remove_friend_button"
 msgstr "Ta Bort Vän"
 
@@ -2933,7 +2934,7 @@ msgstr "Poängtavlor"
 
 #: app/components/score/overview/overview.html:154
 msgid "scores.overview.no_scores_html"
-msgstr "Det finns inga poäng på denna resultattavla ännu."
+msgstr "Det finns inga poäng på denna poängtavla ännu."
 
 #: app/components/score/overview/overview.html:116
 msgid "scores.overview.top_scores_heading"
@@ -3492,11 +3493,11 @@ msgstr "Statistik för {{ release }} - {{ package }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:5
 msgid "dash.games.scoreboards.page_title"
-msgstr "Hantera resultattavlor för {{ game }}"
+msgstr "Hantera poängtavlor för {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:48
 msgid "dash.games.scoreboards.remove_confirmation"
-msgstr "Är du säker på att du vill ta bort denna resultattavla?"
+msgstr "Är du säker på att du vill ta bort denna poängtavla?"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list-controller.js:13
 msgid "dash.games.scores.list.page_title"
@@ -3816,7 +3817,7 @@ msgstr "Lägg Till Spel"
 
 #: app/views/dashboard/developer/games/manage/manage.html:49
 msgid "dash.games.api_tooltip"
-msgstr "Hantera ditt spel integration API (troféer, resultattavlor, datalagring, mm.)"
+msgstr "Hantera ditt spels API-integration (troféer, poängtavlor, datalagring, mm.)"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:3
 msgid "dash.games.edit.page_title"
@@ -4218,11 +4219,11 @@ msgstr "Spelet borttaget"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:66
 msgid "dash.games.scoreboards.asc_tooltip"
-msgstr "Poäng med lägre värden rankas bättre / högre."
+msgstr "Poäng med lägre värden rankas bättre/högre."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:73
 msgid "dash.games.scoreboards.desc_tooltip"
-msgstr "Poäng med högre värden rankas bättre / högre."
+msgstr "Poäng med högre värden rankas bättre/högre."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:52
 msgid "dash.games.scoreboards.guest_tooltip"
@@ -4230,11 +4231,11 @@ msgstr "Tillåt gäster att spara sina poäng."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:45
 msgid "dash.games.scoreboards.primary_tooltip"
-msgstr "Den primära resultattavlan visas på din spelsidan som standard. Om ditt spel API biblioteket inte stöder flera resultattavlor, kommer alla poäng lämnas till den primära resultattavlan."
+msgstr "Den primära poängtavlan visas på din spelsida som standard. Om ditt spels API-bibliotek inte stöder flera poängtavlor, kommer alla poäng lämnas till den primära poängtavlan."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:59
 msgid "dash.games.scoreboards.unique_tooltip"
-msgstr "Bara visa en användares bästa resultat."
+msgstr "Visar bara en användares bästa resultat."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:10
 msgid "dash.games.scores.user.list.page_title"
@@ -4242,11 +4243,11 @@ msgstr "Visa Poäng för {{ user }} på {{ table }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:23
 msgid "dash.games.scores.user.list.remove_confirmation"
-msgstr "Är du säker på att du vill ta bort alla användarens poäng från den här resultattavlan?"
+msgstr "Är du säker på att du vill ta bort alla användarens poäng från den här poängtavlan?"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:31
 msgid "dash.games.scores.user.list.remove_growl"
-msgstr "Alla användares poäng har tagits bort från resultattavlan."
+msgstr "Alla användares poäng har tagits bort från poängtavlan."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list-controller.js:35
 msgid "dash.games.scores.user.list.remove_growl_title"
@@ -4294,7 +4295,7 @@ msgstr "Att göra en trofé hemlig döljer allt förutom sitt namn förrän det 
 
 #: app/views/dashboard/overview/overview-controller.js:40
 msgid "dash.integrate.got_score_html"
-msgstr "Kom på en resultattavla."
+msgstr "Hamna på en poängtavla."
 
 #: app/views/dashboard/overview/overview-controller.js:39
 msgid "dash.integrate.got_trophy_html"
@@ -4332,11 +4333,11 @@ msgstr "{{ bundle }}"
 msgid "library.collection.developer_page_title"
 msgstr "Spel av {{ user }}"
 
-#: app/views/library/collection/_header/controls.html:10
+#: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
 msgstr "Följ"
 
-#: app/views/library/collection/_header/controls.html:6
+#: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
 msgstr "Följ den här spellistan för att lägga till den i biblioteket och få ett meddelande när nya spel läggs."
 
@@ -4360,11 +4361,11 @@ msgstr "Ta bort från spellista."
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
 msgstr "Sluta följ."
 
-#: app/views/library/collection/_header/controls.html:19
+#: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
 msgstr "Följer"
 
-#: app/views/library/collection/_header/controls.html:15
+#: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Avfölj den här spellistan för att ta bort den från ditt bibliotek och sluta ta emot meddelanden."
 
@@ -4384,11 +4385,11 @@ msgstr "Du har börjat följa {{ game }}. Du kommer att meddelas om nyhetsuppdat
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Spel Följda"
 
-#: app/views/discover/games/view/_header/controls.html:9
+#: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Följ Spel"
 
-#: app/views/discover/games/view/_header/controls.html:6
+#: app/views/discover/games/view/_header/_controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Follow this game to add it to your library and be notified of news updates."
 
@@ -4416,11 +4417,11 @@ msgstr "Du har slutat följa {{ game }} och kommer inte längre att få meddelan
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Spel Avföljt"
 
-#: app/views/discover/games/view/_header/controls.html:19
+#: app/views/discover/games/view/_header/_controls.html:19
 msgid "library.followed.unfollow_game_button"
 msgstr "Följer"
 
-#: app/views/discover/games/view/_header/controls.html:16
+#: app/views/discover/games/view/_header/_controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Sluta följa det här spelet för att ta bort det från biblioteket."
 
@@ -4586,19 +4587,19 @@ msgstr "{{ section }} Alternativa Indie Spel"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie RPGs"
 
-#: app/components/game/media-bar/media-bar-directive.js:82
+#: app/components/game/media-bar/media-bar-directive.js:80
 msgid "games.view.media.invalid_image_growl"
 msgstr "Det gick inte att hitta den bilden. Den kan vara borttagen"
 
-#: app/components/game/media-bar/media-bar-directive.js:83
+#: app/components/game/media-bar/media-bar-directive.js:81
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Åh nej!"
 
-#: app/components/game/media-bar/media-bar-directive.js:88
+#: app/components/game/media-bar/media-bar-directive.js:86
 msgid "games.view.media.invalid_video_growl"
 msgstr "Det gick inte att hitta videon. Den kan vara borttagen."
 
-#: app/components/game/media-bar/media-bar-directive.js:89
+#: app/components/game/media-bar/media-bar-directive.js:87
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Åh nej!"
 
@@ -4634,7 +4635,7 @@ msgstr[1] "flera builder"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:154
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4797,11 +4798,11 @@ msgstr "Laddar ner {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Laddar ner ljudspår"
 
-#: app/views/discover/games/list/list.html:27
+#: app/views/discover/games/list/list.html:30
 msgid "games.list.date_heading_small"
 msgstr "på {{ date }}"
 
-#: app/views/discover/games/list/list.html:31
+#: app/views/discover/games/list/list.html:34
 msgid "games.list.date_range_heading_small"
 msgstr "mellan {{ dateStart }} och {{ dateEnd }}"
 
@@ -5170,7 +5171,7 @@ msgstr "Extern länk för att spela spelet (inte upladdat på sidan)"
 msgid "Game does not belong to this developer"
 msgstr "Spelet tillhör inte den här utvecklaren"
 
-#: app/views/discover/games/view/_header/nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
 msgstr "Rapportera spel"
 
@@ -5227,7 +5228,7 @@ msgstr "Profil eller användarnamn innehåller uttryckliga eller känsligt mater
 msgid "profile.report_user_button"
 msgstr "Rapportera användare"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Rapportera Kommentar"
@@ -5265,4 +5266,8 @@ msgstr "Höjningar / sänkningar"
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
 msgstr "Varför anmäler du det här?"
+
+#: app/components/game/media-bar/lightbox/lightbox.html:17
+msgid "games.view.media.download"
+msgstr "Download"
 
