@@ -2139,11 +2139,11 @@ msgstr "Total Withdrawn"
 
 #: app/views/dashboard/overview/overview.html:14
 msgid "dash.overview.view_profile_button"
-msgstr "View Your Profile"
+msgstr "Profilini Gör"
 
 #: app/components/forms/dashboard/profile/profile.html:52
 msgid "dash.profile.edit.description_help_html"
-msgstr "Let people know about yourself!"
+msgstr "İnsanların seni tanımasına izin ver!"
 
 #: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_label"
@@ -2207,11 +2207,11 @@ msgstr "Indie game news, reviews, and opinions by people."
 
 #: app/views/discover/home/home.html:226
 msgid "discover.home.followed_news_heading"
-msgstr "Followed Game News"
+msgstr "Takip Edilen Oyunlardan Bildirimler"
 
 #: app/views/discover/home/home.html:233
 msgid "discover.home.followed_news_help"
-msgstr "The latest news from games you're following."
+msgstr "Takip ettiğin oyunlardan en son bildirimler."
 
 #: app/views/discover/home/home.html:205
 msgid "discover.home.followed_news_tab"
@@ -2264,7 +2264,7 @@ msgstr "Öbür Oyunlar"
 
 #: app/views/discover/games/view/download/build/build.html:57
 msgid "game.download.game.developer_games_heading_small"
-msgstr "by this developer"
+msgstr "bu yapımcıdan"
 
 #: app/views/discover/games/view/download/build/build.html:14
 msgid "game.download.game.downloading_wait_message"
@@ -2284,7 +2284,7 @@ msgstr "Beğendin mi? Paylaş!"
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack.html:14
 msgid "game.download.soundtrack.downloading_wait_message"
-msgstr "Your download should begin in just a moment..."
+msgstr "İndirmen birazdan başlayacak ..."
 
 #: app/components/game/rating-growl/rating-growl.html:12
 msgid "game.rating_growl.message"
@@ -2300,11 +2300,11 @@ msgstr "Tüm Skorlar"
 
 #: app/views/discover/games/view/scores/list/list.html:73
 msgid "game.scores.no_scores_html"
-msgstr "There are no scores on this scoreboard yet."
+msgstr "Bu skor tablosunda hiç skor bulunmuyor."
 
 #: app/views/discover/games/view/scores/list/list.html:74
 msgid "game.scores.no_user_scores_html"
-msgstr "You don't have any scores here yet!"
+msgstr "Burda hiç skorun yok!"
 
 #: app/views/discover/games/view/scores/list/list.html:39
 msgid "game.scores.user_tab"
@@ -2360,7 +2360,7 @@ msgstr "Tür"
 
 #: app/components/game/filtering/input.html:14
 msgid "games.filtering.input_placeholder"
-msgstr "Filter results..."
+msgstr "Filtreli sonuçlar..."
 
 #: app/components/game/filtering/widget.html:19
 msgid "games.filtering.maturity_label"
@@ -2374,56 +2374,56 @@ msgstr "Operating Systems"
 msgid "games.filtering.status_label"
 msgstr "İstatistikler"
 
-#: app/views/discover/games/list/list.html:44
+#: app/views/discover/games/list/list.html:47
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} sorted by Voltage."
 
-#: app/views/discover/games/list/list.html:71
+#: app/views/discover/games/list/list.html:74
 msgid "games.list.date_descriptive_html"
 msgstr "Games that were published on {{ date }}, sorted by Voltage, with the best scores at the top."
 
-#: app/views/discover/games/list/list.html:26
+#: app/views/discover/games/list/list.html:29
 msgid "games.list.date_heading"
 msgstr "Yayınlanan Oyunlar"
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/list.html:77
 msgid "games.list.date_range_descriptive_html"
 msgstr "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/list.html:33
 msgid "games.list.date_range_heading"
 msgstr "Yayınlanan Oyunlar"
 
-#: app/views/discover/games/list/list.html:38
+#: app/views/discover/games/list/list.html:41
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} that we've featured on the homepage, sorted by feature date."
 
-#: app/views/discover/games/list/list.html:51
+#: app/views/discover/games/list/list.html:54
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} sorted by Freshness."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/list.html:57
 msgid "games.list.freshness_tooltip"
 msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.games_count_none"
 msgstr "Oyun yok."
 
-#: app/views/discover/games/list/list.html:58
+#: app/views/discover/games/list/list.html:61
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorted by Hotness."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/list.html:64
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
 
-#: app/views/discover/games/list/list.html:65
+#: app/views/discover/games/list/list.html:68
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorted by publication date."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:94
 msgid "games.list.new_games_warning_html"
 msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
 
@@ -2431,40 +2431,40 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 msgid "games.list.no_games_html"
 msgstr "No games match your filters. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:135
 msgid "games.list.sections_selector_best"
 msgstr "En İyi"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:115
 msgid "games.list.sections_selector_featured"
 msgstr "Featured"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:125
 msgid "games.list.sections_selector_hot"
 msgstr "Sıcak"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:145
 msgid "games.list.sections_selector_new"
 msgstr "Yeni"
 
-#: app/views/discover/games/list/list.html:47
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/list.html:50
+#: app/views/discover/games/list/list.html:80
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage is our weighted rating system. All games start with an average score and the community drags it up or down."
 
-#: app/views/discover/games/view/_header/nav.html:51
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.manage_game_button"
 msgstr "Manage Game"
 
-#: app/components/game/media-bar/lightbox/lightbox.html:14
+#: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
 msgstr "Kapat"
 
-#: app/views/discover/games/view/_header/nav.html:59
+#: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
 msgstr "Moderate Game"
 
-#: app/views/discover/games/view/_header/nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
 msgstr "Haberler"
 
@@ -2472,11 +2472,11 @@ msgstr "Haberler"
 msgid "games.view.notifications_heading"
 msgstr "Bildirimler"
 
-#: app/views/discover/games/view/_header/nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
 msgstr "Overview"
 
-#: app/views/discover/games/view/_header/nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Skorlar"
 
@@ -2496,7 +2496,7 @@ msgstr "Oylamalar"
 msgid "games.view.stats.views_label"
 msgstr "Görünümler"
 
-#: app/views/discover/games/view/_header/nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
 msgstr "Başarımlar"
 
@@ -2533,7 +2533,7 @@ msgstr "Bunlar sizin yaptığınız oyunlar.Gurur duyun!\n"
 msgid "library.collection.developer_owner_heading"
 msgstr "Sizin Oyunlarınız"
 
-#: app/views/library/collection/_header/controls.html:28
+#: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
 msgstr "Listeyi Düzenle"
 
@@ -2553,11 +2553,11 @@ msgstr "Bir oyunu takibe aldığınızda, burada görünür.<br>Yapımcılar, bu
 msgid "library.collection.followed_owner_heading"
 msgstr "Takip Ettiğiniz Oyunlar"
 
-#: app/views/library/collection/_header/stats.html:3
+#: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
 msgstr "Takipçiler"
 
-#: app/views/library/collection/_header/stats.html:7
+#: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
 msgstr "Oyunlar"
 
@@ -2630,7 +2630,7 @@ msgstr "<p>Create playlists to organize and share the games in your library.</p>
 msgid "library.nav.playlists"
 msgstr "Oynatma Listeleri"
 
-#: app/views/discover/games/view/_header/controls.html:32
+#: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
 msgstr "Oynatma Listesine Ekle"
 
@@ -2648,15 +2648,15 @@ msgstr "Bundle"
 
 #: app/components/game/collection/grid/grid.html:40
 msgid "library.playlists.developer_description"
-msgstr "Here are the games created by this developer."
+msgstr "Bu yapımcının diğer oyunları."
 
 #: app/components/game/collection/thumbnail/thumbnail.html:3
 msgid "library.playlists.developer_tag"
-msgstr "Developer's Games"
+msgstr "Yapımcının Oyunları"
 
 #: app/components/game/collection/grid/grid.html:14
 msgid "library.playlists.developer_title"
-msgstr "Developer's Games"
+msgstr "Yapımcının Oyunları"
 
 #: app/components/game/collection/grid/grid.html:36
 msgid "library.playlists.followed_description"
@@ -2684,7 +2684,7 @@ msgstr "İsim"
 
 #: app/components/game/collection/grid/grid.html:13
 msgid "library.playlists.owner_developer_title"
-msgstr "Your Games"
+msgstr "Senin Oyunların"
 
 #: app/components/game/collection/grid/grid.html:19
 msgid "library.playlists.owner_followed_title"
@@ -2712,7 +2712,7 @@ msgstr "Games Made"
 
 #: app/components/game/collection/grid/grid.html:18
 msgid "library.playlists.subscription_followed_title"
-msgstr "Games Followed"
+msgstr "Takip Edilen Oyunlar"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:7
 msgid "library.playlists.tag_tag"
@@ -2740,7 +2740,7 @@ msgstr "Tüm Oyunlar"
 
 #: app/views/discover/news/news.html:19
 msgid "news.list.followed_descriptive_html"
-msgstr "News about games you're following."
+msgstr "Takip ettiğin oyunlardan bildirimler."
 
 #: app/views/discover/news/news.html:5
 msgid "news.list.followed_heading"
@@ -2802,7 +2802,7 @@ msgstr "In Development"
 msgid "notifications.popover.dismiss_all"
 msgstr "dismiss all"
 
-#: app/components/notifications/popover/popover.html:26
+#: app/components/notifications/popover/popover.html:25
 msgid "notifications.popover.no_notifications"
 msgstr "No unread notifications at this time."
 
@@ -2822,8 +2822,8 @@ msgstr[1] ""
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:30
-#: app/views/library/collection/_header/controls.html:37
+#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
 msgstr "Fazla"
@@ -2882,7 +2882,7 @@ msgstr "En Son Görülme"
 msgid "profile.library_tab"
 msgstr "Kütüphane"
 
-#: app/views/profile/profile.html:179
+#: app/views/profile/profile.html:178
 msgid "profile.moderate_user_button"
 msgstr "Moderate User"
 
@@ -2910,7 +2910,7 @@ msgstr "Profil"
 msgid "profile.playing_heading"
 msgstr "Şuanda Oynuyor"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:170
 msgid "profile.remove_friend_button"
 msgstr "Arkadaşı Kaldır"
 
@@ -4325,11 +4325,11 @@ msgstr "{{ bundle }}"
 msgid "library.collection.developer_page_title"
 msgstr "Games by {{ user }}"
 
-#: app/views/library/collection/_header/controls.html:10
+#: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
 msgstr "Takip et"
 
-#: app/views/library/collection/_header/controls.html:6
+#: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
 msgstr "Kütüphanende belirmesi ve yeni oyunlar eklendiğinde bildirilmek için bu listeyi takibe al."
 
@@ -4353,11 +4353,11 @@ msgstr "Oynatma listesinden kaldır."
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
 msgstr "Takip etme"
 
-#: app/views/library/collection/_header/controls.html:19
+#: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
 msgstr "Takip ediyorsun"
 
-#: app/views/library/collection/_header/controls.html:15
+#: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
@@ -4377,11 +4377,11 @@ msgstr "You are now following {{ game }}. You'll be notified of news updates as 
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Oyun Takibe Alındı"
 
-#: app/views/discover/games/view/_header/controls.html:9
+#: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Oyunu Takip Et"
 
-#: app/views/discover/games/view/_header/controls.html:6
+#: app/views/discover/games/view/_header/_controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Follow this game to add it to your library and be notified of news updates."
 
@@ -4409,11 +4409,11 @@ msgstr "You have stopped following {{ game }} and will no longer receive notific
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Takip Edilmeyen Oyunlar"
 
-#: app/views/discover/games/view/_header/controls.html:19
+#: app/views/discover/games/view/_header/_controls.html:19
 msgid "library.followed.unfollow_game_button"
 msgstr "Takip Edilen"
 
-#: app/views/discover/games/view/_header/controls.html:16
+#: app/views/discover/games/view/_header/_controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Bu oyunu kütüphanenizden kaldırmak için takibi bırakın."
 
@@ -4578,19 +4578,19 @@ msgstr "{{ section }} Alternative Indie Games"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie RPGs"
 
-#: app/components/game/media-bar/media-bar-directive.js:82
+#: app/components/game/media-bar/media-bar-directive.js:80
 msgid "games.view.media.invalid_image_growl"
 msgstr "Resim bulunamadı.Belki kaldırılmıştır."
 
-#: app/components/game/media-bar/media-bar-directive.js:83
+#: app/components/game/media-bar/media-bar-directive.js:81
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Oh hayır!"
 
-#: app/components/game/media-bar/media-bar-directive.js:88
+#: app/components/game/media-bar/media-bar-directive.js:86
 msgid "games.view.media.invalid_video_growl"
 msgstr "Video bulunamadı.Belki kaldırılmıştır."
 
-#: app/components/game/media-bar/media-bar-directive.js:89
+#: app/components/game/media-bar/media-bar-directive.js:87
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Oh hayır!"
 
@@ -4626,7 +4626,7 @@ msgstr[1] ""
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:154
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4789,11 +4789,11 @@ msgstr "Downloading {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Downloading soundtrack..."
 
-#: app/views/discover/games/list/list.html:27
+#: app/views/discover/games/list/list.html:30
 msgid "games.list.date_heading_small"
 msgstr "on {{ date }}"
 
-#: app/views/discover/games/list/list.html:31
+#: app/views/discover/games/list/list.html:34
 msgid "games.list.date_range_heading_small"
 msgstr "between {{ dateStart }} and {{ dateEnd }}"
 
@@ -5158,7 +5158,7 @@ msgstr "External link to play the game (not uploaded on site)"
 msgid "Game does not belong to this developer"
 msgstr "Game does not belong to this developer"
 
-#: app/views/discover/games/view/_header/nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
 msgstr "Report Game"
 
@@ -5185,7 +5185,7 @@ msgstr "It is hate speech or contains graphic content"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "Pornografik ve sapık materyaller bulunduruyor"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
@@ -5194,7 +5194,7 @@ msgstr "It is spam or unwanted commercial content"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "Daha Fazla Seçenek"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
@@ -5213,28 +5213,28 @@ msgstr "Profile or username contains explicit or sensitive material"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "Kullanıcıyı bildir"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
-msgstr "Report Comment"
+msgstr "Yorumu bildir"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "Oyunu bildir"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "Kullanıcıyı Bildir"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:23
 msgid "Reported"
-msgstr "Reported"
+msgstr "Bildirildi"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "Bildiri gönder"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
@@ -5252,5 +5252,9 @@ msgstr "Uprating / downrating"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Why are you reporting this?"
+msgstr "Neden bunu bildiriyorsun?"
+
+#: app/components/game/media-bar/lightbox/lightbox.html:17
+msgid "games.view.media.download"
+msgstr "Download"
 
