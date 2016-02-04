@@ -2324,56 +2324,56 @@ msgstr "Sistem Operasi"
 msgid "games.filtering.status_label"
 msgstr "Status"
 
-#: app/views/discover/games/list/list.html:44
+#: app/views/discover/games/list/list.html:47
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} disusun dengan Voltan."
 
-#: app/views/discover/games/list/list.html:71
+#: app/views/discover/games/list/list.html:74
 msgid "games.list.date_descriptive_html"
 msgstr "Permainan diterbitkan pada {{ date }}, disusunkan dengan Voltan, skor terbaik disusun di atas."
 
-#: app/views/discover/games/list/list.html:26
+#: app/views/discover/games/list/list.html:29
 msgid "games.list.date_heading"
 msgstr "Permainan Diterbitkan"
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/list.html:77
 msgid "games.list.date_range_descriptive_html"
 msgstr "Permainan diterbit antara {{ dateStart }} dan {{ dateEnd }}, disusun dengan Voltan, skor terbaik disusun di atas."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/list.html:33
 msgid "games.list.date_range_heading"
 msgstr "Permainan Diterbitkan"
 
-#: app/views/discover/games/list/list.html:38
+#: app/views/discover/games/list/list.html:41
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} kami diketengahkan di muka surat utama, disusun dengan hari diketengahkan."
 
-#: app/views/discover/games/list/list.html:51
+#: app/views/discover/games/list/list.html:54
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} disusun dengan Kesegaran."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/list.html:57
 msgid "games.list.freshness_tooltip"
 msgstr "Kesegaran merujukkan minat komunity dalam permainan terkini. Skor kesegaran permainan bermula tinggi dan akan mereput dari masa ke masa. Aktiviti komuniti boleh melambatkan pereputan."
 
-#: app/views/discover/games/list/list.html:178
+#: app/views/discover/games/list/list.html:152
 msgid "games.list.games_count_none"
 msgstr "Tiada Permainan."
 
-#: app/views/discover/games/list/list.html:58
+#: app/views/discover/games/list/list.html:61
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} disusun dengan Kepanasan."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/list.html:64
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Kepanasan merujukkan minat komunity dalam permainan terkini. Skor kepanasan permainan bermula tinggi dan akan mereput dari masa ke masa. Aktiviti komuniti boleh melambatkan pereputan."
 
-#: app/views/discover/games/list/list.html:65
+#: app/views/discover/games/list/list.html:68
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} disusun dengan hari penerbitan."
 
-#: app/views/discover/games/list/list.html:95
+#: app/views/discover/games/list/list.html:94
 msgid "games.list.new_games_warning_html"
 msgstr "Permainan yang baru tidak dimainkan, dikirikan atau disemak oleh komuniti. Anda boleh mencari emas yang belum dipegang atau anda akan melihatkan najis yang tertakutkan."
 
@@ -2381,40 +2381,40 @@ msgstr "Permainan yang baru tidak dimainkan, dikirikan atau disemak oleh komunit
 msgid "games.list.no_games_html"
 msgstr "Tiada permainan samakan dengan menyaing anda. <b>Oops!</b>"
 
-#: app/views/discover/games/list/list.html:161
+#: app/views/discover/games/list/list.html:135
 msgid "games.list.sections_selector_best"
 msgstr "Terbaik"
 
-#: app/views/discover/games/list/list.html:141
+#: app/views/discover/games/list/list.html:115
 msgid "games.list.sections_selector_featured"
 msgstr "Diketengahkan"
 
-#: app/views/discover/games/list/list.html:151
+#: app/views/discover/games/list/list.html:125
 msgid "games.list.sections_selector_hot"
 msgstr "Panas"
 
-#: app/views/discover/games/list/list.html:171
+#: app/views/discover/games/list/list.html:145
 msgid "games.list.sections_selector_new"
 msgstr "Baru"
 
-#: app/views/discover/games/list/list.html:47
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/list.html:50
+#: app/views/discover/games/list/list.html:80
 msgid "games.list.voltage_tooltip"
 msgstr "Voltan adalah sistem penarafan kami. Semua permainan bermula dengan skor sederhana dan komuniti menarik skor ke atas atau bawah."
 
-#: app/views/discover/games/view/_header/nav.html:51
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.manage_game_button"
 msgstr "Menguruskan Permainan"
 
-#: app/components/game/media-bar/lightbox/lightbox.html:14
+#: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
 msgstr "Tutup"
 
-#: app/views/discover/games/view/_header/nav.html:59
+#: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
 msgstr "Sederhana Permainan"
 
-#: app/views/discover/games/view/_header/nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
 msgstr "Berita"
 
@@ -2422,11 +2422,11 @@ msgstr "Berita"
 msgid "games.view.notifications_heading"
 msgstr "Pemberitahuan"
 
-#: app/views/discover/games/view/_header/nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
 msgstr "Pemuka"
 
-#: app/views/discover/games/view/_header/nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Skor"
 
@@ -2446,7 +2446,7 @@ msgstr "Penarafan"
 msgid "games.view.stats.views_label"
 msgstr "Lihat"
 
-#: app/views/discover/games/view/_header/nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
 msgstr "Piala"
 
@@ -2482,7 +2482,7 @@ msgstr "Permainan ini adalah permainan yang anda buat. Berasa bangga!<br>Berkong
 msgid "library.collection.developer_owner_heading"
 msgstr "Permainan Anda"
 
-#: app/views/library/collection/_header/controls.html:28
+#: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
 msgstr "Mengubahkan Senarai"
 
@@ -2502,11 +2502,11 @@ msgstr "Apabila anda mengikut sesuatu permainan, ia boleh dilihat di sini. <br> 
 msgid "library.collection.followed_owner_heading"
 msgstr "Permainan Anda Mengikut"
 
-#: app/views/library/collection/_header/stats.html:3
+#: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
 msgstr "Pengikut"
 
-#: app/views/library/collection/_header/stats.html:7
+#: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
 msgstr "Permainan"
 
@@ -2578,7 +2578,7 @@ msgstr "<p>Menbina senarai untuk menyusun dan berkongsi permainan dalam perpusta
 msgid "library.nav.playlists"
 msgstr "Senarai"
 
-#: app/views/discover/games/view/_header/controls.html:32
+#: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
 msgstr "Tambah ke Senarai"
 
@@ -2749,7 +2749,7 @@ msgstr "Dalam Kemajuan"
 msgid "notifications.popover.dismiss_all"
 msgstr "menolak semua"
 
-#: app/components/notifications/popover/popover.html:26
+#: app/components/notifications/popover/popover.html:25
 msgid "notifications.popover.no_notifications"
 msgstr "Tiada pemberitahuan yang belum baca sekarang."
 
@@ -2768,8 +2768,8 @@ msgstr[0] "{{ $count | number }} belum baca"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
-#: app/views/discover/games/view/_header/nav.html:30
-#: app/views/library/collection/_header/controls.html:37
+#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
 msgstr "Banyak Lagi"
@@ -2828,7 +2828,7 @@ msgstr "Lihatan terakhir"
 msgid "profile.library_tab"
 msgstr "Perpustakaan"
 
-#: app/views/profile/profile.html:179
+#: app/views/profile/profile.html:178
 msgid "profile.moderate_user_button"
 msgstr "Sederhanakan Pengguna"
 
@@ -2856,7 +2856,7 @@ msgstr "Profil"
 msgid "profile.playing_heading"
 msgstr "Sedang Bermain"
 
-#: app/views/profile/profile.html:171
+#: app/views/profile/profile.html:170
 msgid "profile.remove_friend_button"
 msgstr "Meninggalkan Kawan"
 
@@ -4270,11 +4270,11 @@ msgstr "{{ bundle }}"
 msgid "library.collection.developer_page_title"
 msgstr "Permainan dibuat oleh {{ user }}"
 
-#: app/views/library/collection/_header/controls.html:10
+#: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
 msgstr "Mengikuti"
 
-#: app/views/library/collection/_header/controls.html:6
+#: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
 msgstr "Mengikutkan senarai ini untuk tambah kepada perpustakaan anda dan akan diberitahu apabila permainan baru telah ditambah."
 
@@ -4298,11 +4298,11 @@ msgstr "Buang dari senarai."
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
 msgstr "Berhenti mengikut."
 
-#: app/views/library/collection/_header/controls.html:19
+#: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
 msgstr "Mengikutkan"
 
-#: app/views/library/collection/_header/controls.html:15
+#: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Berhenti mengikut senarai ini untuk buangkan daripada perpustakaan anda dan berhenti menerima pemberitahuan."
 
@@ -4322,11 +4322,11 @@ msgstr "And telah mengikut {{ game }}. Anda akan diberitahu tentang berita selag
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Permainan Diikut"
 
-#: app/views/discover/games/view/_header/controls.html:9
+#: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Mengikut Permainan"
 
-#: app/views/discover/games/view/_header/controls.html:6
+#: app/views/discover/games/view/_header/_controls.html:6
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Mengikut permainan ini untuk tambah ke perpustakaan anda dan diberitahu apabila berita kemaskini."
 
@@ -4354,11 +4354,11 @@ msgstr "Anda telah meninggalkan {{ game }} dan tidak akan menerima pemberitahuan
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Permainan Berhenti Mengikuti"
 
-#: app/views/discover/games/view/_header/controls.html:19
+#: app/views/discover/games/view/_header/_controls.html:19
 msgid "library.followed.unfollow_game_button"
 msgstr "Mengikuti"
 
-#: app/views/discover/games/view/_header/controls.html:16
+#: app/views/discover/games/view/_header/_controls.html:16
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Meninggal permainan ini untuk buang daripada perpustakaan ini."
 
@@ -4523,19 +4523,19 @@ msgstr "{{ section }} Permainan Indie Alternatif"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} RPG Indie"
 
-#: app/components/game/media-bar/media-bar-directive.js:82
+#: app/components/game/media-bar/media-bar-directive.js:80
 msgid "games.view.media.invalid_image_growl"
 msgstr "Tidak boleh mencari imej itu. Mungkin telah dibuang."
 
-#: app/components/game/media-bar/media-bar-directive.js:83
+#: app/components/game/media-bar/media-bar-directive.js:81
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Tidak!"
 
-#: app/components/game/media-bar/media-bar-directive.js:88
+#: app/components/game/media-bar/media-bar-directive.js:86
 msgid "games.view.media.invalid_video_growl"
 msgstr "Tidak boleh mencari video itu. Mungkin telah dibuang."
 
-#: app/components/game/media-bar/media-bar-directive.js:89
+#: app/components/game/media-bar/media-bar-directive.js:87
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Tidak!"
 
@@ -4570,7 +4570,7 @@ msgstr[0] "1 build"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:180
+#: app/views/discover/games/list/list.html:154
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4728,11 +4728,11 @@ msgstr "Muat turun {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Muat turun lagu..."
 
-#: app/views/discover/games/list/list.html:27
+#: app/views/discover/games/list/list.html:30
 msgid "games.list.date_heading_small"
 msgstr "Dalam {{ date }}"
 
-#: app/views/discover/games/list/list.html:31
+#: app/views/discover/games/list/list.html:34
 msgid "games.list.date_range_heading_small"
 msgstr "Antara {{ dateStart }} dan {{ dateEnd }}"
 
@@ -5094,7 +5094,7 @@ msgstr "Pautan luaran untuk bermain permainan (Tidak muat naik ke laman web)"
 msgid "Game does not belong to this developer"
 msgstr "Permainan ini tidak berpunya pemaju ini"
 
-#: app/views/discover/games/view/_header/nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
 msgstr "Lapor Permainan"
 
@@ -5151,7 +5151,7 @@ msgstr "Profil atau pengguna mengandungi bahan sensitif"
 msgid "profile.report_user_button"
 msgstr "Lapor Pengguna"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:133
+#: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Lapor Komen"
@@ -5189,4 +5189,8 @@ msgstr "Penarafan Atas / Penarafan Bawah"
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
 msgstr "Mengapakan anda melaporkan ini?"
+
+#: app/components/game/media-bar/lightbox/lightbox.html:17
+msgid "games.view.media.download"
+msgstr "Download"
 
