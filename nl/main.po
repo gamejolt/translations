@@ -2378,56 +2378,69 @@ msgstr "Besturingssysteem"
 msgid "games.filtering.status_label"
 msgstr "Status"
 
-#: app/views/discover/games/list/list.html:47
+#: app/views/discover/games/list/_list-clean.html:47
+#: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Voltage."
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/_list-clean.html:74
+#: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
 msgstr "Games gepubliceerd op {{ date }}, gesorteerd op Voltage, met de beste scores bovenaan."
 
-#: app/views/discover/games/list/list.html:29
+#: app/views/discover/games/list/_list-clean.html:29
+#: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
 msgstr "Games Gepubliceerd"
 
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/_list-clean.html:77
+#: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
 msgstr "Games gepubliceerd tussen {{ dateStart }} en {{ dateEnd }}, gesorteerd op Voltage, met de beste scores bovenaan."
 
-#: app/views/discover/games/list/list.html:33
+#: app/views/discover/games/list/_list-clean.html:33
+#: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
 msgstr "Games Gepubliceerd"
 
-#: app/views/discover/games/list/list.html:41
+#: app/views/discover/games/list/_list-clean.html:41
+#: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} die we hebben uitgelicht, gesorteerd op datum van uitlichting."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/_list-clean.html:54
+#: app/views/discover/games/list/_list-original.html:51
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Frisheid."
 
-#: app/views/discover/games/list/list.html:57
+#: app/views/discover/games/list/_list-clean.html:57
+#: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "Frisheid geeft de interesse van de gemeenschap weer. Frisheid begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/_list-clean.html:158
+#: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
 msgstr "Geen games."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/_list-clean.html:61
+#: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Populariteit."
 
-#: app/views/discover/games/list/list.html:64
+#: app/views/discover/games/list/_list-clean.html:64
+#: app/views/discover/games/list/_list-original.html:61
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Populariteit geeft de interesse van de gemeenschap weer op recent gepubliceerde games. Populariteit begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
-#: app/views/discover/games/list/list.html:68
+#: app/views/discover/games/list/_list-clean.html:68
+#: app/views/discover/games/list/_list-original.html:65
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} gesorteerd op Publicatiedatum."
 
-#: app/views/discover/games/list/list.html:94
+#: app/views/discover/games/list/_list-clean.html:94
+#: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vindt hier een combinatie van onontdekte juweeltjes, maar ook de meest vreemde shit die je ooit gezien hebt!"
 
@@ -2435,24 +2448,30 @@ msgstr "Nieuwe games worden nieut gemodereerd of beoordeeld door Gamejolt. Je vi
 msgid "games.list.no_games_html"
 msgstr "Geen games voldoen aan je criteria. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:135
+#: app/views/discover/games/list/_list-clean.html:141
+#: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Beste"
 
-#: app/views/discover/games/list/list.html:115
+#: app/views/discover/games/list/_list-clean.html:121
+#: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Uitgelicht"
 
-#: app/views/discover/games/list/list.html:125
+#: app/views/discover/games/list/_list-clean.html:131
+#: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Populair"
 
-#: app/views/discover/games/list/list.html:145
+#: app/views/discover/games/list/_list-clean.html:151
+#: app/views/discover/games/list/_list-original.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Nieuw"
 
-#: app/views/discover/games/list/list.html:50
-#: app/views/discover/games/list/list.html:80
+#: app/views/discover/games/list/_list-clean.html:50
+#: app/views/discover/games/list/_list-clean.html:80
+#: app/views/discover/games/list/_list-original.html:47
+#: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage is ons evenwichtige rating systeem. Alle games starten met een gemiddelde score en de gemeenschap bepaalt de rest."
 
@@ -3510,7 +3529,7 @@ msgstr "Score Details - {{ game }}"
 msgid "dash.games.scores.view.remove_confirmation"
 msgstr "Weet je zeker dat je deze score wilt verwijderen?"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:57
 msgid "dash.games.trophies.form.clear_image_confirmation"
 msgstr "Weet je zeker dat je de afbeelding van deze trofee wilt wissen?"
 
@@ -3546,23 +3565,23 @@ msgstr "Scores voor {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Trofee&euml;n voor {{ game }}"
 
-#: app/views/discover/games/list/category/category-controller.js:66
+#: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Games Gepubliceerd op {{ date }}"
 
-#: app/views/discover/games/list/category/category-controller.js:71
+#: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Games Gepubliceerd Tussen {{ dateStart }} en {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:106
+#: app/views/discover/games/list/category/category-controller.js:108
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} games"
 
-#: app/views/discover/games/list/category/category-controller.js:101
+#: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "alternatieve games en andere wazigheden"
 
-#: app/views/discover/games/list/category/category-controller.js:97
+#: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "role-playing games"
 
@@ -3702,22 +3721,22 @@ msgstr "Populairste"
 msgid "sorting.new"
 msgstr "Nieuwste"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
 msgstr "Brons"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:34
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
 msgstr "Goud"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:35
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
 msgstr "Platina"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:33
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
 msgstr "Zilver"
@@ -4583,19 +4602,19 @@ msgstr "{{ section }} Alternatieve Indie Games"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie RPGs"
 
-#: app/components/game/media-bar/media-bar-directive.js:80
+#: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
 msgstr "Kan de afbeelding niet vinden, misschien is deze verwijderd."
 
-#: app/components/game/media-bar/media-bar-directive.js:81
+#: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Oh nee!"
 
-#: app/components/game/media-bar/media-bar-directive.js:86
+#: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
 msgstr "Kan de video niet vinden, misschien is deze verwijderd."
 
-#: app/components/game/media-bar/media-bar-directive.js:87
+#: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Oh nee!"
 
@@ -4631,7 +4650,8 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:154
+#: app/views/discover/games/list/_list-clean.html:160
+#: app/views/discover/games/list/_list-original.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4794,11 +4814,13 @@ msgstr "{{ game }} downloaden..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Soundtrack downloaden..."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/_list-clean.html:30
+#: app/views/discover/games/list/_list-original.html:27
 msgid "games.list.date_heading_small"
 msgstr "op {{ date }}"
 
-#: app/views/discover/games/list/list.html:34
+#: app/views/discover/games/list/_list-clean.html:34
+#: app/views/discover/games/list/_list-original.html:31
 msgid "games.list.date_range_heading_small"
 msgstr "tussen {{ dateStart }} en {{ dateEnd }}"
 
@@ -5262,4 +5284,20 @@ msgstr "Waarom wil je dit rapporteren?"
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
 msgstr "Download"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
+msgid "dash.games.thumbnail.crop_label"
+msgstr "Crop Current Thumbnail"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
+msgid "dash.games.thumbnail.nocrop_label"
+msgstr "Current Thumbnail"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
+msgid "dash.games.trophies.form.change_image_label"
+msgstr "Change Trophy Image"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
+msgid "dash.games.trophies.form.upload_label"
+msgstr "Trophy Image"
 
