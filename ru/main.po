@@ -29,8 +29,9 @@ msgstr "Мы перенаправляем вас на ваш профиль Game
 
 #: auth/views/auth/login/login.html:35
 #: auth/views/auth/login/login.html:36
+#, fuzzy
 msgid "auth.forgot_link"
-msgstr "Забыли имя пользователя или пароль"
+msgstr "Вы забыли имя пользователя или пароль"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
@@ -150,8 +151,9 @@ msgid "auth.login.facebook_button"
 msgstr "Войти через Facebook"
 
 #: auth/components/forms/login/login.html:28
+#, fuzzy
 msgid "auth.login.invalid_login_error_html"
-msgstr "Неверный никнейм или пароль."
+msgstr "Неверное имя пользователя или пароль."
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
@@ -1390,7 +1392,7 @@ msgstr "Изменить Имя"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
-msgstr "Это имя, которое отображается на вашей странице выше скачать игру/играть кнопку. Для основного пакета, используйте название Вашей игры."
+msgstr "Это имя, которое отображается на вашей странице над кнопкой скачать игру/играть. Для основной сборки используйте название Вашей игры."
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
@@ -2372,62 +2374,75 @@ msgstr "Возрастной рейтинг"
 
 #: app/components/game/filtering/widget.html:5
 msgid "games.filtering.os_label"
-msgstr "Операционные Системы"
+msgstr "Операционные системы"
 
 #: app/components/game/filtering/widget.html:26
 msgid "games.filtering.status_label"
 msgstr "Статус"
 
-#: app/views/discover/games/list/list.html:47
+#: app/views/discover/games/list/_list-clean.html:47
+#: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
 msgstr "Инди {{ category }} отсортированы по Напряжению."
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/_list-clean.html:74
+#: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
 msgstr "Игры опубликированные {{ date }} отсортированы по Напряжению с лучшими оценками сверху."
 
-#: app/views/discover/games/list/list.html:29
+#: app/views/discover/games/list/_list-clean.html:29
+#: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
 msgstr "Опубликованные игры"
 
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/_list-clean.html:77
+#: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
 msgstr "Игры опубликованные между {{ dateStart }} и {{ dateEnd }}, отсортированы по Напряжению, с наилучшими результатами, находясь в топе. "
 
-#: app/views/discover/games/list/list.html:33
+#: app/views/discover/games/list/_list-clean.html:33
+#: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
 msgstr "Выпущенные игры"
 
-#: app/views/discover/games/list/list.html:41
+#: app/views/discover/games/list/_list-clean.html:41
+#: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
 msgstr "Всё из категории \"{{ category }}\" с главной страницы по дате появления на ней."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/_list-clean.html:54
+#: app/views/discover/games/list/_list-original.html:51
 msgid "games.list.fresh_descriptive_html"
 msgstr "Инди {{ category }} отсортированы в \"Новинки\"."
 
-#: app/views/discover/games/list/list.html:57
+#: app/views/discover/games/list/_list-clean.html:57
+#: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "Свежесть показывает интерес сообщества к недавним играм. Свежесть игры начинается с высокого показателя, который постепенно снижается. Активность сообщества может замедлить это снижение."
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/_list-clean.html:158
+#: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
 msgstr "Нет игр."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/_list-clean.html:61
+#: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Инди {{ category }} отсортированы в \"Горячее\"."
 
-#: app/views/discover/games/list/list.html:64
+#: app/views/discover/games/list/_list-clean.html:64
+#: app/views/discover/games/list/_list-original.html:61
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "\"Горячее\" определяет интерес сообщества в новых играх. То, насколько горячая игра, показывает число, которое со временем понижается. Активность сообщества может замедлить это понижение. "
 
-#: app/views/discover/games/list/list.html:68
+#: app/views/discover/games/list/_list-clean.html:68
+#: app/views/discover/games/list/_list-original.html:65
 msgid "games.list.new_descriptive_html"
 msgstr "Инди {{ category }} отсортированы дате публикаци. "
 
-#: app/views/discover/games/list/list.html:94
+#: app/views/discover/games/list/_list-clean.html:94
+#: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Недавно добавленные игры ни были проверены модератором или сообществом. Вы можете найти золотую жилу непризнанных талантов или увидеть некоторое из самого ужасного дерьма в вашей жизни."
 
@@ -2435,24 +2450,30 @@ msgstr "Недавно добавленные игры ни были прове�
 msgid "games.list.no_games_html"
 msgstr "<b>Как жалко!</b> Нету игровых совпадений с вашими фильтрами."
 
-#: app/views/discover/games/list/list.html:135
+#: app/views/discover/games/list/_list-clean.html:141
+#: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Лучшие"
 
-#: app/views/discover/games/list/list.html:115
+#: app/views/discover/games/list/_list-clean.html:121
+#: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Интересные"
 
-#: app/views/discover/games/list/list.html:125
+#: app/views/discover/games/list/_list-clean.html:131
+#: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Гарячие"
 
-#: app/views/discover/games/list/list.html:145
+#: app/views/discover/games/list/_list-clean.html:151
+#: app/views/discover/games/list/_list-original.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Новые"
 
-#: app/views/discover/games/list/list.html:50
-#: app/views/discover/games/list/list.html:80
+#: app/views/discover/games/list/_list-clean.html:50
+#: app/views/discover/games/list/_list-clean.html:80
+#: app/views/discover/games/list/_list-original.html:47
+#: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
 msgstr "\"Напряжение\" - наша рейтинговая система. Все игры получают одинаковый рейтинг, и сообщество поднимает его вверх или вниз."
 
@@ -3113,16 +3134,16 @@ msgstr "Показать {{ filter }}"
 
 #: app/views/dashboard/activity/list/list-controller.js:5
 msgid "dash.activity.page_title"
-msgstr "Лента Активности"
+msgstr "Лента активности"
 
 #. {{listCtrl.page}} expands to the page number, {{$count}} expands to the notifications number
 #: app/views/dashboard/activity/list/list.html:83
 msgid "dash.activity.pages"
 msgid_plural "dash.activity.pages"
-msgstr[0] "Стр. {{ page | number }} из {{ $count | number }} уведомлений."
-msgstr[1] "Стр. {{ page | number }} из {{ $count | number }} уведомлений."
-msgstr[2] "Стр. {{ page | number }} из {{ $count | number }} уведомлений."
-msgstr[3] "Стр. {{ page | number }} из {{ $count | number }} уведомлений."
+msgstr[0] "Страница {{ page | number }} из {{ $count | number }} уведомлением."
+msgstr[1] "Страница {{ page | number }} из {{ $count | number }} уведомлениями."
+msgstr[2] "Страница {{ page | number }} из {{ $count | number }} уведомлениями."
+msgstr[3] "Страница {{ page | number }} из {{ $count | number }} уведомлениями."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview-controller.js:5
 msgid "dash.games.api.overview.page_title"
@@ -3514,7 +3535,7 @@ msgstr "Детали очков - {{ game }}"
 msgid "dash.games.scores.view.remove_confirmation"
 msgstr "Точно хотите удалить эти очки?"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:57
 msgid "dash.games.trophies.form.clear_image_confirmation"
 msgstr "Точно хотите очистить изображения трофея?"
 
@@ -3550,23 +3571,23 @@ msgstr "Результаты в {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Награды в {{ game }}"
 
-#: app/views/discover/games/list/category/category-controller.js:66
+#: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Игра опубликована {{ date }}"
 
-#: app/views/discover/games/list/category/category-controller.js:71
+#: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Игры опубликованные между {{ dateStart }} и {{ dateEnd }} "
 
-#: app/views/discover/games/list/category/category-controller.js:106
+#: app/views/discover/games/list/category/category-controller.js:108
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} игры"
 
-#: app/views/discover/games/list/category/category-controller.js:101
+#: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "альтернативные игры и прочие странности"
 
-#: app/views/discover/games/list/category/category-controller.js:97
+#: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "ролевые игры"
 
@@ -3706,22 +3727,22 @@ msgstr "Популярнейшее"
 msgid "sorting.new"
 msgstr "Новейшее"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
 msgstr "Бронза"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:34
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
 msgstr "Золото"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:35
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
 msgstr "Платина"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:33
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
 msgstr "Серебро"
@@ -3965,7 +3986,7 @@ msgstr "Управлять {{ game }}"
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:9
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:112
 msgid "dash.games.overview.published_growl"
-msgstr "Вы опубликовали вашу игру на сайте! Хузах!"
+msgstr "Вы опубликовали вашу игру на сайте! Ура!"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:10
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:113
@@ -4586,19 +4607,19 @@ msgstr "{{ section }} Приключенческие Инди Игры"
 msgid "games.list.page_title_rpg"
 msgstr "{{ раздел }} Инди RPGs"
 
-#: app/components/game/media-bar/media-bar-directive.js:80
+#: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
 msgstr "Невозможно найти изображение. Возможно, оно удалено."
 
-#: app/components/game/media-bar/media-bar-directive.js:81
+#: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "О нет!"
 
-#: app/components/game/media-bar/media-bar-directive.js:86
+#: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
 msgstr "Не удалось найти это видео. Может быть, его удалили"
 
-#: app/components/game/media-bar/media-bar-directive.js:87
+#: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "О нет!"
 
@@ -4629,14 +4650,15 @@ msgstr "Недавно добавленные"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] "1 билд"
-msgstr[1] "{{ $count | number }} билда (-ов)"
-msgstr[2] "{{ $count | number }} билда (-ов)"
-msgstr[3] "{{ $count | number }} билда (-ов)"
+msgstr[0] "Один билд"
+msgstr[1] "{{ $count | number }} билда"
+msgstr[2] "{{ $count | number }} билдов"
+msgstr[3] "{{ $count | number }} билдов"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:154
+#: app/views/discover/games/list/_list-clean.html:160
+#: app/views/discover/games/list/_list-original.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4660,16 +4682,16 @@ msgstr[3] "{{ $count | number }} комментариев"
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
-msgstr[0] "1 статья."
-msgstr[1] "{{ $count | number }}"
-msgstr[2] "{{ $count | number }}"
-msgstr[3] "{{ $count | number }}"
+msgstr[0] "Одна статья."
+msgstr[1] "{{ $count | number }} стетьей."
+msgstr[2] "{{ $count | number }} стетьей."
+msgstr[3] "{{ $count | number }} стетьей."
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 уведомление"
-msgstr[1] "+{{ $count | number }} уведомлений"
+msgstr[1] "+{{ $count | number }} уведомления"
 msgstr[2] "+{{ $count | number }} уведомлений"
 msgstr[3] "+{{ $count | number }} уведомлений"
 
@@ -4809,11 +4831,13 @@ msgstr "Скачивается {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Скачивается саундтрек..."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/_list-clean.html:30
+#: app/views/discover/games/list/_list-original.html:27
 msgid "games.list.date_heading_small"
 msgstr "{{ date }}"
 
-#: app/views/discover/games/list/list.html:34
+#: app/views/discover/games/list/_list-clean.html:34
+#: app/views/discover/games/list/_list-original.html:31
 msgid "games.list.date_range_heading_small"
 msgstr "между {{ dateStart }} и {{ dateEnd }}"
 
@@ -5078,7 +5102,7 @@ msgstr "переведено"
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
 msgstr[0] "Вам и другому пользователю понравился этот комментарий."
-msgstr[1] "Вам и другому понравился этот комментарий."
+msgstr[1] "Вам и другому пользователю понравился этот комментарий."
 msgstr[2] "Вам и {{ $count | number }} людям понравился этот комментарий."
 msgstr[3] "Вам и {{ $count | number }} пользователям нравится этот комментарий."
 
@@ -5168,8 +5192,9 @@ msgid "library.collection.followed_owner_page_title"
 msgstr "Ваши подписки"
 
 #: app/views/library/collection/collection-controller.js:81
+#, fuzzy
 msgid "library.collection.playlist_owner_page_title"
-msgstr "{{ playlist }}"
+msgstr "{{ игровой лист }}"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:17
 msgid "Close"
@@ -5283,5 +5308,21 @@ msgstr "Почему вы жалуетесь на это?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Скачать"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
+msgid "dash.games.thumbnail.crop_label"
+msgstr "Crop Current Thumbnail"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
+msgid "dash.games.thumbnail.nocrop_label"
+msgstr "Current Thumbnail"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
+msgid "dash.games.trophies.form.change_image_label"
+msgstr "Change Trophy Image"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
+msgid "dash.games.trophies.form.upload_label"
+msgstr "Trophy Image"
 
