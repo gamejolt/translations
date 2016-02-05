@@ -561,7 +561,7 @@ msgstr "Загальна кількість очок по всій таблиц�
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Користувачі / Очки"
+msgstr "Користувачі / Результати"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
@@ -638,7 +638,7 @@ msgstr "(показати ключ)"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:6
 msgid "dash.games.api.settings.page_alert_html"
-msgstr "␣<p><strong>Нікому не давайте ваш приватний ключ!</strong>Ключ вашої гри використовується для підтвердження запитів API від вашої гри. Якщо зловмисники отримають ключ, вони зможуть відправляти підроблені запити, привласнюючи гру собі. Це погано.</p> "
+msgstr "<p><strong>Нікому не давайте ваш приватний ключ!</strong>Ключ вашої гри використовується для підтвердження запитів API від вашої гри. Якщо зловмисники отримають ключ, вони зможуть відправляти підроблені запити, привласнюючи гру собі. Це погано.</p>"
 
 #: app/components/forms/dashboard/game/build/build.html:63
 msgid "dash.games.builds.form.applet_help"
@@ -1098,7 +1098,7 @@ msgstr "Видалити зображення"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
-msgstr "␣<р> Хочете, щоб люди грали у вашу гру? Додайте кілька зображень і відео на свою сторінку. Ми рекомендуємо додати якомога більше зображень і відео, навіть якщо ваша гра текстова!</p>"
+msgstr "<р> Хочете, щоб люди грали у вашу гру? Додайте кілька зображень і відео на свою сторінку. Ми рекомендуємо додати якомога більше зображень і відео, навіть якщо ваша гра текстова!</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:20
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:47
@@ -1256,7 +1256,7 @@ msgstr "Ігрові новини"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
-msgstr "␣<р>Ви ще не розмістили ніяких новин для цієї гри. Оновлення дозволяють тримати шанувальників в курсі і залучати нових!</p>"
+msgstr "<р>Ви ще не розмістили ніяких новин для цієї гри. Оновлення дозволяють тримати шанувальників в курсі і залучати нових!</p>"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:7
 msgid "dash.games.news.page_help"
@@ -1391,7 +1391,7 @@ msgstr "Змінити ім'я"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
-msgstr "Це ім'я з'явиться на вашій сторінці гри над кнопкою Завантаження/Грати."
+msgstr "Це ім'я з'явиться на вашій сторінці гри над кнопкою Завантаження/Грати. Для основної збірки використовуйте ім'я вашої гри."
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
@@ -1771,7 +1771,7 @@ msgstr "Таблиця рекордів"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:4
 msgid "dash.games.scoreboards.page_help_html"
-msgstr " <p>API дозволяє додати кілька користувальницьких таблиць рекордів, з можливістю контролю над варіантами сортування і гостьовими рахунками, а також з можливістю прикріплення додаткових прихованих результатів</p>\n"
+msgstr "<p>API дозволяє додати кілька користувальницьких таблиць рекордів, з можливістю контролю над варіантами сортування і гостьовими рахунками, а також з можливістю прикріплення додаткових прихованих результатів</p>\n"
 "\t<p>Головною таблицею рекордів вважається та, яка будет показуватись за замовчуванням на сторінці вашої гри. Встановіть нову головну таблицю шляхом перетягування таблиці рекордів в перший слот.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:6
@@ -2025,11 +2025,11 @@ msgstr "Назва"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:13
 msgid "dash.games.trophies.has_hidden_html"
-msgstr "<p><strong>Ви повинні приховані нагороди!</strong>Коли ви будете готові, відобразіть ці досягнення для гравців, щоб вони могли їх досягти.<p>"
+msgstr "<p><strong>Ви повинні приховані нагороди!</strong>Коли ви будете готові, відобразіть ці нагороди для гравців, щоб вони могли їх досягти.<p>"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:4
 msgid "dash.games.trophies.heading"
-msgstr "Ігрові досягнення"
+msgstr "Ігрові нагороди"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tag"
@@ -2095,7 +2095,7 @@ msgstr "Подивитись всю активність"
 
 #: app/views/dashboard/overview/overview.html:38
 msgid "dash.overview.broadcast_view_all"
-msgstr "Подивитися всі зміни broadcasts"
+msgstr "Подивитися весь список змін"
 
 #: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
@@ -2111,7 +2111,7 @@ msgstr "Немає ще ігор? Зачекайте, насправді? Ви �
 
 #: app/views/dashboard/overview/overview.html:4
 msgid "dash.overview.heading"
-msgstr "Ваша панель"
+msgstr "Ваша панель управління"
 
 #: app/views/dashboard/overview/overview.html:61
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:19
@@ -2376,56 +2376,69 @@ msgstr "Операційні системи"
 msgid "games.filtering.status_label"
 msgstr "Статус"
 
-#: app/views/discover/games/list/list.html:47
+#: app/views/discover/games/list/_list-clean.html:47
+#: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
-msgstr "Інді {{ category }} відсортовані по Напрузі."
+msgstr "Інді {{ category }} відсортовані по напрузі."
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/_list-clean.html:74
+#: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
 msgstr "Ігри опублікуванні {{date}} відсортовані по Напрузі з кращими оцінками зверху."
 
-#: app/views/discover/games/list/list.html:29
+#: app/views/discover/games/list/_list-clean.html:29
+#: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
 msgstr "Опубліковані ігри"
 
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/_list-clean.html:77
+#: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
 msgstr "Ігри, які були опубліковані між {{ dateStart }} і {{ dateEnd }}, відсортовано по Напрузі, з кращими результатами зверху."
 
-#: app/views/discover/games/list/list.html:33
+#: app/views/discover/games/list/_list-clean.html:33
+#: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
 msgstr "Опубліковані ігри"
 
-#: app/views/discover/games/list/list.html:41
+#: app/views/discover/games/list/_list-clean.html:41
+#: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
 msgstr "Інді {{ category }}, які ви бачите на головній сторінці, відсортовано за датою публікації."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/_list-clean.html:54
+#: app/views/discover/games/list/_list-original.html:51
 msgid "games.list.fresh_descriptive_html"
 msgstr "Інді {{ category }} упорядковано по свіжості."
 
-#: app/views/discover/games/list/list.html:57
+#: app/views/discover/games/list/_list-clean.html:57
+#: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "Свіжість вказує на інтерес спільноти по відношенню до нових ігор. Шкала ігрової Свіжості набирається швидко і спадає протягом довгого часу. Активність спільноти може уповільнити спад."
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/_list-clean.html:158
+#: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
 msgstr "Нема ігор."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/_list-clean.html:61
+#: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Інді {{ category }} упорядковано по Гарячості."
 
-#: app/views/discover/games/list/list.html:64
+#: app/views/discover/games/list/_list-clean.html:64
+#: app/views/discover/games/list/_list-original.html:61
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Гарячість вказує на інтерес спільноти по відношенню до нових ігор. Шкала ігрової Гарячості набирається швидко і спадає протягом довгого часу. Активність спільноти може уповільнити спад."
 
-#: app/views/discover/games/list/list.html:68
+#: app/views/discover/games/list/_list-clean.html:68
+#: app/views/discover/games/list/_list-original.html:65
 msgid "games.list.new_descriptive_html"
 msgstr "Інді {{ category }} упорядковано по даті публікації"
 
-#: app/views/discover/games/list/list.html:94
+#: app/views/discover/games/list/_list-clean.html:94
+#: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Нещодавно додані ігри не були відмодеровані куратором чи перевірені співтовариством. Ви можете знайти золоту жилу невизнаних талантів або побачити деяке із найжахливішого лайна у вашому житті."
 
@@ -2433,24 +2446,30 @@ msgstr "Нещодавно додані ігри не були відмодер�
 msgid "games.list.no_games_html"
 msgstr "<b>Яка прикрість!</b> Нема ігрових збігів з вашими фільтрами."
 
-#: app/views/discover/games/list/list.html:135
+#: app/views/discover/games/list/_list-clean.html:141
+#: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Кращі"
 
-#: app/views/discover/games/list/list.html:115
+#: app/views/discover/games/list/_list-clean.html:121
+#: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Рекомендовані"
 
-#: app/views/discover/games/list/list.html:125
+#: app/views/discover/games/list/_list-clean.html:131
+#: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Гарячі"
 
-#: app/views/discover/games/list/list.html:145
+#: app/views/discover/games/list/_list-clean.html:151
+#: app/views/discover/games/list/_list-original.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Нові"
 
-#: app/views/discover/games/list/list.html:50
-#: app/views/discover/games/list/list.html:80
+#: app/views/discover/games/list/_list-clean.html:50
+#: app/views/discover/games/list/_list-clean.html:80
+#: app/views/discover/games/list/_list-original.html:47
+#: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
 msgstr "Напруга - це наша рейтингова система. Всі ігри починаються з середнім балом і спільнота тягне його вгору або вниз."
 
@@ -2556,7 +2575,7 @@ msgstr "Ваші підписки на ігри"
 
 #: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
-msgstr "Шанувальники"
+msgstr "Підписки"
 
 #: app/views/library/collection/_header/_stats.html:7
 msgid "library.collection.games_label"
@@ -2633,7 +2652,7 @@ msgstr "Плейлист"
 
 #: app/views/discover/games/view/_header/_controls.html:32
 msgid "library.playlists.add_to.button"
-msgstr "Додати плейлист"
+msgstr "Додати до плейлиста"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
@@ -2689,7 +2708,7 @@ msgstr "Ваші ігри"
 
 #: app/components/game/collection/grid/grid.html:19
 msgid "library.playlists.owner_followed_title"
-msgstr "Ігри за якими ви слідкуєте"
+msgstr "Ігри на які ви підписані"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:5
 msgid "library.playlists.playlist_tag"
@@ -2754,7 +2773,7 @@ msgstr "<p>Ігрові оновлення ігор за якими ви слі�
 
 #: app/views/discover/news/news.html:36
 msgid "news.list.followed_tab"
-msgstr "Ігри за якими ви слідкуєте"
+msgstr "Ігри на які ви підписані"
 
 #: app/views/discover/news/news.html:116
 msgid "news.list.no_posts_followed_html"
@@ -2813,15 +2832,15 @@ msgstr "Подивитися всю активність"
 
 #: app/components/activity/feed/feed.html:49
 msgid "notifications.rating_details_html"
-msgstr "<p>And the value of the rating thou shalt receive is <strong>{{ rating }}</strong>. No more, no less.</p>"
+msgstr "<p>І отримана оцінка становить значення <strong>{{ rating }}</strong>. Не більше і не менше.</p>"
 
 #: app/views/dashboard/activity/list/list-controller.js:95
 msgid "notifications.unread_tooltip"
 msgid_plural "notifications.unread_tooltip"
 msgstr[0] "{{ $count | number }} не прочитано"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[1] "{{ $count | number }} не прочитаних"
+msgstr[2] "{{ $count | number }} не прочитаних"
+msgstr[3] "{{ $count | number }} не прочитаних"
 
 #: app/views/dashboard/developer/games/manage/manage.html:57
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
@@ -2899,11 +2918,11 @@ msgstr "Цей розробник ще не опублікував ігри. С�
 
 #: app/views/profile/profile.html:45
 msgid "profile.offline_tag"
-msgstr "Поза мережею"
+msgstr "Оффлайн"
 
 #: app/views/profile/profile.html:49
 msgid "profile.online_tag"
-msgstr "В мережі"
+msgstr "Онлайн"
 
 #: app/views/profile/profile.html:137
 msgid "profile.overview_tab"
@@ -3117,10 +3136,10 @@ msgstr "Стрічка активності"
 #: app/views/dashboard/activity/list/list.html:83
 msgid "dash.activity.pages"
 msgid_plural "dash.activity.pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Сторінка {{ page | number }} з {{ $count | number }} повідомленням."
+msgstr[1] "Сторінка {{ page | number }} з {{ $count | number }} повідомленнями."
+msgstr[2] "Сторінка {{ page | number }} з {{ $count | number }} повідомленнями."
+msgstr[3] "Сторінка {{ page | number }} з {{ $count | number }} повідомленнями."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview-controller.js:5
 msgid "dash.games.api.overview.page_title"
@@ -3140,7 +3159,7 @@ msgstr "Новий ключ згенеровно"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings-controller.js:6
 msgid "dash.games.api.settings.page_title"
-msgstr "Налаштування ігрове API для {{ game }}"
+msgstr "Налаштування ігрового API для {{ game }}"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:68
 #: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:38
@@ -3512,7 +3531,7 @@ msgstr "Деталі результатів - {{ game }}"
 msgid "dash.games.scores.view.remove_confirmation"
 msgstr "Ви впевнені, що хочете видалити цей результат?"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:57
 msgid "dash.games.trophies.form.clear_image_confirmation"
 msgstr "Ви впевнені, що хочете видалити зображення цієї нагороди?"
 
@@ -3548,23 +3567,23 @@ msgstr "Результат {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Нагороди {{ game }}"
 
-#: app/views/discover/games/list/category/category-controller.js:66
+#: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Гра опублікована {{ date }}"
 
-#: app/views/discover/games/list/category/category-controller.js:71
+#: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Гра опублікована між {{ dateStart }} і {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:106
+#: app/views/discover/games/list/category/category-controller.js:108
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} ігор"
 
-#: app/views/discover/games/list/category/category-controller.js:101
+#: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "альтернативні ігри та інші диватства"
 
-#: app/views/discover/games/list/category/category-controller.js:97
+#: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "ролеві ігри"
 
@@ -3582,8 +3601,7 @@ msgstr "От дідько!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:74
 msgid "library.playlists.add_game_success_growl"
-msgstr "Ви додали {{ гру }} для {{ плейлиста }}. Чудово! \n"
-""
+msgstr "Ви додали {{ game }} в {{ playlist }}. Чудово!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:75
 msgid "library.playlists.add_game_success_growl_title"
@@ -3644,7 +3662,7 @@ msgstr "Повідомлення форуму"
 
 #: app/views/dashboard/activity/list/list-controller.js:49
 msgid "notifications.game_follows_label"
-msgstr "Шанувальників гри"
+msgstr "Ігри на які ви підписані"
 
 #: app/views/dashboard/activity/list/list-controller.js:25
 msgid "notifications.game_news_label"
@@ -3652,7 +3670,7 @@ msgstr "Новини оновлень"
 
 #: app/views/dashboard/activity/list/list-controller.js:45
 msgid "notifications.game_ratings_label"
-msgstr "Ігровий рейтинг"
+msgstr "Рейтинг гри"
 
 #: app/views/dashboard/activity/list/list-controller.js:41
 msgid "notifications.new_comments_label"
@@ -3705,22 +3723,22 @@ msgstr "Самі кращі"
 msgid "sorting.new"
 msgstr "Найновіше"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
 msgstr "Бронза"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:34
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
 msgstr "Золото"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:35
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
 msgstr "Платина"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:33
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
 msgstr "Срібло"
@@ -3787,7 +3805,7 @@ msgstr "Отримуйте електронні повідомлення, кол
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:44
 msgid "dash.email_prefs.notify_ratings_label"
-msgstr "Рейтинги гри"
+msgstr "Рейтинг гри"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:3
 msgid "dash.funds.withdraw.page_title"
@@ -3891,7 +3909,7 @@ msgstr "Видалити відео"
 
 #: app/views/dashboard/developer/games/manage/media/video/video-controller.js:3
 msgid "dash.games.media.video.page_title"
-msgstr "Деталі відео - {{ гри }}"
+msgstr "Деталі відео - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/video/video-controller.js:11
 msgid "dash.games.media.video.remove_confirmation"
@@ -3951,7 +3969,7 @@ msgstr "Ви впевнені, що хочете видалити це нове 
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:21
 msgid "dash.games.news.article.remove_growl"
-msgstr "Нове оновлення була видалена з сайту."
+msgstr "Нове оновлення було видаленл з сайту."
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:22
 msgid "dash.games.news.article.remove_growl_title"
@@ -3964,7 +3982,7 @@ msgstr "Редагувати {{ game }}"
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:9
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:112
 msgid "dash.games.overview.published_growl"
-msgstr "Ви опублікувати свою гру на сайті! Ура! Пам'ятайте, щоб ви поширити слова..."
+msgstr "Ви опублікувати свою гру на сайті! Ура!"
 
 #: app/views/dashboard/developer/games/manage/game/edit/edit-controller.js:10
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:113
@@ -4009,7 +4027,7 @@ msgstr "Оооо, да!"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:59
 msgid "dash.games.overview.todo_info_wip_html"
-msgstr "Перш ніж ви зможете опублікувати свою гру, ви повинні принаймні, додати <a href=\"{{ адресу }}\">зменшене зображення</a> і встановити <a href=\"{{ вікова адреса }}\">віковий рейтинг</a>."
+msgstr "Перш ніж ви зможете опублікувати свою гру, ви повинні принаймні, додати <a href=\"{{ thumbnailUrl }}\">зменшене зображення</a> і встановити <a href=\"{{ maturityUrl }}\">віковий рейтинг</a>."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:51
 msgid "dash.games.overview.todo_maturity_progress"
@@ -4253,7 +4271,7 @@ msgstr "Результати видалені"
 
 #: app/views/dashboard/developer/games/manage/game/settings/settings-controller.js:3
 msgid "dash.games.settings.page_title"
-msgstr "Налаштування для {{{ game }}"
+msgstr "Налаштування для {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/game/settings/settings-controller.js:8
 msgid "dash.games.settings.save_growl"
@@ -4329,7 +4347,7 @@ msgstr "{{ bundle }}"
 
 #: app/views/library/collection/collection-controller.js:95
 msgid "library.collection.developer_page_title"
-msgstr "Гра {{ user }}"
+msgstr "Гра від {{ user }}"
 
 #: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
@@ -4584,19 +4602,19 @@ msgstr "{{ section }} Альтернативні інді-ігри"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Ролеві інді"
 
-#: app/components/game/media-bar/media-bar-directive.js:80
+#: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
 msgstr "Не вдалося знайти це зображення. Воно було видалене."
 
-#: app/components/game/media-bar/media-bar-directive.js:81
+#: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "От дідько!"
 
-#: app/components/game/media-bar/media-bar-directive.js:86
+#: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
 msgstr "Не вдалося знайти це відео. Воно було видалене."
 
-#: app/components/game/media-bar/media-bar-directive.js:87
+#: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "От дідько!"
 
@@ -4627,20 +4645,21 @@ msgstr "Недавно додані"
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] "1 білд"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Один білд"
+msgstr[1] "{{ $count | number }} білда"
+msgstr[2] "{{ $count | number }} білдів"
 msgstr[3] "{{ $count | number }} білдів"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:154
+#: app/views/discover/games/list/_list-clean.html:160
+#: app/views/discover/games/list/_list-original.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] "1 гра."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Одна гра."
+msgstr[1] "Сторінка {{ page | number }} з {{ $count | number }} іграми."
+msgstr[2] "Сторінка {{ page | number }} з {{ $count | number }} іграми."
 msgstr[3] "Сторінка {{ page | number }} з {{ $count | number }} іграми."
 
 #: app/components/post/grid/grid.html:34
@@ -4649,26 +4668,26 @@ msgstr[3] "Сторінка {{ page | number }} з {{ $count | number }} ігр�
 #: app/views/discover/games/view/news/view/view.html:15
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
-msgstr[0] "1 коментар"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] "{{ $count | number }} коментаря"
+msgstr[0] "Один коментар"
+msgstr[1] "{{ $count | number }} коментаря"
+msgstr[2] "{{ $count | number }} коментарів"
+msgstr[3] "{{ $count | number }} коментарів"
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
-msgstr[0] "1 стаття."
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] " {{ $count | number }} статей."
+msgstr[0] "Одна стаття."
+msgstr[1] "{{ $count | number }} статті."
+msgstr[2] "{{ $count | number }} статей."
+msgstr[3] "{{ $count | number }} статей."
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
-msgstr[0] "+1 повідомлення."
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "+1 повідомлення"
+msgstr[1] "+{{ $count | number }} повідомлення"
+msgstr[2] "+{{ $count | number }} повідомлень"
 msgstr[3] "+{{ $count | number }} повідомлень"
 
 #: app/components/shell/footer/footer.html:45
@@ -4766,9 +4785,9 @@ msgstr "В розробці"
 #: app/views/discover/games/view/view.html:11
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
-msgstr[0] "одна нова новина"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Одна новина"
+msgstr[1] "{{ $count | number }} новини"
+msgstr[2] "{{ $count | number }} новин"
 msgstr[3] "{{ $count | number }} новин"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
@@ -4807,11 +4826,13 @@ msgstr "Завантаження {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Завантаження саундтреку..."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/_list-clean.html:30
+#: app/views/discover/games/list/_list-original.html:27
 msgid "games.list.date_heading_small"
 msgstr "Вкл {{ date }}"
 
-#: app/views/discover/games/list/list.html:34
+#: app/views/discover/games/list/_list-clean.html:34
+#: app/views/discover/games/list/_list-original.html:31
 msgid "games.list.date_range_heading_small"
 msgstr "між {{ dateStart }} і {{ dateEnd }}"
 
@@ -4841,7 +4862,7 @@ msgstr "Ігри за якими слідкує {{ user }}."
 
 #: app/components/activity/feed/feed.html:50
 msgid "notifications.rating_details_title"
-msgstr "{{ rating }} shall be the number thou shalt receive, and the number of the receiving shall be {{ rating }}."
+msgstr "{{ rating }} це число, яким задається оцінка, і це число, так чи інакше, {{ rating }}."
 
 #: app/views/profile/overview/overview.html:127
 msgid "profile.developer_games_teaser_button"
@@ -4988,9 +5009,9 @@ msgstr "Відкритий початковий код"
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
 msgid_plural "{{ $count | number }} Comments"
-msgstr[0] "1 коментар"
-msgstr[1] "коментаря"
-msgstr[2] "коментарів"
+msgstr[0] "Один коментар"
+msgstr[1] "{{ $count | number }} коментаря"
+msgstr[2] "{{ $count | number }} коментарів"
 msgstr[3] "{{ $count | number }} коментарів"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
@@ -5043,10 +5064,10 @@ msgstr "Поки що немає коментарів"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
-msgstr[0] "одній людині сподобався цей коментар"
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] "{{ $count | number }} людям сподобався цей коментар."
+msgstr[0] "Одній людині сподобався цей коментар."
+msgstr[1] "{{ $count | number }} користувачам сподобався цей коментар."
+msgstr[2] "{{ $count | number }} користувачам сподобався цей коментар."
+msgstr[3] "{{ $count | number }} користувачам сподобався цей коментар."
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: lib/gj-lib-client/components/comment/widget/comment.html:12
@@ -5074,10 +5095,10 @@ msgstr "переведено"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
-msgstr[0] "Вам та ще одній людині сподобався цей коментар."
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] "Вам та {{ $count | number }} людям сподобався цей коментар."
+msgstr[0] "Вам та ще одному користувачу сподобався цей коментар."
+msgstr[1] "Вам та {{ $count | number }} користувачам сподобався цей коментар."
+msgstr[2] "Вам та {{ $count | number }} користувачам сподобався цей коментар."
+msgstr[3] "Вам та {{ $count | number }} користувачам сподобався цей коментар."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
@@ -5280,5 +5301,21 @@ msgstr "Чому ви повідомляєте про це?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Завантажити"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
+msgid "dash.games.thumbnail.crop_label"
+msgstr "Crop Current Thumbnail"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
+msgid "dash.games.thumbnail.nocrop_label"
+msgstr "Current Thumbnail"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
+msgid "dash.games.trophies.form.change_image_label"
+msgstr "Change Trophy Image"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
+msgid "dash.games.trophies.form.upload_label"
+msgstr "Trophy Image"
 
