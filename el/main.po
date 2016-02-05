@@ -2371,56 +2371,69 @@ msgstr "Λειτουργικά Συστήματα"
 msgid "games.filtering.status_label"
 msgstr "Κατάσταση"
 
-#: app/views/discover/games/list/list.html:47
+#: app/views/discover/games/list/_list-clean.html:47
+#: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
 msgstr "Indie παιχνίδια τύπου {{ category }} ταξινομημένα ως προς Τάση."
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/_list-clean.html:74
+#: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
 msgstr "Παιχνίδια δημοσιευμένα στις {{ date }}, ταξινομημένα ως προς Τάση, με τα καλύτερα σκορ στο πάνω μέρος."
 
-#: app/views/discover/games/list/list.html:29
+#: app/views/discover/games/list/_list-clean.html:29
+#: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
 msgstr "Δημοσιευμένα Παιχνίδια"
 
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/_list-clean.html:77
+#: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
 msgstr "Παιχνίδια δημοσιευμένα μεταξύ {{ dateStart }} και {{ dateEnd }}, ταξινομημένα ως προς Τάση, με τα καλύτερα σκορ στο πάνω μέρος."
 
-#: app/views/discover/games/list/list.html:33
+#: app/views/discover/games/list/_list-clean.html:33
+#: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
 msgstr "Δημοσιευμένα Παιχνίδια"
 
-#: app/views/discover/games/list/list.html:41
+#: app/views/discover/games/list/_list-clean.html:41
+#: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie παιχνίδια τύπου {{ category }} που έχουμε προβάλλει στην αρχική σελίδα, ταξινομημένα ως προς την ημερομηνία προβολής τους."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/_list-clean.html:54
+#: app/views/discover/games/list/_list-original.html:51
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie παιχνίδια τύπου {{ category }} ταξινομημένα ως προς Φρεσκάδα."
 
-#: app/views/discover/games/list/list.html:57
+#: app/views/discover/games/list/_list-clean.html:57
+#: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "Η Φρεσκάδα εκφράζει το ενδιαφέρον της κοινότητας σε νέα παιχνίδια. Η φρεσκάδα ενός παιχνιδιού ξεκινάει υψηλά και μειώνεται με τον χρόνο. Η ανταπόκριση από την κοινότητα μειώνει τον ρυθμό μείωσης."
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/_list-clean.html:158
+#: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
 msgstr "Κανένα παιχνίδι."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/_list-clean.html:61
+#: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie παιχνίδια τύπου {{ category }} ταξινομημένα ως προς Δημοτικότητα."
 
-#: app/views/discover/games/list/list.html:64
+#: app/views/discover/games/list/_list-clean.html:64
+#: app/views/discover/games/list/_list-original.html:61
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Η Δημοτικότητα εκφράζει το ενδιαφέρον της κοινότητας σε νέα παιχνίδια. Η δημοτικότητα ενός παιχνιδιού ξεκινάει υψηλά και μειώνεται με τον χρόνο. Η ανταπόκριση από την κοινότητα μειώνει τον ρυθμό μείωσης."
 
-#: app/views/discover/games/list/list.html:68
+#: app/views/discover/games/list/_list-clean.html:68
+#: app/views/discover/games/list/_list-original.html:65
 msgid "games.list.new_descriptive_html"
 msgstr "Indie παιχνίδια τύπου {{ category }} ταξινομημένα ως προς ημερομηνία δημοσίευσης."
 
-#: app/views/discover/games/list/list.html:94
+#: app/views/discover/games/list/_list-clean.html:94
+#: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Τα παιχνίδια που προστίθενται πρόσφατα δεν έχουν μετριαστεί ή ελεγχθεί από την κοινότητα. Μπορεί να ανακαλύψετε κάποιο χρυσωρυχείο ανεύρετου ταλέντου ή μπορεί να δείτε τρομαχτικά πράγματα."
 
@@ -2428,24 +2441,30 @@ msgstr "Τα παιχνίδια που προστίθενται πρόσφατα
 msgid "games.list.no_games_html"
 msgstr "Κανένα παιχνίδι δεν ταιριάζει τα φίλτρα σας."
 
-#: app/views/discover/games/list/list.html:135
+#: app/views/discover/games/list/_list-clean.html:141
+#: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Καλύτερα"
 
-#: app/views/discover/games/list/list.html:115
+#: app/views/discover/games/list/_list-clean.html:121
+#: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Προβαλλόμενα"
 
-#: app/views/discover/games/list/list.html:125
+#: app/views/discover/games/list/_list-clean.html:131
+#: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Δημοφιλή"
 
-#: app/views/discover/games/list/list.html:145
+#: app/views/discover/games/list/_list-clean.html:151
+#: app/views/discover/games/list/_list-original.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Νέα"
 
-#: app/views/discover/games/list/list.html:50
-#: app/views/discover/games/list/list.html:80
+#: app/views/discover/games/list/_list-clean.html:50
+#: app/views/discover/games/list/_list-clean.html:80
+#: app/views/discover/games/list/_list-original.html:47
+#: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
 msgstr "Η Τάση είναι το σύστημά μας για σταθμισμένη αξιολόγηση. Όλα τα παιχνίδια ξεκινάνε με ένα μέσο σκορ και η κοινότητα το μεταβάλλει προς τα πάνω ή προς τα κάτω."
 
@@ -3503,7 +3522,7 @@ msgstr "Λεπτομέρειες Σκορ - {{ game }}"
 msgid "dash.games.scores.view.remove_confirmation"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτό το σκορ;"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:57
 msgid "dash.games.trophies.form.clear_image_confirmation"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτήν την εικόνα επάθλου;"
 
@@ -3539,23 +3558,23 @@ msgstr "Σκορ για {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Έπαθλα για {{ game }}"
 
-#: app/views/discover/games/list/category/category-controller.js:66
+#: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Παιχνίδια που Δημοσιεύτηκαν στις {{ date }}"
 
-#: app/views/discover/games/list/category/category-controller.js:71
+#: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Παιχνίδια που Δημοσιεύτηκαν μεταξύ {{ dateStart }} και {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:106
+#: app/views/discover/games/list/category/category-controller.js:108
 msgid "games.list.descriptive_category"
 msgstr "παιχνίδια τύπου {{ category | lowercase }}"
 
-#: app/views/discover/games/list/category/category-controller.js:101
+#: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "εναλλακτικά παιχνίδια και άλλα περίεργα"
 
-#: app/views/discover/games/list/category/category-controller.js:97
+#: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "παιχνίδια ρόλων"
 
@@ -3695,22 +3714,22 @@ msgstr "Πιο Δημοφιλή"
 msgid "sorting.new"
 msgstr "Νεώτερα"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
 msgstr "Χάλκινο"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:34
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
 msgstr "Χρυσό"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:35
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
 msgstr "Πλατινένιο"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:33
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
 msgstr "Ασημένιο"
@@ -4574,19 +4593,19 @@ msgstr "{{ section }} Εναλλακτικά Indie Παιχνίδια"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie Παιχνίδια Ρόλων"
 
-#: app/components/game/media-bar/media-bar-directive.js:80
+#: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
 msgstr "Δεν βρέθηκε αυτή η εικόνα. Μπορεί να αφαιρέθηκε."
 
-#: app/components/game/media-bar/media-bar-directive.js:81
+#: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Ω όχι!"
 
-#: app/components/game/media-bar/media-bar-directive.js:86
+#: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
 msgstr "Δεν βρέθηκε αυτό το βίντεο. Μπορεί να αφαιρέθηκε."
 
-#: app/components/game/media-bar/media-bar-directive.js:87
+#: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Ω όχι!"
 
@@ -4622,7 +4641,8 @@ msgstr[1] "{{ $count | number }} builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:154
+#: app/views/discover/games/list/_list-clean.html:160
+#: app/views/discover/games/list/_list-original.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4785,11 +4805,13 @@ msgstr "Λήψη του {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Λήψη του soundtrack..."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/_list-clean.html:30
+#: app/views/discover/games/list/_list-original.html:27
 msgid "games.list.date_heading_small"
 msgstr "στις {{ date }}"
 
-#: app/views/discover/games/list/list.html:34
+#: app/views/discover/games/list/_list-clean.html:34
+#: app/views/discover/games/list/_list-original.html:31
 msgid "games.list.date_range_heading_small"
 msgstr "μεταξύ {{ dateStart }} και {{ dateEnd }}"
 
@@ -5253,4 +5275,20 @@ msgstr "Για ποιο λόγο το αναφέρετε;"
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
 msgstr "Download"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
+msgid "dash.games.thumbnail.crop_label"
+msgstr "Crop Current Thumbnail"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
+msgid "dash.games.thumbnail.nocrop_label"
+msgstr "Current Thumbnail"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
+msgid "dash.games.trophies.form.change_image_label"
+msgstr "Change Trophy Image"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
+msgid "dash.games.trophies.form.upload_label"
+msgstr "Trophy Image"
 
