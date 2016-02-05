@@ -5314,3 +5314,7 @@ msgstr "Change Trophy Image"
 msgid "dash.games.trophies.form.upload_label"
 msgstr "Trophy Image"
 
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:13
+msgid "dash.email_prefs.newsletter_help"
+msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+
