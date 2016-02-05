@@ -2156,12 +2156,12 @@ msgstr "If you enter a display name, it'll show up on the site instead of your u
 #: app/components/forms/dashboard/profile/profile.html:27
 #: app/components/forms/dashboard/profile/profile.html:37
 msgid "dash.profile.edit.display_name_label"
-msgstr "Display Name"
+msgstr "Nombre a mostrar"
 
 #: app/components/forms/dashboard/profile/profile.html:39
 msgid "dash.profile.edit.display_name_time_left_html"
-msgstr "You can only change your display name once a week. <br>\n"
-"\tYou have {{ duration }} left until you can change your display name again."
+msgstr "Solo podés cambiar tu «nombre a mostrar» una vez a la semana. <br>\n"
+"\tTenés que esperar {{ duration }} para volver a cambiarlo."
 
 #: app/views/dashboard/account/edit/edit-controller.js:4
 msgid "dash.profile.edit.heading"
@@ -2374,56 +2374,69 @@ msgstr "Sistemas operativos"
 msgid "games.filtering.status_label"
 msgstr "Estado"
 
-#: app/views/discover/games/list/list.html:47
+#: app/views/discover/games/list/_list-clean.html:47
+#: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
 msgstr "Juegos de {{ category }} independientes ordenados por Voltaje."
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/_list-clean.html:74
+#: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
 msgstr "Juegos que fueron publicados el {{ date }}, ordenados por Voltaje, con los mejores puntajes al comienzo."
 
-#: app/views/discover/games/list/list.html:29
+#: app/views/discover/games/list/_list-clean.html:29
+#: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
 msgstr "Juegos publicados"
 
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/_list-clean.html:77
+#: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
 msgstr "Juegos que fueron entre el {{ dateStart }} y {{ dateEnd }}, ordenados por Voltaje, con los mejores puntajes al comienzo."
 
-#: app/views/discover/games/list/list.html:33
+#: app/views/discover/games/list/_list-clean.html:33
+#: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
 msgstr "Juegos publicados"
 
-#: app/views/discover/games/list/list.html:41
+#: app/views/discover/games/list/_list-clean.html:41
+#: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
 msgstr "Juegos de {{ category }} independientes destacados en la página principal, ordenados por fecha."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/_list-clean.html:54
+#: app/views/discover/games/list/_list-original.html:51
 msgid "games.list.fresh_descriptive_html"
 msgstr "Juegos de {{ category }} independientes ordenados por frescura."
 
-#: app/views/discover/games/list/list.html:57
+#: app/views/discover/games/list/_list-clean.html:57
+#: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "La frescura indica el interés de la comunidad hacia juegos nuevos. El puntaje de la frescura de un juego empieza alto y decae con el paso del tiempo. La actividad de la comunidad puede ralentizar su decaimiento."
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/_list-clean.html:158
+#: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
 msgstr "No hay juegos."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/_list-clean.html:61
+#: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Juegos de {{ category }} independientes ordenados por popularidad."
 
-#: app/views/discover/games/list/list.html:64
+#: app/views/discover/games/list/_list-clean.html:64
+#: app/views/discover/games/list/_list-original.html:61
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "La popularidad indica el interés de la comunidad hacia juegos nuevos. El puntaje de la popularidad de un juego empieza alto y decae con el paso del tiempo. La actividad de la comunidad puede ralentizar su decaimiento."
 
-#: app/views/discover/games/list/list.html:68
+#: app/views/discover/games/list/_list-clean.html:68
+#: app/views/discover/games/list/_list-original.html:65
 msgid "games.list.new_descriptive_html"
 msgstr "Juegos de {{ category }} independientes ordenados por fecha de publicación."
 
-#: app/views/discover/games/list/list.html:94
+#: app/views/discover/games/list/_list-clean.html:94
+#: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Los juegos más nuevos no son moderados, conservados o examinados por la comunidad. Podés encontrar una mina de oro de talento no descubierto o talvez ver la caca más horripilante de tu vida."
 
@@ -2431,24 +2444,30 @@ msgstr "Los juegos más nuevos no son moderados, conservados o examinados por la
 msgid "games.list.no_games_html"
 msgstr "¡Vaya! No se encontraron juegos que coincidan con tus filtros."
 
-#: app/views/discover/games/list/list.html:135
+#: app/views/discover/games/list/_list-clean.html:141
+#: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Mejores"
 
-#: app/views/discover/games/list/list.html:115
+#: app/views/discover/games/list/_list-clean.html:121
+#: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Destacados"
 
-#: app/views/discover/games/list/list.html:125
+#: app/views/discover/games/list/_list-clean.html:131
+#: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Populares"
 
-#: app/views/discover/games/list/list.html:145
+#: app/views/discover/games/list/_list-clean.html:151
+#: app/views/discover/games/list/_list-original.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Nuevos"
 
-#: app/views/discover/games/list/list.html:50
-#: app/views/discover/games/list/list.html:80
+#: app/views/discover/games/list/_list-clean.html:50
+#: app/views/discover/games/list/_list-clean.html:80
+#: app/views/discover/games/list/_list-original.html:47
+#: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
 msgstr "El Voltaje es nuestro sistema de votos más grande. Todos los juegos son publicados con un puntaje normal y luego la comunidad se los sube o se los baja."
 
@@ -3506,7 +3525,7 @@ msgstr "Score Details - {{ game }}"
 msgid "dash.games.scores.view.remove_confirmation"
 msgstr "Are you sure you want to remove this score?"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:57
 msgid "dash.games.trophies.form.clear_image_confirmation"
 msgstr "¿Estás seguro/a que querés borrar la imagen de este trofeo?"
 
@@ -3542,23 +3561,23 @@ msgstr "Puntajes de {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Trofeos de {{ game }}"
 
-#: app/views/discover/games/list/category/category-controller.js:66
+#: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Juegos publicados el {{ date }}"
 
-#: app/views/discover/games/list/category/category-controller.js:71
+#: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Juegos publicados entre el {{ dateStart }} y {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:106
+#: app/views/discover/games/list/category/category-controller.js:108
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} games"
 
-#: app/views/discover/games/list/category/category-controller.js:101
+#: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "raros y de otras categorías"
 
-#: app/views/discover/games/list/category/category-controller.js:97
+#: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "de rol"
 
@@ -3698,22 +3717,22 @@ msgstr "Más populares"
 msgid "sorting.new"
 msgstr "Más nuevos"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
 msgstr "Bronce"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:34
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
 msgstr "Oro"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:35
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
 msgstr "Platino"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:33
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
 msgstr "Plata"
@@ -3724,7 +3743,7 @@ msgstr "Recibir correos electrónicos sobre los comentarios que seguís o en los
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:14
 msgid "dash.email_prefs.notify_comment_replies_label"
-msgstr "Comment Replies"
+msgstr "Respuestas a comentarios"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:40
 msgid "dash.email_prefs.notify_comments_help"
@@ -3732,55 +3751,55 @@ msgstr "Recibir correros electrónicos sobre los nuevos comentarios que cosas qu
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:39
 msgid "dash.email_prefs.notify_comments_label"
-msgstr "New Comments"
+msgstr "Comentarios nuevos"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:25
 msgid "dash.email_prefs.notify_followed_game_updates_help"
-msgstr "Get emails about news updates on games you're following."
+msgstr "Recibir correos electrónicos sobre actualizaciones de los juegos que estás siguiendo."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:24
 msgid "dash.email_prefs.notify_followed_game_updates_label"
-msgstr "Updates to Followed Games"
+msgstr "Actualizaciones de tus juegos seguidos"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:20
 msgid "dash.email_prefs.notify_forum_posts_help"
-msgstr "Get emails about forum posts in topics you're watching or which you created."
+msgstr "Recibir correos electrónicos sobre los temas de las publicaciones en los foros que estés siguiendo o hayas creado."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:19
 msgid "dash.email_prefs.notify_forum_posts_label"
-msgstr "Forum Posts"
+msgstr "Publicaciones en los foros"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:30
 msgid "dash.email_prefs.notify_friendships_help"
-msgstr "Get emails about incoming and accepted friend requests."
+msgstr "Recibir correos electrónicos cuando te envíen o acepten una solicitud de amistad"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:29
 msgid "dash.email_prefs.notify_friendships_label"
-msgstr "Friend Requests"
+msgstr "Solicitudes de amistad"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:50
 msgid "dash.email_prefs.notify_game_follows_help"
-msgstr "Get emails when people follow your games and find out who they are."
+msgstr "Recibir correos electrónicos cuando los usuarios sigan a tus juegos y descubrir quienes son."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:49
 msgid "dash.email_prefs.notify_game_follows_label"
-msgstr "Juegos seguidos"
+msgstr "Juegos tuyos seguidos"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:35
 msgid "dash.email_prefs.notify_private_messages_help"
-msgstr "Get emails when friends private message you and you're offline."
+msgstr "Recibir correos electrónicos cuando tus amigos te envíen un mensaje privado y estés desconectado/a."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:34
 msgid "dash.email_prefs.notify_private_messages_label"
-msgstr "Chat Messages"
+msgstr "Mensajes de chat"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:45
 msgid "dash.email_prefs.notify_ratings_help"
-msgstr "Get emails when your games have been rated--and find out what ratings they were given."
+msgstr "Recibir correos electrónicos cuando voten tus juegos y descubrir cuanto puntos te dieron."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:44
 msgid "dash.email_prefs.notify_ratings_label"
-msgstr "Game Ratings"
+msgstr "Juegos tuyos votados"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:3
 msgid "dash.funds.withdraw.page_title"
@@ -4018,7 +4037,7 @@ msgstr "Game Media"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:42
 msgid "dash.games.overview.todo_media_title"
-msgstr "Add images and videos."
+msgstr "Añadir imágenes y videos."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:78
 msgid "dash.games.overview.todo_news_progress"
@@ -4030,11 +4049,11 @@ msgstr "Post your first news update (when you have something newsworthy, of cour
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:70
 msgid "dash.games.overview.todo_songs_progress"
-msgstr "Soundtrack"
+msgstr "Banda sonora"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:69
 msgid "dash.games.overview.todo_songs_title"
-msgstr "Add the soundtrack."
+msgstr "Añadir la banda sonora"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:27
 msgid "dash.games.overview.todo_thumbnail_progress"
@@ -4146,15 +4165,15 @@ msgstr "Este lanzamiento ha sido actualizado."
 
 #: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:14
 msgid "dash.games.releases.edit.saved_growl_title"
-msgstr "Release Saved"
+msgstr "Lanzamiento guardado"
 
 #: app/components/forms/dashboard/game/release/release.html:28
 msgid "dash.games.releases.form.add_release_button"
-msgstr "Add Release"
+msgstr "Añadir lanzamiento"
 
 #: app/components/forms/dashboard/game/release/release.html:29
 msgid "dash.games.releases.form.save_release_button"
-msgstr "Save Release"
+msgstr "Guardar lanzamiento"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:28
 msgid "dash.games.releases.manage.publish_release_confirmation"
@@ -4166,7 +4185,7 @@ msgstr "The release is now active on your game page."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:37
 msgid "dash.games.releases.manage.publish_release_growl_title"
-msgstr "Release Published"
+msgstr "Lanzamiento publicado"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:89
 msgid "dash.games.releases.manage.publish_release_tooltip"
@@ -4182,7 +4201,7 @@ msgstr "The release and its builds have been removed from the package."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:69
 msgid "dash.games.releases.manage.remove_release_growl_title"
-msgstr "Release Removed"
+msgstr "Lanzamiento borrado"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:44
 msgid "dash.games.releases.manage.unpublish_release_confirmation"
@@ -4577,19 +4596,19 @@ msgstr "{{ section }} independientes de otro tipo"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} de rol independientes"
 
-#: app/components/game/media-bar/media-bar-directive.js:80
+#: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
 msgstr "No pudimos encontrar esa imagen. Talvez fue eliminada."
 
-#: app/components/game/media-bar/media-bar-directive.js:81
+#: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "¡Oh oh!"
 
-#: app/components/game/media-bar/media-bar-directive.js:86
+#: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
 msgstr "No pudimos encontrar ese video. Talvez fue eliminado."
 
-#: app/components/game/media-bar/media-bar-directive.js:87
+#: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "¡Oh oh!"
 
@@ -4625,7 +4644,8 @@ msgstr[1] "{{ $count | number }} archivos jugables"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:154
+#: app/views/discover/games/list/_list-clean.html:160
+#: app/views/discover/games/list/_list-original.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4762,11 +4782,11 @@ msgstr "Song uploads are currently capped at {{ maxFilesize | number }}MB per fi
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:34
 msgid "dash.games.news.posted_on"
-msgstr "Posted on: {{ date | date:'medium' }}"
+msgstr "Publicado el: {{ date | date:'medium' }} "
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
 msgid "dash.games.packages.manage.releases.release_title"
-msgstr "Release {{ version }}"
+msgstr "Lanzamiento {{ version }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
 msgid "dash.games.trophies.add_button"
@@ -4788,11 +4808,13 @@ msgstr "Descargando {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Descargando banda sonora..."
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/_list-clean.html:30
+#: app/views/discover/games/list/_list-original.html:27
 msgid "games.list.date_heading_small"
 msgstr "el {{ date }}"
 
-#: app/views/discover/games/list/list.html:34
+#: app/views/discover/games/list/_list-clean.html:34
+#: app/views/discover/games/list/_list-original.html:31
 msgid "games.list.date_range_heading_small"
 msgstr "entre el {{ dateStart }} y {{ dateEnd }}"
 
@@ -4936,13 +4958,13 @@ msgstr "No"
 #: app/components/forms/dashboard/game/settings/settings.html:32
 #: app/components/forms/dashboard/game/settings/settings.html:43
 msgid "forms.off"
-msgstr "Off"
+msgstr "Desactivado"
 
 #: app/components/forms/dashboard/game/settings/settings.html:20
 #: app/components/forms/dashboard/game/settings/settings.html:31
 #: app/components/forms/dashboard/game/settings/settings.html:42
 msgid "forms.on"
-msgstr "On"
+msgstr "Activado"
 
 #: app/components/forms/dashboard/game/build/build.html:162
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
@@ -5256,4 +5278,20 @@ msgstr "¿Por qué estás denunciando esto?"
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
 msgstr "Download"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
+msgid "dash.games.thumbnail.crop_label"
+msgstr "Crop Current Thumbnail"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
+msgid "dash.games.thumbnail.nocrop_label"
+msgstr "Current Thumbnail"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
+msgid "dash.games.trophies.form.change_image_label"
+msgstr "Change Trophy Image"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
+msgid "dash.games.trophies.form.upload_label"
+msgstr "Trophy Image"
 
