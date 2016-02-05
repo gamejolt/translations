@@ -2381,56 +2381,69 @@ msgstr "Operativ System"
 msgid "games.filtering.status_label"
 msgstr "Status"
 
-#: app/views/discover/games/list/list.html:47
+#: app/views/discover/games/list/_list-clean.html:47
+#: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter spänning."
 
-#: app/views/discover/games/list/list.html:74
+#: app/views/discover/games/list/_list-clean.html:74
+#: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
 msgstr "Spel som offentliggjordes den {{ date }}, sorterade efter spänning, med de bästa poängen i toppen."
 
-#: app/views/discover/games/list/list.html:29
+#: app/views/discover/games/list/_list-clean.html:29
+#: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
 msgstr "Spel Publicerade"
 
-#: app/views/discover/games/list/list.html:77
+#: app/views/discover/games/list/_list-clean.html:77
+#: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
 msgstr "Spel som publicerats mellan {{ dateStart }} och {{ dateEnd }}, sorterade efter spänning, med de bästa poängen i toppen."
 
-#: app/views/discover/games/list/list.html:33
+#: app/views/discover/games/list/_list-clean.html:33
+#: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
 msgstr "Spel Publicerade"
 
-#: app/views/discover/games/list/list.html:41
+#: app/views/discover/games/list/_list-clean.html:41
+#: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
 msgstr "Indie {{ category }} som vi har presenterat på hemsidan, sorterade efter datum."
 
-#: app/views/discover/games/list/list.html:54
+#: app/views/discover/games/list/_list-clean.html:54
+#: app/views/discover/games/list/_list-original.html:51
 msgid "games.list.fresh_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter friskhet."
 
-#: app/views/discover/games/list/list.html:57
+#: app/views/discover/games/list/_list-clean.html:57
+#: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
 msgstr "Friskhet indikerar gemenskapens intresse i de senaste spelen. Ett spels friskhets poäng börjar hög och avtar med tiden. Gemenskapsverksamhet kan bromsa förfall."
 
-#: app/views/discover/games/list/list.html:152
+#: app/views/discover/games/list/_list-clean.html:158
+#: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
 msgstr "Inga Spel."
 
-#: app/views/discover/games/list/list.html:61
+#: app/views/discover/games/list/_list-clean.html:61
+#: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter Populärast."
 
-#: app/views/discover/games/list/list.html:64
+#: app/views/discover/games/list/_list-clean.html:64
+#: app/views/discover/games/list/_list-original.html:61
 #: app/views/discover/home/home.html:160
 msgid "games.list.hotness_tooltip"
 msgstr "Populärast indikerar gemenskapens intresse i de senaste spelen. Ett spel Populärast skalan börjar hög och avtar med tiden. Gemenskapsverksamhet kan bromsa förfall."
 
-#: app/views/discover/games/list/list.html:68
+#: app/views/discover/games/list/_list-clean.html:68
+#: app/views/discover/games/list/_list-original.html:65
 msgid "games.list.new_descriptive_html"
 msgstr "Indie {{ category }} sorterade efter publiceringsdatum."
 
-#: app/views/discover/games/list/list.html:94
+#: app/views/discover/games/list/_list-clean.html:94
+#: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Nytillkomna spel är inte modererad, kurator, eller granskats av samhället. Du kan hitta en guldgruva av oupptäckt talang eller så kan du se några av de läskigaste skit av ditt liv."
 
@@ -2438,24 +2451,30 @@ msgstr "Nytillkomna spel är inte modererad, kurator, eller granskats av samhäl
 msgid "games.list.no_games_html"
 msgstr "Inga spel matchar dina filter. <b>Zoinks!</b>"
 
-#: app/views/discover/games/list/list.html:135
+#: app/views/discover/games/list/_list-clean.html:141
+#: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
 msgstr "Bästa"
 
-#: app/views/discover/games/list/list.html:115
+#: app/views/discover/games/list/_list-clean.html:121
+#: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
 msgstr "Utvalda"
 
-#: app/views/discover/games/list/list.html:125
+#: app/views/discover/games/list/_list-clean.html:131
+#: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
 msgstr "Heta"
 
-#: app/views/discover/games/list/list.html:145
+#: app/views/discover/games/list/_list-clean.html:151
+#: app/views/discover/games/list/_list-original.html:171
 msgid "games.list.sections_selector_new"
 msgstr "Nya"
 
-#: app/views/discover/games/list/list.html:50
-#: app/views/discover/games/list/list.html:80
+#: app/views/discover/games/list/_list-clean.html:50
+#: app/views/discover/games/list/_list-clean.html:80
+#: app/views/discover/games/list/_list-original.html:47
+#: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
 msgstr "Spänningen är vårat viktade riskklassificeringssystem. Alla spel börjar med en genomsnittlig poäng och samhället drar det upp eller ner."
 
@@ -3515,7 +3534,7 @@ msgstr "Poäng detaljer - {{ game }}"
 msgid "dash.games.scores.view.remove_confirmation"
 msgstr "Är du säker på att du vill ta bort den här poängen?"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:53
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:57
 msgid "dash.games.trophies.form.clear_image_confirmation"
 msgstr "Är du säker på att du vill radera denna trofé bilden?"
 
@@ -3551,23 +3570,23 @@ msgstr "Poäng för {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Troféer för {{ game }}"
 
-#: app/views/discover/games/list/category/category-controller.js:66
+#: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Spel Publicerad på {{ date }}"
 
-#: app/views/discover/games/list/category/category-controller.js:71
+#: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Spel Publicerad Mellan {{ dateStart }} och {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:106
+#: app/views/discover/games/list/category/category-controller.js:108
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} spel"
 
-#: app/views/discover/games/list/category/category-controller.js:101
+#: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "alternativa spel och andra konstigheter"
 
-#: app/views/discover/games/list/category/category-controller.js:97
+#: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "rollspel"
 
@@ -3707,22 +3726,22 @@ msgstr "Hetast"
 msgid "sorting.new"
 msgstr "Nyast"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:28
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
 msgid "trophies.bronze"
 msgstr "Brons"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:30
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:34
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:12
 msgid "trophies.gold"
 msgstr "Guld"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:31
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:35
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:13
 msgid "trophies.platinum"
 msgstr "Platina"
 
-#: app/components/forms/dashboard/game/trophy/trophy-directive.js:29
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:33
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:11
 msgid "trophies.silver"
 msgstr "Silver"
@@ -4587,19 +4606,19 @@ msgstr "{{ section }} Alternativa Indie Spel"
 msgid "games.list.page_title_rpg"
 msgstr "{{ section }} Indie RPGs"
 
-#: app/components/game/media-bar/media-bar-directive.js:80
+#: app/components/game/media-bar/media-bar-directive.js:82
 msgid "games.view.media.invalid_image_growl"
 msgstr "Det gick inte att hitta den bilden. Den kan vara borttagen"
 
-#: app/components/game/media-bar/media-bar-directive.js:81
+#: app/components/game/media-bar/media-bar-directive.js:83
 msgid "games.view.media.invalid_image_growl_title"
 msgstr "Åh nej!"
 
-#: app/components/game/media-bar/media-bar-directive.js:86
+#: app/components/game/media-bar/media-bar-directive.js:88
 msgid "games.view.media.invalid_video_growl"
 msgstr "Det gick inte att hitta videon. Den kan vara borttagen."
 
-#: app/components/game/media-bar/media-bar-directive.js:87
+#: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
 msgstr "Åh nej!"
 
@@ -4635,7 +4654,8 @@ msgstr[1] "flera builder"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
-#: app/views/discover/games/list/list.html:154
+#: app/views/discover/games/list/_list-clean.html:160
+#: app/views/discover/games/list/_list-original.html:180
 #: app/views/library/collection/collection.html:78
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
@@ -4798,11 +4818,13 @@ msgstr "Laddar ner {{ game }}..."
 msgid "game.download.soundtrack.downloading_label"
 msgstr "Laddar ner ljudspår"
 
-#: app/views/discover/games/list/list.html:30
+#: app/views/discover/games/list/_list-clean.html:30
+#: app/views/discover/games/list/_list-original.html:27
 msgid "games.list.date_heading_small"
 msgstr "på {{ date }}"
 
-#: app/views/discover/games/list/list.html:34
+#: app/views/discover/games/list/_list-clean.html:34
+#: app/views/discover/games/list/_list-original.html:31
 msgid "games.list.date_range_heading_small"
 msgstr "mellan {{ dateStart }} och {{ dateEnd }}"
 
@@ -5270,4 +5292,20 @@ msgstr "Varför anmäler du det här?"
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
 msgstr "Download"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
+msgid "dash.games.thumbnail.crop_label"
+msgstr "Crop Current Thumbnail"
+
+#: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
+msgid "dash.games.thumbnail.nocrop_label"
+msgstr "Current Thumbnail"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
+msgid "dash.games.trophies.form.change_image_label"
+msgstr "Change Trophy Image"
+
+#: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
+msgid "dash.games.trophies.form.upload_label"
+msgstr "Trophy Image"
 
