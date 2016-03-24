@@ -30,11 +30,11 @@ msgstr "Probíhá přesměrování na váš uživatelský Game Jolt panel."
 #: auth/views/auth/login/login.html:35
 #: auth/views/auth/login/login.html:36
 msgid "auth.forgot_link"
-msgstr "Zapomomněl/a jsem uživatelské jméno či heslo"
+msgstr "Zapomněl/a jsem uživatelské jméno či heslo"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Vložte e-mailovou adresu vašeho účtu a my vám na ní odešleme odpovídající přihlašovací údaje. "
+msgstr "Vložte e-mailovou adresu vašeho účtu a my vám na ni odešleme odpovídající přihlašovací údaje."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -59,7 +59,7 @@ msgstr "Přihlašovací údaje byly odeslány."
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "V případě, že nespatříte naši zprávu během deseti minut, zkontrolujte vaši spam složku, mohla tam skončit!"
+msgstr "V případě, že nedostanete náš e-mail do deseti minut, zkontrolujte vaši spam složku, mohla tam skončit!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
@@ -71,8 +71,8 @@ msgstr "Zaregistujte se!"
 
 #: auth/views/auth/join/almost/almost.html:4
 msgid "auth.join.almost.body_html"
-msgstr "<p>Předtím, než konečně budete mít šanci se na Game Jolt přihlásit, musíte potvrdit e-mailovou adresu vašeho účtu.</p>\n"
-"<p>Zaslali jsme vám e-mail s instrukcemi, jak tak učinit.</p> "
+msgstr "<p>Předtím, než se budete moci na Game Jolt přihlásit, musíte potvrdit e-mailovou adresu vašeho účtu.</p>\n"
+"<p>Zaslali jsme vám e-mail s instrukcemi, jak na to.</p> "
 
 #: auth/views/auth/join/almost/almost.html:2
 msgid "auth.join.almost.heading"
@@ -84,7 +84,7 @@ msgstr "V případě, že nespatříte naši zprávu během deseti minut, zkontr
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Mějte na vědomí, že pokud nepotvrdíte registraci vašeho účtu do jednoho týdne, bude odstraněn,"
+msgstr "Mějte na vědomí, že pokud nepotvrdíte registraci vašeho účtu do jednoho týdne, účet bude odstraněn."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
@@ -200,11 +200,11 @@ msgstr "Nové heslo"
 msgid "auth.reset_password.submit_button"
 msgstr "Obnovit heslo"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Soukromí"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Podmínky používání"
 
@@ -473,15 +473,15 @@ msgstr "Withdrawable Amount"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Send Withdrawal Request"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "Ok"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series."
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Nepoužívejte Tag"
 
@@ -542,13 +542,12 @@ msgstr "Najít pomoc ve fórech API ..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
+msgstr " <p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
 "\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
-msgstr "\n"
-"Přečtěte si více o herních API ..."
+msgstr "Přečtěte si více o herních API ..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:127
 msgid "dash.games.api.overview.scores_heading"
@@ -564,7 +563,7 @@ msgstr "The total number of scores across all of the game's scoreboards, includi
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:147
 msgid "dash.games.api.overview.scores_users_label"
-msgstr "Users w/ Scores"
+msgstr "W/ skore igroka"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:148
 msgid "dash.games.api.overview.scores_users_tooltip"
@@ -580,27 +579,27 @@ msgstr "Avg. Session Time"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:15
 msgid "dash.games.api.overview.sessions_heading"
-msgstr "Sessions"
+msgstr "Sessiji"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:19
 msgid "dash.games.api.overview.sessions_help"
-msgstr "Sessions show you who's playing your game and for how long."
+msgstr "Sessiji pokaz vam kto igrajet v vashu gru i jak dlgo"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:37
 msgid "dash.games.api.overview.sessions_time_label"
-msgstr "Total Time"
+msgstr "Celkový čas"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:57
 msgid "dash.games.api.overview.sessions_users_label"
-msgstr "Users w/ Sessions"
+msgstr "W/ sessiji polzovatelja"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:105
 msgid "dash.games.api.overview.trophies_achieved_label"
-msgstr "Trophies Achieved"
+msgstr "Dobyto trofejev"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:88
 msgid "dash.games.api.overview.trophies_exp_label"
-msgstr "Trophy EXP"
+msgstr "Opyt s trofejev"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:89
 msgid "dash.games.api.overview.trophies_exp_tooltip"
@@ -620,7 +619,8 @@ msgstr "Users w/ Trophies"
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:15
 msgid "dash.games.api.settings.game_id_label"
-msgstr "Game ID"
+msgstr "ID hry\n"
+""
 
 #: app/views/dashboard/developer/games/manage/api/settings/settings.html:4
 msgid "dash.games.api.settings.heading"
@@ -652,7 +652,7 @@ msgstr "Be sure to remove or block ads from showing in your game. We serve our o
 
 #: app/components/forms/dashboard/game/build/build.html:30
 msgid "dash.games.builds.form.browser_label"
-msgstr "Browser Type"
+msgstr "Druh Prohlížeče"
 
 #: app/components/forms/dashboard/game/build/build.html:22
 msgid "dash.games.builds.form.browser_tab"
@@ -740,7 +740,7 @@ msgstr "Data Storage Items"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:18
 msgid "dash.games.data_store.items.key_label"
-msgstr "Key"
+msgstr "Klíč"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
 msgid "dash.games.data_store.items.page_help_html"
@@ -753,12 +753,12 @@ msgstr "Learn more about data storage..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Data Preview"
+msgstr "Předešlá data"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
 msgid "dash.games.data_store.items.remove_button"
-msgstr "Remove Item"
+msgstr "Odstranit"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:37
 msgid "dash.games.data_store.items.view.data_label"
@@ -782,23 +782,23 @@ msgstr "Edit Details"
 
 #: app/components/forms/dashboard/game/game.html:38
 msgid "dash.games.form.category_label"
-msgstr "Category"
+msgstr "kategorie"
 
 #: app/components/forms/dashboard/game/game.html:40
 msgid "dash.games.form.category_placeholder"
-msgstr "Select a category..."
+msgstr "zvolte kategorii"
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
-msgstr "Description"
+msgstr "Popisek"
 
 #: app/components/forms/dashboard/game/game.html:86
 msgid "dash.games.form.dev_status_canceled"
-msgstr "Canceled"
+msgstr "Zastaveno"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
@@ -842,7 +842,7 @@ msgstr "Other Engine/Language/Tool"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why"
-msgstr "Why?"
+msgstr "Proč?"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
@@ -852,27 +852,27 @@ msgstr "This helps us create better filtering options around which tools people 
 msgid "dash.games.form.engine_placeholder"
 msgstr "Select an engine/language/tool..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Hidden"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Visibility"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "This game can't be published until the required set up steps are completed. Find them on the game overview."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Published"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
 
@@ -882,7 +882,7 @@ msgstr "Title"
 
 #: app/components/forms/dashboard/game/game.html:33
 msgid "dash.games.form.website_label"
-msgstr "Website"
+msgstr "Webová stránka"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
@@ -930,7 +930,7 @@ msgstr "Age Rating"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:82
 msgid "dash.games.maturity.alcohol_label"
-msgstr "Alcohol"
+msgstr "Alkohol"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:56
 msgid "dash.games.maturity.bloodshed_label"
@@ -942,7 +942,7 @@ msgstr "Cartoon Violence"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:93
 msgid "dash.games.maturity.drugs_label"
-msgstr "Drugs"
+msgstr "Drogy"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:34
 msgid "dash.games.maturity.fantasy_violence_label"
@@ -962,7 +962,7 @@ msgstr "Humor"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:145
 msgid "dash.games.maturity.language_label"
-msgstr "Language"
+msgstr "Jazyk"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:143
 msgid "dash.games.maturity.misc_legend"
@@ -970,7 +970,7 @@ msgstr "Miscellaneous"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:119
 msgid "dash.games.maturity.nudity_label"
-msgstr "Nudity"
+msgstr "Nahota"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
@@ -990,7 +990,7 @@ msgstr "Save Maturity Details"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
-msgstr "Sex/Nudity"
+msgstr "Sex/Nahota"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:130
 msgid "dash.games.maturity.sexual_themes_label"
@@ -1023,12 +1023,12 @@ msgstr "Media"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:22
 msgid "dash.games.media.add_button_html"
-msgstr "Add an <br>\n"
-"\t<strong>Image</strong> or <strong>Video</strong>"
+msgstr "Přidejte <br>\n"
+"\t<strong>Fotku</strong> nebo <strong>Video</strong> "
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:30
 msgid "dash.games.media.add_button_mobile"
-msgstr "Add an Image or Video"
+msgstr "Přidejte Fotku nebo Video"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:7
 msgid "dash.games.media.add.heading"
@@ -1148,11 +1148,11 @@ msgstr "Video Details"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:21
 msgid "dash.games.media.video.remove_button"
-msgstr "Remove Video"
+msgstr "Odstranit Video"
 
 #: app/views/dashboard/developer/games/manage/manage.html:45
 msgid "dash.games.music_tab"
-msgstr "Music"
+msgstr "Muzika"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:61
 msgid "dash.games.music.add_button"
@@ -1192,7 +1192,7 @@ msgstr "Remove Song"
 
 #: app/views/dashboard/developer/games/manage/manage.html:40
 msgid "dash.games.news_tab"
-msgstr "News"
+msgstr "Novinky"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
@@ -1232,17 +1232,17 @@ msgstr "View"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:42
 msgid "dash.games.news.comments"
-msgstr "Comments:"
+msgstr "Komentáře:"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "All of your game's followers will be notified, so make sure to review your news post."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Markdown allows you to easily make your news updates more dynamic and visually appealing by adding elements like headings, styled text, lists, links, images, tables, and more."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Content"
 
@@ -1272,13 +1272,13 @@ msgstr "Overview"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
 msgid "dash.games.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Poslední činnosti"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
 msgstr "No activity yet. As people interact with your game, the latest activity will show up here."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Publishing your game makes it visible on the site, so make sure your game page is lookin' good!"
@@ -1321,7 +1321,7 @@ msgstr "<p><strong>Your game page is lookin' hot!</strong> To get the most out o
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:34
 msgid "dash.games.overview.todo_done"
-msgstr "Done"
+msgstr "Hotovo"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:3
 msgid "dash.games.overview.todo_heading"
@@ -2144,11 +2144,11 @@ msgstr "Total Withdrawn"
 msgid "dash.overview.view_profile_button"
 msgstr "View Your Profile"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "Let people know about yourself!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "Profile Bio"
 
@@ -2174,7 +2174,7 @@ msgstr "Edit Your Information"
 msgid "dash.profile.edit.page_title"
 msgstr "Edit Your User Info"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Save Profile"
 
@@ -2192,72 +2192,64 @@ msgstr "You can only change your username once a week. <br>\n"
 msgid "dash.profile.edit.website_label"
 msgstr "Website"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "All-Time Best Games"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "A sampling of the highest rated games of all time."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Latest from the"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Indie game news, reviews, and opinions by people."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Followed Game News"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "The latest news from games you're following."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Followed"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "Hot Games"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "Popular indie games, sorted by Hotness."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "Hot Game News"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "The hottest indie game news directly from the developers."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Hot News"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "More News"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Play along with us!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "This Week's Best Games"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "The highest rated games published in the past 7 days."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Featured Playlists"
 
@@ -2429,7 +2421,7 @@ msgstr "Indie {{ category }} sorted by Hotness."
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
 
@@ -2490,7 +2482,7 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "News"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
@@ -2502,19 +2494,19 @@ msgstr "Overview"
 msgid "games.view.scores_tab"
 msgstr "Scores"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Plays"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Ratings"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Views"
 
@@ -3216,11 +3208,11 @@ msgstr "Are you sure you want to remove this item?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Item Details - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Add Game"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Save Game"
 
@@ -3478,11 +3470,11 @@ msgstr "Are you sure you want to remove this song?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Stats for {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Add News Update"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Save News Update"
 
@@ -4336,7 +4328,7 @@ msgstr "Play a game."
 msgid "dash.integrate.rated_game_html"
 msgstr "Rate and comment on a game."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Ratings breakdown."
 
@@ -4384,19 +4376,19 @@ msgstr "Following"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, something has prevented you from following this game."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Oh no!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Followed"
 
@@ -4412,22 +4404,22 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 msgid "library.followed.remove_game_confirmation"
 msgstr "Are you sure you want to stop following {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, something has prevented you from unfollowing this game."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh no!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "You have stopped following {{ game }} and will no longer receive notifications about it."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Unfollowed"
@@ -4684,19 +4676,19 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Help translate!"
 
@@ -4776,7 +4768,7 @@ msgstr "Complete"
 msgid "games.filtering.status_wip"
 msgstr "Work in Progress"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
@@ -4995,7 +4987,7 @@ msgstr "Yes"
 msgid "commands.settings_description"
 msgstr "Change settings."
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Open Source"
 
@@ -5102,7 +5094,7 @@ msgstr "Líbí se vám tento komentář.\n"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Send System Report"
 
@@ -5176,20 +5168,20 @@ msgstr "Vaše hry"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
-msgstr "Your Followed Games"
+msgstr "Sledované Hry"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Zavřít"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Externí odkaz pro hraní (není na této strance)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
@@ -5203,17 +5195,17 @@ msgstr "Nahlásit hru"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Nepřesné věkové hodnocení podle obsahu této hry"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
 msgid "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
-msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
+msgstr "Obsahuje spoilery a nepoužívá označení spoilerů"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "Je to urážlivé nebo ponižující"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
@@ -5237,7 +5229,7 @@ msgstr "Další nastavení"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
+msgstr "Žádné informace na stránce hry (žádné screenshoty, nedostačující popis, stránka zástupce, atd.)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
@@ -5247,7 +5239,7 @@ msgstr "Není to hra"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
 msgid "Profile or username contains explicit or sensitive material"
-msgstr "Profile or username contains explicit or sensitive material"
+msgstr "Profil nebo uživatelské jméno obsahuje urážlivý materiál"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
@@ -5266,7 +5258,7 @@ msgstr "Nahlásit hru"
 msgid "Report User"
 msgstr "Nahlásit uživatele"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Nahlášen"
 
@@ -5279,15 +5271,16 @@ msgstr "Poslat nahlášení"
 msgid "Spammer"
 msgstr "Spammer"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
+#, fuzzy
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "\n"
-"Děkujeme , že nám pomáháte Game Jolt místo pro každého. Půjdeme se podívat co nejdříve !"
+"Děkujeme , že nám pomáháte udělat Game Jolt místem pro každého. Podíváme se na to co nejdříve !"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
 msgid "Uprating / downrating"
-msgstr "Zvyšování / downrating"
+msgstr "Kladné / Záporné"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
@@ -5295,25 +5288,41 @@ msgstr "Proč jste se rozhodli to nahlásit?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Stahování"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
-msgstr "Crop Current Thumbnail"
+msgstr "Změnit Velikost"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Současný Náhled"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Změnit Obrázek Trofeje"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Obrázek Trofeje"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "Přejete si, abychom Vám zasílali emaily s novinkami, které obsahují aktualizace a oznámení o věcech, jako jsou například vlastnosti sítě, oficiální obsah a zajímavé hry?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
