@@ -199,11 +199,11 @@ msgstr "新的密碼"
 msgid "auth.reset_password.submit_button"
 msgstr "重置密碼"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "隱私權條款"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "條件"
 
@@ -471,15 +471,15 @@ msgstr "能提取的金額"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "交上提款請求"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "好"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "<strong>看來您的遊戲可能是“Five Nights At Freddy's”的同人或非官方遊戲。</strong> 因此，我們已為您的遊戲敘述加上此標簽<code>#fnaf</code>。 我們要求所有導源於該遊戲的遊戲都附有此標籤。"
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "別標籤"
 
@@ -666,11 +666,11 @@ msgstr "您的瀏覽器游戲版本將會以此螢幕尺寸展示。"
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "這允許您關閉右鼠擊的動作。如果您的游戲需要右鼠擊，放打開。"
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Disable right click?"
+msgstr "關閉右鼠擊動作？"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
@@ -741,13 +741,13 @@ msgid "dash.games.data_store.items.key_label"
 msgstr "代號"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:4
+#, fuzzy
 msgid "dash.games.data_store.items.page_help_html"
-msgstr "<p>You can use the API to store data... <em>in the cloud!</em> All stored data items will show up here.</p>\n"
-"\t<p>Currently, you can only view (and remove) globally stored data items. Stored user data items are not viewable at this time.</p>"
+msgstr "您可以使用"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:6
 msgid "dash.games.data_store.items.page_help_link"
-msgstr "Learn more about data storage..."
+msgstr "了解更多有關資料儲存"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
@@ -764,7 +764,7 @@ msgstr "項目資訊"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Stored On"
+msgstr "儲存于"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
@@ -786,11 +786,11 @@ msgstr "類別"
 msgid "dash.games.form.category_placeholder"
 msgstr "選取一個類別"
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
-msgstr "You can edit your description whenever you want and add to it over time. This is your chance to use words to entice people to play your game! A good description generally contains things like a gameplay summary, control overview, story, and credits."
+msgstr "您可在任何時候對您的游戲簡介進行修改，或在未來對其進行添加。在這您能以優美句子吸引玩家玩您的游戲！一個好的簡介通常都包含游戲概要，操控，故事及歸功。"
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "敘述"
 
@@ -800,7 +800,7 @@ msgstr "已取消"
 
 #: app/components/forms/dashboard/game/game.html:87
 msgid "dash.games.form.dev_status_canceled_help"
-msgstr "Choose this if your game is playable, but development has been canceled or is on extended hiatus. You shouldn't choose this unless your game has a playable build."
+msgstr "若您的游戲已可游玩，但開發工程已被取消或擱置，您可選擇此項目。倘若您的游戲還未推出運行軟件，請別選擇此項目。"
 
 #: app/components/forms/dashboard/game/game.html:72
 msgid "dash.games.form.dev_status_finished"
@@ -808,7 +808,7 @@ msgstr "完成版/穩定版"
 
 #: app/components/forms/dashboard/game/game.html:73
 msgid "dash.games.form.dev_status_finished_help"
-msgstr "Choose this if your game is complete. It's in a stable state and you only plan on making bug fixes or performance optimizations."
+msgstr "若您的游戲已開發完成，您可選擇此項目。游戲已到了安穩狀態并衹需要進行BUG修改或優化。"
 
 #: app/components/forms/dashboard/game/game.html:66
 msgid "dash.games.form.dev_status_label"
@@ -816,7 +816,7 @@ msgstr "開發狀態"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "You can't set your game as Finished or Canceled until you add builds."
+msgstr "在添加運行軟件前，不能把游戲標爲已完成或已取消。"
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
@@ -824,7 +824,7 @@ msgstr "研發中/不穩定"
 
 #: app/components/forms/dashboard/game/game.html:80
 msgid "dash.games.form.dev_status_wip_help"
-msgstr "Choose this if your game is not finished but you're actively developing it. Either the playable build is a work-in-progress or there is no public build yet. Consider waiting to publish your WIP game until you have something to show: images, video, a good description, and maybe even a build."
+msgstr "若您的游戲還未完成但您正在努力開發中，您可選著此項。運行軟件仍在工程中或游戲軟件還未公開。您可考慮等到有可展現的元素：圖像，視頻，好的簡介，運行軟件方推出您的開發中游戲。"
 
 #: app/components/forms/dashboard/game/game.html:45
 msgid "dash.games.form.engine_label"
@@ -844,35 +844,35 @@ msgstr "為什麼？"
 
 #: app/components/forms/dashboard/game/game.html:59
 msgid "dash.games.form.engine_other_why_tooltip"
-msgstr "This helps us create better filtering options around which tools people use."
+msgstr "這能幫助我們爲用戶提供更可靠的游戲篩選工具。"
 
 #: app/components/forms/dashboard/game/game.html:47
 msgid "dash.games.form.engine_placeholder"
 msgstr "選擇一個引擎,語言,創作工具"
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "隱藏"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "你的遊戲不會出現在公開頁面或搜尋結果中，但它仍可以被擁有直接連結的人查看"
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "能見度"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
-msgstr "This game can't be published until the required set up steps are completed. Find them on the game overview."
+msgstr "在未完成設置需求前，這游戲不能被推出。您可到游戲設置版找到相關需求。"
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "發布"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
-msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
+msgstr "您的游戲專頁將會呈現于公共列表與及搜索結果。所有人都能看見。"
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
@@ -884,7 +884,7 @@ msgstr "網站"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:18
 msgid "dash.games.header.clear_button"
-msgstr "Clear Header"
+msgstr "清除標題"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:11
 msgid "dash.games.header.heading"
@@ -892,31 +892,31 @@ msgstr "編輯標題"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
-msgstr "<p>Headers are the big, banner-like images that adorn the tops of game pages. For your header to look its best on mobile devices in portrait mode, make sure anything important is located near the center of the image.</p>"
+msgstr "<p>標題就是那個大張，幡狀，位于專頁上方的圖像。爲了確保標題圖像能在用戶手機上被完美地展現，確認一切重要的元素都位于圖像的正中央。</p>"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
-msgstr "What are the header requirements and guidelines?"
+msgstr "標題圖像的需求和條規有哪些？"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
-msgstr "Upload Header"
+msgstr "上傳標題"
 
 #: app/components/forms/dashboard/game/header/header.html:24
 msgid "dash.games.header.upload_error_label"
-msgstr "header image"
+msgstr "標題圖像"
 
 #: app/components/forms/dashboard/game/header/header.html:9
 msgid "dash.games.header.upload_label"
-msgstr "Upload New Header"
+msgstr "上傳新標題"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:5
 msgid "dash.games.hidden_message"
-msgstr "This game is currently hidden from public view."
+msgstr "這游戲目前被隱藏于公衆。"
 
 #: app/views/dashboard/developer/games/manage/game/game.html:6
 msgid "dash.games.hidden_message_unpublished"
-msgstr "We recommend keeping it hidden until you've finished filling out the details and added some media. Don't forget to unhide it when it's ready, or it won't show up in the game listings!"
+msgstr "我們推薦把游戲隱藏直到您已完成填寫細節并添加些媒體。專頁準備好了后別忘了把它公開，不然的話它不會出現在游戲列表里！"
 
 #: app/views/dashboard/developer/games/manage/manage.html:6
 msgid "dash.games.hidden_tag"
@@ -972,11 +972,11 @@ msgstr "裸體"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
-msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity rating to describe its content. Accurate ratings and details about content help gamers make informed decisions. Remember, you can always come back later and make changes.</p>"
+msgstr "␣<p>GameJolt里的所有游戲，包括開發中的，都需要個成成熟度評級來評游戲内容。準確的評級和内容細節能幫到玩家做出慎重選擇。切記，您能在任何時候到這兒進行修改。</p> "
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
-msgstr "What is a maturity rating?"
+msgstr "什麽是成熟度評級？"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:45
 msgid "dash.games.maturity.realistic_violence_label"
@@ -984,7 +984,7 @@ msgstr "寫實暴力"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:183
 msgid "dash.games.maturity.save_button"
-msgstr "Save Maturity Details"
+msgstr "保存成熟度評級細節"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:117
 msgid "dash.games.maturity.sex_nudity_legend"
@@ -999,9 +999,10 @@ msgstr "性主題"
 msgid "dash.games.maturity.sexual_violence_label"
 msgstr "性暴力"
 
+#. Would this be "毒品?"
 #: app/components/forms/dashboard/game/maturity/maturity.html:80
 msgid "dash.games.maturity.substances_legend"
-msgstr "Substances"
+msgstr "物質"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:104
 msgid "dash.games.maturity.tobacco_label"
@@ -1013,7 +1014,7 @@ msgstr "暴力"
 
 #: app/components/forms/dashboard/game/maturity/maturity.html:4
 msgid "dash.games.maturity.wip_help"
-msgstr "If you don't know what the final content of your game will be, give an educated guess. You can make changes later."
+msgstr "若您不確定游戲的最終内容是什麽，提供個理智性的猜測。您能過後對其進行修改。"
 
 #: app/views/dashboard/developer/games/manage/manage.html:30
 msgid "dash.games.media_tab"
@@ -1034,7 +1035,7 @@ msgstr "新增媒體"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:2
 msgid "dash.games.media.add.image.page_help_html"
-msgstr "<p>Add screenshots, concept drawings, photos of little clay models, fake box covers, or any other original art created for the game. Yes, even if it's a text-based game!</p>"
+msgstr "<p>添加熒幕攝像，概念圖畫，小黏土模型的照片，假盒蓋，或任何爲游戲特製的原創品。對，即使這是個字體游戲！</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image.html:4
 msgid "dash.games.media.add.image.page_help_link"
@@ -1042,8 +1043,8 @@ msgstr "了解更多有關截圖/圖片"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
-msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkthroughs, etc.</p>\n"
-"\t<p>Please don't add Let's Plays or reviews. Let the content owners do that themselves in the comments.</p>"
+msgstr "<p>添加您製作的視頻，例如預告，游戲游玩畫面，游玩經過之類的。</p>\n"
+"\t<p>請別加入游玩過程或評論。讓評論家自己把它放到留言區里。</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
@@ -1061,7 +1062,7 @@ msgstr "圖片"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:33
 msgid "dash.games.media.image.direct_link_help"
-msgstr "You can directly link to this image on your game page with the URL below."
+msgstr "您可使用以下的鏈接直接從游戲專頁連接到這張圖片。"
 
 #: app/views/dashboard/developer/games/manage/media/image/image.html:48
 msgid "dash.games.media.image.edit_heading"
@@ -1069,7 +1070,7 @@ msgstr "編輯圖片"
 
 #: app/components/forms/dashboard/game/image/image.html:29
 msgid "dash.games.media.image.form.caption_help"
-msgstr "This caption will appear when your image is viewed in full screen."
+msgstr "這文體會在圖片全屏觀看時出現。"
 
 #: app/components/forms/dashboard/game/image/image.html:26
 msgid "dash.games.media.image.form.caption_label"
@@ -1097,7 +1098,7 @@ msgstr "移除圖片"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
-msgstr "\t<p>Want people to play your game? Add some images and video to your page. We recommend adding as many images and videos as you can--even if your game is all text!</p>"
+msgstr "␣<p>想要人家游玩您的游戲？爲您的專頁添加圖片和視頻。我們推薦能添加多少文圖就添加多少文圖，即使您的游戲全是字體！</p> "
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:20
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:47
@@ -1107,7 +1108,7 @@ msgstr "影片"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:33
 msgid "dash.games.media.video.direct_link_help"
-msgstr "You can directly link to this video on your game page with the URL below."
+msgstr "您可使用以下的鏈接直接從游戲專頁連接到這視頻。"
 
 #: app/views/dashboard/developer/games/manage/media/video/video.html:44
 msgid "dash.games.media.video.edit_heading"
@@ -1131,10 +1132,10 @@ msgstr "影片網址"
 
 #: app/components/forms/dashboard/game/video/video.html:6
 msgid "dash.games.media.video.form.url_help_html"
-msgstr "We currently only support videos from Vimeo or YouTube. <br>\n"
-"\tThe URL should look something like: <br>\n"
-"\t<strong>YouTube:</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>\n"
-"\t<strong>Vimeo:</strong> http://www.vimeo.com/2619976"
+msgstr "我們目前衹支援YouTube或Vimeo視頻。<br>\n"
+"\t視頻鏈接應該如下：<br>\n"
+"\t<strong>YouTube：</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>\n"
+"\t<strong>Vimeo：</strong> http://www.vimeo.com/2619976"
 
 #: app/components/forms/dashboard/game/video/video.html:3
 msgid "dash.games.media.video.form.url_label"
@@ -1158,7 +1159,7 @@ msgstr "新增音樂"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:12
 msgid "dash.games.music.direct_link_help"
-msgstr "Link to a downloadable ZIP of your game's soundtrack."
+msgstr "游戲音響下載ZIP文件的鏈接。"
 
 #: app/components/forms/dashboard/game/song/song.html:24
 msgid "dash.games.music.form.file_error_label"
@@ -1178,11 +1179,11 @@ msgstr "遊戲音樂"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
-msgstr "<p>You haven't added any music. Upload some songs from your game! The music player's worth it, trust us!</p>"
+msgstr "<p>您尚未添加任何音樂。上傳游戲裏的背景音樂！這絕對值得，相信我們！</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:6
 msgid "dash.games.music.page_help_html"
-msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP3s of music from your game and the songs will appear on your game page in a nice little music player. Don't upload copyrighted songs without permission!</p>"
+msgstr "<p>讓人們任何時候都能享受您的游戲音樂！上傳MP3格式的音樂后，它就會出現在專頁上一個小小的音樂播放器里。請別在未獲得許可之下上傳受版權保護的歌！</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
@@ -1194,7 +1195,7 @@ msgstr "新聞"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:18
 msgid "dash.games.news.add_button"
-msgstr "Add News Update"
+msgstr "添加新聞更新"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:4
 msgid "dash.games.news.add.heading"
@@ -1202,11 +1203,11 @@ msgstr "新增新聞"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
-msgstr "News updates keep followers in the loop! Don't post so many updates that the notifications turn into spam. Post an update when something genuinely newsworthy happens."
+msgstr "新聞更新確保游戲追蹤者被更新！別發出太多的更新以致游戲通知成爲了垃圾郵件。等到有值得公佈的訊息時方發出新聞更新。"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:9
 msgid "dash.games.news.add.page_help_link"
-msgstr "Learn more about news updates..."
+msgstr "更多關於新聞更新。。。"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:50
 msgid "dash.games.news.article.edit_tab"
@@ -1214,11 +1215,11 @@ msgstr "編輯"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:14
 msgid "dash.games.news.article.heading"
-msgstr "Manage Update"
+msgstr "管理更新"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:21
 msgid "dash.games.news.article.remove_option"
-msgstr "Remove News Update"
+msgstr "移除新聞更新"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:44
 msgid "dash.games.news.article.stats_tab"
@@ -1232,15 +1233,15 @@ msgstr "觀看"
 msgid "dash.games.news.comments"
 msgstr "留言："
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
-msgstr "All of your game's followers will be notified, so make sure to review your news post."
-
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
-msgid "dash.games.news.form.content_help"
-msgstr "Markdown allows you to easily make your news updates more dynamic and visually appealing by adding elements like headings, styled text, lists, links, images, tables, and more."
+msgstr "所有游戲追蹤者都會被通知，請再三看過您的新聞貼文。"
 
 #: app/components/forms/dashboard/game/news-article/news-article.html:10
+msgid "dash.games.news.form.content_help"
+msgstr "您可添加不同元素如：標題，樣式文本，列表，鏈接，圖像，格表等等，以讓貼文更具吸引力。"
+
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "內容"
 
@@ -1254,11 +1255,11 @@ msgstr "遊戲新聞"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
-msgstr "\t<p>You haven't posted any news for this game yet. Updates keep followers informed and attract new ones!</p>"
+msgstr "␣<p>您還未發出任何游戲新聞。更新能確保追蹤者被通知并吸引新來的！</p> "
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:7
 msgid "dash.games.news.page_help"
-msgstr "Post news to let people know when something interesting happens with your game. Your game's followers will be notified."
+msgstr "發出新聞以讓他人知道游戲所發生的種種有趣事件。您的游戲追蹤者皆會被通知。"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:37
 msgid "dash.games.news.views"
@@ -1274,12 +1275,12 @@ msgstr "最近活動"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
-msgstr "No activity yet. As people interact with your game, the latest activity will show up here."
+msgstr "還未有任何活動。當人們與您的游戲進行接觸，最后的活動hi出現于此。"
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
-msgstr "Publishing your game makes it visible on the site, so make sure your game page is lookin' good!"
+msgstr "推出您的游戲會使其被公佈于網站，所以記得確保您的游戲專頁看起來很完善！"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:161
 msgid "dash.games.overview.stats_comments"
@@ -1299,7 +1300,7 @@ msgstr "無"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:126
 msgid "dash.games.overview.stats_plays"
-msgstr "Plays/Downloads"
+msgstr "游玩/下載"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:136
 msgid "dash.games.overview.stats_rating"
@@ -1310,12 +1311,13 @@ msgid "dash.games.overview.stats_ratings"
 msgstr "評分"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:116
+#, fuzzy
 msgid "dash.games.overview.stats_views"
-msgstr "Views"
+msgstr "次数"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:20
 msgid "dash.games.overview.todo_additional_html"
-msgstr "<p><strong>Your game page is lookin' hot!</strong> To get the most out of Game Jolt, consider taking these additional steps.</p>"
+msgstr "<p><strong>您的游戲專頁看起來很棒！</strong>若您想用盡一切GameJolt所提供的設備，您可考慮考慮這些多餘的步驟。</p>"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:34
 msgid "dash.games.overview.todo_done"
@@ -1323,7 +1325,7 @@ msgstr "完成"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:3
 msgid "dash.games.overview.todo_heading"
-msgstr "Set Up Steps"
+msgstr "設置步驟"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:39
 msgid "dash.games.overview.todo_highly_recommended"
@@ -1331,8 +1333,8 @@ msgstr "強烈推薦"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
 msgid "dash.games.overview.todo_info_builds_processing_html"
-msgstr "<strong>You still have builds that are being processed.</strong>\n"
-"\tThey won't show on your game page until they're finished processing."
+msgstr "<strong>您有些運行軟件仍在處理中。</strong>\n"
+"\t它們在處理完成前不會出現在游戲專頁上。"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:94
 msgid "dash.games.overview.todo_info_publish_button"
@@ -1340,7 +1342,7 @@ msgstr "發布遊戲"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:75
 msgid "dash.games.overview.todo_info_ready_html"
-msgstr "<strong>Your game page is ready to publish to the site for all to see!</strong>"
+msgstr "<strong>您的游戲專頁已準備妥善，可以把它推出到網站讓所有人觀看咯！</strong>"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:5
 msgid "dash.games.overview.todo_lead_html"
@@ -1356,32 +1358,32 @@ msgstr "需求"
 
 #: app/views/dashboard/developer/games/manage/manage.html:35
 msgid "dash.games.packages_tab"
-msgstr "Builds & Files"
+msgstr "運行軟件及文件"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:45
 #: app/views/dashboard/developer/games/manage/packages/packages.html:76
 msgid "dash.games.packages.add_package_button"
-msgstr "Add Package"
+msgstr "添加文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:2
 msgid "dash.games.packages.add.heading"
-msgstr "Add Package"
+msgstr "添加文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit.html:2
 msgid "dash.games.packages.edit.heading"
-msgstr "Edit Package"
+msgstr "修改文件包"
 
 #: app/components/forms/dashboard/game/package/package.html:39
 msgid "dash.games.packages.form.description_change_button"
-msgstr "Enter Description"
+msgstr "輸入簡介"
 
 #: app/components/forms/dashboard/game/package/package.html:34
 msgid "dash.games.packages.form.description_help_html"
-msgstr "This should be filled in <em>only if it's needed</em>, if the name alone isn't enough to distinguish this package from other packages."
+msgstr "若文件包名稱不足以把它從其他文件包分類，而<em>真的有需要</em>才填寫。"
 
 #: app/components/forms/dashboard/game/package/package.html:33
 msgid "dash.games.packages.form.description_label"
-msgstr "Package Description"
+msgstr "文件包簡介"
 
 #: app/components/forms/dashboard/game/package/package.html:18
 msgid "dash.games.packages.form.title_change_button"
@@ -1389,39 +1391,39 @@ msgstr "更改名稱"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
-msgstr "This is the name that shows up on your game page above the Download/Play button. For your main package, use the title of your game."
+msgstr "這名稱將出現于專頁的下載/游玩按鈕上方。請使用游戲名稱做爲主要文件包的名稱。"
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
-msgstr "Package Name"
+msgstr "文件包名稱"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:60
 msgid "dash.games.packages.heading"
-msgstr "Game Packages"
+msgstr "游戲文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:34
 msgid "dash.games.packages.manage.edit_package_tab"
-msgstr "Edit Package"
+msgstr "修改文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:7
 msgid "dash.games.packages.manage.heading"
-msgstr "Manage Package"
+msgstr "管理文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:28
 msgid "dash.games.packages.manage.releases_tab"
-msgstr "Releases"
+msgstr "版本"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:16
 msgid "dash.games.packages.manage.releases.add_release_button"
-msgstr "Add New Release"
+msgstr "添加新版本"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
 msgid "dash.games.packages.manage.releases.builds_count_none"
-msgstr "No builds yet."
+msgstr "沒有運行軟件"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
 msgid "dash.games.packages.manage.releases.heading"
-msgstr "Releases"
+msgstr "版本"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
 msgid "dash.games.packages.manage.releases.hidden_tag"
@@ -1429,19 +1431,19 @@ msgstr "隱藏"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
-msgstr "This release is hidden and won't show up on your game page until published."
+msgstr "這版本推出前將會被隱藏且不會出現在專頁上。"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
 msgid "dash.games.packages.manage.releases.no_releases_html"
-msgstr "<p>You haven't added any releases to this package yet.</p>"
+msgstr "<p>您還未爲這文件包添加任何版本。</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
 msgid "dash.games.packages.manage.releases.page_help_html"
-msgstr "\t<p>Releases represent new versions of your package. If you update a package, you should add a release. You can group all of the new builds for different platforms into a single new release.</p>"
+msgstr "␣<p>文件包能有著不同的版本。若您想對文件包進行更新，您應該添加新版本。您可把所有運行于不同平臺的游戲軟件歸類到一個新版本。</p> "
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:6
 msgid "dash.games.packages.manage.releases.page_help_link"
-msgstr "Learn more about releases..."
+msgstr "更多關於版本。。。"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
 msgid "dash.games.packages.manage.releases.published_tag"
@@ -1449,38 +1451,38 @@ msgstr "已發布"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
 msgid "dash.games.packages.manage.releases.published_tooltip"
-msgstr "This release is published and can be accessed from your game page."
+msgstr "這版本已被推出并可從專頁上獲得。"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:18
 msgid "dash.games.packages.manage.remove_package_button"
-msgstr "Remove Package"
+msgstr "移除文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:9
 msgid "dash.games.packages.nav_heading"
-msgstr "Packages"
+msgstr "文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/packages.html:71
 msgid "dash.games.packages.no_packages_html"
-msgstr "<p>You haven't added any packages yet.</p>"
+msgstr "<p>您還未添加任何文件包</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:6
 #: app/views/dashboard/developer/games/manage/packages/packages.html:64
 msgid "dash.games.packages.page_help_html"
-msgstr "<p>Packages are how you organize and distribute your game's builds and other files.</p>\n"
-"\t<p>Your main package should contain the builds you want people to play. You can create new packages to contain additional files, such as level editors, art packs, expansions, and other DLC.</p>"
+msgstr "<p>文件包可幫助您更容易地管理并發送游戲運行軟件及其他文件。</p>\n"
+"\t<p>您的主要文件包里應該包含人們游玩的游戲軟件。您可創建新的文件包以加入附加文件，例如：等級編輯，畫作包，游戲擴展，及其他下載内容。</p> "
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:8
 #: app/views/dashboard/developer/games/manage/packages/packages.html:66
 msgid "dash.games.packages.page_help_link"
-msgstr "Learn more about packages..."
+msgstr "更多關於文件包。。。"
 
 #: app/views/dashboard/developer/games/manage/manage.html:9
 msgid "dash.games.published_tag"
-msgstr "Published"
+msgstr "已推出"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:237
 msgid "dash.games.releases.builds.add_build_button"
-msgstr "Add New Build"
+msgstr "添加運行軟件"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:26
 msgid "dash.games.releases.builds.downloads_label"
@@ -1492,11 +1494,11 @@ msgstr "編輯"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:152
 msgid "dash.games.releases.builds.extra_files_heading"
-msgstr "Supplemental Files"
+msgstr "補充文件"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:195
 msgid "dash.games.releases.builds.extra_files_tab"
-msgstr "Supplemental Files"
+msgstr "補充文件"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:11
 msgid "dash.games.releases.builds.extra_files.form.file_error_label"
@@ -1508,11 +1510,11 @@ msgstr "上傳檔案"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:15
 msgid "dash.games.releases.builds.extra_files.form.include_archive_help"
-msgstr "If you're not sure what this means, you should probably leave it on."
+msgstr "若您不確定這是什麽，或許您應該保留讓他開著。"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:14
 msgid "dash.games.releases.builds.extra_files.form.include_archive_label"
-msgstr "Include in archive string?"
+msgstr "包括壓縮里字符"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:25
 msgid "dash.games.releases.builds.extra_files.form.submit_button"
@@ -1520,28 +1522,28 @@ msgstr "上傳檔案"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:14
 msgid "dash.games.releases.builds.extra_files.include_archive_label"
-msgstr "Include in archive?"
+msgstr "包括壓縮里"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:3
 msgid "dash.games.releases.builds.extra_files.info_html"
-msgstr "<p>You can upload any additional files that your applet needs here.</p>"
+msgstr "<p>您可上傳任何小程序所需的附加文件</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
 msgid "dash.games.releases.builds.heading"
-msgstr "Builds"
+msgstr "運行軟件"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:66
 msgid "dash.games.releases.builds.incomplete_tag"
-msgstr "Action Required"
+msgstr "行動需要"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:185
 msgid "dash.games.releases.builds.launch_options_tab"
-msgstr "Launch Options"
+msgstr "運行選擇"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
 msgid "dash.games.releases.builds.launch_options.archive_info_html"
-msgstr "<p><strong>We've detected that this build is an archive file.</strong></p>\n"
-"\t<p>Tell us the path to the executable file for each platform you've chosen so we can launch it automatically.</p>"
+msgstr "<p><strong>我們檢測到這游戲軟件包是個壓縮檔案。</strong></p>\n"
+"\t<p>請告訴我們達到運行軟件的路綫以便我們能自動把它運行。</p> "
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
@@ -1549,15 +1551,15 @@ msgstr "取消"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:8
 msgid "dash.games.releases.builds.launch_options.file_selector.filter_placeholder"
-msgstr "Filter files..."
+msgstr "篩選文件。。。"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:2
 msgid "dash.games.releases.builds.launch_options.file_selector.heading"
-msgstr "Select Executable File"
+msgstr "選擇運行軟件"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
 msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
-msgstr "<p>Oh no! We didn't find any executable files for this platform in the archive.</p>"
+msgstr "<p>不好了！我們在壓縮檔案内沒找到任何適合這平臺的運行軟件。</p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
 msgid "dash.games.releases.builds.launch_options.form.file_error_label"
@@ -1569,7 +1571,7 @@ msgstr "設定啟動選項"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:1
 msgid "dash.games.releases.builds.launch_options.incomplete_alert_html"
-msgstr "<p>We don't know how to auto-run this build! We need you to tell us how to launch it before it can show up on your game page.</p>"
+msgstr "<p>我們不知道如何自動運行這軟件！在文件出現在專頁上前，您得告訴我們如何運行該文件</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
 #, fuzzy
@@ -1578,12 +1580,12 @@ msgstr "了解更多有關啟動選項"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:28
 msgid "dash.games.releases.builds.launch_options.standalone_info_html"
-msgstr "<p><strong>We've detected that this build is a standalone executable file.</strong></p>\n"
-"\t<p>It can be launched automatically.</p>"
+msgstr "<p><strong>我們檢測到這是個獨立式運行軟件。</strong></p>\n"
+"\t<p>它能被自動運行。</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:12
 msgid "dash.games.releases.builds.no_builds_html"
-msgstr "<p>You haven't added any builds to this release yet.</p>"
+msgstr "<p>您還未爲文件包添加任何運行軟件。</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:56
 msgid "dash.games.releases.builds.other_downloadable_tag"
@@ -1591,58 +1593,58 @@ msgstr "其他可下載內容"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:9
 msgid "dash.games.releases.builds.page_help_link"
-msgstr "Learn more about builds and files..."
+msgstr "更多關於運行軟件及文件。。。"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:148
 msgid "dash.games.releases.builds.params_heading"
-msgstr "Params"
+msgstr "參數"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:190
 msgid "dash.games.releases.builds.params_tab"
-msgstr "Params"
+msgstr "參數"
 
 #: app/components/forms/dashboard/game/build/param/param.html:18
 msgid "dash.games.releases.builds.params.form.add_parameter_button"
-msgstr "Add Parameter"
+msgstr "添加參數"
 
 #: app/components/forms/dashboard/game/build/param/param.html:3
 msgid "dash.games.releases.builds.params.form.parameter_label"
-msgstr "Parameter"
+msgstr "參數"
 
 #: app/components/forms/dashboard/game/build/param/param.html:11
 msgid "dash.games.releases.builds.params.form.value_label"
-msgstr "Value"
+msgstr "值"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/params/_params.html:3
 msgid "dash.games.releases.builds.params.info_html"
-msgstr "<p>You can upload any additional files that your applet needs here.</p>"
+msgstr "<p>您可上傳任何小程序所需的附加文件。</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:168
 msgid "dash.games.releases.builds.processing_message_html"
-msgstr "<strong>Processing build.</strong> It will become available in this release as soon as we're done."
+msgstr "<strong>運行文件處理中。</strong>處理結束后，它就會被添加到這版本。"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:211
 msgid "dash.games.releases.builds.remove_build_button"
-msgstr "Remove Build"
+msgstr "移除運行文件"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:84
 msgid "dash.games.releases.builds.standalone_tag"
-msgstr "Standalone Executable"
+msgstr "獨立式運行軟件"
 
 #: app/views/dashboard/developer/games/manage/packages/release/edit/edit.html:1
 msgid "dash.games.releases.edit.heading"
-msgstr "Edit Release"
+msgstr "修改版本"
 
 #: app/components/forms/dashboard/game/release/release.html:11
 msgid "dash.games.releases.form.version_number_help_html"
 msgstr "<p>\n"
-"\t\tVersion numbers are how you label releases.<br>\n"
-"\t\tNumbering should follow the format <code>MAJOR.MINOR.PATCH</code>.\n"
-"\t</p>"
+"\t\t您可使用版本編號爲新版本進行標記。<br>\n"
+"\t\t編號應根據<code>大.小.微</code>.\n"
+"\t</p> "
 
 #: app/components/forms/dashboard/game/release/release.html:13
 msgid "dash.games.releases.form.version_number_help_link"
-msgstr "Learn more about choosing a good version number..."
+msgstr "了解更多關於選擇一個好的版本編號"
 
 #: app/components/forms/dashboard/game/release/release.html:8
 msgid "dash.games.releases.form.version_number_label"
@@ -1650,35 +1652,35 @@ msgstr "版本資訊"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:78
 msgid "dash.games.releases.manage.add_release_button"
-msgstr "Add New Release"
+msgstr "添加新版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:5
 msgid "dash.games.releases.manage.breadcrumb_package"
-msgstr "Package"
+msgstr "文件包"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:12
 msgid "dash.games.releases.manage.breadcrumb_release"
-msgstr "Release"
+msgstr "版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:103
 msgid "dash.games.releases.manage.builds_tab"
-msgstr "Builds"
+msgstr "運行文件"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:120
 msgid "dash.games.releases.manage.edit_release_tab"
-msgstr "Edit Release"
+msgstr "修改版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:26
 msgid "dash.games.releases.manage.heading"
-msgstr "Manage Release"
+msgstr "管理版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:92
 msgid "dash.games.releases.manage.publish_release_button"
-msgstr "Publish Release"
+msgstr "推出版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:40
 msgid "dash.games.releases.manage.remove_release_button"
-msgstr "Remove Release"
+msgstr "移除版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:112
 msgid "dash.games.releases.manage.stats_tab"
@@ -1686,15 +1688,15 @@ msgstr "統計"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:65
 msgid "dash.games.releases.manage.switch_release_heading"
-msgstr "Switch Release"
+msgstr "切換版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:36
 msgid "dash.games.releases.manage.unpublish_release_button"
-msgstr "Hide Release"
+msgstr "隱藏版本"
 
 #: app/views/dashboard/developer/games/manage/packages/release/stats/stats.html:1
 msgid "dash.games.releases.stats.heading"
-msgstr "Stats"
+msgstr "統計"
 
 #: app/views/dashboard/developer/games/manage/manage.html:67
 msgid "dash.games.remove_game_button"
@@ -1702,11 +1704,11 @@ msgstr "移除遊戲"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:35
 msgid "dash.games.scoreboard.form.asc_help"
-msgstr "Scores with lower values are ranked better."
+msgstr "分數值較低的被排列得比較高"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:34
 msgid "dash.games.scoreboard.form.asc_label"
-msgstr "Ascending"
+msgstr "順序"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:28
 msgid "dash.games.scoreboard.form.desc_help"
@@ -1714,7 +1716,7 @@ msgstr "較佳的得分數會有較高的排名"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:27
 msgid "dash.games.scoreboard.form.desc_label"
-msgstr "Descending"
+msgstr "逆序"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:8
 msgid "dash.games.scoreboard.form.description_label"
@@ -1722,7 +1724,7 @@ msgstr "敘述"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:23
 msgid "dash.games.scoreboard.form.direction_label"
-msgstr "Sort Direction"
+msgstr "設置次序"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:14
 msgid "dash.games.scoreboard.form.guest_help"
@@ -1746,7 +1748,7 @@ msgstr "只顯示該用戶的最佳得分?"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:18
 msgid "dash.games.scoreboard.form.unique_label"
-msgstr "Unique Scores"
+msgstr "獨特分數"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:113
 msgid "dash.games.scoreboards.add_button"
@@ -1754,11 +1756,11 @@ msgstr "加入得分榜"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:65
 msgid "dash.games.scoreboards.asc_tag"
-msgstr "Ascending"
+msgstr "順序"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:72
 msgid "dash.games.scoreboards.desc_tag"
-msgstr "Descending"
+msgstr "逆序"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:51
 msgid "dash.games.scoreboards.guest_tag"
@@ -1770,8 +1772,8 @@ msgstr "得分榜"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:4
 msgid "dash.games.scoreboards.page_help_html"
-msgstr "\t<p>The API allows you to add multiple customized scoreboards, with control over sorting options and guest scoring, and the ability to attach extra hidden data to scores.</p>\n"
-"\t<p>The primary scoreboard is the one that will show by default on your game's page. Set a new primary by dragging a scoreboard into the first slot.</p>"
+msgstr "␣<p>這應用程式界面讓您添加數個定製的分數表，并控管列表方式及顧客分數，以及爲分數附加隱藏數據。</p>\n"
+"\t<p>被展示于游戲專頁上的是主要分數表。把另個分數表移到第一格即可把它設爲主要分數表。</p> "
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:6
 msgid "dash.games.scoreboards.page_help_link"
@@ -1791,11 +1793,11 @@ msgstr "觀看得分數"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:35
 msgid "dash.games.scoreboards.table_id_label"
-msgstr "Table ID"
+msgstr "表ID"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:58
 msgid "dash.games.scoreboards.unique_tag"
-msgstr "Unique Scores"
+msgstr "獨特分數"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:15
 msgid "dash.games.scores.goto_user_profile"
@@ -1816,7 +1818,7 @@ msgstr "觀看得分數"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:16
 msgid "dash.games.scores.list.no_scores_html"
-msgstr "<p>This table lacks scores, alas.</p>"
+msgstr "<p>這表缺乏分數，昵稱。</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
@@ -1832,7 +1834,7 @@ msgstr "刪除得分數"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:7
 msgid "dash.games.scores.list.sort_label"
-msgstr "Sort Value"
+msgstr "安排數值"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:6
 msgid "dash.games.scores.list.user_label"
@@ -1844,15 +1846,15 @@ msgstr "觀看得分數"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:10
 msgid "dash.games.scores.user.list.heading_for"
-msgstr "for"
+msgstr "爲"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:12
 msgid "dash.games.scores.user.list.heading_on"
-msgstr "on"
+msgstr "在"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:27
 msgid "dash.games.scores.user.list.no_scores_html"
-msgstr "<p>The user has no scores on this scoreboard.</p>"
+msgstr "<p>這用戶在分數表上沒有分數。</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:21
 msgid "dash.games.scores.user.list.remove_all_button"
@@ -1860,7 +1862,7 @@ msgstr "刪除全部"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:10
 msgid "dash.games.scores.view_user_scores"
-msgstr "View All Scores For User"
+msgstr "觀看這用戶的所有分數"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:72
 msgid "dash.games.scores.view.data_label"
@@ -2143,11 +2145,11 @@ msgstr "Total Withdrawn"
 msgid "dash.overview.view_profile_button"
 msgstr "觀看您的個人資料"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "讓人們認識你!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "個人資訊"
 
@@ -2173,7 +2175,7 @@ msgstr "編輯您的資料"
 msgid "dash.profile.edit.page_title"
 msgstr "編輯您的使用者資訊"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "儲存個人資訊"
 
@@ -2192,73 +2194,65 @@ msgstr "您一個禮拜只能更改您的名字一次。\n"
 msgid "dash.profile.edit.website_label"
 msgstr "網站"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "All-Time Best Games"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "A sampling of the highest rated games of all time."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "最新來自"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Indie game news, reviews, and opinions by people."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "已追蹤的遊戲訊息"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "The latest news from games you're following."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Followed"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "熱門遊戲"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "由人氣排名的熱門獨立遊戲"
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "熱門遊戲新聞"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 #, fuzzy
 msgid "discover.home.hot_news_help"
 msgstr "來自開發人員的最熱門獨立遊戲界消息"
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "熱門新聞"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "更多新聞"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Play along with us!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "這週最棒的遊戲。"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "7天內的最高評價遊戲"
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "精選清單"
 
@@ -2430,7 +2424,7 @@ msgstr "Indie {{ category }} sorted by Hotness."
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
 
@@ -2491,7 +2485,7 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "新消息"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "通知"
 
@@ -2503,19 +2497,19 @@ msgstr "總覽"
 msgid "games.view.scores_tab"
 msgstr "得分"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "遊玩"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "無"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "評分"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "觀看"
 
@@ -3214,11 +3208,11 @@ msgstr "您確定要移除此物品?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Item Details - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "新增遊戲"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "儲存遊戲"
 
@@ -3476,11 +3470,11 @@ msgstr "你確定要移除此首音樂?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Stats for {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Add News Update"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Save News Update"
 
@@ -4336,7 +4330,7 @@ msgstr "進行一場遊戲"
 msgid "dash.integrate.rated_game_html"
 msgstr "評分這款遊戲並在上面留言"
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Ratings breakdown."
 
@@ -4384,19 +4378,19 @@ msgstr "追蹤中"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, something has prevented you from following this game."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "不好了!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Followed"
 
@@ -4412,22 +4406,22 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 msgid "library.followed.remove_game_confirmation"
 msgstr "Are you sure you want to stop following {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, something has prevented you from unfollowing this game."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "不好了!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "You have stopped following {{ game }} and will no longer receive notifications about it."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Unfollowed"
@@ -4674,19 +4668,19 @@ msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "遊戲多到漫出來啦!!!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "加入翻譯計畫"
 
@@ -4766,7 +4760,7 @@ msgstr "已完成"
 msgid "games.filtering.status_wip"
 msgstr "開發中"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
@@ -4983,7 +4977,7 @@ msgstr "是"
 msgid "commands.settings_description"
 msgstr "更改設定"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Open Source"
 
@@ -5081,7 +5075,7 @@ msgstr "你對此留言表示喜歡"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Send System Report"
 
@@ -5151,7 +5145,7 @@ msgstr "Installed Games"
 
 #: app/views/library/collection/collection-controller.js:92
 msgid "library.collection.developer_owner_page_title"
-msgstr "Your Games"
+msgstr "您的遊戲"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
@@ -5161,9 +5155,9 @@ msgstr "Your Followed Games"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
-msgstr "Close"
+msgstr "關閉"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
@@ -5173,11 +5167,11 @@ msgstr "External link to play the game (not uploaded on site)"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "遊戲不屬於這位開發者"
 
 #: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "報告遊戲"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
@@ -5202,7 +5196,7 @@ msgstr "It is hate speech or contains graphic content"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:49
 msgid "It is pornographic or contains sexually explicit material"
-msgstr "It is pornographic or contains sexually explicit material"
+msgstr "包含色情或露骨素材"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:7
@@ -5211,7 +5205,7 @@ msgstr "It is spam or unwanted commercial content"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:117
 msgid "More Options"
-msgstr "More Options"
+msgstr "其他選項"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
@@ -5230,7 +5224,7 @@ msgstr "Profile or username contains explicit or sensitive material"
 
 #: app/views/profile/profile.html:163
 msgid "profile.report_user_button"
-msgstr "Report user"
+msgstr "報告用戶"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:137
 #: lib/gj-lib-client/components/report/modal/modal.html:2
@@ -5239,26 +5233,26 @@ msgstr "Report Comment"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:3
 msgid "Report Game"
-msgstr "Report Game"
+msgstr "報告遊戲"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:4
 msgid "Report User"
-msgstr "Report User"
+msgstr "報告用戶"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Reported"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
-msgstr "Send Report"
+msgstr "發送報告"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:67
 msgid "Spammer"
 msgstr "Spammer"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 
@@ -5273,7 +5267,7 @@ msgstr "Why are you reporting this?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "下載"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
@@ -5289,9 +5283,25 @@ msgstr "Change Trophy Image"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "獎杯照片"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
 msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
