@@ -14,18 +14,19 @@ msgstr "<p>De authorisatie code is niet juist.</p>\n"
 "\t<p>Controleer of je de juiste URL gebruikt hebt.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
+#, fuzzy
 msgid "auth.authorize.invalid.heading"
-msgstr "Authorisatie error"
+msgstr "Ongeldige autorisatie"
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
 msgid "auth.authorize.invalid.page_title"
-msgstr "Authorisatiecode ongeldig"
+msgstr "Ongeldige autorisatie code"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "We verwijzen je nu door naar je Gamejolt Dashboard."
+msgstr "We verwijzen je door naar je Game Jolt Dashboard."
 
 #. Veel sites zeggen hier ook gewoon "Gebruikersnaam of wachtwoord vergeten" (en ik denk dat dat in dit geval nog duidelijker is ook. (Many sites just say "^^^quote above^^^, and I think that will be more clear too).
 #: auth/views/auth/login/login.html:35
@@ -35,7 +36,7 @@ msgstr "Inloggegevens opvragen"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Voer het e-mailadres in waarmee je geregistreerd hebt en we sturen er de inloggegevens naar toe."
+msgstr "Voer het e-mailadres in waarmee je geregistreerd hebt en we sturen de inloggegevens naar toe."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
@@ -60,11 +61,11 @@ msgstr "Inlog gegevens verzonden"
 
 #: auth/views/auth/forgot/sent/sent.html:5
 msgid "auth.forgot.sent.spam"
-msgstr "Heb je de e-mail niet binnen 10 minuten ontvangen, check dan je SPAM map, deze heeft de mail waarschijnlijk opgegeten!"
+msgstr "Als je deze E-Mail binnen 10 minuten niet kan vinden, check dan a.u.b. je spam folder."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
 msgid "auth.forgot.submit_button"
-msgstr "Gegevens Verzenden"
+msgstr "Genes ophalen"
 
 #: auth/views/auth/login/login.html:29
 msgid "auth.join_link"
@@ -99,7 +100,7 @@ msgstr "Registreer met Facebook"
 #: auth/components/forms/join/join.html:25
 #: auth/components/forms/join/join.html:30
 msgid "auth.join.password_label"
-msgstr "Wachtwoord"
+msgstr "20spider02"
 
 #: auth/components/forms/join/join.html:39
 msgid "auth.join.submit_button"
@@ -200,11 +201,11 @@ msgstr "Nieuw Wachtwoord"
 msgid "auth.reset_password.submit_button"
 msgstr "Wachtwoord Opnieuw Instellen"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Privacy"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Voorwaarden"
 
@@ -472,15 +473,15 @@ msgstr "Hoevelheid betaalbaar"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Verzoek Uitbetaling"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "Ok"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "<strong>Het lijkt er op dat je game een Five Nights at Freddy's fan game is.</strong> We hebben de tag <code>#fnaf</code> toegevoegd aan de omschrijving. Deze is verplicht voor alle afleidingen uit de  Five Nights at Freddy's serie."
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Niet Taggen"
 
@@ -789,11 +790,11 @@ msgstr "Categorie"
 msgid "dash.games.form.category_placeholder"
 msgstr "Select een categorie..."
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Je kunt de beschrijving op elk moment bewerken of bijwerken met nieuwe informatie. Dit is de plek om mensen over te halen om je game te spelen! Een goede omschrijving bevat meestal dingen zoals gameplay samenvatting, besturings overzicht, verhaal, en credits."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Omschrijving"
 
@@ -853,27 +854,27 @@ msgstr "Dit helpt ons betere opties voor sorteren te maken met betrekking tot to
 msgid "dash.games.form.engine_placeholder"
 msgstr "Selecteer een engine/programmeertaal/tool..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Verborgen"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Je game wordt niet weergegeven in de publieke lijsten of de zoekresultaten. De game is nog wel zichtbaar voor iedereen met een directe link naar de game pagina."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Zichtbaarheid"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "De game kan niet gepubliceerd worden voordat je de belangrijke stappen voor publiceren hebt uitgevoerd. Je vindt deze in het game overzicht."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Gepubliceerd"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Jouw game pagina wordt weergegeven in de publieke lijsten en zoekresultaten. De game is zichtbaar voor iedereen."
 
@@ -1235,15 +1236,15 @@ msgstr "Bekijken"
 msgid "dash.games.news.comments"
 msgstr "Commentaren:"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "Al je volgers worden op de hoogte gebracht, lees de update nog een keer goed door."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Markdown zorgt er voor dat je de nieuwsupdate visueel aantrekkelijker kunt maken met koptekst, rich tekst, lijsten, links, afbeeldingen, tabellen en meer."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Inhoud"
 
@@ -1279,7 +1280,7 @@ msgstr "Laatste Activiteit"
 msgid "dash.games.overview.activity_none_html"
 msgstr "Nog geen activiteit. Wanneer gebruikers je game spelen of de pagina bekijken zal de activiteit hier worden weergegeven."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Publiceren maakt je game zichtbaar op de site voor iedereen, zorg dat je game pagina er strak uit ziet!"
@@ -2145,11 +2146,11 @@ msgstr "Totaal Opgenomen"
 msgid "dash.overview.view_profile_button"
 msgstr "Bekijk je profiel"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "Vertel wat over jezelf!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "Profiel Biografie"
 
@@ -2175,7 +2176,7 @@ msgstr "Bewerk je informatie"
 msgid "dash.profile.edit.page_title"
 msgstr "Bewerk gebruikers informatie"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Profiel Opslaan"
 
@@ -2193,72 +2194,64 @@ msgstr "Je kunt je gebruikersnaam maar eens per 7 dagen wijzigen. <br>\n"
 msgid "dash.profile.edit.website_label"
 msgstr "Website"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "Beste Games Aller Tijden"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "Een overzicht van de beste games ooit op Gamejolt."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Latest from the"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Indie game news, reviews, and opinions by people."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Nieuws Gevolgde Games"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "Het laatste nieuws van de Games die je volgt."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Volgend"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "Populairste Games"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "Hoog gewaarderde Indie Games, gesorteerd op populariteit."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "Populaire Games Nieuws"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "Nieuw van populaire games, direct van de ontwikkelaar."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Populair Nieuws"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "Meer Nieuws"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Speel met ons mee!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "Beste Games deze week"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "De best beoordeelde games in de afgelopen 7 dagen."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Uitgelichte playlists"
 
@@ -2430,7 +2423,7 @@ msgstr "Indie {{ category }} gesorteerd op Populariteit."
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Populariteit geeft de interesse van de gemeenschap weer op recent gepubliceerde games. Populariteit begint hoog en neemt af na verloop van tijd. Activiteit van de gemeenschap kan de afname vertragen."
 
@@ -2491,7 +2484,7 @@ msgstr "Game Modereren"
 msgid "games.view.news_tab"
 msgstr "Nieuws"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Notificaties"
 
@@ -2503,19 +2496,19 @@ msgstr "Overzicht"
 msgid "games.view.scores_tab"
 msgstr "Scores"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Aantal spelers"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "Niet Beschikbaar"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Beoordeling"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Bezoeken"
 
@@ -3215,11 +3208,11 @@ msgstr "Weet je zeker dat je dit item wilt verwijderen?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Item Details - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Game Toevoegen"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Game Opslaan"
 
@@ -3477,11 +3470,11 @@ msgstr "Weet je zeker dat je dit nummer wilt verwijderen?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Statistieken voor {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Nieuws Update Toevoegen"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Nieuws Update Bewerken"
 
@@ -4336,7 +4329,7 @@ msgstr "Speel een game."
 msgid "dash.integrate.rated_game_html"
 msgstr "Beoordel en plaats een reactie bij een game."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Beoordelingen Overzicht."
 
@@ -4385,19 +4378,19 @@ msgid "library.collection.unfollow_button_tooltip"
 msgstr "Stop me volgen om de playlist uit je bibliotheek te verwijderen en notificaties te stoppen."
 
 #. Reading this line again, I'm not sure if "Iets weerhoud je" is the right type of wording. In English the sentence makes perfect sense, however in Dutch, while essentially correct, the type of wording implies to most Dutch people that something inside me (as a person) keeps me from doing something, while it is clear an error in the system is responsible for that. Since my old man is a Dutch teacher I may need to ask him whether or not this is the right type of wording.
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, iets weerhoud je er van deze game te volgen."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Oh nee!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "Je volgt nu {{ game }}. Zolang de game in je bibliotheek staat zul je notificaties van deze game ontvangen."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Gevolgd"
 
@@ -4413,22 +4406,22 @@ msgstr "Volg deze game om hem toe te voegen aan je bibliotheek en notificaties t
 msgid "library.followed.remove_game_confirmation"
 msgstr "Weet je zeker dat je {{ game }} niet meer wilt volgen?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, iets weerhoud je er van deze game niet meer te volgen."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh nee!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Je volgt {{ game }} niet meer en zult geen notificaties meer ontvangen."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Niet Meer Gevolgd"
@@ -4680,19 +4673,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 extra notificatie"
 msgstr[1] "+{{ $count | number }} extra notificaties"
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Contact"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Te veel spellen... en het worden er steeds meer!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Vertalingen zijn een communityproject."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Help te vertalen!"
 
@@ -4772,7 +4765,7 @@ msgstr "Voltooid"
 msgid "games.filtering.status_wip"
 msgstr "In Ontwikkeling"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 nieuwsartikel"
@@ -4990,7 +4983,7 @@ msgstr "Ja"
 msgid "commands.settings_description"
 msgstr "Instellingen veranderen."
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Open Source"
 
@@ -5091,7 +5084,7 @@ msgstr "Jij vindt deze reactie leuk."
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Je hebt net gestemd op deze reactie. Dit laat ons de kwaliteit van reacties weten en helpt de site fris en fruitig te houden."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Verstuur Systeemrapport"
 
@@ -5171,7 +5164,7 @@ msgstr "Games die je volgt"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Sluiten"
 
@@ -5255,7 +5248,7 @@ msgstr "Rapporteer Spel"
 msgid "Report User"
 msgstr "Rapporteer Gebruiker"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Gerapporteerd"
 
@@ -5268,7 +5261,7 @@ msgstr "Verstuur Rapport"
 msgid "Spammer"
 msgstr "Spammer"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Bedankt dat je ermee geholpen hebt GameJolt een plek voor iedereen te maken. We zullen hier zo snel mogelijk naar kijken!"
 
@@ -5287,21 +5280,37 @@ msgstr "Download"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
-msgstr "Crop Current Thumbnail"
+msgstr "Huidige Thumbnail Bijsnijden"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Huidige Thumbnail"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Verander Afbeelding van Trofee"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Afbeelding van Trofee"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "Wil je een nieuwsbrief ontvangen per e-mail die updates en aankondigingen bevat, zoals nieuwe mogelijkheden op de site, officiële wedstrijden, en interessante spellen?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
