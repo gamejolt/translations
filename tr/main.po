@@ -10,22 +10,22 @@ msgstr ""
 
 #: auth/views/auth/authorize/authorize.html:4
 msgid "auth.authorize.invalid.body_html"
-msgstr "Aktifleştirme kodunuz geçersiz.\n"
-"Lütfen e-postanıza gönderilen URL'nin tamamını kopyalayıp yapıştırın."
+msgstr "<p>Aktifleştirme kodunuz geçersiz.</p>\n"
+"<p>Lütfen e-postanıza gönderdiğimiz URL'nin tamamını kopyalayıp yapıştırın.</p> https://poeditor.com/login/activation?code=4b828cfc63ad37777bc0aeb725a39e08"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
-msgstr "Geçersiz Aktifleştirme"
+msgstr "Geçersiz İzin"
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
 msgid "auth.authorize.invalid.page_title"
-msgstr "Geçersiz Aktifleştirme Kodu"
+msgstr "Geçersiz izin kodu"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "Şimdi sizi Game Jolt gösterge paneline yönlendiriyoruz."
+msgstr "Seni Game Jolt paneline yönlendiriyoruz."
 
 #: auth/views/auth/login/login.html:35
 #: auth/views/auth/login/login.html:36
@@ -33,6 +33,7 @@ msgid "auth.forgot_link"
 msgstr "Şifremi veya Kullanıcı Adımı Unuttum"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
+#, fuzzy
 msgid "auth.forgot.email_help"
 msgstr "E-postanızı girin ve sonra biz size giriş bilgilerinizi göndereceğiz."
 
@@ -80,11 +81,11 @@ msgstr "Neredeyse tamam!"
 
 #: auth/views/auth/join/almost/almost.html:5
 msgid "auth.join.almost.spam"
-msgstr "Eğer 10 dakika içinde bir e-posta gelmediyse, lütfen spam dosyanıza bakın. Silip süpürmüş olabilir."
+msgstr "Eğer 10 dakika içinde bir e-posta gelmediyse, lütfen spam klasörünüze bakın. "
 
 #: auth/views/auth/join/almost/almost.html:6
 msgid "auth.join.almost.urgency"
-msgstr "Unutmayın ki hesabınızı aktifleştirmek için 1 hafta süreniz var. Bundan sonra silinicektir ve yeniden kaydolmanız gerekicektir."
+msgstr "Hesabını onaylamak için bir haftan var.Eğer bir hafta içinde onaylamassan, hesabın silinecek ve yeniden kaydolman gerekecek."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
@@ -156,7 +157,7 @@ msgstr "Yanlış kullanıcı adı veya şifre."
 
 #: auth/components/forms/login/login.html:30
 msgid "auth.login.loading_message"
-msgstr "Anabilgisayara bağlanılıyor..."
+msgstr "Ana bilgisayara bağlanılıyor..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
@@ -200,11 +201,11 @@ msgstr "Yeni Şifre"
 msgid "auth.reset_password.submit_button"
 msgstr "Şifreyi Sıfırla"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Gizlilik"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Koşullar"
 
@@ -269,11 +270,12 @@ msgstr "Olamaz!"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:10
 msgid "auth.linked_account.twitter.created_growl"
-msgstr "Hesabınız yaratıldı. Burdan itibaren yumuşakça yelken açıyor."
+msgstr "Hesabınız oluşturuldu. Uzaklara doğru yelkeniniz açılıyor!\n"
+""
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize-controller.js:11
 msgid "auth.linked_account.twitter.created_growl_title"
-msgstr "Hesap Yaratıldı"
+msgstr "Hesap Oluşturuldu."
 
 #: auth/views/auth/linked-account/twitter/callback/callback-controller.js:15
 msgid "auth.linked_account.twitter.failed_growl"
@@ -339,12 +341,14 @@ msgstr "Burda hiç bildirim yok. Ya çok hızlı bir okuyucusun ya da daha fazla
 msgid "dash.activity.unread_tab"
 msgstr "Okunmamış"
 
+#. Biraz zor bir çeviri
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
-msgstr "<p>We currently use <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) to serve up the avatars on Game Jolt.</p>\n"
-"\t<p>If you don't already have a Gravatar account, you can click the button below to open <a href=\"http://gravatar.com\">gravatar.com</a> and sign up for one. Note that you'll need to sign up using your WordPress login. What's that, you don't have a WordPress account, either? No worries! You'll be able to create both accounts at the same time.</p>\n"
-"\t<p>Have a Gravatar account? Good. Just log in and upload the avatar of your choice, then associate that avatar with the email address you use for Game Jolt. Your avatar will automatically appear throughout the site.</p>\n"
-"\t<p><em>Note that there might be a short delay before your avatar shows up on the site. If you don't see it after what seems like long enough, try clearing your browser's cache.</em></p>"
+msgstr "Biz şuan Game Jolt'ta Gravatar (Globally Recognized Avatars) kullanıyoruz.\n"
+"Eger hala bir Gravatar hesabınız yoksa, aşşağıdaki butona basarak yeni bir hesap oluşturun. Unutmayın ki giriş yapbilmek için WordPress girişini kullanın. O da ne, Bir WordPress hesbaınız da mı yok? Sorun yok! Aynı zamanda iki hesabı da açabilirsiniz.\n"
+"Bir Gravatar hesabınız mı var? İyi ozaman. Sadece giriş yapın ve seçiminize göre bir avatar yükleyin, ve sonra avatarınızı GameJolt için kullandığınız e-posta ile bağlayın. Avatarınız otomatik olarak sitede belirecektir.\n"
+"Unutmayın ki avatarınızın sitede görünmesi için biraz zaman gerek.\n"
+"Eğer beklediğinizden fazla bir sürede avatarınız sitede görünmediyse tarayıcınızın verilerini temizlemeyi deneyin."
 
 #: app/views/dashboard/account/avatar/avatar.html:7
 msgid "dash.avatar.current_alt"
@@ -431,9 +435,7 @@ msgstr "Resminiz bir PNG, JPG veya GIF olmalı. <br>\n"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:17
 msgid "dash.forms.thumbnail_filetype_help_html"
-msgstr "Your thumbnail image must be a PNG, JPG, or GIF.<br>\n"
-"\tAnimated GIFs allow gamers to get a glimpse of your game in action. <br>\n"
-"\tFor still images, PNGs are recommended because they produce lossless images."
+msgstr "Kapak fotoğrafınız PNG, JPG veya GIF Olmalı."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
 msgid "dash.funds.withdraw.amount_label"
@@ -472,15 +474,15 @@ msgstr "Çekilebilen Miktar"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Para Çekme İsteği Gönder"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "Tamam"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "\t<strong>It appears that your game may be a Five Nights at Freddy's fan game, spinoff, or unofficial sequel.</strong> Therefore, we have added the hashtag <code>#fnaf</code> to your game's description. We require this tag for all games derived from the Five Nights at Freddy's series."
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Etiketleme Yok"
 
@@ -540,7 +542,7 @@ msgstr "API forumlarında yardım isteyin..."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:6
 msgid "dash.games.api.overview.page_help_html"
-msgstr "\t<p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
+msgstr " <p>The Game API lets you spice up your game with scoreboards, trophies, cloud data storage, session logging, and more.</p>\n"
 "\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
@@ -608,6 +610,7 @@ msgid "dash.games.api.overview.trophies_heading"
 msgstr "Zaferler"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:78
+#, fuzzy
 msgid "dash.games.api.overview.trophies_label"
 msgstr "Zaferler"
 
@@ -661,11 +664,11 @@ msgstr "Tür Adı"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
-msgstr "These are the dimensions at which your browser build will be displayed."
+msgstr "Bu boyutlar tarayıcı sürümünün gösterileceği boyutlardır. "
 
 #: app/components/forms/dashboard/game/build/build.html:159
 msgid "dash.games.builds.form.disable_right_click_help"
-msgstr "This allows you to disable right mouse click behavior. Only enable this if your game needs to intercept right clicks."
+msgstr "Sağ fare tuşu tıklamasını etkisiz yapar. Oyununuz sağ tuş tıklamalarını yakalaması gerekiyorsa aktifleştiriniz. "
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
@@ -681,11 +684,11 @@ msgstr "Dosya"
 
 #: app/components/forms/dashboard/game/build/build.html:77
 msgid "dash.games.builds.form.file_help_html"
-msgstr "Your account is currently limited to {{ maxFilesize | number }} MB per file. If you need more, get in touch: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a>"
+msgstr "Hesabın şu anda dosya başına {{ maxFilesize | number }} MB  ile sınırlandırılmıştır. eğer daha fazlasına ihtiyacın varsa <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a> adresinden iletişime geçin"
 
 #: app/components/forms/dashboard/game/build/build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
-msgstr "<strong>For an HTML game, upload a .zip archive containing all of your game's files and assets. There must be an index.html in the root folder.</strong>"
+msgstr "<strong>HTML Oyunu için oyuna ilişkin tüm dosyaların ve belgelerin olduğu bir zip dosyası yükleyin. index.html dosyası kök dizinde olmalıdır. </strong>"
 
 #: app/components/forms/dashboard/game/build/build.html:75
 msgid "dash.games.builds.form.file_label"
@@ -709,7 +712,7 @@ msgstr "You have to select at least one platform on which your build runs (or \"
 
 #: app/components/forms/dashboard/game/build/build.html:97
 msgid "dash.games.builds.form.platforms_help_html"
-msgstr "Select \"Other\" if this build is for a platform that's not shown, or if it's a non-executable file such as a PDF."
+msgstr "Yapımınız hiçbir platforma uygun değilse \"Diğer\" Platformunu seçiniz"
 
 #: app/components/forms/dashboard/game/build/build.html:95
 msgid "dash.games.builds.form.platforms_label"
@@ -785,11 +788,11 @@ msgstr "Kategori"
 msgid "dash.games.form.category_placeholder"
 msgstr "Bir kategori seç..."
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Açıklamanızı istediğiniz zaman düzenleyebilir veya açıklamanıza bir şeyler ekleyebilirsiniz.Kelimelerinizi, insanları oyununuzu oynamaya ikna edecek şekilde kullanmanız için bu, bir şans! İyi bir açıklama, genellikle oynanış özeti, genel bakış, hikaye ve çalışmada emeği bulunanları içerir."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Açıklama"
 
@@ -849,29 +852,29 @@ msgstr "This helps us create better filtering options around which tools people 
 msgid "dash.games.form.engine_placeholder"
 msgstr "Bir motor/dil/alet seç..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Saklı"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Your game page won't show up in public listings or search results. It can still be viewed by anyone that has the direct link."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Görünürlük"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "This game can't be published until the required set up steps are completed. Find them on the game overview."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Yayınlanan"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
-msgstr "Your game page will show up in public listings and search results. It can be viewed by anyone."
+msgstr "Oyun sayfanız liste ve arama sonuçlarında yer alacaktır ve herkes tarafından görüntülenebilecektir."
 
 #: app/components/forms/dashboard/game/game.html:28
 msgid "dash.games.form.title_label"
@@ -895,7 +898,7 @@ msgstr "<p>Headers are the big, banner-like images that adorn the tops of game p
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
-msgstr "What are the header requirements and guidelines?"
+msgstr "Başlık gereklilikleri ve kurallar nelerdir?"
 
 #: app/components/forms/dashboard/game/header/header.html:30
 msgid "dash.games.header.save_button"
@@ -1205,7 +1208,7 @@ msgstr "News updates keep followers in the loop! Don't post so many updates that
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:9
 msgid "dash.games.news.add.page_help_link"
-msgstr "Learn more about news updates..."
+msgstr "Haberler ve güncellemeler için daha fazla okuyun"
 
 #: app/views/dashboard/developer/games/manage/news/article/article.html:50
 msgid "dash.games.news.article.edit_tab"
@@ -1231,15 +1234,15 @@ msgstr "Görünüm"
 msgid "dash.games.news.comments"
 msgstr "Yorumlar"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "All of your game's followers will be notified, so make sure to review your news post."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Markdown allows you to easily make your news updates more dynamic and visually appealing by adding elements like headings, styled text, lists, links, images, tables, and more."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "İçerik"
 
@@ -1275,7 +1278,7 @@ msgstr "En Yeni Aktivite"
 msgid "dash.games.overview.activity_none_html"
 msgstr "Henüz aktivite yok.İnsanlar oyununuzla etkileşime geçtiğinde güncel aktiviteler burada belirecek."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Oyununuzu yayınlamak, sitede görünmesini sağlar.Bu yüzden oyun sayfanızın güzel göründüğünden emin olun!"
@@ -1428,11 +1431,11 @@ msgstr "Saklı"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
-msgstr "This release is hidden and won't show up on your game page until published."
+msgstr "Bu sürüm, gizli ve yayınlanıncaya kadar oyun sayfanızda görünmez."
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
 msgid "dash.games.packages.manage.releases.no_releases_html"
-msgstr "<p>You haven't added any releases to this package yet.</p>"
+msgstr "Bu paket için henüz herhangi bir bültenleri eklememiş"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
 msgid "dash.games.packages.manage.releases.page_help_html"
@@ -1507,7 +1510,7 @@ msgstr "Dosya Yükle"
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:15
 msgid "dash.games.releases.builds.extra_files.form.include_archive_help"
-msgstr "If you're not sure what this means, you should probably leave it on."
+msgstr "Eğer bunun ne anlama geldiğini emin değilseniz, muhtemelen onu terk etmelisin."
 
 #: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:14
 msgid "dash.games.releases.builds.extra_files.form.include_archive_label"
@@ -1700,7 +1703,7 @@ msgstr "Oyunu Kaldır"
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:35
 msgid "dash.games.scoreboard.form.asc_help"
-msgstr "Scores with lower values are ranked better."
+msgstr "Düşük değerler ile puanları daha iyi sıralanmaktadır."
 
 #: app/components/forms/dashboard/game/score-table/score-table.html:34
 msgid "dash.games.scoreboard.form.asc_label"
@@ -1858,7 +1861,7 @@ msgstr "Hepsini Sil"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:10
 msgid "dash.games.scores.view_user_scores"
-msgstr "View All Scores For User"
+msgstr "Kullanıcı İçin Tüm Puanları Görüntüleyin"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:72
 msgid "dash.games.scores.view.data_label"
@@ -1973,7 +1976,7 @@ msgstr "<p>A thumbnail is the little rectangular image that represents your game
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:9
 msgid "dash.games.thumbnail.page_help_link"
-msgstr "What are the thumbnail requirements and guidelines?"
+msgstr "küçük gereksinimler ve kurallar nelerdir?"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:30
 msgid "dash.games.thumbnail.upload_error_label"
@@ -2094,7 +2097,7 @@ msgstr "Bütün Aktivitelere Bak"
 
 #: app/views/dashboard/overview/overview.html:38
 msgid "dash.overview.broadcast_view_all"
-msgstr "View All Changelog Broadcasts"
+msgstr "Tüm Değişim Yayınlarının günlük görünümü"
 
 #: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
@@ -2141,11 +2144,11 @@ msgstr "Total Withdrawn"
 msgid "dash.overview.view_profile_button"
 msgstr "Profilini Gör"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "İnsanların seni tanımasına izin ver!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "Profile Bio"
 
@@ -2171,7 +2174,7 @@ msgstr "Açıklamanızı Düzenleyin"
 msgid "dash.profile.edit.page_title"
 msgstr "Üye Bilgilerinizi Düzenleyin"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Profili Kaydet"
 
@@ -2189,72 +2192,64 @@ msgstr "İsminizi haftada bir kez değiştirebilirsiniz. <br>\n"
 msgid "dash.profile.edit.website_label"
 msgstr "Web sitesi"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "En İyi Oyunlar"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "A sampling of the highest rated games of all time."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Latest from the"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Indie game news, reviews, and opinions by people."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Takip Edilen Oyunlardan Bildirimler"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "Takip ettiğin oyunlardan en son bildirimler."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Takip Edilen"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
-msgstr "Hot Games"
+msgstr "Trend Oyunlar"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
-msgstr "Popular indie games, sorted by Hotness."
+msgstr "Popüler bağımsız oyunlar, sıralama kriteri Trend dir."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
-msgstr "Hot Game News"
+msgstr "Trend Oyunlardan Haberler"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "The hottest indie game news directly from the developers."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Sıcak Haberler"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "Daha Fazla Haber"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Bizimle Beraber Oyna!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "Bu Haftanın En İyi Oyunları"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "Son 7 gün içinde en yüksek oy alan oyunlar."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Featured Playlists"
 
@@ -2320,7 +2315,7 @@ msgstr "Tümü"
 
 #: app/views/discover/games/view/trophies/list/list.html:7
 msgid "game.trophies.heading"
-msgstr "Trophies"
+msgstr "Kupalar"
 
 #: app/views/discover/games/view/trophies/list/list.html:55
 msgid "game.trophies.no_trophies_html"
@@ -2364,11 +2359,11 @@ msgstr "Filtreli sonuçlar..."
 
 #: app/components/game/filtering/widget.html:19
 msgid "games.filtering.maturity_label"
-msgstr "Maturity Rating"
+msgstr "Yetişkin Reytingi"
 
 #: app/components/game/filtering/widget.html:5
 msgid "games.filtering.os_label"
-msgstr "Operating Systems"
+msgstr "İşletim Sistemleri"
 
 #: app/components/game/filtering/widget.html:26
 msgid "games.filtering.status_label"
@@ -2422,11 +2417,11 @@ msgstr "Oyun yok."
 #: app/views/discover/games/list/_list-clean.html:61
 #: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
-msgstr "Indie {{ category }} sorted by Hotness."
+msgstr "Bağımsız {{ category }} Sıralama kriteri Trend tir"
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
 
@@ -2442,7 +2437,7 @@ msgstr "Newly added games are not moderated, curated, or vetted by the community
 
 #: app/views/discover/games/list/category/category.html:2
 msgid "games.list.no_games_html"
-msgstr "No games match your filters. <b>Zoinks!</b>"
+msgstr "Böyle bir oyun Filtrelerinde yok.. <b>Zoink!<b>"
 
 #: app/views/discover/games/list/_list-clean.html:141
 #: app/views/discover/games/list/_list-original.html:161
@@ -2487,31 +2482,31 @@ msgstr "Moderate Game"
 msgid "games.view.news_tab"
 msgstr "Haberler"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Bildirimler"
 
 #: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
-msgstr "Overview"
+msgstr "Görüntülenme"
 
 #: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Skorlar"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
-msgstr "Plays"
+msgstr "Oynanma"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Oylamalar"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Görünümler"
 
@@ -2655,7 +2650,7 @@ msgstr "Oynatma Listesine Ekle"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
-msgstr "Filter playlists..."
+msgstr "Oynama listelerini filtrele"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:16
 msgid "library.playlists.add_to.new_playlist_button"
@@ -2695,7 +2690,7 @@ msgstr "Oynatma Listesi Ekle"
 
 #: app/components/forms/playlist/playlist.html:11
 msgid "library.playlists.form.edit_submit_button"
-msgstr "Edit Playlist"
+msgstr "Oynama Listesini Düzenle"
 
 #: app/components/forms/playlist/playlist.html:3
 msgid "library.playlists.form.name_label"
@@ -2707,7 +2702,7 @@ msgstr "Senin Oyunların"
 
 #: app/components/game/collection/grid/grid.html:19
 msgid "library.playlists.owner_followed_title"
-msgstr "Your Followed Games"
+msgstr "Takip Ettiğiniz Oyunlar"
 
 #: app/components/game/collection/thumbnail/thumbnail.html:5
 msgid "library.playlists.playlist_tag"
@@ -2715,7 +2710,7 @@ msgstr "Oynatma Listesi"
 
 #: app/components/game-playlist/save-modal/save-modal.html:2
 msgid "library.playlists.save_modal.add_heading"
-msgstr "Add Playlist"
+msgstr "Oynama Listesi Ekle"
 
 #: app/components/game-playlist/save-modal/save-modal.html:15
 msgid "library.playlists.save_modal.close"
@@ -2751,7 +2746,7 @@ msgstr "Fresh indie game news directly from the developers!"
 
 #: app/views/discover/news/news.html:4
 msgid "news.list.all_heading"
-msgstr "Latest Game News"
+msgstr "En Son Oyun Haberleri"
 
 #: app/views/discover/news/news.html:28
 msgid "news.list.all_tab"
@@ -2763,7 +2758,7 @@ msgstr "Takip ettiğin oyunlardan bildirimler."
 
 #: app/views/discover/news/news.html:5
 msgid "news.list.followed_heading"
-msgstr "Followed Game News"
+msgstr "Takip Ettiğiniz Oyunlar"
 
 #: app/views/discover/news/news.html:71
 msgid "news.list.followed_help_html"
@@ -2791,7 +2786,7 @@ msgstr "yorum"
 
 #: app/views/discover/news/news.html:76
 msgid "news.list.posts_count_none"
-msgstr "No articles."
+msgstr "Herhangi bir Metin yok."
 
 #: app/views/discover/news/news.html:21
 msgid "news.list.released_descriptive_html"
@@ -2811,11 +2806,11 @@ msgstr "News about work-in-progress games that have playable builds."
 
 #: app/views/discover/news/news.html:6
 msgid "news.list.wip_heading"
-msgstr "Development News"
+msgstr "Yapım Haberleri"
 
 #: app/views/discover/news/news.html:44
 msgid "news.list.wip_tab"
-msgstr "In Development"
+msgstr "Yapım Aşamasında"
 
 #: app/components/notifications/popover/popover.html:33
 msgid "notifications.popover.dismiss_all"
@@ -2827,7 +2822,7 @@ msgstr "No unread notifications at this time."
 
 #: app/components/notifications/popover/popover.html:15
 msgid "notifications.popover.view_all_button"
-msgstr "View All Activity"
+msgstr "Bütün Aktivite yi Göster"
 
 #: app/components/activity/feed/feed.html:49
 msgid "notifications.rating_details_html"
@@ -3212,11 +3207,11 @@ msgstr "Are you sure you want to remove this item?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Item Details - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Oyun Ekle"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Oyunu Kaydet"
 
@@ -3444,15 +3439,15 @@ msgstr "Use of tobacco products."
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:132
 #: app/components/forms/dashboard/game/maturity/maturity-directive.js:146
 msgid "dash.games.maturity.use_option"
-msgstr "Use"
+msgstr "Kullan"
 
 #: app/views/dashboard/developer/games/manage/media/add/image/image-controller.js:4
 msgid "dash.games.media.add.image.page_title"
-msgstr "Add Image for {{ game }}"
+msgstr "Resim Ekle {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video-controller.js:4
 msgid "dash.games.media.add.video.page_title"
-msgstr "Add Video for {{ game }}"
+msgstr "Video Ekle {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:6
 msgid "dash.games.media.page_title"
@@ -3474,11 +3469,11 @@ msgstr "Bu şarkıyı kaldırmak istediğinizden eminmisiniz?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Stats for {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Add News Update"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Save News Update"
 
@@ -3548,11 +3543,11 @@ msgstr "You currently have <strong>{{ amount | currency:'$' }}</strong> pending 
 
 #: app/views/discover/games/view/download/build/build-controller.js:6
 msgid "game.download.game.page_title"
-msgstr "Downloading {{ game }}"
+msgstr "İndiriliyor {{ game }}"
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack-controller.js:6
 msgid "game.download.soundtrack.page_title"
-msgstr "Downloading soundtrack for {{ game }}"
+msgstr "Soundtrack İndiriliyor {{ game }}"
 
 #: app/views/discover/games/view/scores/list/list-controller.js:3
 msgid "game.scores.page_title"
@@ -3588,15 +3583,15 @@ msgstr "Senin Oyun Kütüphanen"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:83
 msgid "library.playlists.add_game_error_growl"
-msgstr "Error! Error! This game could not be added to the playlist."
+msgstr "Hata! Hata! Bu oyun oynama listenize eklenemez!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:84
 msgid "library.playlists.add_game_error_growl_title"
-msgstr "Oh no!"
+msgstr "Olamaz!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:74
 msgid "library.playlists.add_game_success_growl"
-msgstr "You've added {{ game }} to {{ playlist }}. Nice!"
+msgstr "{{ game }} {{ playlist }} ine eklendi! Güzel!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:75
 msgid "library.playlists.add_game_success_growl_title"
@@ -3605,7 +3600,7 @@ msgstr "Oyun Eklendi"
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:103
 #: app/views/library/collection/listing/listing-controller.js:48
 msgid "library.playlists.remove_game_error_growl"
-msgstr "Error! Error! This game could not be removed from the playlist."
+msgstr "Hata! Hata! Bu oyun oynama listenize eklenemez!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:104
 #: app/views/library/collection/listing/listing-controller.js:49
@@ -3615,7 +3610,7 @@ msgstr "Oh Olamaz!"
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:94
 #: app/views/library/collection/listing/listing-controller.js:40
 msgid "library.playlists.remove_game_success_growl"
-msgstr "You have successfully removed {{ game }} from {{ playlist }}."
+msgstr "{{ game }} başarılı bir şekilde {{ playlist }} inizden silindi."
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:95
 #: app/views/library/collection/listing/listing-controller.js:41
@@ -3624,7 +3619,7 @@ msgstr "Oyun Kaldırıldı"
 
 #: app/views/discover/news/list/list-controller.js:15
 msgid "news.list.all_page_title"
-msgstr "Latest Game News"
+msgstr "En Son Oyun Haberleri"
 
 #: app/views/discover/news/list/list-controller.js:18
 msgid "news.list.followed_page_title"
@@ -3701,7 +3696,7 @@ msgstr "Fena Değil"
 
 #: app/views/search/results/results-controller.js:11
 msgid "search.page_title"
-msgstr "Search Game Jolt"
+msgstr "Game Jolt ta Ara"
 
 #: app/views/search/results/results-controller.js:15
 msgid "search.results.page_title"
@@ -3710,13 +3705,13 @@ msgstr "Search results for \"{{ query }}\""
 #: app/views/discover/news/news-controller.js:10
 #: app/views/library/collection/collection-controller.js:27
 msgid "sorting.hot"
-msgstr "Hottest"
+msgstr "Trend"
 
 #: app/views/discover/news/news-controller.js:11
 #: app/views/library/collection/collection-controller.js:21
 #: app/views/library/collection/collection-controller.js:28
 msgid "sorting.new"
-msgstr "Newest"
+msgstr "En Yeni"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:32
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list-controller.js:10
@@ -3760,7 +3755,7 @@ msgstr "Get emails about news updates on games you're following."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:24
 msgid "dash.email_prefs.notify_followed_game_updates_label"
-msgstr "Updates to Followed Games"
+msgstr "Takip Ettiğin Oyunlarla İlgili Haberler"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:20
 msgid "dash.email_prefs.notify_forum_posts_help"
@@ -3768,7 +3763,7 @@ msgstr "Get emails about forum posts in topics you're watching or which you crea
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:19
 msgid "dash.email_prefs.notify_forum_posts_label"
-msgstr "Forum Posts"
+msgstr "Forum Gönderileri"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:30
 msgid "dash.email_prefs.notify_friendships_help"
@@ -3792,7 +3787,7 @@ msgstr "Get emails when friends private message you and you're offline."
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:34
 msgid "dash.email_prefs.notify_private_messages_label"
-msgstr "Chat Messages"
+msgstr "Chat Mesajları"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:45
 msgid "dash.email_prefs.notify_ratings_help"
@@ -3800,7 +3795,7 @@ msgstr "Get emails when your games have been rated--and find out what ratings th
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:44
 msgid "dash.email_prefs.notify_ratings_label"
-msgstr "Game Ratings"
+msgstr "Oyun Reytingleri"
 
 #: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:3
 msgid "dash.funds.withdraw.page_title"
@@ -3852,7 +3847,7 @@ msgstr "Your game page's header has been updated."
 
 #: app/views/dashboard/developer/games/manage/game/header/header-controller.js:21
 msgid "dash.games.header.saved_growl_title"
-msgstr "Header Saved"
+msgstr "Kapak Kaydedildi"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:3
 msgid "dash.games.maturity.page_title"
@@ -3864,7 +3859,7 @@ msgstr "Your game's maturity information has been updated."
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity-controller.js:9
 msgid "dash.games.maturity.saved_growl_title"
-msgstr "Maturity Rating Saved"
+msgstr "Yetişkin Reytingi Kaydedildi"
 
 #: app/views/dashboard/developer/games/manage/manage.html:29
 msgid "dash.games.media_tooltip"
@@ -3920,7 +3915,7 @@ msgstr "Video Kaldırıldı"
 
 #: app/views/dashboard/developer/games/manage/manage.html:44
 msgid "dash.games.music_tooltip"
-msgstr "Upload your game's soundtrack."
+msgstr "Oyununun Soundtrack ini Ekle"
 
 #: app/components/forms/dashboard/game/song/song-directive.js:26
 msgid "dash.games.music.form.add_file_label"
@@ -3948,7 +3943,7 @@ msgstr "Haber Ekle"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:6
 msgid "dash.games.news.article.edit.page_title"
-msgstr "Edit {{ article }}"
+msgstr "{{ article }} Düzenle"
 
 #: app/views/dashboard/developer/games/manage/news/article/edit/edit-controller.js:11
 msgid "dash.games.news.article.edit.save_growl"
@@ -3968,7 +3963,7 @@ msgstr "The news update has been removed from the site."
 
 #: app/views/dashboard/developer/games/manage/news/article/article-controller.js:22
 msgid "dash.games.news.article.remove_growl_title"
-msgstr "News Update Removed"
+msgstr "Haber Güncellemesi Silindi"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:6
 msgid "dash.games.overview.page_title"
@@ -4054,7 +4049,7 @@ msgstr "Soundtrack"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:69
 msgid "dash.games.overview.todo_songs_title"
-msgstr "Add the soundtrack."
+msgstr "Soundtrack ekle"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:27
 msgid "dash.games.overview.todo_thumbnail_progress"
@@ -4078,15 +4073,15 @@ msgstr "Your package has been updated."
 
 #: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:12
 msgid "dash.games.packages.edit.saved_growl_title"
-msgstr "Package Saved"
+msgstr "Paket Kaydedildi"
 
 #: app/components/forms/dashboard/game/package/package.html:51
 msgid "dash.games.packages.form.add_package_button"
-msgstr "Add Package"
+msgstr "Paket Ekle"
 
 #: app/components/forms/dashboard/game/package/package.html:52
 msgid "dash.games.packages.form.save_package_button"
-msgstr "Save Package"
+msgstr "Pakedi Kaydet"
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:18
 msgid "dash.games.packages.manage.remove_confirmation"
@@ -4094,11 +4089,11 @@ msgstr "Are you sure you want to remove this package? All of the releases and bu
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:27
 msgid "dash.games.packages.manage.removed_growl"
-msgstr "The game package has been removed."
+msgstr "Oyunun pakedi silinmiştir."
 
 #: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:28
 msgid "dash.games.packages.manage.removed_growl_title"
-msgstr "Package Removed"
+msgstr "Paket Silindi"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:64
 msgid "dash.games.releases.builds.incomplete_tag_tooltip"
@@ -4174,7 +4169,7 @@ msgstr "Add Release"
 
 #: app/components/forms/dashboard/game/release/release.html:29
 msgid "dash.games.releases.form.save_release_button"
-msgstr "Save Release"
+msgstr "Tasarımı Kaydet"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:28
 msgid "dash.games.releases.manage.publish_release_confirmation"
@@ -4186,7 +4181,7 @@ msgstr "The release is now active on your game page."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:37
 msgid "dash.games.releases.manage.publish_release_growl_title"
-msgstr "Release Published"
+msgstr "Tasarm Yayınlandı!"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release.html:89
 msgid "dash.games.releases.manage.publish_release_tooltip"
@@ -4202,7 +4197,7 @@ msgstr "The release and its builds have been removed from the package."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:69
 msgid "dash.games.releases.manage.remove_release_growl_title"
-msgstr "Release Removed"
+msgstr "Tasarım Silindi"
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:44
 msgid "dash.games.releases.manage.unpublish_release_confirmation"
@@ -4214,7 +4209,7 @@ msgstr "The release has been unpublished and is now hidden."
 
 #: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:53
 msgid "dash.games.releases.manage.unpublish_release_growl_title"
-msgstr "Release Hidden"
+msgstr "Tasarım Gizlendi"
 
 #: app/views/dashboard/developer/games/manage/manage-controller.js:13
 msgid "dash.games.remove_confirmation"
@@ -4332,7 +4327,7 @@ msgstr "Bir oyun oyna."
 msgid "dash.integrate.rated_game_html"
 msgstr "Bir oyunu oyla ve o oyuna yorum yap."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Ratings breakdown."
 
@@ -4380,19 +4375,19 @@ msgstr "Takip ediyorsun"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Nolamaz, bir şey bu oyunu takibe almanıza engel oldu."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Oh hayır!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Oyun Takibe Alındı"
 
@@ -4408,22 +4403,22 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 msgid "library.followed.remove_game_confirmation"
 msgstr "{{ Oyunu }} takip etmemekten emin misiniz?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, something has prevented you from unfollowing this game."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh hayır!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "You have stopped following {{ game }} and will no longer receive notifications about it."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Takip Edilmeyen Oyunlar"
@@ -4458,7 +4453,7 @@ msgstr "You have successfully unfollowed {{ playlist }}."
 
 #: app/views/library/collection/collection-controller.js:228
 msgid "library.playlists.remove_playlist_success_growl_title"
-msgstr "Playlist Unfollowed"
+msgstr "Oynama Listesi Artık Takip Edilmiyor"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
@@ -4539,7 +4534,7 @@ msgstr "Geliştiricinin İnternet Sayfasını Ziyaret Et"
 #: app/views/library/collection/collection-controller.js:22
 #: app/views/library/collection/collection-controller.js:26
 msgid "sorting.best"
-msgstr "Highest Rated"
+msgstr "En Yüksek Oylanmış"
 
 #: app/views/discover/games/list/category/category-controller.js:9
 msgid "discover.categories.action"
@@ -4611,7 +4606,7 @@ msgstr "Video bulunamadı.Belki kaldırılmıştır."
 
 #: app/components/game/media-bar/media-bar-directive.js:89
 msgid "games.view.media.invalid_video_growl_title"
-msgstr "Oh hayır!"
+msgstr "Olamaz!"
 
 #: app/views/dashboard/activity/list/list-controller.js:21
 msgid "notifications.all_label"
@@ -4675,19 +4670,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
-msgstr "Contact"
+msgstr "İletişim"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Too many games... and counting!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Çevirmeye yardım et!"
 
@@ -4721,7 +4716,7 @@ msgstr "Maturity"
 
 #: app/components/game/filtering/filtering-service.js:33
 msgid "games.filtering.maturity_adult"
-msgstr "Adult Content"
+msgstr "Yetişkin İçerik"
 
 #: app/components/game/filtering/filtering-service.js:31
 msgid "games.filtering.maturity_everyone"
@@ -4729,7 +4724,7 @@ msgstr "Tüm Yaşlar"
 
 #: app/components/game/filtering/filtering-service.js:32
 msgid "games.filtering.maturity_teen"
-msgstr "Teen Content"
+msgstr "Genç İçerik"
 
 #: app/components/game/filtering/filtering-service.js:7
 msgid "games.filtering.os"
@@ -4767,7 +4762,7 @@ msgstr "Tamamlandı"
 msgid "games.filtering.status_wip"
 msgstr "Yapım Aşamasında"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
@@ -4887,7 +4882,7 @@ msgstr "Arkadaşlarınız çevrimiçi/çevrimdışı olduklarında bildirim alı
 #: app/components/forms/settings/settings.html:4
 #: app/views/settings/settings.html:21
 msgid "settings.client"
-msgstr "Client"
+msgstr "Müşteri"
 
 #: app/components/forms/settings/settings.html:7
 msgid "settings.game_install_dir_help"
@@ -4985,14 +4980,14 @@ msgstr "Evet"
 msgid "commands.settings_description"
 msgstr "Ayarları Değiştir"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Açık Kaynak"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
 msgid_plural "{{ $count | number }} Comments"
-msgstr[0] ""
+msgstr[0] "1 Yorum"
 msgstr[1] ""
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
@@ -5045,7 +5040,7 @@ msgstr "Henüz Yorum Yok"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
 msgid "One person likes this comment."
 msgid_plural "{{ $count | number }} people like this comment."
-msgstr[0] ""
+msgstr[0] "Bir kişi bu yorumu beğendi."
 msgstr[1] ""
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
@@ -5074,7 +5069,7 @@ msgstr "şu kişi tarafından çevirildi"
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
-msgstr[0] ""
+msgstr[0] "Siz ve başka bir kişi bu yorumu beğendi."
 msgstr[1] ""
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
@@ -5086,9 +5081,9 @@ msgstr "Bu yorumu beğendin"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
-msgstr "Sisteme Rapor Edin"
+msgstr "Sisteme Rapor Gönderin"
 
 #: app/components/client/forms/system-report/system-report.html:4
 msgid "system_report.form.description_help"
@@ -5108,7 +5103,7 @@ msgstr "Kapat"
 
 #: app/components/client/system-report-modal/system-report-modal.html:2
 msgid "system_report.send.heading"
-msgstr "Send System Report"
+msgstr "Sisteme Rapor Gönderin"
 
 #: app/components/client/system-report-modal/system-report-modal.html:4
 msgid "system_report.send.help"
@@ -5129,7 +5124,7 @@ msgstr "Rapor Gönderildi"
 #. {{ lang }} is passed in with the current language
 #: lib/gj-lib-client/components/comment/widget/widget.html:60
 msgid "Translate comments to {{ lang }}"
-msgstr "Translate comments to {{ lang }}"
+msgstr "Yorumları  {{ lang }} çevir"
 
 #. Short message to remind them that they can change install location at any time in their settings.
 #: app/views/library/installed/installed.html:22
@@ -5148,7 +5143,7 @@ msgstr "Multiple Packages"
 #. The message shown when there are no games installed yet in their library.
 #: app/views/library/installed/installed.html:13
 msgid "library.installed.no_games_message"
-msgstr "Your installed games show up here... that is, once you have some!"
+msgstr "İndirdiğin oyunlar burada gözükecek... ilk oyununu indirdiğin zaman!"
 
 #: app/views/library/installed/installed-controller.js:6
 msgid "library.installed.page_title"
@@ -5156,38 +5151,38 @@ msgstr "Yüklenmiş Oyunlar"
 
 #: app/views/library/collection/collection-controller.js:92
 msgid "library.collection.developer_owner_page_title"
-msgstr "Your Games"
+msgstr "Senin Oyunların"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
-msgstr "Your Followed Games"
+msgstr "Senin Takip Ettiğin Oyunlar"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.playlist_owner_page_title"
-msgstr "{{ playlist }}"
+msgstr "{{ oynatmalistesi }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
-msgstr "Close"
+msgstr "Kapat"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:37
 msgid "External link to play the game (not uploaded on site)"
-msgstr "External link to play the game (not uploaded on site)"
+msgstr "Oyunu oynamak için harici link (siteye yüklenmemiş olan)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:19
 msgid "Game does not belong to this developer"
-msgstr "Game does not belong to this developer"
+msgstr "Oyun bu geliştiriciye ait değil"
 
 #: app/views/discover/games/view/_header/_nav.html:43
 msgid "games.view.report_game_button"
-msgstr "Report Game"
+msgstr "Oyunu bildir"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:13
 msgid "Incorrect maturity rating for the content in the game"
-msgstr "Incorrect maturity rating for the content in the game"
+msgstr "Oyundaki içerik için yanlış olgunluk değerlendirmesi"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:61
@@ -5197,7 +5192,7 @@ msgstr "It contains spoilers and doesn't use spoiler tags (<code>&gt!</code>)"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:55
 msgid "It is harassment or bullying"
-msgstr "It is harassment or bullying"
+msgstr "Saldırganlık ve kabadayılık"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:43
@@ -5226,7 +5221,7 @@ msgstr "No information on game page (no screenshots, sparse description, placeho
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
 msgid "Not a game"
-msgstr "Not a game"
+msgstr "Oyun degil"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:79
@@ -5250,7 +5245,7 @@ msgstr "Oyunu bildir"
 msgid "Report User"
 msgstr "Kullanıcıyı Bildir"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Bildirildi"
 
@@ -5263,9 +5258,9 @@ msgstr "Bildiri gönder"
 msgid "Spammer"
 msgstr "Spammer"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
+msgstr "Gamejolt'u herkes için daha iyi bir yer haline getirmemize yardım ettiğin için teşekkürler. En kısa zamanda bakacağız!"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
@@ -5278,7 +5273,7 @@ msgstr "Neden bunu bildiriyorsun?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Indir"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
@@ -5286,17 +5281,35 @@ msgstr "Crop Current Thumbnail"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Geçerli Kapak"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Kupa Görüntüsünü Değiştir\n"
+""
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Kupa goruntusu"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "Yeni site yenilikleri, etkinlikler ve ilgi çekici oyunlar hakkında e-posta ile bilgilenmek istermisin?\n"
+""
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
