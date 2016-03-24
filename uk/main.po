@@ -199,11 +199,11 @@ msgstr "Новий пароль"
 msgid "auth.reset_password.submit_button"
 msgstr "Змінити пароль"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Конфіденційність"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Правила"
 
@@ -471,16 +471,16 @@ msgstr "Кількість, що можна переказати"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Відправити запит переказу"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "Гаразд"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "␣<strong>Здається, ваша гра може бути пародією на фанатську серію ігор Five Nights at Freddy's, спін-офом або неофіційним продовженням.</strong> \n"
 "Тому ми додали новий хештег <code>#fnaf</code> до опису вашої гри. Ми вимагаємо цей тег під всіма іграми по серії Five Nights at Freddy's."
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Нема тегів"
 
@@ -786,11 +786,11 @@ msgstr "Категорія"
 msgid "dash.games.form.category_placeholder"
 msgstr "Вибрати категорію"
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Ви можете коли завгодно редагувати опис. Це ваш шанс використовуючи слова зацікавити людей вашою грою! Хороший опис, як правило, містить короткий виклад геймплея, опис управління, сюжет і список авторів."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Опис"
 
@@ -850,27 +850,27 @@ msgstr "Це допомагає нам створювати кращі варі�
 msgid "dash.games.form.engine_placeholder"
 msgstr "Виберіть двигун/мову/інструмент..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Приховано"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Сторінка вашої гри не буде відображатись в публічних списках чи результатах пошуку. Але її можна буде побачити у випадку, якщо в когось є пряме посилання."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Видимість"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "Ця гра не буде опублікована до того часу, поки не будуть виконані необхідні умови. Знайдіть їх в огляді гри."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Опубліковані"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Ваша гра буде показуватись в публічних списках чи результатах пошуку. Її зможе побачити кожен."
 
@@ -1234,15 +1234,15 @@ msgstr "Показати"
 msgid "dash.games.news.comments"
 msgstr "Коментарі:"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "Всі шанувальники вашої гри будуть проінформовані, тому переконайтеся в вашому повідомленні."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Позначки допомагають вам робити новини динамічними та файними для ока за допомогою заголовків, стилізованого тексту, списків, посилань, зображень,  таблиць та іншого."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Зміст"
 
@@ -1278,7 +1278,7 @@ msgstr "Остання активність"
 msgid "dash.games.overview.activity_none_html"
 msgstr "Ще немає активності. Якщо люди зіграють в вашу гру - остання активність буде відображена тут."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Публікація гри робить її видимою на сайті, тому переконайтеся, що ваша сторінка гри виглядає добре!"
@@ -2142,11 +2142,11 @@ msgstr "Всього виведено"
 msgid "dash.overview.view_profile_button"
 msgstr "Подивитись ваш профіль"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "Нехай люди дізнаються про вас!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "Опис профілю"
 
@@ -2172,7 +2172,7 @@ msgstr "Змініть свої дані"
 msgid "dash.profile.edit.page_title"
 msgstr "Редагувати свою інформацію користувача"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Зберегти профіль"
 
@@ -2190,72 +2190,64 @@ msgstr "Ви можете змінити ім'я лише один раз на �
 msgid "dash.profile.edit.website_label"
 msgstr "Веб-сайт"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "Кращі ігри за весь час"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "Добірка з найрейтинговіших ігор всіх часів."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Останні з"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Новини інді-ігор, огляди та думки людей."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Слідкувати за новинами гри"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "Останні ігрові новини за якими ви слідкуєте."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Підписані"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "Гарячі ігри"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "Популярні інді-ігри, відсортоані по жанру."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "Гарячі ігрові новини"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "Самі гарячі інді ігрові новини безпосередньо від розробників."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Гарячі новини"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "Більше новин"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Грайте разом з нами!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "Кращі ігри неділі"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "Ігри з самим високим рейтингом за останні 7 днів."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Цікаві плейлисти"
 
@@ -2428,7 +2420,7 @@ msgstr "Інді {{ category }} упорядковано по Гарячості
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Гарячість вказує на інтерес спільноти по відношенню до нових ігор. Шкала ігрової Гарячості набирається швидко і спадає протягом довгого часу. Активність спільноти може уповільнити спад."
 
@@ -2489,7 +2481,7 @@ msgstr "Перевірена гра"
 msgid "games.view.news_tab"
 msgstr "Новини"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Повідомлення"
 
@@ -2501,19 +2493,19 @@ msgstr "Огляд"
 msgid "games.view.scores_tab"
 msgstr "Результати"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Грають"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Рейтинги"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Перегляди"
 
@@ -3217,11 +3209,11 @@ msgstr "Ви впевнені, що хочете видалити цей еле�
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Елемент даних - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Додати гру"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Зберігти гру"
 
@@ -3479,11 +3471,11 @@ msgstr "Ви впевнені, що хочете видалити цю пісн�
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Статистика {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Додати нове оновлення"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Зберегти нове оновлення"
 
@@ -3605,7 +3597,7 @@ msgstr "Ви додали {{ game }} в {{ playlist }}. Чудово!"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:75
 msgid "library.playlists.add_game_success_growl_title"
-msgstr "Додати гру"
+msgstr "Гра додана"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:103
 #: app/views/library/collection/listing/listing-controller.js:48
@@ -3625,7 +3617,7 @@ msgstr "Ви успішно видалили {{ game }} з {{ playlist }}."
 #: app/components/game-playlist/add-to-popover/add-to-popover-directive.js:95
 #: app/views/library/collection/listing/listing-controller.js:41
 msgid "library.playlists.remove_game_success_growl_title"
-msgstr "Видалена гра"
+msgstr "Гра видалена"
 
 #: app/views/discover/news/list/list-controller.js:15
 msgid "news.list.all_page_title"
@@ -4337,7 +4329,7 @@ msgstr "Грати в гру."
 msgid "dash.integrate.rated_game_html"
 msgstr "Оцінити і прокоментувати гру."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Рейтинги зламалися."
 
@@ -4347,7 +4339,7 @@ msgstr "{{ bundle }}"
 
 #: app/views/library/collection/collection-controller.js:95
 msgid "library.collection.developer_page_title"
-msgstr "Гра від {{ user }}"
+msgstr "Ігри від {{ user }}"
 
 #: app/views/library/collection/_header/_controls.html:10
 msgid "library.collection.follow_button"
@@ -4385,19 +4377,19 @@ msgstr "Підписатися."
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Відписатися від цього плейлиста, щоб видалити його з вашої бібліотеки і припинити отримувати повідомлення."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Ой-ой, щось завадило вам підписатися на цю гру."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "От дідько!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "Ви тепер слідкуєте за {{ game }}. Ви будете повідомлені про нові оновлення, поки вона знаходиться у вашій бібліотеці."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Гра відстежується"
 
@@ -4413,22 +4405,22 @@ msgstr "Підписатися на цю гру, щоб додати її в с�
 msgid "library.followed.remove_game_confirmation"
 msgstr "Ві впевнені, що хочете відмінити підписку на {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Ой-ой, щось завадило вам скасування підписку на цю гру."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "От дідько!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Ви відписалися від {{ game }} і більше не будете отримувати повідомлення про це."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Ви відписалися від гри"
@@ -4690,19 +4682,19 @@ msgstr[1] "+{{ $count | number }} повідомлення"
 msgstr[2] "+{{ $count | number }} повідомлень"
 msgstr[3] "+{{ $count | number }} повідомлень"
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Контакт"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Занадто багато ігор... і підрахунку!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Переклади - це проект спільноти."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Допоможіть перекласти!"
 
@@ -4772,17 +4764,17 @@ msgstr "Статус"
 
 #: app/components/game/filtering/filtering-service.js:42
 msgid "games.filtering.status_canceled"
-msgstr "Відмінено"
+msgstr "Відмінені"
 
 #: app/components/game/filtering/filtering-service.js:40
 msgid "games.filtering.status_complete"
-msgstr "Закінчено"
+msgstr "Закінчені"
 
 #: app/components/game/filtering/filtering-service.js:41
 msgid "games.filtering.status_wip"
 msgstr "В розробці"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "Одна новина"
@@ -5002,7 +4994,7 @@ msgstr "Да"
 msgid "commands.settings_description"
 msgstr "Змінити налаштування"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Відкритий початковий код"
 
@@ -5109,7 +5101,7 @@ msgstr "Вам подобається цей коментар"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Ви тільки що проголосували за цей коментар. Це дозволяє нам знати якість коментарів і допомагає зберегти сайт свіжим."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Відправити системний звіт"
 
@@ -5189,7 +5181,7 @@ msgstr "Ігри, на які ви підписані"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Закрити"
 
@@ -5273,9 +5265,9 @@ msgstr "Поскаржитися на гру"
 msgid "Report User"
 msgstr "Поскаржитися на користувача"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
-msgstr "Поскаржитися"
+msgstr "Скарга"
 
 #: lib/gj-lib-client/components/report/form/form.html:87
 msgid "Send Report"
@@ -5286,7 +5278,7 @@ msgstr "Відіслати скаргу"
 msgid "Spammer"
 msgstr "Спамер"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Дякуємо за допомогу в тому, щоб зробити Game Jolt гарним місцем для всіх. Ми розглянемо вашу скаргу якомога швидше!"
 
@@ -5305,21 +5297,37 @@ msgstr "Завантажити"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
-msgstr "Crop Current Thumbnail"
+msgstr "Обрізати поточну мініатюру"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Поточна мініатюра"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Змінити зображення нагороди"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Зображення нагороди"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "Ви хочете отримувати на свою електрону пошту повідомлення, які міститимуть інформацію про нові функції сайту, офіційні конкурси і цікаві ігри?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
