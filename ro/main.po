@@ -9,9 +9,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 
 #: auth/views/auth/authorize/authorize.html:4
+#, fuzzy
 msgid "auth.authorize.invalid.body_html"
 msgstr "<p>Codul tău de autorizare este invalid.</p>\n"
-"\t<p>Vă rog sa vă asigurați că ați copiat și lipit întregul URL pe care vi l-am trimis.</p>"
+"\t<p>Vă rog sa vă asigurați că ați copiat și lipit întregul URL pe care vi l-am trimis prin email.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
 msgid "auth.authorize.invalid.heading"
@@ -25,12 +26,12 @@ msgstr "Cod de Autorizare Invalid"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
 msgid "auth.authorize.success_growl"
-msgstr "Acum te redirecționam catre bordul tău de pe Game Jolt."
+msgstr "Acum te redirecționăm către panoul tău de pe Game Jolt."
 
 #: auth/views/auth/login/login.html:35
 #: auth/views/auth/login/login.html:36
 msgid "auth.forgot_link"
-msgstr "Ai uitat Numele de Utilizator sau Parola"
+msgstr "Ai uitat Numele de Utilizator sau Parola?"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
@@ -199,11 +200,11 @@ msgstr "Parolă Nouă"
 msgid "auth.reset_password.submit_button"
 msgstr "Schimbă Parola"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Confidențialitate"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Termeni"
 
@@ -471,16 +472,16 @@ msgstr "Sumă de Retras"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Trimite Cerere pentru a Retrage Suma"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "În regulă"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "<strong>Se pare că jocul tău ar putea să fie un fan-joc Five Nights at Freddie's, un ''spin-off'' sau o continuare neoficială.</strong> Prin urmare am adăugat tag-ul <code>#fnaf</code> in descrierea jocului tău. Cerem acest tag tuturor jocurilor derivate din seria '' Five Nights at Freddie's ''\n"
 ""
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Nu Da Tag"
 
@@ -782,11 +783,11 @@ msgstr "Categorie"
 msgid "dash.games.form.category_placeholder"
 msgstr "Selectează o Categorie..."
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Poți să schimbi descripția când dorești și să mai adaugi peste timp. Asta e șansa ta să folosești cuvinte care să facă oamenii să îți joacele jocul! O descripție interestantă conține lucruri precum un sumar al jocului, controalele, povestea și credit-ul."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Descriere"
 
@@ -846,27 +847,27 @@ msgstr "Aceasta ne ajută pe noi să creem opțiuni de filtru mai bune."
 msgid "dash.games.form.engine_placeholder"
 msgstr "Selectează un engine/limbă/unealtă..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Ascuns"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Pagina jocului tău nu va apărea în liste publice sau în căutări. Dar, poate fi văzut de oricine care are un link direct."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Vizibilitate"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "Acest joc nu poate fi publicat până când pașii de înființare necesari sunt completați. Poți să îi vezi în prezentarea generală."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Publicat"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Pagina jocului tău va apăreaa în liste publice și în căutări. Poate fi văzută de oricine."
 
@@ -888,7 +889,7 @@ msgstr "Editează Imaginea de Copertă"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:24
 msgid "dash.games.header.page_help_html"
-msgstr "<p>Headers are the big, banner-like images that adorn the tops of game pages. For your header to look its best on mobile devices in portrait mode, make sure anything important is located near the center of the image.</p>"
+msgstr "<p>Header-urile sunt imaginile mari ca niste banere ce stau deasupra paginilor jocurilor. Pentru header-ul tau sa arate perfect pe mobile asigurati-va ca toate lucrurile sunt asezate aproape de centrul imaginii.<p>"
 
 #: app/views/dashboard/developer/games/manage/game/header/header.html:26
 msgid "dash.games.header.page_help_link"
@@ -968,7 +969,7 @@ msgstr "Nuditate"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:19
 msgid "dash.games.maturity.page_help_html"
-msgstr "\t<p>Every game on Game Jolt, even works-in-progress, needs a maturity rating to describe its content. Accurate ratings and details about content help gamers make informed decisions. Remember, you can always come back later and make changes.</p>"
+msgstr "␣ < p > Fiecare joc de pe Jolt de joc , chiar și lucrări în curs de execuție , are nevoie de un rating de maturitate pentru a descrie conținutul său . evaluări exacte și detalii despre jucătorii de ajutor de conținut să ia decizii în cunoștință de cauză . Nu uitați că puteți veni mereu înapoi mai târziu și de a face modificări . < / P >"
 
 #: app/views/dashboard/developer/games/manage/game/maturity/maturity.html:21
 msgid "dash.games.maturity.page_help_link"
@@ -1038,8 +1039,8 @@ msgstr "Citește mai multe despre capturi de ecran/imagini..."
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:2
 msgid "dash.games.media.add.video.page_help_html"
-msgstr "<p>Add videos you've created, such as trailers, gameplay footage, walkthroughs, etc.</p>\n"
-"\t<p>Please don't add Let's Plays or reviews. Let the content owners do that themselves in the comments.</p>"
+msgstr "<p>Adaugă videoclipuri, spre exemplu trailere, gameplay video, walkthrough, etc.</p>\n"
+"<p>Vă rugăm nu adăugați \"Let's Plays\" sau review despre joc. Lasă jucătorii să facă asta în comentarii.</p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/video/video.html:4
 msgid "dash.games.media.add.video.page_help_link"
@@ -1093,7 +1094,7 @@ msgstr "Elimină această Imagine"
 
 #: app/views/dashboard/developer/games/manage/media/list/list.html:6
 msgid "dash.games.media.page_help_html"
-msgstr "\t<p>Want people to play your game? Add some images and video to your page. We recommend adding as many images and videos as you can--even if your game is all text!</p>"
+msgstr "<p>Vrei ca oamenii sa iti joace jocul? Adauga cateva imagini si un videoclip pe pagina ta. Noi recomandam sa adaugi cat mai multe imagini si videoclipuri chiar daca jocul tau este doar text! </p>"
 
 #: app/views/dashboard/developer/games/manage/media/add/add.html:20
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:47
@@ -1127,10 +1128,7 @@ msgstr "URL pentru video"
 
 #: app/components/forms/dashboard/game/video/video.html:6
 msgid "dash.games.media.video.form.url_help_html"
-msgstr "We currently only support videos from Vimeo or YouTube. <br>\n"
-"\tThe URL should look something like: <br>\n"
-"\t<strong>YouTube:</strong> http://www.youtube.com/watch?v=oHg5SJYRHA0 <br>\n"
-"\t<strong>Vimeo:</strong> http://www.vimeo.com/2619976"
+msgstr "În prezent, acceptăm doar clipuri video de pe YouTube sau Vimeo . <br> URL-ul ar trebui să arate ceva de genul : <br> < strong > YouTube : < / strong > http://www.youtube.com/watch?v=oHg5SJYRHA0 <br> < strong > Vimeo : < / strong > http : //www.vimeo.com/2619976"
 
 #: app/components/forms/dashboard/game/video/video.html:3
 msgid "dash.games.media.video.form.url_label"
@@ -1174,11 +1172,11 @@ msgstr "Melodiile Jocului"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:21
 msgid "dash.games.music.no_music_html"
-msgstr "<p>You haven't added any music. Upload some songs from your game! The music player's worth it, trust us!</p>"
+msgstr "<p>Nu ai adăugat muzică. Uploadează niște melodii din jocul tău! Playerul merită încercat, ai încredere în noi!</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:6
 msgid "dash.games.music.page_help_html"
-msgstr "<p>Let people enjoy your game's soundtrack whenever they want! Upload MP3s of music from your game and the songs will appear on your game page in a nice little music player. Don't upload copyrighted songs without permission!</p>"
+msgstr "<p>Lasă lumea să se bucure de soundtrackul jocului tău oricând! Uploadează MP3-urile din jocul tău și melodiile vor apărea pe pagina jocului tău într-un mic music player. Nu uploada melodii cu drepturi de autor fără permisiune!</p>"
 
 #: app/views/dashboard/developer/games/manage/music/music.html:46
 msgid "dash.games.music.remove_button"
@@ -1198,7 +1196,7 @@ msgstr "Adaugă Știri"
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:7
 msgid "dash.games.news.add.page_help"
-msgstr "News updates keep followers in the loop! Don't post so many updates that the notifications turn into spam. Post an update when something genuinely newsworthy happens."
+msgstr "Actualizări de știri păstrează adepți în bucla ! Nu postați atât de multe actualizări care notificările se transformă în spam. Postati o actualizare atunci când se întâmplă ceva cu adevărat de actualitate ."
 
 #: app/views/dashboard/developer/games/manage/news/add/add.html:9
 msgid "dash.games.news.add.page_help_link"
@@ -1228,15 +1226,15 @@ msgstr "Vezi"
 msgid "dash.games.news.comments"
 msgstr "Comentarii:"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "Toți urmăritorii jocului tău vor fi alertați, deci ai grijă să îți verifici știrea."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Markdown te lasă să îți faci știrile tale dinamice mult mai ușor, prin adăugarea elementelor precum titlor, text stilat, liste, link-uri, imagine, tabeluri și multe altele."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Conținut"
 
@@ -1250,11 +1248,11 @@ msgstr "Știrile Jocului"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:13
 msgid "dash.games.news.no_news_html"
-msgstr "\t<p>You haven't posted any news for this game yet. Updates keep followers informed and attract new ones!</p>"
+msgstr "<p>Nu ai postat nici-o informatie la jocul acesta pana acum. Update-uriile tin follower-ii informati si atrasi de cele noi! </p>"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:7
 msgid "dash.games.news.page_help"
-msgstr "Post news to let people know when something interesting happens with your game. Your game's followers will be notified."
+msgstr "Posta știri pentru a lăsa oamenii să știe când se întâmplă ceva interesant, cu jocul tău . urmașii jocului tău va fi notificat"
 
 #: app/views/dashboard/developer/games/manage/news/list/list.html:37
 msgid "dash.games.news.views"
@@ -1270,12 +1268,12 @@ msgstr "Activități Recente"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
 msgid "dash.games.overview.activity_none_html"
-msgstr "No activity yet. As people interact with your game, the latest activity will show up here."
+msgstr "Nici o activitate încă. Pe măsură ce oamenii interacționează cu jocul , cele mai recente activități va apărea aici ."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
-msgstr "Publishing your game makes it visible on the site, so make sure your game page is lookin' good!"
+msgstr "Publicarea jocului tău îl v-a face vizibil pe site, deci asigură-te că pagina ta arată bine!"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:161
 msgid "dash.games.overview.stats_comments"
@@ -1311,7 +1309,7 @@ msgstr "Vizionări"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:20
 msgid "dash.games.overview.todo_additional_html"
-msgstr "<p><strong>Your game page is lookin' hot!</strong> To get the most out of Game Jolt, consider taking these additional steps.</p>"
+msgstr "<p><strong>Pagina jocului tău arată bine!</strong> Ca să folosești tot ce este mai mult din Game Jolt, considera acești pași adiționali.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:34
 msgid "dash.games.overview.todo_done"
@@ -1328,8 +1326,8 @@ msgstr "Foarte Recomandate"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:88
 msgid "dash.games.overview.todo_info_builds_processing_html"
-msgstr "<strong>You still have builds that are being processed.</strong>\n"
-"\tThey won't show on your game page until they're finished processing."
+msgstr "<strong> Încă ai build-uri care se procesează.</strong>\n"
+"Nu vor apărea pe pagina jocului tău doar după ce au fost procesate."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:94
 msgid "dash.games.overview.todo_info_publish_button"
@@ -1337,11 +1335,11 @@ msgstr "Publică Jocul"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:75
 msgid "dash.games.overview.todo_info_ready_html"
-msgstr "<strong>Your game page is ready to publish to the site for all to see!</strong>"
+msgstr "<strong>Pagina jocului tău este gata să fie publicat pe site ca toată lumea sa o vadă</strong>"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:5
 msgid "dash.games.overview.todo_lead_html"
-msgstr "Your game page is <strong>{{ completion }}%</strong> complete."
+msgstr "Pagina jocului tău este <strong>{{ completion }}%</strong> completă."
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:38
 msgid "dash.games.overview.todo_recommended"
@@ -1374,7 +1372,7 @@ msgstr "Salvează Descripția"
 
 #: app/components/forms/dashboard/game/package/package.html:34
 msgid "dash.games.packages.form.description_help_html"
-msgstr "This should be filled in <em>only if it's needed</em>, if the name alone isn't enough to distinguish this package from other packages."
+msgstr "Acesta trebuie să fie integrat în <em>doar dacă este nevoie</em>, dacă doar numele nu este destul să facă acest pachet sa fie recunoscut de celelalte pachete."
 
 #: app/components/forms/dashboard/game/package/package.html:33
 msgid "dash.games.packages.form.description_label"
@@ -1386,7 +1384,7 @@ msgstr "Schimbă Numele"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
-msgstr "This is the name that shows up on your game page above the Download/Play button. For your main package, use the title of your game."
+msgstr "Acesta este numele care apare pe pagina jocului tău deasupra butonului Download/Play. Pentru pachetul principal, folosește titlul jocului tău."
 
 #: app/components/forms/dashboard/game/package/package.html:8
 msgid "dash.games.packages.form.title_label"
@@ -1426,19 +1424,19 @@ msgstr "Ascuns"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
-msgstr "This release is hidden and won't show up on your game page until published."
+msgstr "Acest update e ascuns si nu va fii afisat pe jocul tau pana cand pagina nu e publicata."
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
 msgid "dash.games.packages.manage.releases.no_releases_html"
-msgstr "<p>You haven't added any releases to this package yet.</p>"
+msgstr "<p>Nu ai adăugat nici o lansare in pachetul acesta încă.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
 msgid "dash.games.packages.manage.releases.page_help_html"
-msgstr "\t<p>Releases represent new versions of your package. If you update a package, you should add a release. You can group all of the new builds for different platforms into a single new release.</p>"
+msgstr " <p>Lansările reprezintă noi versiuni ale pachetului tău. Dacă updatezi un pachet, ar trebui să adaugi o lansare. Poți să grupezi toate build-urile noi pentru diferite platforme intr-o singură lansare nouă.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:6
 msgid "dash.games.packages.manage.releases.page_help_link"
-msgstr "Learn more about releases..."
+msgstr "Mai mult despre lansări..."
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
 msgid "dash.games.packages.manage.releases.published_tag"
@@ -1446,7 +1444,7 @@ msgstr "Publicat"
 
 #: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
 msgid "dash.games.packages.manage.releases.published_tooltip"
-msgstr "This release is published and can be accessed from your game page."
+msgstr "Această lansare este publicată si poate fi accesată de pe pagina jocului tău."
 
 #: app/views/dashboard/developer/games/manage/packages/package/package.html:18
 msgid "dash.games.packages.manage.remove_package_button"
@@ -1463,8 +1461,8 @@ msgstr "<p>Nu ai adăugat niciun pachet încă.</p>"
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:6
 #: app/views/dashboard/developer/games/manage/packages/packages.html:64
 msgid "dash.games.packages.page_help_html"
-msgstr "<p>Packages are how you organize and distribute your game's builds and other files.</p>\n"
-"\t<p>Your main package should contain the builds you want people to play. You can create new packages to contain additional files, such as level editors, art packs, expansions, and other DLC.</p>"
+msgstr "<p>Pachetele sunt cum alegi să organizezi și să distribui build-urile jocului tău și alte file.</p>\n"
+"<p>Pachetul tău principal ar trebui să conțină build-urile pe care vrei ca lumea să le joace. Poți crea pachete noi care să conțină file adiționale, spre exemplu editoare de nivele, pachete cu artă, expansiuni, și alte DLC-uri.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/add/add.html:8
 #: app/views/dashboard/developer/games/manage/packages/packages.html:66
@@ -1521,7 +1519,7 @@ msgstr "Include în arhivă?"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:3
 msgid "dash.games.releases.builds.extra_files.info_html"
-msgstr "<p>You can upload any additional files that your applet needs here.</p>"
+msgstr "<p>Poți uploada file adiționale pe care applet-ul tău are nevoie aici.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
 msgid "dash.games.releases.builds.heading"
@@ -1537,8 +1535,8 @@ msgstr "Opțiuni de Lansare"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
 msgid "dash.games.releases.builds.launch_options.archive_info_html"
-msgstr "<p><strong>We've detected that this build is an archive file.</strong></p>\n"
-"\t<p>Tell us the path to the executable file for each platform you've chosen so we can launch it automatically.</p>"
+msgstr "<p><strong>Am detectat că acest build este o filă arhivată.</strong></p>\n"
+"<p>Spune-ne locația către fila executabilă pentru fiecare platformă pe care ai ales-o ca să o putem lansa automatic.</p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
@@ -1554,7 +1552,7 @@ msgstr "Selectează Fișierul Executabil"
 
 #: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
 msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
-msgstr "<p>Oh no! We didn't find any executable files for this platform in the archive.</p>"
+msgstr "<p>Oh nu! Nu am putut găsi nici o filă executabilă pentru acteastă platformă in arhivă.</p>"
 
 #: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
 msgid "dash.games.releases.builds.launch_options.form.file_error_label"
@@ -1566,7 +1564,7 @@ msgstr "Stabilește Opțiunile de Lansare"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:1
 msgid "dash.games.releases.builds.launch_options.incomplete_alert_html"
-msgstr "<p>We don't know how to auto-run this build! We need you to tell us how to launch it before it can show up on your game page.</p>"
+msgstr "<p>Nu știm cum să deschidem automatic acest build! Avem nevoie să n-e spui cum să îl lansăm înainte să fie publicat pe pagina jocului tău.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
 msgid "dash.games.releases.builds.launch_options.page_help_link"
@@ -1574,12 +1572,12 @@ msgstr "Citește mai multe despre opțiunile de lansare..."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:28
 msgid "dash.games.releases.builds.launch_options.standalone_info_html"
-msgstr "<p><strong>We've detected that this build is a standalone executable file.</strong></p>\n"
-"\t<p>It can be launched automatically.</p>"
+msgstr "<p><strong>Am detectat că acest build este o singură filă executabilă.</strong></p>\n"
+"<p> Poate fi lansată automatic.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:12
 msgid "dash.games.releases.builds.no_builds_html"
-msgstr "<p>You haven't added any builds to this release yet.</p>"
+msgstr "<p>Nu ai adăugat nici un build acestei lansări încă.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:56
 msgid "dash.games.releases.builds.other_downloadable_tag"
@@ -1611,11 +1609,11 @@ msgstr "Valoare"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/params/_params.html:3
 msgid "dash.games.releases.builds.params.info_html"
-msgstr "<p>You can upload any additional files that your applet needs here.</p>"
+msgstr "<p>Poți agăuga file adiționale pentru care applet-ul tău are nevoie aici.</p>"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:168
 msgid "dash.games.releases.builds.processing_message_html"
-msgstr "<strong>Processing build.</strong> It will become available in this release as soon as we're done."
+msgstr "<strong>Procesăm build-ul.</strong> Va fi valabil în această lansare când este gata."
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:211
 msgid "dash.games.releases.builds.remove_build_button"
@@ -1632,9 +1630,9 @@ msgstr "Schimbă Lansarea"
 #: app/components/forms/dashboard/game/release/release.html:11
 msgid "dash.games.releases.form.version_number_help_html"
 msgstr "<p>\n"
-"\t\tVersion numbers are how you label releases.<br>\n"
-"\t\tNumbering should follow the format <code>MAJOR.MINOR.PATCH</code>.\n"
-"\t</p>"
+"Numerele versiuni este cum numești lansările.<br>\n"
+"Numerele trebuie sa aibă formatul <code>MAJOR.MINOR.PATCH</code>.\n"
+"</p>"
 
 #: app/components/forms/dashboard/game/release/release.html:13
 msgid "dash.games.releases.form.version_number_help_link"
@@ -1766,8 +1764,8 @@ msgstr "Tabeluri de Joc"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:4
 msgid "dash.games.scoreboards.page_help_html"
-msgstr "\t<p>The API allows you to add multiple customized scoreboards, with control over sorting options and guest scoring, and the ability to attach extra hidden data to scores.</p>\n"
-"\t<p>The primary scoreboard is the one that will show by default on your game's page. Set a new primary by dragging a scoreboard into the first slot.</p>"
+msgstr " <p>Acest API îți dă voie să adaugi multiple scoreboard-uri customizate, și controlul asupra sortării opțiunilor si scorurilor musafirilor, la fel și abilitatea să atașezi informație ascunsa extra pentru scoruri.</p>\n"
+"<p>Scoreboard-ul primar este cel care v-a fi arătat principal pe pagina jocului tău. Setează un nou primar scoreboard trăgândul in primul slot.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:6
 msgid "dash.games.scoreboards.page_help_link"
@@ -1812,11 +1810,11 @@ msgstr "Vezi Scoruri"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:16
 msgid "dash.games.scores.list.no_scores_html"
-msgstr "<p>This table lacks scores, alas.</p>"
+msgstr "<p>Acest tabel nu are scoruri, of!</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/list/list.html:14
 msgid "dash.games.scores.list.page_help_html"
-msgstr "<p>These are all of the scores that have been submitted to this scoreboard by users and guests (if allowed).</p>"
+msgstr "<p>Acestea sunt toate scorurile care au fost introduse in aceast scoreboard de către utilizatori și musafiri(dacă este permis).</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_list-scores/list-scores.html:5
 msgid "dash.games.scores.list.rank_label"
@@ -1848,7 +1846,7 @@ msgstr "pe"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:27
 msgid "dash.games.scores.user.list.no_scores_html"
-msgstr "<p>The user has no scores on this scoreboard.</p>"
+msgstr "<p>Acest utilizator nu are scoruri pe scoreboard-ul lui.</p>"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/scores/user/list/list.html:21
 msgid "dash.games.scores.user.list.remove_all_button"
@@ -1856,7 +1854,7 @@ msgstr "Elimină Toate"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/_user-options/user-options.html:10
 msgid "dash.games.scores.view_user_scores"
-msgstr "View All Scores For User"
+msgstr "Vizualizează Toate Scorurile Pentru Utilizator"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:72
 msgid "dash.games.scores.view.data_label"
@@ -1864,31 +1862,32 @@ msgstr "Extra Data"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:75
 msgid "dash.games.scores.view.data_none_help"
-msgstr "No extra data for this score. You can use the extra data field to store information to help you weed out cheaters and validate scores. It's never shown to users."
+msgstr "Nici o extra informație pentru acest scor. Poți să folosești câmpul pentru extra informație să adaugi ce ai nevoie pentru a scoate trișori și să validezi scorurile. Utilizatori nu vor vedea asta niciodată."
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:66
 msgid "dash.games.scores.view.date_label"
-msgstr "Scored On"
+msgstr "Punctat Pe"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:8
 msgid "dash.games.scores.view.heading"
-msgstr "Score Details"
+msgstr "Detaiile Scorului"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:15
 msgid "dash.games.scores.view.remove_button"
-msgstr "Remove Score"
+msgstr "Șterge scor"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:62
+#, fuzzy
 msgid "dash.games.scores.view.sort_label"
-msgstr "Sort Value"
+msgstr "Valuare de sortare"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:58
 msgid "dash.games.scores.view.string_label"
-msgstr "Score String"
+msgstr "Serie scor"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:50
 msgid "dash.games.scores.view.table_label"
-msgstr "Table"
+msgstr "Tabel"
 
 #: app/views/dashboard/developer/games/manage/api/scores/view/view.html:27
 msgid "dash.games.scores.view.user_label"
@@ -1896,8 +1895,8 @@ msgstr "Utilizator"
 
 #: app/components/forms/dashboard/game/settings/settings.html:16
 msgid "dash.games.settings.ads_help_html"
-msgstr "<p><strong>Turning this off will remove all ads for this game.</strong></p>\n"
-"\t<p>Only do this if you don't want to monetize your game, or if your game is subject to a license that doesn't allow monetization.</p>"
+msgstr "<p><strong>Prin oprirea acestuia vei elimina toate reclamele pentru acest joc.</strong></p>\n"
+"<p>Fă asta doar cand nu vrei să faci bani pe acest joc, sau dacă jocul tău are o licență care nu accepta monetizarea.</p>"
 
 #: app/components/forms/dashboard/game/settings/settings.html:15
 msgid "dash.games.settings.ads_label"
@@ -1905,81 +1904,81 @@ msgstr "Afisati anunturi?"
 
 #: app/components/forms/dashboard/game/settings/settings.html:27
 msgid "dash.games.settings.comments_help_html"
-msgstr "<p><strong>Turning this off will disable comments for this game and hide any comments already on the page.</strong></p>\n"
-"\t<p>The community will no longer be able to give you feedback via comments, but you may prefer this if your game contains sensitive or controversial material.</p>\n"
-"\t<p>This will never remove comments from your game page&mdash;merely hide them. If you allow comments again in the future, all previously hidden comments will be restored.</p>"
+msgstr "<p><strong>Prin oprirea acestuia vei dezactiva comentariile pentru acest joc și ascunde orice comentarii deja pe pagina.</strong></p>\n"
+"<p>Comunitatea nu va mai putea să îți dea feedback prin comentarii, dar poate preferi asta dacă jocul tău conține material sensibil sau controversat.</p>\n"
+"<p>Această opțiune nu va șterge niciodată comentarii de pe pagina jocului tău ci doar le va ascunde. Daca permiteți comentarii din nou în viitor, toate comentariile ascunse înainte vor fi restaurate.</p>"
 
 #: app/components/forms/dashboard/game/settings/settings.html:26
 msgid "dash.games.settings.comments_label"
-msgstr "Allow comments?"
+msgstr "Permiteți comentarii?"
 
 #: app/components/forms/dashboard/game/settings/settings.html:10
 msgid "dash.games.settings.ga_tracking_id_error_label"
-msgstr "tracking ID"
+msgstr "ID tracking"
 
 #: app/components/forms/dashboard/game/settings/settings.html:12
 msgid "dash.games.settings.ga_tracking_id_help_html"
-msgstr "<p>\n"
-"\t\tUse <a href=\"http://google.com/analytics\" target=\"_blank\">Google Analytics</a> to track a multitude of stats and get tons of information about your game page. Just enter your Google Analytics tracking ID here and we'll start sending data over there right away.\n"
-"\t</p>\n"
+msgstr "Folosește <a href=//google.com/analytics\" target=\"_blank\">Google Analytics</a> ca să urmărești o multitudine de statistici și să iei o tonă de informații despre pagina jocului tău. Doar introdu codul tău ID de tracking aici și vom începe sa trimitem informații imediat.\n"
+"</p>\n"
 "\n"
-"\t<p><strong>Here's how to set get started:</strong></p>\n"
+"<p><strong>Aici este cum trebuie să începi:</strong></p>\n"
 "\n"
-"\t<ul>\n"
-"\t\t<li>Create (or log into an existing) <a href=\"http://www.google.com/analytics\" target=\"_blank\">Google Analytics</a> account.</li>\n"
-"\t\t<li>Set up a new Property (go to the <em>Admin</em> tab and select <em>Create new property</em> from the dropdown menu under <em>Property</em>).</li>\n"
-"\t\t<li>Select <em>Website</em> and enter <strong>gamejolt.com</strong> as the URL.</li>\n"
-"\t\t<li>Select an Industry Category and a Reporting Time Zone.</li>\n"
-"\t\t<li>Click <em>Get Tracking ID</em>.</li>\n"
-"\t\t<li>Come back here and enter your Tracking ID.</li>\n"
-"\t\t<li>You're all set!</li>\n"
-"\t</ul>"
+"<il>\n"
+"<li>Creează un( sau loghează-te într-un) cont <a href=\"http://www.google.com/analytics\" target=\"_blank\">Google Analytics</a></li>\n"
+"<li>Setează o noua Proprietate (du-te la tab-ul <em>Admin</em> și selectează <em>Create new property</em> de la meniul dropdown dedesubt de <em>Property</em>).</li>\n"
+"<li>Selectează <em>Website</em> și introdu <strong>Gameloft.com</strong> ca adresa URL.</li>\n"
+"<li>Selectează o categorie Industrie si un Time Zone de reportate.</li>\n"
+"<li>Dă click pe <em>Get Tracking ID</em>.</li\n"
+"<li>Vin-o înapoi aici și introdu codul ID de tracking.</li>\n"
+"<li>Ești gata!</li>\n"
+"</ul>"
 
 #: app/components/forms/dashboard/game/settings/settings.html:3
 msgid "dash.games.settings.ga_tracking_id_label"
-msgstr "Google Analytics Tracking ID"
+msgstr "Google Analytics ID de tracking"
 
 #: app/components/forms/dashboard/game/settings/settings.html:7
 msgid "dash.games.settings.ga_tracking_id_placeholder"
-msgstr "Example: UA-1234567-1"
+msgstr "Exemplu: UA-1234567-1"
 
 #: app/components/forms/dashboard/game/settings/settings.html:38
 msgid "dash.games.settings.ratings_help_html"
-msgstr "<p><strong>Turning this off will disable ratings for this game and hide any ratings already on the page.</strong></p>\n"
-"\t<p> Your game's voltage will be calculated as if it had received no ratings. If you allow ratings in the future, the old ratings will be reapplied and your voltage will be recalculated.</p>"
+msgstr "<p><strong>Oprirea acestuia va dezactiva ranting-urile pentru acest joc și va ascunde rating-urile deja pe pagină.</strong></p>\n"
+"<p> Voltajul jocului tău va fi calculat ca și când nu ar fi primit nici un rating. Daca nu permiteți rating-uri in viitor, rating-urile vechi vor fi re-aplicate și voltajul tău va fi recalculat. </p>"
 
 #: app/components/forms/dashboard/game/settings/settings.html:37
 msgid "dash.games.settings.ratings_label"
-msgstr "Allow ratings?"
+msgstr "Autorizați ratinguri?"
 
 #: app/components/forms/dashboard/game/settings/settings.html:50
 msgid "dash.games.settings.save_button"
-msgstr "Save Settings"
+msgstr "Salvează Setări"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:45
+#, fuzzy
 msgid "dash.games.thumbnail.crop_error_label"
-msgstr "crop"
+msgstr "Decupează"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:4
 msgid "dash.games.thumbnail.heading"
-msgstr "Edit Thumbnail"
+msgstr "Editează thumbnail"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:7
 msgid "dash.games.thumbnail.page_help_html"
-msgstr "<p>A thumbnail is the little rectangular image that represents your game throughout the site. People can click it in game listings and search results to get to your game page.</p>\n"
-"\t<p>Please don't choose an image that contains nudity, swear words, or adult-oriented imagery.</p>"
+msgstr "<p> Un thumbnail este o mică imagine care reprezintă jocul tău pe site. Lumea poate să dea click pe ea intr-o listă de jocuri și să caute rezultate ca să ajungă la pagina jocului tău.</p>\n"
+"<p>Vă rugăm nu alegeți o imagine care conține nuditate, înjurături, sau imagini orientate adulților.</p>"
 
 #: app/views/dashboard/developer/games/manage/game/thumbnail/thumbnail.html:9
 msgid "dash.games.thumbnail.page_help_link"
-msgstr "What are the thumbnail requirements and guidelines?"
+msgstr "Care sunt cerințele si regulile pentru thumbnail?"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:30
 msgid "dash.games.thumbnail.upload_error_label"
-msgstr "thumbnail image"
+msgstr "imagine thumbnail"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail.html:15
 msgid "dash.games.thumbnail.upload_label"
-msgstr "Upload New Thumbnail"
+msgstr "Uploadează o noua imagine thumbnail"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:64
 msgid "dash.games.trophies.form.description_label"
@@ -1987,31 +1986,31 @@ msgstr "Descriere"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:31
 msgid "dash.games.trophies.form.difficulty_label"
-msgstr "Difficulty"
+msgstr "Dificultate"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:75
 msgid "dash.games.trophies.form.hidden_help"
-msgstr "Hidden trophies are invisible to everyone but the game's developer, for testing and other nefarious reasons."
+msgstr "Trofeele ascunse sunt invizibile pentru toată lumea inafară pentru developerul jocului, pentru testare sau din alte motive necurate."
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:74
 msgid "dash.games.trophies.form.hidden_label"
-msgstr "Hidden"
+msgstr "Ascuns"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:55
 msgid "dash.games.trophies.form.image_error_label"
-msgstr "trophy image"
+msgstr "imagine trofeu"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:43
 msgid "dash.games.trophies.form.image_help_link"
-msgstr "Learn more about trophy images..."
+msgstr "Mai mult despre imaginile pentru trofeu..."
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:81
 msgid "dash.games.trophies.form.save_button"
-msgstr "Save Trophy"
+msgstr "Salvează trofeu"
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:70
 msgid "dash.games.trophies.form.secret_help"
-msgstr "Secret trophies hide everything but their titles from players until they are achieved."
+msgstr "Trofeele secrete ascund totul înafară titlul lor față de jucatori până cand sunt câștigate."
 
 #: app/components/forms/dashboard/game/trophy/trophy.html:69
 msgid "dash.games.trophies.form.secret_label"
@@ -2023,27 +2022,27 @@ msgstr "Titlu"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:13
 msgid "dash.games.trophies.has_hidden_html"
-msgstr "<p><strong>You have hidden trophies!</strong> Be sure to unhide them when you're ready for players to achieve them.</p>"
+msgstr "<p><strong>Ai ascuns trofee!</strong> Amintește-ți să nu le mai ascunzi când crezi că jucătorii sunt gata să le câștige. </p>"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:4
 msgid "dash.games.trophies.heading"
-msgstr "Game Trophies"
+msgstr "Trofee"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:65
 msgid "dash.games.trophies.hidden_tag"
-msgstr "Hidden"
+msgstr "Ascuns"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:7
 msgid "dash.games.trophies.page_help_html"
-msgstr "<p>The API lets you add multiple unique trophies, each forged from a material that indicates how difficult it is to achieve: bronze (easiest), silver, gold, or platinum (hardest).</p>"
+msgstr "<p>API-ul îți dă voie să adaugi mai multe trofee unice, fiecare fiind dintr-un material care indică cât de dificil este să îl câștigi: bronz (cel mai ușor), argint, aur, sau platină (cel mai dificil).</p>"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:9
 msgid "dash.games.trophies.page_help_link"
-msgstr "Learn more about trophies..."
+msgstr "Mai mult despre trofee..."
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:76
 msgid "dash.games.trophies.remove_button"
-msgstr "Remove Trophy"
+msgstr "Șterge trofeu"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:66
 msgid "dash.games.trophies.secret_tag"
@@ -2051,11 +2050,11 @@ msgstr "Secret"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:55
 msgid "dash.games.trophies.trophy_id_label"
-msgstr "Trophy ID"
+msgstr "ID trofeu"
 
 #: app/views/dashboard/developer/games/manage/manage.html:18
 msgid "dash.games.view_page_button"
-msgstr "View Game Page"
+msgstr "Vezi pagina jocului"
 
 #: app/views/dashboard/overview/overview.html:111
 msgid "dash.integrate.done"
@@ -2063,270 +2062,264 @@ msgstr "Gata"
 
 #: app/views/dashboard/overview/overview.html:124
 msgid "dash.integrate.exp_help_body_html"
-msgstr "<p>To earn experience and level up, be sure to <em>rate</em> and <em>comment</em> on the games you play.</p>\n"
-"\t<p>However, the fastest way to gather EXP is to achieve <strong>trophies</strong> and get onto <strong>scoreboards</strong>!</p>"
+msgstr "<p>Ca să câștigi experiența si să îți mărești nivelul, amintește-ți să <em>votezi</> și să <em>comentezi</em> pe jocurile care le joci.</p>\n"
+"<p>Dar, cea mai rapida metodă să aduni EXP este sa câștigi <strong>trofee</strong> și să ajungi pe un <strong>scoreboard</string>!</p>"
 
 #: app/views/dashboard/overview/overview.html:123
 msgid "dash.integrate.exp_help_heading"
-msgstr "Gain experience and level up!"
+msgstr "Adună experiență și creșteți nivelul!"
 
 #: app/views/dashboard/overview/overview.html:87
 msgid "dash.integrate.heading"
-msgstr "Integrate"
+msgstr "Integrează"
 
 #: app/views/dashboard/overview/overview.html:90
 msgid "dash.integrate.lead"
-msgstr "Here's a to-do list of things to get you started with the site:"
+msgstr "Aici este o listă cu chestii care să te ajute să începi utiliza site-ul:"
 
 #: app/views/dashboard/overview/overview.html:131
 msgid "dash.overview.activity_heading"
-msgstr "Latest Activity"
+msgstr "Activitate recentă"
 
 #: app/views/dashboard/overview/overview.html:140
 msgid "dash.overview.activity_no_activity_html"
-msgstr "<p>No activity yet.</p>"
+msgstr "<p>Nici o activitate.</p>"
 
 #: app/views/dashboard/overview/overview.html:144
 msgid "dash.overview.activity_view_all_button"
-msgstr "View All Activity"
+msgstr "Vezi toată activitatea"
 
 #: app/views/dashboard/overview/overview.html:38
 msgid "dash.overview.broadcast_view_all"
-msgstr "View All Changelog Broadcasts"
+msgstr "Vezi toate schimbările de la noutăți"
 
 #: app/views/dashboard/overview/overview.html:162
 msgid "dash.overview.developer_games_add_button"
-msgstr "Add Game"
+msgstr "Adaugă joc"
 
 #: app/views/dashboard/overview/overview.html:155
 msgid "dash.overview.developer_games_heading"
-msgstr "Your Games"
+msgstr "Jocurile tale"
 
 #: app/views/dashboard/overview/overview.html:178
 msgid "dash.overview.developer_games_no_games_html"
-msgstr "No games yet? Wait, really? You're a developer, so... <a href=\"/dashboard/developer/games/add\">Add a game</a>!"
+msgstr "Nici un joc încă? Stai, serios? Ești un developer, deci... <a href=\"/dashboard/developer/games/add\">Adaugă un joc</a>!"
 
 #: app/views/dashboard/overview/overview.html:4
 msgid "dash.overview.heading"
-msgstr "Your Dashboard"
+msgstr "Dashboard-ul tău"
 
 #: app/views/dashboard/overview/overview.html:61
 #: app/views/dashboard/withdraw-funds/withdraw-funds.html:19
 msgid "dash.overview.revenue_balance"
-msgstr "Current Balance"
+msgstr "Balanță curentă"
 
 #: app/views/dashboard/overview/overview.html:47
 msgid "dash.overview.revenue_heading"
-msgstr "Revenue"
+msgstr "Venituri"
 
 #: app/views/dashboard/overview/overview.html:48
 msgid "dash.overview.revenue_tooltip"
-msgstr "Game Jolt gives you a percentage of the ad revenue we make from your games on the site."
+msgstr "Game Jolt îți oferă un percentaj din câștigurile de la reclame pe care le facem de pe urma jocului tău pe site."
 
 #: app/views/dashboard/overview/overview.html:53
 msgid "dash.overview.revenue_total"
-msgstr "Total Earned"
+msgstr "Câștig total"
 
 #: app/views/dashboard/overview/overview.html:74
 msgid "dash.overview.revenue_withdraw_button"
-msgstr "Withdraw Revenue"
+msgstr "Scoate venituri"
 
 #: app/views/dashboard/overview/overview.html:57
 msgid "dash.overview.revenue_withdrawn"
-msgstr "Total Withdrawn"
+msgstr "Venituri totale"
 
 #: app/views/dashboard/overview/overview.html:14
 msgid "dash.overview.view_profile_button"
-msgstr "View Your Profile"
-
-#: app/components/forms/dashboard/profile/profile.html:52
-msgid "dash.profile.edit.description_help_html"
-msgstr "Let people know about yourself!"
+msgstr "Vizualizează profilul tău"
 
 #: app/components/forms/dashboard/profile/profile.html:50
+msgid "dash.profile.edit.description_help_html"
+msgstr "Spune-i lumii despre tine!"
+
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
-msgstr "Profile Bio"
+msgstr "Bio profil"
 
 #: app/components/forms/dashboard/profile/profile.html:33
 msgid "dash.profile.edit.display_name_help"
-msgstr "If you enter a display name, it'll show up on the site instead of your username. Unlike usernames, display names can contain spaces and special characters."
+msgstr "Dacă introduci un nume de display, va apărea pe site in loc de numele tău de utilizator. Spre deosebire de numele de utilizator, numele de display poate conține spații și caractere speciale."
 
 #: app/components/forms/dashboard/profile/profile.html:27
 #: app/components/forms/dashboard/profile/profile.html:37
 msgid "dash.profile.edit.display_name_label"
-msgstr "Display Name"
+msgstr "Numele de display"
 
 #: app/components/forms/dashboard/profile/profile.html:39
 msgid "dash.profile.edit.display_name_time_left_html"
-msgstr "You can only change your display name once a week. <br>\n"
-"\tYou have {{ duration }} left until you can change your display name again."
+msgstr "Poți să îți schimbi numele tău de display doar o dată pe săptămana. <br>\n"
+"Mai ai {{ duration }} până când poți să îți schimbi numele de display din nou."
 
 #: app/views/dashboard/account/edit/edit-controller.js:4
 msgid "dash.profile.edit.heading"
-msgstr "Edit Your Information"
+msgstr "Editează informația ta"
 
 #: app/views/dashboard/account/edit/edit-controller.js:3
 msgid "dash.profile.edit.page_title"
-msgstr "Edit Your User Info"
+msgstr "Editează informația ta de utilizator"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
-msgstr "Save Profile"
+msgstr "Salvează profil"
 
 #: app/components/forms/dashboard/profile/profile.html:10
 #: app/components/forms/dashboard/profile/profile.html:21
 msgid "dash.profile.edit.username_label"
-msgstr "Username"
+msgstr "Numele de utilizator"
 
 #: app/components/forms/dashboard/profile/profile.html:23
 msgid "dash.profile.edit.username_time_left_html"
-msgstr "You can only change your username once a week. <br>\n"
-"\tYou have {{ duration }} left until you can change it again."
+msgstr "Poți să îți schimbi numele de utilizator doar o dată pe săptămana. <br>\n"
+"Mai ai {{ duration }} până când îl vei putea schimba din nou."
 
 #: app/components/forms/dashboard/profile/profile.html:43
 msgid "dash.profile.edit.website_label"
 msgstr "Website"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
-msgstr "All-Time Best Games"
+msgstr "Cele mai bune jocuri din tot-deauna"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
-msgstr "A sampling of the highest rated games of all time."
+msgstr "O listă a celor mai votate jocuri din tot-deauna."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
-msgstr "Latest from the"
+msgstr "Cele mai recente din"
 
-#: app/views/discover/home/home.html:269
-msgid "discover.home.fireside_help"
-msgstr "Indie game news, reviews, and opinions by people."
-
-#: app/views/discover/home/home.html:226
-msgid "discover.home.followed_news_heading"
-msgstr "Followed Game News"
-
-#: app/views/discover/home/home.html:233
-msgid "discover.home.followed_news_help"
-msgstr "The latest news from games you're following."
-
-#: app/views/discover/home/home.html:205
-msgid "discover.home.followed_news_tab"
-msgstr "Followed"
-
-#: app/views/discover/home/home.html:152
-msgid "discover.home.hot_heading"
-msgstr "Hot Games"
-
-#: app/views/discover/home/home.html:159
-msgid "discover.home.hot_help"
-msgstr "Popular indie games, sorted by Hotness."
-
-#: app/views/discover/home/home.html:218
-msgid "discover.home.hot_news_heading"
-msgstr "Hot Game News"
-
-#: app/views/discover/home/home.html:232
-msgid "discover.home.hot_news_help"
-msgstr "The hottest indie game news directly from the developers."
-
-#: app/views/discover/home/home.html:200
-msgid "discover.home.hot_news_tab"
-msgstr "Hot News"
-
-#: app/views/discover/home/home.html:245
 #: app/views/discover/home/home.html:249
+msgid "discover.home.fireside_help"
+msgstr "Știri despre jocuri indie, reviuri, și opiniile oamenilor."
+
+#: app/views/discover/home/home.html:206
+msgid "discover.home.followed_news_heading"
+msgstr "Știrile jocurilor urmărite"
+
+#: app/views/discover/home/home.html:213
+msgid "discover.home.followed_news_help"
+msgstr "Ultimele știri despre jocurile care le urmărești."
+
+#: app/views/discover/home/home.html:185
+msgid "discover.home.followed_news_tab"
+msgstr "Urmărite"
+
+#: app/views/discover/home/home.html:132
+msgid "discover.home.hot_heading"
+msgstr "Jocuri populare"
+
+#: app/views/discover/home/home.html:139
+msgid "discover.home.hot_help"
+msgstr "Jocuri indie populare, sortate după popularitate."
+
+#: app/views/discover/home/home.html:198
+msgid "discover.home.hot_news_heading"
+msgstr "Știrile jocurilor populare"
+
+#: app/views/discover/home/home.html:212
+msgid "discover.home.hot_news_help"
+msgstr "Cele mai populare știri despre jocuri indie direct de la developeri."
+
+#: app/views/discover/home/home.html:180
+msgid "discover.home.hot_news_tab"
+msgstr "Știri populare"
+
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
-msgstr "More News"
+msgstr "Mai multe știri"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
-msgstr "Play along with us!"
+msgstr "Joacă-te cu noi!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "This Week's Best Games"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "The highest rated games published in the past 7 days."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
+#, fuzzy
 msgid "discover.nav.featured_playlists"
-msgstr "Featured Playlists"
+msgstr "Playlist-uri recomandate"
 
 #: app/views/discover/games/view/download/build/build.html:55
 msgid "game.download.game.developer_games_heading"
-msgstr "Other Games"
+msgstr "Alte jocuri"
 
 #: app/views/discover/games/view/download/build/build.html:57
 msgid "game.download.game.developer_games_heading_small"
-msgstr "by this developer"
+msgstr "de la acest developer"
 
 #: app/views/discover/games/view/download/build/build.html:14
 msgid "game.download.game.downloading_wait_message"
-msgstr "Your download should begin in just a moment..."
+msgstr "Download-ul tău va începe într-un moment..."
 
 #: app/views/discover/games/view/download/build/build.html:38
 msgid "game.download.game.rate_html"
-msgstr "<p><strong>What did you think?</strong> Game ratings allow us to show you better stuff. Help curate the site!</p>"
+msgstr "<p><strong>Cum ți se pare?</strong> Prin a vota, vom putea să îți arătam chestii mai bune. Ajută îmbunătățirea site-ului!"
 
 #: app/views/discover/games/view/download/build/build.html:76
 msgid "game.download.game.recommended_heading"
-msgstr "You May Also Like"
+msgstr "S-ar putea sa îți placă și"
 
 #: app/views/discover/games/view/download/build/build.html:20
 msgid "game.download.game.share_heading"
-msgstr "Liked it? Share it!"
+msgstr "Ți-a plăcut? Distribuie-l!"
 
 #: app/views/discover/games/view/download/soundtrack/soundtrack.html:14
 msgid "game.download.soundtrack.downloading_wait_message"
-msgstr "Your download should begin in just a moment..."
+msgstr "Download-ul va începe într-un moment..."
 
 #: app/components/game/rating-growl/rating-growl.html:12
 msgid "game.rating_growl.message"
-msgstr "Game ratings allow us to show you better stuff. Help curate the site!"
+msgstr "Prin a vota, vom putea să îți arătăm chestii mai bune. Ajută imbunătățirea site-ului!"
 
 #: app/components/game/rating-growl/rating-growl.html:1
 msgid "game.rating_growl.title"
-msgstr "Rate"
+msgstr "Votează"
 
 #: app/views/discover/games/view/scores/list/list.html:36
 msgid "game.scores.best_tab"
-msgstr "All Scores"
+msgstr "Toate scorurile"
 
 #: app/views/discover/games/view/scores/list/list.html:73
 msgid "game.scores.no_scores_html"
-msgstr "There are no scores on this scoreboard yet."
+msgstr "Nu exista scoruri pe aceasta tabla de scoruri inca"
 
 #: app/views/discover/games/view/scores/list/list.html:74
 msgid "game.scores.no_user_scores_html"
-msgstr "You don't have any scores here yet!"
+msgstr "Nu ai niciun scor aici inca!"
 
 #: app/views/discover/games/view/scores/list/list.html:39
 msgid "game.scores.user_tab"
-msgstr "Your Scores"
+msgstr "Scorurile Tale\n"
+""
 
 #: app/views/discover/games/view/trophies/list/list.html:26
 msgid "game.trophies.achieved_tab"
-msgstr "Achieved"
+msgstr "Realizat"
 
 #: app/views/discover/games/view/trophies/list/list.html:20
 msgid "game.trophies.all_tab"
-msgstr "All"
+msgstr "Toat"
 
 #: app/views/discover/games/view/trophies/list/list.html:7
 msgid "game.trophies.heading"
-msgstr "Trophies"
+msgstr "Trofee"
 
 #: app/views/discover/games/view/trophies/list/list.html:55
 msgid "game.trophies.no_trophies_html"
-msgstr "There are no trophies for this game yet. Bug the developer about adding some!"
+msgstr "Nu există trofee pentru acest joc încă. Enervează developerul ca să adauge câteva!"
 
 #: app/views/discover/games/view/trophies/list/list.html:32
 msgid "game.trophies.unachieved_tab"
-msgstr "Not Achieved"
+msgstr "Nerealizat"
 
 #: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:138
 msgid "games.browser_applet"
@@ -2350,23 +2343,24 @@ msgstr "Unity"
 
 #: app/components/game/filtering/widget.html:12
 msgid "games.filtering.browser_label"
-msgstr "Browser Games"
+msgstr "Jocuri in browser"
 
 #: app/components/game/filtering/tags.html:5
 msgid "games.filtering.genre_label"
-msgstr "Genre"
+msgstr "Gen"
 
 #: app/components/game/filtering/input.html:14
 msgid "games.filtering.input_placeholder"
-msgstr "Filter results..."
+msgstr "Filtreaza rezultatele"
 
 #: app/components/game/filtering/widget.html:19
+#, fuzzy
 msgid "games.filtering.maturity_label"
-msgstr "Maturity Rating"
+msgstr "Rating maturitate"
 
 #: app/components/game/filtering/widget.html:5
 msgid "games.filtering.os_label"
-msgstr "Operating Systems"
+msgstr "Sisteme de operare"
 
 #: app/components/game/filtering/widget.html:26
 msgid "games.filtering.status_label"
@@ -2375,87 +2369,90 @@ msgstr "Status"
 #: app/views/discover/games/list/_list-clean.html:47
 #: app/views/discover/games/list/_list-original.html:44
 msgid "games.list.best_descriptive_html"
-msgstr "Indie {{ category }} sorted by Voltage."
+msgstr "Indie {{ category }} sortat după voltaj."
 
 #: app/views/discover/games/list/_list-clean.html:74
 #: app/views/discover/games/list/_list-original.html:71
 msgid "games.list.date_descriptive_html"
-msgstr "Games that were published on {{ date }}, sorted by Voltage, with the best scores at the top."
+msgstr "Jocurile care au fost publicate pe data de {{ date }}, sortat după voltaj, cu cele mai bune scoruri în top."
 
 #: app/views/discover/games/list/_list-clean.html:29
 #: app/views/discover/games/list/_list-original.html:26
 msgid "games.list.date_heading"
-msgstr "Games Published"
+msgstr "Jocuri Publicate\n"
+""
 
 #: app/views/discover/games/list/_list-clean.html:77
 #: app/views/discover/games/list/_list-original.html:74
 msgid "games.list.date_range_descriptive_html"
-msgstr "Games that were published between {{ dateStart }} and {{ dateEnd }}, sorted by Voltage, with the best scores at the top."
+msgstr "Jocuri care au fost publicate între data de {{ dateStart }} și {{ dateEnd }}, sortat după voltaj, cu cel mai bun scor în top."
 
 #: app/views/discover/games/list/_list-clean.html:33
 #: app/views/discover/games/list/_list-original.html:30
 msgid "games.list.date_range_heading"
-msgstr "Games Published"
+msgstr "Jocuri publicate"
 
 #: app/views/discover/games/list/_list-clean.html:41
 #: app/views/discover/games/list/_list-original.html:38
 msgid "games.list.featured_descriptive_html"
-msgstr "Indie {{ category }} that we've featured on the homepage, sorted by feature date."
+msgstr "Jocuri Indie {{ category }} care au fost recomandate pe prima pagină, sortat după data când au fost recomandate."
 
 #: app/views/discover/games/list/_list-clean.html:54
 #: app/views/discover/games/list/_list-original.html:51
+#, fuzzy
 msgid "games.list.fresh_descriptive_html"
-msgstr "Indie {{ category }} sorted by Freshness."
+msgstr "Jocuri Indie {{ category }} sortat după noutate."
 
 #: app/views/discover/games/list/_list-clean.html:57
 #: app/views/discover/games/list/_list-original.html:54
 msgid "games.list.freshness_tooltip"
-msgstr "Freshness indicates community interest in recent games. A game's freshness score starts high and decays over time. Community activity can slow the decay."
+msgstr "Noutate indică interesul comunități în jocuri recente. Scorul noutății unui joc începe la un număr mare și scade în timp. Activitatea comunității poate să încetineze scăderea scorului."
 
 #: app/views/discover/games/list/_list-clean.html:158
 #: app/views/discover/games/list/_list-original.html:178
 msgid "games.list.games_count_none"
-msgstr "No games."
+msgstr "Nici un joc."
 
 #: app/views/discover/games/list/_list-clean.html:61
 #: app/views/discover/games/list/_list-original.html:58
 msgid "games.list.hot_descriptive_html"
-msgstr "Indie {{ category }} sorted by Hotness."
+msgstr "Jocuri Indie {{ category }} sortat după popularitate."
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
-msgstr "Hotness indicates community interest in recent games. A game's Hotness score starts high and decays over time. Community activity can slow the decay."
+msgstr "Popularitatea indică interesul comunității in jocuri recente. Scorul popularității unui joc începe ca fiind mare și scade in timp. Activitatea comunitații poate să încetinească asta."
 
 #: app/views/discover/games/list/_list-clean.html:68
 #: app/views/discover/games/list/_list-original.html:65
+#, fuzzy
 msgid "games.list.new_descriptive_html"
-msgstr "Indie {{ category }} sorted by publication date."
+msgstr "Jocuri Indie {{ category }} sortat după data publicației."
 
 #: app/views/discover/games/list/_list-clean.html:94
 #: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
-msgstr "Newly added games are not moderated, curated, or vetted by the community. You can find a goldmine of undiscovered talent or you may see some of the scariest shit of your life."
+msgstr "Jocurile nou adăugate nu sunt moderate în nici un fel de comunitate. Ai putea găsi ceva extraordinar sau un talent nedescoperit ori ai putea vedea unele dintre cele mai groaznice nașpeturi din viața ta."
 
 #: app/views/discover/games/list/category/category.html:2
 msgid "games.list.no_games_html"
-msgstr "No games match your filters. <b>Zoinks!</b>"
+msgstr "Nici un joc nu se potrivește cu filtre-urile tale. <b>Zoinks!</b>"
 
 #: app/views/discover/games/list/_list-clean.html:141
 #: app/views/discover/games/list/_list-original.html:161
 msgid "games.list.sections_selector_best"
-msgstr "Best"
+msgstr "Cele mai bune"
 
 #: app/views/discover/games/list/_list-clean.html:121
 #: app/views/discover/games/list/_list-original.html:141
 msgid "games.list.sections_selector_featured"
-msgstr "Featured"
+msgstr "Recomandate"
 
 #: app/views/discover/games/list/_list-clean.html:131
 #: app/views/discover/games/list/_list-original.html:151
 msgid "games.list.sections_selector_hot"
-msgstr "Hot"
+msgstr "Popularitate"
 
 #: app/views/discover/games/list/_list-clean.html:151
 #: app/views/discover/games/list/_list-original.html:171
@@ -2467,11 +2464,12 @@ msgstr "Nou"
 #: app/views/discover/games/list/_list-original.html:47
 #: app/views/discover/games/list/_list-original.html:77
 msgid "games.list.voltage_tooltip"
-msgstr "Voltage is our weighted rating system. All games start with an average score and the community drags it up or down."
+msgstr "Voltajul este sistemul nostru de rating. Toate jocurile încep cu un scor mediu și comunitatea poate să îl mărească sau să scadă acest scor."
 
 #: app/views/discover/games/view/_header/_nav.html:50
+#, fuzzy
 msgid "games.view.manage_game_button"
-msgstr "Manage Game"
+msgstr "Menajează Joc"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:21
 msgid "games.view.media.close"
@@ -2479,43 +2477,44 @@ msgstr "Inchide"
 
 #: app/views/discover/games/view/_header/_nav.html:58
 msgid "games.view.moderate_game_button"
-msgstr "Moderate Game"
+msgstr "Moderează Joc"
 
 #: app/views/discover/games/view/_header/_nav.html:11
 msgid "games.view.news_tab"
-msgstr "News"
+msgstr "Știri"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Notificari"
 
 #: app/views/discover/games/view/_header/_nav.html:6
 msgid "games.view.overview_tab"
-msgstr "Overview"
+msgstr "General"
 
 #: app/views/discover/games/view/_header/_nav.html:18
 msgid "games.view.scores_tab"
 msgstr "Scoruri"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
+#, fuzzy
 msgid "games.view.stats.downloads_plays_label"
-msgstr "Plays"
+msgstr "Jucat"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
-msgstr "Ratings"
+msgstr "Ratinguri"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
-msgstr "Views"
+msgstr "Vizualizări"
 
 #: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.trophies_tab"
-msgstr "Trophies"
+msgstr "Trofee"
 
 #: app/components/score/overview/overview.html:96
 #: app/components/trophy/list/list.html:27
@@ -2531,19 +2530,20 @@ msgstr "EXP"
 #: app/views/library/collection/_header-default.html:79
 #: app/views/library/library.html:95
 msgid "library.by"
-msgstr "by"
+msgstr "după"
 
 #: app/views/library/collection/_header-default.html:66
 msgid "library.collection.developer_descriptive_html"
-msgstr "These are the games made by {{ user }}."
+msgstr "Acestea sunt jocurile făcute de {{ user }}."
 
 #: app/views/library/collection/_header-default.html:58
 msgid "library.collection.developer_heading"
-msgstr "Games"
+msgstr "Jocuri"
 
 #: app/views/library/collection/_header-default.html:54
 msgid "library.collection.developer_owner_descriptive_html"
-msgstr "These are the games that you've made. Be proud!<br>Feel free to share this page with others to show off your games."
+msgstr "Acestea sunt jocurile pe care le-ai facut. Fii mandru!\n"
+"Simte-te liber sa le imparti cu altii."
 
 #: app/views/library/collection/_header-default.html:53
 msgid "library.collection.developer_owner_heading"
@@ -2551,11 +2551,11 @@ msgstr "Jocurile tale"
 
 #: app/views/library/collection/_header/_controls.html:28
 msgid "library.collection.edit_playlist_button"
-msgstr "Edit Playlist"
+msgstr "Editează playlist"
 
 #: app/views/library/collection/_header-default.html:44
 msgid "library.collection.followed_descriptive_html"
-msgstr "These are the games that {{ user }} is following."
+msgstr "Acestea sunt jocurile pe care {{ user }} le urmărește."
 
 #: app/views/library/collection/_header-default.html:36
 msgid "library.collection.followed_heading"
@@ -2563,11 +2563,11 @@ msgstr "Jocuri urmarite"
 
 #: app/views/library/collection/_header-default.html:32
 msgid "library.collection.followed_owner_descriptive_html"
-msgstr "When you follow a game, it shows up here.<br>You'll receive notifications when developers post news about any games you're following."
+msgstr "Când urmărești un joc, va apărea aici.<br>O să primești notificări când developeri postează noi știri despre oricare joc pe care îl urmărești."
 
 #: app/views/library/collection/_header-default.html:31
 msgid "library.collection.followed_owner_heading"
-msgstr "Your Followed Games"
+msgstr "Jocurile pe care le urmărești"
 
 #: app/views/library/collection/_header/_stats.html:3
 msgid "library.collection.followers_label"
@@ -2579,19 +2579,19 @@ msgstr "Jocuri"
 
 #: app/views/library/collection/collection.html:128
 msgid "library.collection.no_games_bundle_html"
-msgstr "There are no games in this bundle yet."
+msgstr "Nu sunt jocuri in acest pachet inca."
 
 #: app/views/library/collection/collection.html:126
 msgid "library.collection.no_games_developer_html"
-msgstr "This developer hasn't added any games yet."
+msgstr "Acest Developer nu a adăugat nici un joc încă."
 
 #: app/views/library/collection/collection.html:127
 msgid "library.collection.no_games_followed_html"
-msgstr "No games are being followed yet."
+msgstr "Nici un joc este urmărit încă."
 
 #: app/views/library/collection/collection.html:119
 msgid "library.collection.no_games_html"
-msgstr "@:games.list.no_games_html"
+msgstr "Nu sunt jocuri"
 
 #: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
@@ -2603,11 +2603,12 @@ msgstr "There are no games with this tag yet."
 
 #: app/views/library/collection/collection.html:37
 msgid "library.collection.remove_playlist_button"
-msgstr "Remove Playlist"
+msgstr "Elimină playlist"
 
 #: app/views/library/collection/_header-tag.html:10
+#, fuzzy
 msgid "library.collection.tag_heading_before"
-msgstr "Games tagged with"
+msgstr "Jocuri tagate cu"
 
 #: app/views/library/overview/overview.html:5
 msgid "library.description_html"
@@ -2615,11 +2616,11 @@ msgstr "<p>This is your personalized library of games. Here dwell the games you'
 
 #: app/views/library/overview/overview.html:4
 msgid "library.heading"
-msgstr "Game Library"
+msgstr "Librarie de jocuri"
 
 #: app/views/library/library.html:31
 msgid "library.nav.bundles"
-msgstr "Bundles"
+msgstr "Pachete"
 
 #: app/views/library/library.html:23
 msgid "library.nav.developer"
@@ -3211,11 +3212,11 @@ msgstr "Are you sure you want to remove this item?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Item Details - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Add Game"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Save Game"
 
@@ -3473,11 +3474,11 @@ msgstr "Are you sure you want to remove this song?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Stats for {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Add News Update"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Save News Update"
 
@@ -4331,7 +4332,7 @@ msgstr "Play a game."
 msgid "dash.integrate.rated_game_html"
 msgstr "Rate and comment on a game."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Ratings breakdown."
 
@@ -4379,19 +4380,19 @@ msgstr "Following"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Unfollow this playlist to remove it from your library and stop receiving notifications."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, something has prevented you from following this game."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Oh nu"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Game Followed"
 
@@ -4407,22 +4408,22 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 msgid "library.followed.remove_game_confirmation"
 msgstr "Are you sure you want to stop following {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, something has prevented you from unfollowing this game."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh nu!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "You have stopped following {{ game }} and will no longer receive notifications about it."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Game Unfollowed"
@@ -4680,19 +4681,19 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Contacteaza"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Prea multe jocuri...Si de numarare!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Translations are a community project."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Ajuta sa traduci!"
 
@@ -4772,7 +4773,7 @@ msgstr "Complete"
 msgid "games.filtering.status_wip"
 msgstr "Work in Progress"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] ""
@@ -4991,7 +4992,7 @@ msgstr "Da"
 msgid "commands.settings_description"
 msgstr "Schimba setarile."
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Open Source"
 
@@ -5096,7 +5097,7 @@ msgstr "Iti place comentariul"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Send System Report"
 
@@ -5177,7 +5178,7 @@ msgstr "Your Followed Games"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Inchideti"
 
@@ -5261,7 +5262,7 @@ msgstr "Raportati jocul"
 msgid "Report User"
 msgstr "Report User"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Raportat"
 
@@ -5274,7 +5275,7 @@ msgstr "Send Report"
 msgid "Spammer"
 msgstr "Spammer"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 
@@ -5310,4 +5311,20 @@ msgstr "Trophy Image"
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
 msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
