@@ -199,11 +199,11 @@ msgstr "Kata laluan Baru"
 msgid "auth.reset_password.submit_button"
 msgstr "Menepatkan Kata laluan"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Privasi"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Syarat"
 
@@ -466,15 +466,15 @@ msgstr "Amaun yang Boleh Menarik Diri"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Menghantar Menarik Diri Permintaan"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "Baiklah"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "<strong>Permain anda mungkin permainan peminat ataupun sequel yang tidak rasmi untuk \"Five Nights at Freddy's\"</strong> Oleh itu, kami telah tambah hashtag <code>#fnaf</code> kepada deskripsi permainan anda. Kami memerlukan tag ini untuk semua permainan berasal daripada siri \"FNaF\"."
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Jangan tag"
 
@@ -768,11 +768,11 @@ msgstr "Kategori"
 msgid "dash.games.form.category_placeholder"
 msgstr "Pilih kategori..."
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Anda boleh mengubahkan deskripsi bilamana mahu dan tambah pasa masa yang datang. Ini adalah peluang anda untuk menarikkan orang untuk bermainkan permainan anda! Umumnya, deskripsi yang baik mengandungi benda seperti cara permainan, kawalan, cerita dan kredit."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Deskripsi"
 
@@ -832,27 +832,27 @@ msgstr "Ini membolehkan kami untuk membina penyaring yang lebih baik alat untuk 
 msgid "dash.games.form.engine_placeholder"
 msgstr "Pilih enjin/bahasa/alat"
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Tersembunyi"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Permainan anda tidak akan dilihat di dalam senarai awam atau keputusan carian. Ia masih boleh dilihat oleh sesiapa dengan pautan terus."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Penglihatan"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "Permainan ini tidak boleh diterbitkan sehingga langkah persediaan sudah diselesaikan. Cari langkah dari gambaran keseluruhan permainan anda."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Diterbitkan"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Permainan anda akan dilihat dalam senarai awam dan keputusan carian. Ia boleh dilihat oleh semua orang."
 
@@ -1209,15 +1209,15 @@ msgstr "Lihat"
 msgid "dash.games.news.comments"
 msgstr "Komen:"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "Semua pengikut permainan anda akan diberitahu, pastikan anda mengulaskan berita anda."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Menandakan turun membolehkan anda untuk membuat berita anda lebih dinamik dan menarikan visual dengan menambahkan unsur seperti kepala muka, gaya teks, senarai, puatan, imej, jadual dan banyak lagi dengan mudah."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Kandungan"
 
@@ -1253,7 +1253,7 @@ msgstr "Aktiviki Terkini"
 msgid "dash.games.overview.activity_none_html"
 msgstr "Belum ada aktiviki. Semasa orang berintereksi dengan permainan anda, aktiviti terkini akan dilihatkan di sini."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Menerbitkan permainan anda menjadikan boleh dilihat di laman web, pastikan permainan anda nampak baik."
@@ -2093,11 +2093,11 @@ msgstr "Jumlah Menarik Diri"
 msgid "dash.overview.view_profile_button"
 msgstr "Lihat Profil Anda"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "Beritahulah sesiapa tentang anda!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "Biodata Profil"
 
@@ -2122,7 +2122,7 @@ msgstr "Mengubahkan Informasi Anda"
 msgid "dash.profile.edit.page_title"
 msgstr "Mengubahkan Pengguna Info Anda"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Mengubahkan Profil"
 
@@ -2139,72 +2139,64 @@ msgstr "Anda oleh mengubahkan nama pengguna anda sekali seminggu. <br> Anda ada 
 msgid "dash.profile.edit.website_label"
 msgstr "Laman Web"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "Permainan Terbaik"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "Permainan dengan penilai yang tertinggi setiap masa."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Yang Terkini Daripada"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Berita permainan indie, ulasan, dan pendapat orang lain."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Berita Permainan Diikuti"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "Berita terkini daripada permainan anda mengikuti."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Diikuti"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "Permainan Panas"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "Permainan yang indie, menyusun dengan Kepanasan."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "Berita Permainan yang Panas"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "Berita Permainan indie terpanas terus daripada pemaju."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Berita Panas"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "Berita Banyak Lagi"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Bermain dengan kami!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "Permainan Terbaik Minggu Ini"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "Permainan dengan penilai yang tertinggi dalam 7 hari lepas."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Senarai Diketengahkan"
 
@@ -2376,7 +2368,7 @@ msgstr "Indie {{ category }} disusun dengan Kepanasan."
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Kepanasan merujukkan minat komunity dalam permainan terkini. Skor kepanasan permainan bermula tinggi dan akan mereput dari masa ke masa. Aktiviti komuniti boleh melambatkan pereputan."
 
@@ -2437,7 +2429,7 @@ msgstr "Sederhana Permainan"
 msgid "games.view.news_tab"
 msgstr "Berita"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Pemberitahuan"
 
@@ -2449,19 +2441,19 @@ msgstr "Pemuka"
 msgid "games.view.scores_tab"
 msgstr "Skor"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Main"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Penarafan"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Lihat"
 
@@ -3157,11 +3149,11 @@ msgstr "Pastikan anda mahu membuangkan item ini?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Maklumat Item - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Tambah Permainan"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Simpan Permainan"
 
@@ -3419,11 +3411,11 @@ msgstr "Pastikan anda mahu membuangkan lagu ini?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Maklumat untuk {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Tambah Berita"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Mengubahkan Berita"
 
@@ -4277,7 +4269,7 @@ msgstr "Bermain permainan."
 msgid "dash.integrate.rated_game_html"
 msgstr "Menilaikan and komen dalam saru permainan."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Nilai satu demi satu."
 
@@ -4325,19 +4317,19 @@ msgstr "Mengikutkan"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Berhenti mengikut senarai ini untuk buangkan daripada perpustakaan anda dan berhenti menerima pemberitahuan."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, sesuatu telah melarangkan anda untuk mengikut permainan ini."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Tidak!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "And telah mengikut {{ game }}. Anda akan diberitahu tentang berita selagi ia dalam perpustakaan anda."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Permainan Diikut"
 
@@ -4353,22 +4345,22 @@ msgstr "Mengikut permainan ini untuk tambah ke perpustakaan anda dan diberitahu 
 msgid "library.followed.remove_game_confirmation"
 msgstr "Pastikan anda mahu meninggalkan {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, sesuatu telah melarangkan anda untuk meninggal permainan ini."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Tidak!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Anda telah meninggalkan {{ game }} dan tidak akan menerima pemberitahuan tentangnya."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Permainan Berhenti Mengikuti"
@@ -4615,19 +4607,19 @@ msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 pemberitahuan"
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Hubungi"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Terlalu banyak permainan... dan mengira!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Penterjemahan adalah projek komuniti."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Tolong menterjemahkan!"
 
@@ -4707,7 +4699,7 @@ msgstr "Habis"
 msgid "games.filtering.status_wip"
 msgstr "Kerja Dalam Proses"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 Berita"
@@ -4924,7 +4916,7 @@ msgstr "Ya"
 msgid "commands.settings_description"
 msgstr "Mengubahkan tetapan."
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Sumber Terbuka"
 
@@ -5022,7 +5014,7 @@ msgstr "Anda suka komen ini"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Anda telah menilai komen ini baik. Ini memberitahu kami kualiti komen dan membantukan kami menjaga kesegaran laman web ini."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Menghantar Laporan Sistem"
 
@@ -5102,7 +5094,7 @@ msgstr "Permainan Anda Mengikuti"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Tutup"
 
@@ -5186,7 +5178,7 @@ msgstr "Lapor Permainan"
 msgid "Report User"
 msgstr "Lapor Pengguna"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Telah Dilaporkan"
 
@@ -5199,7 +5191,7 @@ msgstr "Menghantar Laporan"
 msgid "Spammer"
 msgstr "Orang Spam"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Terima kasih untuk menolong kami membuat Game Jolt tempat untuk semua orang. Kami akan menyemakan kandungan secepatlah kami yang boleh."
 
@@ -5214,25 +5206,41 @@ msgstr "Mengapakan anda melaporkan ini?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Muat Turun"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
-msgstr "Crop Current Thumbnail"
+msgstr "Menggunting Thumbnail"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Thumbnail Terkini"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Mengubahkan Imej Piala"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Imej Piala"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "Adakah anda mahu menerima sebuah berita e-mel tentang kemas kini laman web ini seperti ciri-ciri baru, pertandingan rasmi, dan permainan yang menarik?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
