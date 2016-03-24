@@ -47,7 +47,7 @@ msgstr "Hämta Inloggningsuppgifter"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, den där e-postadressen finns inte i vårt system. Du Kanske inte har <a href=\"/join\">registrerat dig ännu</a>?</p>"
+msgstr "<p>Hmm, den där e-postadressen finns inte i vårt system. Du kanske inte har <a href=\"/join\">registrerat dig ännu</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
 msgid "auth.forgot.sent.body_html"
@@ -99,7 +99,7 @@ msgstr "Logga in med Facebook"
 #: auth/components/forms/join/join.html:25
 #: auth/components/forms/join/join.html:30
 msgid "auth.join.password_label"
-msgstr "Lösenord"
+msgstr "lösenord"
 
 #: auth/components/forms/join/join.html:39
 msgid "auth.join.submit_button"
@@ -203,18 +203,18 @@ msgstr "Nytt Lösenord"
 msgid "auth.reset_password.submit_button"
 msgstr "Återställ Lösenord"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Integritet"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Villkor"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:28
 msgid "auth.authorize.success_growl_title"
-msgstr "Konto Auktoriserad"
+msgstr "Konto Auktoriserat"
 
 #: auth/views/auth/forgot/forgot-controller.js:3
 msgid "auth.forgot.page_title"
@@ -235,7 +235,7 @@ msgstr "Gå med. Mwuahaha.<br>Vi har spel.<br>\n"
 
 #: auth/views/auth/join/join-controller.js:5
 msgid "auth.join.page_title"
-msgstr "Gå med i Game Jolt - den största samlingen av Indie Games av People"
+msgstr "Gå med i Game Jolt - den största samlingen av Indiespel gjort av Folk"
 
 #: auth/views/auth/linked-account/facebook/callback/callback-controller.js:35
 msgid "auth.linked_account.facebook.created_growl"
@@ -311,7 +311,7 @@ msgstr "Integritet"
 
 #: auth/views/auth/auth.html:32
 msgid "auth.legal.terms"
-msgstr "Vilkor"
+msgstr "Villkor"
 
 #: app/components/chat/sidebar/sidebar.html:89
 msgid "chat.no_friends_message_html"
@@ -335,7 +335,7 @@ msgstr "Aktivitetsflöde"
 
 #: app/views/dashboard/activity/list/list.html:94
 msgid "dash.activity.no_activity"
-msgstr "Inga notifikationer här. Antingen du är en riktigt snabb läsare eller om du behöver följa mer saker!"
+msgstr "Inga notifikationer här. Antingen är du en riktigt snabb läsare eller så behöver du följa mer saker!"
 
 #: app/views/dashboard/activity/list/list.html:24
 msgid "dash.activity.unread_tab"
@@ -343,9 +343,9 @@ msgstr "Oläst"
 
 #: app/views/dashboard/account/avatar/avatar.html:14
 msgid "dash.avatar.body_html"
-msgstr "<p>Vi använder för närvarande <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) att servera den avatarer på Game Jolt.</p>\n"
-"\t<p>Om du inte redan har en Gravatar konto kan du klicka på knappen nedan för att öppna <a href=\"http://gravatar.com\">gravatar.com</a> och registrera dig för ett. Observera att du måste registrera dig med hjälp av din Wordpress inloggning. Vad är det, har du inte en Wordpress-konto, antingen? Inga problem! Du kommer att kunna skapa båda kontona samtidigt.</p>\n"
-"\t<p>Ha en Gravatar konto? Bra. Bara logga in och ladda upp avatar av ditt val, sedan associera att avatar med den e-postadress du använder för Game Jolt. Din avatar visas automatiskt på hela webbplatsen.</p>\n"
+msgstr "<p>Vi använder för närvarande <a href=\"http://gravatar.com\">Gravatar</a> (Globally Recognized Avatars) för att ladda upp avatarer på Game Jolt.</p>\n"
+"\t<p>Om du inte redan har ett Gravatar-konto kan du klicka på knappen nedan för att öppna <a href=\"http://gravatar.com\">gravatar.com</a> och registrera dig för ett. Observera att du måste registrera dig med hjälp av din Wordpress-inloggning. Vänta, har du inte ett Wordpress-konto heller? Inga problem! Du kommer att kunna skapa båda kontona samtidigt.</p>\n"
+"\t<p>Har du ett Gravatar-konto? Bra. Logga in och ladda upp avataren du valt, länka sedan avataren med den e-postadress du använder för Game Jolt. Din avatar visas automatiskt på hela webbplatsen.</p>\n"
 "\t<p><em>Observera att det kan finnas en kort fördröjning innan din avatar dyker upp på sajten. Om du inte ser det efter vad som känns som länge nog, prova att rensa webbläsarens cacheminne.</em></p>"
 
 #: app/views/dashboard/account/avatar/avatar.html:7
@@ -475,15 +475,15 @@ msgstr "Uttagbart Värde"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Skicka begäran om uttag"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "Okej"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr "\t<strong>Det verkar som om spelet kan vara en Five Nights At Freddy's fan spel, spin off eller inofficiell uppföljare.</strong> Därför har vi lagt till hashtag <code>#fnaf</code> till ditt spel beskrivning. Vi kräver denna tagg för alla spel som härrör från Five Nights At Freddy's serie."
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "Tagga inte"
 
@@ -500,10 +500,11 @@ msgid "dash.games.add.rules_heading"
 msgstr "Regler"
 
 #: app/components/forms/dashboard/game/game.html:12
+#, fuzzy
 msgid "dash.games.add.rules_html"
 msgstr "<p>Du måste godkänna följande regler innan du lägger ett spel:</p>\n"
 "\t<ul>\n"
-"\t\t<li>Game Jolt för närvarande accepterar endast gratis spel. Det får inte finnas något krav på att betala för att spela ditt spel.</li>\n"
+"\t\t<li>Game Jolt accepterar för närvarande  endast gratis spel. Det får inte finnas något krav på att betala för att spela ditt spel.</li>\n"
 "\t\t<li>Lägg inte upp spel du inte gör. Om du inte är spelets utvecklare, inte tillför spelet till platsen. Om du är ett fan, uppmuntrar utvecklaren till den själva.</li>\n"
 "\t\t<li>Utgivare är inte tillåtet att ladda upp spel; bara utvecklare är. Kom ihåg: Det här är Indie.</li>\n"
 "\t\t<li>Vårt namn är \"Game Jolt\". Som sådan, bara faktiska <em>spel</em> kan laddas upp till webbplatsen. Inga program, mjukvara, eller verktyg är tillåtna på den här gången. Vi kan ta emot dessa i framtiden eller från fall till fall, men för nu, låt oss bara hålla det till spel.</li>\n"
@@ -572,7 +573,7 @@ msgstr "Antalet användare med poäng på någon av spelets poängtavlor. Inklud
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:27
 msgid "dash.games.api.overview.sessions_active_label"
-msgstr "aktiva sessioner"
+msgstr "Aktiva Sessioner"
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:47
 msgid "dash.games.api.overview.sessions_avg_label"
@@ -660,7 +661,7 @@ msgstr "Bläddra"
 
 #: app/components/forms/dashboard/game/build/build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr "Klass Namn"
+msgstr "Klassnamn"
 
 #: app/components/forms/dashboard/game/build/build.html:126
 msgid "dash.games.builds.form.dimensions_help_html"
@@ -672,7 +673,7 @@ msgstr "Detta gör att du kan inaktivera högerklicka beteende. Bara aktivera de
 
 #: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.disable_right_click_label"
-msgstr "Inaktivera högerklicka?"
+msgstr "Inaktivera högerklick?"
 
 #: app/components/forms/dashboard/game/build/build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
@@ -704,7 +705,7 @@ msgstr "Höjd"
 
 #: app/components/forms/dashboard/game/build/build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr "En .zip-arkiv som innehåller alla filer spelet behöver köra, inklusive en index.html i roten. Bör vara spelbar i alla moderna webbläsare utan plugins."
+msgstr "Ett .zip-arkiv som innehåller alla filer spelet behöver köra, inklusive en index.html i roten. Bör vara spelbar i alla moderna webbläsare utan plugins."
 
 #: app/components/forms/dashboard/game/build/build.html:116
 msgid "dash.games.builds.form.no_platforms_error"
@@ -753,7 +754,7 @@ msgstr "Läs mer om datalagring..."
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:19
 msgid "dash.games.data_store.items.preview_label"
-msgstr "Dataförhandsvisnign"
+msgstr "Dataförhandsvisning"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:45
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:15
@@ -788,11 +789,11 @@ msgstr "Kategori"
 msgid "dash.games.form.category_placeholder"
 msgstr "Välj en kategori..."
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Du kan redigera din beskrivning när du vill och komplettera det med tiden. Detta är din chans att använda ord för att locka folk att spela ditt spel! En bra beskrivning innehåller vanligtvis saker som en spel Sammanfattningsvis kontroll översikt berättelse, och lista över medverkande."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Beskrivning"
 
@@ -852,27 +853,27 @@ msgstr "Detta hjälper oss att skapa bättre filtrerings alternativ kring vilka 
 msgid "dash.games.form.engine_placeholder"
 msgstr "Välj en motor / språk / verktyg..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Dold"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Din spelsidan kommer inte att dyka upp i offentliga listor eller sökresultat. Det kan fortfarande ses av vem som helst som har direkt koppling."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Synlighet"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "Det här spelet kan inte publiceras förrän de nödvändiga installationsstegen är genomförda. Hitta dem på spelöversikt."
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Publicerat"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Din spelsidan kommer att dyka upp i offentliga listor och sökresultat. Det kan ses av vem som helst."
 
@@ -1237,15 +1238,15 @@ msgstr "Visa"
 msgid "dash.games.news.comments"
 msgstr "Kommentarer: "
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "Alla dina spelföljare kommer att meddelas, så se till att granska din nyhets inlägg."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Markdown kan du enkelt göra din nyhetsuppdateringar mer dynamisk och visuellt tilltalande genom att lägga till element som rubriker, formaterad text, listor, länkar, bilder, tabeller och mer."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Innehåll"
 
@@ -1281,7 +1282,7 @@ msgstr "Senaste aktivitet"
 msgid "dash.games.overview.activity_none_html"
 msgstr "Ingen aktivitet ännu. När människor interagerar med ditt spel, kommer den senaste aktiviteten dyka upp här."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Publicera ditt spel gör det synligt på platsen, så se till att din spelsidan ser \"bra!"
@@ -2148,11 +2149,11 @@ msgstr "Totalt utdragget"
 msgid "dash.overview.view_profile_button"
 msgstr "Visa Din Profil"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "Låt folk vet om dig själv!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "profil bio"
 
@@ -2178,7 +2179,7 @@ msgstr "Redigera din information"
 msgid "dash.profile.edit.page_title"
 msgstr "Redigera din Användarinformation"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Spara profil"
 
@@ -2196,72 +2197,64 @@ msgstr "Du kan bara ändra ditt användarnamn en gång i veckan. <br>\n"
 msgid "dash.profile.edit.website_label"
 msgstr "Webbsajt"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "All-Time Bästa Spelen"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "En provtagning av de högst rankade spelen genom tiderna."
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Senaste från"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Indie spel nyheter, recensioner och åsikter från människor."
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Följda Spelnyheter"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "De senaste nyheterna från spel du följer."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Följda"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "Heta Spel"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "Populära indie spel, sorterade efter Populärast."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "Heta spelnyheter"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "De hetaste indie spel nyheter direkt från utvecklarna."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Heta Nyheter"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "Mera Nyheter"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Spela tillsammans med oss!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "Veckans bästa spelen"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "De högst rankade spel publicerade under de senaste 7 dagarna."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Utvalda spellistor"
 
@@ -2433,7 +2426,7 @@ msgstr "Indie {{ category }} sorterade efter Populärast."
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Populärast indikerar gemenskapens intresse i de senaste spelen. Ett spel Populärast skalan börjar hög och avtar med tiden. Gemenskapsverksamhet kan bromsa förfall."
 
@@ -2494,7 +2487,7 @@ msgstr "Medel spel"
 msgid "games.view.news_tab"
 msgstr "Nyheter"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Notifications"
 
@@ -2506,19 +2499,19 @@ msgstr "Översikt"
 msgid "games.view.scores_tab"
 msgstr "Poäng"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Gånger Spelat"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Betyg"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Visningar"
 
@@ -3218,11 +3211,11 @@ msgstr "Är du säker på att du vill ta bort detta objekt?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Föremålsdetaljer - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Lägg Till Spel"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Spara Spel"
 
@@ -3482,11 +3475,11 @@ msgstr "Är du säker på att du vill ta bort den här låten?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Statistik för {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Lägg till nyhetsuppdatering"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Spara nyhetsuppdatering"
 
@@ -4340,7 +4333,7 @@ msgstr "Spela ett spel."
 msgid "dash.integrate.rated_game_html"
 msgstr "Betygsätta och kommentera ett spel."
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Utvärderingar sammanbrott."
 
@@ -4388,19 +4381,19 @@ msgstr "Följer"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Avfölj den här spellistan för att ta bort den från ditt bibliotek och sluta ta emot meddelanden."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-oh, något har hindrat dig från att följa detta spel."
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "Åh nej!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "Du har börjat följa {{ game }}. Du kommer att meddelas om nyhetsuppdateringar så länge det är i ditt bibliotek."
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Spel Följda"
 
@@ -4416,22 +4409,22 @@ msgstr "Follow this game to add it to your library and be notified of news updat
 msgid "library.followed.remove_game_confirmation"
 msgstr "Är du säker på att du vill sluta följa {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, något har hindrat dig från att sluta följa detta spel."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Åh nej!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Du har slutat följa {{ game }} och kommer inte längre att få meddelanden om det."
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Spel Avföljt"
@@ -4684,19 +4677,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 fler notifikation"
 msgstr[1] "+{{ $count | number }} flera notifikationer"
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Kontakta"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Alltför många spel ... och fler blir det!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Översättningar är ett gemensamt projekt."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "Hjälp till att översätta!"
 
@@ -4776,7 +4769,7 @@ msgstr "Färdigt"
 msgid "games.filtering.status_wip"
 msgstr "Pågående arbete"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 nyhetsartikel"
@@ -4995,7 +4988,7 @@ msgstr "ja"
 msgid "commands.settings_description"
 msgstr "Ändra inställningar"
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Öppen källa"
 
@@ -5098,7 +5091,7 @@ msgstr "\n"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Du har just upvoted den här kommentaren. Detta låter oss veta kvaliteten på kommentarer och hjälper till att hålla hemsida uppdaterad."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "\n"
 "Skicka systemrapport"
@@ -5179,7 +5172,7 @@ msgstr "Dina Följda Spel"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ playlist }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Stäng"
 
@@ -5263,7 +5256,7 @@ msgstr "Rapportera spel"
 msgid "Report User"
 msgstr "Rapportera användare"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Rapporterad"
 
@@ -5276,7 +5269,7 @@ msgstr "Skicka rapport"
 msgid "Spammer"
 msgstr "Spammare"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Tack för att du hjälper oss att göra Game Jolt en plats för alla. Vi kommer att ta en titt så snart som möjligt!"
 
@@ -5291,25 +5284,41 @@ msgstr "Varför anmäler du det här?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Ladda ner"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
-msgstr "Crop Current Thumbnail"
+msgstr "Beskär aktuella bilden"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Aktuell bild"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Byt trofé-bild"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Trofé-bild"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "Skulle du vilja ha ett e-post nyhetsbrev som innehåller uppdateringar, meddelanden om saker som nya funktioner på sidan, officiella tävlingar och intressanta spel?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
