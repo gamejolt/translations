@@ -9,170 +9,205 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: auth/views/auth/authorize/authorize.html:4
+#, fuzzy
 msgid "auth.authorize.invalid.body_html"
-msgstr "<p>Tu código de autorización es inválido.</p>\n"
-"<p>Por favor asegúrate de copiar y pegar la URL completa.</p>"
+msgstr "<p>Su código de autorización no es válido.</p>\n"
+"<p>Por favor, asegúrese de copiar y pegar la URL completa que le enviamos a su correo electrónico.</p>"
 
 #: auth/views/auth/authorize/authorize.html:2
+#, fuzzy
 msgid "auth.authorize.invalid.heading"
-msgstr "Autorización inválida"
+msgstr "Autorización Inválida\n"
+""
 
 #. The title for the page when their authorization fails.
 #: auth/views/auth/authorize/authorize.js:11
+#, fuzzy
 msgid "auth.authorize.invalid.page_title"
-msgstr "Código de autorización inválido"
+msgstr "Código de Autorización Inválido"
 
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/views/auth/authorize/authorize.js:27
+#, fuzzy
 msgid "auth.authorize.success_growl"
-msgstr "Estás siendo redireccionado a tu tablero de GameJolt."
+msgstr "Te estamos redirigiendo a su tablero de instrumentos de Gamejolt ahora."
 
 #: auth/views/auth/login/login.html:35
 #: auth/views/auth/login/login.html:36
+#, fuzzy
 msgid "auth.forgot_link"
-msgstr "¿Olvidaste tu Nombre de Usuario o tu Contraseña?"
+msgstr "Olvidado tu Nombre de Usuario o Contraseña"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:5
 msgid "auth.forgot.email_help"
-msgstr "Ingresa la dirección de email de tu cuenta y te enviaremos tus credenciales de inicio de sesión."
+msgstr "Introduzca la dirección de correo electrónico en su cuenta y nosotros le enviaremos sus datos de acceso para usted."
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:10
 #: auth/components/forms/retrieve-login/retrieve-login.html:4
+#, fuzzy
 msgid "auth.forgot.email_label"
-msgstr "Correo Electrónico"
+msgstr "Direción de correo electrónico"
 
 #: auth/views/auth/forgot/forgot.html:1
+#, fuzzy
 msgid "auth.forgot.heading"
-msgstr "Recuperar Credenciales de Inicio de Sesión"
+msgstr "Recuperar Credenciales de Acceso"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:16
 msgid "auth.forgot.invalid_email_error_html"
-msgstr "<p>Hmm, esa dirección de email no está en nuestro sistema. ¿Tal vez aún no te has <a href=\"/join\">registrado</a>?</p>"
+msgstr "<p>Hmm, su dirección de correo electrónico no está en nuestro sistema. Tal vez no se ha <a href=\"/join\">inscrito todavía</a>?</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:4
+#, fuzzy
 msgid "auth.forgot.sent.body_html"
-msgstr "<p>Te enviamos tus credenciales a la dirección de email que ingresaste</p>"
+msgstr "<p>Hemos enviado sus credenciales de acceso a la dirección de correo electrónico que ha introducido.</p>"
 
 #: auth/views/auth/forgot/sent/sent.html:2
+#, fuzzy
 msgid "auth.forgot.sent.heading"
 msgstr "Credenciales Enviadas"
 
 #: auth/views/auth/forgot/sent/sent.html:5
+#, fuzzy
 msgid "auth.forgot.sent.spam"
-msgstr "Si no ves el email en 10 minutos, por favor busca en la carpeta de \"spam\" ¡Puede haber sido movido ahí!"
+msgstr "Si usted no ve nuestro correo electrónico dentro de 10 minutos, por favor revise su carpeta de correo no deseado. Podría haber sido engullido!"
 
 #: auth/components/forms/retrieve-login/retrieve-login.html:21
+#, fuzzy
 msgid "auth.forgot.submit_button"
 msgstr "Recuperar Credenciales"
 
 #: auth/views/auth/login/login.html:29
+#, fuzzy
 msgid "auth.join_link"
-msgstr "¡Registrate!"
+msgstr "¡Regístrate!"
 
 #: auth/views/auth/join/almost/almost.html:4
+#, fuzzy
 msgid "auth.join.almost.body_html"
-msgstr "<p>Antes de que puedas iniciar sesión en Game Jolt, necesitas verificar la dirección de email en tu cuenta.</p>\n"
-"<p>Te enviamos un email con instrucciones para autorizar tu cuenta</p>"
+msgstr "<p> Antes de iniciar la sesión en Game Jolt, es necesario verificar la dirección de correo electrónico en su cuenta.</p>\n"
+"<p>Le hemos enviado un correo electrónico con instrucciones sobre cómo autorizar su cuenta.</p>"
 
 #: auth/views/auth/join/almost/almost.html:2
+#, fuzzy
 msgid "auth.join.almost.heading"
-msgstr "¡Falta poco!"
+msgstr "¡Ya casi está!"
 
 #: auth/views/auth/join/almost/almost.html:5
+#, fuzzy
 msgid "auth.join.almost.spam"
-msgstr "Si no ves el email en 10 minutos, porfavor busca en la carpeta de \"spam\". Puede estar ahí."
+msgstr "Si usted no ve un correo electrónico dentro de los 10 minutos, por favor revise su carpeta de correo no deseado. Podría haber engullido para arriba."
 
 #: auth/views/auth/join/almost/almost.html:6
+#, fuzzy
 msgid "auth.join.almost.urgency"
-msgstr "Recuerda que tienes una semana para autorizar tu cuenta.\n"
-"Después, será eliminada y tendrás que registrarte de nuevo."
+msgstr "Tenga en cuenta que tiene una semana para autorizar su cuenta. Transcurrido ese tiempo, será eliminada y tendrá que volver a inscribirse."
 
 #: auth/components/forms/join/join.html:4
 #: auth/components/forms/join/join.html:8
 msgid "auth.join.email_label"
-msgstr "Dirección de email"
+msgstr "Dirección de Correo"
 
 #: auth/views/auth/join/join.html:11
+#, fuzzy
 msgid "auth.join.facebook_button"
-msgstr "Iniciar sesión con Facebook"
+msgstr "Registrate con Facebook"
 
 #: auth/components/forms/join/join.html:25
 #: auth/components/forms/join/join.html:30
+#, fuzzy
 msgid "auth.join.password_label"
 msgstr "Contraseña"
 
 #: auth/components/forms/join/join.html:39
+#, fuzzy
 msgid "auth.join.submit_button"
 msgstr "Registrarse"
 
 #: auth/views/auth/join/join.html:19
+#, fuzzy
 msgid "auth.join.twitter_button"
 msgstr "Registrarse con Twitter"
 
 #: auth/components/forms/join/join.html:13
 #: auth/components/forms/join/join.html:20
+#, fuzzy
 msgid "auth.join.username_label"
 msgstr "Nombre de usuario"
 
 #: auth/views/auth/linked-account/_processing.html:1
 #: auth/views/auth/linked-account/poll/poll.html:14
+#, fuzzy
 msgid "auth.linked_account.loading_message"
 msgstr "Cargando, espere por favor..."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
 msgstr "<p>La dirección de email que ingresaste está en uso</p>\n"
 "<p>Si ya tienes una cuenta de Game Jolt puedes <a href=\"/login\">iniciar sesión aquí</a>.</p>\n"
 "<p>Si olvidaste tus credenciales, puedes <a href=\"/forgot\">recuperarlas aquí</a>.</p>"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:4
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.email_help"
 msgstr "Para finalizar el inicio de sesión con Twitter, por favor ingresa una dirección de email válida."
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:3
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:9
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.email_label"
 msgstr "Correo electrónico"
 
 #: auth/views/auth/linked-account/twitter/finalize/finalize.html:1
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.heading"
 msgstr "Correo electrónico necesario"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:20
+#, fuzzy
 msgid "auth.linked_account.twitter.finalize.submit_button"
 msgstr "Registro completo"
 
 #: auth/views/auth/join/join.html:33
+#, fuzzy
 msgid "auth.login_link"
 msgstr "Iniciar Sesión"
 
 #: auth/views/auth/login/login.html:7
+#, fuzzy
 msgid "auth.login.facebook_button"
 msgstr "Ingresar con Facebook"
 
 #: auth/components/forms/login/login.html:28
+#, fuzzy
 msgid "auth.login.invalid_login_error_html"
 msgstr "Nombre de usuario o contraseña incorrectos."
 
 #: auth/components/forms/login/login.html:30
+#, fuzzy
 msgid "auth.login.loading_message"
 msgstr "Conectándose al ordenador central..."
 
 #: auth/components/forms/login/login.html:18
 #: auth/components/forms/login/login.html:22
+#, fuzzy
 msgid "auth.login.password_label"
 msgstr "Contraseña"
 
 #: auth/components/forms/login/login.html:35
+#, fuzzy
 msgid "auth.login.submit_button"
 msgstr "Iniciar Sesión"
 
 #: auth/views/auth/login/login.html:15
+#, fuzzy
 msgid "auth.login.twitter_button"
 msgstr "Ingresar con Twitter"
 
 #: auth/components/forms/login/login.html:13
 #: auth/components/forms/login/login.html:8
+#, fuzzy
 msgid "auth.login.username_label"
 msgstr "Nombre de Usuario"
 
@@ -180,10 +215,12 @@ msgstr "Nombre de Usuario"
 #: auth/views/auth/join/join.html:31
 #: auth/views/auth/login/login.html:20
 #: auth/views/auth/login/login.html:27
+#, fuzzy
 msgid "auth.or"
 msgstr "o"
 
 #: auth/views/auth/reset-password/reset-password.html:1
+#, fuzzy
 msgid "auth.reset_password.heading"
 msgstr "Restablecer contraseña"
 
@@ -200,11 +237,11 @@ msgstr "Nueva Contraseña"
 msgid "auth.reset_password.submit_button"
 msgstr "Restaurar Contraseña"
 
-#: app/components/shell/footer/footer.html:42
+#: app/components/shell/footer/footer.html:56
 msgid "legal.privacy"
 msgstr "Privacidad"
 
-#: app/components/shell/footer/footer.html:39
+#: app/components/shell/footer/footer.html:53
 msgid "legal.terms"
 msgstr "Términos"
 
@@ -473,16 +510,16 @@ msgstr "Monto Retirable"
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Enviar Solicitud de Retiro"
 
-#: app/components/forms/dashboard/game/game.html:161
+#: app/components/forms/dashboard/game/game.html:159
 msgid "dash.games.add.fnaf_autotag_accept"
 msgstr "OK"
 
-#: app/components/forms/dashboard/game/game.html:156
+#: app/components/forms/dashboard/game/game.html:154
 msgid "dash.games.add.fnaf_autotag_message_html"
 msgstr " <strong>Parece que tu juego es un fangame, spinoff o sequela no-oficial de Five Nights at Freddys.\n"
 "</strong>Para eso, hemos añadido el hashtag <code>#fnaf</code> a la descripción de tu juego. Esta etiqueta es requerida para todos los juegos derivados de Five Nights at Freddys. "
 
-#: app/components/forms/dashboard/game/game.html:166
+#: app/components/forms/dashboard/game/game.html:164
 msgid "dash.games.add.fnaf_autotag_reject"
 msgstr "No etiquetar"
 
@@ -789,11 +826,11 @@ msgstr "Categoría"
 msgid "dash.games.form.category_placeholder"
 msgstr "Selecciona una categoría..."
 
-#: app/components/forms/dashboard/game/game.html:97
+#: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
 msgstr "Puedes editar tu descripción cuando tu quieras y añadir más a lo largo del tiempo. Ésta es tu oportunidad para usar palabras que atraigan a las personas para hacia tu juego! Una buena descripción generalmente contiene cosas como un resumen de la jugabilidad, historia y créditos."
 
-#: app/components/forms/dashboard/game/game.html:95
+#: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
 msgstr "Descripción"
 
@@ -853,27 +890,27 @@ msgstr "Esto nos ayuda a crear mejores opciones de filtro dependiendo de qué he
 msgid "dash.games.form.engine_placeholder"
 msgstr "Selecciona un motor/idioma/herramienta..."
 
-#: app/components/forms/dashboard/game/game.html:125
+#: app/components/forms/dashboard/game/game.html:123
 msgid "dash.games.form.status_hidden"
 msgstr "Oculto"
 
-#: app/components/forms/dashboard/game/game.html:126
+#: app/components/forms/dashboard/game/game.html:124
 msgid "dash.games.form.status_hidden_help"
 msgstr "Tu página de juego no se mostrará en las listas públicas o en los resultados de búsqueda. Continuará siendo visible para cualquiera que tenga un enlace directo."
 
-#: app/components/forms/dashboard/game/game.html:112
+#: app/components/forms/dashboard/game/game.html:110
 msgid "dash.games.form.status_label"
 msgstr "Visibilidad"
 
-#: app/components/forms/dashboard/game/game.html:113
+#: app/components/forms/dashboard/game/game.html:111
 msgid "dash.games.form.status_not_publishable_info_html"
 msgstr "Este juego no puede ser publicado hasta que los requirimientos de pasos de inicio esten completos. Encuentralos en la vista previa del juego"
 
-#: app/components/forms/dashboard/game/game.html:118
+#: app/components/forms/dashboard/game/game.html:116
 msgid "dash.games.form.status_published"
 msgstr "Publicado"
 
-#: app/components/forms/dashboard/game/game.html:119
+#: app/components/forms/dashboard/game/game.html:117
 msgid "dash.games.form.status_published_help"
 msgstr "Tu pagina de tu juego sera enseñada al publico en listas y resultados de busquedas. Puede ser vista por todos"
 
@@ -1235,15 +1272,15 @@ msgstr "Ver"
 msgid "dash.games.news.comments"
 msgstr "Comentarios:"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:29
+#: app/components/forms/dashboard/game/news-article/news-article.html:25
 msgid "dash.games.news.form.add_follower_message"
 msgstr "Todos los seguidores de tu juego serán notificados, asegúrate de revisar tus actualizaciones"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:12
+#: app/components/forms/dashboard/game/news-article/news-article.html:10
 msgid "dash.games.news.form.content_help"
 msgstr "Markdown te permite hacer mas faciles tus nuevas actualizaciones mas dinamicas y visualmente añadiendo como textos con estilo, listas, links, imagenes, tablas y mas."
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:10
+#: app/components/forms/dashboard/game/news-article/news-article.html:8
 msgid "dash.games.news.form.content_label"
 msgstr "Contenido"
 
@@ -1279,7 +1316,7 @@ msgstr "Última actividad"
 msgid "dash.games.overview.activity_none_html"
 msgstr "No hay actividad. Cuando personas interacten con tu juego, la ultima actividad sera enseñada aqui."
 
-#: app/components/forms/dashboard/game/game.html:134
+#: app/components/forms/dashboard/game/game.html:132
 #: app/views/dashboard/developer/games/manage/game/overview/overview-controller.js:104
 msgid "dash.games.overview.publish_confirmation"
 msgstr "Publicando tus juegos los hace visibles en el sitio,asi que asegurate de que tu juego sea bueno"
@@ -2149,11 +2186,11 @@ msgstr "Total retirado"
 msgid "dash.overview.view_profile_button"
 msgstr "Ver tu perfil"
 
-#: app/components/forms/dashboard/profile/profile.html:52
+#: app/components/forms/dashboard/profile/profile.html:50
 msgid "dash.profile.edit.description_help_html"
 msgstr "¡Deja que la gente sepa un poco de ti!"
 
-#: app/components/forms/dashboard/profile/profile.html:50
+#: app/components/forms/dashboard/profile/profile.html:48
 msgid "dash.profile.edit.description_label"
 msgstr "Biografía De Perfil "
 
@@ -2178,7 +2215,7 @@ msgstr "Editar tu información"
 msgid "dash.profile.edit.page_title"
 msgstr "Editar tu información de usuario"
 
-#: app/components/forms/dashboard/profile/profile.html:69
+#: app/components/forms/dashboard/profile/profile.html:66
 msgid "dash.profile.edit.submit_button"
 msgstr "Guardar perfil"
 
@@ -2196,72 +2233,64 @@ msgstr "Solo puedes cambiar el nombre de usuario una vez a la semana. <br>\n"
 msgid "dash.profile.edit.website_label"
 msgstr "Página web"
 
-#: app/views/discover/home/home.html:74
+#: app/views/discover/home/home.html:92
 msgid "discover.home.best_heading"
 msgstr "Los mejores juegos de siempre"
 
-#: app/views/discover/home/home.html:81
+#: app/views/discover/home/home.html:99
 msgid "discover.home.best_help"
 msgstr "Una muestra de los juegos más votados"
 
-#: app/views/discover/home/home.html:261
+#: app/views/discover/home/home.html:241
 msgid "discover.home.fireside_heading"
 msgstr "Lo ultimo de"
 
-#: app/views/discover/home/home.html:269
+#: app/views/discover/home/home.html:249
 msgid "discover.home.fireside_help"
 msgstr "Noticias de juegos indie,análisis y opiniones por la gente "
 
-#: app/views/discover/home/home.html:226
+#: app/views/discover/home/home.html:206
 msgid "discover.home.followed_news_heading"
 msgstr "Noticias de juegos seguidos"
 
-#: app/views/discover/home/home.html:233
+#: app/views/discover/home/home.html:213
 msgid "discover.home.followed_news_help"
 msgstr "Las ultimas noticias de los juegos que sigues."
 
-#: app/views/discover/home/home.html:205
+#: app/views/discover/home/home.html:185
 msgid "discover.home.followed_news_tab"
 msgstr "Siguiendo"
 
-#: app/views/discover/home/home.html:152
+#: app/views/discover/home/home.html:132
 msgid "discover.home.hot_heading"
 msgstr "Juegos calientes"
 
-#: app/views/discover/home/home.html:159
+#: app/views/discover/home/home.html:139
 msgid "discover.home.hot_help"
 msgstr "Juegos indie populares, ordenados por Hotness."
 
-#: app/views/discover/home/home.html:218
+#: app/views/discover/home/home.html:198
 msgid "discover.home.hot_news_heading"
 msgstr "Noticias de juegos Calientes"
 
-#: app/views/discover/home/home.html:232
+#: app/views/discover/home/home.html:212
 msgid "discover.home.hot_news_help"
 msgstr "Las noticias más nuevas de juegos indie directamente de los desarrolladores."
 
-#: app/views/discover/home/home.html:200
+#: app/views/discover/home/home.html:180
 msgid "discover.home.hot_news_tab"
 msgstr "Noticias calientes"
 
-#: app/views/discover/home/home.html:245
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:225
+#: app/views/discover/home/home.html:229
 msgid "discover.home.more_news"
 msgstr "Más Noticias"
 
-#: app/views/discover/home/home.html:52
+#: app/views/discover/home/home.html:70
 msgid "discover.home.social_label"
 msgstr "Juega con nosotros!"
 
-#: app/views/discover/home/home.html:114
-msgid "discover.home.week_best_heading"
-msgstr "Mejores juegos de esta semana"
-
-#: app/views/discover/home/home.html:120
-msgid "discover.home.week_best_help"
-msgstr "Los juegos más votados publicados en los 7 últimos días."
-
-#: app/components/shell/menu-popover/menu-popover.html:69
+#: app/components/shell/menu-popover/menu-popover.html:70
 msgid "discover.nav.featured_playlists"
 msgstr "Listas de reproducción destacadas"
 
@@ -2433,7 +2462,7 @@ msgstr "Indie {{ category }} ordenado por Hotness"
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:160
+#: app/views/discover/home/home.html:140
 msgid "games.list.hotness_tooltip"
 msgstr "Hotness indica el interes de la comunidad en los juegos recientes. El puntaje Hotness de un juego comienza alto y baja a medida pasa el tiempo. La actividad de la comunidad puede retrasar esta baja."
 
@@ -2494,7 +2523,7 @@ msgstr "Moderar Juego"
 msgid "games.view.news_tab"
 msgstr "Noticias"
 
-#: app/views/discover/games/view/view.html:8
+#: app/views/discover/games/view/view.html:47
 msgid "games.view.notifications_heading"
 msgstr "Notificaciones"
 
@@ -2506,19 +2535,19 @@ msgstr "Resumen"
 msgid "games.view.scores_tab"
 msgstr "Puntuaciones"
 
-#: app/views/discover/games/view/overview/_details.html:43
+#: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Jugadas"
 
-#: app/views/discover/games/view/overview/_details.html:47
+#: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:53
+#: app/views/discover/games/view/overview/_details.html:85
 msgid "games.view.stats.ratings_label"
 msgstr "Calificaciones"
 
-#: app/views/discover/games/view/overview/_details.html:38
+#: app/views/discover/games/view/overview/_details.html:56
 msgid "games.view.stats.views_label"
 msgstr "Visitas"
 
@@ -3218,11 +3247,11 @@ msgstr "Estás seguro que quieres remover este objeto?"
 msgid "dash.games.data_store.items.view.page_title"
 msgstr "Detalles de items - {{ game }}"
 
-#: app/components/forms/dashboard/game/game.html:143
+#: app/components/forms/dashboard/game/game.html:141
 msgid "dash.games.form.add_button"
 msgstr "Añadir juego"
 
-#: app/components/forms/dashboard/game/game.html:147
+#: app/components/forms/dashboard/game/game.html:145
 msgid "dash.games.form.edit_button"
 msgstr "Guardar juego"
 
@@ -3480,11 +3509,11 @@ msgstr "Estas seguro de que quieres remover esta musica?"
 msgid "dash.games.news.article.stats.page_title"
 msgstr "Estadisticas para {{ article }}"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:34
+#: app/components/forms/dashboard/game/news-article/news-article.html:30
 msgid "dash.games.news.form.add_button"
 msgstr "Añadir nueva actualización"
 
-#: app/components/forms/dashboard/game/news-article/news-article.html:38
+#: app/components/forms/dashboard/game/news-article/news-article.html:34
 msgid "dash.games.news.form.edit_button"
 msgstr "Guardas Nueva actualización"
 
@@ -4340,7 +4369,7 @@ msgstr "Juega a un juego"
 msgid "dash.integrate.rated_game_html"
 msgstr "comenta y califica en un juego"
 
-#: app/views/discover/games/view/overview/_details.html:66
+#: app/views/discover/games/view/overview/_details.html:105
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "desglose Calificaciones."
 
@@ -4388,19 +4417,19 @@ msgstr "Siguiendo"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Dejar de seguir esta lista para removerla de tu colección y dejar de recibir notificaciones de esta."
 
-#: app/views/discover/games/view/view-controller.js:81
+#: app/views/discover/games/view/view-controller.js:133
 msgid "library.followed.add_game_error_growl"
 msgstr "Uh-Oh. parece que algo te ha prevenido seguir este juego"
 
-#: app/views/discover/games/view/view-controller.js:82
+#: app/views/discover/games/view/view-controller.js:134
 msgid "library.followed.add_game_error_growl_title"
 msgstr "¡Oh no!"
 
-#: app/views/discover/games/view/view-controller.js:74
+#: app/views/discover/games/view/view-controller.js:126
 msgid "library.followed.add_game_success_growl"
 msgstr "Ahora estas siguiendo a {{ game }}. Te enviaremos notificaciones sobre noticias tanto como podamos en tu librería"
 
-#: app/views/discover/games/view/view-controller.js:75
+#: app/views/discover/games/view/view-controller.js:127
 msgid "library.followed.add_game_success_growl_title"
 msgstr "Juegos seguidos"
 
@@ -4416,22 +4445,22 @@ msgstr "Sigue este juego para añadirlo a tu librería para ser notificado de nu
 msgid "library.followed.remove_game_confirmation"
 msgstr "¿Estás seguro de que quieres dejar de seguir este {{ game }}?"
 
-#: app/views/discover/games/view/view-controller.js:59
+#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh-oh, Algo te ha impedido dejar de seguir este juego."
 
-#: app/views/discover/games/view/view-controller.js:60
+#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "¡Oh no!"
 
-#: app/views/discover/games/view/view-controller.js:52
+#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Has dejado de seguir {{ game }} y no volverás a recibir notificaciones sobre este. "
 
-#: app/views/discover/games/view/view-controller.js:53
+#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Has dejado de seguir el juego"
@@ -4684,19 +4713,19 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 notificación"
 msgstr[1] "+{{ $count | number }} notificaciones"
 
-#: app/components/shell/footer/footer.html:45
+#: app/components/shell/footer/footer.html:59
 msgid "footer.contact"
 msgstr "Contacto"
 
-#: app/components/shell/footer/footer.html:13
+#: app/components/shell/footer/footer.html:27
 msgid "footer.tagline"
 msgstr "Muchos juegos... y contando!"
 
-#: app/components/shell/footer/footer.html:26
+#: app/components/shell/footer/footer.html:40
 msgid "footer.translations"
 msgstr "Las traducciones son un proyecto de la comunidad."
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:41
 msgid "footer.translations_help"
 msgstr "¡Ayuda a traducir!"
 
@@ -4776,7 +4805,7 @@ msgstr "Completo"
 msgid "games.filtering.status_wip"
 msgstr "Trabajo en Progreso"
 
-#: app/views/discover/games/view/view.html:11
+#: app/views/discover/games/view/view.html:50
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "Un artículo nuevo"
@@ -4995,7 +5024,7 @@ msgstr "Si"
 msgid "commands.settings_description"
 msgstr "Cambiar Configuraciones."
 
-#: app/components/shell/footer/footer.html:36
+#: app/components/shell/footer/footer.html:50
 msgid "footer.open_source"
 msgstr "Fuente abierta"
 
@@ -5007,7 +5036,7 @@ msgstr[1] "{{ $count | number }} Comentarios"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
-msgstr "Agregar Comentario"
+msgstr "Añadir Comentario"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
@@ -5096,7 +5125,7 @@ msgstr "Te gusta este comentario"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Acabas de valorar positivamente este comentario. Esto nos permite saber la calidad de los comentarios y mantener el sitio por comentarios positivos."
 
-#: app/components/shell/footer/footer.html:51
+#: app/components/shell/footer/footer.html:65
 msgid "footer.send_system_report"
 msgstr "Enviar Reporte De Sistema"
 
@@ -5178,7 +5207,7 @@ msgstr "Los Juegos que Sigues"
 msgid "library.collection.playlist_owner_page_title"
 msgstr "{{ lista de reproducción }}"
 
-#: lib/gj-lib-client/components/report/modal/modal.html:17
+#: lib/gj-lib-client/components/report/modal/modal.html:19
 msgid "Close"
 msgstr "Cerrar"
 
@@ -5262,7 +5291,7 @@ msgstr "Reportar Juego"
 msgid "Report User"
 msgstr "Reportar Usuario"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Reported"
 msgstr "Reportado"
 
@@ -5275,7 +5304,7 @@ msgstr "Enviar Reporte"
 msgid "Spammer"
 msgstr "Spammer"
 
-#: lib/gj-lib-client/components/report/modal/modal-controller.js:23
+#: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
 msgstr "Gracias por ayudarnos a hacer Game Jolt un lugar para todo el mundo. ¡Vamos a echar un vistazo tan pronto como sea posible!"
 
@@ -5290,25 +5319,41 @@ msgstr "¿Por que quieres reportar esto?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
-msgstr "Download"
+msgstr "Descargar"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:4
 msgid "dash.games.thumbnail.crop_label"
-msgstr "Crop Current Thumbnail"
+msgstr "Cambiar Miniatura"
 
 #: app/components/forms/dashboard/game/thumbnail/thumbnail-directive.js:5
 msgid "dash.games.thumbnail.nocrop_label"
-msgstr "Current Thumbnail"
+msgstr "Miniatura actual"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Change Trophy Image"
+msgstr "Cambiar Imagen de el trofeo"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
-msgstr "Trophy Image"
+msgstr "Imagen del trofeo"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:13
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Would you like to receive an email newsletter that contains updates and announcements of things like new site features, official contests, and interesting games?"
+msgstr "¿Quisieses recibir noticias por email que contienen actualizaciones y anuncios como nuevas caracteristicas de la pagina, concursos oficiales e juegos interesantes?"
+
+#: app/components/shell/footer/footer.html:8
+msgid "footer.client_promo.learn_button"
+msgstr "Get It Now"
+
+#: app/components/shell/footer/footer.html:6
+msgid "footer.client_promo.message"
+msgstr "Play games faster with the Game Jolt Client!"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:6
+msgid "Report Post"
+msgstr "Report Post"
+
+#: lib/gj-lib-client/components/report/modal/modal.html:5
+msgid "Report Topic"
+msgstr "Report Topic"
 
