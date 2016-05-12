@@ -199,11 +199,11 @@ msgstr "Uusi salasana"
 msgid "auth.reset_password.submit_button"
 msgstr "Nollaa salasana"
 
-#: app/components/shell/footer/footer.html:56
+#: app/components/shell/footer/footer.html:54
 msgid "legal.privacy"
 msgstr "Yksityisyys"
 
-#: app/components/shell/footer/footer.html:53
+#: app/components/shell/footer/footer.html:51
 msgid "legal.terms"
 msgstr "Ehdot"
 
@@ -396,15 +396,15 @@ msgstr "Vaihda tilin salasanaa"
 msgid "dash.email_prefs.heading"
 msgstr "Sähköpostikäytäntösi"
 
-#: app/components/forms/dashboard/email-preferences/email-preferences.html:12
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:16
 msgid "dash.email_prefs.newsletter_label"
 msgstr "Vastaanota uutiskirje?"
 
-#: app/components/forms/dashboard/email-preferences/email-preferences.html:20
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:30
 msgid "dash.email_prefs.notifications_description"
 msgstr "Kerro meille, millaisia sähköpostihuomautuksia haluat vastaanottaa vaihtamalla eri kategorioita päälle/pois."
 
-#: app/components/forms/dashboard/email-preferences/email-preferences.html:18
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:28
 msgid "dash.email_prefs.notifications_heading"
 msgstr "Huomautukset"
 
@@ -412,7 +412,7 @@ msgstr "Huomautukset"
 msgid "dash.email_prefs.page_title"
 msgstr "Sähköpostikäytännöt"
 
-#: app/components/forms/dashboard/email-preferences/email-preferences.html:34
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:51
 msgid "dash.email_prefs.submit_button"
 msgstr "Tallennuskäytännöt"
 
@@ -428,7 +428,7 @@ msgstr "Esikatselukuvan täytyy olla tiedostotyypiltään PNG, JPG tai GIF. <br>
 "Animoidut GIF-kuvat antavat vihjeitä siitä, millaiselta pelisi (kenties) näyttää toiminnassa. <br>\n"
 "Staattisille kuville PNG-tiedostot ovat suositeltavia"
 
-#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:11
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:19
 msgid "dash.funds.withdraw.amount_label"
 msgstr "Nostettava summa"
 
@@ -448,19 +448,19 @@ msgstr "Varmista, että antamasi tiedot ovat kunnollisia. Et voi vaihtaa niitä 
 msgid "dash.funds.withdraw.heading"
 msgstr "Nosta tulojasi"
 
-#: app/views/dashboard/withdraw-funds/withdraw-funds.html:12
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:30
 msgid "dash.funds.withdraw.page_help_html"
 msgstr "<p>Ole hyvä ja suo 3 päivää nostojen käsittelyyn. Tällä hetkellä kaikki nostot käsitellään <a href=\"https://www.paypal.com\" target=\"_blank\">PayPalin</a> kautta.</p> <p>Jos sinulla ei ole PayPal-tiliä, et pysty nostamaan lainkaan rahaa. Ole hyvä ja varmista, että sinulla on <a href=\"https://www.paypal.com\" target=\"_blank\">PayPal-tili</a> <em>ennen kuin</em> yrität nostaa rahaa.</p> "
 
-#: app/views/dashboard/withdraw-funds/withdraw-funds.html:23
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:17
 msgid "dash.funds.withdraw.revenue_pending"
 msgstr "Nostohakemus vireillä"
 
-#: app/views/dashboard/withdraw-funds/withdraw-funds.html:27
+#: app/views/dashboard/withdraw-funds/withdraw-funds.html:21
 msgid "dash.funds.withdraw.revenue_withdrawable"
 msgstr "Nostettavissa oleva summa"
 
-#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:27
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:35
 msgid "dash.funds.withdraw.submit_button"
 msgstr "Lähetä noutopyyntö."
 
@@ -492,7 +492,7 @@ msgstr "Säännöt"
 msgid "dash.games.add.rules_html"
 msgstr "<p>Sinun täytyy hyväksyä seuraavat käytännöt ennen kuin lisäät pelin:</p> <ul> <li>Game Jolt kelpuuttaa tällä hetkellä vain ilmaisia pelejä. Peliäsi tulee voida pelata ilman maksua.</li> <li>Älä lataa sivustolle pelejä joita et ole tehnyt. Jos et ole pelin kehittäjä, älä lataa sitä sivustolle. Jos olet fani, rohkaise kehittäjää lisäämään se itse.</li> <li>Vain kehittäjät saavat ladata pelejä sivustolle; eivät siis julkaisijat. Muistathan: This is Indie.</li> <li>Olemme \"Game Jolt\". Siispä ainoastaan varsinaiset <em>pelit</em> ovat tervetulleita sivustollemme. Sovelluksia, ohjelmistoja tai työkaluja ei tällä hetkellä oteta vastaan. Saatamme hyväksyä nämä tulevaisuudessa tai tapauskohtaisesti, mutta toistaiseksi, pidättäydytään peleissä.</li> <li>Kaupallisten pelien riisuttuja demo- tai kevytversioita ei sallita. Sivustolle lataamasi pelin tulee olla täysin ilmainen ja kokoversio.</li> <li>Rohkaisemme sinua lisäämään ei-kokonaisia ja vielä kehitysvaiheessa olevia pelejä, kunhan ne merkitään keskeneräisiksi (Work-in-Progress). Piilota kuitenkin pelisi ennen kuin sinulla on jotain näytettävää. Work-in-Progress -pelien ei tarvitse olla pelattavia, mutta niiden tulee olla pitemmällä kuin vasta konseptivaiheessa. Pidä huoli, että sinulla on ainakin muutama kuvakaappaus ja informatiivinen kuvaus ennen kuin näytät pelin.</li> <li>Älä lisää linkkejä pelin pelaamiseen tai lataamiseen muilta sivustoilta ellet ole jo ladannut peliä Game Joltiin. Et saa käyttää pelisivuasi mainoksena toiselle sivustolle.</li> <li>Selainpohjaisten pelien preloaderit eivät saa näyttää mainoksia Game Joltissa. Poista kaikki mainokset tai estä niitä näkymästä sivustolla.</li> <p>Jos sinulla on kysymyksiä tai huolia säännöistä, ota yhteyttä: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a></p> "
 
-#: app/views/dashboard/developer/games/manage/manage.html:50
+#: app/views/dashboard/developer/games/manage/manage.html:54
 msgid "dash.games.api_tab"
 msgstr "Game API"
 
@@ -621,91 +621,43 @@ msgstr "(näytä avain)"
 msgid "dash.games.api.settings.page_alert_html"
 msgstr "<p><strong>Älä koskaa anna yksityistä avaintasi kenellekään!</strong> Pelisi avaita käytetään vahvistamaan pelistäsi tulevat API-pyynnöt. Jos väärät tahot pääsevät siihen käsiksi, pahuus on irti!</p>"
 
-#: app/components/forms/dashboard/game/build/build.html:63
-msgid "dash.games.builds.form.applet_help"
-msgstr ".jar-tiedosto. Pelattavissa selaimissa, jotka silti jostain syystä tukevat Javaa. Harkitse lisääväsi .jar-tiedosto myös ladattavaksi."
-
-#: app/components/forms/dashboard/game/build/build.html:171
-msgid "dash.games.builds.form.browser_ads_alert"
-msgstr "Muistathan estää tai poistaa kaikki pelissäsi näkyvät mainokset. Me jaamme omat mainoksemme ja jaamme tuottomme kehittäjien kesken. Estä seuraavat verkkotunnukset:"
-
-#: app/components/forms/dashboard/game/build/build.html:30
-msgid "dash.games.builds.form.browser_label"
-msgstr "Selaintyyppi"
-
-#: app/components/forms/dashboard/game/build/build.html:22
-msgid "dash.games.builds.form.browser_tab"
-msgstr "Selain"
-
-#: app/components/forms/dashboard/game/build/build.html:148
-msgid "dash.games.builds.form.class_name_label"
-msgstr "Luokan (class) nimi"
-
-#: app/components/forms/dashboard/game/build/build.html:126
+#: app/components/forms/dashboard/game/build/_build.html:126
+#: app/components/forms/dashboard/game/build/build.html:249
 msgid "dash.games.builds.form.dimensions_help_html"
 msgstr "Näillä mitoilla selainpelisi näytetään."
 
-#: app/components/forms/dashboard/game/build/build.html:159
+#: app/components/forms/dashboard/game/build/_build.html:159
+#: app/components/forms/dashboard/game/build/build.html:275
 msgid "dash.games.builds.form.disable_right_click_help"
 msgstr "Tämä antaa sinun poistaa oikean hiiren napautuksen käytöstä. Käytä vain, jos pelisi käyttää oikeaa napautusta johonkin muuhun."
 
-#: app/components/forms/dashboard/game/build/build.html:158
+#: app/components/forms/dashboard/game/build/_build.html:158
+#: app/components/forms/dashboard/game/build/build.html:273
 msgid "dash.games.builds.form.disable_right_click_label"
 msgstr "Poista oikea hiiren painallus käytöstä?"
 
-#: app/components/forms/dashboard/game/build/build.html:17
-msgid "dash.games.builds.form.downloadable_tab"
-msgstr "Ladattava"
-
-#: app/components/forms/dashboard/game/build/build.html:88
+#: app/components/forms/dashboard/game/build/_build.html:88
+#: app/components/forms/dashboard/game/new-build/new-build.html:24
 msgid "dash.games.builds.form.file_error_label"
 msgstr "tiedosto"
 
-#: app/components/forms/dashboard/game/build/build.html:77
-msgid "dash.games.builds.form.file_help_html"
-msgstr "Tilisi on tällä hetkellä rajoitettu tiedostokokoon {{ maxFilesize | number }} Mt per tiedosto. Lähetä viestiä, jos tarvitset enemmän: <a href=\"mailto:contact@gamejolt.com\">contact@gamejolt.com</a> "
-
-#: app/components/forms/dashboard/game/build/build.html:79
-msgid "dash.games.builds.form.file_html_help_html"
-msgstr "<strong>HTML-pelit vaativat .zip-tiedoston, josta löytyy tarvittavat tiedostot ja data. Zip-arkiston juurelta on löydyttävä \"index.html\"-niminen tiedosto.</strong>"
-
-#: app/components/forms/dashboard/game/build/build.html:75
-msgid "dash.games.builds.form.file_label"
-msgstr "Lähetä tiedosto"
-
-#: app/components/forms/dashboard/game/build/build.html:49
-msgid "dash.games.builds.form.flash_help"
-msgstr ".swf-tiedosto. Pelattavissa selaimilla, jotka sattuvat tukemaan Flashiä."
-
-#: app/components/forms/dashboard/game/build/build.html:136
+#: app/components/forms/dashboard/game/build/_build.html:136
+#: app/components/forms/dashboard/game/build/build.html:259
 msgid "dash.games.builds.form.height_label"
 msgstr "Korkeus"
 
-#: app/components/forms/dashboard/game/build/build.html:35
-msgid "dash.games.builds.form.html_help"
-msgstr ".zip-arkisto, joka sisältää kaikki pelin vaatimat tiedostot, mukaan lukien \"index.html\"-tiedosto juurella. Pitäisi olla pelattavissa kaikilla moderneilla selaimilla ilman liitännäisiä."
-
-#: app/components/forms/dashboard/game/build/build.html:116
+#: app/components/forms/dashboard/game/build/_build.html:116
+#: app/components/forms/dashboard/game/build/build.html:181
 msgid "dash.games.builds.form.no_platforms_error"
 msgstr "Sinun täytyy valita ainakin yksi alusta, jolla koontiversiosi toimii (tai \"Muu\")."
 
-#: app/components/forms/dashboard/game/build/build.html:97
+#: app/components/forms/dashboard/game/build/_build.html:97
+#: app/components/forms/dashboard/game/build/build.html:158
 msgid "dash.games.builds.form.platforms_help_html"
 msgstr "Valitse \"Muu\", jos tämä koontiversio on alustalle, jota ei tässä näy, tai sitten se on ei-suoritettava tiedosto, kuten PDF."
 
-#: app/components/forms/dashboard/game/build/build.html:95
-msgid "dash.games.builds.form.platforms_label"
-msgstr "Alustat"
-
-#: app/components/forms/dashboard/game/build/build.html:56
-msgid "dash.games.builds.form.silverlight_help"
-msgstr ".xap-tiedosto. Pelattavissa selaimilla, jotka tukevat Silverlightia."
-
-#: app/components/forms/dashboard/game/build/build.html:42
-msgid "dash.games.builds.form.unity_help"
-msgstr ".unity3d-tiedosto. Pelattavissa selaimilla, jotka tukevat Unity Web Playeria. Jos veit pelisi WebGL-muotoon, valitse HTML Unityn sijaan."
-
-#: app/components/forms/dashboard/game/build/build.html:130
+#: app/components/forms/dashboard/game/build/_build.html:130
+#: app/components/forms/dashboard/game/build/build.html:253
 msgid "dash.games.builds.form.width_label"
 msgstr "Leveys"
 
@@ -996,7 +948,7 @@ msgstr "Väkivalta"
 msgid "dash.games.maturity.wip_help"
 msgstr "Jos et tiedä, millainen pelisi lopullinen sisältö tulee olemaan, anna valistunut veikaus. Voit muokata asetuksia myöhemmin."
 
-#: app/views/dashboard/developer/games/manage/manage.html:30
+#: app/views/dashboard/developer/games/manage/manage.html:34
 msgid "dash.games.media_tab"
 msgstr "Media"
 
@@ -1129,7 +1081,7 @@ msgstr "Videon tiedot"
 msgid "dash.games.media.video.remove_button"
 msgstr "Poista video"
 
-#: app/views/dashboard/developer/games/manage/manage.html:45
+#: app/views/dashboard/developer/games/manage/manage.html:49
 msgid "dash.games.music_tab"
 msgstr "Musiikki"
 
@@ -1169,7 +1121,7 @@ msgstr "<p>Anna muiden nauttia pelisi ääniraidasta milloin haluavat! Lisää M
 msgid "dash.games.music.remove_button"
 msgstr "Poista kappale"
 
-#: app/views/dashboard/developer/games/manage/manage.html:40
+#: app/views/dashboard/developer/games/manage/manage.html:44
 msgid "dash.games.news_tab"
 msgstr "Uutiset"
 
@@ -1246,15 +1198,15 @@ msgstr "Lähetä uutisia tiedottaaksesi ihmisille, kun jotain mielenkiintoista t
 msgid "dash.games.news.views"
 msgstr "Katsottu:"
 
-#: app/views/dashboard/developer/games/manage/manage.html:25
+#: app/views/dashboard/developer/games/manage/manage.html:29
 msgid "dash.games.overview_tab"
 msgstr "Yleiskatsaus"
 
-#: app/views/dashboard/developer/games/manage/game/overview/overview.html:184
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:191
 msgid "dash.games.overview.activity_heading"
 msgstr "Viimeisin toiminta"
 
-#: app/views/dashboard/developer/games/manage/game/overview/overview.html:187
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:194
 msgid "dash.games.overview.activity_none_html"
 msgstr "Ei toimintaa vielä. Kun ihmiset tekevät jotain peliisi liittyvää (kommentoivat, seuraavat yms.), viimeisin toiminta näkyy tässä."
 
@@ -1340,38 +1292,25 @@ msgstr "Suositeltavaa"
 msgid "dash.games.overview.todo_required"
 msgstr "Pakollista"
 
-#: app/views/dashboard/developer/games/manage/manage.html:35
+#: app/views/dashboard/developer/games/manage/manage.html:39
 msgid "dash.games.packages_tab"
 msgstr "Koontiversiot & Tiedostot"
 
-#: app/views/dashboard/developer/games/manage/packages/packages.html:45
-#: app/views/dashboard/developer/games/manage/packages/packages.html:76
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:25
 msgid "dash.games.packages.add_package_button"
 msgstr "Lisää paketti"
 
-#: app/views/dashboard/developer/games/manage/packages/add/add.html:2
-msgid "dash.games.packages.add.heading"
-msgstr "Lisää paketti"
-
-#: app/views/dashboard/developer/games/manage/packages/package/edit/edit.html:2
-msgid "dash.games.packages.edit.heading"
-msgstr "Muokkaa pakettia"
-
-#: app/components/forms/dashboard/game/package/package.html:39
+#: app/components/forms/dashboard/game/package/package.html:26
 msgid "dash.games.packages.form.description_change_button"
 msgstr "Anna kuvaus"
 
-#: app/components/forms/dashboard/game/package/package.html:34
+#: app/components/forms/dashboard/game/package/package.html:21
 msgid "dash.games.packages.form.description_help_html"
 msgstr "Tämä pitäisi täydentää <em>vain jos sille on tarvetta</em>, esimerkiksi jos pelkästään nimi ei riitä erottamaan tämän paketin muista."
 
-#: app/components/forms/dashboard/game/package/package.html:33
+#: app/components/forms/dashboard/game/package/package.html:20
 msgid "dash.games.packages.form.description_label"
 msgstr "Paketin kuvaus"
-
-#: app/components/forms/dashboard/game/package/package.html:18
-msgid "dash.games.packages.form.title_change_button"
-msgstr "Vaihda nimeä"
 
 #: app/components/forms/dashboard/game/package/package.html:9
 msgid "dash.games.packages.form.title_help_html"
@@ -1381,81 +1320,57 @@ msgstr "Tämä nimi ilmestyy pelisivullesi latausnapin yläpuolelle. Käytä pel
 msgid "dash.games.packages.form.title_label"
 msgstr "Paketin nimi"
 
-#: app/views/dashboard/developer/games/manage/packages/packages.html:60
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:5
 msgid "dash.games.packages.heading"
 msgstr "Pelin paketit"
 
-#: app/views/dashboard/developer/games/manage/packages/package/package.html:34
-msgid "dash.games.packages.manage.edit_package_tab"
-msgstr "Muokkaa pakettia"
-
-#: app/views/dashboard/developer/games/manage/packages/package/package.html:7
-msgid "dash.games.packages.manage.heading"
-msgstr "Hallinnoi pakettia"
-
-#: app/views/dashboard/developer/games/manage/packages/package/package.html:28
-msgid "dash.games.packages.manage.releases_tab"
-msgstr "Julkaisut"
-
-#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:16
-msgid "dash.games.packages.manage.releases.add_release_button"
-msgstr "Lisää uusi julkaisu"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:21
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:156
 msgid "dash.games.packages.manage.releases.builds_count_none"
 msgstr "Ei koontiversioita (vielä)."
 
-#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:1
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:91
 msgid "dash.games.packages.manage.releases.heading"
 msgstr "Julkaisut"
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:7
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:137
 msgid "dash.games.packages.manage.releases.hidden_tag"
 msgstr "Piilotettu"
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:4
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:134
 msgid "dash.games.packages.manage.releases.hidden_tooltip"
 msgstr "Tämä julkaisu on piilotettu ja ei ilmesty pelisivullesi kunnes se on julkaistu."
 
-#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:10
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:105
 msgid "dash.games.packages.manage.releases.no_releases_html"
 msgstr "<p>Et ole lisännyt yhtäkään julkaisua tähän pakettiin vielä.</p>"
 
-#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:4
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:96
 msgid "dash.games.packages.manage.releases.page_help_html"
 msgstr " <p>Julkaisut esittävät uusia versioita paketeistasi. Jos päivität paketin, sinun tulisi lisätä uusi julkaisu. Voit koota eri alustojen koontiversiot samaan julkaisuun.</p>"
 
-#: app/views/dashboard/developer/games/manage/packages/package/releases/releases.html:6
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:98
 msgid "dash.games.packages.manage.releases.page_help_link"
 msgstr "Lue lisää julkaisuista..."
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:15
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:145
 msgid "dash.games.packages.manage.releases.published_tag"
 msgstr "Julkaistu"
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:12
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:142
 msgid "dash.games.packages.manage.releases.published_tooltip"
 msgstr "Tämä julkaisu on julkaistu ja siihen voi päästä käsiksi pelisi sivulta."
 
-#: app/views/dashboard/developer/games/manage/packages/package/package.html:18
-msgid "dash.games.packages.manage.remove_package_button"
-msgstr "Poista paketti"
-
-#: app/views/dashboard/developer/games/manage/packages/packages.html:9
-msgid "dash.games.packages.nav_heading"
-msgstr "Paketit"
-
-#: app/views/dashboard/developer/games/manage/packages/packages.html:71
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:20
 msgid "dash.games.packages.no_packages_html"
 msgstr "<p>Et ole lisännyt yhtäkään pakettia vielä.</p>"
 
-#: app/views/dashboard/developer/games/manage/packages/add/add.html:6
-#: app/views/dashboard/developer/games/manage/packages/packages.html:64
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:29
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:11
 msgid "dash.games.packages.page_help_html"
 msgstr "<p>Pakettien avulla voit organisoida ja jakaa pelisi koontiversioita ja muita tiedostoja.</p><p>Pääasiallisen pakettisi tulisi sisältää koontiversiot, joita haluat pelaajien pelaavan. Voit luoda uusia paketteja, jotka sisältävät ylimääräisiä tidostoja, kuten kenttäeditorin, taidepaketteja, lisäosia ja muuta ladattavaa sisältöä.</p>"
 
-#: app/views/dashboard/developer/games/manage/packages/add/add.html:8
-#: app/views/dashboard/developer/games/manage/packages/packages.html:66
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:31
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:13
 msgid "dash.games.packages.page_help_link"
 msgstr "Lue lisää paketeista..."
 
@@ -1463,158 +1378,37 @@ msgstr "Lue lisää paketeista..."
 msgid "dash.games.published_tag"
 msgstr "Julkaistu"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:237
-msgid "dash.games.releases.builds.add_build_button"
-msgstr "Lisää uusi koontiversio"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:26
+#: app/components/forms/dashboard/game/build/build.html:13
 msgid "dash.games.releases.builds.downloads_label"
 msgstr "Lataukset"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:179
-msgid "dash.games.releases.builds.edit_tab"
-msgstr "Muokkaa"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:152
-msgid "dash.games.releases.builds.extra_files_heading"
-msgstr "Ylimääräis tiedostot"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:195
-msgid "dash.games.releases.builds.extra_files_tab"
-msgstr "Ylimääräis tiedostot"
-
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:11
-msgid "dash.games.releases.builds.extra_files.form.file_error_label"
-msgstr "tiedosto"
-
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:4
-msgid "dash.games.releases.builds.extra_files.form.file_label"
-msgstr "Lisää tiedosto"
-
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:15
-msgid "dash.games.releases.builds.extra_files.form.include_archive_help"
-msgstr "Jos et tiedä mitä tämä tarkoittaa, sinun pitäisi luultavasti jättää tämä päälle"
-
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:14
-msgid "dash.games.releases.builds.extra_files.form.include_archive_label"
-msgstr "Sisällytä arkistomerkkijonoon?"
-
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:25
-msgid "dash.games.releases.builds.extra_files.form.submit_button"
-msgstr "Lähetä tiedosto"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:14
-msgid "dash.games.releases.builds.extra_files.include_archive_label"
-msgstr "Sisällytä arkistoon"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/supplemental-files/_supplemental-files.html:3
-msgid "dash.games.releases.builds.extra_files.info_html"
-msgstr "<p>Voit ladata tänne mitä vain lisätiedostoja mitä sinun sovelmasi tarvitsee</p>"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:6
-msgid "dash.games.releases.builds.heading"
-msgstr "Koontiversiot"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:66
-msgid "dash.games.releases.builds.incomplete_tag"
-msgstr "Vaatii toiminpiteitä"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:185
-msgid "dash.games.releases.builds.launch_options_tab"
-msgstr "Käynnistys asetukset"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:8
-msgid "dash.games.releases.builds.launch_options.archive_info_html"
-msgstr "<p> <strong> Olemme havainneet, että tämä koontiversio on arkistotiedosto. </ strong> </ p>\n"
-"<p> Kerro meille polku suoritettavaan tiedostoon kaikille alustoille jotka olet valinnut, jotta voimme käynnistää sen automaattisesti. </ p>"
-
-#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:28
+#: app/components/forms/dashboard/game/build/archive-file-selector.html:28
 msgid "dash.games.releases.builds.launch_options.file_selector.cancel_button"
 msgstr "Peruuta"
 
-#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:8
+#: app/components/forms/dashboard/game/build/archive-file-selector.html:8
 msgid "dash.games.releases.builds.launch_options.file_selector.filter_placeholder"
 msgstr "Suodata tiedostoja..."
 
-#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:2
+#: app/components/forms/dashboard/game/build/archive-file-selector.html:2
 msgid "dash.games.releases.builds.launch_options.file_selector.heading"
 msgstr "Valitse suoritettava tiedosto"
 
-#: app/components/forms/dashboard/game/build/launch-options/archive-file-selector.html:21
+#: app/components/forms/dashboard/game/build/archive-file-selector.html:21
 msgid "dash.games.releases.builds.launch_options.file_selector.no_files_html"
 msgstr "<p> Voi ei! Emme löytäneet suoritettavia tiedostoja tälle alustalle arkistosta. </ P>"
 
-#: app/components/forms/dashboard/game/build/launch-options/launch-options.html:21
+#: app/components/forms/dashboard/game/build/build.html:226
 msgid "dash.games.releases.builds.launch_options.form.file_error_label"
 msgstr "tiedostopolku suoritettavaan tiedostoon"
 
-#: app/components/forms/dashboard/game/build/launch-options/launch-options.html:26
-msgid "dash.games.releases.builds.launch_options.form.submit_button"
-msgstr "Vahvista käynnistysasetukset"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:1
-msgid "dash.games.releases.builds.launch_options.incomplete_alert_html"
-msgstr "<p> Emme tiedä, miten automaattisesti suorittaa tätä koontiversiota! Kerro meille, miten se käynnistetään ennen kuin se voi näkyä pelisivulla. </ P>"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:10
-msgid "dash.games.releases.builds.launch_options.page_help_link"
-msgstr "Lue lisää käynnistysasetuksista"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/launch-options/_launch-options.html:28
+#: app/components/forms/dashboard/game/build/build.html:239
 msgid "dash.games.releases.builds.launch_options.standalone_info_html"
 msgstr "<p><strong>Olemme havainneet että tämä koontiversio on suoritettava tiedosto.</strong></p><p>Se voidaan suorittaa automaattisesti.</p>"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:12
-msgid "dash.games.releases.builds.no_builds_html"
-msgstr "<p>Et ole lisännyt yhtäkään koontiversiota tähän julkaisuun.</p>"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:56
-msgid "dash.games.releases.builds.other_downloadable_tag"
-msgstr "Muu ladattava"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:9
-msgid "dash.games.releases.builds.page_help_link"
-msgstr "Lue lisää koontiversioista ja tiedostoista..."
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:148
-msgid "dash.games.releases.builds.params_heading"
-msgstr "Parametrit"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:190
-msgid "dash.games.releases.builds.params_tab"
-msgstr "Parametrit"
-
-#: app/components/forms/dashboard/game/build/param/param.html:18
-msgid "dash.games.releases.builds.params.form.add_parameter_button"
-msgstr "Lisää parametri"
-
-#: app/components/forms/dashboard/game/build/param/param.html:3
-msgid "dash.games.releases.builds.params.form.parameter_label"
-msgstr "Parametri"
-
-#: app/components/forms/dashboard/game/build/param/param.html:11
-msgid "dash.games.releases.builds.params.form.value_label"
-msgstr "Arvo"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/params/_params.html:3
-msgid "dash.games.releases.builds.params.info_html"
-msgstr "<p>Voit ladata ylimääräisiä, sovelmasi tarvitsevia tiedostoja tässä.</p>"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:168
+#: app/components/forms/dashboard/game/build/build.html:98
 msgid "dash.games.releases.builds.processing_message_html"
 msgstr "<strong> Käsitellään koontiversiota.</strong> Se tulee saatavaksi tähän julkaisuun, kun olemme valmiita."
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:211
-msgid "dash.games.releases.builds.remove_build_button"
-msgstr "Poista koontiversio"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:84
-msgid "dash.games.releases.builds.standalone_tag"
-msgstr "Itsenäinen sovellus"
-
-#: app/views/dashboard/developer/games/manage/packages/release/edit/edit.html:1
-msgid "dash.games.releases.edit.heading"
-msgstr "Muokkaa julkaisua"
 
 #: app/components/forms/dashboard/game/release/release.html:11
 msgid "dash.games.releases.form.version_number_help_html"
@@ -1628,55 +1422,16 @@ msgstr "Lue lisää hyvän versionumeron valitsemisesta..."
 msgid "dash.games.releases.form.version_number_label"
 msgstr "Versionumero"
 
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:78
-msgid "dash.games.releases.manage.add_release_button"
-msgstr "Lisää uusi julkaisu"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:5
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:14
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit.html:14
 msgid "dash.games.releases.manage.breadcrumb_package"
 msgstr "Paketti"
 
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:12
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit.html:21
 msgid "dash.games.releases.manage.breadcrumb_release"
 msgstr "Julkaisu"
 
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:103
-msgid "dash.games.releases.manage.builds_tab"
-msgstr "Koontiversiot"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:120
-msgid "dash.games.releases.manage.edit_release_tab"
-msgstr "Muokkaa julkaisua"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:26
-msgid "dash.games.releases.manage.heading"
-msgstr "Hallinnoi julkaisua"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:92
-msgid "dash.games.releases.manage.publish_release_button"
-msgstr "Julkaisu julkaisu"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:40
-msgid "dash.games.releases.manage.remove_release_button"
-msgstr "Poista julkaisu"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:112
-msgid "dash.games.releases.manage.stats_tab"
-msgstr "Statistiikat"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:65
-msgid "dash.games.releases.manage.switch_release_heading"
-msgstr "Vaihda julkaisua"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:36
-msgid "dash.games.releases.manage.unpublish_release_button"
-msgstr "Piilota julkaisu"
-
-#: app/views/dashboard/developer/games/manage/packages/release/stats/stats.html:1
-msgid "dash.games.releases.stats.heading"
-msgstr "Statistiikat"
-
-#: app/views/dashboard/developer/games/manage/manage.html:67
+#: app/views/dashboard/developer/games/manage/manage.html:71
 msgid "dash.games.remove_game_button"
 msgstr "Poista peli"
 
@@ -2018,88 +1773,75 @@ msgstr "Salainen"
 msgid "dash.games.trophies.trophy_id_label"
 msgstr "Palkintotunniste"
 
-#: app/views/dashboard/developer/games/manage/manage.html:18
+#: app/views/dashboard/developer/games/manage/manage.html:22
 msgid "dash.games.view_page_button"
 msgstr "Katsele pelisivua"
 
-#: app/views/dashboard/overview/overview.html:111
+#: app/views/dashboard/main/overview/overview.html:106
 msgid "dash.integrate.done"
 msgstr "Valmis"
 
-#: app/views/dashboard/overview/overview.html:124
+#: app/views/dashboard/main/overview/overview.html:119
 msgid "dash.integrate.exp_help_body_html"
 msgstr "<p>Saadaksesi kokemuspisteitä ja tasoja, muista <em>arvostella</em> ja <em>kommentoida</em> pelit, joita pelaat.</p><p>Nopein keino kokemuspisteiden kartuttamiseen on kuitenkin <strong>palkintojen</strong> kerääminen ja <strong>pistelistoille</strong> pääseminen!</p>"
 
-#: app/views/dashboard/overview/overview.html:123
+#: app/views/dashboard/main/overview/overview.html:118
 msgid "dash.integrate.exp_help_heading"
 msgstr "Saa kokemusta ja nosta tasoasi!"
 
-#: app/views/dashboard/overview/overview.html:87
+#: app/views/dashboard/main/overview/overview.html:82
 msgid "dash.integrate.heading"
 msgstr "Integroi"
 
-#: app/views/dashboard/overview/overview.html:90
+#: app/views/dashboard/main/overview/overview.html:85
 msgid "dash.integrate.lead"
 msgstr "Tämä tehtävälista auttaa sinut alkuun sivuston käytössä:"
 
-#: app/views/dashboard/overview/overview.html:131
+#: app/views/dashboard/main/overview/overview.html:126
 msgid "dash.overview.activity_heading"
 msgstr "Viimeisin toiminto"
 
-#: app/views/dashboard/overview/overview.html:140
+#: app/views/dashboard/main/overview/overview.html:135
 msgid "dash.overview.activity_no_activity_html"
 msgstr "<p>Ei toimintoja</p>"
 
-#: app/views/dashboard/overview/overview.html:144
+#: app/views/dashboard/main/overview/overview.html:139
 msgid "dash.overview.activity_view_all_button"
 msgstr "Näytä kaikki toiminnot"
 
-#: app/views/dashboard/overview/overview.html:38
+#: app/views/dashboard/main/overview/overview.html:18
 msgid "dash.overview.broadcast_view_all"
 msgstr "Näytä kaikki muutoslistan julkaisut"
 
-#: app/views/dashboard/overview/overview.html:162
+#: app/views/dashboard/main/overview/overview.html:157
 msgid "dash.overview.developer_games_add_button"
 msgstr "Lisää peli"
 
-#: app/views/dashboard/overview/overview.html:155
+#: app/views/dashboard/main/overview/overview.html:150
 msgid "dash.overview.developer_games_heading"
 msgstr "Sinun pelisi"
 
-#: app/views/dashboard/overview/overview.html:178
+#: app/views/dashboard/main/overview/overview.html:173
 msgid "dash.overview.developer_games_no_games_html"
 msgstr "Ei pelejä? Täh, oikeasti? Olet pelinkehittäjä, joten... <a href=\"/dashboard/developer/games/add\">lisää peli</a>!"
 
-#: app/views/dashboard/overview/overview.html:4
+#: app/views/dashboard/main/main.html:4
 msgid "dash.overview.heading"
 msgstr "Sinun kojelauta"
 
-#: app/views/dashboard/overview/overview.html:61
-#: app/views/dashboard/withdraw-funds/withdraw-funds.html:19
-msgid "dash.overview.revenue_balance"
-msgstr "Tämän hetkinen saldo."
-
-#: app/views/dashboard/overview/overview.html:47
+#: app/views/dashboard/main/overview/overview.html:27
 msgid "dash.overview.revenue_heading"
 msgstr "Tulot"
 
-#: app/views/dashboard/overview/overview.html:48
+#: app/views/dashboard/main/overview/overview.html:28
 msgid "dash.overview.revenue_tooltip"
 msgstr "Game Jolt tarjoaa sinulle osuuden pelisi tuottamista mainostuloista."
 
-#: app/views/dashboard/overview/overview.html:53
-msgid "dash.overview.revenue_total"
-msgstr "Kokonaan ansaitut"
-
-#: app/views/dashboard/overview/overview.html:74
+#: app/views/dashboard/main/overview/overview.html:69
 msgid "dash.overview.revenue_withdraw_button"
 msgstr "Nosta mainostuloja"
 
-#: app/views/dashboard/overview/overview.html:57
-msgid "dash.overview.revenue_withdrawn"
-msgstr "Nostot yhteensä"
-
-#: app/views/dashboard/overview/overview.html:14
+#: app/views/dashboard/main/main.html:14
 msgid "dash.overview.view_profile_button"
 msgstr "Katso profiiliasi"
 
@@ -2150,60 +1892,60 @@ msgstr "Voit vaihtaa nimesi vain kerran viikossa. <br>\n"
 msgid "dash.profile.edit.website_label"
 msgstr "Nettisivu"
 
-#: app/views/discover/home/home.html:92
+#: app/views/discover/home/home.html:126
 msgid "discover.home.best_heading"
 msgstr "Parhaimmat pelit"
 
-#: app/views/discover/home/home.html:99
+#: app/views/discover/home/home.html:133
 msgid "discover.home.best_help"
 msgstr "Kaikkien aikojen parhaiten arvosteltuja pelejä"
 
-#: app/views/discover/home/home.html:241
+#: app/views/discover/home/home.html:275
 msgid "discover.home.fireside_heading"
 msgstr "Uusimmat kohteesta"
 
-#: app/views/discover/home/home.html:249
+#: app/views/discover/home/home.html:283
 msgid "discover.home.fireside_help"
 msgstr "Indie-peli-uutisia, -arvosteluja ja mielipiteitä"
 
-#: app/views/discover/home/home.html:206
+#: app/views/discover/home/home.html:240
 msgid "discover.home.followed_news_heading"
 msgstr "Seurattujen pelien uutiset"
 
-#: app/views/discover/home/home.html:213
+#: app/views/discover/home/home.html:247
 msgid "discover.home.followed_news_help"
 msgstr "Viimeisimmät uutiset seuraamistasi peleistä"
 
-#: app/views/discover/home/home.html:185
+#: app/views/discover/home/home.html:219
 msgid "discover.home.followed_news_tab"
 msgstr "Seuratut"
 
-#: app/views/discover/home/home.html:132
+#: app/views/discover/home/home.html:166
 msgid "discover.home.hot_heading"
 msgstr "Kuumat pelit"
 
-#: app/views/discover/home/home.html:139
+#: app/views/discover/home/home.html:173
 msgid "discover.home.hot_help"
 msgstr "Suosittuja indie-pelejä, \"kuumuuden\" mukaan"
 
-#: app/views/discover/home/home.html:198
+#: app/views/discover/home/home.html:232
 msgid "discover.home.hot_news_heading"
 msgstr "Kuumat peliuutiset"
 
-#: app/views/discover/home/home.html:212
+#: app/views/discover/home/home.html:246
 msgid "discover.home.hot_news_help"
 msgstr "Kuumimmat indie-peli-uutiset suoraan kehittäjiltä."
 
-#: app/views/discover/home/home.html:180
+#: app/views/discover/home/home.html:214
 msgid "discover.home.hot_news_tab"
 msgstr "Kuumat uutiset"
 
-#: app/views/discover/home/home.html:225
-#: app/views/discover/home/home.html:229
+#: app/views/discover/home/home.html:259
+#: app/views/discover/home/home.html:263
 msgid "discover.home.more_news"
 msgstr "Lisää uutisia"
 
-#: app/views/discover/home/home.html:70
+#: app/views/discover/home/home.html:52
 msgid "discover.home.social_label"
 msgstr "Pelaa kanssamme!"
 
@@ -2283,27 +2025,27 @@ msgstr "Tässä pelissä ei vielä ole palkintoja. Käske tekijää lisäämää
 msgid "game.trophies.unachieved_tab"
 msgstr "Ei saavutettu"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:138
+#: app/components/forms/dashboard/game/build/build.html:54
 msgid "games.browser_applet"
 msgstr "Java-sovelma"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:123
+#: app/components/forms/dashboard/game/build/build.html:39
 msgid "games.browser_flash"
 msgstr "Flash"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:118
+#: app/components/forms/dashboard/game/build/build.html:34
 msgid "games.browser_html"
 msgstr "HTML"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:133
+#: app/components/forms/dashboard/game/build/build.html:49
 msgid "games.browser_silverlight"
 msgstr "Silverlight"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:128
+#: app/components/forms/dashboard/game/build/build.html:44
 msgid "games.browser_unity"
 msgstr "Unity"
 
-#: app/components/game/filtering/widget.html:12
+#: app/components/game/filtering/widget.html:21
 msgid "games.filtering.browser_label"
 msgstr "Selain pelit"
 
@@ -2315,15 +2057,15 @@ msgstr "Lajityyppi"
 msgid "games.filtering.input_placeholder"
 msgstr "Suodata tuloksia"
 
-#: app/components/game/filtering/widget.html:19
+#: app/components/game/filtering/widget.html:28
 msgid "games.filtering.maturity_label"
 msgstr "Ikärajatiedot"
 
-#: app/components/game/filtering/widget.html:5
+#: app/components/game/filtering/widget.html:14
 msgid "games.filtering.os_label"
 msgstr "Käyttöjärjestelmät"
 
-#: app/components/game/filtering/widget.html:26
+#: app/components/game/filtering/widget.html:35
 msgid "games.filtering.status_label"
 msgstr "Tila"
 
@@ -2379,7 +2121,7 @@ msgstr "Indie {{ category }}, järjestys: Kuumat"
 
 #: app/views/discover/games/list/_list-clean.html:64
 #: app/views/discover/games/list/_list-original.html:61
-#: app/views/discover/home/home.html:140
+#: app/views/discover/home/home.html:174
 msgid "games.list.hotness_tooltip"
 msgstr "Kuumuus viittaa yhteisön mielenkiintoon peliä kohtaan. Pelin kuumuus on aluksi korkea ja laskee ajan myötä. Yhteisön aktiivisuus voi hidastaa kuumuuden laskemista."
 
@@ -2392,10 +2134,6 @@ msgstr "Indie {{ category }}, järjestys: Julkaisupvm"
 #: app/views/discover/games/list/_list-original.html:95
 msgid "games.list.new_games_warning_html"
 msgstr "Vast'ikään julkaistuja pelejä ei ole tarkastettu yhteisön toimesta. Saatat siis löytää mitä vain kultakimpaleesta kakkakikkareeseen."
-
-#: app/views/discover/games/list/category/category.html:2
-msgid "games.list.no_games_html"
-msgstr "Asettamiasi rajoitteita vastaavia pelejä ei löytynyt."
 
 #: app/views/discover/games/list/_list-clean.html:141
 #: app/views/discover/games/list/_list-original.html:161
@@ -2440,7 +2178,7 @@ msgstr "Moderoi peliä"
 msgid "games.view.news_tab"
 msgstr "Uutiset"
 
-#: app/views/discover/games/view/view.html:47
+#: app/views/discover/games/view/view.html:39
 msgid "games.view.notifications_heading"
 msgstr "Ilmoitukset"
 
@@ -2454,7 +2192,7 @@ msgstr "Pisteet"
 
 #: app/views/discover/games/view/overview/_details.html:68
 msgid "games.view.stats.downloads_plays_label"
-msgstr "Pelikertaa"
+msgstr "Lataukset"
 
 #: app/views/discover/games/view/overview/_details.html:75
 msgid "games.view.stats.na"
@@ -2475,16 +2213,16 @@ msgstr "Pokaalit"
 #: app/components/score/overview/overview.html:96
 #: app/components/trophy/list/list.html:27
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:97
-#: app/views/dashboard/overview/overview.html:105
+#: app/views/dashboard/main/overview/overview.html:100
 msgid "leveling.exp"
 msgstr "EXP"
 
-#: app/components/game/collection/grid/grid.html:26
+#: app/components/game/collection/grid/grid.html:32
 #: app/components/game/collection/list/list.html:22
 #: app/views/library/collection/_header-default.html:39
 #: app/views/library/collection/_header-default.html:61
-#: app/views/library/collection/_header-default.html:79
-#: app/views/library/library.html:95
+#: app/views/library/collection/_header-default.html:99
+#: app/views/library/library.html:101
 msgid "library.by"
 msgstr "tavalla"
 
@@ -2544,10 +2282,6 @@ msgstr "Kehittäjä ei ole vielä lisännyt pelejä."
 msgid "library.collection.no_games_followed_html"
 msgstr "Ei seurattuja pelejä."
 
-#: app/views/library/collection/collection.html:119
-msgid "library.collection.no_games_html"
-msgstr "@:games.list.no_games_html"
-
 #: app/views/library/collection/collection.html:125
 msgid "library.collection.no_games_playlist_html"
 msgstr "Tällä listalla ei vielä ole pelejä."
@@ -2572,7 +2306,7 @@ msgstr "<p>Tämä on personalisoitu pelikirjastosi. Seuraamasi pelit sekä luoma
 msgid "library.heading"
 msgstr "Pelikokoelma"
 
-#: app/views/library/library.html:31
+#: app/views/library/library.html:37
 msgid "library.nav.bundles"
 msgstr "Paketit"
 
@@ -2580,7 +2314,7 @@ msgstr "Paketit"
 msgid "library.nav.developer"
 msgstr "Sinun pelisi"
 
-#: app/views/library/library.html:59
+#: app/views/library/library.html:65
 msgid "library.nav.filter_playlists_placeholder"
 msgstr "Rajaa pelilistoja..."
 
@@ -2588,15 +2322,15 @@ msgstr "Rajaa pelilistoja..."
 msgid "library.nav.followed"
 msgstr "Seuratut pelit"
 
-#: app/views/library/library.html:52
+#: app/views/library/library.html:58
 msgid "library.nav.new_playlist_button"
 msgstr "Uusi pelilista"
 
-#: app/views/library/library.html:65
+#: app/views/library/library.html:71
 msgid "library.nav.no_playlists_html"
 msgstr "<p>Luo pelilistoja organisoidaksesi ja jakaaksesi kirjastossasi olevia pelejä.</p><p>Seuraa muiden pelilistoja löytääksesi uusia pelejä!</p>"
 
-#: app/views/library/library.html:45
+#: app/views/library/library.html:51
 msgid "library.nav.playlists"
 msgstr "Pelilistat"
 
@@ -2616,7 +2350,7 @@ msgstr "Uusi pelilista"
 msgid "library.playlists.bundle_tag"
 msgstr "Paketti"
 
-#: app/components/game/collection/grid/grid.html:40
+#: app/components/game/collection/grid/grid.html:46
 msgid "library.playlists.developer_description"
 msgstr "Tämän kehittäjän pelit."
 
@@ -2628,7 +2362,7 @@ msgstr "Kehittäjän pelit"
 msgid "library.playlists.developer_title"
 msgstr "Kehittäjän pelit"
 
-#: app/components/game/collection/grid/grid.html:36
+#: app/components/game/collection/grid/grid.html:42
 msgid "library.playlists.followed_description"
 msgstr "Henkilön seuraamat pelit."
 
@@ -2783,14 +2517,13 @@ msgstr "Näytä kaikki toiminta"
 msgid "notifications.rating_details_html"
 msgstr "<p>Tämänhetkinen arvosana on <strong>{{ rating }}</strong>.</p>"
 
-#: app/views/dashboard/activity/list/list-controller.js:95
+#: app/views/dashboard/activity/list/list-controller.js:99
 msgid "notifications.unread_tooltip"
 msgid_plural "notifications.unread_tooltip"
 msgstr[0] "{{ $count | number }} lukematon"
 msgstr[1] "{{ $count | number }} lukematonta"
 
-#: app/views/dashboard/developer/games/manage/manage.html:57
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:201
+#: app/views/dashboard/developer/games/manage/manage.html:61
 #: app/views/discover/games/view/_header/_nav.html:30
 #: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
@@ -2923,7 +2656,7 @@ msgstr "Näytä täysi pistelista"
 msgid "scores.scoreboard_popover.heading"
 msgstr "Vaihda pistelistaa"
 
-#: app/components/search/autocomplete/autocomplete.html:48
+#: app/components/search/autocomplete/autocomplete.html:47
 msgid "search.autocomplete.games_heading"
 msgstr "Pelit"
 
@@ -2931,7 +2664,7 @@ msgstr "Pelit"
 msgid "search.autocomplete.installed_heading"
 msgstr "Asennetut pelit"
 
-#: app/components/search/autocomplete/autocomplete.html:105
+#: app/components/search/autocomplete/autocomplete.html:103
 msgid "search.autocomplete.no_commands"
 msgstr "Ei vastaavia komentoja."
 
@@ -2939,7 +2672,7 @@ msgstr "Ei vastaavia komentoja."
 msgid "search.autocomplete.show_all"
 msgstr "Kaikki tulokset..."
 
-#: app/components/search/autocomplete/autocomplete.html:78
+#: app/components/search/autocomplete/autocomplete.html:76
 msgid "search.autocomplete.users_heading"
 msgstr "Käyttäjät"
 
@@ -3106,46 +2839,31 @@ msgstr "Uusi avain luotu"
 msgid "dash.games.api.settings.page_title"
 msgstr "Game API asetukset pelille {{ game }}"
 
-#: app/components/forms/dashboard/game/build/build-directive.js:68
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:38
+#: app/components/forms/dashboard/game/build/build-directive.js:135
 msgid "dash.games.builds.form.linux_64_tag"
 msgstr "Linux 64-bit"
 
-#: app/components/forms/dashboard/game/build/build-directive.js:63
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:34
+#: app/components/forms/dashboard/game/build/build-directive.js:130
 msgid "dash.games.builds.form.linux_tag"
 msgstr "Linux"
 
-#: app/components/forms/dashboard/game/build/build-directive.js:58
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:30
+#: app/components/forms/dashboard/game/build/build-directive.js:125
 msgid "dash.games.builds.form.mac_64_tag"
 msgstr "Mac 64-bit"
 
-#: app/components/forms/dashboard/game/build/build-directive.js:53
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:26
+#: app/components/forms/dashboard/game/build/build-directive.js:120
 msgid "dash.games.builds.form.mac_tag"
 msgstr "Mac"
 
-#: app/components/forms/dashboard/game/build/build-directive.js:73
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:42
+#: app/components/forms/dashboard/game/build/build-directive.js:140
 msgid "dash.games.builds.form.other_tag"
 msgstr "Muut"
 
-#: app/components/forms/dashboard/game/build/build.html:184
-msgid "dash.games.builds.form.save_build_button"
-msgstr "Tallenna versio"
-
-#: app/components/forms/dashboard/game/build/build.html:183
-msgid "dash.games.builds.form.upload_build_button"
-msgstr "Lisää versio"
-
-#: app/components/forms/dashboard/game/build/build-directive.js:48
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:22
+#: app/components/forms/dashboard/game/build/build-directive.js:115
 msgid "dash.games.builds.form.windows_64_tag"
 msgstr "Windows 64-bit"
 
-#: app/components/forms/dashboard/game/build/build-directive.js:43
-#: app/components/forms/dashboard/game/build/launch-options/launch-options-directive.js:18
+#: app/components/forms/dashboard/game/build/build-directive.js:110
 msgid "dash.games.builds.form.windows_tag"
 msgstr "Windows"
 
@@ -3396,10 +3114,12 @@ msgstr "Tupakka tuotteiden käyttö"
 msgid "dash.games.maturity.use_option"
 msgstr "Käytä"
 
+#. {{ game }} is available as the game title
 #: app/views/dashboard/developer/games/manage/media/add/image/image-controller.js:4
 msgid "dash.games.media.add.image.page_title"
 msgstr "Lisää kuva {{ game }} "
 
+#. {{ game }} is available as the game title
 #: app/views/dashboard/developer/games/manage/media/add/video/video-controller.js:4
 msgid "dash.games.media.add.video.page_title"
 msgstr "Lisää video {{ game }} "
@@ -3408,6 +3128,7 @@ msgstr "Lisää video {{ game }} "
 msgid "dash.games.media.page_title"
 msgstr "Hallinnoi pelin {{ game }} tiedostoja"
 
+#. {{ type }} contains the translated media item type (image/video)
 #: app/views/dashboard/developer/games/manage/media/list/list-controller.js:51
 msgid "dash.games.media.remove_confirmation"
 msgstr "Haluatko varmasti poistaa tämän {{ type }}?"
@@ -3439,18 +3160,6 @@ msgstr "Hallinnoi pelin {{ game }} uutisia"
 #: app/views/dashboard/developer/games/manage/packages/add/add-controller.js:3
 msgid "dash.games.packages.add.page_title"
 msgstr "Lisää paketti pelille {{ game }}"
-
-#: app/views/dashboard/developer/games/manage/packages/package/releases/releases-controller.js:6
-msgid "dash.games.packages.manage.releases.page_title"
-msgstr "Julkaisut paketissa {{ package }} - {{ game }}"
-
-#: app/views/dashboard/developer/games/manage/packages/packages-controller.js:7
-msgid "dash.games.packages.page_title"
-msgstr "Hallinnoi pelin {{ game }} paketteja"
-
-#: app/views/dashboard/developer/games/manage/packages/release/stats/stats-controller.js:3
-msgid "dash.games.releases.stats.page_title"
-msgstr "Tilastot julkaisulle {{ release }} - {{ package }} - {{ game }}"
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list-controller.js:5
 msgid "dash.games.scoreboards.page_title"
@@ -3488,11 +3197,11 @@ msgstr "Hallinnoi pelin {{ game }} palkintoja"
 msgid "dash.games.trophies.remove_confirmation"
 msgstr "Haluatko varmasti poistaa tämän palkinnon?"
 
-#: app/views/dashboard/overview/overview-controller.js:3
+#: app/views/dashboard/main/overview/overview-controller.js:3
 msgid "dash.overview.page_title"
 msgstr "Sinun kojelauta"
 
-#: app/views/dashboard/overview/overview.html:67
+#: app/views/dashboard/main/overview/overview.html:62
 msgid "dash.overview.revenue_pending_message_html"
 msgstr "<strong>{{ amount | currency:'$' }}</strong> odottaa nostoa."
 
@@ -3512,10 +3221,12 @@ msgstr "Pisteet pelille {{ game }}"
 msgid "game.trophies.page_title"
 msgstr "Pelin {{ game }} palkinnot"
 
+#. Single date view of games, {{ date }} is available as the localized date
 #: app/views/discover/games/list/category/category-controller.js:68
 msgid "games.list.date_page_title"
 msgstr "Pelejä jotka on julkaistu {{ date }} "
 
+#. When viewing a date range view of games (games published between two dates), {{ dateStart }} and {{ dateEnd }} are available as localized dates
 #: app/views/discover/games/list/category/category-controller.js:73
 msgid "games.list.date_range_page_title"
 msgstr "Välillä {{ dateStart }} - {{ dateEnd }} julkaistut pelit"
@@ -3524,10 +3235,12 @@ msgstr "Välillä {{ dateStart }} - {{ dateEnd }} julkaistut pelit"
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} pelit"
 
+#. {{ category }} is available as the translated category label
 #: app/views/discover/games/list/category/category-controller.js:103
 msgid "games.list.descriptive_category_other"
 msgstr "Vaihtoehtopelit ja muu häröily"
 
+#. {{ category }} is available as the translated category label
 #: app/views/discover/games/list/category/category-controller.js:99
 msgid "games.list.descriptive_category_rpg"
 msgstr "Roolipelit"
@@ -3588,12 +3301,12 @@ msgstr "Julkaistujen pelien uutiset"
 msgid "news.list.wip_page_title"
 msgstr "Kehitysuutiset"
 
-#: app/components/notifications/popover/popover-directive.js:84
-#: app/views/dashboard/activity/list/list-controller.js:77
+#: app/components/notifications/popover/popover-directive.js:85
+#: app/views/dashboard/activity/list/list-controller.js:81
 msgid "notifications.clear_all_confirmation"
 msgstr "Merkitäänkö kaikki ilmoitukset luetuiksi?"
 
-#: app/views/dashboard/activity/list/list-controller.js:79
+#: app/views/dashboard/activity/list/list-controller.js:83
 msgid "notifications.clear_all_of_type_confirmation"
 msgstr "Merkitäänkö suodateut ilmoitukset luetuiksi?"
 
@@ -3756,11 +3469,11 @@ msgstr "Peliarvostelut"
 msgid "dash.funds.withdraw.page_title"
 msgstr "Mainostulojen nosto"
 
-#: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:17
+#: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:18
 msgid "dash.funds.withdraw.success_growl"
 msgstr "Pyyntösi on lähetetty ja käsitellään kolmen (3) päivän kuluessa. Tilisi saldo päivittyy automaattisesti kun pyyntö on käsitelty."
 
-#: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:18
+#: app/views/dashboard/withdraw-funds/withdraw-funds-controller.js:19
 msgid "dash.funds.withdraw.success_growl_title"
 msgstr "Pyyntö lähetetty"
 
@@ -3776,7 +3489,7 @@ msgstr "Peli lisätty"
 msgid "dash.games.add.page_title"
 msgstr "Lisää peli"
 
-#: app/views/dashboard/developer/games/manage/manage.html:49
+#: app/views/dashboard/developer/games/manage/manage.html:53
 msgid "dash.games.api_tooltip"
 msgstr "Hallinnoi pelisi API integraatiota (palkinnot, pistelistat, tallennetut tiedot jne.)"
 
@@ -3816,7 +3529,7 @@ msgstr "Pelisi ikärajaluokitustiedot on päivitetty."
 msgid "dash.games.maturity.saved_growl_title"
 msgstr "Ikärajaluokitustiedot tallennettu"
 
-#: app/views/dashboard/developer/games/manage/manage.html:29
+#: app/views/dashboard/developer/games/manage/manage.html:33
 msgid "dash.games.media_tooltip"
 msgstr "Hallinnoi pelisi ruutukaappauksia, kuvia ja videoita."
 
@@ -3868,7 +3581,7 @@ msgstr "Video on poistettu."
 msgid "dash.games.media.video.removed_growl_title"
 msgstr "Video poistettu"
 
-#: app/views/dashboard/developer/games/manage/manage.html:44
+#: app/views/dashboard/developer/games/manage/manage.html:48
 msgid "dash.games.music_tooltip"
 msgstr "Lisää pelisi ääniraita."
 
@@ -3880,7 +3593,7 @@ msgstr "Äänitiedosto"
 msgid "dash.games.music.form.change_file_label"
 msgstr "Muuta äänitiedostoa"
 
-#: app/views/dashboard/developer/games/manage/manage.html:39
+#: app/views/dashboard/developer/games/manage/manage.html:43
 msgid "dash.games.news_tooltip"
 msgstr "Hallinnoi pelisi uutisia."
 
@@ -4014,95 +3727,63 @@ msgstr "Pikkukuvan kuva"
 msgid "dash.games.overview.todo_thumbnail_title"
 msgstr "Lisää pikkukuva"
 
-#: app/views/dashboard/developer/games/manage/manage.html:34
+#: app/views/dashboard/developer/games/manage/manage.html:38
 msgid "dash.games.packages_tooltip"
 msgstr "Lisää tiedostoja ja hallinnoi pelin paketteja."
 
-#: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:3
+#: app/views/dashboard/developer/games/manage/packages/edit/edit-controller.js:16
 msgid "dash.games.packages.edit.page_title"
 msgstr "Muuta pakettia {{ package }} - {{ game }}"
 
-#: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:11
-msgid "dash.games.packages.edit.saved_growl"
-msgstr "Pakettisi on päivitetty."
-
-#: app/views/dashboard/developer/games/manage/packages/package/edit/edit-controller.js:12
-msgid "dash.games.packages.edit.saved_growl_title"
-msgstr "Paketti tallennettu"
-
-#: app/components/forms/dashboard/game/package/package.html:51
+#: app/components/forms/dashboard/game/package/package.html:134
 msgid "dash.games.packages.form.add_package_button"
 msgstr "Lisää paketti"
 
-#: app/components/forms/dashboard/game/package/package.html:52
+#: app/components/forms/dashboard/game/package/package.html:135
 msgid "dash.games.packages.form.save_package_button"
 msgstr "Tallenna paketti"
 
-#: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:18
-msgid "dash.games.packages.manage.remove_confirmation"
-msgstr "Haluatko varmasti poistaa tämän paketin? Kaikki siihen liittyvät julkaisut ja koontiversiot poistetaan."
-
-#: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:27
-msgid "dash.games.packages.manage.removed_growl"
-msgstr "Paketti on poistettu."
-
-#: app/views/dashboard/developer/games/manage/packages/package/package-controller.js:28
-msgid "dash.games.packages.manage.removed_growl_title"
-msgstr "Paketti poistettu"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds.html:64
-msgid "dash.games.releases.builds.incomplete_tag_tooltip"
-msgstr "Emme osaa suorittaa koontiversiotasi automaattisesti. Määritä suoritusasetukset."
-
-#: app/components/forms/dashboard/game/build/launch-options/launch-options.html:13
+#: app/components/forms/dashboard/game/build/build.html:218
 msgid "dash.games.releases.builds.launch_options.form.file_selector_tooltip"
 msgstr "Selaa tiedostoja."
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:52
+#: app/components/forms/dashboard/game/build/build-directive.js:99
 msgid "dash.games.releases.builds.linux_64_tag"
 msgstr "Linux x64"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:48
+#: app/components/forms/dashboard/game/build/build-directive.js:95
 msgid "dash.games.releases.builds.linux_tag"
 msgstr "Linux"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:44
+#: app/components/forms/dashboard/game/build/build-directive.js:91
 msgid "dash.games.releases.builds.mac_64_tag"
 msgstr "Mac x64"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:40
+#: app/components/forms/dashboard/game/build/build-directive.js:87
 msgid "dash.games.releases.builds.mac_tag"
 msgstr "Mac"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:56
+#: app/components/forms/dashboard/game/build/build-directive.js:103
 msgid "dash.games.releases.builds.other_tag"
 msgstr "Muu"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:8
-msgid "dash.games.releases.builds.page_title"
-msgstr "Koontiversiot julkaisussa {{ release }} - {{ package }} - {{ game }}"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:166
+#: app/components/forms/dashboard/game/release/release-directive.js:96
 msgid "dash.games.releases.builds.remove_build_confirmation"
 msgstr "Haluatko varmasti poistaa tämän koontiversion?"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:177
+#: app/components/forms/dashboard/game/release/release-directive.js:106
 msgid "dash.games.releases.builds.remove_build_growl"
 msgstr "Koontiversio on poistettu julkaisusta."
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:178
+#: app/components/forms/dashboard/game/release/release-directive.js:107
 msgid "dash.games.releases.builds.remove_build_growl_title"
 msgstr "Koontiversio poistettu"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:215
-msgid "dash.games.releases.builds.remove_extra_file_confirmation"
-msgstr "Haluatko varmasti poistaa tämän tukitiedoston?"
-
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:36
+#: app/components/forms/dashboard/game/build/build-directive.js:83
 msgid "dash.games.releases.builds.windows_64_tag"
 msgstr "Win x64"
 
-#: app/views/dashboard/developer/games/manage/packages/release/builds/builds-controller.js:32
+#: app/components/forms/dashboard/game/build/build-directive.js:79
 msgid "dash.games.releases.builds.windows_tag"
 msgstr "Win"
 
@@ -4110,59 +3791,42 @@ msgstr "Win"
 msgid "dash.games.releases.edit.page_title"
 msgstr "Muuta julkaisua {{ release }} - {{ package }} - {{ game }}"
 
-#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:13
-msgid "dash.games.releases.edit.saved_growl"
-msgstr "Julkaisu on päivitetty."
-
-#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:14
-msgid "dash.games.releases.edit.saved_growl_title"
-msgstr "Julkaisu tallennettu"
-
-#: app/components/forms/dashboard/game/release/release.html:28
-msgid "dash.games.releases.form.add_release_button"
-msgstr "Lisää julkaisu"
-
-#: app/components/forms/dashboard/game/release/release.html:29
-msgid "dash.games.releases.form.save_release_button"
-msgstr "Tallenna julkaisu"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:28
+#: app/components/forms/dashboard/game/release/release-directive.js:134
 msgid "dash.games.releases.manage.publish_release_confirmation"
 msgstr "Haluatko varmasti julkaista tämän julkaisun? Kaikki sen sisältämät koontiversiot tulevat aktiivisiksi pelisi sivulla."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:36
+#: app/components/forms/dashboard/game/release/release-directive.js:143
 msgid "dash.games.releases.manage.publish_release_growl"
 msgstr "Julkaisu on nyt aktiivinen pelisi sivulla."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:37
+#: app/components/forms/dashboard/game/release/release-directive.js:144
 msgid "dash.games.releases.manage.publish_release_growl_title"
 msgstr "Julkaisu julkaistu"
 
-#: app/views/dashboard/developer/games/manage/packages/release/release.html:89
-msgid "dash.games.releases.manage.publish_release_tooltip"
-msgstr "Julkaise tämä julkaisu näyttääksesi se pelisi sivulla!"
-
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:60
+#: app/views/dashboard/developer/games/manage/packages/edit/edit-controller.js:71
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:40
 msgid "dash.games.releases.manage.remove_release_confirmation"
 msgstr "Haluatko varmasti poistaa tämän julkaisun? Kaikki sen sisältämät koontiversiot poistetaan."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:68
+#: app/views/dashboard/developer/games/manage/packages/edit/edit-controller.js:79
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:48
 msgid "dash.games.releases.manage.remove_release_growl"
 msgstr "Julkaisu ja sen sisältämät koontiversiot on poistettu paketista."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:69
+#: app/views/dashboard/developer/games/manage/packages/edit/edit-controller.js:80
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:49
 msgid "dash.games.releases.manage.remove_release_growl_title"
 msgstr "Julkaisu poistettu."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:44
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:24
 msgid "dash.games.releases.manage.unpublish_release_confirmation"
 msgstr "Haluatko piilottaa tämän julkaisun? Siihen ei tämän jälkeen pääse käsiksi pelisi sivun kautta."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:52
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:32
 msgid "dash.games.releases.manage.unpublish_release_growl"
 msgstr "Julkaisu on nyt piilotettu."
 
-#: app/views/dashboard/developer/games/manage/packages/release/release-controller.js:53
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit-controller.js:33
 msgid "dash.games.releases.manage.unpublish_release_growl_title"
 msgstr "Julkaisu piilotettu."
 
@@ -4254,32 +3918,32 @@ msgstr "Piilotetut palkinnot näkyvät sivulla vain pelin kehittäjälle. Käyt�
 msgid "dash.games.trophies.secret_tooltip"
 msgstr "Palkinnon asettaminen salaiseksi piilottaa kaiken muun paitsi sen nimen kunnes se on saavutettu."
 
-#: app/views/dashboard/overview/overview-controller.js:40
+#: app/views/dashboard/main/overview/overview-controller.js:45
 msgid "dash.integrate.got_score_html"
 msgstr "Pääse pelin pistelistalle."
 
-#: app/views/dashboard/overview/overview-controller.js:39
+#: app/views/dashboard/main/overview/overview-controller.js:44
 msgid "dash.integrate.got_trophy_html"
 msgstr "Saavuta palkinto pelissä."
 
-#: app/views/dashboard/overview/overview-controller.js:42
+#: app/views/dashboard/main/overview/overview-controller.js:47
 msgid "dash.integrate.has_facebook_html"
 msgstr "<a href=\"/dashboard/linked-accounts\">Yhdistä Facebook-tilisi</a>."
 
-#: app/views/dashboard/overview/overview-controller.js:41
+#: app/views/dashboard/main/overview/overview-controller.js:46
 msgid "dash.integrate.has_friend_html"
 msgstr "Lisää ensimmäinen ystäväsi."
 
-#: app/views/dashboard/overview/overview-controller.js:43
+#: app/views/dashboard/main/overview/overview-controller.js:48
 msgid "dash.integrate.has_twitter_html"
 msgstr "<a href=\"/dashboard/linked-accounts\">Yhdistä Twitter-tilisi</a>. \n"
 ""
 
-#: app/views/dashboard/overview/overview-controller.js:37
+#: app/views/dashboard/main/overview/overview-controller.js:42
 msgid "dash.integrate.played_game_html"
 msgstr "Pelaa peliä."
 
-#: app/views/dashboard/overview/overview-controller.js:38
+#: app/views/dashboard/main/overview/overview-controller.js:43
 msgid "dash.integrate.rated_game_html"
 msgstr "Arvostele ja kommentoi peli."
 
@@ -4287,7 +3951,7 @@ msgstr "Arvostele ja kommentoi peli."
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Arvostelujakauma."
 
-#: app/views/library/collection/collection-controller.js:101
+#: app/views/library/collection/collection-controller.js:112
 msgid "library.collection.bundle_page_title"
 msgstr "{{ bundle }}"
 
@@ -4311,7 +3975,7 @@ msgstr "Käyttäjän {{ user }} seuraamat pelit"
 msgid "library.collection.playlist_page_title"
 msgstr "Käyttäjän {{ user }} pelilista {{ playlist }}"
 
-#: app/views/library/collection/collection-controller.js:105
+#: app/views/library/collection/collection-controller.js:116
 msgid "library.collection.tag_page_title"
 msgstr "#{{ tag }}"
 
@@ -4331,22 +3995,6 @@ msgstr "Seuraa"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Lopeta pelilistan seuraaminen poistaaksesi se kirjastostasi ja lopettaaksesi siihen liittyvien ilmoitusten vastaanottaminen."
 
-#: app/views/discover/games/view/view-controller.js:133
-msgid "library.followed.add_game_error_growl"
-msgstr "O-ou, jokin on estänyt sinua seuraamasta tätä peliä"
-
-#: app/views/discover/games/view/view-controller.js:134
-msgid "library.followed.add_game_error_growl_title"
-msgstr "Voi ei!"
-
-#: app/views/discover/games/view/view-controller.js:126
-msgid "library.followed.add_game_success_growl"
-msgstr "Sinä seuraat {{ game }}. Sinulle ilmoitetaan uusista päivitys niin kauan kun se on kirjastossasi."
-
-#: app/views/discover/games/view/view-controller.js:127
-msgid "library.followed.add_game_success_growl_title"
-msgstr "Peli seurattu"
-
 #: app/views/discover/games/view/_header/_controls.html:9
 msgid "library.followed.follow_game_button"
 msgstr "Seuraa peliä"
@@ -4359,22 +4007,18 @@ msgstr "Seuraa peliä lisätäksesi se kirjastoosi ja vastaanottaaksesi siihen l
 msgid "library.followed.remove_game_confirmation"
 msgstr "Oletko varma että haluat lopettaa {{ game }} seuraamisen? "
 
-#: app/views/discover/games/view/view-controller.js:111
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Voi ei! Jokin esti sinua lopettamasta pelin seuraamisen."
 
-#: app/views/discover/games/view/view-controller.js:112
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Eikä!"
 
-#: app/views/discover/games/view/view-controller.js:104
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Lopetit pelin {{ game }} seuraamisen. Et saa enää siihen liittyviä ilmoituksia."
 
-#: app/views/discover/games/view/view-controller.js:105
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Pelin seuranta lopetettu"
@@ -4391,23 +4035,23 @@ msgstr "Lopeta pelin seuraaminen poistaaksesi se kirjastostasi."
 msgid "library.playlists.remove_game_confirmation"
 msgstr "Haluatko poistaa tämän pelin pelilistasta?"
 
-#: app/views/library/collection/collection-controller.js:219
+#: app/views/library/collection/collection-controller.js:231
 msgid "library.playlists.remove_playlist_confirmation"
 msgstr "Haluatko lopettaa tämän pelilistan seuraamisen?"
 
-#: app/views/library/collection/collection-controller.js:234
+#: app/views/library/collection/collection-controller.js:246
 msgid "library.playlists.remove_playlist_error_growl"
 msgstr "Virhe! Virhe! Et voi epäseurata tätä soittolistaa."
 
-#: app/views/library/collection/collection-controller.js:235
+#: app/views/library/collection/collection-controller.js:247
 msgid "library.playlists.remove_playlist_error_growl_title"
 msgstr "Voi ei!"
 
-#: app/views/library/collection/collection-controller.js:227
+#: app/views/library/collection/collection-controller.js:239
 msgid "library.playlists.remove_playlist_success_growl"
 msgstr "Olet onnistuneesti perunut {{ playlist }} seuraamisen"
 
-#: app/views/library/collection/collection-controller.js:228
+#: app/views/library/collection/collection-controller.js:240
 msgid "library.playlists.remove_playlist_success_growl_title"
 msgstr "Pelilistan seuraus lopetettu"
 
@@ -4447,7 +4091,7 @@ msgstr "seurasi <strong>{{ object }}</strong>."
 msgid "notifications.game_news_title_html"
 msgstr "julkaisi uutisen."
 
-#: app/components/notifications/descriptive-action/descriptive-action-directive.js:42
+#: app/components/notifications/descriptive-action/descriptive-action-directive.js:43
 msgid "notifications.game_news_title_popover_html"
 msgstr "julkaisi <strong>{{ title }}</strong>"
 
@@ -4459,7 +4103,7 @@ msgstr "kommentoi: <strong>{{ object }}</strong>."
 msgid "notifications.rating_title_html"
 msgstr "Pelisi on arvosteltu"
 
-#: app/components/notifications/descriptive-action/descriptive-action-directive.js:33
+#: app/components/notifications/descriptive-action/descriptive-action-directive.js:34
 msgid "notifications.rating_title_popover_html"
 msgstr "vastaanotti arvostelun <strong>{{ rating }}</strong>."
 
@@ -4588,7 +4232,7 @@ msgstr "Kuuma"
 msgid "games.list.section_new"
 msgstr "Vasta lisätty"
 
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:25
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:160
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
 msgstr[0] "1 koontiversio"
@@ -4626,105 +4270,105 @@ msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 ilmoitus"
 msgstr[1] "+{{ $count | number }} ilmoitusta"
 
-#: app/components/shell/footer/footer.html:59
+#: app/components/shell/footer/footer.html:57
 msgid "footer.contact"
 msgstr "Ota yhteyttä"
 
-#: app/components/shell/footer/footer.html:27
+#: app/components/shell/footer/footer.html:25
 msgid "footer.tagline"
 msgstr "Liian paljon pelejä... ja lisää tulee!"
 
-#: app/components/shell/footer/footer.html:40
+#: app/components/shell/footer/footer.html:38
 msgid "footer.translations"
 msgstr "Käännökset ovat yhteisöprojekti."
 
-#: app/components/shell/footer/footer.html:41
+#: app/components/shell/footer/footer.html:39
 msgid "footer.translations_help"
 msgstr "Auta kääntämään!"
 
-#: app/components/game/filtering/filtering-service.js:17
+#: app/components/game/filtering/filtering-service.js:31
 msgid "games.filtering.browser"
 msgstr "Selain"
 
-#: app/components/game/filtering/filtering-service.js:23
+#: app/components/game/filtering/filtering-service.js:37
 msgid "games.filtering.browser_applet"
 msgstr "Java Applet"
 
-#: app/components/game/filtering/filtering-service.js:21
+#: app/components/game/filtering/filtering-service.js:35
 msgid "games.filtering.browser_flash"
 msgstr "Flash"
 
-#: app/components/game/filtering/filtering-service.js:20
+#: app/components/game/filtering/filtering-service.js:34
 msgid "games.filtering.browser_html"
 msgstr "HTML"
 
-#: app/components/game/filtering/filtering-service.js:24
+#: app/components/game/filtering/filtering-service.js:38
 msgid "games.filtering.browser_silverlight"
 msgstr "Silverlight"
 
-#: app/components/game/filtering/filtering-service.js:22
+#: app/components/game/filtering/filtering-service.js:36
 msgid "games.filtering.browser_unity"
 msgstr "Unity"
 
-#: app/components/game/filtering/filtering-service.js:28
+#: app/components/game/filtering/filtering-service.js:42
 msgid "games.filtering.maturity"
 msgstr "Ikäraja"
 
-#: app/components/game/filtering/filtering-service.js:33
+#: app/components/game/filtering/filtering-service.js:47
 msgid "games.filtering.maturity_adult"
 msgstr "Aikuissisältö"
 
-#: app/components/game/filtering/filtering-service.js:31
+#: app/components/game/filtering/filtering-service.js:45
 msgid "games.filtering.maturity_everyone"
 msgstr "Kaikenikäiset"
 
-#: app/components/game/filtering/filtering-service.js:32
+#: app/components/game/filtering/filtering-service.js:46
 msgid "games.filtering.maturity_teen"
 msgstr "Teinitavaraa"
 
-#: app/components/game/filtering/filtering-service.js:7
+#: app/components/game/filtering/filtering-service.js:20
 msgid "games.filtering.os"
 msgstr "Käyttöjärjestelmä"
 
-#: app/components/game/filtering/filtering-service.js:12
+#: app/components/game/filtering/filtering-service.js:25
 msgid "games.filtering.os_linux"
 msgstr "Linux"
 
-#: app/components/game/filtering/filtering-service.js:11
+#: app/components/game/filtering/filtering-service.js:24
 msgid "games.filtering.os_mac"
 msgstr "Mac"
 
-#: app/components/game/filtering/filtering-service.js:13
+#: app/components/game/filtering/filtering-service.js:26
 msgid "games.filtering.os_other"
 msgstr "Muu"
 
-#: app/components/game/filtering/filtering-service.js:10
+#: app/components/game/filtering/filtering-service.js:23
 msgid "games.filtering.os_windows"
 msgstr "Windows"
 
-#: app/components/game/filtering/filtering-service.js:37
+#: app/components/game/filtering/filtering-service.js:51
 msgid "games.filtering.status"
 msgstr "Status"
 
-#: app/components/game/filtering/filtering-service.js:42
+#: app/components/game/filtering/filtering-service.js:56
 msgid "games.filtering.status_canceled"
 msgstr "Peruttu"
 
-#: app/components/game/filtering/filtering-service.js:40
+#: app/components/game/filtering/filtering-service.js:54
 msgid "games.filtering.status_complete"
 msgstr "Valmis"
 
-#: app/components/game/filtering/filtering-service.js:41
+#: app/components/game/filtering/filtering-service.js:55
 msgid "games.filtering.status_wip"
 msgstr "Keskeneräinen"
 
-#: app/views/discover/games/view/view.html:50
+#: app/views/discover/games/view/view.html:42
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 uutisartikkeli"
 msgstr[1] "{{ $count | number }} uutisartikkelia"
 
-#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:20
 msgid "dash.funds.withdraw.amount_help"
 msgstr "Pienin summa jonka voit nostaa tällä hetkellä on {{ amount | currency:'$' }}."
 
@@ -4735,10 +4379,6 @@ msgstr "Musiikin lisäykset ovat rajoitettu tällä hetkellä {{MaxFileSize | nu
 #: app/views/dashboard/developer/games/manage/news/list/list.html:34
 msgid "dash.games.news.posted_on"
 msgstr "Lähetetty: {{ date | date:'medium' }}"
-
-#: app/views/dashboard/developer/games/manage/packages/_release-list-item/release-list-item.html:18
-msgid "dash.games.packages.manage.releases.release_title"
-msgstr "Julkaisu {{ version }}"
 
 #: app/views/dashboard/developer/games/manage/api/trophies/list/list.html:91
 msgid "dash.games.trophies.add_button"
@@ -4770,15 +4410,15 @@ msgstr " {{ date }}"
 msgid "games.list.date_range_heading_small"
 msgstr "{{ dateStart }} ja {{ dateEnd }} välissä"
 
-#: app/components/game/thumbnail/thumbnail.html:30
+#: app/components/game/thumbnail/thumbnail.html:53
 msgid "games.thumbnail.ratings"
 msgstr "{{ count | number }} arvostelu(a)"
 
-#: app/views/library/collection/_header-default.html:88
+#: app/views/library/collection/_header-default.html:108
 msgid "library.collection.bundle_heading"
 msgstr "{{ bundle }}"
 
-#: app/views/library/collection/_header-default.html:76
+#: app/views/library/collection/_header-default.html:96
 msgid "library.collection.playlist_heading"
 msgstr "{{ playlist }}"
 
@@ -4786,11 +4426,11 @@ msgstr "{{ playlist }}"
 msgid "library.collection.tag_heading"
 msgstr "#{{ tag }}"
 
-#: app/components/game/collection/grid/grid.html:41
+#: app/components/game/collection/grid/grid.html:47
 msgid "library.playlists.subscription_developer_description"
 msgstr "{{ user }} tekemiä pelejä"
 
-#: app/components/game/collection/grid/grid.html:37
+#: app/components/game/collection/grid/grid.html:43
 msgid "library.playlists.subscription_followed_description"
 msgstr "{{ user }} seuraamia pelejä"
 
@@ -4893,8 +4533,8 @@ msgstr "Pitäisikö meidän keskeyttää kaikkia peliasennukset ja -päivitykset
 msgid "settings.queue_when_playing_label"
 msgstr "Pysäytä pelaamisen ajaksi?"
 
-#: app/components/forms/dashboard/game/build/build.html:163
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:19
+#: app/components/forms/dashboard/game/build/_build.html:163
+#: app/components/forms/dashboard/game/build/build.html:279
 #: app/components/forms/dashboard/game/score-table/score-table.html:15
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
@@ -4919,8 +4559,8 @@ msgstr "Pois"
 msgid "forms.on"
 msgstr "Päällä"
 
-#: app/components/forms/dashboard/game/build/build.html:162
-#: app/components/forms/dashboard/game/build/supplemental-file/supplemental-file.html:18
+#: app/components/forms/dashboard/game/build/_build.html:162
+#: app/components/forms/dashboard/game/build/build.html:278
 #: app/components/forms/dashboard/game/score-table/score-table.html:15
 #: app/components/forms/dashboard/game/score-table/score-table.html:20
 #: app/components/forms/dashboard/game/trophy/trophy.html:71
@@ -4937,7 +4577,7 @@ msgstr "Kyllä"
 msgid "commands.settings_description"
 msgstr "Muuta asetuksia"
 
-#: app/components/shell/footer/footer.html:50
+#: app/components/shell/footer/footer.html:48
 msgid "footer.open_source"
 msgstr "Avoin lähdekoodi"
 
@@ -4955,6 +4595,7 @@ msgstr "Lisää kommentti"
 msgid "Automatic translations use Google Translate and may not be completely accurate."
 msgstr "Automaattiset käännökset käyttävät Google-kääntäjää ja voivat olla epätarkkoja."
 
+#: app/views/dashboard/analytics/analytics-controller.js:37
 #: lib/gj-lib-client/components/comment/widget/widget.html:3
 #: lib/gj-lib-client/components/comment/widget/widget.html:8
 msgid "Comments"
@@ -5038,7 +4679,7 @@ msgstr "Pidät tästä kommentista"
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
 msgstr "Sinä juuri pidit tästä koomentista. tämä kertoo meille kommenttien laadun ja pitää sivuston tuoreena."
 
-#: app/components/shell/footer/footer.html:65
+#: app/components/shell/footer/footer.html:63
 msgid "footer.send_system_report"
 msgstr "Lähetä järjestelmäraportti"
 
@@ -5093,7 +4734,7 @@ msgid "library.installed.heading"
 msgstr "Asennetut pelit"
 
 #. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
-#: app/views/library/installed/installed.html:70
+#: app/views/library/installed/installed.html:73
 msgid "library.installed.multiple_packages"
 msgstr "Useampi paketti"
 
@@ -5248,23 +4889,2393 @@ msgstr "Vaihda palkinnon kuva"
 msgid "dash.games.trophies.form.upload_label"
 msgstr "Palkinnon kuva"
 
-#: app/components/forms/dashboard/email-preferences/email-preferences.html:13
+#: app/components/forms/dashboard/email-preferences/email-preferences.html:21
 msgid "dash.email_prefs.newsletter_help"
 msgstr "Haluatko vastaanottaa tietoa päivityksistä ja sivuston uusia ominaisuuksia, virallisia kilpailuja ja mielenkiintoisia pelejä käsittelevistä tiedotteista sähköpostin välityksellä?"
 
-#: app/components/shell/footer/footer.html:8
+#: app/components/shell/footer/footer.html:7
 msgid "footer.client_promo.learn_button"
-msgstr "Get It Now"
+msgstr "Lataa se nyt"
 
 #: app/components/shell/footer/footer.html:6
 msgid "footer.client_promo.message"
-msgstr "Play games faster with the Game Jolt Client!"
+msgstr "Pelaa pelejä nopeammin Game Jolt-sovelluksella!"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:6
 msgid "Report Post"
-msgstr "Report Post"
+msgstr "Ilmoita viesti"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:5
 msgid "Report Topic"
-msgstr "Report Topic"
+msgstr "Ilmoita topiikki"
+
+#: app/components/forms/dashboard/game/build/build.html:298
+msgid "<strong>Be sure to remove or block ads from showing in your browser games.</strong>\n"
+"\t\t\t\t\t\tWe serve our own ads and share the revenue with developers. Domain names to block: gamejolt.com, *.gamejolt.com, gamejolt.net, *.gamejolt.net"
+msgstr "<strong>Be sure to remove or block ads from showing in your browser games.</strong> We serve our own ads and share the revenue with developers. Domain names to block: gamejolt.com, *.gamejolt.com, gamejolt.net, *.gamejolt.net"
+
+#: app/components/forms/dashboard/game/build/build.html:120
+msgid "<strong>Java Applets have been deprecated.</strong>\n"
+"\t\t\t\t\tYou can no longer edit your Java Applet builds, although gamers will still be able to play them if their browsers support them. You can add .jar files as downloadables and the Game Jolt Client will correctly launch them for users instead."
+msgstr "<strong>Java Applets have been deprecated.</strong> You can no longer edit your Java Applet builds, although gamers will still be able to play them if their browsers support them. You can add .jar files as downloadables and the Game Jolt Client will correctly launch them for users instead."
+
+#: app/components/forms/dashboard/game/build/build.html:287
+msgid "<strong>Most browsers have stopped supporting the Unity Web Player.</strong>\n"
+"\t\t\t\t\t\tPlease consider exporting to WebGL instead."
+msgstr "<strong>Most browsers have stopped supporting the Unity Web Player.</strong>\n"
+"\t\t\t\t\t\tPlease consider exporting to WebGL instead."
+
+#: app/components/forms/dashboard/game/build/build.html:128
+msgid "<strong>Silverlight builds have been deprecated.</strong>\n"
+"\t\t\t\t\tYou can no longer edit your Silverlight builds, although gamers will still be able to play them if their browsers support them."
+msgstr "<strong>Silverlight builds have been deprecated.</strong> You can no longer edit your Silverlight builds, although gamers will still be able to play them if their browsers support them."
+
+#: app/components/forms/dashboard/game/build/build.html:232
+msgid "<strong>The launch options you entered are invalid.</strong>\n"
+"\t\t\t\t\t\t\tMake sure each selected file is in your build and that it works on the appropriate operating system."
+msgstr "<strong>The launch options you entered are invalid.</strong> Make sure each selected file is in your build and that it works on the appropriate operating system."
+
+#: app/components/forms/dashboard/game/release/release.html:53
+msgid "<strong>Your game is part of a jam that locks builds during voting.</strong>\n"
+"\t\t\t\t\tYou will not be able to add new builds until the voting period ends."
+msgstr "<strong>Your game is part of a jam that locks builds during voting.</strong>\n"
+"You will not be able to add new builds until the voting period ends."
+
+#: app/components/forms/dashboard/game/build/build.html:77
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:15
+msgid "Add Package"
+msgstr "Lisää paketti"
+
+#: app/components/forms/dashboard/game/release/release.html:27
+msgid "Builds"
+msgstr "Koontiversiot"
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit-controller.js:64
+msgid "Could not create new release."
+msgstr "Uutta julkaisua ei pystytty luomaan."
+
+#: app/components/forms/dashboard/game/build/build-directive.js:208
+msgid "Could not set the platform for some reason."
+msgstr "Could not set the platform for some reason."
+
+#: app/components/game/cover/buttons/buttons.html:43
+#: lib/gj-lib-client/components/game/package/card/buttons.html:17
+#: lib/gj-lib-client/components/game/package/card/buttons.html:37
+#: lib/gj-lib-client/components/game/package/card/more-options.html:14
+msgid "Download"
+msgstr "Lataa"
+
+#: app/components/forms/dashboard/game/build/build.html:29
+msgid "Downloadable"
+msgstr "Ladattava"
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:176
+msgid "Edit Release"
+msgstr "Muokkaa julkaisua"
+
+#. {{ filename }} is index.html
+#: app/components/forms/dashboard/game/new-build/new-build.html:30
+msgid "For HTML builds, upload a .zip archive containing all of your build's files and assets. There must be an {{ filename }} file in the root folder."
+msgstr "For HTML builds, upload a .zip archive containing all of your build's files and assets. There must be an {{ filename }} file in the root folder."
+
+#: app/components/forms/dashboard/game/build/build.html:67
+msgid "Incomplete"
+msgstr "Keskeneräinen"
+
+#: app/components/forms/dashboard/game/build/build.html:203
+msgid "Launch Options"
+msgstr "Käynnistysasetukset"
+
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:113
+msgid "Manage Package"
+msgstr "Hallitse pakettia"
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:113
+msgid "New Release"
+msgstr "Uusi julkaisu"
+
+#: app/views/dashboard/developer/games/manage/packages/add/add.html:8
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:8
+#: app/views/dashboard/developer/games/manage/packages/release/edit/edit.html:8
+#: app/views/dashboard/main/purchases/view/view.html:140
+msgid "Packages"
+msgstr "Paketit"
+
+#: app/components/game/cover/buttons/buttons.html:31
+msgid "Play Game"
+msgstr "Pelaa peliä"
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:59
+msgid "Preview"
+msgstr "Esikatsele"
+
+#: app/components/forms/dashboard/game/build/build.html:72
+msgid "Processing"
+msgstr "Prosessoidaan"
+
+#: app/components/forms/dashboard/game/release/release.html:96
+msgid "Publish Release"
+msgstr "Publish Release"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:133
+#: app/components/client/package-card-buttons/package-card-buttons.html:178
+#: app/components/game/cover/buttons/buttons.html:32
+msgid "Quick Play"
+msgstr "Quick Play"
+
+#: app/components/forms/dashboard/game/release/release.html:120
+msgid "Remove Release"
+msgstr "Remove Release"
+
+#: app/components/forms/dashboard/game/build/build.html:325
+msgid "Save Build"
+msgstr "Save Build"
+
+#: app/components/forms/dashboard/game/release/release.html:100
+msgid "Save Draft"
+msgstr "Save Draft"
+
+#: app/components/forms/dashboard/game/release/release.html:107
+msgid "Save Release"
+msgstr "Save Release"
+
+#: app/components/forms/dashboard/game/build/build.html:193
+msgid "This build doesn't seem to be a Windows, Mac, or Linux build, so we've marked it as \"Other\" for you."
+msgstr "This build doesn't seem to be a Windows, Mac or Linux build, so we've marked it as \"Other\" for you."
+
+#: app/components/forms/dashboard/game/build/build.html:314
+msgid "This build has more info to fill in before it will be available in this release."
+msgstr "This build has more info to fill in before it will be available in this release."
+
+#: app/components/forms/dashboard/game/build/build.html:155
+msgid "This build is not launchable on certain platforms. They've been disabled below."
+msgstr "This build is not launchable on certain platforms. They've been disabled below."
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:83
+msgid "This package has builds that are still processing. They will become available in the package as soon as they're finished processing."
+msgstr "This package has builds that are still processing. They will become available in the package as soon as they're finished processing."
+
+#: app/components/forms/dashboard/game/release/release.html:116
+msgid "Unpublish Release"
+msgstr "Piilota julkaisu"
+
+#: app/components/forms/dashboard/game/release/release.html:74
+msgid "Upload Browser Build"
+msgstr "Lisää koontiversio selaimelle"
+
+#: app/components/forms/dashboard/game/release/release.html:61
+msgid "Upload Downloadable Build"
+msgstr "Lisää ladattava versio"
+
+#: app/components/forms/dashboard/game/release/release.html:29
+msgid "You don't have any builds in this release yet. You won't be able to publish until you put some in."
+msgstr "Sinulla ei ole yhtäkään koontiversiota tässä julkaisussa. Et voi julkaista sitä kunnes olet lisännyt niitä."
+
+#: app/components/forms/dashboard/game/build/build-directive.js:217
+msgid "Game Boy"
+msgstr "Game Boy"
+
+#: app/components/forms/dashboard/game/build/build-directive.js:219
+msgid "Game Boy Advance"
+msgstr "Game Boy Advance"
+
+#: app/components/forms/dashboard/game/build/build-directive.js:218
+msgid "Game Boy Color"
+msgstr "Game Boy Color"
+
+#: app/components/forms/dashboard/game/build/build.html:59
+#: app/components/game/filtering/filtering-service.js:27
+msgid "ROM"
+msgstr "ROM"
+
+#: app/components/forms/dashboard/game/build/build.html:306
+msgid "We've detected this build is actually a {{ platform }} ROM. We will automatically emulate it in browser for you!"
+msgstr "We've detected this build is actually a {{ platform }} ROM. We will automatically emulate it in browser for you!"
+
+#: lib/gj-lib-client/components/game/package/card/more-options.html:42
+msgid "(will open in browser)"
+msgstr "\n"
+" (will open in browser)"
+
+#: lib/gj-lib-client/components/game/package/card/buttons.html:18
+#: lib/gj-lib-client/components/game/package/card/more-options.html:29
+msgid "64-bit"
+msgstr "64-bit"
+
+#: lib/gj-lib-client/components/error/error-400.html:4
+msgid "Bad Request"
+msgstr "Bad Request"
+
+#: lib/gj-lib-client/components/error/error-offline.html:4
+msgid "Can't Connect"
+msgstr "Can't Connect"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:106
+msgid "Cancel Installation"
+msgstr "Peruuta asennus"
+
+#: lib/gj-lib-client/components/error/error-offline.html:6
+msgid "Check your internet connection and try again."
+msgstr "Check your Internet connection and try again."
+
+#: lib/gj-lib-client/components/game/play-modal/play-modal.html:11
+msgid "Close Game"
+msgstr "Sulje peli"
+
+#. {{ platform }} will be the platform we are downloading for, such as Game Boy, NES, etc.
+#: lib/gj-lib-client/components/game/package/card/more-options.html:17
+msgid "Download {{ platform }} ROM"
+msgstr "Download {{ platform }} ROM"
+
+#: lib/gj-lib-client/components/error/error-403.html:4
+msgid "Forbidden"
+msgstr "Forbidden"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:45
+msgid "Install"
+msgstr "Asenna"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:60
+msgid "INSTALL FAILED"
+msgstr "INSTALL FAILED"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:63
+msgid "INSTALL PAUSED"
+msgstr "INSTALL PAUSED"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:75
+msgid "INSTALLED"
+msgstr "INSTALLED"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:59
+msgid "INSTALLING"
+msgstr "INSTALLING"
+
+#: lib/gj-lib-client/components/error/error-500.html:4
+msgid "Internal Server Error"
+msgstr "Internal Server Error"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:118
+msgid "Launch"
+msgstr "Launch"
+
+#: lib/gj-lib-client/components/game/play-modal/play-modal.html:7
+msgid "Minimize"
+msgstr "Pienennä"
+
+#: lib/gj-lib-client/components/game/package/card/buttons.html:40
+msgid "more"
+msgstr "more"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:120
+msgid "No published releases yet."
+msgstr "No published releases yet."
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:21
+msgid "Oh no! We couldn't download this package. Perhaps check that you're still online?"
+msgstr "Oh no! We couldn't download this package. Perhaps check that you're still online?"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:28
+msgid "Oh no! We couldn't unpack this package after downloading it. Maybe try again?"
+msgstr "Oh no! We couldn't unpack this package after downloading it. Maybe try again?"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:149
+msgid "options"
+msgstr "options"
+
+#: lib/gj-lib-client/components/error/error-404.html:4
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:71
+msgid "Pause"
+msgstr "Pause"
+
+#: lib/gj-lib-client/components/game/package/card/buttons.html:7
+#: lib/gj-lib-client/components/game/package/card/more-options.html:20
+msgid "Play"
+msgstr "Play"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:61
+msgid "QUEUED"
+msgstr "QUEUED"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:77
+msgid "REMOVING"
+msgstr "REMOVING"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:79
+msgid "Resume"
+msgstr "Resume"
+
+#: lib/gj-lib-client/components/error/error-offline.html:10
+msgid "Retry"
+msgstr "Retry"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:89
+msgid "Retry Install"
+msgstr "Retry Install"
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:97
+msgid "Retry Update"
+msgstr "Retry Update"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:76
+msgid "RUNNING"
+msgstr "RUNNING"
+
+#: lib/gj-lib-client/components/error/error-400.html:5
+#: lib/gj-lib-client/components/error/error-500.html:5
+msgid "There's been an error, and it's of the dubious sort."
+msgstr "There's been an error, and it's of the dubious sort."
+
+#: app/views/discover/games/view/overview/overview-controller.js:163
+msgid "This game has no playable builds yet."
+msgstr "This game has no playable builds yet."
+
+#: app/views/discover/games/view/overview/overview-controller.js:159
+msgid "This game used to have playable builds but they have been removed."
+msgstr "This game used to have playable builds but they have been removed."
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:14
+msgid "This package can not be installed on your system, but can be quick played in the client."
+msgstr "This package can not be installed on your system, but can be quick played in the client."
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:7
+msgid "This package can not be installed on your system."
+msgstr "This package can not be installed on your system."
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:166
+msgid "Uninstall"
+msgstr "Uninstall"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:69
+msgid "UPDATE FAILED"
+msgstr "UPDATE FAILED"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:72
+msgid "UPDATE PAUSED"
+msgstr "UPDATE PAUSED"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:68
+msgid "UPDATING"
+msgstr "PÄIVITETÄÄN"
+
+#: lib/gj-lib-client/components/game/package/card/card.html:92
+msgid "Version:"
+msgstr "Version:"
+
+#: lib/gj-lib-client/components/error/error-offline.html:5
+msgid "We are having trouble connecting to Game Jolt."
+msgstr "We are having trouble connecting to Game Jolt."
+
+#: app/components/client/package-card-buttons/package-card-buttons.html:35
+msgid "You are currently running this package. Some options have been disabled while it's open."
+msgstr "You are currently running this package. Some options have been disabled while it's open."
+
+#: lib/gj-lib-client/components/error/error-403.html:5
+msgid "You do not have access to this page."
+msgstr "You do not have access to this page."
+
+#: lib/gj-lib-client/components/error/error-404.html:5
+msgid "You found a secret! But upon further inspection, you realize it's just an empty page."
+msgstr "You found a secret! But on further inspection, you realize it's just an empty page."
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:43
+msgid "({{ price }} or more)"
+msgstr ""
+
+#: app/components/game/filtering/filtering-service.js:15
+msgid "$15 or less"
+msgstr ""
+
+#: app/components/game/filtering/filtering-service.js:16
+msgid "$30 or less"
+msgstr ""
+
+#: app/components/game/filtering/filtering-service.js:14
+msgid "$5 or less"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:22
+msgid "Afghanistan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:283
+msgid "Alabama"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:23
+msgid "Aland Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:284
+msgid "Alaska"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:24
+msgid "Albania"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:25
+msgid "Algeria"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics.html:76
+msgid "All-Time"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:26
+#: lib/gj-lib-client/components/geo/geo-service.js:334
+msgid "American Samoa"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list.html:18
+msgid "Amount"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics-controller.js:14
+#: app/views/dashboard/analytics/analytics.html:6
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:181
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:117
+msgid "Analytics"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card.html:208
+msgid "And really warm feelings for supporting an indie developer!"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:27
+msgid "Andorra"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:28
+msgid "Angola"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:29
+msgid "Anguilla"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:30
+msgid "Antarctica"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:31
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:32
+msgid "Argentina"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:285
+msgid "Arizona"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:286
+msgid "Arkansas"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:33
+msgid "Armenia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:34
+msgid "Aruba"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:35
+msgid "Australia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:36
+msgid "Austria"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:34
+#: app/views/dashboard/account/mobile-nav.html:15
+msgid "Avatar"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:37
+msgid "Azerbaijan"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:4
+msgid "Back to Account"
+msgstr ""
+
+#: app/views/library/collection/collection.html:4
+msgid "Back to Game Library"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:38
+msgid "Bahamas"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:39
+msgid "Bahrain"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:82
+msgid "Balance:"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:40
+msgid "Bangladesh"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:41
+msgid "Barbados"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:190
+msgid "Because of international tax laws, we are required to collect this information."
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:7
+msgid "Before you can start selling your games, we'll need to gather some details from you. This will ensure that your account is completely set up and ready to run smoothly on the Game Jolt Marketplace."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:42
+msgid "Belarus"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:43
+msgid "Belgium"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:44
+msgid "Belize"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:45
+msgid "Benin"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:46
+msgid "Bermuda"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:47
+msgid "Bhutan"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:24
+msgid "Billing"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:48
+msgid "Bolivia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:49
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:50
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:51
+msgid "Botswana"
+msgstr ""
+
+#: app/components/notifications/descriptive-action/descriptive-action-directive.js:12
+msgid "bought a package in <strong>{{ object }}</strong> for <strong>{{ amount }}</strong>."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:52
+msgid "Bouvet Island"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:53
+msgid "Brazil"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:54
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:55
+msgid "British Virgin Islands"
+msgstr ""
+
+#: app/views/discover/home/home.html:64
+msgid "Browse by Genre"
+msgstr ""
+
+#: app/components/forms/dashboard/game/release/release.html:85
+msgid "Browser builds can not currently be uploaded to games that are for sale."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:56
+msgid "Brunei"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:57
+msgid "Bulgaria"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:58
+msgid "Burkina Faso"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:59
+msgid "Burundi"
+msgstr ""
+
+#: app/components/game/cover/buttons/buttons.html:14
+msgid "Buy Game"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:273
+msgid "Buy Using Wallet"
+msgstr ""
+
+#: app/components/discover/home/featured/hero.html:16
+#: app/views/dashboard/main/purchases/view/view.html:133
+#: app/views/library/collection/_header-default.html:81
+#: checkout/views/checkout/checkout.html:14
+msgid "by"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:287
+msgid "California"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:60
+msgid "Cambodia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:61
+msgid "Cameroon"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:62
+msgid "Canada"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:63
+msgid "Cape Verde"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:172
+msgid "Card"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:67
+msgid "card expiration"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:51
+#: checkout/components/forms/payment/payment.html:55
+msgid "card number"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:64
+msgid "Cayman Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:65
+msgid "Central African Republic"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:66
+msgid "Chad"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:82
+msgid "Change PayPal Account"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:73
+msgid "Charge a specific price with the ability for them to pay more."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:63
+msgid "Checkout with:"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:67
+msgid "Chile"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:68
+msgid "China"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:69
+msgid "Christmas Island"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:70
+msgid "Cocos Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:71
+msgid "Colombia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:288
+msgid "Colorado"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:72
+msgid "Comoros"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:57
+msgid "Completely free with no option to pay at all."
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:14
+msgid "Configure"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:289
+msgid "Connecticut"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:73
+msgid "Cook Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:74
+msgid "Costa Rica"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/downloader/downloader-service.js:60
+msgid "Could not get download URL."
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:108
+msgid "country"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:195
+msgid "Country"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:75
+msgid "Croatia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:76
+msgid "Cuba"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:77
+msgid "Curacao"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:72
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
+msgid "Current PayPal Account"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:78
+msgid "Cyprus"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:79
+msgid "Czech Republic"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:25
+msgid "Dark"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:63
+msgid "dash.games.builds.form.applet_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:171
+msgid "dash.games.builds.form.browser_ads_alert"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:30
+msgid "dash.games.builds.form.browser_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:22
+msgid "dash.games.builds.form.browser_tab"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:148
+msgid "dash.games.builds.form.class_name_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:17
+msgid "dash.games.builds.form.downloadable_tab"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:77
+msgid "dash.games.builds.form.file_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:79
+msgid "dash.games.builds.form.file_html_help_html"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:75
+msgid "dash.games.builds.form.file_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:49
+msgid "dash.games.builds.form.flash_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:35
+msgid "dash.games.builds.form.html_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:95
+msgid "dash.games.builds.form.platforms_label"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:184
+msgid "dash.games.builds.form.save_build_button"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:56
+msgid "dash.games.builds.form.silverlight_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:42
+msgid "dash.games.builds.form.unity_help"
+msgstr ""
+
+#: app/components/forms/dashboard/game/build/_build.html:183
+msgid "dash.games.builds.form.upload_build_button"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:290
+msgid "Delaware"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:80
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:81
+msgid "Denmark"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:82
+msgid "Djibouti"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:83
+msgid "Dominica"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:84
+msgid "Dominican Republic"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics-controller.js:27
+msgid "Downloads"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:85
+msgid "East Timor"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:86
+msgid "Ecuador"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:30
+msgid "Edit Package"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:87
+msgid "Egypt"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:88
+msgid "El Salvador"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:58
+msgid "email address"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:55
+msgid "Email Address:"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:44
+#: app/views/dashboard/account/mobile-nav.html:21
+msgid "Email Preferences"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:38
+msgid "Embed Code"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:89
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:90
+msgid "Eritrea"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:91
+msgid "Estonia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:92
+msgid "Ethiopia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:93
+msgid "Falkland Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:94
+msgid "Faroe Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:95
+msgid "Fiji"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:96
+msgid "Finland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:291
+msgid "Florida"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics-controller.js:47
+msgid "Follows"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:9
+msgid "For purchases made by Game Jolt members, your game will automatically appear in their Game Library."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:97
+msgid "France"
+msgstr ""
+
+#: app/components/discover/home/featured/hero.html:36
+#: app/components/forms/dashboard/game/package/package.html:56
+#: app/components/game/thumbnail/thumbnail.html:41
+msgid "Free"
+msgstr ""
+
+#: app/components/game/filtering/filtering-service.js:12
+msgid "Free / Name Your Price"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:98
+msgid "French Guiana"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:99
+msgid "French Polynesia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:100
+msgid "French Southern Territories"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:101
+msgid "Gabon"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:102
+msgid "Gambia"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics.html:17
+msgid "Game"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:24
+#: app/views/library/collection/_header-default.html:79
+msgid "Games Owned"
+msgstr ""
+
+#: app/views/library/collection/collection-controller.js:106
+msgid "Games Owned by {{ user }}"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:103
+#: lib/gj-lib-client/components/geo/geo-service.js:292
+msgid "Georgia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:104
+msgid "Germany"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:55
+msgid "Get emails when someone buys your games."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:105
+msgid "Ghana"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:106
+msgid "Gibraltar"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:238
+msgid "Go back"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:107
+msgid "Greece"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:108
+msgid "Greenland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:109
+msgid "Grenada"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:110
+msgid "Guadeloupe"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:111
+#: lib/gj-lib-client/components/geo/geo-service.js:335
+msgid "Guam"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:112
+msgid "Guatemala"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:113
+msgid "Guernsey"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:114
+msgid "Guinea"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:115
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:116
+msgid "Guyana"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:117
+msgid "Haiti"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:293
+msgid "Hawaii"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:118
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:119
+msgid "Honduras"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:120
+msgid "Hong Kong"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:121
+msgid "Hungary"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:122
+msgid "Iceland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:294
+msgid "Idaho"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:141
+msgid "If you'd like, you can set an amount below, and we will not make monthly deposits into your PayPal account until your revenue reaches this amount."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:295
+msgid "Illinois"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:123
+msgid "India"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:296
+msgid "Indiana"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:124
+msgid "Indonesia"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics-controller.js:32
+msgid "Installs"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:297
+msgid "Iowa"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:125
+msgid "Iran"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:126
+msgid "Iraq"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:127
+msgid "Ireland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:128
+msgid "Isle of Man"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:129
+msgid "Israel"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:130
+msgid "Italy"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list.html:16
+msgid "Item(s)"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:131
+msgid "Ivory Coast"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:132
+msgid "Jamaica"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:133
+msgid "Japan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:134
+msgid "Jersey"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:135
+msgid "Jordan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:298
+msgid "Kansas"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:136
+msgid "Kazakhstan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:299
+msgid "Kentucky"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:137
+msgid "Kenya"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:138
+msgid "Kiribati"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:139
+msgid "Kosovo"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:140
+msgid "Kuwait"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:141
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:142
+msgid "Laos"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:143
+msgid "Latvia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:144
+msgid "Lebanon"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:145
+msgid "Lesotho"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:146
+msgid "Liberia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:147
+msgid "Libya"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:148
+msgid "Liechtenstein"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:31
+msgid "Light"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:81
+msgid "Link PayPal Account"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:39
+#: app/views/dashboard/account/mobile-nav.html:18
+msgid "Linked Accounts"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:149
+msgid "Lithuania"
+msgstr ""
+
+#: app/views/discover/home/home.html:108
+msgid "Load More"
+msgstr ""
+
+#: app/components/shell/account-popover/account-popover.html:74
+msgid "Loading..."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:300
+msgid "Louisiana"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:150
+msgid "Luxembourg"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:151
+msgid "Macao"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:152
+msgid "Macedonia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:153
+msgid "Madagascar"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:301
+msgid "Maine"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:123
+msgid "Make this package the primary package"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:154
+msgid "Malawi"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:155
+msgid "Malaysia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:156
+msgid "Maldives"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:157
+msgid "Mali"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:158
+msgid "Malta"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:54
+#: app/views/dashboard/account/financials/financials-controller.js:3
+#: app/views/dashboard/account/financials/financials-controller.js:5
+#: app/views/dashboard/account/mobile-nav.html:27
+msgid "Marketplace Account Setup"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:159
+msgid "Marshall Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:160
+msgid "Martinique"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:302
+msgid "Maryland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:303
+msgid "Massachusetts"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:161
+msgid "Mauritania"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:162
+msgid "Mauritius"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:163
+msgid "Mayotte"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:164
+msgid "Mexico"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:304
+msgid "Michigan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:165
+msgid "Micronesia"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:139
+msgid "Minimum Payout"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:305
+msgid "Minnesota"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:306
+msgid "Mississippi"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:307
+msgid "Missouri"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:166
+msgid "Moldova"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:167
+msgid "Monaco"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:168
+msgid "Mongolia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:308
+msgid "Montana"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:169
+msgid "Montenegro"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics.html:84
+msgid "Monthly"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:170
+msgid "Montserrat"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:171
+msgid "Morocco"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:172
+msgid "Mozambique"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:173
+msgid "Myanmar"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:41
+#: checkout/components/forms/payment/payment.html:45
+msgid "name on card"
+msgstr ""
+
+#: app/components/game/thumbnail/thumbnail.html:38
+msgid "name your price"
+msgstr ""
+
+#: app/components/discover/home/featured/hero.html:33
+msgid "Name Your Price"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:30
+msgid "Name your price:"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:174
+msgid "Namibia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:175
+msgid "Nauru"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:309
+msgid "Nebraska"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:176
+msgid "Nepal"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:177
+msgid "Netherlands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:310
+msgid "Nevada"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:178
+msgid "New Caledonia"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:171
+msgid "New Card"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:311
+msgid "New Hampshire"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:312
+msgid "New Jersey"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:313
+msgid "New Mexico"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:314
+msgid "New York"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:179
+msgid "New Zealand"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:180
+msgid "Nicaragua"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:181
+msgid "Niger"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:182
+msgid "Nigeria"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:183
+msgid "Niue"
+msgstr ""
+
+#: app/views/dashboard/analytics/_report/simple-stat.html:3
+#: app/views/dashboard/analytics/_report/top-composition.html:6
+msgid "No data yet."
+msgstr ""
+
+#: app/views/discover/games/list/category/category.html:2
+#: app/views/library/collection/collection.html:119
+msgid "No games match your filters. <b>Zoinks!</b>"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card.html:144
+msgid "No thanks, just install it."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card.html:143
+msgid "No thanks, take to me to the download."
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:86
+msgid "None"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:184
+msgid "Norfolk Island"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:315
+msgid "North Carolina"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:316
+msgid "North Dakota"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:185
+msgid "North Korea"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:186
+#: lib/gj-lib-client/components/geo/geo-service.js:336
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:187
+msgid "Norway"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:317
+msgid "Ohio"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:318
+msgid "Oklahoma"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:188
+msgid "Oman"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:161
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:94
+msgid "or"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list.html:15
+#: app/views/dashboard/main/purchases/view/view.html:12
+msgid "Order #"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:4
+msgid "Order Details"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list-controller.js:3
+msgid "Order History"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:7
+msgid "Ordered on"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:319
+msgid "Oregon"
+msgstr ""
+
+#: app/views/dashboard/main/main.html:21
+msgid "Overview"
+msgstr ""
+
+#: app/components/discover/home/featured/hero.html:40
+#: app/components/game/thumbnail/thumbnail.html:46
+msgid "Owned"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:26
+#: app/components/game/collection/thumbnail/thumbnail.html:8
+#: app/views/library/library.html:29
+msgid "Owned Games"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics.html:28
+msgid "Package"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:49
+msgid "Packages with browser builds cannot be sold at this time."
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:72
+#: app/components/game/filtering/filtering-service.js:13
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:93
+msgid "Paid"
+msgstr ""
+
+#: app/views/discover/home/home.html:75
+msgid "Paid Games"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:189
+msgid "Pakistan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:190
+msgid "Palau"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:191
+msgid "Palestinian Territory"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:192
+msgid "Panama"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:193
+msgid "Papua New Guinea"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:194
+msgid "Paraguay"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:49
+#: app/views/dashboard/account/mobile-nav.html:24
+msgid "Password"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:64
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:78
+msgid "Pay What You Want"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:58
+msgid "Payment"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:179
+msgid "PayPal"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:64
+msgid "PayPal Account"
+msgstr ""
+
+#: app/views/dashboard/main/overview/overview.html:41
+msgid "Pending Revenue"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:320
+msgid "Pennsylvania"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:88
+msgid "Percentage Split"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:195
+msgid "Peru"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:196
+msgid "Philippines"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:197
+msgid "Pitcairn"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:198
+msgid "Poland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:199
+msgid "Portugal"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:47
+msgid "price"
+msgstr ""
+
+#: app/components/game/filtering/filtering-service.js:9
+#: app/components/game/filtering/widget.html:5
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:96
+msgid "Price"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:72
+msgid "Primary Package"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:248
+msgid "Proceed to PayPal"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:21
+msgid "Processing order. Gonna be rad!"
+msgstr ""
+
+#: app/views/dashboard/account/account.html:29
+#: app/views/dashboard/account/mobile-nav.html:12
+msgid "Profile"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:200
+#: lib/gj-lib-client/components/geo/geo-service.js:337
+msgid "Puerto Rico"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list.html:17
+msgid "Purchase Date"
+msgstr ""
+
+#: app/views/dashboard/main/main.html:26
+msgid "Purchases"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:11
+msgid "Purchases made by folks who aren't members or signed into Game Jolt will be emailed a link to a game key page; all future updates you make to your games will be retrievable through this same page."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:201
+msgid "Qatar"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics-controller.js:42
+msgid "Ratings"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list.html:37
+#: app/views/dashboard/main/purchases/view/view.html:113
+msgid "Refunded"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics.html:39
+msgid "Release"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:98
+msgid "Remember card?"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:202
+msgid "Republic of the Congo"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:203
+msgid "Reunion"
+msgstr ""
+
+#: app/views/dashboard/main/overview/overview.html:34
+msgid "Revenue To Date"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:321
+msgid "Rhode Island"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:204
+msgid "Romania"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:205
+msgid "Russia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:206
+msgid "Rwanda"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:207
+msgid "Saint Barthelemy"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:208
+msgid "Saint Helena"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:209
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:210
+msgid "Saint Lucia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:211
+msgid "Saint Martin"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:212
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:213
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/edit.html:35
+msgid "Sale Widget"
+msgstr ""
+
+#: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:54
+#: app/views/dashboard/activity/list/list-controller.js:53
+#: app/views/dashboard/analytics/analytics-controller.js:55
+msgid "Sales"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:214
+msgid "Samoa"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:215
+msgid "San Marino"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:216
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:217
+msgid "Saudi Arabia"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:179
+msgid "Save"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:110
+msgid "Saved Card"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:130
+msgid "Select another card"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:218
+msgid "Senegal"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:219
+msgid "Serbia"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:113
+msgid "Set an amount you would like to keep in your wallet"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:220
+msgid "Seychelles"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:3
+msgid "Show {{ developer }} some <span class=\"jolticon jolticon-heart\"></span> by supporting them."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:221
+msgid "Sierra Leone"
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:120
+msgid "Since you don't have any packages yet, we'll mark this as your primary one."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:222
+msgid "Singapore"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:223
+msgid "Sint Maarten"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:224
+msgid "Slovakia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:225
+msgid "Slovenia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:226
+msgid "Solomon Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:227
+msgid "Somalia"
+msgstr ""
+
+#: app/components/notifications/descriptive-action/descriptive-action.html:6
+msgid "Someone"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:228
+msgid "South Africa"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:322
+msgid "South Carolina"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:323
+msgid "South Dakota"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:229
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:230
+msgid "South Korea"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:231
+msgid "South Sudan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:232
+msgid "Spain"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:233
+msgid "Sri Lanka"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:126
+#: checkout/components/forms/payment/payment.html:131
+msgid "state/province"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:213
+msgid "State/Province/County"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:117
+#: checkout/components/forms/payment/payment.html:119
+msgid "street address"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:206
+msgid "Street Address"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:91
+msgid "Subtotal"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:234
+msgid "Sudan"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:81
+msgid "Suggested Price"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:86
+msgid "Summary"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:147
+msgid "Supporters"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:235
+msgid "Suriname"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:236
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:237
+msgid "Swaziland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:238
+msgid "Sweden"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:239
+msgid "Switzerland"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:240
+msgid "Syria"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:241
+msgid "Taiwan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:242
+msgid "Tajikistan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:243
+msgid "Tanzania"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:122
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:153
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:262
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:87
+msgid "tax"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:95
+msgid "Tax"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:324
+msgid "Tennessee"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:325
+msgid "Texas"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:244
+msgid "Thailand"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:11
+msgid "The developer has set the price of this game to <strong>{{ amount }}</strong>, but you are able to support them by giving more."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:149
+msgid "The kind people that helped support {{ developer }} by paying more than the minimum. Sorted by amount contributed."
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:148
+msgid "The max you can set this to is {{ max }} USD."
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:20
+msgid "Theme"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:234
+msgid "There was a problem processing your payment method."
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:86
+msgid "These are all the games owned by {{ user }}."
+msgstr ""
+
+#: app/views/library/collection/_header-default.html:76
+msgid "These are all the games you own."
+msgstr ""
+
+#: app/components/shell/account-popover/account-popover.html:70
+msgid "These are your available funds to either buy games with or withdraw."
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:65
+msgid "They will be able to pay $0 or more. They set the price."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:6
+msgid "This developer suggests paying <strong>{{ amount }}</strong>, but you're able to pay what you want."
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:124
+msgid "This is currently the primary package"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:16
+msgid "This order was refunded on {{ date }}."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:245
+msgid "Togo"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:246
+msgid "Tokelau"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:247
+msgid "Tonga"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view.html:101
+msgid "Total"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:248
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:249
+msgid "Tunisia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:250
+msgid "Turkey"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:251
+msgid "Turkmenistan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:252
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:253
+msgid "Tuvalu"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:254
+#: lib/gj-lib-client/components/geo/geo-service.js:338
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:255
+msgid "Uganda"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:256
+msgid "Ukraine"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:257
+msgid "United Arab Emirates"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:258
+msgid "United Kingdom"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:259
+msgid "United States"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:260
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: app/components/site-analytics/site-analytics-service.js:150
+msgid "Unknown"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:261
+msgid "Uruguay"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:326
+msgid "Utah"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:262
+msgid "Uzbekistan"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:263
+msgid "Vanuatu"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:264
+msgid "Vatican"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:265
+msgid "Venezuela"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:327
+msgid "Vermont"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:266
+msgid "Vietnam"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/manage.html:18
+msgid "View Analytics"
+msgstr ""
+
+#: app/components/discover/home/featured/hero.html:53
+msgid "View Game"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/game/overview/overview.html:185
+msgid "View Game Analytics"
+msgstr ""
+
+#: app/views/dashboard/main/purchases/view/view-controller.js:16
+msgid "View Order: #{{ orderId }}"
+msgstr ""
+
+#: app/views/dashboard/analytics/analytics-controller.js:22
+msgid "Views"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:328
+msgid "Virginia"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:105
+msgid "Wallet"
+msgstr ""
+
+#: app/components/shell/account-popover/account-popover.html:72
+#: app/views/dashboard/main/overview/overview.html:51
+msgid "Wallet Balance"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:267
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:329
+msgid "Washington"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:333
+msgid "Washington D.C."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:263
+msgid "We are required to collect taxes on orders for certain regions."
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:69
+msgid "We currently use PayPal for automatic monthly deposits. You will also be able to withdraw your funds at any time through this linked account."
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:109
+msgid "We never take a cut for sales when you pay with your Wallet, and there are no payment processing fees. The money goes directly to the seller."
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list.html:72
+msgid "We use the primary package to determine the price to show on game listings."
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:113
+msgid "We use the primary package to determine the price to show on game listings. You can only have one primary package for your game."
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:116
+msgid "We'll keep this amount in your Wallet when doing automatic pay outs. This way you always have some money to buy other games on the site."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:330
+msgid "West Virginia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:268
+msgid "Western Sahara"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card.html:183
+msgid "What do you get?"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:45
+msgid "Widget Preview"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:331
+msgid "Wisconsin"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:332
+msgid "Wyoming"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:269
+msgid "Yemen"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:118
+msgid "You can choose not to keep money in your Wallet by setting it $0."
+msgstr ""
+
+#: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:14
+msgid "You can link a different PayPal account in your <a href=\"{{ url }}\">payment setup</a>."
+msgstr ""
+
+#: app/views/discover/home/home.html:81
+msgid "You can now support your favorite indie devs by buying their games directly on Game Jolt!"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:152
+msgid "You can turn this off by setting it to $0."
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:6
+msgid "You can use our Sale Widget to sell games directly from your own site!"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:90
+msgid "You decide what percentage of your sale revenue to give to Game Jolt. <strong>We won't let you give us more than 10%</strong> because we'd rather have you support other indie developers by buying their games."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:98
+msgid "You do not have enough funds in your Wallet for this order."
+msgstr ""
+
+#: app/views/library/collection/collection.html:130
+msgid "You don't own any games yet. Go buy some!"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:22
+#: app/components/forms/dashboard/financials/financials.html:61
+msgid "You have completed this section."
+msgstr ""
+
+#: app/views/dashboard/main/overview/overview.html:58
+msgid "You have pending withdrawals amounting to {{ ::overviewCtrl.revenuePendingWithdraw | currency:'$' }}."
+msgstr ""
+
+#: app/views/dashboard/main/purchases/list/list.html:6
+msgid "You haven't bought any games on the site yet. Once you do, you'll be able to see all of your orders here and the details for each order."
+msgstr ""
+
+#: app/components/forms/dashboard/game/package/package.html:44
+msgid "You must <a href=\"{{ url }}\">set up your financial information</a> before you can start accepting money."
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:13
+msgid "Your account is ready to sell games on Game Jolt! You can set additional options below."
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:25
+#: app/views/library/collection/_header-default.html:75
+#: app/views/library/collection/collection-controller.js:103
+msgid "Your Owned Games"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:78
+msgid "Your Wallet"
+msgstr ""
+
+#: app/components/forms/dashboard/financials/financials.html:107
+msgid "Your Wallet is where your earnings will be stored for you to buy games on Game Jolt or withdraw into your PayPal account."
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:270
+msgid "Zambia"
+msgstr ""
+
+#: lib/gj-lib-client/components/geo/geo-service.js:271
+msgid "Zimbabwe"
+msgstr ""
+
+#: checkout/components/forms/payment/payment.html:145
+#: checkout/components/forms/payment/payment.html:147
+msgid "zip code"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:227
+msgid "Zip/Postal Code"
+msgstr ""
 
