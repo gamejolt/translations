@@ -1973,11 +1973,11 @@ msgstr "Joga connosco!"
 msgid "discover.nav.featured_playlists"
 msgstr "Listas de jogos em destaque"
 
-#: app/views/discover/games/view/download/build/build.html:55
+#: app/views/discover/games/view/download/build/build.html:56
 msgid "game.download.game.developer_games_heading"
 msgstr "Outros jogos"
 
-#: app/views/discover/games/view/download/build/build.html:57
+#: app/views/discover/games/view/download/build/build.html:58
 msgid "game.download.game.developer_games_heading_small"
 msgstr "deste desenvolvedor"
 
@@ -1985,11 +1985,11 @@ msgstr "deste desenvolvedor"
 msgid "game.download.game.downloading_wait_message"
 msgstr "A tua descarga deverá iniciar dentro de um momento..."
 
-#: app/views/discover/games/view/download/build/build.html:38
+#: app/views/discover/games/view/download/build/build.html:39
 msgid "game.download.game.rate_html"
 msgstr "<p><strong>O que achaste?</strong> As classficações dos jogos permitem-nos mostrar-te coisas melhores. Sê um(a) curador(a) do site!</p>"
 
-#: app/views/discover/games/view/download/build/build.html:76
+#: app/views/discover/games/view/download/build/build.html:77
 msgid "game.download.game.recommended_heading"
 msgstr "Também poderás gostar de"
 
@@ -2001,7 +2001,7 @@ msgstr "Gostaste? Partilha!"
 msgid "game.download.soundtrack.downloading_wait_message"
 msgstr "A tua descarga deverá iniciar dentro de um momento..."
 
-#: app/components/game/rating-growl/rating-growl.html:12
+#: app/components/game/rating-growl/rating-growl.html:13
 msgid "game.rating_growl.message"
 msgstr "As classficações dos jogos permitem-nos mostrar-te coisas melhores. Sê um(a) curador(a) do site!"
 
@@ -2187,7 +2187,7 @@ msgstr "Novos"
 msgid "games.list.voltage_tooltip"
 msgstr "A voltagem é o nosso sistema de classificação ponderada. Todos os jogos começam com uma pontuação média e a comunidade ajuda a aumentá-la ou a diminuí-la."
 
-#: app/views/discover/games/view/_header/_nav.html:50
+#: app/views/discover/games/view/_header/_nav.html:57
 msgid "games.view.manage_game_button"
 msgstr "Gerir jogo"
 
@@ -2195,43 +2195,39 @@ msgstr "Gerir jogo"
 msgid "games.view.media.close"
 msgstr "Fechar"
 
-#: app/views/discover/games/view/_header/_nav.html:58
+#: app/views/discover/games/view/_header/_nav.html:65
 msgid "games.view.moderate_game_button"
 msgstr "Moderar jogo"
 
-#: app/views/discover/games/view/_header/_nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:15
 msgid "games.view.news_tab"
 msgstr "Notícias"
 
-#: app/views/discover/games/view/view.html:39
-msgid "games.view.notifications_heading"
-msgstr "Notificações"
-
-#: app/views/discover/games/view/_header/_nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:8
 msgid "games.view.overview_tab"
 msgstr "Visão geral"
 
-#: app/views/discover/games/view/_header/_nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.scores_tab"
 msgstr "Pontuações"
 
-#: app/views/discover/games/view/overview/_details.html:68
+#: app/views/discover/games/view/overview/_stats.html:16
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Sessões de jogo"
 
-#: app/views/discover/games/view/overview/_details.html:75
+#: app/views/discover/games/view/overview/_stats.html:23
 msgid "games.view.stats.na"
 msgstr "n/a"
 
-#: app/views/discover/games/view/overview/_details.html:85
+#: app/views/discover/games/view/overview/_stats.html:33
 msgid "games.view.stats.ratings_label"
 msgstr "Classificações"
 
-#: app/views/discover/games/view/overview/_details.html:56
+#: app/views/discover/games/view/overview/_stats.html:4
 msgid "games.view.stats.views_label"
 msgstr "Visualizações"
 
-#: app/views/discover/games/view/_header/_nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:30
 msgid "games.view.trophies_tab"
 msgstr "Troféus"
 
@@ -2359,11 +2355,6 @@ msgstr "<p>Cria listas de jogos para organizares e partilhares os jogos da tua b
 #: app/views/library/library.html:51
 msgid "library.nav.playlists"
 msgstr "Listas de jogos"
-
-#: app/views/discover/games/view/_header/_controls.html:32
-#, fuzzy
-msgid "library.playlists.add_to.button"
-msgstr "Adicionar à lista"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
@@ -2552,7 +2543,7 @@ msgstr[0] "{{ $count | number }} não lida"
 msgstr[1] "{{ $count | number }} não lidas"
 
 #: app/views/dashboard/developer/games/manage/manage.html:61
-#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/discover/games/view/_header/_nav.html:37
 #: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
@@ -2767,11 +2758,11 @@ msgstr "Ordenar por"
 msgid "trophies.achieved_tag"
 msgstr "Conquistado!"
 
-#: app/components/trophy/completion/completion.html:14
+#: app/components/trophy/completion/completion.html:15
 msgid "trophies.completion.completion_label"
 msgstr "Conclusão"
 
-#: app/components/trophy/completion/completion.html:23
+#: app/components/trophy/completion/completion.html:24
 msgid "trophies.completion.exp_gained_label"
 msgstr "EXP ganha"
 
@@ -2779,7 +2770,7 @@ msgstr "EXP ganha"
 msgid "trophies.completion.lead_html"
 msgstr "Conquistaste <b>{{ achieved | number }}</b> de um total de <b>{{ total | number }}</b> troféu(s)."
 
-#: app/components/trophy/completion/completion.html:29
+#: app/components/trophy/completion/completion.html:30
 msgid "trophies.completion.none_achieved_html"
 msgstr "Ainda não conquistaste nenhum troféu neste jogo!"
 
@@ -3264,17 +3255,17 @@ msgstr "Jogos publicados a {{ date }}"
 msgid "games.list.date_range_page_title"
 msgstr "Jogos publicados entre {{ dateStart }} e {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:108
+#: app/views/discover/games/list/category/category-controller.js:111
 msgid "games.list.descriptive_category"
 msgstr "Jogos de {{ category | lowercase }}"
 
 #. {{ category }} is available as the translated category label
-#: app/views/discover/games/list/category/category-controller.js:103
+#: app/views/discover/games/list/category/category-controller.js:106
 msgid "games.list.descriptive_category_other"
 msgstr "jogos alternativos e outras maluquices"
 
 #. {{ category }} is available as the translated category label
-#: app/views/discover/games/list/category/category-controller.js:99
+#: app/views/discover/games/list/category/category-controller.js:102
 msgid "games.list.descriptive_category_rpg"
 msgstr "jogos de desempenho de papéis"
 
@@ -3980,7 +3971,7 @@ msgstr "Joga um jogo."
 msgid "dash.integrate.rated_game_html"
 msgstr "Classifica e comenta um jogo."
 
-#: app/views/discover/games/view/overview/_details.html:105
+#: app/views/discover/games/view/overview/_stats.html:43
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Análise das classificações."
 
@@ -4028,11 +4019,7 @@ msgstr "A seguir"
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Deixa de seguir esta lista de jogos para a removeres da tua biblioteca e deixares de receber notificações."
 
-#: app/views/discover/games/view/_header/_controls.html:9
-msgid "library.followed.follow_game_button"
-msgstr "Seguir jogo"
-
-#: app/views/discover/games/view/_header/_controls.html:6
+#: app/views/discover/games/view/view-controller.js:17
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Segue este jogo para o adicionares à tua biblioteca e receberes notificações sobre notícias."
 
@@ -4040,27 +4027,27 @@ msgstr "Segue este jogo para o adicionares à tua biblioteca e receberes notific
 msgid "library.followed.remove_game_confirmation"
 msgstr "Tens a certeza de que queres deixar de seguir {{ game }}?"
 
+#: app/views/discover/games/view/view-controller.js:114
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Uh oh, algo impediu-te de deixares de seguir este jogo."
 
+#: app/views/discover/games/view/view-controller.js:115
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh, não!"
 
+#: app/views/discover/games/view/view-controller.js:107
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Deixaste de seguir {{ game }} e já não vais receber notificações sobre este jogo."
 
+#: app/views/discover/games/view/view-controller.js:108
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Seguimento cancelado"
 
-#: app/views/discover/games/view/_header/_controls.html:19
-msgid "library.followed.unfollow_game_button"
-msgstr "A seguir"
-
-#: app/views/discover/games/view/_header/_controls.html:16
+#: app/views/discover/games/view/view-controller.js:18
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Deixa de seguir este jogo para o removeres da tua biblioteca."
 
@@ -4397,12 +4384,6 @@ msgstr "Concluído"
 #: app/components/game/filtering/filtering-service.js:55
 msgid "games.filtering.status_wip"
 msgstr "Em desenvolvimento"
-
-#: app/views/discover/games/view/view.html:42
-msgid "games.view.notifications_news"
-msgid_plural "games.view.notifications_news"
-msgstr[0] "1 artigo de notícia"
-msgstr[1] "{{ $count | number }} artigos de notícias"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:20
 msgid "dash.funds.withdraw.amount_help"
@@ -4810,7 +4791,7 @@ msgstr "Ligação externa para jogar o jogo (não foi carregado para o site)"
 msgid "Game does not belong to this developer"
 msgstr "O jogo não pertence a este desenvolvedor"
 
-#: app/views/discover/games/view/_header/_nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.report_game_button"
 msgstr "Denunciar jogo"
 
@@ -4867,7 +4848,7 @@ msgstr "O perfil ou nome de utilizador contém material explícito ou sensível"
 msgid "profile.report_user_button"
 msgstr "Denunciar utilizador"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:137
+#: lib/gj-lib-client/components/comment/widget/comment.html:140
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Denunciar comentário"
@@ -5113,19 +5094,23 @@ msgid "You don't have any builds in this release yet. You won't be able to publi
 msgstr "Você não tem qualquer constrói nesta versão ainda. Você não será capaz de publicar até colocar alguns em."
 
 #: app/components/forms/dashboard/game/build/build-directive.js:217
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:79
 msgid "Game Boy"
 msgstr "Game Boy"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:219
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:81
 msgid "Game Boy Advance"
 msgstr "Game Boy Advance"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:218
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:80
 msgid "Game Boy Color"
 msgstr "Game Boy Color "
 
 #: app/components/forms/dashboard/game/build/build.html:59
 #: app/components/game/filtering/filtering-service.js:27
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:73
 msgid "ROM"
 msgstr "ROM "
 
@@ -5269,11 +5254,11 @@ msgstr "CORRENDO"
 msgid "There's been an error, and it's of the dubious sort."
 msgstr "Houve um erro, e seu do tipo duvidosa."
 
-#: app/views/discover/games/view/overview/overview-controller.js:163
+#: app/views/discover/games/view/overview/overview-controller.js:152
 msgid "This game has no playable builds yet."
 msgstr "Este jogo não tem jogável construido ainda."
 
-#: app/views/discover/games/view/overview/overview-controller.js:159
+#: app/views/discover/games/view/overview/overview-controller.js:148
 msgid "This game used to have playable builds but they have been removed."
 msgstr "Este jogo utilizado para ter reproduzível constrói mas eles foram removidos."
 
@@ -5544,7 +5529,7 @@ msgstr ""
 
 #: app/views/discover/home/home.html:64
 msgid "Browse by Genre"
-msgstr ""
+msgstr "Procurar por Género"
 
 #: app/components/forms/dashboard/game/release/release.html:85
 msgid "Browser builds can not currently be uploaded to games that are for sale."
@@ -5570,12 +5555,13 @@ msgstr "Burundi"
 msgid "Buy Game"
 msgstr "Comprar Jogo"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:273
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:281
 msgid "Buy Using Wallet"
 msgstr "Comprar Usando Carteira"
 
 #: app/components/discover/home/featured/hero.html:16
 #: app/views/dashboard/main/purchases/view/view.html:133
+#: app/views/discover/games/view/view.html:44
 #: app/views/library/collection/_header-default.html:81
 #: checkout/views/checkout/checkout.html:14
 msgid "by"
@@ -5833,11 +5819,11 @@ msgstr "Editar Encomenda"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:87
 msgid "Egypt"
-msgstr ""
+msgstr "Egito"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:88
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:58
 msgid "email address"
@@ -5845,12 +5831,12 @@ msgstr ""
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:55
 msgid "Email Address:"
-msgstr ""
+msgstr "E-mail:"
 
 #: app/views/dashboard/account/account.html:44
 #: app/views/dashboard/account/mobile-nav.html:21
 msgid "Email Preferences"
-msgstr ""
+msgstr "Preferências de E-mail"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:38
 msgid "Embed Code"
@@ -5968,7 +5954,7 @@ msgstr ""
 msgid "Gibraltar"
 msgstr ""
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:238
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:242
 msgid "Go back"
 msgstr ""
 
@@ -6652,7 +6638,7 @@ msgstr ""
 msgid "Primary Package"
 msgstr ""
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:248
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:252
 msgid "Proceed to PayPal"
 msgstr ""
 
@@ -6919,7 +6905,7 @@ msgstr ""
 msgid "Summary"
 msgstr ""
 
-#: app/views/discover/games/view/overview/overview.html:147
+#: app/views/discover/games/view/overview/overview.html:181
 msgid "Supporters"
 msgstr ""
 
@@ -6961,7 +6947,7 @@ msgstr ""
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:122
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:153
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:262
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:266
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:87
 msgid "tax"
 msgstr ""
@@ -6986,7 +6972,7 @@ msgstr ""
 msgid "The developer has set the price of this game to <strong>{{ amount }}</strong>, but you are able to support them by giving more."
 msgstr ""
 
-#: app/views/discover/games/view/overview/overview.html:149
+#: app/views/discover/games/view/overview/overview.html:183
 msgid "The kind people that helped support {{ developer }} by paying more than the minimum. Sorted by amount contributed."
 msgstr ""
 
@@ -6998,7 +6984,7 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:234
+#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:250
 msgid "There was a problem processing your payment method."
 msgstr ""
 
@@ -7180,7 +7166,7 @@ msgstr ""
 msgid "Washington D.C."
 msgstr ""
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:263
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:267
 msgid "We are required to collect taxes on orders for certain regions."
 msgstr ""
 
@@ -7256,6 +7242,7 @@ msgstr ""
 msgid "You decide what percentage of your sale revenue to give to Game Jolt. <strong>We won't let you give us more than 10%</strong> because we'd rather have you support other indie developers by buying their games."
 msgstr ""
 
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:272
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:98
 msgid "You do not have enough funds in your Wallet for this order."
 msgstr ""
@@ -7314,5 +7301,184 @@ msgstr ""
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:227
 msgid "Zip/Postal Code"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:15
+msgid "Atom"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:331
+msgid "Comments Disabled"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:332
+msgid "Comments have been disabled for this game."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:138
+msgid "Description"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:216
+msgid "Details"
+msgstr ""
+
+#: app/views/discover/games/view/_header/_controls.html:33
+msgid "Follow Game"
+msgstr ""
+
+#: app/views/discover/games/view/_header/_controls.html:37
+msgid "Following"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:50
+msgid "Here are the games this person owns."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:229
+msgid "Latest News Updates"
+msgstr ""
+
+#: app/components/score/overview/overview.html:168
+msgid "Latest Scores"
+msgstr ""
+
+#: app/views/discover/games/view/news/view/view.html:52
+msgid "More News"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:31
+#: app/views/discover/games/view/view.html:89
+msgid "New"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:7
+msgid "News Updates"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:75
+msgid "Rate Game"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:102
+msgid "Releases"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:13
+msgid "RSS"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:108
+msgid "There are multiple packages for your device. Please choose one below."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:19
+msgid "This game has been <strong>canceled</strong> by the developer and is not currently playable."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:15
+msgid "This game is still <strong>In Development</strong> and is not currently playable."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:23
+msgid "This game was <strong>canceled</strong> by the developer, so the current version might be buggy or incomplete."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:244
+msgid "View +1 More Update"
+msgid_plural "View +{{ $count | number }} More Updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/views/discover/games/view/overview/overview.html:306
+msgid "You May Also Like"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:72
+msgid "Your Rating"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:41
+msgid "dash.games.packages.manage.remove_confirmation"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:49
+msgid "dash.games.packages.manage.removed_growl"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:50
+msgid "dash.games.packages.manage.removed_growl_title"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:43
+msgid "Downloadable File"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:53
+msgid "Flash Web Playable"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:130
+msgid "Game Followed"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:63
+msgid "Java Applet Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:37
+msgid "Linux 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:32
+msgid "Linux Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:26
+msgid "Mac 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:21
+msgid "Mac Support"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:7
+msgid "Manage Packages for {{ game }}"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:449
+msgid "Order Complete"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:68
+msgid "Silverlight Web Playable"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:136
+msgid "Something has prevented you from following this game"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:58
+msgid "Unity Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:450
+msgid "Warm thanks from both {{ developer }} and the Game Jolt team."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:48
+msgid "Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:15
+msgid "Windows 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:10
+msgid "Windows Support"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:129
+msgid "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 msgstr ""
 
