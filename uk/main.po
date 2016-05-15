@@ -1993,11 +1993,11 @@ msgstr "Грайте разом з нами!"
 msgid "discover.nav.featured_playlists"
 msgstr "Цікаві плейлисти"
 
-#: app/views/discover/games/view/download/build/build.html:55
+#: app/views/discover/games/view/download/build/build.html:56
 msgid "game.download.game.developer_games_heading"
 msgstr "Інші ігри"
 
-#: app/views/discover/games/view/download/build/build.html:57
+#: app/views/discover/games/view/download/build/build.html:58
 msgid "game.download.game.developer_games_heading_small"
 msgstr "від цього розробника"
 
@@ -2005,11 +2005,11 @@ msgstr "від цього розробника"
 msgid "game.download.game.downloading_wait_message"
 msgstr "Ваше завантаження повинно розпочатися в цю мить..."
 
-#: app/views/discover/games/view/download/build/build.html:38
+#: app/views/discover/games/view/download/build/build.html:39
 msgid "game.download.game.rate_html"
 msgstr "<p><strong>Що ти думаєш?</strong>Ігрові відгуки дозволяють показувати вам кращий матеріал. Допоможіть розвивати сайт!</p>"
 
-#: app/views/discover/games/view/download/build/build.html:76
+#: app/views/discover/games/view/download/build/build.html:77
 msgid "game.download.game.recommended_heading"
 msgstr "Вам також може сподобатися"
 
@@ -2022,7 +2022,7 @@ msgstr "Сподобалося? Поділіться цим!"
 msgid "game.download.soundtrack.downloading_wait_message"
 msgstr "Ваше завантаження повинно розпочатися в цю мить..."
 
-#: app/components/game/rating-growl/rating-growl.html:12
+#: app/components/game/rating-growl/rating-growl.html:13
 msgid "game.rating_growl.message"
 msgstr "Що ти думаєш? Ігрові відгуки дозволяють показувати вам кращий матеріал. Допоможіть розвивати сайт!"
 
@@ -2203,7 +2203,7 @@ msgstr "Нові"
 msgid "games.list.voltage_tooltip"
 msgstr "Напруга - це наша рейтингова система. Всі ігри починаються з середнім балом і спільнота тягне його вгору або вниз."
 
-#: app/views/discover/games/view/_header/_nav.html:50
+#: app/views/discover/games/view/_header/_nav.html:57
 msgid "games.view.manage_game_button"
 msgstr "Керувати грою"
 
@@ -2211,43 +2211,39 @@ msgstr "Керувати грою"
 msgid "games.view.media.close"
 msgstr "Відмінити"
 
-#: app/views/discover/games/view/_header/_nav.html:58
+#: app/views/discover/games/view/_header/_nav.html:65
 msgid "games.view.moderate_game_button"
 msgstr "Перевірена гра"
 
-#: app/views/discover/games/view/_header/_nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:15
 msgid "games.view.news_tab"
 msgstr "Новини"
 
-#: app/views/discover/games/view/view.html:39
-msgid "games.view.notifications_heading"
-msgstr "Повідомлення"
-
-#: app/views/discover/games/view/_header/_nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:8
 msgid "games.view.overview_tab"
 msgstr "Огляд"
 
-#: app/views/discover/games/view/_header/_nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.scores_tab"
 msgstr "Результати"
 
-#: app/views/discover/games/view/overview/_details.html:68
+#: app/views/discover/games/view/overview/_stats.html:16
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Грають"
 
-#: app/views/discover/games/view/overview/_details.html:75
+#: app/views/discover/games/view/overview/_stats.html:23
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:85
+#: app/views/discover/games/view/overview/_stats.html:33
 msgid "games.view.stats.ratings_label"
 msgstr "Рейтинги"
 
-#: app/views/discover/games/view/overview/_details.html:56
+#: app/views/discover/games/view/overview/_stats.html:4
 msgid "games.view.stats.views_label"
 msgstr "Перегляди"
 
-#: app/views/discover/games/view/_header/_nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:30
 msgid "games.view.trophies_tab"
 msgstr "Нагороди"
 
@@ -2375,10 +2371,6 @@ msgstr "<p>Створіть плейлисти, організуйте їх та
 #: app/views/library/library.html:51
 msgid "library.nav.playlists"
 msgstr "Плейлист"
-
-#: app/views/discover/games/view/_header/_controls.html:32
-msgid "library.playlists.add_to.button"
-msgstr "Додати до плейлиста"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
@@ -2569,7 +2561,7 @@ msgstr[2] "{{ $count | number }} не прочитаних"
 msgstr[3] "{{ $count | number }} не прочитаних"
 
 #: app/views/dashboard/developer/games/manage/manage.html:61
-#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/discover/games/view/_header/_nav.html:37
 #: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
@@ -2783,11 +2775,11 @@ msgstr "Сортувати по"
 msgid "trophies.achieved_tag"
 msgstr "Виконано!"
 
-#: app/components/trophy/completion/completion.html:14
+#: app/components/trophy/completion/completion.html:15
 msgid "trophies.completion.completion_label"
 msgstr "Завершення"
 
-#: app/components/trophy/completion/completion.html:23
+#: app/components/trophy/completion/completion.html:24
 msgid "trophies.completion.exp_gained_label"
 msgstr "Накоплений досвід"
 
@@ -2795,7 +2787,7 @@ msgstr "Накоплений досвід"
 msgid "trophies.completion.lead_html"
 msgstr "Ви отримали <b>{{ achieved | number }}</b> нагород з можливих <b>{{ total | number }}</b>."
 
-#: app/components/trophy/completion/completion.html:29
+#: app/components/trophy/completion/completion.html:30
 msgid "trophies.completion.none_achieved_html"
 msgstr "Ви ще не досягли будь-яких нагород для цієї гри!"
 
@@ -3278,17 +3270,17 @@ msgstr "Гра опублікована {{ date }}"
 msgid "games.list.date_range_page_title"
 msgstr "Гра опублікована між {{ dateStart }} і {{ dateEnd }}"
 
-#: app/views/discover/games/list/category/category-controller.js:108
+#: app/views/discover/games/list/category/category-controller.js:111
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} ігор"
 
 #. {{ category }} is available as the translated category label
-#: app/views/discover/games/list/category/category-controller.js:103
+#: app/views/discover/games/list/category/category-controller.js:106
 msgid "games.list.descriptive_category_other"
 msgstr "альтернативні ігри та інші диватства"
 
 #. {{ category }} is available as the translated category label
-#: app/views/discover/games/list/category/category-controller.js:99
+#: app/views/discover/games/list/category/category-controller.js:102
 msgid "games.list.descriptive_category_rpg"
 msgstr "ролеві ігри"
 
@@ -3993,7 +3985,7 @@ msgstr "Грати в гру."
 msgid "dash.integrate.rated_game_html"
 msgstr "Оцінити і прокоментувати гру."
 
-#: app/views/discover/games/view/overview/_details.html:105
+#: app/views/discover/games/view/overview/_stats.html:43
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Рейтинги зламалися."
 
@@ -4041,11 +4033,7 @@ msgstr "Підписатися."
 msgid "library.collection.unfollow_button_tooltip"
 msgstr "Відписатися від цього плейлиста, щоб видалити його з вашої бібліотеки і припинити отримувати повідомлення."
 
-#: app/views/discover/games/view/_header/_controls.html:9
-msgid "library.followed.follow_game_button"
-msgstr "Підписатися на гру"
-
-#: app/views/discover/games/view/_header/_controls.html:6
+#: app/views/discover/games/view/view-controller.js:17
 msgid "library.followed.follow_game_button_tooltip"
 msgstr "Підписатися на цю гру, щоб додати її в свою бібліотеку і отримувати повідомлення про нові оновлення."
 
@@ -4053,27 +4041,27 @@ msgstr "Підписатися на цю гру, щоб додати її в с�
 msgid "library.followed.remove_game_confirmation"
 msgstr "Ві впевнені, що хочете відмінити підписку на {{ game }}?"
 
+#: app/views/discover/games/view/view-controller.js:114
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
 msgstr "Ой-ой, щось завадило вам скасування підписку на цю гру."
 
+#: app/views/discover/games/view/view-controller.js:115
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "От дідько!"
 
+#: app/views/discover/games/view/view-controller.js:107
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
 msgstr "Ви відписалися від {{ game }} і більше не будете отримувати повідомлення про це."
 
+#: app/views/discover/games/view/view-controller.js:108
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
 msgstr "Ви відписалися від гри"
 
-#: app/views/discover/games/view/_header/_controls.html:19
-msgid "library.followed.unfollow_game_button"
-msgstr "Підписатися"
-
-#: app/views/discover/games/view/_header/_controls.html:16
+#: app/views/discover/games/view/view-controller.js:18
 msgid "library.followed.unfollow_game_button_tooltip"
 msgstr "Відпішіться від цієї гри, щоб мати можливість видалити її з вашої бібліотеки."
 
@@ -4418,14 +4406,6 @@ msgstr "Закінчені"
 msgid "games.filtering.status_wip"
 msgstr "В розробці"
 
-#: app/views/discover/games/view/view.html:42
-msgid "games.view.notifications_news"
-msgid_plural "games.view.notifications_news"
-msgstr[0] "Одна новина"
-msgstr[1] "{{ $count | number }} новини"
-msgstr[2] "{{ $count | number }} новин"
-msgstr[3] "{{ $count | number }} новин"
-
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:20
 msgid "dash.funds.withdraw.amount_help"
 msgstr "Мінімальна сума, яку ви можете зняти в даний час {{ amount | currency:'$' }}."
@@ -4498,7 +4478,7 @@ msgstr "{{ rating }} це число, яким задається оцінка, 
 
 #: app/views/profile/overview/overview.html:127
 msgid "profile.developer_games_teaser_button"
-msgstr "Подивитись все ({{ gamesCount | number }})"
+msgstr "Подивитись всі ({{ gamesCount | number }})"
 
 #: app/views/profile/overview/overview.html:59
 msgid "profile.friend_request_received_pending"
@@ -4836,7 +4816,7 @@ msgstr "Зовнішнє посилання на те, щоб зіграли в 
 msgid "Game does not belong to this developer"
 msgstr "Гра не належить розробнику"
 
-#: app/views/discover/games/view/_header/_nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.report_game_button"
 msgstr "Поскаржитися на гру"
 
@@ -4893,7 +4873,7 @@ msgstr "Профіль або ім'я користувача містить ві
 msgid "profile.report_user_button"
 msgstr "Поскаржитися на користувача"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:137
+#: lib/gj-lib-client/components/comment/widget/comment.html:140
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Поскаржитися на коментар"
@@ -5137,19 +5117,23 @@ msgid "You don't have any builds in this release yet. You won't be able to publi
 msgstr "У вас поки що немає будь-яких білдів. Ви не зможете опублікувати поки ви їх не завантажите."
 
 #: app/components/forms/dashboard/game/build/build-directive.js:217
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:79
 msgid "Game Boy"
 msgstr "Game Boy"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:219
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:81
 msgid "Game Boy Advance"
 msgstr "Game Boy Advance"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:218
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:80
 msgid "Game Boy Color"
 msgstr "Game Boy Color"
 
 #: app/components/forms/dashboard/game/build/build.html:59
 #: app/components/game/filtering/filtering-service.js:27
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:73
 msgid "ROM"
 msgstr "ROM"
 
@@ -5293,11 +5277,11 @@ msgstr "В процесі"
 msgid "There's been an error, and it's of the dubious sort."
 msgstr "Сталася помилка, через сумнівний тип."
 
-#: app/views/discover/games/view/overview/overview-controller.js:163
+#: app/views/discover/games/view/overview/overview-controller.js:152
 msgid "This game has no playable builds yet."
 msgstr "Ця гра ще не має іграбальних білдів."
 
-#: app/views/discover/games/view/overview/overview-controller.js:159
+#: app/views/discover/games/view/overview/overview-controller.js:148
 msgid "This game used to have playable builds but they have been removed."
 msgstr "Ця гра використовує іграбельні білди, але вони були видалені."
 
@@ -5347,1996 +5331,2179 @@ msgstr "Ви знайшли секрет! Але при подальшому о�
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:43
 msgid "({{ price }} or more)"
-msgstr ""
+msgstr "({{ price }} або більше)"
 
 #: app/components/game/filtering/filtering-service.js:15
 msgid "$15 or less"
-msgstr ""
+msgstr "$15 або менше"
 
 #: app/components/game/filtering/filtering-service.js:16
 msgid "$30 or less"
-msgstr ""
+msgstr "$30 або менше"
 
 #: app/components/game/filtering/filtering-service.js:14
 msgid "$5 or less"
-msgstr ""
+msgstr "$5 або менше"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:22
 msgid "Afghanistan"
-msgstr ""
+msgstr "Афганістан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:283
 msgid "Alabama"
-msgstr ""
+msgstr "Алабама"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:23
 msgid "Aland Islands"
-msgstr ""
+msgstr "Аландські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:284
 msgid "Alaska"
-msgstr ""
+msgstr "Аляска"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:24
 msgid "Albania"
-msgstr ""
+msgstr "Албанія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:25
 msgid "Algeria"
-msgstr ""
+msgstr "Алжир"
 
 #: app/views/dashboard/analytics/analytics.html:76
 msgid "All-Time"
-msgstr ""
+msgstr "Весь час"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:26
 #: lib/gj-lib-client/components/geo/geo-service.js:334
 msgid "American Samoa"
-msgstr ""
+msgstr "Американське Самоа"
 
 #: app/views/dashboard/main/purchases/list/list.html:18
 msgid "Amount"
-msgstr ""
+msgstr "Сума"
 
 #: app/views/dashboard/analytics/analytics-controller.js:14
 #: app/views/dashboard/analytics/analytics.html:6
 #: app/views/dashboard/developer/games/manage/packages/edit/edit.html:181
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:117
 msgid "Analytics"
-msgstr ""
+msgstr "Аналітика"
 
 #: lib/gj-lib-client/components/game/package/card/card.html:208
 msgid "And really warm feelings for supporting an indie developer!"
-msgstr ""
+msgstr "І дійсно теплі почуття для підтримки інді-розробників!"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:27
 msgid "Andorra"
-msgstr ""
+msgstr "Андорра"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:28
 msgid "Angola"
-msgstr ""
+msgstr "Ангола"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:29
 msgid "Anguilla"
-msgstr ""
+msgstr "Ангілья"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:30
 msgid "Antarctica"
-msgstr ""
+msgstr "Антарктида"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:31
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Антигуа і Барбуда"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:32
 msgid "Argentina"
-msgstr ""
+msgstr "Аргентина"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:285
 msgid "Arizona"
-msgstr ""
+msgstr "Арізона"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:286
 msgid "Arkansas"
-msgstr ""
+msgstr "Арканзас"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:33
 msgid "Armenia"
-msgstr ""
+msgstr "Вірменія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:34
 msgid "Aruba"
-msgstr ""
+msgstr "Аруба"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:35
 msgid "Australia"
-msgstr ""
+msgstr "Австралія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:36
 msgid "Austria"
-msgstr ""
+msgstr "Австрія"
 
 #: app/views/dashboard/account/account.html:34
 #: app/views/dashboard/account/mobile-nav.html:15
 msgid "Avatar"
-msgstr ""
+msgstr "Аватар"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:37
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Азербайджан"
 
 #: app/views/dashboard/account/account.html:4
 msgid "Back to Account"
-msgstr ""
+msgstr "Повернутися до аккаунту"
 
 #: app/views/library/collection/collection.html:4
 msgid "Back to Game Library"
-msgstr ""
+msgstr "Повернутися до бібліотеки"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:38
 msgid "Bahamas"
-msgstr ""
+msgstr "Багамські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:39
 msgid "Bahrain"
-msgstr ""
+msgstr "Бахрейн"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:82
 msgid "Balance:"
-msgstr ""
+msgstr "Баланс:"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:40
 msgid "Bangladesh"
-msgstr ""
+msgstr "Бангладеш"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:41
 msgid "Barbados"
-msgstr ""
+msgstr "Барбадос"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:190
 msgid "Because of international tax laws, we are required to collect this information."
-msgstr ""
+msgstr "Через міжнародного податкове законодавство, ми зобов'язані збирати цю інформацію."
 
 #: app/components/forms/dashboard/financials/financials.html:7
 msgid "Before you can start selling your games, we'll need to gather some details from you. This will ensure that your account is completely set up and ready to run smoothly on the Game Jolt Marketplace."
-msgstr ""
+msgstr "Перед тим як ви зможете почати продавати свої ігри, ми повинні зібрати деякі деталі від вас. Це буде гарантувати, що ваш аккаунт повністю налаштований і готов працювати безперебійно на Gamejolt Marketplace."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:42
 msgid "Belarus"
-msgstr ""
+msgstr "Білорусь"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:43
 msgid "Belgium"
-msgstr ""
+msgstr "Бельгія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:44
 msgid "Belize"
-msgstr ""
+msgstr "Беліз"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:45
 msgid "Benin"
-msgstr ""
+msgstr "Бенін"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:46
 msgid "Bermuda"
-msgstr ""
+msgstr "Бермудські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:47
 msgid "Bhutan"
-msgstr ""
+msgstr "Бутан"
 
 #: app/views/dashboard/main/purchases/view/view.html:24
 msgid "Billing"
-msgstr ""
+msgstr "Біллінг"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:48
 msgid "Bolivia"
-msgstr ""
+msgstr "Болівія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:49
 msgid "Bonaire, Saint Eustatius and Saba"
-msgstr ""
+msgstr "Бонайре, Сінт-Естатіус і Саба"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:50
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Боснія і Герцеговина"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:51
 msgid "Botswana"
-msgstr ""
+msgstr "Ботсвана"
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:12
 msgid "bought a package in <strong>{{ object }}</strong> for <strong>{{ amount }}</strong>."
-msgstr ""
+msgstr "купив збірку в <strong>{{ object }}</strong> для<strong>{{ amount }}</strong>."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:52
 msgid "Bouvet Island"
-msgstr ""
+msgstr "Острів Буве"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:53
 msgid "Brazil"
-msgstr ""
+msgstr "Бразилія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:54
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Британська територія в Індійському океані"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:55
 msgid "British Virgin Islands"
-msgstr ""
+msgstr "Британські Віргінські острови"
 
 #: app/views/discover/home/home.html:64
 msgid "Browse by Genre"
-msgstr ""
+msgstr "Пошук за жанром"
 
 #: app/components/forms/dashboard/game/release/release.html:85
 msgid "Browser builds can not currently be uploaded to games that are for sale."
-msgstr ""
+msgstr "Білд браузера наразі не може завантажити ігри, які призначені для продажу."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:56
 msgid "Brunei"
-msgstr ""
+msgstr "Бруней"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:57
 msgid "Bulgaria"
-msgstr ""
+msgstr "Болгарія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:58
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Буркіна-Фасо"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:59
 msgid "Burundi"
-msgstr ""
+msgstr "Бурунді"
 
 #: app/components/game/cover/buttons/buttons.html:14
 msgid "Buy Game"
-msgstr ""
+msgstr "Купити гру"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:273
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:281
 msgid "Buy Using Wallet"
-msgstr ""
+msgstr "Купити за допомогою Гаманця"
 
 #: app/components/discover/home/featured/hero.html:16
 #: app/views/dashboard/main/purchases/view/view.html:133
+#: app/views/discover/games/view/view.html:44
 #: app/views/library/collection/_header-default.html:81
 #: checkout/views/checkout/checkout.html:14
 msgid "by"
-msgstr ""
+msgstr "по"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:287
 msgid "California"
-msgstr ""
+msgstr "Каліфорнія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:60
 msgid "Cambodia"
-msgstr ""
+msgstr "Камбоджа"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:61
 msgid "Cameroon"
-msgstr ""
+msgstr "Камерун"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:62
 msgid "Canada"
-msgstr ""
+msgstr "Канада"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:63
 msgid "Cape Verde"
-msgstr ""
+msgstr "Кабо-Верде"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:172
 msgid "Card"
-msgstr ""
+msgstr "Карта"
 
 #: checkout/components/forms/payment/payment.html:67
 msgid "card expiration"
-msgstr ""
+msgstr "дія карти"
 
 #: checkout/components/forms/payment/payment.html:51
 #: checkout/components/forms/payment/payment.html:55
 msgid "card number"
-msgstr ""
+msgstr "номер карти"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:64
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Кайманові острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:65
 msgid "Central African Republic"
-msgstr ""
+msgstr "Центрально-Африканська Республіка"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:66
 msgid "Chad"
-msgstr ""
+msgstr "Чад"
 
 #: app/components/forms/dashboard/financials/financials.html:82
 msgid "Change PayPal Account"
-msgstr ""
+msgstr "Змінити PayPal аккаунт"
 
 #: app/components/forms/dashboard/game/package/package.html:73
 msgid "Charge a specific price with the ability for them to pay more."
-msgstr ""
+msgstr "Зробіть так, щоб покупці могли заплатити більше."
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:63
 msgid "Checkout with:"
-msgstr ""
+msgstr "Договір з:"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:67
 msgid "Chile"
-msgstr ""
+msgstr "Чілі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:68
 msgid "China"
-msgstr ""
+msgstr "Китай"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:69
 msgid "Christmas Island"
-msgstr ""
+msgstr "Острів Різдва"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:70
 msgid "Cocos Islands"
-msgstr ""
+msgstr "Кокосові острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:71
 msgid "Colombia"
-msgstr ""
+msgstr "Колумбія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:288
 msgid "Colorado"
-msgstr ""
+msgstr "Колорадо"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:72
 msgid "Comoros"
-msgstr ""
+msgstr "Коморські острови"
 
 #: app/components/forms/dashboard/game/package/package.html:57
 msgid "Completely free with no option to pay at all."
-msgstr ""
+msgstr "Абсолютно безкоштовно без можливості заплатити взагалі."
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:14
 msgid "Configure"
-msgstr ""
+msgstr "Конфігурувати"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:289
 msgid "Connecticut"
-msgstr ""
+msgstr "Коннектикут"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:73
 msgid "Cook Islands"
-msgstr ""
+msgstr "Острови Кука"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:74
 msgid "Costa Rica"
-msgstr ""
+msgstr "Коста-Ріка"
 
 #: lib/gj-lib-client/components/game/downloader/downloader-service.js:60
 msgid "Could not get download URL."
-msgstr ""
+msgstr "URL завантаження не вдалося."
 
 #: checkout/components/forms/payment/payment.html:108
 msgid "country"
-msgstr ""
+msgstr "країна"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:195
 msgid "Country"
-msgstr ""
+msgstr "Країна"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:75
 msgid "Croatia"
-msgstr ""
+msgstr "Хорватія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:76
 msgid "Cuba"
-msgstr ""
+msgstr "Куба"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:77
 msgid "Curacao"
-msgstr ""
+msgstr "Кюрасао"
 
 #: app/components/forms/dashboard/financials/financials.html:72
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:12
 msgid "Current PayPal Account"
-msgstr ""
+msgstr "Поточний PayPal аккаунт"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:78
 msgid "Cyprus"
-msgstr ""
+msgstr "Кіпр"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:79
 msgid "Czech Republic"
-msgstr ""
+msgstr "Чехія"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:25
 msgid "Dark"
-msgstr ""
+msgstr "Темна"
 
 #: app/components/forms/dashboard/game/build/_build.html:63
 msgid "dash.games.builds.form.applet_help"
-msgstr ""
+msgstr "dash.games.builds.form.applet_help"
 
 #: app/components/forms/dashboard/game/build/_build.html:171
 msgid "dash.games.builds.form.browser_ads_alert"
-msgstr ""
+msgstr "dash.games.builds.form.browser_ads_alert"
 
 #: app/components/forms/dashboard/game/build/_build.html:30
 msgid "dash.games.builds.form.browser_label"
-msgstr ""
+msgstr "dash.games.builds.form.browser_label"
 
 #: app/components/forms/dashboard/game/build/_build.html:22
 msgid "dash.games.builds.form.browser_tab"
-msgstr ""
+msgstr "dash.games.builds.form.browser_tab"
 
 #: app/components/forms/dashboard/game/build/_build.html:148
 msgid "dash.games.builds.form.class_name_label"
-msgstr ""
+msgstr "dash.games.builds.form.class_name_label"
 
 #: app/components/forms/dashboard/game/build/_build.html:17
 msgid "dash.games.builds.form.downloadable_tab"
-msgstr ""
+msgstr "dash.games.builds.form.downloadable_tab"
 
 #: app/components/forms/dashboard/game/build/_build.html:77
 msgid "dash.games.builds.form.file_help_html"
-msgstr ""
+msgstr "dash.games.builds.form.file_help_html"
 
 #: app/components/forms/dashboard/game/build/_build.html:79
 msgid "dash.games.builds.form.file_html_help_html"
-msgstr ""
+msgstr "dash.games.builds.form.file_html_help_html"
 
 #: app/components/forms/dashboard/game/build/_build.html:75
 msgid "dash.games.builds.form.file_label"
-msgstr ""
+msgstr "dash.games.builds.form.file_label"
 
 #: app/components/forms/dashboard/game/build/_build.html:49
 msgid "dash.games.builds.form.flash_help"
-msgstr ""
+msgstr "dash.games.builds.form.flash_help"
 
 #: app/components/forms/dashboard/game/build/_build.html:35
 msgid "dash.games.builds.form.html_help"
-msgstr ""
+msgstr "dash.games.builds.form.html_help"
 
 #: app/components/forms/dashboard/game/build/_build.html:95
 msgid "dash.games.builds.form.platforms_label"
-msgstr ""
+msgstr "dash.games.builds.form.platforms_label"
 
 #: app/components/forms/dashboard/game/build/_build.html:184
 msgid "dash.games.builds.form.save_build_button"
-msgstr ""
+msgstr "dash.games.builds.form.save_build_button"
 
 #: app/components/forms/dashboard/game/build/_build.html:56
 msgid "dash.games.builds.form.silverlight_help"
-msgstr ""
+msgstr "dash.games.builds.form.silverlight_help"
 
 #: app/components/forms/dashboard/game/build/_build.html:42
 msgid "dash.games.builds.form.unity_help"
-msgstr ""
+msgstr "dash.games.builds.form.unity_help"
 
 #: app/components/forms/dashboard/game/build/_build.html:183
 msgid "dash.games.builds.form.upload_build_button"
-msgstr ""
+msgstr "dash.games.builds.form.upload_build_button"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:290
 msgid "Delaware"
-msgstr ""
+msgstr "Делавер"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:80
 msgid "Democratic Republic of the Congo"
-msgstr ""
+msgstr "Демократична Республіка Конго"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:81
 msgid "Denmark"
-msgstr ""
+msgstr "Данія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:82
 msgid "Djibouti"
-msgstr ""
+msgstr "Джібуті"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:83
 msgid "Dominica"
-msgstr ""
+msgstr "Домініка"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:84
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Домініканська республіка"
 
 #: app/views/dashboard/analytics/analytics-controller.js:27
 msgid "Downloads"
-msgstr ""
+msgstr "Завантаження"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:85
 msgid "East Timor"
-msgstr ""
+msgstr "Східний Тимор"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:86
 msgid "Ecuador"
-msgstr ""
+msgstr "Еквадор"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/edit.html:30
 msgid "Edit Package"
-msgstr ""
+msgstr "Редагувати збірку"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:87
 msgid "Egypt"
-msgstr ""
+msgstr "Єгипет"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:88
 msgid "El Salvador"
-msgstr ""
+msgstr "Сальвадор"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:58
 msgid "email address"
-msgstr ""
+msgstr "адреса електронної пошти"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:55
 msgid "Email Address:"
-msgstr ""
+msgstr "Адреса електронної пошти:"
 
 #: app/views/dashboard/account/account.html:44
 #: app/views/dashboard/account/mobile-nav.html:21
 msgid "Email Preferences"
-msgstr ""
+msgstr "Налаштування електронної пошти"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:38
 msgid "Embed Code"
-msgstr ""
+msgstr "Код для вставки"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:89
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Екваторіальна Гвінея"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:90
 msgid "Eritrea"
-msgstr ""
+msgstr "Еритрея"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:91
 msgid "Estonia"
-msgstr ""
+msgstr "Естонія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:92
 msgid "Ethiopia"
-msgstr ""
+msgstr "Ефіопія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:93
 msgid "Falkland Islands"
-msgstr ""
+msgstr "Фолклендські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:94
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Фарерські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:95
 msgid "Fiji"
-msgstr ""
+msgstr "Фіджі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:96
 msgid "Finland"
-msgstr ""
+msgstr "Фінляндія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:291
 msgid "Florida"
-msgstr ""
+msgstr "Флорида"
 
 #: app/views/dashboard/analytics/analytics-controller.js:47
 msgid "Follows"
-msgstr ""
+msgstr "Слідкують"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:9
 msgid "For purchases made by Game Jolt members, your game will automatically appear in their Game Library."
-msgstr ""
+msgstr "Після купівлі користувачами Gamejolt, ваша гра буде автоматично з'являтися в їх бібліотеці ігор."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:97
 msgid "France"
-msgstr ""
+msgstr "Франція"
 
 #: app/components/discover/home/featured/hero.html:36
 #: app/components/forms/dashboard/game/package/package.html:56
 #: app/components/game/thumbnail/thumbnail.html:41
 msgid "Free"
-msgstr ""
+msgstr "Безкоштовно"
 
 #: app/components/game/filtering/filtering-service.js:12
 msgid "Free / Name Your Price"
-msgstr ""
+msgstr "Безкоштовно / Ціна"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:98
 msgid "French Guiana"
-msgstr ""
+msgstr "Французька Гвіана"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:99
 msgid "French Polynesia"
-msgstr ""
+msgstr "Французька Полінезія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:100
 msgid "French Southern Territories"
-msgstr ""
+msgstr "Французькі Південні Території"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:101
 msgid "Gabon"
-msgstr ""
+msgstr "Габон"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:102
 msgid "Gambia"
-msgstr ""
+msgstr "Гамбія"
 
 #: app/views/dashboard/analytics/analytics.html:17
 msgid "Game"
-msgstr ""
+msgstr "Гра"
 
 #: app/components/game/collection/grid/grid.html:24
 #: app/views/library/collection/_header-default.html:79
 msgid "Games Owned"
-msgstr ""
+msgstr "Ігри належать"
 
 #: app/views/library/collection/collection-controller.js:106
 msgid "Games Owned by {{ user }}"
-msgstr ""
+msgstr "Ігри належать {{ user }}"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:103
 #: lib/gj-lib-client/components/geo/geo-service.js:292
 msgid "Georgia"
-msgstr ""
+msgstr "Грузія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:104
 msgid "Germany"
-msgstr ""
+msgstr "Німеччина"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:55
 msgid "Get emails when someone buys your games."
-msgstr ""
+msgstr "Отримуйте електронні повідомлення, коли хтось купує ваші гри."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:105
 msgid "Ghana"
-msgstr ""
+msgstr "Гана"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:106
 msgid "Gibraltar"
-msgstr ""
+msgstr "Гіблартар"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:238
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:242
 msgid "Go back"
-msgstr ""
+msgstr "Повернутися"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:107
 msgid "Greece"
-msgstr ""
+msgstr "Греція"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:108
 msgid "Greenland"
-msgstr ""
+msgstr "Гренландія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:109
 msgid "Grenada"
-msgstr ""
+msgstr "Гренада"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:110
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Гваделупа"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:111
 #: lib/gj-lib-client/components/geo/geo-service.js:335
 msgid "Guam"
-msgstr ""
+msgstr "Гуам"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:112
 msgid "Guatemala"
-msgstr ""
+msgstr "Гватемала"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:113
 msgid "Guernsey"
-msgstr ""
+msgstr "Генсі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:114
 msgid "Guinea"
-msgstr ""
+msgstr "Гвінея"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:115
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Гвінея-Бісау"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:116
 msgid "Guyana"
-msgstr ""
+msgstr "Гайана"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:117
 msgid "Haiti"
-msgstr ""
+msgstr "Гаїті"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:293
 msgid "Hawaii"
-msgstr ""
+msgstr "Гаваї"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:118
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Острів Херд і острови Макдональд"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:119
 msgid "Honduras"
-msgstr ""
+msgstr "Гондурас"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:120
 msgid "Hong Kong"
-msgstr ""
+msgstr "Гонконг"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:121
 msgid "Hungary"
-msgstr ""
+msgstr "Угорщина"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:122
 msgid "Iceland"
-msgstr ""
+msgstr "Ісландія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:294
 msgid "Idaho"
-msgstr ""
+msgstr "Айдахо"
 
 #: app/components/forms/dashboard/financials/financials.html:141
 msgid "If you'd like, you can set an amount below, and we will not make monthly deposits into your PayPal account until your revenue reaches this amount."
-msgstr ""
+msgstr "Якщо хочете, ви можете встановити певну суму нижче якої ми не будемо переводити кошти щомісячні на ваш рахунок PayPal, поки ваш дохід не досягне цієї суми."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:295
 msgid "Illinois"
-msgstr ""
+msgstr "Іллінойс"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:123
 msgid "India"
-msgstr ""
+msgstr "Індія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:296
 msgid "Indiana"
-msgstr ""
+msgstr "Індіана"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:124
 msgid "Indonesia"
-msgstr ""
+msgstr "Індонезія"
 
 #: app/views/dashboard/analytics/analytics-controller.js:32
 msgid "Installs"
-msgstr ""
+msgstr "Встановлено"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:297
 msgid "Iowa"
-msgstr ""
+msgstr "Айова"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:125
 msgid "Iran"
-msgstr ""
+msgstr "Іран"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:126
 msgid "Iraq"
-msgstr ""
+msgstr "Ірак"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:127
 msgid "Ireland"
-msgstr ""
+msgstr "Ірландія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:128
 msgid "Isle of Man"
-msgstr ""
+msgstr "Острів Мен"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:129
 msgid "Israel"
-msgstr ""
+msgstr "Ізраїль"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:130
 msgid "Italy"
-msgstr ""
+msgstr "Італія"
 
 #: app/views/dashboard/main/purchases/list/list.html:16
 msgid "Item(s)"
-msgstr ""
+msgstr "предмет(и)"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:131
 msgid "Ivory Coast"
-msgstr ""
+msgstr "Кот-д'Івуар"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:132
 msgid "Jamaica"
-msgstr ""
+msgstr "Ямайка"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:133
 msgid "Japan"
-msgstr ""
+msgstr "Японія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:134
 msgid "Jersey"
-msgstr ""
+msgstr "Джерсі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:135
 msgid "Jordan"
-msgstr ""
+msgstr "Йордан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:298
 msgid "Kansas"
-msgstr ""
+msgstr "Канзас"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:136
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Казахстан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:299
 msgid "Kentucky"
-msgstr ""
+msgstr "Кентуккі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:137
 msgid "Kenya"
-msgstr ""
+msgstr "Кенія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:138
 msgid "Kiribati"
-msgstr ""
+msgstr "Кірібаті"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:139
 msgid "Kosovo"
-msgstr ""
+msgstr "Косово"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:140
 msgid "Kuwait"
-msgstr ""
+msgstr "Кювейт"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:141
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Кіргизстан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:142
 msgid "Laos"
-msgstr ""
+msgstr "Лаос"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:143
 msgid "Latvia"
-msgstr ""
+msgstr "Латвія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:144
 msgid "Lebanon"
-msgstr ""
+msgstr "Ліван"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:145
 msgid "Lesotho"
-msgstr ""
+msgstr "Лесото"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:146
 msgid "Liberia"
-msgstr ""
+msgstr "Ліберія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:147
 msgid "Libya"
-msgstr ""
+msgstr "Лівія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:148
 msgid "Liechtenstein"
-msgstr ""
+msgstr "ЛІхтенштейн"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:31
 msgid "Light"
-msgstr ""
+msgstr "Світла"
 
 #: app/components/forms/dashboard/financials/financials.html:81
 msgid "Link PayPal Account"
-msgstr ""
+msgstr "Посилання на PayPal аккаунт"
 
 #: app/views/dashboard/account/account.html:39
 #: app/views/dashboard/account/mobile-nav.html:18
 msgid "Linked Accounts"
-msgstr ""
+msgstr "Посилання на аккаунт"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:149
 msgid "Lithuania"
-msgstr ""
+msgstr "Литва"
 
 #: app/views/discover/home/home.html:108
 msgid "Load More"
-msgstr ""
+msgstr "Ще завантажується"
 
 #: app/components/shell/account-popover/account-popover.html:74
 msgid "Loading..."
-msgstr ""
+msgstr "Завантаження..."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:300
 msgid "Louisiana"
-msgstr ""
+msgstr "Луїзіана"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:150
 msgid "Luxembourg"
-msgstr ""
+msgstr "Люксембург"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:151
 msgid "Macao"
-msgstr ""
+msgstr "Макао"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:152
 msgid "Macedonia"
-msgstr ""
+msgstr "Македонія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:153
 msgid "Madagascar"
-msgstr ""
+msgstr "Мадагаскар"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:301
 msgid "Maine"
-msgstr ""
+msgstr "Мейн"
 
 #: app/components/forms/dashboard/game/package/package.html:123
 msgid "Make this package the primary package"
-msgstr ""
+msgstr "Зробити цю збірку першою"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:154
 msgid "Malawi"
-msgstr ""
+msgstr "Малаві"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:155
 msgid "Malaysia"
-msgstr ""
+msgstr "Малайзія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:156
 msgid "Maldives"
-msgstr ""
+msgstr "Мальдіви"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:157
 msgid "Mali"
-msgstr ""
+msgstr "Малі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:158
 msgid "Malta"
-msgstr ""
+msgstr "Мальта"
 
 #: app/views/dashboard/account/account.html:54
 #: app/views/dashboard/account/financials/financials-controller.js:3
 #: app/views/dashboard/account/financials/financials-controller.js:5
 #: app/views/dashboard/account/mobile-nav.html:27
 msgid "Marketplace Account Setup"
-msgstr ""
+msgstr "Налаштування Marketplace аккаунту"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:159
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Маршаллові острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:160
 msgid "Martinique"
-msgstr ""
+msgstr "Мартиніка"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:302
 msgid "Maryland"
-msgstr ""
+msgstr "Меріленд"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:303
 msgid "Massachusetts"
-msgstr ""
+msgstr "Массачусетс"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:161
 msgid "Mauritania"
-msgstr ""
+msgstr "Мавританія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:162
 msgid "Mauritius"
-msgstr ""
+msgstr "Маврикій"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:163
 msgid "Mayotte"
-msgstr ""
+msgstr "Майотта"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:164
 msgid "Mexico"
-msgstr ""
+msgstr "Мексика"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:304
 msgid "Michigan"
-msgstr ""
+msgstr "Мічиган"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:165
 msgid "Micronesia"
-msgstr ""
+msgstr "Мікронезія"
 
 #: app/components/forms/dashboard/financials/financials.html:139
 msgid "Minimum Payout"
-msgstr ""
+msgstr "Мінімальна виплата"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:305
 msgid "Minnesota"
-msgstr ""
+msgstr "Міннесота"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:306
 msgid "Mississippi"
-msgstr ""
+msgstr "Міссісіпі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:307
 msgid "Missouri"
-msgstr ""
+msgstr "Міссурі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:166
 msgid "Moldova"
-msgstr ""
+msgstr "Молдова"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:167
 msgid "Monaco"
-msgstr ""
+msgstr "Монако"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:168
 msgid "Mongolia"
-msgstr ""
+msgstr "Монголія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:308
 msgid "Montana"
-msgstr ""
+msgstr "Монтана"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:169
 msgid "Montenegro"
-msgstr ""
+msgstr "Монтенегро"
 
 #: app/views/dashboard/analytics/analytics.html:84
 msgid "Monthly"
-msgstr ""
+msgstr "Шомісяця"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:170
 msgid "Montserrat"
-msgstr ""
+msgstr "Монсеррат"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:171
 msgid "Morocco"
-msgstr ""
+msgstr "Марокко"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:172
 msgid "Mozambique"
-msgstr ""
+msgstr "Мозамбік"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:173
 msgid "Myanmar"
-msgstr ""
+msgstr "М'янма"
 
 #: checkout/components/forms/payment/payment.html:41
 #: checkout/components/forms/payment/payment.html:45
 msgid "name on card"
-msgstr ""
+msgstr "ім'я картки"
 
 #: app/components/game/thumbnail/thumbnail.html:38
 msgid "name your price"
-msgstr ""
+msgstr "назви свою ціну"
 
 #: app/components/discover/home/featured/hero.html:33
 msgid "Name Your Price"
-msgstr ""
+msgstr "Назви свою ціну"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:30
 msgid "Name your price:"
-msgstr ""
+msgstr "Назви свою ціну:"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:174
 msgid "Namibia"
-msgstr ""
+msgstr "Намібія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:175
 msgid "Nauru"
-msgstr ""
+msgstr "Науру"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:309
 msgid "Nebraska"
-msgstr ""
+msgstr "Небраска"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:176
 msgid "Nepal"
-msgstr ""
+msgstr "Непал"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:177
 msgid "Netherlands"
-msgstr ""
+msgstr "Нідерланди"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:310
 msgid "Nevada"
-msgstr ""
+msgstr "Невада"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:178
 msgid "New Caledonia"
-msgstr ""
+msgstr "Нова Каледонія"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:171
 msgid "New Card"
-msgstr ""
+msgstr "Нова картка"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:311
 msgid "New Hampshire"
-msgstr ""
+msgstr "Нью-Гемпшир"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:312
 msgid "New Jersey"
-msgstr ""
+msgstr "Нью Джерсі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:313
 msgid "New Mexico"
-msgstr ""
+msgstr "Нью-Мексико"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:314
 msgid "New York"
-msgstr ""
+msgstr "Нью-Йорк"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:179
 msgid "New Zealand"
-msgstr ""
+msgstr "Нова Зеландія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:180
 msgid "Nicaragua"
-msgstr ""
+msgstr "Нікарагуа"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:181
 msgid "Niger"
-msgstr ""
+msgstr "Нігер"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:182
 msgid "Nigeria"
-msgstr ""
+msgstr "Нігерія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:183
 msgid "Niue"
-msgstr ""
+msgstr "Niue"
 
 #: app/views/dashboard/analytics/_report/simple-stat.html:3
 #: app/views/dashboard/analytics/_report/top-composition.html:6
 msgid "No data yet."
-msgstr ""
+msgstr "Даних поки що немає."
 
 #: app/views/discover/games/list/category/category.html:2
 #: app/views/library/collection/collection.html:119
 msgid "No games match your filters. <b>Zoinks!</b>"
-msgstr ""
+msgstr "Ігри не відповідають вашим фільтрам. <b>Zoinks!</b>"
 
 #: lib/gj-lib-client/components/game/package/card/card.html:144
 msgid "No thanks, just install it."
-msgstr ""
+msgstr "Ні, дякую, просто встановіть."
 
 #: lib/gj-lib-client/components/game/package/card/card.html:143
 msgid "No thanks, take to me to the download."
-msgstr ""
+msgstr "Ні, дякую, просто завантажити."
 
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:86
 msgid "None"
-msgstr ""
+msgstr "Жоден"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:184
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Острів Норфолк"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:315
 msgid "North Carolina"
-msgstr ""
+msgstr "Північна Кароліна"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:316
 msgid "North Dakota"
-msgstr ""
+msgstr "Північна Дакота"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:185
 msgid "North Korea"
-msgstr ""
+msgstr "Північна Корея"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:186
 #: lib/gj-lib-client/components/geo/geo-service.js:336
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Північні Маріанські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:187
 msgid "Norway"
-msgstr ""
+msgstr "Норвегія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:317
 msgid "Ohio"
-msgstr ""
+msgstr "Огайо"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:318
 msgid "Oklahoma"
-msgstr ""
+msgstr "Оклахома"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:188
 msgid "Oman"
-msgstr ""
+msgstr "Оман"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:161
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:94
 msgid "or"
-msgstr ""
+msgstr "або"
 
 #: app/views/dashboard/main/purchases/list/list.html:15
 #: app/views/dashboard/main/purchases/view/view.html:12
 msgid "Order #"
-msgstr ""
+msgstr "Замовлення #"
 
 #: app/views/dashboard/main/purchases/view/view.html:4
 msgid "Order Details"
-msgstr ""
+msgstr "Деталі замовлення"
 
 #: app/views/dashboard/main/purchases/list/list-controller.js:3
 msgid "Order History"
-msgstr ""
+msgstr "Історія замовлень"
 
 #: app/views/dashboard/main/purchases/view/view.html:7
 msgid "Ordered on"
-msgstr ""
+msgstr "Замовлений на"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:319
 msgid "Oregon"
-msgstr ""
+msgstr "Орегон"
 
 #: app/views/dashboard/main/main.html:21
 msgid "Overview"
-msgstr ""
+msgstr "Огляд"
 
 #: app/components/discover/home/featured/hero.html:40
 #: app/components/game/thumbnail/thumbnail.html:46
 msgid "Owned"
-msgstr ""
+msgstr "Куплені"
 
 #: app/components/game/collection/grid/grid.html:26
 #: app/components/game/collection/thumbnail/thumbnail.html:8
 #: app/views/library/library.html:29
 msgid "Owned Games"
-msgstr ""
+msgstr "Куплені ігри"
 
 #: app/views/dashboard/analytics/analytics.html:28
 msgid "Package"
-msgstr ""
+msgstr "Збірка"
 
 #: app/components/forms/dashboard/game/package/package.html:49
 msgid "Packages with browser builds cannot be sold at this time."
-msgstr ""
+msgstr "Збірки для браузерів поки що не можна продавати."
 
 #: app/components/forms/dashboard/game/package/package.html:72
 #: app/components/game/filtering/filtering-service.js:13
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:93
 msgid "Paid"
-msgstr ""
+msgstr "Оплачені"
 
 #: app/views/discover/home/home.html:75
 msgid "Paid Games"
-msgstr ""
+msgstr "Оплачені ігри"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:189
 msgid "Pakistan"
-msgstr ""
+msgstr "Пакистан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:190
 msgid "Palau"
-msgstr ""
+msgstr "Палау"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:191
 msgid "Palestinian Territory"
-msgstr ""
+msgstr "Палестинська територія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:192
 msgid "Panama"
-msgstr ""
+msgstr "Панама"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:193
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Папуа-Нова Гвінея"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:194
 msgid "Paraguay"
-msgstr ""
+msgstr "Парагвай"
 
 #: app/views/dashboard/account/account.html:49
 #: app/views/dashboard/account/mobile-nav.html:24
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: app/components/forms/dashboard/game/package/package.html:64
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:78
 msgid "Pay What You Want"
-msgstr ""
+msgstr "Заплати якщо хочеш"
 
 #: app/views/dashboard/main/purchases/view/view.html:58
 msgid "Payment"
-msgstr ""
+msgstr "Заплатити"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:179
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: app/components/forms/dashboard/financials/financials.html:64
 msgid "PayPal Account"
-msgstr ""
+msgstr "PayPal аккаунт"
 
 #: app/views/dashboard/main/overview/overview.html:41
 msgid "Pending Revenue"
-msgstr ""
+msgstr "Дохід в очікуванні"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:320
 msgid "Pennsylvania"
-msgstr ""
+msgstr "Пенсільванія"
 
 #: app/components/forms/dashboard/financials/financials.html:88
 msgid "Percentage Split"
-msgstr ""
+msgstr "Відсоток"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:195
 msgid "Peru"
-msgstr ""
+msgstr "Перу"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:196
 msgid "Philippines"
-msgstr ""
+msgstr "Філіппіни"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:197
 msgid "Pitcairn"
-msgstr ""
+msgstr "Піткерн"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:198
 msgid "Poland"
-msgstr ""
+msgstr "Польща"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:199
 msgid "Portugal"
-msgstr ""
+msgstr "Португалія"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:47
 msgid "price"
-msgstr ""
+msgstr "ціна"
 
 #: app/components/game/filtering/filtering-service.js:9
 #: app/components/game/filtering/widget.html:5
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:96
 msgid "Price"
-msgstr ""
+msgstr "Ціна"
 
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:72
 msgid "Primary Package"
-msgstr ""
+msgstr "Перша збірка"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:248
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:252
 msgid "Proceed to PayPal"
-msgstr ""
+msgstr "Перейдіть до PayPal"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:21
 msgid "Processing order. Gonna be rad!"
-msgstr ""
+msgstr "Обробка замовлення. Повинно бути все добре!"
 
 #: app/views/dashboard/account/account.html:29
 #: app/views/dashboard/account/mobile-nav.html:12
 msgid "Profile"
-msgstr ""
+msgstr "Профіль"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:200
 #: lib/gj-lib-client/components/geo/geo-service.js:337
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Пуерто-Ріко"
 
 #: app/views/dashboard/main/purchases/list/list.html:17
 msgid "Purchase Date"
-msgstr ""
+msgstr "Дата покупки"
 
 #: app/views/dashboard/main/main.html:26
 msgid "Purchases"
-msgstr ""
+msgstr "Покупки"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:11
 msgid "Purchases made by folks who aren't members or signed into Game Jolt will be emailed a link to a game key page; all future updates you make to your games will be retrievable through this same page."
-msgstr ""
+msgstr "Покупки, які зробили люди, які не є користувачами або не увійшли в Game Jolt отримають посилання на ключ від гри через електронну пошту; всі майбутні оновлення внесені в ваші ігри будуть відправлятися через цю ж сторінку."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:201
 msgid "Qatar"
-msgstr ""
+msgstr "Катар"
 
 #: app/views/dashboard/analytics/analytics-controller.js:42
 msgid "Ratings"
-msgstr ""
+msgstr "Рейтинги"
 
 #: app/views/dashboard/main/purchases/list/list.html:37
 #: app/views/dashboard/main/purchases/view/view.html:113
 msgid "Refunded"
-msgstr ""
+msgstr "Повернено"
 
 #: app/views/dashboard/analytics/analytics.html:39
 msgid "Release"
-msgstr ""
+msgstr "Реліз"
 
 #: checkout/components/forms/payment/payment.html:98
 msgid "Remember card?"
-msgstr ""
+msgstr "Запам'ятати картку?"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:202
 msgid "Republic of the Congo"
-msgstr ""
+msgstr "Республіка Конго"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:203
 msgid "Reunion"
-msgstr ""
+msgstr "Реюньон"
 
 #: app/views/dashboard/main/overview/overview.html:34
 msgid "Revenue To Date"
-msgstr ""
+msgstr "Дохід по датам"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:321
 msgid "Rhode Island"
-msgstr ""
+msgstr "Род-Айленд"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:204
 msgid "Romania"
-msgstr ""
+msgstr "Румунія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:205
 msgid "Russia"
-msgstr ""
+msgstr "Росія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:206
 msgid "Rwanda"
-msgstr ""
+msgstr "Руанда"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:207
 msgid "Saint Barthelemy"
-msgstr ""
+msgstr "Сен-Бартельмі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:208
 msgid "Saint Helena"
-msgstr ""
+msgstr "Острови Святої Єлени"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:209
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "Сент-Кітс і Невіс"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:210
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Сент-Люсія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:211
 msgid "Saint Martin"
-msgstr ""
+msgstr "Сен-Мартен"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:212
 msgid "Saint Pierre and Miquelon"
-msgstr ""
+msgstr "Сен-П'єр і Мікелон"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:213
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "Сент-Вінсент і Гренадіни"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/edit.html:35
 msgid "Sale Widget"
-msgstr ""
+msgstr "Продаж віджета"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences-directive.js:54
 #: app/views/dashboard/activity/list/list-controller.js:53
 #: app/views/dashboard/analytics/analytics-controller.js:55
 msgid "Sales"
-msgstr ""
+msgstr "Продажі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:214
 msgid "Samoa"
-msgstr ""
+msgstr "Самоа"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:215
 msgid "San Marino"
-msgstr ""
+msgstr "Сан-Маріно"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:216
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "Сан-Томе і Принсіпі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:217
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Саудівська Аравія"
 
 #: app/components/forms/dashboard/financials/financials.html:179
 msgid "Save"
-msgstr ""
+msgstr "Зберегти"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:110
 msgid "Saved Card"
-msgstr ""
+msgstr "Зберегти карту"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:130
 msgid "Select another card"
-msgstr ""
+msgstr "Вибрати іншу карту"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:218
 msgid "Senegal"
-msgstr ""
+msgstr "Сенегал"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:219
 msgid "Serbia"
-msgstr ""
+msgstr "Сербія"
 
 #: app/components/forms/dashboard/financials/financials.html:113
 msgid "Set an amount you would like to keep in your wallet"
-msgstr ""
+msgstr "Встановіть суму, яку ви хотіли б мати у вашому гаманці"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:220
 msgid "Seychelles"
-msgstr ""
+msgstr "Сейшельські острови"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:3
 msgid "Show {{ developer }} some <span class=\"jolticon jolticon-heart\"></span> by supporting them."
-msgstr ""
+msgstr "Показати деяких {{ developer }} <span class=\"jolticon jolticon-heart\"></span> яких підтримують."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:221
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Сьєрра-Леоне"
 
 #: app/components/forms/dashboard/game/package/package.html:120
 msgid "Since you don't have any packages yet, we'll mark this as your primary one."
-msgstr ""
+msgstr "Так як у вас ще немає будь-яких збірок, ми відзначили цей в якості основного."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:222
 msgid "Singapore"
-msgstr ""
+msgstr "Сінгапур"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:223
 msgid "Sint Maarten"
-msgstr ""
+msgstr "Сінт-Маартен"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:224
 msgid "Slovakia"
-msgstr ""
+msgstr "Словакія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:225
 msgid "Slovenia"
-msgstr ""
+msgstr "Словенія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:226
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Соломонові острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:227
 msgid "Somalia"
-msgstr ""
+msgstr "Сомалі"
 
 #: app/components/notifications/descriptive-action/descriptive-action.html:6
 msgid "Someone"
-msgstr ""
+msgstr "Дехто"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:228
 msgid "South Africa"
-msgstr ""
+msgstr "Південна Африка"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:322
 msgid "South Carolina"
-msgstr ""
+msgstr "Південна Кароліна"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:323
 msgid "South Dakota"
-msgstr ""
+msgstr "Південна Дакота"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:229
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
+msgstr "Південна Джорджія та Південні Сандвічеві острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:230
 msgid "South Korea"
-msgstr ""
+msgstr "Південна Корея"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:231
 msgid "South Sudan"
-msgstr ""
+msgstr "Південний Судан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:232
 msgid "Spain"
-msgstr ""
+msgstr "Іспанія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:233
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Шрі Ланка"
 
 #: checkout/components/forms/payment/payment.html:126
 #: checkout/components/forms/payment/payment.html:131
 msgid "state/province"
-msgstr ""
+msgstr "штат/провінція"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:213
 msgid "State/Province/County"
-msgstr ""
+msgstr "Штат/Провінція/Графство"
 
 #: checkout/components/forms/payment/payment.html:117
 #: checkout/components/forms/payment/payment.html:119
 msgid "street address"
-msgstr ""
+msgstr "адреса вулиці"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:206
 msgid "Street Address"
-msgstr ""
+msgstr "Адреса вулиці"
 
 #: app/views/dashboard/main/purchases/view/view.html:91
 msgid "Subtotal"
-msgstr ""
+msgstr "Проміжна сума"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:234
 msgid "Sudan"
-msgstr ""
+msgstr "Судан"
 
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:81
 msgid "Suggested Price"
-msgstr ""
+msgstr "Рекомендована ціна"
 
 #: app/views/dashboard/main/purchases/view/view.html:86
 msgid "Summary"
-msgstr ""
+msgstr "Сумарно"
 
-#: app/views/discover/games/view/overview/overview.html:147
+#: app/views/discover/games/view/overview/overview.html:181
 msgid "Supporters"
-msgstr ""
+msgstr "Підтримало"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:235
 msgid "Suriname"
-msgstr ""
+msgstr "Суринам"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:236
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Свальбард і Ян-Маєн"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:237
 msgid "Swaziland"
-msgstr ""
+msgstr "Свазіленд"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:238
 msgid "Sweden"
-msgstr ""
+msgstr "Швеція"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:239
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейцарія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:240
 msgid "Syria"
-msgstr ""
+msgstr "Сирія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:241
 msgid "Taiwan"
-msgstr ""
+msgstr "Тайвань"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:242
 msgid "Tajikistan"
-msgstr ""
+msgstr "Таджикистан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:243
 msgid "Tanzania"
-msgstr ""
+msgstr "Танзанія"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:122
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:153
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:262
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:266
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:87
 msgid "tax"
-msgstr ""
+msgstr "податок"
 
 #: app/views/dashboard/main/purchases/view/view.html:95
 msgid "Tax"
-msgstr ""
+msgstr "Податок"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:324
 msgid "Tennessee"
-msgstr ""
+msgstr "Теннессі"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:325
 msgid "Texas"
-msgstr ""
+msgstr "Техас"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:244
 msgid "Thailand"
-msgstr ""
+msgstr "Таїланд"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:11
 msgid "The developer has set the price of this game to <strong>{{ amount }}</strong>, but you are able to support them by giving more."
-msgstr ""
+msgstr "Розробник встановив таку ціну для цієї гри <strong>{{ amount }}</strong>, але ви можете підтримати його та дати більше."
 
-#: app/views/discover/games/view/overview/overview.html:149
+#: app/views/discover/games/view/overview/overview.html:183
 msgid "The kind people that helped support {{ developer }} by paying more than the minimum. Sorted by amount contributed."
-msgstr ""
+msgstr "Добрі люди, які допомогли підтримали {{ developer }} заплативши більше, ніж мінімальну суму. Відсортовано по сумі внеску."
 
 #: app/components/forms/dashboard/financials/financials.html:148
 msgid "The max you can set this to is {{ max }} USD."
-msgstr ""
+msgstr "Максимально ви можете встановити {{ max }} USD."
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:20
 msgid "Theme"
-msgstr ""
+msgstr "Тема"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:234
+#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:250
 msgid "There was a problem processing your payment method."
-msgstr ""
+msgstr "Виникла проблема обробки оплати."
 
 #: app/views/library/collection/_header-default.html:86
 msgid "These are all the games owned by {{ user }}."
-msgstr ""
+msgstr "Це все ігри, що належать {{ user }}."
 
 #: app/views/library/collection/_header-default.html:76
 msgid "These are all the games you own."
-msgstr ""
+msgstr "Це все ігри, якими ви володієте."
 
 #: app/components/shell/account-popover/account-popover.html:70
 msgid "These are your available funds to either buy games with or withdraw."
-msgstr ""
+msgstr "Це ваші гроші на які ви можете купити ігри або залишити їх."
 
 #: app/components/forms/dashboard/game/package/package.html:65
 msgid "They will be able to pay $0 or more. They set the price."
-msgstr ""
+msgstr "Покупці будуть в змозі заплатити $0 або більше. Вони самі встановлюють ціну."
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:6
 msgid "This developer suggests paying <strong>{{ amount }}</strong>, but you're able to pay what you want."
-msgstr ""
+msgstr "Цей розробник пропонує заплатити <strong>{{ amount }}</strong>, але ви в змозі заплатити скільки хочете."
 
 #: app/components/forms/dashboard/game/package/package.html:124
 msgid "This is currently the primary package"
-msgstr ""
+msgstr "В даний час це основна збірка"
 
 #: app/views/dashboard/main/purchases/view/view.html:16
 msgid "This order was refunded on {{ date }}."
-msgstr ""
+msgstr "Цей переказ був повернутий {{ date }}."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:245
 msgid "Togo"
-msgstr ""
+msgstr "Того"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:246
 msgid "Tokelau"
-msgstr ""
+msgstr "Токелау"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:247
 msgid "Tonga"
-msgstr ""
+msgstr "Тонга"
 
 #: app/views/dashboard/main/purchases/view/view.html:101
 msgid "Total"
-msgstr ""
+msgstr "Всього"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:248
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Тринідад і Тобаго"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:249
 msgid "Tunisia"
-msgstr ""
+msgstr "Туніс"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:250
 msgid "Turkey"
-msgstr ""
+msgstr "Турція"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:251
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Туркменістан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:252
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Острови Теркс і Кайкос"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:253
 msgid "Tuvalu"
-msgstr ""
+msgstr "Тувалу"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:254
 #: lib/gj-lib-client/components/geo/geo-service.js:338
 msgid "U.S. Virgin Islands"
-msgstr ""
+msgstr "Американські Віргінські острови"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:255
 msgid "Uganda"
-msgstr ""
+msgstr "Уганда"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:256
 msgid "Ukraine"
-msgstr ""
+msgstr "Україна"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:257
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Об'єднані Арабські Емірати"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:258
 msgid "United Kingdom"
-msgstr ""
+msgstr "Велика Британія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:259
 msgid "United States"
-msgstr ""
+msgstr "Сполучені Штати"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:260
 msgid "United States Minor Outlying Islands"
-msgstr ""
+msgstr "Зовнішні малі острови США"
 
 #: app/components/site-analytics/site-analytics-service.js:150
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомо"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:261
 msgid "Uruguay"
-msgstr ""
+msgstr "Уругвай"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:326
 msgid "Utah"
-msgstr ""
+msgstr "Юта"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:262
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Узбекистан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:263
 msgid "Vanuatu"
-msgstr ""
+msgstr "Вануату"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:264
 msgid "Vatican"
-msgstr ""
+msgstr "Ватикан"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:265
 msgid "Venezuela"
-msgstr ""
+msgstr "Венесуела"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:327
 msgid "Vermont"
-msgstr ""
+msgstr "Вермонт"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:266
 msgid "Vietnam"
-msgstr ""
+msgstr "В'єтнам"
 
 #: app/views/dashboard/developer/games/manage/manage.html:18
 msgid "View Analytics"
-msgstr ""
+msgstr "Подивитися аналітику"
 
 #: app/components/discover/home/featured/hero.html:53
 msgid "View Game"
-msgstr ""
+msgstr "Подивитися гру"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:185
 msgid "View Game Analytics"
-msgstr ""
+msgstr "Подивитися ігрову аналітику"
 
 #: app/views/dashboard/main/purchases/view/view-controller.js:16
 msgid "View Order: #{{ orderId }}"
-msgstr ""
+msgstr "Подивитися замовлення: #{{ orderId }}"
 
 #: app/views/dashboard/analytics/analytics-controller.js:22
 msgid "Views"
-msgstr ""
+msgstr "Подивитися"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:328
 msgid "Virginia"
-msgstr ""
+msgstr "Віргінія"
 
 #: app/components/forms/dashboard/financials/financials.html:105
 msgid "Wallet"
-msgstr ""
+msgstr "Гаманець"
 
 #: app/components/shell/account-popover/account-popover.html:72
 #: app/views/dashboard/main/overview/overview.html:51
 msgid "Wallet Balance"
-msgstr ""
+msgstr "Баланс Гаманця"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:267
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Волліс і Футуна"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:329
 msgid "Washington"
-msgstr ""
+msgstr "Вашингтон"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:333
 msgid "Washington D.C."
-msgstr ""
+msgstr "Вашингтон, округ Колумбія."
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:263
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:267
 msgid "We are required to collect taxes on orders for certain regions."
-msgstr ""
+msgstr "Ми зобов'язані збирати податки згідно з законами окремих регіонів."
 
 #: app/components/forms/dashboard/financials/financials.html:69
 msgid "We currently use PayPal for automatic monthly deposits. You will also be able to withdraw your funds at any time through this linked account."
-msgstr ""
+msgstr "В даний час ми використовуємо PayPal для автоматичних щомісячних внесків. Ви також можете виводити свої кошти в будь-який час за допомогою зв'язаного аккаунту."
 
 #: app/components/forms/dashboard/financials/financials.html:109
 msgid "We never take a cut for sales when you pay with your Wallet, and there are no payment processing fees. The money goes directly to the seller."
-msgstr ""
+msgstr "Ми ніколи не зменшуємо кількість продажів, коли ви сплачуєте своїм Гаманцем, і не стягуєм ніяких плат на обробку платежів. Гроші йдуть безпосередньо до продавця."
 
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:72
 msgid "We use the primary package to determine the price to show on game listings."
-msgstr ""
+msgstr "Ми використовуємо ціну основної збірки гри для показу її ціни в списках."
 
 #: app/components/forms/dashboard/game/package/package.html:113
 msgid "We use the primary package to determine the price to show on game listings. You can only have one primary package for your game."
-msgstr ""
+msgstr "Ми використовуємо ціну основної збірки гри для показу її ціни в списках. Ви можете мати тільки один основний пакет для вашої гри."
 
 #: app/components/forms/dashboard/financials/financials.html:116
 msgid "We'll keep this amount in your Wallet when doing automatic pay outs. This way you always have some money to buy other games on the site."
-msgstr ""
+msgstr "Ми будемо зберігати цю суму у вашому гаманці при виконанні автоматичних виплат. Таким чином, у вас завжди будуть гроші, щоб купити інші ігри на сайті."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:330
 msgid "West Virginia"
-msgstr ""
+msgstr "Західна Віргінія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:268
 msgid "Western Sahara"
-msgstr ""
+msgstr "Західна Сахара"
 
 #: lib/gj-lib-client/components/game/package/card/card.html:183
 msgid "What do you get?"
-msgstr ""
+msgstr "Що ви отримуєте?"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:45
 msgid "Widget Preview"
-msgstr ""
+msgstr "Віджет превью"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:331
 msgid "Wisconsin"
-msgstr ""
+msgstr "Вісконсін"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:332
 msgid "Wyoming"
-msgstr ""
+msgstr "Вайомінг"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:269
 msgid "Yemen"
-msgstr ""
+msgstr "Йемен"
 
 #: app/components/forms/dashboard/financials/financials.html:118
 msgid "You can choose not to keep money in your Wallet by setting it $0."
-msgstr ""
+msgstr "Ви можете не зберігати гроші у вашому Гаманці, встановивши йому значення $0."
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:14
 msgid "You can link a different PayPal account in your <a href=\"{{ url }}\">payment setup</a>."
-msgstr ""
+msgstr "Ви можете зв'язати інший аккаунт PayPal в вашому <a href=\"{{ url }}\">payment setup</a>."
 
 #: app/views/discover/home/home.html:81
 msgid "You can now support your favorite indie devs by buying their games directly on Game Jolt!"
-msgstr ""
+msgstr "Тепер ви можете підтримати свої улюблених інді-розробників, купуючи їх гри прямо на Game Jolt!"
 
 #: app/components/forms/dashboard/financials/financials.html:152
 msgid "You can turn this off by setting it to $0."
-msgstr ""
+msgstr "Ви можете вимкнути це, встановивши його на $0."
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:6
 msgid "You can use our Sale Widget to sell games directly from your own site!"
-msgstr ""
+msgstr "Ви можете використовувати наш Віджет Продажів, щоб продавати ігри прямо з вашого власного сайту!"
 
 #: app/components/forms/dashboard/financials/financials.html:90
 msgid "You decide what percentage of your sale revenue to give to Game Jolt. <strong>We won't let you give us more than 10%</strong> because we'd rather have you support other indie developers by buying their games."
-msgstr ""
+msgstr "Ви самі вирішуєте, який відсоток від виручки за продажі ви готові дати Game Jolt. <strong>Ми не дозволимо вам дати нам більш ніж 10%</strong>, тому що ми вважаємо за краще, якщо ви цими коштами підтримуєте інших інді-розробників, купуючи їх гри."
 
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:272
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:98
 msgid "You do not have enough funds in your Wallet for this order."
-msgstr ""
+msgstr "Вам не вистачає коштів на вашому Гаманці для цього замовлення."
 
 #: app/views/library/collection/collection.html:130
 msgid "You don't own any games yet. Go buy some!"
-msgstr ""
+msgstr "Ви ще не купили жодної гри. Піди і купи щось!"
 
 #: app/components/forms/dashboard/financials/financials.html:22
 #: app/components/forms/dashboard/financials/financials.html:61
 msgid "You have completed this section."
-msgstr ""
+msgstr "Ви завершили цей розділ."
 
 #: app/views/dashboard/main/overview/overview.html:58
 msgid "You have pending withdrawals amounting to {{ ::overviewCtrl.revenuePendingWithdraw | currency:'$' }}."
-msgstr ""
+msgstr "Сума яка чекає на ваше зняття: {{ ::overviewCtrl.revenuePendingWithdraw | currency:'$' }}."
 
 #: app/views/dashboard/main/purchases/list/list.html:6
 msgid "You haven't bought any games on the site yet. Once you do, you'll be able to see all of your orders here and the details for each order."
-msgstr ""
+msgstr "Ви ще не купили жодної гри на сайті. Після того, як ви це зробите, ви будете мати можливість побачити всі ваші замовлення тут, а також їх деталі."
 
 #: app/components/forms/dashboard/game/package/package.html:44
 msgid "You must <a href=\"{{ url }}\">set up your financial information</a> before you can start accepting money."
-msgstr ""
+msgstr "Ви повинні <a href=\"{{ url }}\">налаштувати вашу фінансову інформацію</a>, перш ніж почати приймати гроші."
 
 #: app/components/forms/dashboard/financials/financials.html:13
 msgid "Your account is ready to sell games on Game Jolt! You can set additional options below."
-msgstr ""
+msgstr "Ваш аккаунт готовий продавати ігри на Game Jolt! Ви можете встановити додаткові налаштування нижче."
 
 #: app/components/game/collection/grid/grid.html:25
 #: app/views/library/collection/_header-default.html:75
 #: app/views/library/collection/collection-controller.js:103
 msgid "Your Owned Games"
-msgstr ""
+msgstr "Ваші власні ігри"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:78
 msgid "Your Wallet"
-msgstr ""
+msgstr "Ваш Гаманець"
 
 #: app/components/forms/dashboard/financials/financials.html:107
 msgid "Your Wallet is where your earnings will be stored for you to buy games on Game Jolt or withdraw into your PayPal account."
-msgstr ""
+msgstr "Це Гаманець на якому весь ваш заробіток буде збережений для вас, щоб ви могли купити ігри на Game Jolt або перевести його на свій рахунок PayPal."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:270
 msgid "Zambia"
-msgstr ""
+msgstr "Замбія"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:271
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Зімбабве"
 
 #: checkout/components/forms/payment/payment.html:145
 #: checkout/components/forms/payment/payment.html:147
 msgid "zip code"
-msgstr ""
+msgstr "zip-код"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:227
 msgid "Zip/Postal Code"
+msgstr "Zip/Поштові індекси"
+
+#: app/views/discover/games/view/news/list/list.html:15
+msgid "Atom"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:331
+msgid "Comments Disabled"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:332
+msgid "Comments have been disabled for this game."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:138
+msgid "Description"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:216
+msgid "Details"
+msgstr ""
+
+#: app/views/discover/games/view/_header/_controls.html:33
+msgid "Follow Game"
+msgstr ""
+
+#: app/views/discover/games/view/_header/_controls.html:37
+msgid "Following"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:50
+msgid "Here are the games this person owns."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:229
+msgid "Latest News Updates"
+msgstr ""
+
+#: app/components/score/overview/overview.html:168
+msgid "Latest Scores"
+msgstr ""
+
+#: app/views/discover/games/view/news/view/view.html:52
+msgid "More News"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:31
+#: app/views/discover/games/view/view.html:89
+msgid "New"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:7
+msgid "News Updates"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:75
+msgid "Rate Game"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:102
+msgid "Releases"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:13
+msgid "RSS"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:108
+msgid "There are multiple packages for your device. Please choose one below."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:19
+msgid "This game has been <strong>canceled</strong> by the developer and is not currently playable."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:15
+msgid "This game is still <strong>In Development</strong> and is not currently playable."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:23
+msgid "This game was <strong>canceled</strong> by the developer, so the current version might be buggy or incomplete."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:244
+msgid "View +1 More Update"
+msgid_plural "View +{{ $count | number }} More Updates"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: app/views/discover/games/view/overview/overview.html:306
+msgid "You May Also Like"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:72
+msgid "Your Rating"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:41
+msgid "dash.games.packages.manage.remove_confirmation"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:49
+msgid "dash.games.packages.manage.removed_growl"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:50
+msgid "dash.games.packages.manage.removed_growl_title"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:43
+msgid "Downloadable File"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:53
+msgid "Flash Web Playable"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:130
+msgid "Game Followed"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:63
+msgid "Java Applet Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:37
+msgid "Linux 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:32
+msgid "Linux Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:26
+msgid "Mac 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:21
+msgid "Mac Support"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:7
+msgid "Manage Packages for {{ game }}"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:449
+msgid "Order Complete"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:68
+msgid "Silverlight Web Playable"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:136
+msgid "Something has prevented you from following this game"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:58
+msgid "Unity Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:450
+msgid "Warm thanks from both {{ developer }} and the Game Jolt team."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:48
+msgid "Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:15
+msgid "Windows 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:10
+msgid "Windows Support"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:129
+msgid "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
 msgstr ""
 
