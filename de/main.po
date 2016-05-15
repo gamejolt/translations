@@ -120,7 +120,7 @@ msgstr "Bearbeitung. Bitte warten …"
 
 #: auth/views/auth/linked-account/twitter/finalize/twitter-email-form.html:15
 msgid "auth.linked_account.twitter.finalize.duplicate_email_error_html"
-msgstr "<p>Die E-Mail-Adresse, die Du eingegeben hast wird bereits genutzt.</p>\n"
+msgstr "<p>Die E-Mail-Adresse, die Du eingegeben hast, wird bereits genutzt.</p>\n"
 "    <p>Wenn Du bereits einen Game Jolt Account besitzt, kannst Du Dich <a href=\"/login\">hier anmelden</a>.</p>\n"
 "    <p>Wenn Du Deine Anmeldeinformationen vergessen hast, kannst Du sie <a href=\"/forgot\">hier abrufen</a>.</p>"
 
@@ -395,7 +395,7 @@ msgstr "Neues Passwort"
 
 #: app/components/forms/dashboard/change-password/change-password.html:37
 msgid "dash.change_pass.submit_button"
-msgstr "Ändere Account Passwort"
+msgstr "Ändere das Account Passwort"
 
 #: app/views/dashboard/account/email-preferences/email-preferences-controller.js:4
 msgid "dash.email_prefs.heading"
@@ -501,7 +501,7 @@ msgstr "<p>Du musst den folgenden Regeln zustimmen, bevor Du ein Spiel hinzufüg
 "\t<ul>\n"
 "\t\t<li>Game Jolt akzeptiert derzeit nur kostenfreie Spiele. Es darf keine Anforderung auf eine Bezahlung bestehen, um Dein Spiel spielen zu können.</li>\n"
 "\t\t<li>Lade keine Spiele hoch, die Du nicht selbst gemacht hast. Wenn Du nicht der Entwickler des Spiels bist füge das Spiel nicht hoch. Wenn Du ein Fan bist, ermutige den Entwickler es hier selbst hochzuladen.</li>\n"
-"\t\t<li>Publishern ist es nicht erlaubt Spiele hochzuladen; lediglich die Entwickler dürfen das. Zur Erinnerung: Das hier ist Indie.</li>\n"
+"\t\t<li>Publishern ist es nicht erlaubt, Spiele hochzuladen; lediglich die Entwickler dürfen das. Zur Erinnerung: Das hier ist Indie.</li>\n"
 "\t\t<li>Unser Name ist \"Game Jolt\". Dementsprechend dürfen nur wirkliche <em>Spiele</em> auf dieser Seite hochgeladen werden. Derzeit sind keinerlei Software oder Tools erlaubt. Wir werden diese vielleicht irgendwann in Zukunft oder in Ausnahmefällen akzeptieren. Aber lassen wir es für's Erste bei Spielen.</li>\n"
 "\t\t<li>Es sind keine gekürzten Demos oder \"lite\"-Versionen von kommerziellen Spielen erlaubt. Es muss ein komplett kostenloses Spiel sein, und so vollständig wie es öffentlich erhältlich ist.</li>\n"
 "\t\t<li>Wir begrüßen und ermutigen dazu unfertige Spiele, die noch in Arbeit sind, hochzuladen, solange sie als \"In-Arbeit\" markiert werden. Dennoch solltest Du Dein Spiel versteckt lassen bis es wirklich etwas zu sehen gibt. Spiele, die in Arbeit sind, müssen nicht spielbar sein, sollten allerdings über die Konzept-Phase hinaus sein. Bevor Du das Spiel veröffentlichst solltest Du jedoch sicherstellen, dass Du ein paar Screenshots und eine ausführliche Beschreibung hast.</li>\n"
@@ -680,7 +680,7 @@ msgstr "Breite"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:20
 msgid "dash.games.data_store.items.date_label"
-msgstr "Gespeichert Auf"
+msgstr "Gespeichert auf"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/list/list.html:1
 msgid "dash.games.data_store.items.heading"
@@ -714,7 +714,7 @@ msgstr "Item Daten"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:31
 msgid "dash.games.data_store.items.view.date_label"
-msgstr "Gespeichert Auf"
+msgstr "Gespeichert auf"
 
 #: app/views/dashboard/developer/games/manage/api/data-storage/items/view/view.html:8
 msgid "dash.games.data_store.items.view.heading"
@@ -738,7 +738,7 @@ msgstr "Kategorie wählen..."
 
 #: app/components/forms/dashboard/game/game.html:96
 msgid "dash.games.form.description_help_html"
-msgstr "Du kannst Deine Beschreibung jederzeit ändern. Hier hast Du die Chance die Leute dazu zu bewegen Dein Spiel zu spielen! Eine gute Beschreibung enthält in der Regel Angaben zu Gameplay, Steuerung, Story und Credits."
+msgstr "Du kannst Deine Beschreibung jederzeit ändern. Hier hast Du die Chance, Leute dazu zu bewegen, Dein Spiel zu spielen! Eine gute Beschreibung enthält in der Regel Angaben zu Gameplay, Steuerung, Story und Credits."
 
 #: app/components/forms/dashboard/game/game.html:94
 msgid "dash.games.form.description_label"
@@ -766,7 +766,7 @@ msgstr "Entwicklungs Status"
 
 #: app/components/forms/dashboard/game/game.html:67
 msgid "dash.games.form.dev_status_not_completable_info_html"
-msgstr "Du kannst Dein Spiel nicht als fertig oder abgebrochen markieren bis Du eine Version hinzugefügt hast."
+msgstr "Du kannst Dein Spiel nicht als fertig oder abgebrochen markieren, bis Du eine Version hinzugefügt hast."
 
 #: app/components/forms/dashboard/game/game.html:79
 msgid "dash.games.form.dev_status_wip"
@@ -1995,11 +1995,11 @@ msgstr "Spiele mit uns!"
 msgid "discover.nav.featured_playlists"
 msgstr "Empfohlene Playlists"
 
-#: app/views/discover/games/view/download/build/build.html:55
+#: app/views/discover/games/view/download/build/build.html:56
 msgid "game.download.game.developer_games_heading"
 msgstr "Andere Spiele"
 
-#: app/views/discover/games/view/download/build/build.html:57
+#: app/views/discover/games/view/download/build/build.html:58
 msgid "game.download.game.developer_games_heading_small"
 msgstr "von diesem Entwickler"
 
@@ -2007,11 +2007,11 @@ msgstr "von diesem Entwickler"
 msgid "game.download.game.downloading_wait_message"
 msgstr "Dein Download sollte jeden Moment beginnen..."
 
-#: app/views/discover/games/view/download/build/build.html:38
+#: app/views/discover/games/view/download/build/build.html:39
 msgid "game.download.game.rate_html"
 msgstr "<p><strong>Was denkst Du?</strong> Spielebewertungen helfen uns, Dir Dinge anzuzeigen, die Dich interessieren. Hilf uns, die Seite zu verbessern!</p>"
 
-#: app/views/discover/games/view/download/build/build.html:76
+#: app/views/discover/games/view/download/build/build.html:77
 msgid "game.download.game.recommended_heading"
 msgstr "Das könnte Dir auch gefallen"
 
@@ -2023,7 +2023,7 @@ msgstr "Es gefällt Dir? Teil es!"
 msgid "game.download.soundtrack.downloading_wait_message"
 msgstr "Dein Download sollte jeden Moment beginnen..."
 
-#: app/components/game/rating-growl/rating-growl.html:12
+#: app/components/game/rating-growl/rating-growl.html:13
 msgid "game.rating_growl.message"
 msgstr "Spielebewertungen helfen uns, Dir Dinge zu zeigen, die Dich interessieren. Hilf uns, die Seite zu verbessern!"
 
@@ -2204,7 +2204,7 @@ msgstr "Neues"
 msgid "games.list.voltage_tooltip"
 msgstr "Voltage ist unser gewichtetes Bewertungssystem. Alle Spiele starten mit einer durchschnittlichen Bewertung und die Community zieht diese hoch oder runter."
 
-#: app/views/discover/games/view/_header/_nav.html:50
+#: app/views/discover/games/view/_header/_nav.html:57
 msgid "games.view.manage_game_button"
 msgstr "Spiel verwalten"
 
@@ -2212,43 +2212,39 @@ msgstr "Spiel verwalten"
 msgid "games.view.media.close"
 msgstr "Schließen"
 
-#: app/views/discover/games/view/_header/_nav.html:58
+#: app/views/discover/games/view/_header/_nav.html:65
 msgid "games.view.moderate_game_button"
 msgstr "Spiel moderieren"
 
-#: app/views/discover/games/view/_header/_nav.html:11
+#: app/views/discover/games/view/_header/_nav.html:15
 msgid "games.view.news_tab"
 msgstr "News"
 
-#: app/views/discover/games/view/view.html:39
-msgid "games.view.notifications_heading"
-msgstr "Benachrichtigungen"
-
-#: app/views/discover/games/view/_header/_nav.html:6
+#: app/views/discover/games/view/_header/_nav.html:8
 msgid "games.view.overview_tab"
 msgstr "Übersicht"
 
-#: app/views/discover/games/view/_header/_nav.html:18
+#: app/views/discover/games/view/_header/_nav.html:23
 msgid "games.view.scores_tab"
 msgstr "Scores"
 
-#: app/views/discover/games/view/overview/_details.html:68
+#: app/views/discover/games/view/overview/_stats.html:16
 msgid "games.view.stats.downloads_plays_label"
 msgstr "Downloads"
 
-#: app/views/discover/games/view/overview/_details.html:75
+#: app/views/discover/games/view/overview/_stats.html:23
 msgid "games.view.stats.na"
 msgstr "N/A"
 
-#: app/views/discover/games/view/overview/_details.html:85
+#: app/views/discover/games/view/overview/_stats.html:33
 msgid "games.view.stats.ratings_label"
 msgstr "Bewertungen"
 
-#: app/views/discover/games/view/overview/_details.html:56
+#: app/views/discover/games/view/overview/_stats.html:4
 msgid "games.view.stats.views_label"
 msgstr "Views"
 
-#: app/views/discover/games/view/_header/_nav.html:23
+#: app/views/discover/games/view/_header/_nav.html:30
 msgid "games.view.trophies_tab"
 msgstr "Trophäe"
 
@@ -2376,10 +2372,6 @@ msgstr "<p>Erstelle Playlists, um die Spiele in Deiner Bibliothek zu organisiere
 #: app/views/library/library.html:51
 msgid "library.nav.playlists"
 msgstr "Playlists"
-
-#: app/views/discover/games/view/_header/_controls.html:32
-msgid "library.playlists.add_to.button"
-msgstr "Zu Playlist hinzufügen"
 
 #: app/components/game-playlist/add-to-popover/add-to-popover.html:22
 msgid "library.playlists.add_to.filter_placeholder"
@@ -2568,7 +2560,7 @@ msgstr[0] "{{ $count | number }} ungelesen"
 msgstr[1] "{{ $count | number }} ungelesen"
 
 #: app/views/dashboard/developer/games/manage/manage.html:61
-#: app/views/discover/games/view/_header/_nav.html:30
+#: app/views/discover/games/view/_header/_nav.html:37
 #: app/views/library/collection/_header/_controls.html:37
 #: app/views/profile/profile.html:148
 msgid "options.more"
@@ -2782,11 +2774,11 @@ msgstr "Sortieren nach"
 msgid "trophies.achieved_tag"
 msgstr "Geschafft!"
 
-#: app/components/trophy/completion/completion.html:14
+#: app/components/trophy/completion/completion.html:15
 msgid "trophies.completion.completion_label"
 msgstr "Komplettierung"
 
-#: app/components/trophy/completion/completion.html:23
+#: app/components/trophy/completion/completion.html:24
 msgid "trophies.completion.exp_gained_label"
 msgstr "EP erhalten"
 
@@ -2794,7 +2786,7 @@ msgstr "EP erhalten"
 msgid "trophies.completion.lead_html"
 msgstr "Du hast <b>{{ achieved | number }}</b> von <b>{{ total | number }}</b> Trophäen erhalten."
 
-#: app/components/trophy/completion/completion.html:29
+#: app/components/trophy/completion/completion.html:30
 msgid "trophies.completion.none_achieved_html"
 msgstr "Du hast noch keine Trophäen für dieses Spiel freigeschaltet!"
 
@@ -3275,17 +3267,17 @@ msgstr "Spiele am {{ date }} veröffentlicht"
 msgid "games.list.date_range_page_title"
 msgstr "Spiele, die zwischen {{ dateStart }} und {{ dateEnd }} veröffentlicht wurden"
 
-#: app/views/discover/games/list/category/category-controller.js:108
+#: app/views/discover/games/list/category/category-controller.js:111
 msgid "games.list.descriptive_category"
 msgstr "{{ category | lowercase }} Spiele"
 
 #. {{ category }} is available as the translated category label
-#: app/views/discover/games/list/category/category-controller.js:103
+#: app/views/discover/games/list/category/category-controller.js:106
 msgid "games.list.descriptive_category_other"
 msgstr "alternative Spiele und andere Seltsamkeiten"
 
 #. {{ category }} is available as the translated category label
-#: app/views/discover/games/list/category/category-controller.js:99
+#: app/views/discover/games/list/category/category-controller.js:102
 msgid "games.list.descriptive_category_rpg"
 msgstr "Rollenspiele"
 
@@ -3900,7 +3892,7 @@ msgstr "Gästen erlauben ihre Scores zu speichern."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:45
 msgid "dash.games.scoreboards.primary_tooltip"
-msgstr "Das primäre Scoreboard wird standardmäßig auf Deiner Spiel-Seite angezeigt. Wenn die API Deines Spiels mehrere Scoreboards nicht unterstützt, werden alle Scores dem primären Scoreboard hinzugefügt."
+msgstr "Das primäre Scoreboard wird standardmäßig auf deiner Spiel-Seite angezeigt. Wenn die API Deines Spiels mehrere Scoreboards nicht unterstützt, werden alle Scores dem primären Scoreboard hinzugefügt."
 
 #: app/views/dashboard/developer/games/manage/api/scoreboards/list/list.html:59
 msgid "dash.games.scoreboards.unique_tooltip"
@@ -3990,7 +3982,7 @@ msgstr "Spiel ein Spiel."
 msgid "dash.integrate.rated_game_html"
 msgstr "Bewerte und kommentiere ein Spiel."
 
-#: app/views/discover/games/view/overview/_details.html:105
+#: app/views/discover/games/view/overview/_stats.html:43
 msgid "games.view.stats.rating_breakdown_tooltip"
 msgstr "Bewertungen im Detail."
 
@@ -4008,11 +4000,11 @@ msgstr "Abonnieren"
 
 #: app/views/library/collection/_header/_controls.html:6
 msgid "library.collection.follow_button_tooltip"
-msgstr "Abonniere diese Playlist, um sie Deiner Bibliothek hinzuzufügen und Benachrichtigungen zu erhalten, wenn neue Spiele hinzugefügt werden."
+msgstr "Abonniere diese Playlist, um sie deiner Bibliothek hinzuzufügen und Benachrichtigungen zu erhalten, wenn neue Spiele hinzugefügt werden."
 
 #: app/views/library/collection/collection-controller.js:73
 msgid "library.collection.followed_page_title"
-msgstr "Spiele, die {{ user }} abonniert hat"
+msgstr "Spiele, welche {{ user }} abonniert hat"
 
 #: app/views/library/collection/collection-controller.js:84
 msgid "library.collection.playlist_page_title"
@@ -4028,7 +4020,7 @@ msgstr "Von Playlist entfernen."
 
 #: app/views/library/collection/listing/listing-controller.js:24
 msgid "library.collection.thumbnail_control_unfollow_tooltip"
-msgstr "Nicht mehr abonnieren."
+msgstr "Nicht mehr abonnieren"
 
 #: app/views/library/collection/_header/_controls.html:19
 msgid "library.collection.unfollow_button"
@@ -4036,43 +4028,39 @@ msgstr "Abonniert"
 
 #: app/views/library/collection/_header/_controls.html:15
 msgid "library.collection.unfollow_button_tooltip"
-msgstr "Beende Dein Playlist-Abonnement, um sie aus Deiner Bibliothek zu entfernen und keine Benachrichtigungen mehr zu erhalten."
+msgstr "Playlist aufhöhren zu abonnieren, um sie aus Deiner Bibliothek zu entfernen und keine Benachrichtigungen mehr zu erhalten."
 
-#: app/views/discover/games/view/_header/_controls.html:9
-msgid "library.followed.follow_game_button"
-msgstr "Spiel abonnieren"
-
-#: app/views/discover/games/view/_header/_controls.html:6
+#: app/views/discover/games/view/view-controller.js:17
 msgid "library.followed.follow_game_button_tooltip"
-msgstr "Abonniere dieses Spiel und füge es Deiner Bibliothek hinzu, um bei News informiert zu werden."
+msgstr "Abonniere dieses Spiel und füge es deiner Bibliothek hinzu, um bei News informiert zu werden."
 
 #: app/views/library/collection/listing/listing-controller.js:60
 msgid "library.followed.remove_game_confirmation"
-msgstr "Bist Du sicher, dass Du {{ game }} nicht mehr abonnieren willst?"
+msgstr "Bist Du sicher, dass Du aufhören willst, {{ game }} zu abonnieren?"
 
+#: app/views/discover/games/view/view-controller.js:114
 #: app/views/library/collection/listing/listing-controller.js:74
 msgid "library.followed.remove_game_error_growl"
-msgstr "Oh oh, aus irgendeinem Grund kannst Du das Spiel-Abonnement nicht beenden."
+msgstr "Oh oh, aus irgendeinem Grund kannst Du dieses Spiel nicht aufhören zu abonnieren."
 
+#: app/views/discover/games/view/view-controller.js:115
 #: app/views/library/collection/listing/listing-controller.js:75
 msgid "library.followed.remove_game_error_growl_title"
 msgstr "Oh nein!"
 
+#: app/views/discover/games/view/view-controller.js:107
 #: app/views/library/collection/listing/listing-controller.js:66
 msgid "library.followed.remove_game_success_growl"
-msgstr "Du hast {{ game }} nicht mehr abonniert. Du erhältst ab jetzt keine Benachrichtigungen mehr darüber."
+msgstr "Du abonnierst {{ game }} ab jetzt nicht mehr. Du erhältst ab jetzt keine Benachrichtigungen mehr darüber."
 
+#: app/views/discover/games/view/view-controller.js:108
 #: app/views/library/collection/listing/listing-controller.js:67
 msgid "library.followed.remove_game_success_growl_title"
-msgstr "Spiel-Abonnement beendet."
+msgstr "Du abonnierst dieses Spiel nicht mehr"
 
-#: app/views/discover/games/view/_header/_controls.html:19
-msgid "library.followed.unfollow_game_button"
-msgstr "Abonniert"
-
-#: app/views/discover/games/view/_header/_controls.html:16
+#: app/views/discover/games/view/view-controller.js:18
 msgid "library.followed.unfollow_game_button_tooltip"
-msgstr "Dieses Spiel nicht mehr abonnieren und aus der Bibliothek entfernen."
+msgstr "Diesem Spiel aufhören zu abonnieren und aus der Bibliothek entfernen."
 
 #: app/views/library/collection/listing/listing-controller.js:34
 msgid "library.playlists.remove_game_confirmation"
@@ -4084,7 +4072,7 @@ msgstr "Bist Du sicher, dass Du diese Playlist nicht mehr abonnieren willst?"
 
 #: app/views/library/collection/collection-controller.js:246
 msgid "library.playlists.remove_playlist_error_growl"
-msgstr "Fehler! Fehler! Konnte Playlist-Abonnement nicht beenden."
+msgstr "Fehler! Fehler! Spiel konnte nicht deabonniert werden."
 
 #: app/views/library/collection/collection-controller.js:247
 msgid "library.playlists.remove_playlist_error_growl_title"
@@ -4096,11 +4084,11 @@ msgstr "Du abonnierst {{ playlist }} jetzt nicht mehr."
 
 #: app/views/library/collection/collection-controller.js:240
 msgid "library.playlists.remove_playlist_success_growl_title"
-msgstr "Playlist nicht mehr abonniert."
+msgstr "Playlist deabonniert"
 
 #: app/views/discover/news/news.html:33
 msgid "news.list.followed_tooltip"
-msgstr "News über Spiele, die Du abonniert hast."
+msgstr "News über Spiele, welche du abonniert hast."
 
 #: app/views/discover/news/news.html:49
 msgid "news.list.released_tooltip"
@@ -4116,15 +4104,15 @@ msgstr "hat auf Deinen Kommentar zu <strong>{{ object }}</strong> geantwortet."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:6
 msgid "notifications.forum_post_title_html"
-msgstr "hat einen neue Antwort auf <strong>{{ object }}</strong> hinterlassen."
+msgstr "hat eine neue Antwort auf <strong>{{ object }}</strong> hinterlassen."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:8
 msgid "notifications.friendship_accepted_title_html"
-msgstr "hat Deine Freundschaftsanfrage akzeptiert."
+msgstr "hat deine Freundschaftsanfrage akzeptiert."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:7
 msgid "notifications.friendship_request_title_html"
-msgstr "hat Dir eine Freundschaftsanfrage geschickt."
+msgstr "hat dir eine Freundschaftsanfrage geschickt."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:10
 msgid "notifications.game_follow_title_html"
@@ -4148,7 +4136,7 @@ msgstr "hat eine neue Bewertung erhalten."
 
 #: app/components/notifications/descriptive-action/descriptive-action-directive.js:34
 msgid "notifications.rating_title_popover_html"
-msgstr "hat einen Bewertung von <strong>{{ rating }}</strong> erhalten."
+msgstr "hat eine Bewertung von <strong>{{ rating }}</strong> erhalten."
 
 #: app/views/profile/overview/overview.html:64
 msgid "profile.friend_request_decline_tooltip"
@@ -4156,7 +4144,7 @@ msgstr "Der Sender wird nicht benachrichtigt."
 
 #: app/views/profile/profile.html:38
 msgid "profile.friend_tooltip"
-msgstr "Ihr seid Frunde! Awwww!"
+msgstr "Ihr seid Frunde! Wie süß!"
 
 #: app/views/profile/profile.html:52
 msgid "profile.in_game_tooltip"
@@ -4185,7 +4173,7 @@ msgstr "Action"
 
 #: app/views/discover/games/list/category/category-controller.js:10
 msgid "discover.categories.adventure"
-msgstr "Adventure"
+msgstr "Abenteuer"
 
 #: app/views/discover/games/list/category/category-controller.js:7
 msgid "discover.categories.all"
@@ -4193,7 +4181,7 @@ msgstr "Alle"
 
 #: app/views/discover/games/list/category/category-controller.js:8
 msgid "discover.categories.arcade"
-msgstr "Arcade"
+msgstr "Arkade"
 
 #: app/views/discover/games/list/category/category-controller.js:17
 msgid "discover.categories.other"
@@ -4201,7 +4189,7 @@ msgstr "Andere"
 
 #: app/views/discover/games/list/category/category-controller.js:11
 msgid "discover.categories.platformer"
-msgstr "Platformer"
+msgstr "Plattformer"
 
 #: app/views/discover/games/list/category/category-controller.js:12
 msgid "discover.categories.puzzle"
@@ -4221,7 +4209,7 @@ msgstr "Sport"
 
 #: app/views/discover/games/list/category/category-controller.js:16
 msgid "discover.categories.strategy_sim"
-msgstr "Strategy/Simulator"
+msgstr "Strategie/Simulator"
 
 #: app/views/discover/games/list/category/category-controller.js:19
 msgid "games.list.page_title"
@@ -4319,7 +4307,7 @@ msgstr "Kontakt"
 
 #: app/components/shell/footer/footer.html:25
 msgid "footer.tagline"
-msgstr "Sehr viele Spiele... Und noch viel mehr!"
+msgstr "Sehr viele Spiele... sehr viele!"
 
 #: app/components/shell/footer/footer.html:38
 msgid "footer.translations"
@@ -4359,7 +4347,7 @@ msgstr "Reife"
 
 #: app/components/game/filtering/filtering-service.js:47
 msgid "games.filtering.maturity_adult"
-msgstr "Erwachsene"
+msgstr "Erwachsenen Inhalt"
 
 #: app/components/game/filtering/filtering-service.js:45
 msgid "games.filtering.maturity_everyone"
@@ -4367,7 +4355,7 @@ msgstr "Alle Altersklassen"
 
 #: app/components/game/filtering/filtering-service.js:46
 msgid "games.filtering.maturity_teen"
-msgstr "Jugendliche"
+msgstr "Jugendlichen Inhalt"
 
 #: app/components/game/filtering/filtering-service.js:20
 msgid "games.filtering.os"
@@ -4405,15 +4393,9 @@ msgstr "Vervollstandigt"
 msgid "games.filtering.status_wip"
 msgstr "In Arbeit"
 
-#: app/views/discover/games/view/view.html:42
-msgid "games.view.notifications_news"
-msgid_plural "games.view.notifications_news"
-msgstr[0] "1 News Artikel"
-msgstr[1] "{{ $count | number }} News Artikel"
-
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:20
 msgid "dash.funds.withdraw.amount_help"
-msgstr "Der minimale Betrag, den Du zur Zeit abheben kannst beträgt {{ amount | currency:'$' }}."
+msgstr "Der minimale Betrag, den Du zur Zeit abheben kannst, beträgt {{ amount | currency:'$' }}."
 
 #: app/components/forms/dashboard/game/song/song.html:15
 msgid "dash.games.music.form.file_help_block"
@@ -4475,7 +4457,7 @@ msgstr "Spiele von {{ user }}."
 
 #: app/components/game/collection/grid/grid.html:43
 msgid "library.playlists.subscription_followed_description"
-msgstr "Spiele, die {{ user }} abonniert hat."
+msgstr "Spiele, welche {{ user }} abonniert hat."
 
 #: app/components/activity/feed/feed.html:50
 msgid "notifications.rating_details_title"
@@ -4483,11 +4465,11 @@ msgstr "{{ rating }} soll die Bewertung sein, die Ihr erhaltet, und die Zahl des
 
 #: app/views/profile/overview/overview.html:127
 msgid "profile.developer_games_teaser_button"
-msgstr "Alle ansehen ({{ gamesCount | number }})"
+msgstr "Alle  ({{ gamesCount | number }}) ansehen"
 
 #: app/views/profile/overview/overview.html:59
 msgid "profile.friend_request_received_pending"
-msgstr "{{ user }} möchte Dein Freund sein."
+msgstr "{{ user }} möchte dein Freund sein."
 
 #: app/views/profile/overview/overview.html:49
 msgid "profile.friend_request_sent_pending"
@@ -4525,7 +4507,7 @@ msgstr "Client"
 
 #: app/components/forms/settings/settings.html:7
 msgid "settings.game_install_dir_help"
-msgstr "Das ist das Verzeichnis auf Deinem Computer, in dem Spiele installiert werden."
+msgstr "Das ist das Verzeichnis auf deinem Computer, in dem Spiele installiert werden."
 
 #: app/components/forms/settings/settings.html:6
 msgid "settings.game_install_dir_label"
@@ -4553,15 +4535,15 @@ msgstr "Wenn Du mehr als diese Zahl hast, gelangen Downloads in die Warteschlang
 
 #: app/components/forms/settings/settings.html:29
 msgid "settings.max_download_count_label"
-msgstr "Max # von gleichzeitigen Downloads"
+msgstr "Maximale # von gleichzeitigen Downloads"
 
 #: app/components/forms/settings/settings.html:42
 msgid "settings.max_extract_count_help"
-msgstr "Wenn Du mehr als diese Zahl hast, gelangen Extraktionen in die Warteschlange."
+msgstr "Wenn du mehr als diese Zahl hast, gelangen Extraktionen in die Warteschlange."
 
 #: app/components/forms/settings/settings.html:41
 msgid "settings.max_extract_count_label"
-msgstr "Max # von gleichzeitigen Extraktionen"
+msgstr "Maximale # von gleichzeitigen Extraktionen"
 
 #: app/views/settings/settings-controller.js:3
 msgid "settings.page_title"
@@ -4635,7 +4617,7 @@ msgstr "Füge ein Kommentar hinzu"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:83
 msgid "Automatic translations use Google Translate and may not be completely accurate."
-msgstr "Automatische Übersetzungen benutzen Google Translate und sind unter Umständen nicht vollständig korrekt."
+msgstr "Automatische Übersetzungen, die vom Google Übersetzer stammen, sind nicht immer fehlerfrei."
 
 #: app/views/dashboard/analytics/analytics-controller.js:37
 #: lib/gj-lib-client/components/comment/widget/widget.html:3
@@ -4649,7 +4631,7 @@ msgstr "Konnte keine Kommentare für das Spiel finden."
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:100
 msgid "Follow Thread"
-msgstr "Thread abonnieren"
+msgstr "Thread folgen"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:96
 msgid "Get notifications when people post new replies to this thread."
@@ -4670,7 +4652,7 @@ msgstr "Kommentar hinterlassen..."
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:25
 msgid "Let us know your thoughts and be the first to comment!"
-msgstr "Sag uns was Du denkst und sei der Erste der einen Kommentar hinterlässt!"
+msgstr "Sag uns was Du denkst und sei der Erste, der einen Kommentar hinterlässt!"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:13
 msgid "No Comments Yet"
@@ -4699,7 +4681,7 @@ msgstr "Zeige originale Kommentare"
 
 #: lib/gj-lib-client/components/comment/widget/comment.html:109
 msgid "Stop Following"
-msgstr "Nicht mehr abonnieren"
+msgstr "Aufhören zu abonnieren"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:77
 msgid "translated by"
@@ -4711,7 +4693,7 @@ msgstr "Übersetzt von\n"
 msgid "You and another person like this comment."
 msgid_plural "You and {{ $count | number }} people like this comment."
 msgstr[0] "Dir und jemand anderem gefällt dieser Kommentar."
-msgstr[1] "Dir und {{ $count | number }} anderen gefällt dieser Kommentar."
+msgstr[1] "Dir und {{ $count | number }} anderen Leuten gefällt dieser Kommentar."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66
@@ -4720,11 +4702,11 @@ msgstr "Dir gefällt dieser Kommentar"
 
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:103
 msgid "You've just upvoted this comment. This lets us know the quality of comments and helps keep the site fresh."
-msgstr "Du hast diesen Kommentar aufgewertet. Dies informiert uns über die Qualität der Kommentare und hilft uns die Seite auf Vordermann zu halten."
+msgstr "Du hast diesen Kommentar aufgewertet. Dies informiert uns über die Qualität der Kommentare und hilft uns, die Seite auf Vordermann zu halten."
 
 #: app/components/shell/footer/footer.html:63
 msgid "footer.send_system_report"
-msgstr "Sende einen Systemsmeldung"
+msgstr "Systemmeldung senden"
 
 #: app/components/client/forms/system-report/system-report.html:4
 msgid "system_report.form.description_help"
@@ -4740,12 +4722,11 @@ msgstr "Fehlbenachrichtigung schicken."
 
 #: app/components/client/system-report-modal/system-report-modal.html:20
 msgid "system_report.send.close"
-msgstr "schließen\n"
-""
+msgstr "Schließen"
 
 #: app/components/client/system-report-modal/system-report-modal.html:2
 msgid "system_report.send.heading"
-msgstr "Sende Systemmeldung"
+msgstr "Systemmeldung senden"
 
 #: app/components/client/system-report-modal/system-report-modal.html:4
 msgid "system_report.send.help"
@@ -4780,7 +4761,7 @@ msgstr "Installierte Spiele"
 #. This shows instead of a version number for a game on the installed games page if there are multiple packages installed for the game.
 #: app/views/library/installed/installed.html:73
 msgid "library.installed.multiple_packages"
-msgstr "Mehrere Packungen"
+msgstr "Mehrere Pakete"
 
 #. The message shown when there are no games installed yet in their library.
 #: app/views/library/installed/installed.html:13
@@ -4797,7 +4778,7 @@ msgstr "Deine Spiele"
 
 #: app/views/library/collection/collection-controller.js:70
 msgid "library.collection.followed_owner_page_title"
-msgstr "Deine abonnierten Spiele"
+msgstr "Spiele, die du abonniert hast"
 
 #: app/views/library/collection/collection-controller.js:81
 msgid "library.collection.playlist_owner_page_title"
@@ -4817,7 +4798,7 @@ msgstr "Externer Link zum Spiel (nicht auf der Seite hochgeladen)"
 msgid "Game does not belong to this developer"
 msgstr "Dieses Spiel gehört dem Entwickler nicht"
 
-#: app/views/discover/games/view/_header/_nav.html:43
+#: app/views/discover/games/view/_header/_nav.html:50
 msgid "games.view.report_game_button"
 msgstr "Spiel melden"
 
@@ -4858,7 +4839,7 @@ msgstr "Weitere Optionen"
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:31
 msgid "No information on game page (no screenshots, sparse description, placeholder page, etc.)"
-msgstr "Keine Informationen auf der Spiel-Seite (Keine Screenshots, kurze Beschreibung, Platzhalter-Seite, etc.)"
+msgstr "Keine Informationen auf der Spiel-Seite (keine Screenshots, kurze Beschreibung, Platzhalter-Seite, etc.)"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:25
@@ -4874,7 +4855,7 @@ msgstr "Profil- oder Username enthält eindeutiges oder empfindliches Material"
 msgid "profile.report_user_button"
 msgstr "User melden"
 
-#: lib/gj-lib-client/components/comment/widget/comment.html:137
+#: lib/gj-lib-client/components/comment/widget/comment.html:140
 #: lib/gj-lib-client/components/report/modal/modal.html:2
 msgid "Report Comment"
 msgstr "Kommentar melden"
@@ -4902,7 +4883,7 @@ msgstr "Spammer"
 
 #: lib/gj-lib-client/components/report/modal/modal-controller.js:29
 msgid "Thanks for helping us make Game Jolt a place for everyone. We will take a look as soon as possible!"
-msgstr "Danke, dass Du uns hilfst Game Jolt zu einem Ort für Jeden zu machen. Wir werden uns das so schnell wie möglich anschauen!"
+msgstr "Danke, dass Du uns hilfst, Game Jolt zu einem Ort für Jeden zu machen. Wir werden uns das so schnell wie möglich anschauen!"
 
 #. Reporting reason.
 #: lib/gj-lib-client/components/report/form/form.html:73
@@ -4911,7 +4892,7 @@ msgstr "Gute Bewertungen / Schlechte Bewertungen"
 
 #: lib/gj-lib-client/components/report/form/form.html:3
 msgid "Why are you reporting this?"
-msgstr "Warum meldest du das?"
+msgstr "Warum meldest Du das?"
 
 #: app/components/game/media-bar/lightbox/lightbox.html:17
 msgid "games.view.media.download"
@@ -4927,7 +4908,7 @@ msgstr "Derzeitiges Vorschaubild"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:5
 msgid "dash.games.trophies.form.change_image_label"
-msgstr "Ändere Trophäen Bild"
+msgstr "Trophäen Bild ändern"
 
 #: app/components/forms/dashboard/game/trophy/trophy-directive.js:4
 msgid "dash.games.trophies.form.upload_label"
@@ -4935,7 +4916,7 @@ msgstr "Trophäen Bild"
 
 #: app/components/forms/dashboard/email-preferences/email-preferences.html:21
 msgid "dash.email_prefs.newsletter_help"
-msgstr "Möchtest Du E-Mails, die Updates und Neuigkeiten für Seiten Funktionen, offizielle Wettbewerbe und interessante Spiele enthalten bekommen?"
+msgstr "Möchtest du E-Mail Mitteilungen von Updates und Ankündigungen, wie zum Beispiel neue Website Funktionen, sowie von öffentlichen Wettbewerben und interessanten Spielen erhalten?"
 
 #: app/components/shell/footer/footer.html:7
 msgid "footer.client_promo.learn_button"
@@ -4943,7 +4924,7 @@ msgstr "Los geht's"
 
 #: app/components/shell/footer/footer.html:6
 msgid "footer.client_promo.message"
-msgstr "Spiele schneller spielen mit den Game Jolt Client!"
+msgstr "Spiele schneller spielen mit dem Game Jolt Client!"
 
 #: lib/gj-lib-client/components/report/modal/modal.html:6
 msgid "Report Post"
@@ -4956,28 +4937,28 @@ msgstr "Thema melden"
 #: app/components/forms/dashboard/game/build/build.html:298
 msgid "<strong>Be sure to remove or block ads from showing in your browser games.</strong>\n"
 "\t\t\t\t\t\tWe serve our own ads and share the revenue with developers. Domain names to block: gamejolt.com, *.gamejolt.com, gamejolt.net, *.gamejolt.net"
-msgstr "<strong>Gehe sicher, dass du Werbe-Einblendungen in Browser-Games entfernst oder verhinderst.</strong> Wir stellen unsere eigene Werbung zur Verfügung und beteiligen Entwickler von dessen Einnahmen. Domain-Namen die blockiert werden sollten: gamejolt.com, *.gamejolt.com, gamejolt.net, *.gamejolt.net "
+msgstr "<strong>Gehe sicher, dass Du Werbe-Einblendungen in Browser-Games entfernst oder verhinderst.</strong> Wir stellen unsere eigene Werbung zur Verfügung und beteiligen Entwickler von dessen Einnahmen. Domain-Namen die blockiert werden sollten: gamejolt.com, *.gamejolt.com, gamejolt.net, *.gamejolt.net "
 
 #: app/components/forms/dashboard/game/build/build.html:120
 msgid "<strong>Java Applets have been deprecated.</strong>\n"
 "\t\t\t\t\tYou can no longer edit your Java Applet builds, although gamers will still be able to play them if their browsers support them. You can add .jar files as downloadables and the Game Jolt Client will correctly launch them for users instead."
-msgstr "<strong> Java-Applets sind veraltet .</strong> Du kannst deine Java-Applet-Builds nicht mehr bearbeiten,auch wenn Spieler dazu in der Lage sind, diese zu spielen, solange ihr Browser unterstützt wird. Du kannst .jar Dateien als Downloadables hinzufügen und der Game Jolt Client wird sie ohne Probleme für den Anwender starten."
+msgstr "<strong> Java-Applets sind veraltet .</strong> Du kannst deine Java-Applet-Builds nicht mehr bearbeiten, auch wenn Spieler dazu in der Lage sind, diese zu spielen, solange ihr Browser unterstützt wird. Du kannst .jar Dateien als herunterladbare Dateien hinzufügen und der Game Jolt Client wird sie ohne Probleme für den Anwender starten."
 
 #: app/components/forms/dashboard/game/build/build.html:287
 msgid "<strong>Most browsers have stopped supporting the Unity Web Player.</strong>\n"
 "\t\t\t\t\t\tPlease consider exporting to WebGL instead."
 msgstr "<strong>Die meisten Browser haben die Unterstützung zum Unity Web Player aufgegeben.</strong>\n"
-"\t\t\t\t\t\tBitte bevorzuge anstelle, das exportieren zu WebGL."
+"\t\t\t\t\t\tÜberlege lieber, sie zu WebGL zu exportieren."
 
 #: app/components/forms/dashboard/game/build/build.html:128
 msgid "<strong>Silverlight builds have been deprecated.</strong>\n"
 "\t\t\t\t\tYou can no longer edit your Silverlight builds, although gamers will still be able to play them if their browsers support them."
-msgstr "<strong> Silverlight-Builds sind veraltet .</strong> Du kannst deine Silverlight-Builds nicht mehr bearbeiten,auch wenn Spieler dazu in der Lage sind, diese zu spielen, solange ihr Browser unterstützt wird."
+msgstr "<strong> Silverlight-Builds sind veraltet .</strong> Du kannst deine Silverlight-Builds nicht mehr bearbeiten, auch wenn Spieler dazu in der Lage sind, diese zu spielen, solange ihr Browser unterstützt wird."
 
 #: app/components/forms/dashboard/game/build/build.html:232
 msgid "<strong>The launch options you entered are invalid.</strong>\n"
 "\t\t\t\t\t\t\tMake sure each selected file is in your build and that it works on the appropriate operating system."
-msgstr "<strong>Die angegebenen Startoptionen sind nicht korrekt.</strong> Bitte gehe sicher, dass jede ausgewählte Datei in deinem Build vorkommen und dass diese mit dem jeweiligen Betriebssystem funktionieren."
+msgstr "<strong>Die angegebenen Startoptionen sind nicht korrekt.</strong> Bitte gehe sicher, dass jede ausgewählte Datei in deinem Build vorkommt und diese auch angemessen auf dem Betriebssystem laufen."
 
 #: app/components/forms/dashboard/game/release/release.html:53
 msgid "<strong>Your game is part of a jam that locks builds during voting.</strong>\n"
@@ -5090,11 +5071,11 @@ msgstr "Release sichern"
 
 #: app/components/forms/dashboard/game/build/build.html:193
 msgid "This build doesn't seem to be a Windows, Mac, or Linux build, so we've marked it as \"Other\" for you."
-msgstr "Dieser Build scheint kein Windows-, Mac- oder Linux-Build zu sein, also haben wir es für Dich als \"Andere\" markiert."
+msgstr "Dieser Build scheint kein Windows-, Mac- oder Linux-Build zu sein, also haben wir es für dich als \"Andere\" markiert."
 
 #: app/components/forms/dashboard/game/build/build.html:314
 msgid "This build has more info to fill in before it will be available in this release."
-msgstr "Dieses Build beinhaltet mehr Informationen, um mit dem Uktuellen Build veröffentlicht zu werden"
+msgstr "Dieser Build sollte mehr Details beinhalten, bevor er veröffentlicht werden kann."
 
 #: app/components/forms/dashboard/game/build/build.html:155
 msgid "This build is not launchable on certain platforms. They've been disabled below."
@@ -5102,11 +5083,11 @@ msgstr "Dieser Build lässt sich auf einigen Plattformen nicht öffnen. Diese wu
 
 #: app/views/dashboard/developer/games/manage/packages/edit/edit.html:83
 msgid "This package has builds that are still processing. They will become available in the package as soon as they're finished processing."
-msgstr "Dieses Paket hat mehr Informationen, welche immer noch verwertet werden. Sie sind verfügbar, sobald sie fertig sind. "
+msgstr "Dieses Paket beinhaltet Builds, welche momentan immer noch verarbeitet werden. Sie werden verfügbar sein, sobald sie fertig sind."
 
 #: app/components/forms/dashboard/game/release/release.html:116
 msgid "Unpublish Release"
-msgstr "Release nicht veröffentlichen"
+msgstr "Release unveröffentlichen"
 
 #: app/components/forms/dashboard/game/release/release.html:74
 msgid "Upload Browser Build"
@@ -5118,22 +5099,26 @@ msgstr "Herunterladbaren Build hochladen"
 
 #: app/components/forms/dashboard/game/release/release.html:29
 msgid "You don't have any builds in this release yet. You won't be able to publish until you put some in."
-msgstr "Du hast noch keine Builds in diesem Release. Du kannst ihn erst veröffentlichen, sobald du einen eingefügt hast."
+msgstr "Du hast noch keine Builds in diesem Release. Du kannst ihn erst veröffentlichen, sobald Du einen eingefügt hast."
 
 #: app/components/forms/dashboard/game/build/build-directive.js:217
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:79
 msgid "Game Boy"
 msgstr "Game Boy"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:219
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:81
 msgid "Game Boy Advance"
 msgstr "Game Boy Advance"
 
 #: app/components/forms/dashboard/game/build/build-directive.js:218
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:80
 msgid "Game Boy Color"
 msgstr "Game Boy Color"
 
 #: app/components/forms/dashboard/game/build/build.html:59
 #: app/components/game/filtering/filtering-service.js:27
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:73
 msgid "ROM"
 msgstr "ROM"
 
@@ -5217,7 +5202,7 @@ msgstr "mehr"
 
 #: lib/gj-lib-client/components/game/package/card/card.html:120
 msgid "No published releases yet."
-msgstr "Noch keine Releases"
+msgstr "Noch keine Veröffentlichungen"
 
 #: app/components/client/package-card-buttons/package-card-buttons.html:21
 msgid "Oh no! We couldn't download this package. Perhaps check that you're still online?"
@@ -5277,21 +5262,21 @@ msgstr "LÄUFT"
 msgid "There's been an error, and it's of the dubious sort."
 msgstr "Es gab einen Fehler, einen von der dubiosen Sorte."
 
-#: app/views/discover/games/view/overview/overview-controller.js:163
+#: app/views/discover/games/view/overview/overview-controller.js:152
 msgid "This game has no playable builds yet."
 msgstr "Dieses Spiel hat bisher keine spielbaren Builds."
 
-#: app/views/discover/games/view/overview/overview-controller.js:159
+#: app/views/discover/games/view/overview/overview-controller.js:148
 msgid "This game used to have playable builds but they have been removed."
-msgstr "Dieses Spiel hatte spielbare Builds, die entfernt wurden."
+msgstr "Dieses Spiel hatte bereits spielbare Builds, die jedoch entfernt wurden."
 
 #: app/components/client/package-card-buttons/package-card-buttons.html:14
 msgid "This package can not be installed on your system, but can be quick played in the client."
-msgstr "Dieses Package kann auf Deinem System nicht installiert werden, kann aber im Client gestartet werden."
+msgstr "Dieses Package kann auf deinem System nicht installiert werden, kann aber im Client gestartet werden."
 
 #: app/components/client/package-card-buttons/package-card-buttons.html:7
 msgid "This package can not be installed on your system."
-msgstr "Dieses Package kann auf Deinem System nicht installiert werden."
+msgstr "Dieses Package kann auf deinem System nicht installiert werden."
 
 #: app/components/client/package-card-buttons/package-card-buttons.html:166
 msgid "Uninstall"
@@ -5315,7 +5300,7 @@ msgstr "Version:"
 
 #: lib/gj-lib-client/components/error/error-offline.html:5
 msgid "We are having trouble connecting to Game Jolt."
-msgstr "Wir haben Probleme uns mit Game Jolt zu verbinden."
+msgstr "Wir haben Probleme, uns mit Game Jolt zu verbinden."
 
 #: app/components/client/package-card-buttons/package-card-buttons.html:35
 msgid "You are currently running this package. Some options have been disabled while it's open."
@@ -5327,7 +5312,7 @@ msgstr "Du hast keinen Zugang zu dieser Seite"
 
 #: lib/gj-lib-client/components/error/error-404.html:5
 msgid "You found a secret! But upon further inspection, you realize it's just an empty page."
-msgstr "Du hast ein Geheimnis entdeckt! Nach genauerem Hinsehen realisierst du jedoch, dass es nur eine leere Seite ist."
+msgstr "Du hast ein Geheimnis entdeckt! Nach genauerem Hinsehen realisierst Du jedoch, dass es nur eine leere Seite ist."
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:43
 msgid "({{ price }} or more)"
@@ -5335,15 +5320,15 @@ msgstr "(ab {{ price }})"
 
 #: app/components/game/filtering/filtering-service.js:15
 msgid "$15 or less"
-msgstr "≤15 $"
+msgstr "$15 oder weniger"
 
 #: app/components/game/filtering/filtering-service.js:16
 msgid "$30 or less"
-msgstr "≤30 $"
+msgstr "$30 oder weniger"
 
 #: app/components/game/filtering/filtering-service.js:14
 msgid "$5 or less"
-msgstr "≤5 $"
+msgstr "$5 oder weniger"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:22
 msgid "Afghanistan"
@@ -5484,7 +5469,7 @@ msgstr "Wegen internationaler Steuergesetze benötigen wir diese Angaben."
 
 #: app/components/forms/dashboard/financials/financials.html:7
 msgid "Before you can start selling your games, we'll need to gather some details from you. This will ensure that your account is completely set up and ready to run smoothly on the Game Jolt Marketplace."
-msgstr "Bevor du mit dem Verkauf deiner Spiele beginnen kannst, benötigen wir einige Details von dir. So können wir sicherstellen, dass dein Konto alle nötigen Informationen besitzt und mit dem Game Jolt Marketplace alles wie geplant verläuft."
+msgstr "Bevor Du mit dem Verkauf deiner Spiele beginnen kannst, benötigen wir einige Details von dir. So können wir sicherstellen, dass dein Konto alle nötigen Informationen besitzt und mit dem Game Jolt Marketplace alles wie geplant verläuft."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:42
 msgid "Belarus"
@@ -5556,7 +5541,7 @@ msgstr "Stöbern nach Genre"
 
 #: app/components/forms/dashboard/game/release/release.html:85
 msgid "Browser builds can not currently be uploaded to games that are for sale."
-msgstr "Browser-Builds können aktuell nicht zu Spielen die im Angebot sind geuploaded werden"
+msgstr "Browser-Builds können momentan nicht zu Spielen hochgeladen werden, die zum Verkauf stehen."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:56
 msgid "Brunei"
@@ -5578,12 +5563,13 @@ msgstr "Burundi"
 msgid "Buy Game"
 msgstr "Spiel kaufen"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:273
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:281
 msgid "Buy Using Wallet"
 msgstr "Mit Guthaben kaufen"
 
 #: app/components/discover/home/featured/hero.html:16
 #: app/views/dashboard/main/purchases/view/view.html:133
+#: app/views/discover/games/view/view.html:44
 #: app/views/library/collection/_header-default.html:81
 #: checkout/views/checkout/checkout.html:14
 msgid "by"
@@ -5640,7 +5626,7 @@ msgstr "PayPal-Konto ändern"
 
 #: app/components/forms/dashboard/game/package/package.html:73
 msgid "Charge a specific price with the ability for them to pay more."
-msgstr "Verlange einen spezifischen Preis mit der Möglichkeit mehr zu bezahlt zu bekommen."
+msgstr "Verlange einen spezifischen Preis mit der Möglichkeit, mehr Geld als angegeben bezahlt zu bekommen."
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:63
 msgid "Checkout with:"
@@ -5676,7 +5662,7 @@ msgstr "Komoren"
 
 #: app/components/forms/dashboard/game/package/package.html:57
 msgid "Completely free with no option to pay at all."
-msgstr "Komplett kostenlos mit keiner Möglichkeit bezahlt zu werden."
+msgstr "Komplett kostenlos mit keiner Möglichkeit, bezahlt zu werden."
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:14
 msgid "Configure"
@@ -5785,7 +5771,7 @@ msgstr ""
 
 #: app/components/forms/dashboard/game/build/_build.html:184
 msgid "dash.games.builds.form.save_build_button"
-msgstr ""
+msgstr "Build speichern"
 
 #: app/components/forms/dashboard/game/build/_build.html:56
 msgid "dash.games.builds.form.silverlight_help"
@@ -5797,7 +5783,7 @@ msgstr ""
 
 #: app/components/forms/dashboard/game/build/_build.html:183
 msgid "dash.games.builds.form.upload_build_button"
-msgstr ""
+msgstr "Build hochladen"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:290
 msgid "Delaware"
@@ -5906,7 +5892,7 @@ msgstr "Folgt"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:9
 msgid "For purchases made by Game Jolt members, your game will automatically appear in their Game Library."
-msgstr "Bei Käufen von Game Jolt Mitgliedern, wird dein Spiel automatisch in ihren Spielbibliotheken auftauchen"
+msgstr "Bei Käufen von Game Jolt Mitgliedern wird dein Spiel automatisch in ihren Spielbibliotheken auftauchen"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:97
 msgid "France"
@@ -5976,7 +5962,7 @@ msgstr "Ghana"
 msgid "Gibraltar"
 msgstr "Gibraltar"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:238
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:242
 msgid "Go back"
 msgstr "Zurück"
 
@@ -5990,7 +5976,7 @@ msgstr "Grönland"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:109
 msgid "Grenada"
-msgstr ""
+msgstr "Grenada"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:110
 msgid "Guadeloupe"
@@ -6007,7 +5993,7 @@ msgstr "Guatemala"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:113
 msgid "Guernsey"
-msgstr ""
+msgstr "Guernsey"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:114
 msgid "Guinea"
@@ -6019,7 +6005,7 @@ msgstr "Guinea-Bissau"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:116
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:117
 msgid "Haiti"
@@ -6031,7 +6017,7 @@ msgstr "Hawaii"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:118
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Heard und McDonald-Inseln"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:119
 msgid "Honduras"
@@ -6055,7 +6041,7 @@ msgstr "Idaho"
 
 #: app/components/forms/dashboard/financials/financials.html:141
 msgid "If you'd like, you can set an amount below, and we will not make monthly deposits into your PayPal account until your revenue reaches this amount."
-msgstr "Wenn du möchtest, kannst du unten einen Betrag setzen und wir werden keine monatlichen Einzahlungen auf ihren PayPal-Account vornehmen bis ihre Einnahmen diesen Betrag erreichen."
+msgstr "Wenn Du möchtest, kannst Du unten einen Betrag setzen und wir werden keine monatlichen Einzahlungen auf deinem PayPal-Account vornehmen, bis deine Einnahmen diesen Betrag erreichen."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:295
 msgid "Illinois"
@@ -6159,11 +6145,11 @@ msgstr "Kuwait"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:141
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kirgisistan"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:142
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:143
 msgid "Latvia"
@@ -6200,7 +6186,7 @@ msgstr "PayPal-Konto verknüpfen"
 #: app/views/dashboard/account/account.html:39
 #: app/views/dashboard/account/mobile-nav.html:18
 msgid "Linked Accounts"
-msgstr "Verknöpfte Konten"
+msgstr "Verknüpfte Konten"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:149
 msgid "Lithuania"
@@ -6267,7 +6253,7 @@ msgstr "Malta"
 #: app/views/dashboard/account/financials/financials-controller.js:5
 #: app/views/dashboard/account/mobile-nav.html:27
 msgid "Marketplace Account Setup"
-msgstr "Marktplatz-Account-Konfiguration"
+msgstr "Marktplatz Account Konfiguration"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:159
 msgid "Marshall Islands"
@@ -6295,7 +6281,7 @@ msgstr "Mauritius"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:163
 msgid "Mayotte"
-msgstr ""
+msgstr "Mayotte"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:164
 msgid "Mexico"
@@ -6436,7 +6422,7 @@ msgstr "Neuseeland"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:180
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:181
 msgid "Niger"
@@ -6448,7 +6434,7 @@ msgstr "Nigeria"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:183
 msgid "Niue"
-msgstr ""
+msgstr "Niue"
 
 #: app/views/dashboard/analytics/_report/simple-stat.html:3
 #: app/views/dashboard/analytics/_report/top-composition.html:6
@@ -6462,11 +6448,11 @@ msgstr "Keine Spiele passen zu deinen Filtern. <b>Verdammt!</b> "
 
 #: lib/gj-lib-client/components/game/package/card/card.html:144
 msgid "No thanks, just install it."
-msgstr "Nein Danke, installiere es einfach."
+msgstr "Nein danke, installiere es einfach."
 
 #: lib/gj-lib-client/components/game/package/card/card.html:143
 msgid "No thanks, take to me to the download."
-msgstr "Nein Danke, bring mich zum Download."
+msgstr "Nein danke, bring mich zum Download."
 
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:86
 msgid "None"
@@ -6474,7 +6460,7 @@ msgstr "Keine"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:184
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Norfolkinsel"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:315
 msgid "North Carolina"
@@ -6491,7 +6477,7 @@ msgstr "Nordkorea"
 #: lib/gj-lib-client/components/geo/geo-service.js:186
 #: lib/gj-lib-client/components/geo/geo-service.js:336
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Nördliche Marianneninseln"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:187
 msgid "Norway"
@@ -6574,11 +6560,11 @@ msgstr "Pakistan"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:190
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:191
 msgid "Palestinian Territory"
-msgstr ""
+msgstr "Palästinensisches Gebiet"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:192
 msgid "Panama"
@@ -6600,7 +6586,7 @@ msgstr "Passwort"
 #: app/components/forms/dashboard/game/package/package.html:64
 #: app/views/dashboard/developer/games/manage/packages/list/list.html:78
 msgid "Pay What You Want"
-msgstr "Bezahle so viel du willst"
+msgstr "Bezahle so viel Du willst"
 
 #: app/views/dashboard/main/purchases/view/view.html:58
 msgid "Payment"
@@ -6660,13 +6646,13 @@ msgstr "Preis"
 msgid "Primary Package"
 msgstr "Primäres Paket"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:248
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:252
 msgid "Proceed to PayPal"
 msgstr "Weiter zu PayPal"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:21
 msgid "Processing order. Gonna be rad!"
-msgstr "Bestellung wird verarbeitet. Gleich fertig!"
+msgstr "Bestellung wird verarbeitet. Das wird imposant!"
 
 #: app/views/dashboard/account/account.html:29
 #: app/views/dashboard/account/mobile-nav.html:12
@@ -6688,7 +6674,7 @@ msgstr "Einkäufe"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:11
 msgid "Purchases made by folks who aren't members or signed into Game Jolt will be emailed a link to a game key page; all future updates you make to your games will be retrievable through this same page."
-msgstr "Einkäufe von Leuten die keine Mitglieder sind oder sich nicht eingeloggt haben bekommen einen Link von der Game-Key Seite; alle zukünftigen Änderungen die du an deinen Spielen vornimmst werden über diese Seite abrufbar sein."
+msgstr "Einkäufe von Leuten, die keine Mitglieder sind, oder sich nicht eingeloggt haben, bekommen einen Link zu einer Game-Key Seite zugeschickt; alle zukünftigen Änderungen, die Du an deinen Spielen vornimmst, werden über diese Seite abrufbar sein."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:201
 msgid "Qatar"
@@ -6725,7 +6711,7 @@ msgstr "Verdienst bis jetzt"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:321
 msgid "Rhode Island"
-msgstr ""
+msgstr "Rhode Island"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:204
 msgid "Romania"
@@ -6737,27 +6723,27 @@ msgstr "Russland"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:206
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:207
 msgid "Saint Barthelemy"
-msgstr ""
+msgstr "Saint Barthélemy"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:208
 msgid "Saint Helena"
-msgstr ""
+msgstr "St. Helena"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:209
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "St. Kitts und Nevis"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:210
 msgid "Saint Lucia"
-msgstr ""
+msgstr "St. Lucia"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:211
 msgid "Saint Martin"
-msgstr ""
+msgstr "St. Martin"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:212
 msgid "Saint Pierre and Miquelon"
@@ -6779,11 +6765,11 @@ msgstr "Verkäufe"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:214
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:215
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:216
 msgid "Sao Tome and Principe"
@@ -6815,15 +6801,15 @@ msgstr "Serbien"
 
 #: app/components/forms/dashboard/financials/financials.html:113
 msgid "Set an amount you would like to keep in your wallet"
-msgstr "Setze eine Menge die du in deinem Guthaben behalten möchtest"
+msgstr "Setze eine Menge die Du in deinem Guthaben behalten möchtest"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:220
 msgid "Seychelles"
-msgstr ""
+msgstr "Seychellen"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:3
 msgid "Show {{ developer }} some <span class=\"jolticon jolticon-heart\"></span> by supporting them."
-msgstr "Zeig {{ developer }} <span class=\"jolticon jolticon-heart\"></span> indem du sie/ihn unterstützt. "
+msgstr "Zeig {{ developer }} <span class=\"jolticon jolticon-heart\"></span> indem Du sie/ihn unterstützt. "
 
 #: lib/gj-lib-client/components/geo/geo-service.js:221
 msgid "Sierra Leone"
@@ -6831,7 +6817,7 @@ msgstr ""
 
 #: app/components/forms/dashboard/game/package/package.html:120
 msgid "Since you don't have any packages yet, we'll mark this as your primary one."
-msgstr "Da du noch keine anderen Pakete hast werden wir dieses als dein primäres Paket setzen."
+msgstr "Da Du noch keine anderen Pakete besitzt, werden wir dieses als dein primäres Paket markieren."
 
 #: lib/gj-lib-client/components/geo/geo-service.js:222
 msgid "Singapore"
@@ -6859,7 +6845,7 @@ msgstr "Somalia"
 
 #: app/components/notifications/descriptive-action/descriptive-action.html:6
 msgid "Someone"
-msgstr ""
+msgstr "Jemand"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:228
 msgid "South Africa"
@@ -6927,7 +6913,7 @@ msgstr "Empfohlener Preis"
 msgid "Summary"
 msgstr "Zusammenfassung"
 
-#: app/views/discover/games/view/overview/overview.html:147
+#: app/views/discover/games/view/overview/overview.html:181
 msgid "Supporters"
 msgstr "Unterstützer"
 
@@ -6957,7 +6943,7 @@ msgstr "Syrien"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:241
 msgid "Taiwan"
-msgstr ""
+msgstr "Taiwan"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:242
 msgid "Tajikistan"
@@ -6969,7 +6955,7 @@ msgstr "Tansania"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:122
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:153
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:262
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:266
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:87
 msgid "tax"
 msgstr "Gebühr"
@@ -6980,33 +6966,33 @@ msgstr "Gebühr"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:324
 msgid "Tennessee"
-msgstr ""
+msgstr "Tennessee"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:325
 msgid "Texas"
-msgstr ""
+msgstr "Texas"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:244
 msgid "Thailand"
-msgstr ""
+msgstr "Thailand"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:11
 msgid "The developer has set the price of this game to <strong>{{ amount }}</strong>, but you are able to support them by giving more."
-msgstr "Der Entwickler hat den Preis diese Spiels auf <strong>{{ amount }}</strong>gesetzt, aber du kannst ihn unterstützen indem du ihm mehr gibst. "
+msgstr "Der Entwickler hat den Preis diese Spiels auf <strong>{{ amount }}</strong>gesetzt, doch Du kannst ihn unterstützen, indem Du ihm mehr gibst."
 
-#: app/views/discover/games/view/overview/overview.html:149
+#: app/views/discover/games/view/overview/overview.html:183
 msgid "The kind people that helped support {{ developer }} by paying more than the minimum. Sorted by amount contributed."
-msgstr "Die freundlichen Leute die geholfen haben {{ developer }} zu unterstützen indem sie mehr als das Minimum bezahlt haben. Nach Menge des gespendeten Geldes sortiert."
+msgstr "Die freundlichen Leute die geholfen haben {{ developer }} zu unterstützen, indem sie mehr als das Minimum bezahlt haben. Nach Menge des gespendeten Geldes sortiert."
 
 #: app/components/forms/dashboard/financials/financials.html:148
 msgid "The max you can set this to is {{ max }} USD."
-msgstr "Du kannst das maximal auf {{ max }} USD setzen."
+msgstr "Du kannst es maximal auf {{ max }} USD setzen."
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:20
 msgid "Theme"
 msgstr "Thema"
 
-#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:234
+#: lib/gj-lib-client/components/game/package/card/payment-form-directive.js:250
 msgid "There was a problem processing your payment method."
 msgstr "Es gab ein Problem bei der Verarbeitung deiner Bezahlmethode."
 
@@ -7016,11 +7002,11 @@ msgstr "Dies sind alle Spiele von {{ user }}."
 
 #: app/views/library/collection/_header-default.html:76
 msgid "These are all the games you own."
-msgstr "Dies sind alle Spiele, die du besitzt."
+msgstr "Dies sind alle Spiele, die Du besitzt."
 
 #: app/components/shell/account-popover/account-popover.html:70
 msgid "These are your available funds to either buy games with or withdraw."
-msgstr "Das ist dein verfügbares Geld von dem du entweder Spiele kaufen kannst oder es abheben kannst."
+msgstr "Das ist dein verfügbares Geld, von dem Du entweder Spiele kaufen kannst, oder abheben kannst."
 
 #: app/components/forms/dashboard/game/package/package.html:65
 msgid "They will be able to pay $0 or more. They set the price."
@@ -7028,11 +7014,11 @@ msgstr ""
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:6
 msgid "This developer suggests paying <strong>{{ amount }}</strong>, but you're able to pay what you want."
-msgstr ""
+msgstr "Dieser Developer schlägt vor, das Spiel für <strong>{{ amount }}</strong> zu kaufen, doch Du kannst zahlen was Du willst."
 
 #: app/components/forms/dashboard/game/package/package.html:124
 msgid "This is currently the primary package"
-msgstr ""
+msgstr "Dies ist zurzeit das primäre Paket"
 
 #: app/views/dashboard/main/purchases/view/view.html:16
 msgid "This order was refunded on {{ date }}."
@@ -7048,7 +7034,7 @@ msgstr ""
 
 #: lib/gj-lib-client/components/geo/geo-service.js:247
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #: app/views/dashboard/main/purchases/view/view.html:101
 msgid "Total"
@@ -7068,7 +7054,7 @@ msgstr "Türkei"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:251
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:252
 msgid "Turks and Caicos Islands"
@@ -7076,7 +7062,7 @@ msgstr ""
 
 #: lib/gj-lib-client/components/geo/geo-service.js:253
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:254
 #: lib/gj-lib-client/components/geo/geo-service.js:338
@@ -7085,7 +7071,7 @@ msgstr ""
 
 #: lib/gj-lib-client/components/geo/geo-service.js:255
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:256
 msgid "Ukraine"
@@ -7117,7 +7103,7 @@ msgstr ""
 
 #: lib/gj-lib-client/components/geo/geo-service.js:326
 msgid "Utah"
-msgstr ""
+msgstr "Utah"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:262
 msgid "Uzbekistan"
@@ -7125,7 +7111,7 @@ msgstr "Usbekistan"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:263
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:264
 msgid "Vatican"
@@ -7133,11 +7119,11 @@ msgstr "Vatikan"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:265
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:327
 msgid "Vermont"
-msgstr ""
+msgstr "Vermont"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:266
 msgid "Vietnam"
@@ -7145,15 +7131,15 @@ msgstr "Vietnam"
 
 #: app/views/dashboard/developer/games/manage/manage.html:18
 msgid "View Analytics"
-msgstr ""
+msgstr "Statistiken anzeigen"
 
 #: app/components/discover/home/featured/hero.html:53
 msgid "View Game"
-msgstr ""
+msgstr "Spiel anzeigen"
 
 #: app/views/dashboard/developer/games/manage/game/overview/overview.html:185
 msgid "View Game Analytics"
-msgstr ""
+msgstr "Spielstatistiken anzeigen"
 
 #: app/views/dashboard/main/purchases/view/view-controller.js:16
 msgid "View Order: #{{ orderId }}"
@@ -7161,20 +7147,20 @@ msgstr ""
 
 #: app/views/dashboard/analytics/analytics-controller.js:22
 msgid "Views"
-msgstr ""
+msgstr "Ansichten"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:328
 msgid "Virginia"
-msgstr ""
+msgstr "Virginia"
 
 #: app/components/forms/dashboard/financials/financials.html:105
 msgid "Wallet"
-msgstr ""
+msgstr "Brieftasche"
 
 #: app/components/shell/account-popover/account-popover.html:72
 #: app/views/dashboard/main/overview/overview.html:51
 msgid "Wallet Balance"
-msgstr ""
+msgstr "Brieftaschen Inhalt"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:267
 msgid "Wallis and Futuna"
@@ -7182,15 +7168,15 @@ msgstr ""
 
 #: lib/gj-lib-client/components/geo/geo-service.js:329
 msgid "Washington"
-msgstr ""
+msgstr "Washington"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:333
 msgid "Washington D.C."
-msgstr ""
+msgstr "Washington D.C."
 
-#: lib/gj-lib-client/components/game/package/card/payment-form.html:263
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:267
 msgid "We are required to collect taxes on orders for certain regions."
-msgstr ""
+msgstr "Wir sind dazu verpflichtet, Steuern auf Anfragen für bestimmte Regionen zu erheben."
 
 #: app/components/forms/dashboard/financials/financials.html:69
 msgid "We currently use PayPal for automatic monthly deposits. You will also be able to withdraw your funds at any time through this linked account."
@@ -7214,27 +7200,27 @@ msgstr ""
 
 #: lib/gj-lib-client/components/geo/geo-service.js:330
 msgid "West Virginia"
-msgstr ""
+msgstr "West Virginia"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:268
 msgid "Western Sahara"
-msgstr ""
+msgstr "Westsahara"
 
 #: lib/gj-lib-client/components/game/package/card/card.html:183
 msgid "What do you get?"
-msgstr ""
+msgstr "Was bekommst Du?"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:45
 msgid "Widget Preview"
-msgstr ""
+msgstr "Widget Vorschau"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:331
 msgid "Wisconsin"
-msgstr ""
+msgstr "Wiscosin"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:332
 msgid "Wyoming"
-msgstr ""
+msgstr "Wyorming"
 
 #: lib/gj-lib-client/components/geo/geo-service.js:269
 msgid "Yemen"
@@ -7246,31 +7232,32 @@ msgstr ""
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:14
 msgid "You can link a different PayPal account in your <a href=\"{{ url }}\">payment setup</a>."
-msgstr ""
+msgstr "Du kannst ein anderes PayPal konto verknüpfen in deinem <a href=\"{{ url }}\">payment setup</a>."
 
 #: app/views/discover/home/home.html:81
 msgid "You can now support your favorite indie devs by buying their games directly on Game Jolt!"
-msgstr ""
+msgstr "Du kannst nun deine lieblings Indie Developer unterstützen, indem Du ihre Spiele direkt über Game Jolt kaufst!"
 
 #: app/components/forms/dashboard/financials/financials.html:152
 msgid "You can turn this off by setting it to $0."
-msgstr ""
+msgstr "Du kannst dies ausschalten indem du es auf $0 stellst"
 
 #: app/views/dashboard/developer/games/manage/packages/edit/widget/widget.html:6
 msgid "You can use our Sale Widget to sell games directly from your own site!"
-msgstr ""
+msgstr "Du kannst unser Verkaufs-Widget benutzen, um Spiele direkt von deiner eigenen Seite zu verkaufen!"
 
 #: app/components/forms/dashboard/financials/financials.html:90
 msgid "You decide what percentage of your sale revenue to give to Game Jolt. <strong>We won't let you give us more than 10%</strong> because we'd rather have you support other indie developers by buying their games."
 msgstr ""
 
+#: lib/gj-lib-client/components/game/package/card/payment-form.html:272
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:98
 msgid "You do not have enough funds in your Wallet for this order."
 msgstr "Du hast nicht genügend Guthaben um diesen Kauf zu tätigen."
 
 #: app/views/library/collection/collection.html:130
 msgid "You don't own any games yet. Go buy some!"
-msgstr "Dir gehören bis jetzt keine Spiele.Kauf dir welche!"
+msgstr "Dir gehören bis jetzt keine Spiele. Kauf dir welche!"
 
 #: app/components/forms/dashboard/financials/financials.html:22
 #: app/components/forms/dashboard/financials/financials.html:61
@@ -7287,17 +7274,17 @@ msgstr ""
 
 #: app/components/forms/dashboard/game/package/package.html:44
 msgid "You must <a href=\"{{ url }}\">set up your financial information</a> before you can start accepting money."
-msgstr ""
+msgstr "Du must <a href=\"{{ url }}\">deine finanziellen Informationen einrichten</a> bevor Du anfangen kannst, Geld zu akzeptieren."
 
 #: app/components/forms/dashboard/financials/financials.html:13
 msgid "Your account is ready to sell games on Game Jolt! You can set additional options below."
-msgstr "Dein Account ist bereit um Spiele auf Game Jolt zu verkaufen.Du kannst weitere Optionen unten verändern."
+msgstr "Dein Account ist nun bereit, um Spiele auf Game Jolt zu verkaufen. Weitere Optionen kannst Du unten verändern."
 
 #: app/components/game/collection/grid/grid.html:25
 #: app/views/library/collection/_header-default.html:75
 #: app/views/library/collection/collection-controller.js:103
 msgid "Your Owned Games"
-msgstr ""
+msgstr "Deine Spiele"
 
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:78
 msgid "Your Wallet"
@@ -7323,4 +7310,183 @@ msgstr "Postleitzahl"
 #: lib/gj-lib-client/components/game/package/card/payment-form.html:227
 msgid "Zip/Postal Code"
 msgstr "Postleitzahl"
+
+#: app/views/discover/games/view/news/list/list.html:15
+msgid "Atom"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:331
+msgid "Comments Disabled"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:332
+msgid "Comments have been disabled for this game."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:138
+msgid "Description"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:216
+msgid "Details"
+msgstr ""
+
+#: app/views/discover/games/view/_header/_controls.html:33
+msgid "Follow Game"
+msgstr ""
+
+#: app/views/discover/games/view/_header/_controls.html:37
+msgid "Following"
+msgstr ""
+
+#: app/components/game/collection/grid/grid.html:50
+msgid "Here are the games this person owns."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:229
+msgid "Latest News Updates"
+msgstr ""
+
+#: app/components/score/overview/overview.html:168
+msgid "Latest Scores"
+msgstr ""
+
+#: app/views/discover/games/view/news/view/view.html:52
+msgid "More News"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:31
+#: app/views/discover/games/view/view.html:89
+msgid "New"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:7
+msgid "News Updates"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:75
+msgid "Rate Game"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:102
+msgid "Releases"
+msgstr ""
+
+#: app/views/discover/games/view/news/list/list.html:13
+msgid "RSS"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:108
+msgid "There are multiple packages for your device. Please choose one below."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:19
+msgid "This game has been <strong>canceled</strong> by the developer and is not currently playable."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:15
+msgid "This game is still <strong>In Development</strong> and is not currently playable."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:23
+msgid "This game was <strong>canceled</strong> by the developer, so the current version might be buggy or incomplete."
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:244
+msgid "View +1 More Update"
+msgid_plural "View +{{ $count | number }} More Updates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/views/discover/games/view/overview/overview.html:306
+msgid "You May Also Like"
+msgstr ""
+
+#: app/views/discover/games/view/overview/overview.html:72
+msgid "Your Rating"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:41
+msgid "dash.games.packages.manage.remove_confirmation"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:49
+msgid "dash.games.packages.manage.removed_growl"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:50
+msgid "dash.games.packages.manage.removed_growl_title"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:43
+msgid "Downloadable File"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:53
+msgid "Flash Web Playable"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:130
+msgid "Game Followed"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:63
+msgid "Java Applet Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:37
+msgid "Linux 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:32
+msgid "Linux Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:26
+msgid "Mac 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:21
+msgid "Mac Support"
+msgstr ""
+
+#: app/views/dashboard/developer/games/manage/packages/list/list-controller.js:7
+msgid "Manage Packages for {{ game }}"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:449
+msgid "Order Complete"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:68
+msgid "Silverlight Web Playable"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:136
+msgid "Something has prevented you from following this game"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:58
+msgid "Unity Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:450
+msgid "Warm thanks from both {{ developer }} and the Game Jolt team."
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:48
+msgid "Web Playable"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:15
+msgid "Windows 64-bit Support"
+msgstr ""
+
+#: lib/gj-lib-client/components/game/package/card/card-directive.js:10
+msgid "Windows Support"
+msgstr ""
+
+#: app/views/discover/games/view/view-controller.js:129
+msgid "You are now following {{ game }}. You'll be notified of news updates as long as it's in your library."
+msgstr ""
 
