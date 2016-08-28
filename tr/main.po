@@ -3430,11 +3430,11 @@ msgstr "Strateji"
 
 #: app/app.js:13009
 msgid "games.list.page_title"
-msgstr "{{ bölüm }} Indie{{ kategori }}Oyunları"
+msgstr "{{ section }} Indie{{ category }}Oyunları"
 
 #: app/app.js:13011
 msgid "games.list.page_title_other"
-msgstr "{{ bölüm }} Alternatif Indie Oyunları"
+msgstr "{{ section }} Alternatif Indie Oyunları"
 
 #: app/app.js:13010
 msgid "games.list.page_title_rpg"
