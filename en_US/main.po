@@ -501,7 +501,7 @@ msgstr " <p>The Game API lets you spice up your game with scoreboards, trophies,
 "\t<p>You can check the links below to see if the community has already written an API library or plugin for the engine/tool/language you use. Of course, you can always write one yourself and share it in the forums!</p>"
 
 #. Not sure about this one... I hope someone can come and fix it if it is wrong!
-#. 
+#.
 #. AS OF 11/03/16
 #: app/views/dashboard/developer/games/manage/api/overview/overview.html:8
 msgid "dash.games.api.overview.page_help_link"
@@ -5702,7 +5702,7 @@ msgstr ""
 #: app/app.js:17573
 #: checkout/app.js:2317
 msgid "New York"
-msgstr "Sup"
+msgstr "New York"
 
 #: app/app.js:17438
 #: checkout/app.js:2182

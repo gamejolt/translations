@@ -5723,7 +5723,7 @@ msgstr ""
 #: app/app.js:17573
 #: checkout/app.js:2317
 msgid "New York"
-msgstr "Sup"
+msgstr "New York"
 
 #: app/app.js:17438
 #: checkout/app.js:2182
