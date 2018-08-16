@@ -2560,8 +2560,8 @@ msgstr "<p>And the value of the rating thou shalt receive is <strong>{{ rating }
 #: app/views/dashboard/activity/list/list-controller.js:99
 msgid "notifications.unread_tooltip"
 msgid_plural "notifications.unread_tooltip"
-msgstr[0] "{{ $count | number }} unread"
-msgstr[1] "{{ $count | number }} unread"
+msgstr[0] "%{ count } unread"
+msgstr[1] "%{ count } unread"
 
 #: app/views/dashboard/developer/games/manage/manage.html:61
 #: app/views/discover/games/view/_header/_nav.html:30
@@ -2852,12 +2852,12 @@ msgstr "Showing {{ filter }}"
 msgid "dash.activity.page_title"
 msgstr "Activity Feed"
 
-#. {{listCtrl.page}} expands to the page number, {{$count}} expands to the notifications number
+#. {{listCtrl.page}} expands to the page number, %{ count } expands to the notifications number
 #: app/views/dashboard/activity/list/list.html:83
 msgid "dash.activity.pages"
 msgid_plural "dash.activity.pages"
-msgstr[0] "Page {{ page | number }} of {{ $count | number }} notification."
-msgstr[1] "Page {{ page | number }} of {{ $count | number }} notifications."
+msgstr[0] "Page {{ page | number }} of %{ count } notification."
+msgstr[1] "Page {{ page | number }} of %{ count } notifications."
 
 #: app/views/dashboard/developer/games/manage/api/overview/overview-controller.js:5
 msgid "dash.games.api.overview.page_title"
@@ -4275,7 +4275,7 @@ msgstr "Newly Added"
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
 msgstr[0] " 1 build"
-msgstr[1] " {{ $count | number }} builds"
+msgstr[1] " %{ count } builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:9
@@ -4285,7 +4285,7 @@ msgstr[1] " {{ $count | number }} builds"
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
 msgstr[0] " 1 game."
-msgstr[1] " Page {{ page | number }} of {{ $count | number }} games."
+msgstr[1] " Page {{ page | number }} of %{ count } games."
 
 #: app/components/post/grid/grid.html:34
 #: app/components/post/list/list.html:31
@@ -4294,20 +4294,20 @@ msgstr[1] " Page {{ page | number }} of {{ $count | number }} games."
 msgid "news.list.post_comments"
 msgid_plural "news.list.post_comments"
 msgstr[0] "1 comment"
-msgstr[1] "{{ $count | number }} comments"
+msgstr[1] "%{ count } comments"
 
 #. {{ page }} expands to the current page of articles
 #: app/views/discover/news/news.html:83
 msgid "news.list.posts_count"
 msgid_plural "news.list.posts_count"
 msgstr[0] "1 article."
-msgstr[1] "{{ $count | number }} articles."
+msgstr[1] "%{ count } articles."
 
 #: app/components/notifications/popover/popover.html:82
 msgid "notifications.popover.more_notifications_button"
 msgid_plural "notifications.popover.more_notifications_button"
 msgstr[0] "+1 more notification"
-msgstr[1] "+{{ $count | number }} more notifications"
+msgstr[1] "+%{ count } more notifications"
 
 #: app/components/shell/footer/footer.html:57
 msgid "footer.contact"
@@ -4405,7 +4405,7 @@ msgstr "Work in Progress"
 msgid "games.view.notifications_news"
 msgid_plural "games.view.notifications_news"
 msgstr[0] "1 news article"
-msgstr[1] "{{ $count | number }} news articles"
+msgstr[1] "%{ count } news articles"
 
 #: app/components/forms/dashboard/withdraw-funds/withdraw-funds.html:20
 msgid "dash.funds.withdraw.amount_help"
@@ -4621,9 +4621,9 @@ msgstr "Open Source"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:14
 msgid "1 Comment"
-msgid_plural "{{ $count | number }} Comments"
+msgid_plural "%{ count } Comments"
 msgstr[0] " 1 Comment"
-msgstr[1] " {{ $count | number }} Comments"
+msgstr[1] " %{ count } Comments"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -4675,9 +4675,9 @@ msgstr "No Comments Yet"
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:75
 msgid "One person likes this comment."
-msgid_plural "{{ $count | number }} people like this comment."
+msgid_plural "%{ count } people like this comment."
 msgstr[0] "One person likes this comment."
-msgstr[1] "{{ $count | number }} people like this comment."
+msgstr[1] "%{ count } people like this comment."
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: lib/gj-lib-client/components/comment/widget/comment.html:12
@@ -4704,9 +4704,9 @@ msgstr "translated by"
 #. Tooltip for comment voting when you and other people like it.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:70
 msgid "You and another person like this comment."
-msgid_plural "You and {{ $count | number }} people like this comment."
+msgid_plural "You and %{ count } people like this comment."
 msgstr[0] "You and another person like this comment."
-msgstr[1] "You and {{ $count | number }} people like this comment."
+msgstr[1] "You and %{ count } people like this comment."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: lib/gj-lib-client/components/comment/widget/comment-directive.js:66

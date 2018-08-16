@@ -3751,7 +3751,7 @@ msgstr "Отвори източник"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:15
 msgid "1 Comment"
-msgid_plural "{{ $count | number }} Comments"
+msgid_plural "%{ count } Comments"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3807,7 +3807,7 @@ msgstr "No Comments Yet"
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: app/app.js:23732
 msgid "One person likes this comment."
-msgid_plural "{{ $count | number }} people like this comment."
+msgid_plural "%{ count } people like this comment."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3839,7 +3839,7 @@ msgstr "преведено от"
 #. Tooltip for comment voting when you and other people like it.
 #: app/app.js:23727
 msgid "You and another person like this comment."
-msgid_plural "You and {{ $count | number }} people like this comment."
+msgid_plural "You and %{ count } people like this comment."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -6845,8 +6845,8 @@ msgid "# of Keys to Generate"
 msgstr ""
 
 #: app/views/discover/channels/channel/channel.html:15
-msgid "<b>{{ $count | number }}</b> Game"
-msgid_plural "<b>{{ $count | number }}</b> Games"
+msgid "<b>%{ count }</b> Game"
+msgid_plural "<b>%{ count }</b> Games"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7466,13 +7466,13 @@ msgstr ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:130
 msgid "<b>1</b> comment"
-msgid_plural "<b>{{ $count | number }}</b> comments"
+msgid_plural "<b>%{ count }</b> comments"
 msgstr[0] ""
 msgstr[1] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:141
 msgid "<b>1</b> like"
-msgid_plural "<b>{{ $count | number }}</b> likes"
+msgid_plural "<b>%{ count }</b> likes"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7548,13 +7548,13 @@ msgstr ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:116
 msgid "1 expand"
-msgid_plural "{{ $count | number }} expands"
+msgid_plural "%{ count } expands"
 msgstr[0] ""
 msgstr[1] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:106
 msgid "1 view"
-msgid_plural "{{ $count | number }} views"
+msgid_plural "%{ count } views"
 msgstr[0] ""
 msgstr[1] ""
 

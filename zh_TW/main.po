@@ -3474,7 +3474,7 @@ msgstr "最新新增"
 #: app/views/dashboard/developer/games/manage/game/packages/edit/edit.html:188
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
-msgstr[0] "{{ $count | number }} 個發行版本"
+msgstr[0] "%{ count } 個發行版本"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:10
@@ -3484,7 +3484,7 @@ msgstr[0] "{{ $count | number }} 個發行版本"
 #: app/views/library/collection/collection.html:76
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
-msgstr[0] "第 {{ page | number }} 頁，共 {{ $count | number }} 個"
+msgstr[0] "第 {{ page | number }} 頁，共 %{ count } 個"
 
 #: app/components/shell/footer/footer.html:57
 msgid "footer.contact"
@@ -3747,8 +3747,8 @@ msgstr "開放原始碼"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:15
 msgid "1 Comment"
-msgid_plural "{{ $count | number }} Comments"
-msgstr[0] "{{ $count | number }} 則留言"
+msgid_plural "%{ count } Comments"
+msgstr[0] "%{ count } 則留言"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -3802,8 +3802,8 @@ msgstr "無留言"
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: app/app.js:23732
 msgid "One person likes this comment."
-msgid_plural "{{ $count | number }} people like this comment."
-msgstr[0] "{{ $count | number }} 個人喜歡這則留言。"
+msgid_plural "%{ count } people like this comment."
+msgstr[0] "%{ count } 個人喜歡這則留言。"
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: app/components/comment/avatar-list/avatar-list.html:29
@@ -3833,7 +3833,7 @@ msgstr "翻譯工作由"
 #. Tooltip for comment voting when you and other people like it.
 #: app/app.js:23727
 msgid "You and another person like this comment."
-msgid_plural "You and {{ $count | number }} people like this comment."
+msgid_plural "You and %{ count } people like this comment."
 msgstr[0] "您以及另外一個人都喜歡這則留言。"
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
@@ -6837,9 +6837,9 @@ msgid "# of Keys to Generate"
 msgstr "欲產生的金鑰數量"
 
 #: app/views/discover/channels/channel/channel.html:15
-msgid "<b>{{ $count | number }}</b> Game"
-msgid_plural "<b>{{ $count | number }}</b> Games"
-msgstr[0] "<b>{{ $count | number }}</b> 個遊戲"
+msgid "<b>%{ count }</b> Game"
+msgid_plural "<b>%{ count }</b> Games"
+msgstr[0] "<b>%{ count }</b> 個遊戲"
 
 #: app/views/discover/channels/channel/channel.html:7
 msgid "<b>#{{ channel }}</b> Channel"
@@ -7457,12 +7457,12 @@ msgstr ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:130
 msgid "<b>1</b> comment"
-msgid_plural "<b>{{ $count | number }}</b> comments"
+msgid_plural "<b>%{ count }</b> comments"
 msgstr[0] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:141
 msgid "<b>1</b> like"
-msgid_plural "<b>{{ $count | number }}</b> likes"
+msgid_plural "<b>%{ count }</b> likes"
 msgstr[0] ""
 
 #: app/views/dashboard/developer/games/manage/game/packages/edit/edit.html:53
@@ -7537,12 +7537,12 @@ msgstr ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:116
 msgid "1 expand"
-msgid_plural "{{ $count | number }} expands"
+msgid_plural "%{ count } expands"
 msgstr[0] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:106
 msgid "1 view"
-msgid_plural "{{ $count | number }} views"
+msgid_plural "%{ count } views"
 msgstr[0] ""
 
 #: app/components/activity/feed/feed.html:43

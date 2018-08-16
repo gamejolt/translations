@@ -3471,7 +3471,7 @@ msgstr "Recentemente adicionados"
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
 msgstr[0] "1 compilação"
-msgstr[1] "{{ $count | number }} compilações"
+msgstr[1] "%{ count } compilações"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:10
@@ -3482,7 +3482,7 @@ msgstr[1] "{{ $count | number }} compilações"
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
 msgstr[0] "1 jogo."
-msgstr[1] "Página {{ page | number }} de {{ $count | number }} jogos."
+msgstr[1] "Página {{ page | number }} de %{ count } jogos."
 
 #: app/components/shell/footer/footer.html:57
 msgid "footer.contact"
@@ -3746,9 +3746,9 @@ msgstr "Código aberto"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:15
 msgid "1 Comment"
-msgid_plural "{{ $count | number }} Comments"
+msgid_plural "%{ count } Comments"
 msgstr[0] "1 comentário"
-msgstr[1] "{{ $count | number }} comentários"
+msgstr[1] "%{ count } comentários"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -3802,9 +3802,9 @@ msgstr "Ainda sem comentários"
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: app/app.js:23732
 msgid "One person likes this comment."
-msgid_plural "{{ $count | number }} people like this comment."
+msgid_plural "%{ count } people like this comment."
 msgstr[0] "Uma pessoa gosta deste comentário."
-msgstr[1] "{{ $count | number }} pessoas gostam deste comentário."
+msgstr[1] "%{ count } pessoas gostam deste comentário."
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: app/components/comment/avatar-list/avatar-list.html:29
@@ -3834,9 +3834,9 @@ msgstr "traduzidos pelo"
 #. Tooltip for comment voting when you and other people like it.
 #: app/app.js:23727
 msgid "You and another person like this comment."
-msgid_plural "You and {{ $count | number }} people like this comment."
+msgid_plural "You and %{ count } people like this comment."
 msgstr[0] "Tu e outra pessoa gostam deste comentário."
-msgstr[1] "Tu e {{ $count | number }} pessoas gostam deste comentário."
+msgstr[1] "Tu e %{ count } pessoas gostam deste comentário."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: app/app.js:23723
@@ -6839,10 +6839,10 @@ msgid "# of Keys to Generate"
 msgstr "# das Chaves ao Generar"
 
 #: app/views/discover/channels/channel/channel.html:15
-msgid "<b>{{ $count | number }}</b> Game"
-msgid_plural "<b>{{ $count | number }}</b> Games"
-msgstr[0] "<b>{{ $count | number }}</b> Jogo"
-msgstr[1] "<b>{{ $count | number }}</b> Jogos"
+msgid "<b>%{ count }</b> Game"
+msgid_plural "<b>%{ count }</b> Games"
+msgstr[0] "<b>%{ count }</b> Jogo"
+msgstr[1] "<b>%{ count }</b> Jogos"
 
 #: app/views/discover/channels/channel/channel.html:7
 msgid "<b>#{{ channel }}</b> Channel"
@@ -7463,13 +7463,13 @@ msgstr "(sem legendas)"
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:130
 msgid "<b>1</b> comment"
-msgid_plural "<b>{{ $count | number }}</b> comments"
+msgid_plural "<b>%{ count }</b> comments"
 msgstr[0] ""
 msgstr[1] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:141
 msgid "<b>1</b> like"
-msgid_plural "<b>{{ $count | number }}</b> likes"
+msgid_plural "<b>%{ count }</b> likes"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7545,13 +7545,13 @@ msgstr ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:116
 msgid "1 expand"
-msgid_plural "{{ $count | number }} expands"
+msgid_plural "%{ count } expands"
 msgstr[0] ""
 msgstr[1] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:106
 msgid "1 view"
-msgid_plural "{{ $count | number }} views"
+msgid_plural "%{ count } views"
 msgstr[0] ""
 msgstr[1] ""
 

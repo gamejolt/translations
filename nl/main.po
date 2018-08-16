@@ -3482,7 +3482,7 @@ msgstr "Nieuw"
 msgid "dash.games.packages.manage.releases.build_count"
 msgid_plural "dash.games.packages.manage.releases.build_count"
 msgstr[0] "1 build"
-msgstr[1] "{{ $count | number }} builds"
+msgstr[1] "%{ count } builds"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:10
@@ -3493,7 +3493,7 @@ msgstr[1] "{{ $count | number }} builds"
 msgid "games.list.games_count"
 msgid_plural "games.list.games_count"
 msgstr[0] "1 game."
-msgstr[1] "Pagina {{ page | number }} van {{ $count | number }} games."
+msgstr[1] "Pagina {{ page | number }} van %{ count } games."
 
 #: app/components/shell/footer/footer.html:57
 msgid "footer.contact"
@@ -3756,9 +3756,9 @@ msgstr "Open Source"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:15
 msgid "1 Comment"
-msgid_plural "{{ $count | number }} Comments"
+msgid_plural "%{ count } Comments"
 msgstr[0] "1 Reactie"
-msgstr[1] "{{ $count | number }} Reacties"
+msgstr[1] "%{ count } Reacties"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -3812,9 +3812,9 @@ msgstr "Nog Geen Reacties"
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: app/app.js:23732
 msgid "One person likes this comment."
-msgid_plural "{{ $count | number }} people like this comment."
+msgid_plural "%{ count } people like this comment."
 msgstr[0] "Eén persoon vindt deze reactie leuk."
-msgstr[1] "{{ $count | number }} mensen vinden deze reactie leuk."
+msgstr[1] "%{ count } mensen vinden deze reactie leuk."
 
 #. This signifies the owner of what the comment is posted on. For example, if this is a comment by the game's developer.
 #: app/components/comment/avatar-list/avatar-list.html:29
@@ -3844,9 +3844,9 @@ msgstr "vertaald door"
 #. Tooltip for comment voting when you and other people like it.
 #: app/app.js:23727
 msgid "You and another person like this comment."
-msgid_plural "You and {{ $count | number }} people like this comment."
+msgid_plural "You and %{ count } people like this comment."
 msgstr[0] "Jij en iemand anders vinden deze reactie leuk."
-msgstr[1] "Jij en {{ $count | number }} mensen vinden deze reactie leuk."
+msgstr[1] "Jij en %{ count } mensen vinden deze reactie leuk."
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: app/app.js:23723
@@ -6867,10 +6867,10 @@ msgid "# of Keys to Generate"
 msgstr "# sleutels te genereren"
 
 #: app/views/discover/channels/channel/channel.html:15
-msgid "<b>{{ $count | number }}</b> Game"
-msgid_plural "<b>{{ $count | number }}</b> Games"
-msgstr[0] "<b>{{ $count | number }}</b> Game "
-msgstr[1] "<b>{{ $count | number }}</b> Games "
+msgid "<b>%{ count }</b> Game"
+msgid_plural "<b>%{ count }</b> Games"
+msgstr[0] "<b>%{ count }</b> Game "
+msgstr[1] "<b>%{ count }</b> Games "
 
 #: app/views/discover/channels/channel/channel.html:7
 msgid "<b>#{{ channel }}</b> Channel"
@@ -7493,17 +7493,17 @@ msgstr "(geen kop)"
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:130
 msgid "<b>1</b> comment"
-msgid_plural "<b>{{ $count | number }}</b> comments"
+msgid_plural "<b>%{ count }</b> comments"
 msgstr[0] "<b>1</b> opmerking\n"
 " "
-msgstr[1] "<b>{{ $count | number }}</b> opmerkingen"
+msgstr[1] "<b>%{ count }</b> opmerkingen"
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:141
 msgid "<b>1</b> like"
-msgid_plural "<b>{{ $count | number }}</b> likes"
+msgid_plural "<b>%{ count }</b> likes"
 msgstr[0] "<b>1</b> persoon vindt dit leuk\n"
 " "
-msgstr[1] "<b>{{ $count | number }}</b> personen vinden dit leuk "
+msgstr[1] "<b>%{ count }</b> personen vinden dit leuk "
 
 #: app/views/dashboard/developer/games/manage/game/packages/edit/edit.html:53
 msgid "<b>This package won't show up on your devlog-only game page.</b> Switch your game page to early access or complete from the <a href=\"{{ url }}\">Overview/Setup</a> page for it to show."
@@ -7587,15 +7587,15 @@ msgstr "<strong>Niet zo snel!</strong>Voordat de gebruikers deze sleutel groep t
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:116
 msgid "1 expand"
-msgid_plural "{{ $count | number }} expands"
+msgid_plural "%{ count } expands"
 msgstr[0] "1x volledig bekeken"
-msgstr[1] "{{ $count | number }}x volledig bekeken"
+msgstr[1] "%{ count }x volledig bekeken"
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:106
 msgid "1 view"
-msgid_plural "{{ $count | number }} views"
+msgid_plural "%{ count } views"
 msgstr[0] "1x bekeken"
-msgstr[1] " {{ $count | number }}x bekeken"
+msgstr[1] " %{ count }x bekeken"
 
 #: app/components/activity/feed/feed.html:43
 msgid "A wild Snorlax blocks your path. Looks like it's the end of this feed."

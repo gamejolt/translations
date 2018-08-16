@@ -3483,7 +3483,7 @@ msgid_plural "dash.games.packages.manage.releases.build_count"
 msgstr[0] "1 билд"
 msgstr[1] ""
 msgstr[2] ""
-msgstr[3] "{{ $count | number }} билдов"
+msgstr[3] "%{ count } билдов"
 
 #. {{ page }} expands to the current page of games
 #: app/components/game/grid/grid.html:10
@@ -3496,7 +3496,7 @@ msgid_plural "games.list.games_count"
 msgstr[0] "1 игра."
 msgstr[1] ""
 msgstr[2] ""
-msgstr[3] "Стр. {{ page | number }} из {{ $count | number }} игр."
+msgstr[3] "Стр. {{ page | number }} из %{ count } игр."
 
 #: app/components/shell/footer/footer.html:57
 msgid "footer.contact"
@@ -3760,11 +3760,11 @@ msgstr "Открытый код"
 
 #: lib/gj-lib-client/components/comment/widget/widget.html:15
 msgid "1 Comment"
-msgid_plural "{{ $count | number }} Comments"
+msgid_plural "%{ count } Comments"
 msgstr[0] "1 Комментарий"
-msgstr[1] "{{ $count | number }} Комментария"
-msgstr[2] "{{ $count | number }} Комментариев"
-msgstr[3] "{{ $count | number }} Комментариев"
+msgstr[1] "%{ count } Комментария"
+msgstr[2] "%{ count } Комментариев"
+msgstr[3] "%{ count } Комментариев"
 
 #: lib/gj-lib-client/components/comment/widget/add-form.html:25
 msgid "Add Comment"
@@ -3818,7 +3818,7 @@ msgstr "Ещё нет комментариев"
 #. Tooltip for comment voting when you haven't liked it yet, but other people do.
 #: app/app.js:23732
 msgid "One person likes this comment."
-msgid_plural "{{ $count | number }} people like this comment."
+msgid_plural "%{ count } people like this comment."
 msgstr[0] "Один юзер лайкнул этот комментарий"
 msgstr[1] ""
 msgstr[2] ""
@@ -3852,11 +3852,11 @@ msgstr "Переведено благодаря"
 #. Tooltip for comment voting when you and other people like it.
 #: app/app.js:23727
 msgid "You and another person like this comment."
-msgid_plural "You and {{ $count | number }} people like this comment."
+msgid_plural "You and %{ count } people like this comment."
 msgstr[0] "Вы и другой человек лайкнули этот комментарий"
 msgstr[1] ""
 msgstr[2] ""
-msgstr[3] "Вы и {{ $count | number }} людей лайкнули этот комментарий"
+msgstr[3] "Вы и %{ count } людей лайкнули этот комментарий"
 
 #. Tooltip for comment voting when you like a comment and no one else has liked it yet.
 #: app/app.js:23723
@@ -6867,12 +6867,12 @@ msgid "# of Keys to Generate"
 msgstr "# Ключи Генерации"
 
 #: app/views/discover/channels/channel/channel.html:15
-msgid "<b>{{ $count | number }}</b> Game"
-msgid_plural "<b>{{ $count | number }}</b> Games"
-msgstr[0] "<b>{{ $count | number }}</b> Игра"
-msgstr[1] "<b>{{ $count | number }}</b> Игр"
-msgstr[2] "<b>{{ $count | number }}</b> Игры"
-msgstr[3] "<b>{{ $count | number }}</b> Игры"
+msgid "<b>%{ count }</b> Game"
+msgid_plural "<b>%{ count }</b> Games"
+msgstr[0] "<b>%{ count }</b> Игра"
+msgstr[1] "<b>%{ count }</b> Игр"
+msgstr[2] "<b>%{ count }</b> Игры"
+msgstr[3] "<b>%{ count }</b> Игры"
 
 #: app/views/discover/channels/channel/channel.html:7
 msgid "<b>#{{ channel }}</b> Channel"
@@ -7493,19 +7493,19 @@ msgstr "(без подписи)"
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:130
 msgid "<b>1</b> comment"
-msgid_plural "<b>{{ $count | number }}</b> comments"
+msgid_plural "<b>%{ count }</b> comments"
 msgstr[0] "<b>1</b> комментарий"
 msgstr[1] "комментарии"
 msgstr[2] "комментарии"
-msgstr[3] "<b>{{ $count | number }}</b> Комментарии"
+msgstr[3] "<b>%{ count }</b> Комментарии"
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:141
 msgid "<b>1</b> like"
-msgid_plural "<b>{{ $count | number }}</b> likes"
+msgid_plural "<b>%{ count }</b> likes"
 msgstr[0] "<b>1</b> нравиться"
 msgstr[1] "нравится"
 msgstr[2] "нравятся"
-msgstr[3] "<b>{{ $count | number }}</b> нравиться"
+msgstr[3] "<b>%{ count }</b> нравиться"
 
 #: app/views/dashboard/developer/games/manage/game/packages/edit/edit.html:53
 msgid "<b>This package won't show up on your devlog-only game page.</b> Switch your game page to early access or complete from the <a href=\"{{ url }}\">Overview/Setup</a> page for it to show."
@@ -7579,7 +7579,7 @@ msgstr ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:116
 msgid "1 expand"
-msgid_plural "{{ $count | number }} expands"
+msgid_plural "%{ count } expands"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -7587,7 +7587,7 @@ msgstr[3] ""
 
 #: app/components/activity/feed/devlog-post/controls/controls.html:106
 msgid "1 view"
-msgid_plural "{{ $count | number }} views"
+msgid_plural "%{ count } views"
 msgstr[0] "просмотр"
 msgstr[1] "просмотра"
 msgstr[2] "просмотров"
