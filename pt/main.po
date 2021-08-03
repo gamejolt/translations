@@ -25,7 +25,7 @@ msgstr "Código de Autorização Inválido"
 #. You need to actually sign up to get a valid URL for this page., We only show a Growl on successful authorization and funnel off to the main site.
 #: auth/app.js:1214
 msgid "auth.authorize.success_growl"
-msgstr "Estamos agora a redirecionar-te para o teu painel da Game Jolt."
+msgstr "Estamos agora a redirecionar-te para o teu painel da GameJolt."
 
 #: auth/views/auth/login/login.html:43
 msgid "auth.forgot_link"
