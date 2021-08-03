@@ -8543,7 +8543,7 @@ msgstr ""
 #: app/modules/dash.js:927
 #: tmp/rollup/dash.js:924
 msgid "Your game's development stage has been changed!"
-msgstr "O desenvolvimento do teu jogo foi mudado!"
+msgstr "A fase de desenvolvimento do teu jogo foi mudado!"
 
 #: app/components/forms/dashboard/game/dev-stage-selector/confirm.html:37
 msgid "Your game's devlog feed will be moved into its own tab. You can continue posting devlog posts for your game."
